@@ -1,0 +1,15 @@
+---
+date: 2013-09-16 11:58:57+00:00
+layout: post
+title: Importio&#8212;promising catalogue scraper
+excerpt: importio looks like it could be useful for scraping data from the Suffolk Libraries catalogue
+---
+
+Ignore the suffix, annoying `middot`, hipsterdom and <a href="http://blog.import.io/post/5wp1vca4lje5tcv96l65nzawe7d1d9">obligatory coffee reference</a> &#8211; <a href="http://import.io/">importio</a> looks like it could be very useful for me.
+
+If I can find a simple way to scrape our catalogue data, and access that scraped data, then I've completed the first step in <a href="http://leonpaternoster.com/2013/04/library-websites-catalogues-and-their-poor-ux/">fixing the catalogue</a>.
+
+This is a big piece of work.
+
+The second step would be to build a shithot search engine to interrogate the data (simple, non?). After that it's suggestions, ratings, reviews (or the complete Amazonisation).
+

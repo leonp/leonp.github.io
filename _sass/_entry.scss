@@ -1,0 +1,44 @@
+@media screen, projection {
+
+.entry {
+	padding-bottom: 1.5em;
+}
+
+.entry a:visited {
+	color: $visited;
+}
+
+entry a:hover,
+entry a:active,
+entry a:focus {
+	color: $active;
+}
+
+.entry-header {
+	padding-bottom: 1.5em;
+}
+
+.entry-title {
+	font-size: 2em;
+	line-height: 1.125em;
+	margin-bottom: 0.375em;
+}
+
+.entry-content p,
+.entry-content ul,
+.entry-content ol,
+.entry-content dd {
+	margin-bottom: 0.75em;
+}
+
+.entry-content figure {
+	padding-bottom: 0.75em;
+}
+
+.entry-content img {
+	width: auto !important;
+	max-width: 100% !important;
+	height: auto !important;
+}
+
+}

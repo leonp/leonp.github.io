@@ -1,0 +1,60 @@
+---
+date: 2013-09-22 10:58:57+00:00
+layout: post
+title: New website&#8212;Cult Cafe
+excerpt: A mobile first site that gets the top tasks right (hopefully)
+---
+
+<img src="/uploads/cult-table.JPG" alt="A coffee table" class="bleed">
+
+<p class="figcaption">Cult Cafe sits on Ipswich Waterfront</p>
+
+So <a href="http://cultcafe.co.uk">Cult Cafe</a> went live yesterday.
+
+I'm pretty pleased with it. Some things worth noting:
+
+## No plates of food sliders
+
+Restaurant websites are normally a waste of pixels. Big on sliders of plates of food, low on the simple tasks (contacting and finding the restaurant, for example).
+
+You should be able to find opening hours, contact details and a menu with a minimum of fuss. Talking of menus&hellip;
+
+## A real menu page
+
+I considered making the home page a menu, but decided against this for a couple of reasons:
+
+- The cafe's also a venue, so events need some home page coverage
+- The menu's quite long (although I'm not convinced this is a valid reason)
+
+Anyway, there's an honest to goodness HTML menu. There are too many PDFs and jpegs out there, and you can't resize or copy and paste PDFs and jpegs.
+
+I didn't want to use two columns, but that's what we ended up with. Not the end of the world.
+
+## A print stylesheet
+
+A simple one, but customers often print menus. I've made it easy for them by hiding navigation and the big splash image when they print the page.
+
+## For mobiles
+
+The site's mobile first, so it fits nicely on a mobile phone screen. I used the library independent [Responsive Nav js](http://responsive-nav.com) for the navigation.
+
+All this should go without saying, but you'll still find plenty of restaurants that don't scale on smaller screens. And it's especially important for Cult Cafe:
+
+- It's on the university campus, so students are a big audience. Younger people are used to accessing websites on mobiles.
+- The site will work seamlessly for customers who search for a local restaurant while they're out and about.
+
+I've made use of the `tel` and `mailto` protocols. Tap the phone number and your mobile phone will offer to dial or add the number to your contacts.
+
+Finally, the *simple tasks first* approach is especially important when you use a site on a mobile device.
+
+## Look
+
+I've used lots of bright colours to match the cafe's coloured windows, while Oswald and Source Sans create quite a loud, modern vibe, appropriate for a student audience (that's the thinking, anyway).
+
+The gallery's generated with a couple of plugins, [Responsive Gallery Grid](http://bdwm.be/rgg) and [Responsive Lightbox](http://www.dfactory.eu/plugins/responsive-lightbox/). As the names suggest, they work well on a mobile, and they look pretty smart. They also work with WordPress's inbuilt gallery. They are a tad heavy on the javascript though.
+
+So there you go. If you like Cult Cafe or you're interested in getting me to sort out your website, contact me:
+
+- mail @ leon paternoster . com (*sans* spaces)
+- [Twitter](http://twitter.com/leonpaternoster)
+

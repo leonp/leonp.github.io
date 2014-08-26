@@ -1,0 +1,30 @@
+---
+date: 2013-07-24 10:58:57+00:00
+layout: post
+title: 5 things I&#8217;m liking on 24 July 2013
+---
+
+<img class="bleed" src="/uploads/jul24-images/sunn-lego.jpg" alt="Box of Sunn 0))) lego">
+
+<p class="figcaption"><a href="http://electronicditch.files.wordpress.com/2012/04/sunn-o-box_dmdweb.jpg">Sunn 0))) lego</a></p>
+
+<img class="bleed" src="/uploads/jul24-images/pattern.jpg" alt="Bridget Riley like pattern">
+
+<p class="figcaption"><a href="http://i1.ytimg.com/vi/3zP6CabNRLM/maxresdefault.jpg">Pattern</a> something to do with deathrowradio</p>
+
+<img class="bleed" src="/uploads/jul24-images/death-row-radio-yummy.jpg" alt="Vinyl LP Yummy by deathrowradio">
+
+<p class="figcaption">The awesome <a href="http://www.distractionrecords.com/index.php/82-sample-data-articles/front-page/1148-joomla-3">deathrowradio</a>'s <cite>Yummy</cite> <a href="http://i1.ytimg.com/vi/3zP6CabNRLM/maxresdefault.jpg">on vinyl</a></p>
+
+
+<img class="bleed" src="/uploads/jul24-images/mes.jpg" alt="A surprisingly youthful Mark E Smith">
+
+<p class="figcaption">A surprisingly youthful <a href="http://25.media.tumblr.com/4c06288c53a4c727e38d9f48ea9d95d3/tumblr_mn8o6rPErB1s688owo1_1280.jpg">Mr Mark Smith in Cardiff</a></p>
+
+<img class="bleed" src="/uploads/jul24-images/dark-patterns.png" alt="Screenshot of the Next website">
+
+<p class="figcaption">An excellent <a href="http://www.90percentofeverything.com/2013/07/23/the-slippery-slope/">overview of dark design patterns</a> from Harry Brignull</p>
+
+<img class="bleed" src="/uploads/jul24-images/typography.jpg" alt="A road sign in a cursive script">
+
+<p class="figcaption"><a href="http://practicaltypography.com/">Practical Typography</a></p>

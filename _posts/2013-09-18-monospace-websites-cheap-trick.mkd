@@ -1,0 +1,20 @@
+---
+date: 2013-09-18 10:58:57+00:00
+layout: post
+title: Using a monospace typeface is a cheap trick
+excerpt: I guess we all do it once a while, but that doesn't really make it OK.
+---
+
+*Note: This was a not entirely serious post. When I published it I was using a monospace font. If you're happily using Andale Mono or somesuch on your own site, go fly your freak flag.*
+
+Every now and again websites will go all computery and use a <a href="http://en.wikipedia.org/wiki/Monospaced_font">monospace</a> font. A monospace font is what you'd see on computers back in the 80s, or in a terminal window. They look something like this:
+
+<img src="{{ site.url }}/uploads/monospace.png" alt="Screenshot of a monospace font">
+
+<p class="figcaption">A monospace font, yesterday.</p>
+
+We use them because they feel quite minimal and make us look like we eschew fussy ornamentation like serifs. They're a *lingua franca* for coders.
+
+Anyway, it's a cheap trick because it saves designers a lot of design thought and code. The only thing you need to think about is black on white or grey on black.
+
+Incidentally, it's <a href="https://www.google.com/fonts/specimen/Source+Code+Pro">Source Code Pro</a>.

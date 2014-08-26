@@ -1,0 +1,45 @@
+---
+date: 2013-09-16 10:58:57+00:00
+layout: post
+category: libraries
+cat_name: libraries
+title: Reading Challenge Suffolk website
+---
+
+So I released <a href="http://readingchallengesuffolk.org.uk">Reading Challenge Suffolk</a> today, a small site that displays a random book review whenever you refresh the page.
+
+The reviews were submitted by children who took part in the Summer Reading Challenge, a national effort to get kids reading over the summer holidays. The idea is to share some of their rather sweet, entertaining reviews (and generate some good PR for Suffolk Libraries, *naturellement*).
+
+It was a one day job, so the code's a little rough and ready. Be gentle, dear reader.
+
+Anyway, it was of interest to me for a few reasons:
+
+## There's a WordPress plugin for everything
+
+There is no better CMS for finding a robust plugin that does exactly what you want it to do. In this case I had a CSV file containing reviews and reviewers that I wanted to convert to web pages.
+
+Step forward the grandly named <a href="http://wordpress.org/plugins/wp-ultimate-csv-importer/">WP Ultimate CSV Importer</a>. This plugin converted each CSV row to a new WordPress post, and even added a custom *reviewer* field in the process. Highly recommended.
+
+I also used the ever reliable <a href="http://wordpress.org/plugins/duplicator/">Duplicator</a> to move my local install to the live server. Also highly recommended.
+
+## Pure CSS saves time
+
+The site includes the button module from <a href="http://purecss.io/">Yahoo's Pure CSS</a>. I like the way you can pick and choose modules by appending a query to the `link` element's `href` attribute. I find the forms, buttons and tables modules most useful, but don't really need grids and base.
+
+## Simple, flexible grids
+
+The site uses a 4 column grid. Not particularly exciting, but I used a new technique to control layouts at the default width and wide screen breakpoint.
+
+It works with 2 sets of grid classes. Default classes (such as `g-col2` and `g-left`) apply to all screen widths. An extra set of classes (such as `g-w-col2` and `g-w-left`) are only applied at wider widths &#8211; they sit in the widescreen media query. 
+
+This means narrow and wide screens use a 4 column grid, but you don't have to apply the same layout to each screen. The following choices are available:
+
+* The same layout applied to both default and wide layouts
+* A layout only applied at wide breakpoints
+* A layout only applied to the default, narrow width (unlikely, but still)
+* Different layouts applied at narrow and wide breakpoints
+
+It's really easy to apply and gives you fine control over layout. I'll definitely be using it again.
+
+Finally, the site uses the lovely <a href="https://typekit.com/fonts/skolar-web">Skolar</a>, which is not *too* ornate for a children's site.
+

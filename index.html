@@ -1,23 +1,35 @@
 ---
-layout: default
+description: This will be the home page description.
 ---
 
-<div class="home">
+{% include header.html %}
 
-  <h1 class="page-heading">Posts</h1>
+<article class="entry">
+				
+	<header class="entry-header">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		<h1 class="entry-title">Posted</h1>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+	</header>
+	
+	<div class="entry-content">
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+		<ul class="link-list">
+		
+		{% for post in site.posts %}
+		
+			<li class="link-list-item">
+				
+				<a class="link-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+				&thinsp;&#8211;&thinsp;
+				<span class="link-list-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-</div>
+			</li>
+		
+		{% endfor %}
+		
+	</div>
+	
+</article>
+
+{% include footer.html %}

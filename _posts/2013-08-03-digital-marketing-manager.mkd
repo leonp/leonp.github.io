@@ -1,0 +1,17 @@
+---
+date: 2013-08-03 10:58:57+00:00
+layout: post
+title: Why digital marketing manager is a rubbish job title
+---
+
+> &hellip;&thinsp;Dropbox were originally spending quite large amounts of money on pay-per-click marketing. They were spending more money to acquire a user than the user was worth. That seemed like a crazy idea to them, so they turned their marketing spending into building a seamless experience. There were dozens and dozens of file transferring services before Dropbox but Dropbox won the market, because they provided a superior experience. <cite><a href="http://insideintercom.io/an-interview-with-andy-budd/">Andy Budd&thinsp;&#8212;&thinsp;An interview with Andy Budd</a></cite>
+
+The traditional, scattershot approach to the web is still quite prevalent, especially in my area of work. Take a look at this <a href="http://m.jobs.theguardian.com/job/4679772/?FullDescription=True">digital marketing manager job description</a> to see what I mean.
+
+*Digital marketing manager* is how traditional marketing does the internet (less around &pound;10,000 a year&thinsp;&#8212;&thinsp;you'd be surprised how undervalued the work is). It's mired in that martial, macho world of *campaigns*, *strategy* and *execution*. You do wonder who exactly marketing managers are campaigning against&thinsp;&#8212;&thinsp;the customer, presumably.
+
+I don't know if things like mailshots work (although I do know I bin 99% of leaflets that drop through our letterbox), but it seems self&#8211;evidently counterproductive to simply transfer offline marketing approaches to the internet, where the consumer controls how they find out about things and mistrusts anything that looks or sounds like an advert. Yet jobs like this emphasise the role of *persuasion*: PPC, SEO and buying &#8216;targeted&#8217; email lists over transparency, usability and user experience.
+
+Unsurprisingly, <a href="http://www.cim.co.uk/Learn/Qualifications/Digitalmarketing.aspx">the CIM's marketing diploma</a> is big on this selling over buying approach. But it's likely the sort of qualification that'll get you a bigger salary because company bigwigs understand the lingo.
+
+What is the role of your *digital* person? In an ideal world digital won't be separate from marketing, which is probably due a rename. It *should* be about research, usability, experience and clarity.
