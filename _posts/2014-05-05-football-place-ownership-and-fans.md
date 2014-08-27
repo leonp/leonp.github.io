@@ -8,14 +8,16 @@ categories:
   - Football
   - Politics
 ---
-In the good old days – say 20 years ago or so – your football club was owned and run by local toffs and businessmen (it was always men, and still is, in the main). In Ipswich Town&#8217;s case it was the [Cobbold family][1] followed by John Kerr and then [David Sheepshanks][2] (Old Etonians all).<figure class="figure alignnone">
+In the good old days – say 20 years ago or so – your football club was owned and run by local toffs and businessmen (it was always men, and still is, in the main). In Ipswich Town&#8217;s case it was the [Cobbold family][1] followed by John Kerr and then [David Sheepshanks][2] (Old Etonians all).
 
-<img class="full-bleed" src="http://leonpaternoster.com/wp-content/uploads/2014/05/robson-cobbold.jpg" alt="Bobby Robson and John Cobbold at Ipswich Station" width="630" height="446" /><figcaption class="secondary">Bobby Robson and John Cobbold at Ipswich Station (from the East Anglian Daily Times archive)</figcaption></figure> 
+<img class="full-bleed" src="http://leonpaternoster.com/wp-content/uploads/2014/05/robson-cobbold.jpg" alt="Bobby Robson and John Cobbold at Ipswich Station" width="630" height="446" />
+
+<p class="figcaption">Bobby Robson and John Cobbold at Ipswich Station (from the East Anglian Daily Times archive)</p>
+
 Club finances weren&#8217;t managed particularly well. True, Ipswich won an FA Cup, a UEFA Cup and qualified for Europe season after season after the Cobbolds hired Bobby Robson, but when Bobby left to manage England we were saddled with a big new stand and debt. Bobby&#8217;s departure and our reduced finances forced us to sell our best players and, apart from brief forays into the top league under John Lyall and George Burley, things haven&#8217;t really improved since.
 
-Over the years – and we can blame the Premier League for this – the finances became increasingly precarious, meaning we often had to sell our best players, such as Mauricio Tarricco to Spurs on the eve of Barclays calling in our overdraft. Finally, we went into administration in 2003 after splashing out on high profile flops like Finidi George, Ulrich le Pen and Matteo Sereni.<figure class="figure alignnone">
+Over the years – and we can blame the Premier League for this – the finances became increasingly precarious, meaning we often had to sell our best players, such as Mauricio Tarricco to Spurs on the eve of Barclays calling in our overdraft. Finally, we went into administration in 2003 after splashing out on high profile flops like Finidi George, Ulrich le Pen and Matteo Sereni.
 
-<img src="http://leonpaternoster.com/wp-content/uploads/2014/05/tarrico.jpg" alt="Mauricio Tarrico" width="700" height="507" /><figcaption class="secondary">Mauricio Tarrico. A future manager, maybe.</figcaption></figure> 
 Still, at least the football club remained recognisably *local*. In spite of our decline, we&#8217;re left with memories of Suffolk people and experiences: [the eccentric Lord Cobbold][3]&#8216;s famous claim that “There is no crisis at Ipswich until the white wine runs out in the boardroom”, or when he mistook the Ipswich team for a bunch of local lads playing football on a beach in Greece. Or David Sheepshanks on the Wembley pitch after we&#8217;d finally won promotion to the Premier League in 2000. All these local characters and experiences helped form our identity as an idiosyncratic, friendly club.
 
 This, of course, has all changed – and the football has got worse. In 2007 the [Marcus Evans Group][4] took over Ipswich Town, and we became a subsidiary of a larger, tax–efficient business, a punt on Premier League millions. Marcus Evans himself may have been born in Bury St Edmunds, but his business is registered in Bermuda.
@@ -26,9 +28,12 @@ This makes me sad, but I&#8217;m not sure many of my fellow fans are that bother
 
 There are a few good guys in there. Best of all Swansea – run and owned by local people and the Supporters Trust (and let&#8217;s remember our own excellent [independent Supporters Trust][8]). Honourable mentions to Everton, Norwich (ahem), Wigan and West Bromwich Albion. But that&#8217;s about it. The rest is Russian oligarchs, Gulf dynasties and holding companies – lots of holding companies – based in Jersey, the Bahamas, Nevada.
 
-You may well ask *so what?* You don&#8217;t hear many Manchester City or Liverpool fans moaning about their owners while they get to watch exciting, winning football. Indeed, City fans are very thankful to their royal benefactors:<figure class="figure alignnone">
+You may well ask *so what?* You don&#8217;t hear many Manchester City or Liverpool fans moaning about their owners while they get to watch exciting, winning football. Indeed, City fans are very thankful to their royal benefactors:
 
-<img src="http://leonpaternoster.com/wp-content/uploads/2014/05/sheikh.jpg" alt="Man City banner thanking Sheikh Mansoor" width="699" height="296" /><figcaption class="secondary">City fans thank their billionaire benefactors</figcaption></figure> 
+<img src="http://leonpaternoster.com/wp-content/uploads/2014/05/sheikh.jpg" alt="Man City banner thanking Sheikh Mansoor" width="699" height="296" />
+
+<p class="secondary">City fans thank their billionaire benefactors</p>
+
 Perhaps place, history and experience are simply commodities to be traded as part of a club&#8217;s global brand, however much [we and advertisers protest how essential they are][9]. Perhaps all that matters to fans is a bit of excitement and success, and maybe some sort of relationship with the team – it was very sweet seeing Luke Chambers&#8217; son in front of the North Stand after the last game of this season. But to me football means a bit more. After all, teams are named after places, not businesses or families.
 
  [1]: http://en.wikipedia.org/wiki/John_Cobbold_%28businessman%29
