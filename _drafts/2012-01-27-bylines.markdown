@@ -1,0 +1,29 @@
+---
+author: admin
+comments: true
+date: 2012-01-27 15:57:58+00:00
+layout: post
+slug: bylines
+title: Byline your article and there's more chance I'll read it
+wordpress_id: 2467
+categories:
+- Writing
+tags:
+- editing
+- Google
+- Writing
+---
+
+Part of my job involves scanning and filtering _lots_ of articles in news feeds.
+
+I use Google Reader to collate all my Google News and Blog searches. It's a really good system that generates a long list of articles that match various search terms.
+
+So if you're trying to catch my attention one thing you'll need to do is write a good headline (more of which later, although the Baymard Institute has written [a post on constructing eye catching headlines](http://baymard.com/blog/copywriting-useful-yet-intriguing-headlines) that'll keep you entertained in the meantime).
+
+The other thing you'll need to do is establish some form of credibility or trust. And one of the quickest ways of doing that is by putting a real name to your article.
+
+There's nothing more suggestive of a robot churning out content than an _Admin_ byline:
+
+[caption id="attachment_2468" align="aligncenter" width="668" caption="A Google Reader snippet. Lots of information here that I can use to evaluate the article. The headline is good, but the byline indicates this was written by a machine."]![Screenshot of a Google Reader snippet](http://leonpaternoster.com/wp-content/uploads/2012/01/byline.jpg)[/caption]
+
+Setting a real name for website administrators is simple. Make sure you remember to do it whenever you set up a new site.

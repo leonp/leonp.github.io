@@ -1,0 +1,26 @@
+---
+author: admin
+comments: true
+date: 2012-10-07 06:45:49+00:00
+layout: post
+slug: sunday
+title: Sunday
+wordpress_id: 322
+categories:
+- Miscellany
+tags:
+- Monday
+- Nietzsche
+- Sunday
+- work
+---
+
+> The industrious races find leisure very hard to endure: it was a masterpiece of English instinct to make Sunday so extremely holy and boring that the English unconsciously long again for their week…
+> 
+> Nietzsche--Beyond Good and Evil §189
+
+
+
+
+
+May I add: Not _all_ the English eagerly await Monday.

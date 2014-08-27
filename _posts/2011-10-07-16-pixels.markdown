@@ -1,0 +1,50 @@
+---
+author: admin
+comments: true
+date: 2011-10-07 12:19:42+00:00
+layout: post
+slug: 16-pixels
+title: 16 pixels
+wordpress_id: 2238
+categories:
+- Articles
+tags:
+- legibility
+- readability
+- typography
+---
+
+[Interesting article that rehashes why body copy should be sized at a minimum of 16 pixels](http://www.smashingmagazine.com/2011/10/07/16-pixels-body-copy-anything-less-costly-mistake/) (you really should read the [original, revolutionary piece](http://www.informationarchitects.jp/en/100e2r/). It's why I bother with websites.)
+
+The comments reveal some designer disdain for large type. But there are some relevant criticisms as well.
+
+The upshot is that type size online is a **fairly** complex business. Here are some of the things you need to consider:
+
+
+
+	
+  * size of the display. Too much scrolling within paragraphs isn't conducive to comfortable reading. This is an argument for a relatively smaller type size on mobile devices.
+
+	
+  * display resolution will affect the size of your type
+
+	
+  * x–height of your typeface. 16 pixel verdana is bigger than 16 pixel Minion. Set type size accordingly.
+
+	
+  * online quality of the typeface. Georgia renders far more crisply than Minion, especially on older operating systems.
+
+	
+  * leading and measure, and their relationship with each other and type size
+
+
+
+
+
+
+[caption id="attachment_2239" align="aligncenter" width="984" caption="Verdana has a bigger x-height than Georgia."]![Paragraphs set in Verdana and Georgia. The Verdana letters are bigger.](http://leonpaternoster.com/wp-content/uploads/2011/10/typesizes.jpg)[/caption]
+
+
+
+
+But the original point is valid even if the argument has already been won. Choosing small type becuase it somehow looks more pleasing than larger, more readable type is going to cost you.

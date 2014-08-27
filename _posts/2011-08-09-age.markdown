@@ -1,0 +1,19 @@
+---
+author: admin
+comments: true
+date: 2011-08-09 00:53:09+00:00
+layout: post
+slug: age
+title: Age
+wordpress_id: 3030
+categories:
+- Articles
+post_format:
+- Aside
+tags:
+- '39'
+- arthiritis
+- insomnia
+---
+
+Cities appear to be burning (well, there's _some_ rioting) but the thing that's keeping me awake at ten to two in the morning is my arthritic ankle. And the fact that the word _arthritic_ crumples in on itself.

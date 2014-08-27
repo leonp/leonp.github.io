@@ -1,35 +1,21 @@
 ---
-description: This will be the home page description.
+layout: default
+title: Recent
+description: I'm web manager at Suffolk Libraries and I blog about the web, books and music and politics.
 ---
 
-{% include header.html %}
+<ul class="link-list">
 
-<article class="entry">
-				
-	<header class="entry-header">
+{% for post in site.posts limit:10 %}
 
-		<h1 class="entry-title">Posted</h1>
-
-	</header>
-	
-	<div class="entry-content">
-
-		<ul class="link-list">
+	<li class="link-list-item">
 		
-		{% for post in site.posts %}
-		
-			<li class="link-list-item">
-				
-				<a class="link-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-				&thinsp;&#8211;&thinsp;
-				<span class="link-list-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		<a class="link-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		&thinsp;&#8211;&thinsp;
+		<span class="link-list-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-			</li>
-		
-		{% endfor %}
-		
-	</div>
-	
-</article>
+	</li>
 
-{% include footer.html %}
+{% endfor %}
+
+</ul>

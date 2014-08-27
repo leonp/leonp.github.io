@@ -1,0 +1,32 @@
+---
+author: admin
+comments: true
+date: 2011-02-07 13:20:30+00:00
+layout: post
+slug: pop-ups
+title: It's 2011 and we still have pop-ups
+wordpress_id: 1713
+categories:
+- Articles
+tags:
+- adverts
+- marketing
+- Political Scrapbook
+- pop-ups
+---
+
+There's a rather unwelcome trend I've seen across a lot of sites recently. Actually, it's nothing new, but it's being implemented in a slightly different way:
+
+[caption id="attachment_1714" align="aligncenter" width="526" caption="An unsolicited window asking visitors to subscribe to a newsletter"]![A pop up window in front of a darkened page](http://leonpaternoster.com/wp-content/uploads/2011/02/pop-up.jpg)[/caption]
+
+[caption id="attachment_1715" align="aligncenter" width="526" caption="The Political Scrapbook website flaunts its Twitter and Facebook accounts"]![Another pop up in front of a darkened window](http://leonpaternoster.com/wp-content/uploads/2011/02/pscrap.jpg)[/caption]
+
+Let's be honest here: **These are pop–up adverts**. I'm guessing they get through the normal pop up blockers because they're not served up by some external ad server and they don't open in a new browser window.
+
+The darkened background may look a bit more trendy than a slew of new flashing windows, but they get in the way of what I'm trying to do, which is what pop-ups do. When I clicked on the link to your story I was expecting to see… your story! Instead you shoved me over and rubbed my face in something about your Twitter and Facebook accounts. And then _I_ had to close this irrelevance. How rude. I like your politics, [Political Scrapbook](http://politicalscrapbook.net/), but this makes me not like _you_.
+
+Traditionally, this nonsense comes from clueless, outmoded marketing departments. What always surprises me is that no-one asks some obvious questions before deciding that a pop–up would be a good idea: _Does anyone here actually appreciate having their browsing experience hijacked? Has anyone here actually done what a pop–up asked you to do?_
+
+The answer to both questions is ‘no’. _Nobody_ likes pop–ups, so why inflict them on other people?
+
+If you're after Facebook and Twitter followers it's very easy to draw your reader's attention to links to your accounts. But you can't _make_ people follow you. In fact, I'm willing to bet that if Political Scrapbook ditched the pop–ups they'd get more followers; after all, one of the most common reactions to being mugged online is to close the offending window altogether.

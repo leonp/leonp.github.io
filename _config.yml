@@ -10,3 +10,4 @@ github_username:  leonp
 
 # Build settings
 markdown: kramdown
+permalink: /:year/:month/:title/

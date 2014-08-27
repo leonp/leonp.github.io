@@ -1,0 +1,28 @@
+---
+author: admin
+comments: true
+date: 2011-03-03 09:29:18+00:00
+layout: post
+slug: money
+title: Money
+wordpress_id: 3021
+categories:
+- Articles
+post_format:
+- Aside
+tags:
+- Dostoevsky
+- money
+- The Idiot
+- wisdom
+---
+
+Not Martin Amis.
+
+
+> The most vile and hateful thing about money is that it even imparts talent. And will go on doing so until the end of the world.
+
+
+Theeee most amazing thing about _[The Idiot](http://www.gutenberg.org/ebooks/2638)_ is its wisdom.
+
+

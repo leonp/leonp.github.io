@@ -1,0 +1,58 @@
+---
+author: admin
+comments: true
+date: 2011-01-05 12:15:31+00:00
+layout: post
+slug: '2011'
+title: '2011'
+wordpress_id: 1604
+categories:
+- Articles
+tags:
+- accessibility
+- apple
+- design
+- ebook
+- guardian
+- kindle
+- money
+- nokia
+- publishing
+---
+
+Here's what I think will be big in 2011, and where the internet battles will be fought:
+
+
+## Flexible design
+
+
+Meaning that your website (and this one too, soon!) will scale to whatever screen dimensions it needs to. In effect this will probably mean that websites will work perfectly on iPhones and iPads as well as desktop monitors. It should mean that websites work perfectly across all devices, even older Nokias, Samsungs and Sony Ericssons.
+
+[caption id="attachment_1623" align="aligncenter" width="552" caption="Horizontal scrolling is bad. (Image from migsmobile.net)"]![The Nokia N78 displaying a web page that doesn't fit on the screen](http://leonpaternoster.com/wp-content/uploads/2011/01/nokia.jpg)[/caption]
+
+
+## Simple design that meets user requirements
+
+
+Newspaper publishers will review how they present their content online and realise that serving up 50 stories, 10 offers and 5 adverts on each page isn't conducive to reading. I've been banging on about this since I started this blog and the truth is quite simple: although [Phil Gyford's Guardian](http://guardian.gyford.com/) and [The Guardian's own mobile site](http://m.guardian.co.uk/) aren't as sexy as the gridtastic desktop Guardian, they are far, far more readable.
+
+
+## Native apps versus HTML
+
+
+The Baymard Institute has written [a thorough guide to the differences and relative pros and cons of developing native apps and HTML](http://baymard.com/blog/mobile-native-apps-vs-web-apps). Native apps are, of course, appropriate when you want to develop a particular productivity application for a device (such as a word processor), or inessential products, such as games. But HTML is always cheaper, easier to maintain and more accessible when it comes to distributing content such as eBooks, magazines and newspapers. Essential services such as banking should also be developed in HTML so as to be accessible to as many users and customers as possible.
+
+Of course, publishers and organisations will merrily jump on the Apple bandwagon and build native apps as it's the cool thing to do. I've even had someone suggest we build an iPhone app at work. [My bank](http://natwest.co.uk) offers a (free) iPhone app, but the website is unusable on any other mobile device. If you don't have an iPhone, you're stuck with using text messages.
+
+
+## Accessibility and profit
+
+
+You thought the accessibility war had been won, no? After all, we no longer use tables for layout. — A common theme to the above points is that we're willing to provide nice, flexible experiences — for [nice, trendy, expensive devices made by Apple Inc](http://www.apple.com/uk/ipad/). We should, of course, be looking to make our content as accessible to as many people as possible (that's what the internet's for, no?) — not only to people with a specific disability, but to people who can't afford to buy an iPhone, or perhaps prefer a Nokia, or even use IE6.
+
+[caption id="attachment_1622" align="aligncenter" width="552" caption="HTML is the future."]![The word 'article' in serif Georgia](http://leonpaternoster.com/wp-content/uploads/2011/01/article.png)[/caption]
+
+Of course, one of the reasons organisations like native apps is that they can charge for them _and_ control their distribution. HTML, on the other hand, is easy to copy, distribute and works across thousands of devices; it's anarchic in nature. Publishers will be looking at finally making some money from the internet, and this time they'll be able to do it through nice, trendy Apple (and [Amazon](http://www.amazon.com/kindle-store-ebooks-newspapers-blogs), of course). Resist, comrades ;)
+
+And finally: 2011 — like all other years — will be the year of [Georgia](http://en.wikipedia.org/wiki/Georgia_(typeface)).
+  *[HTML]: HyperText Markup Language. What the internet is made of.

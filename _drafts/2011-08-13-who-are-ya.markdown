@@ -1,0 +1,31 @@
+---
+author: admin
+comments: true
+date: 2011-08-13 08:35:38+00:00
+layout: post
+slug: who-are-ya
+title: Who are ya?
+wordpress_id: 3032
+categories:
+- Politics
+tags:
+- crime
+- media
+- riots
+- the mail
+- theorising
+---
+
+One of the many things that has bothered me about the riots is the portrayal of the rioters. I'm not just referring to frothing [feral animals](http://www.dailymail.co.uk/debate/article-2024284/UK-riots-2011-Liberal-dogma-spawned-generation-brutalised-youths.html) articles (bonkers as they are), but also the more factual stuff. Questions like: _who are you_?, _what do you do_? and _where do you come from_?
+
+<!-- more -->
+
+There's a political angle to these questions. If you want to argue that the riots have no meaning beyond the criminality of stealing and assault then it's useful to demonstrate that the rioters weren't just poor, disenfranchised youths with some _reason_ to go mad on the streets. Similarly, if you want to argue that the riots represent some social truth (or problem), your rioters need to come from a certain group.
+
+At first the media seemed to tell us that the rioters came from a broad range of backgrounds. On Wednesday the _Today Programme_ reported from Highbury Corner magistrates that one of the accused was a (goodness me!) graphic designer and another (gasp!) was a graduate. _The Mail_ (hooray!) reported on [the millionaire's daughter accused of driving a getaway car](http://www.dailymail.co.uk/news/article-2025068/UK-riots-Middle-class-rioters-revealed-including-Laura-Johnson-Natasha-Reid-Stefan-Hoyle.html) from an electrical shop.
+
+At one point it appeared a teacher was involved. But he was later downgraded to _someone who works in a school_.
+
+Since then the tone has shifted. The papers have tried to explain why most the rioters _were_ from poorer backgrounds. Unsurprisingly, the right wing thunders over lack of discipline, rap music, computer games, liberalism, the BBC and absent fathers.
+
+But we only have scratchy CCTV images to go by. We need more information before we colour the image of the rioters with our own prejudices. [It'd help if the courts were more open](http://onlinejournalismblog.com/2011/08/12/why-we-need-open-courts-data-and-newspapers-need-to-improve-too/), but the media needs to do [a bit more investigative _work_](http://www.guardian.co.uk/news/datablog/2011/aug/11/uk-riots-magistrates-court-list) as well.

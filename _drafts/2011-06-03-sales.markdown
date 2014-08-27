@@ -1,0 +1,47 @@
+---
+author: admin
+comments: true
+date: 2011-06-03 15:32:47+00:00
+layout: post
+slug: sales
+title: 5 reasons from Sales for making sponsor logos bigger on your website
+wordpress_id: 1944
+categories:
+- Articles
+tags:
+- advertising
+- design
+- logos
+- marketing
+- sales
+---
+
+This is based on a real meeting I had yesterday. I absolutely don't mean to knock the Sales guys; naturally enough, they want to make their job easier and web sponsorship deals aren't particularly subtle. It's all about logos and number of words. The bigger the logo and the more waffly words you give sponsors the happier they are.
+
+<!-- more -->
+
+If you're ever in one of these meetings it's not impossible that one of the sales team will suggest what proportion of the page should be given over to logos. Even how many columns you should use in the design. They mean well.
+
+Everyone in the meeting will accept that logos and content are two separate things (and, by implication, nobody apart from the sponsors has any interest whatsoever in the logos — and in all likelihood even they see the whole thing as nothing more than ballast to be added to a deal). The sales guys exist in a strange hinterland where they're trying to talk something up that you and they know has no value to most visitors (and just gets in the way of whatever they're trying to do).
+
+Anyway, the 5 reasons for increasing logo and sponsorship visibility are:
+
+
+
+	
+  * the sponsors need to be able to find their logo. Sponsors and Sales people don't seem to be very good at finding logos.
+
+	
+  * big, obvious logos show that your organisation is commercially aware, rather than fustily naive
+
+	
+  * big brand osmosis
+
+	
+  * the event won't go ahead at all if we don't get the sponsors in. Ouch. (The logical conclusion of which is that you don't actually need an event to sponsor. The site should consist of a logo carousel.)
+
+	
+  * potential sponsors will be able to see that other sponsors are sponsoring your event
+
+
+However, the meeting was actually very useful — I was able to get an idea of what one aspect of the design needs to do and the Sales team can set realistic sponsor expectations. It's an interesting challenge: how do we incorporate logos and sponsor info within a design? Can we get rid of the distinction between content and sponsorship? Is it possible to make sponsorship relevant to our visitors?

@@ -1,0 +1,25 @@
+---
+author: admin
+comments: true
+date: 2011-10-16 20:48:37+00:00
+layout: post
+published: false
+slug: 50-words
+title: A story in 50 words
+wordpress_id: 2277
+categories:
+- Articles
+tags:
+- dr seuss
+- Jamaica
+- language
+- minimalism
+---
+
+I only recently learned that Dr Seuss's [Green Eggs and Ham consists of just 50 words](http://en.wikipedia.org/wiki/Green_Eggs_and_Ham). I bet you knew that already.
+
+I could make a facile point (or three) about economy of language, honing your words (and design) and less being more.
+
+Instead, I'll just leave you with this:
+
+

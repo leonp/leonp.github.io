@@ -31,6 +31,15 @@ entry a:focus {
 	margin-bottom: 0.75em;
 }
 
+.entry-content ul,
+.entry-content ol {
+	margin-left: 1.25em;
+	
+	@media #{$bp} {
+		margin-left: 0;
+	}
+}
+
 .entry-content figure {
 	padding-bottom: 0.75em;
 }
@@ -39,6 +48,40 @@ entry a:focus {
 	width: auto !important;
 	max-width: 100% !important;
 	height: auto !important;
+}
+
+.entry-content h1,
+.entry-content h2 {
+	font-size: 1.333em;
+	line-height: 1.125em;
+	padding: 0.571em 0 0.381em 0;
+}
+
+.entry-content h3,
+.entry-content dt {
+	font-size: 1em;
+	line-height: 1.25em;
+	padding: 0.75em 0 0.5em 0;
+}
+
+.entry-content blockquote {
+	padding: 0.75em 0 0.75em 1.5em;
+}
+
+.entry-content blockquote p {
+	font-size: 0.875em;
+	line-height: 1.429em;
+	margin-bottom: 0.857em;
+}
+
+.entry-content code {
+	color: #4B7F3A;
+}
+
+.entry-content figcaption,
+.entry-content .figcaption {
+	color: $grey;
+	margin-bottom: 0.75em;
 }
 
 }

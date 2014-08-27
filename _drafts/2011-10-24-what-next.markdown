@@ -1,0 +1,20 @@
+---
+author: admin
+comments: true
+date: 2011-10-24 12:08:25+00:00
+layout: post
+slug: what-next
+title: What next?
+wordpress_id: 2285
+categories:
+- Articles
+post_format:
+- Aside
+tags:
+- if
+- level 9
+---
+
+Been thinking (a bit) about the future of this blog. I often get the feeling that I'm saying the same things over and over again (convention is good, make your type readable, newspapers make rubbish websites etc. etc.) The truth is, most visitors are looking for my Scherzo theme or [Natwest](http://leonpaternoster.com/2011/07/i-am-not-natwest-bank/). I have an _unrelated_ category which doesn't show up in the feed—maybe I can extend that to the front page so I can write things that nobody will read, about, well, anything really.
+
+![A screenshot of some green computer text on a black background. Ends with the question 'What next?'](http://leonpaternoster.com/wp-content/uploads/2011/10/what.jpg)

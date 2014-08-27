@@ -1,5 +1,4 @@
 ---
-date: 2013-09-23 12:58:57+00:00
 layout: post
 category: income
 cat_name: Basic Citizens' Income

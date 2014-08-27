@@ -1,0 +1,34 @@
+@media screen, projection {
+
+.search-form {
+	padding: 0.75em 0.75em 1em 0.75em;
+	background-color: $lgrey;
+	margin-bottom: 0.75em;
+}
+
+.search-form-label {
+	font-size: 0.875em;
+	line-height: 1.143em;
+	margin-bottom: 0.286em !important; /* My specificity in .entry-content bad */
+}
+
+.search-form-search,
+.search-form-submit {
+	font-family: $main-font;
+	font-size: 1em;
+	padding: 0.25em;
+}
+
+.search-form-search {
+
+	@media #{$bp} {
+		width: 80%;
+	}
+		
+}
+
+.search-form-submit {
+	cursor: pointer;
+}
+
+}

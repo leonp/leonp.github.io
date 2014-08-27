@@ -1,0 +1,34 @@
+---
+layout: default
+title: Archive
+description: Curated posts from 2008. A mix of web, literature, politics and a little music.
+---
+
+<form class="search-form" method="get" id="search" action="http://duckduckgo.com/">
+		
+	<p class="search-form-label">Search with DuckDuckGo:</p>
+
+	<input type="hidden" name="sites" value="leonpaternoster.com"/>
+	<input type="hidden" name="k8" value="#444444"/>
+	<input type="hidden" name="k9" value="#0000FF"/>
+	<input type="hidden" name="kt" value="h"/>
+	<input type="search" class="search-form-search" name="q" maxlength="255"/>
+	<input type="submit" class="search-form-submit" value="Search"/>
+	
+</form>
+
+<ul class="link-list">
+
+{% for post in site.posts %}
+
+	<li class="link-list-item">
+		
+		<a class="link-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		&thinsp;&#8211;&thinsp;
+		<span class="link-list-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+	</li>
+
+{% endfor %}
+
+</ul>

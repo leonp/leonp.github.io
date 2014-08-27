@@ -1,0 +1,75 @@
+---
+author: admin
+comments: true
+date: 2008-06-15 07:37:58+00:00
+layout: post
+slug: 5-web-design-sins-from-the-experts
+title: 5 web design sins from the experts
+wordpress_id: 16
+categories:
+- Articles
+tags:
+- essential
+- imagery
+- lead
+- legibility
+- readability
+---
+
+[caption id="" align="aligncenter" width="512" caption="The Confession: a priest hears confession in a murky background while a noblewoman shines with virtue"]![The Confession: a priest hears confession in a murky background while a noblewoman shines with virtue](http://farm4.static.flickr.com/3234/2734199953_a18fed2958_o.jpg)[/caption]
+
+As you can probably gather from this blog, I'm interested in the areas of **usability** and **accessibility** and how they relate to web design. There are some fabulous web designers out there, but the age old _apparent _conflict between attractiveness and accessibility sometimes flares up on their own web sites. Here I present 5 areas in which even the experts could improve:
+
+
+### 1. Squinting is not fun
+
+
+A perennial favourite. I think designers often find large, sans-serif text ugly. So a surprising number of sites still use really **small text**:
+
+[caption id="" align="aligncenter" width="422" caption="An example of small (11px) body text"]![An example of too-small text](http://farm4.static.flickr.com/3137/2579104723_f88772a288.jpg?v=0)[/caption]
+
+(From [Mark Boulton](http://www.markboulton.co.uk/index.php)'s web site).
+
+Small text is difficult to read, even when given a generous leading. And 11 pixel Lucida is _too _small.
+
+
+### 2. Where are the links?
+
+
+Designers can be very creative when they style their links, but there are some [very sensible guidelines](http://www.useit.com/alertbox/20040510.html) that should be followed in order to ensure they are clear to all users (according to wikipedia, [6% of males are deuteranomalous](http://en.wikipedia.org/wiki/Deuteranopia#Dichromacy)). If designers use red or green as their link colour they should ensure that the link is underlined, otherwise it becomes **indistinct** from the rest of the page:
+
+[caption id="" align="aligncenter" width="505" caption="Red, non-underlined links are indistinct from the rest of the text, as this screenshot from the Information Architects website shows"]![Red, non-underlined links are indistinct from the rest of the text, as this screenshot from the Information Architects website shows](http://farm4.static.flickr.com/3283/2734991550_43021828ea_o.jpg)[/caption]
+
+This is an example from [iA](http://informationarchitects.jp): superb designers who write extremely entertaining, oftimes controversial articles about design and the web.  But can you spot the link?  This is how some colour-blind readers see the page (screenshot made possible by the essential [ColorOracle](http://colororacle.cartography.ch/)).
+
+
+### 3. Text is words, not pictures
+
+
+The web and html are inherently flexible and copyable phenomena. If I read something I like on the web I should be able to **copy** it and manipulate it as I please (in a Word document, for example). Unfortunately for designers, there are only a few fonts that are 'safe' to use across the web. To get round this designers will go to extraordinary lengths, perhaps by using **images** instead of text:
+
+[caption id="" align="aligncenter" width="512" caption="An example of image replacement from Daniel Mall's site - beautiful fonts, but not copyable"]![An example of image replacement from Daniel Malls site - beautiful fonts, but not copyable](http://farm4.static.flickr.com/3189/2734143481_54df729a14_o.jpg)[/caption]
+
+(This is from [Daniel Mall](http://www.danielmall.com/)'s site - normally bold in its adherence to good old simple text and typography.)
+
+
+### 4. Some fonts should stay on paper
+
+
+[I've written about this before](http://leonpaternoster.com/2008/05/times-for-print-georgia-for-screen/). Unless it's being used as a large heading, Times is inappropriate for the screen. Georgia is a wonderful thing.
+
+[caption id="" align="aligncenter" width="500" caption="Times is scratchy on a screen when used as body copy"]![Times is cramped on the screen](http://farm3.static.flickr.com/2068/2475840215_b526132c42.jpg?v=0)[/caption]
+
+(From the [New Yorker](http://www.newyorker.com/).)
+
+
+### 5. Who turned the lights out?
+
+
+I see this often when designers use dark backgrounds. **Contrast** is important for all users, not just the visually impaired:
+
+[caption id="" align="aligncenter" width="490" caption="Visually inventive, but the background colour and texture make the text indistinct"]![COntrast too low](http://farm4.static.flickr.com/3061/2581963514_b8278b9558.jpg?v=0)[/caption]
+
+(From [Bright Creative](http://brightcreative.com/).)
+
+So we can see that designers often make decisions that affect the usability and accessibility of their sites. Is this a disaster, or quibbling?

@@ -1,0 +1,28 @@
+---
+author: admin
+comments: true
+date: 2011-01-27 13:16:04+00:00
+layout: post
+slug: tea
+title: Tea
+wordpress_id: 3015
+categories:
+- Articles
+post_format:
+- Aside
+tags:
+- Kipling
+- tea
+---
+
+To celebrate the new office tea pot:
+
+
+> We had a kettle, we let it leak;
+Our not repairing made it worse,
+We haven't had any tea for a week…
+The bottom is out of the Universe.
+Kipling (poem unknown)
+
+
+[caption id="attachment_87" align="aligncenter" width="282" caption="How to drink tea"]![Victorian text entitled Tea Drinking, by Arthur Reade](http://blog.leonpaternoster.com/wp-content/uploads/2011/01/tea.jpg)[/caption]
