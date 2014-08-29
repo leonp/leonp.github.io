@@ -2,6 +2,10 @@
 
 .entry {
 	padding-bottom: 1.5em;
+	
+	@media #{$bp} {
+		padding-bottom: 6em;
+	}
 }
 
 .entry a:visited {
@@ -16,12 +20,22 @@ entry a:focus {
 
 .entry-header {
 	padding-bottom: 1.5em;
+	
+	@media #{$bp} {
+		margin-bottom: 1.5em;
+	}
 }
 
 .entry-title {
 	font-size: 2em;
 	line-height: 1.125em;
 	margin-bottom: 0.375em;
+}
+
+.entry-content {
+	@media #{$bp} {
+		padding-bottom: 1.5em;
+	}
 }
 
 .entry-content p,
