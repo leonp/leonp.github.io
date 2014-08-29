@@ -29,6 +29,9 @@ entry a:focus {
 .entry-content ol,
 .entry-content dd {
 	margin-bottom: 0.75em;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
 }
 
 .entry-content ul,
