@@ -15,8 +15,6 @@ tags:
 
 First, the confession. I have never read a complete Charles Dickens novel (and yes, I know, Dickens died before completing Edwin Drood.) I've read lots of _bits_ of novels for class, and A Christmas Carol, but never the full several hundred pages.
 
-[caption id="attachment_91" align="aligncenter" width="500"]![Black and white illustration of a man at a piano in a drawing room with some ladies](http://blog.leonpaternoster.com/wp-content/uploads/2012/02/drood1.jpg) Illustration from Edwin Drood[/caption]
-
 This is my loss. It's laugh out loud satire (Mr Honeythunder the philanthropist's _Have I sat upon you?_), tender (Crisparkle's pretence at short sightedness so his mother can have the pleasure of reading correspondence at the breakfast table) and hugely atmospheric. Check out the opium induced opening:
 
 
