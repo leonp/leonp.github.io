@@ -18,10 +18,6 @@ But there's no inherent reason for the right to adopt a punitive attitude to wel
 
 Of course &#8211; as I always point out &#8211; this will not happen, because the starting point of all social policy is *how do we punish poverty*?
 
-<img src="/uploads/newsnight.jpg" alt="Two women talking at a table">
-
-<p class="figcaption">BBC Newsnight political editor Allegra Stratton <a href="http://politicalscrapbook.net/2012/06/newsnight-allegra-stratton-exposed-shanene-thorpe/">falsely portrayed Shanene Thorpe as a &#8220;jobless ponce&#8221;</a>. Her prejudice is widespread &#8211; even at the supposedly objective BBC.</p>
-
 But here are 3 reasons for the right to embrace BCI:
 
 ## 1. It encourages entrepreneurs

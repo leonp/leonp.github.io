@@ -91,4 +91,16 @@ entry a:focus {
 	margin-bottom: 0.75em;
 }
 
+.entry-content table {
+	width: 100%;
+	margin-bottom: 0.25em;
+}
+
+.entry-content th {
+	text-align: left;
+	padding-bottom: 0.25em;
+	margin-bottom: 0.25em;
+	border-bottom: 1px solid $lgrey;
+}
+
 }

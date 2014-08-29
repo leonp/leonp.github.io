@@ -14,10 +14,6 @@ Google then ratchet up the pressure by giving Plus summaries a prominent place i
 
 Try a search for *<a href="https://www.google.com/search?q=ipswich+county+library#q=county+library+ipswich">County Library Ipswich</a>* to see what I mean.
 
-<img src="/uploads/search-county.png" alt="Search results page for County Library Ipswich">
-
-<p class="figcaption">Note the Plus page gets a prominent sidebar listing. It also displays the wrong phone number.</p>
-
 Now, this would perhaps be harmless if the information was useful. But we changed the County Library contact number recently, and the Plus listing is incorrect.
 
 Which means the most prominent phone number on the search results page is wrong.

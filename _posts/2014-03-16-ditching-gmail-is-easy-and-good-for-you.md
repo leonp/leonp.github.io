@@ -18,9 +18,8 @@ Like most people, I signed up for gmail when it offered huge amounts of storage 
 
 Since then we&#8217;ve had NSA, austerity and [tax avoidance][1], [lunatic Ayn Rand philosophy][2] and [Google Plus][3]. Less and less *do no evil*.
 
-You don&#8217;t have to be a conspiracy theorist to worry at Google&#8217;s attempts to control your whole online life (or Apple&#8217;s, or Facebook&#8217;s, for that matter).<figure class="figure alignnone">
-
-<img alt="The Google founders in a car" src="http://leonpaternoster.com/wp-content/uploads/2014/03/google-owners.jpg" width="800" height="345" /><figcaption class="secondary">Larry Page in the driving seat of a Google car</figcaption></figure> 
+You don&#8217;t have to be a conspiracy theorist to worry at Google&#8217;s attempts to control your whole online life (or Apple&#8217;s, or Facebook&#8217;s, for that matter).
+ 
 Over the years I&#8217;ve accumulated around 3GB of email, so moving to another provider *seemed* daunting. It&#8217;s actually really simple, but it will take some time (and just a small bit of effort) and does assume you&#8217;ve prioritised your gmail (by starring important emails, for example).
 
 The best thing is you&#8217;ll be in control of your email again.
