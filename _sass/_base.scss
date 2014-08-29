@@ -67,6 +67,10 @@ a:focus {
 	padding: 0 1.5em;
 }
 
+.active {
+	text-decoration: underline;
+}
+
 .secondary {
 	color: $grey;
 }
