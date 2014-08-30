@@ -23,6 +23,9 @@ entry a:focus {
 	line-height: 1.125em;
 	margin-bottom: 0.375em;
 	font-family: $secondary-font;
+	font-weight: normal;
+	font-style: italic;
+	color: #000;
 }
 
 .entry-content {
@@ -64,6 +67,9 @@ entry a:focus {
 	line-height: 1.125em;
 	padding: 0.571em 0 0.381em 0;
 	font-family: $secondary-font;
+	font-weight: normal;
+	font-style: italic;
+	color: #000;
 }
 
 .entry-content h3,
@@ -72,6 +78,9 @@ entry a:focus {
 	line-height: 1.25em;
 	padding: 0.75em 0 0.5em 0;
 	font-family: $secondary-font;
+	font-weight: normal;
+	font-style: italic;
+	color: #000;
 }
 
 .entry-content blockquote {

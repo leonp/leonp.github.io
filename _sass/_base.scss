@@ -39,7 +39,7 @@ body {
 	font-family: $main-font;
 	background-color: #FFF;
 	color: #444;
-	border-top: 0.25em solid #AF0000;
+	border-top: 0.25em solid #000;
 	
 	@media #{$bp} {
 		font-size: 118.5%;
