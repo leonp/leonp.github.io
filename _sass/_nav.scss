@@ -1,17 +1,10 @@
 @media screen, projection {
 
 .nav-item {
-	display: inline;
-	margin-right: 1.5em;
-	
-	@media #{$bp} {
-		margin-right: 0;
-		margin-left: 1.5em;
-	}
-	
+	float: left;
 	text-transform: lowercase;
 	font-variant: small-caps;
+	list-style-type: none;
 }
-
 
 }

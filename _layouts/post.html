@@ -21,11 +21,11 @@
 			{% capture words %}
 				{{ page.content | number_of_words | minus: 250 }}
 			{% endcapture %}
-			<p>
+			<p><em>
 			{% unless words contains "-" %}			
 				This article contains {{ words | plus: 250 }} words&thinsp;&#8211;&thinsp;I'm keeping count. Enjoyed how I combined them?  			
 			{% endunless %}
-			Take a look through <a href="/archive">the archive</a>.</p>
+			Take a look through <a href="/archive">the archive</a>.</em></p>
 			
 		</footer>
 

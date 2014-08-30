@@ -5,13 +5,37 @@
 	margin-bottom: 1.5em;
 }
 
+.banner-header a {
+	padding: 0.25em 0.75em;
+	display: block;
+}
+
+.banner-header a:link,
+.banner-header a:visited {
+	color: $base-colour;
+}
+
+.banner-header a:hover,
+.banner-header a:active,
+.banner-header a:focus,
+.banner-header a.active {
+	background-color: $base-colour;
+	color: #FFF;
+	text-decoration: none;
+}
+
 .banner-header-title {
 	font-size: 1em;
-	margin-bottom: 0.75em;
+	margin-bottom: 0.75em;	
 	font-family: $secondary-font;
 	font-weight: normal;
 	text-transform: lowercase;
 	font-variant: small-caps;
+}
+
+.banner-header-title a {
+	background-color: $base-colour;
+	color: #FFF !important;
 }
 
 }

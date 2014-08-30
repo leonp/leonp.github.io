@@ -38,8 +38,8 @@ body {
 	line-height: $blh * 6;
 	font-family: $main-font;
 	background-color: #FFF;
-	color: #444;
-	border-top: 0.25em solid #000;
+	color: $base-colour;
+	border-top: 0.25em solid $base-colour;
 	
 	@media #{$bp} {
 		font-size: 150%;
@@ -63,7 +63,7 @@ a:focus {
 
 .inner-wrapper {
 	max-width: 32em;
-	margin: 3em auto;
+	margin: 0 auto;
 	padding: 0 1.5em;
 }
 
