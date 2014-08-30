@@ -9,7 +9,7 @@ I liked the <cite>Inessential</cite> blog: 300&#8211;500 word missives on all so
 
 Twitter and facebook are 2 years older than my blog, but I've outlasted Google Wave and Plus is in its death throes. Blogs are like cockroaches.
 
-So this week I got my shit together and reverted to Jekyll (via <a href="http://hugo.spf13.com/">Hugo</a>), used Sass and learned how to git push and pull this blog to Github Pages for hosting (while taking advantage of their <abbr title="Content Delivery Network">CDN</abbr>).
+So this week I got my website shit together and reverted to Jekyll (via <a href="http://hugo.spf13.com/">Hugo</a>), finally used Sass and learned how to git push and pull to Github Pages for hosting (while taking advantage of their <abbr title="Content Delivery Network">CDN</abbr>).
 
 Wholesale changes mean you read stuff you haven't looked at for years &#8211; I've republished a few hundred posts. Lucky you.
 
