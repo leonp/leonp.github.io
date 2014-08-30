@@ -7,7 +7,7 @@ title: Outliving Facebook
 
 I liked the <cite>Inessential</cite> blog: 300&#8211;500 word missives on all sorts of stuff, most of which I don't understand. My sort of writing. Although I don't really need to learn about <a href="http://inessential.com/2014/08/29/on_taking_breaks">putting your phone away while you eat your dinner</a>.
 
-Twitter and facebook are 2 years older than my blog, but I've outlasted Google Wave and Plus is in its death throes. Blogs are like cockroaches.
+Twitter and facebook are 2 years older than my blog, but I've also outlasted Google Wave and seen Plus's messy demise. Blogs are like cockroaches.
 
 So this week I got my website shit together and reverted to Jekyll (via <a href="http://hugo.spf13.com/">Hugo</a>), finally used Sass and learned how to git push and pull to Github Pages for hosting (while taking advantage of their <abbr title="Content Delivery Network">CDN</abbr>).
 
