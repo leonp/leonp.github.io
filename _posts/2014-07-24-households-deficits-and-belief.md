@@ -4,8 +4,6 @@ author: Leon
 excerpt: Because belief is overrated.
 layout: post
 permalink: /2014/07/households-deficits-and-belief/
-xyz_twap:
-  - 1
 categories:
   - Politics
 ---
@@ -25,7 +23,7 @@ It&#8217;s the old New Labour approach of repeating the same message until every
 
 Does the Labour Party rank and file believe it too? Frightening not only because it&#8217;s nonsense, but also, as Dillow argues, because it always ends in disappointment. After 13 years of a Labour government a coalition was able to dismantle pretty much the whole welfare state as we know it in a couple of years.
 
-The Labour Party *is* largely pragmatic because it thinks the electorate in marginal seats is fundamentally conservative in its outlook. But none of the members I know joined the party to bang on about making cuts to public services. However, there are several MPs who seem to *believe* this austerity rhetoric, [even the odd activist][4].
+The Labour Party *is* largely pragmatic because it thinks the electorate in marginal seats is fundamentally conservative in its outlook. But none of the members I know joined the party to bang on about making cuts to public services. However, there are several MPs who seem to *believe* this austerity rhetoric, [even the odd activist][4].
 
 There&#8217;s something in Labour that says you have to *believe* in the argument behind a policy, even when it&#8217;s apostasy. One of the many advantages the Tory party holds over Labour is its understanding that it&#8217;s all tactics: Only the goal matters.
 

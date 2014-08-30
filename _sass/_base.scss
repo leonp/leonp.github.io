@@ -42,7 +42,7 @@ body {
 	border-top: 0.25em solid #AF0000;
 	
 	@media #{$bp} {
-		font-size: 137.5%;
+		font-size: 118.5%;
 	}
 }
 
@@ -62,7 +62,7 @@ a:focus {
 }
 
 .inner-wrapper {
-	max-width: 36em;
+	max-width: 40em;
 	margin: 3em auto;
 	padding: 0 1.5em;
 }
@@ -73,6 +73,7 @@ a:focus {
 
 .secondary {
 	color: $grey;
+	font-family: $secondary-font;
 }
 
 .note {

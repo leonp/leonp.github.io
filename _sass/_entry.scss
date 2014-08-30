@@ -22,6 +22,7 @@ entry a:focus {
 	font-size: 2em;
 	line-height: 1.125em;
 	margin-bottom: 0.375em;
+	font-family: $secondary-font;
 }
 
 .entry-content {
@@ -62,6 +63,7 @@ entry a:focus {
 	font-size: 1.333em;
 	line-height: 1.125em;
 	padding: 0.571em 0 0.381em 0;
+	font-family: $secondary-font;
 }
 
 .entry-content h3,
@@ -69,10 +71,13 @@ entry a:focus {
 	font-size: 1em;
 	line-height: 1.25em;
 	padding: 0.75em 0 0.5em 0;
+	font-family: $secondary-font;
 }
 
 .entry-content blockquote {
-	padding: 0.75em 0 0.75em 1.5em;
+	margin: 1em 0 1.5em 1.5em;
+	padding: 0 0 0 1.5em;
+	border-left: 0.25em solid $lgrey;
 }
 
 .entry-content blockquote p {
