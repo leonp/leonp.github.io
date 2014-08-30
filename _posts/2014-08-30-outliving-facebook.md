@@ -13,4 +13,4 @@ So this week I got my website shit together and reverted to Jekyll (via <a href=
 
 Wholesale changes mean you read stuff you haven't looked at for years &#8211; I've republished a few hundred posts. Lucky you.
 
-It's taken 6 years, but I've reached a state where I've got an HTML copy of everything I've published online. Things return to their original, intended state. In fact, as I wrangled with extracting HTML from WordPress and setting up Jekyll, it occurred to me it wouldn't be much less hassle to manually write post and archive pages (OK, I'd struggle with out some form of `include`). Throw in a university server and it'd be 1994 all over again.
+It's taken 6 years, but I now have an <abbr title="HyperText Markup Language">HTML</abbr> copy of everything I've published online. Things return to their original, intended state. In fact, as I wrangled with extracting HTML from WordPress and setting up Jekyll, it occurred to me it wouldn't be much less hassle to manually write post and archive pages (OK, I'd struggle without some form of `include`). Throw in a university server and it'd be 1994 all over again.
