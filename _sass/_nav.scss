@@ -2,7 +2,13 @@
 
 .nav-item {
 	display: inline;
-	margin-left: 1.5em;
+	margin-right: 1.5em;
+	
+	@media #{$bp} {
+		margin-right: 0;
+		margin-left: 1.5em;
+	}
+	
 	text-transform: lowercase;
 	font-variant: small-caps;
 }
