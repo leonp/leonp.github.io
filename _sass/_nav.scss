@@ -1,12 +1,10 @@
 @media screen, projection {
 
-.nav {
-	padding: 0.375em 0;
-}
-
 .nav-item {
 	display: inline;
-	margin-right: 1.5em;
+	margin-left: 1.5em;
+	text-transform: lowercase;
+	font-variant: small-caps;
 }
 
 

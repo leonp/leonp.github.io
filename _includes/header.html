@@ -23,21 +23,33 @@
 	
 		<div class="inner-wrapper">
 	
-			<header class="banner-header">
+			<header class="banner-header clearfix">
 			
-				<h1 class="banner-header-title"><a href="/" {% if site.url == page.url %}class="active"{% endif %}>Leon Paternoster</a></h1>
+				<div class="g-row">
 				
-				<div class="nav" id="nav" role="navigation">
+					<div class="g-col1 g-left">
+			
+						<h1 class="banner-header-title"><a href="/" {% if site.url == page.url %}class="active"{% endif %}>Leon Paternoster</a></h1>
+						
+					</div> <!-- end .g-col1 -->
+					
+					<div class="g-col2 g-left g-last g-a-right">
 				
-					<ul>
-						<li class="nav-item"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}>Home</a></li>
-						<li class="nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>				
-						<li class="nav-item"><a href="/feed">RSS</a></li>
-						<li class="nav-item"><a href="http://twitter.com/leonpaternoster">Twitter</a></li>
+						<div class="nav" id="nav" role="navigation">
+				
+							<ul>
+								<li class="nav-item"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}>Home</a></li>
+								<li class="nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>				
+								<li class="nav-item"><a href="/feed">RSS</a></li>
+								<li class="nav-item"><a href="http://twitter.com/leonpaternoster">Twitter</a></li>
 					
-					</ul>
+							</ul>
 					
-				</div>
+						</div>
+						
+					</div> <!-- end .g-col2 -->
+					
+				</div> <!-- end .g-row -->
 				
 			</header>
 		
