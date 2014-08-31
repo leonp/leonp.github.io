@@ -7,7 +7,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<title>{% if page.title %}{{ page.title }} &rarr; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+		<title>{% if page.title %}{{ page.title }}&#8211;{{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 		{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 
 		<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
@@ -36,33 +36,19 @@
 	
 		<div class="inner-wrapper">
 	
-			<header class="banner-header clearfix">
-			
-				<div class="g-row">
-				
-					<div class="g-col1 g-left">
-			
-						<h1 class="banner-header-title"><a href="/" {% if site.url == page.url %}class="active"{% endif %}>Leon Paternoster</a></h1>
+			<header class="banner-header clearfix note">
 						
-					</div> <!-- end .g-col1 -->
-					
-					<div class="g-col2 g-left g-last g-a-right">
-				
-						<div class="nav" id="nav" role="navigation">
-				
-							<ul>
-								<li class="nav-item"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}>Home</a></li>
-								<li class="nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>				
-								<li class="nav-item"><a href="/feed">RSS</a></li>
-								<li class="nav-item"><a href="http://twitter.com/leonpaternoster">Twitter</a></li>
-					
-							</ul>
-					
-						</div>
-						
-					</div> <!-- end .g-col2 -->
-					
-				</div> <!-- end .g-row -->
+				<div class="nav" id="nav" role="navigation">
+			
+					<ul>
+						<li class="nav-item"><h1 class="banner-header-title"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}>Leon Paternoster</a></h1></li>
+						<li class="nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>				
+						<li class="nav-item"><a href="/feed">RSS</a></li>
+						<li class="nav-item"><a href="http://twitter.com/leonpaternoster">Twitter</a></li>
+			
+					</ul>
+			
+				</div>
 				
 			</header>
 		
