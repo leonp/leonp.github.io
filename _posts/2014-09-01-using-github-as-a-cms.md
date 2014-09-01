@@ -13,20 +13,20 @@ At work there's me and a couple of web agents who publish events to the website.
 
 I chose WordPress because a) I know it pretty well and b) there's always a plugin to reach for. We use <a href="http://wp-events-plugin.com/">WP Events Manager</a> extensively, which is very good indeed.
 
-That's great, but WordPress does pose some fundamental problems; for a start, it's not actually that good for adding and editing content. The whole *posts* terminology and its blogging roots and the messy <em>New post</em>form confuse the agents; I can see why.
+That's great, but WordPress does pose some fundamental problems; for a start, it's not actually that good for adding and editing content. The whole *posts* terminology, its blogging roots and the messy <em>New post</em> form can confuse editors. I can see why.
 
-Combine that with a bunch of technical challenges, such as malfunctioning plugins and slow load times, and you can probably see why a static site appeals.
+Combine that with a bunch of technical challenges, such as malfunctioning plugins and slow load times, and you can see why a static site appeals.
 
 ## Using Github Pages
 
 <a href="/2014/08/my-rig/">I moved this site to Github Pages</a>, so naturally enough I asked myself <i>Could we move the work site? Or at least run it as a group of static pages?</i>. This would provide several benefits:
 
-- Fast loading pages. Not only would we get rid of calls to a database, but we'd also retain control of what was loaded and when, and make sure everything was minimised and served properly.
-- Transparent structure. The work site consists of a child theme of a theme that incorporates the Foundation Framework, built on a WordPress install. It uses 10 plugins. One flat, HTML site would be a joy to maintain.
-- Transparent content. The whole website would be hosted in a public repository.
-- Some form of CMS. It's not realistic to expect content editors to be able to edit files, build sites with Jekyll and push and pull changes using Git.
+- *Fast loading pages*. Not only would we get rid of calls to a database, but we'd also retain control of what was loaded and when, and make sure everything was minimised and served properly.
+- *Transparent structure*. The work site consists of a child theme of a theme that incorporates the Foundation Framework, built on a WordPress install. It uses 10 plugins. One flat, HTML site would be a joy to maintain.
+- *Transparent content*. The whole website would be hosted in a public repository.
+- *Some form of CMS*. It's not realistic to expect content editors to to edit files, build sites with Jekyll and push and pull changes using Git.
 
-Of course, it's no trivial matter implementing things like events on a static site, but let's assume it's possible. Would it be possible to manage content using Github Pages?
+Of course, it's no trivial matter implementing things like events on a static site, but let's assume it's possible. Can we manage content using Github Pages?
 
 ## Managing content
 
