@@ -7,13 +7,14 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<title>{% if page.title %}{{ page.title }}&#8211;{{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+		<title>{% if page.title %}{{ page.title }} &#8211; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 		{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 
 		<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 		<link href="/feed" rel="alternate" type="application/rss+xml" title="{{ site.title }}">
 		
+		<!-- Load Typekit fonts asynchronously using Google Webfont Loader -->		
 		<script>
 			WebFontConfig = {
 			typekit: { id: 'coi4xnv' }
@@ -34,9 +35,15 @@
 	
 	<body>
 	
+		<div class="accessibility hide">
+		
+			<p><a href="#content">Skip to content</a></p>
+			
+		</div>
+	
 		<div class="inner-wrapper">
 	
-			<header class="banner-header clearfix note">
+			<div class="banner-header clearfix note">
 						
 				<div class="nav" id="nav" role="navigation">
 			
@@ -44,12 +51,11 @@
 						<li class="nav-item"><h1 class="banner-header-title"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}>Leon Paternoster</a></h1></li>
 						<li class="nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>				
 						<li class="nav-item"><a href="/feed">RSS</a></li>
-						<li class="nav-item"><a href="http://twitter.com/leonpaternoster">Twitter</a></li>
 			
 					</ul>
 			
 				</div>
 				
-			</header>
+			</div>
 		
 			<main id="main" role="main">
