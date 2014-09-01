@@ -16,14 +16,14 @@
 		
 		</div>
 		
-		<footer class="entry-footer secondary">
+		<footer class="entry-footer secondary note">
 		
 			{% capture words %}
 				{{ page.content | number_of_words | minus: 250 }}
 			{% endcapture %}
 			<p><em>
 			{% unless words contains "-" %}			
-				This article contains {{ words | plus: 250 }} words&thinsp;&#8211;&thinsp;I'm keeping count. Enjoyed how I combined them?  			
+				This article contains {{ words | plus: 250 }} words. Enjoyed how I combined them?  			
 			{% endunless %}
 			Take a look through <a href="/archive">the archive</a>.</em></p>
 			

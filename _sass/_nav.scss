@@ -8,4 +8,49 @@
 	letter-spacing: 1px;
 }
 
+.nav {
+	padding: 1.5em 0;
+	margin-bottom: 1.5em;
+	text-align: center;
+	
+	@media #{$bp} {
+		padding: 3em 0 1.5em 0;
+	}
+}
+
+.nav a {
+	padding: 0 0.75em;
+}
+
+.nav li:after {
+	content: '\00B7';
+}
+
+.nav li:last-child:after {
+	content: '';
+}
+
+.nav a:link,
+.nav a:visited {
+	color: $link;
+}
+
+.nav a:hover,
+.nav a:active,
+.nav a:focus,
+.nav a.active {
+	color: $base-colour;;
+	text-decoration: none;
+}
+
+.nav-title {
+	font-size: 1em;
+	display: inline;	
+	font-family: $secondary-font;
+	font-weight: normal;
+	text-transform: lowercase;
+	font-variant: small-caps;
+	letter-spacing: 2px;
+}
+
 }

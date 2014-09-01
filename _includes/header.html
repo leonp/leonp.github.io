@@ -37,25 +37,26 @@
 	
 		<div class="accessibility hide">
 		
-			<p><a href="#content">Skip to content</a></p>
+			<ul>
+				
+				<li><a href="#nav">Skip to navigation</a></li>
+				<li><a href="#content">Skip to content</a></li>
+				
+			</ul>
 			
 		</div>
 	
 		<div class="inner-wrapper">
-	
-			<div class="banner-header clearfix note">
 						
-				<div class="nav" id="nav" role="navigation">
-			
-					<ul>
-						<li class="nav-item"><h1 class="banner-header-title"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}>Leon Paternoster</a></h1></li>
-						<li class="nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>				
-						<li class="nav-item"><a href="/feed">RSS</a></li>
-			
-					</ul>
-			
-				</div>
-				
-			</div>
+			<nav class="nav clearfix note" id="nav" role="navigation">
 		
-			<main id="main" role="main">
+				<ul>
+					<li class="nav-item"><h1 class="nav-title"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}>Leon Paternoster</a></h1></li>
+					<li class="nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>				
+					<li class="nav-item"><a href="/feed">RSS</a></li>
+		
+				</ul>
+		
+			</nav>
+		
+			<main id="content" role="main">
