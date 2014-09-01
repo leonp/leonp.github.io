@@ -16,16 +16,19 @@
 		
 		</div>
 		
-		<footer class="entry-footer secondary note">
+		<footer class="entry-footer nav secondary note">
 		
 			{% capture words %}
-				{{ page.content | number_of_words | minus: 250 }}
+				{{ page.content | number_of_words }}
 			{% endcapture %}
-			<p><em>
-			{% unless words contains "-" %}			
-				This article contains {{ words | plus: 250 }} words. Enjoyed how I combined them?  			
-			{% endunless %}
-			Take a look through <a href="/archive">the archive</a>.</em></p>
+			
+			<ul>
+			
+				<li class="nav-item"><a href="{{ post.url }}">{{ words }} words</a></li> 			
+				<li class="nav-item"><a href="/archive">Archive</a></li>
+				<li class="nav-item"><a href="/feed">RSS</a></li>
+			
+			</ul>
 			
 		</footer>
 
