@@ -11,7 +11,7 @@ Sounds a bit like Pixies (mainly through the Joey Santiago&#8211;esque guitar) a
 
 There's also some heavier, Black Sabbath riffing. This is _always_ a good thing.
 
-The songs are about &#8211; well, I'm not sure. Lots of girls, love and some desperation. I really liked the vocalist's wailing; very spooky.
+The songs are about &#8211; well, I'm not sure. Lots of girls, boys, love and some desperation. I really liked the vocalist's wailing; very spooky.
 
-First listen impression: very cool, original and fun. Buy.
+First listen impression: very cool, original and fun. Baroque surfer rock with an occult twist. Buy.
 
