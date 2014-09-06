@@ -1,0 +1,20 @@
+@media print {
+
+* {
+	background: #fff;
+	color: #000;
+}
+
+html {
+	font-size: 100%;
+	line-height: 1.2;
+	font-family: calluna, times, 'times new roman', georgia, serif;
+}
+
+.nav,
+.hide,
+.info-footer {
+	display: none;
+}
+  
+}
