@@ -124,4 +124,11 @@ entry a:focus {
 	border-bottom: 1px solid $lgrey;
 }
 
+.entry-content hr {
+	border: none;
+	border-top: 1px solid $lgrey;
+	width: 25%;
+	margin: 1.5em auto;
+}
+
 }
