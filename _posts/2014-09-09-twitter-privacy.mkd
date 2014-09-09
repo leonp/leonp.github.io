@@ -6,9 +6,9 @@ layout: post
 
 Obviously you noted the wide measure, small font size and unhelpfully worded links (click _here_), which make the document hard to scan and interpret.
 
-So if you run a website avoid using widgets as they'll affect your visitors' experience of Twitter. You'll also pass browsing data to Twitter without their permission. <a href="http://ia.net/blog/the-electronic-gentleman-or-why-usability-is-the-first-step-to-interactive-sexyness/">Not very gentlemanly</a>.
+Do you remember the days when Internet Explorer allowed drive&#8211;by downloads? This is more a drive&#8211;by ad attack, but it's fundamentally the same thing; you don't even have to click the widget for Twitter to start using information about your browsing habits (which is important, as <a href="https://insidegovuk.blog.gov.uk/2014/02/20/gov-uk-social-sharing-buttons-the-first-10-weeks/">no one clicks on them anyway</a>).
 
-As we can share a link on Twitter without the aid of a widget, <a href="https://insidegovuk.blog.gov.uk/2014/02/20/gov-uk-social-sharing-buttons-the-first-10-weeks/">your visitors don't use them anyway</a>.
+So if you run a website avoid using widgets as they'll affect your visitors' experience of Twitter and you'll pass on browsing data without their permission. Most <a href="http://ia.net/blog/the-electronic-gentleman-or-why-usability-is-the-first-step-to-interactive-sexyness/">ungentlemanly conduct</a>.
 
-Still, everyone goes on using Twitter and Facebook. You'd think people would stop sharing personal stuff there, but no &#8211; doubtless becuase nothing bad *seems* to happen in the real world.
+Still, everyone goes on using Twitter and Facebook. You'd think people would stop sharing really personal stuff there, but no. Perhaps because nothing bad seems to happen in the real world, or even because the tracking robot is actually crap and just makes strange suggestions.
 
