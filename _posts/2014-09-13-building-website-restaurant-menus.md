@@ -15,7 +15,7 @@ The second reason is more interesting &#8211; it shows how most people still see
 
 As we know, print and the web are separate beasts. Producing an attractive looking, editable HTML menu is further work. You can do it, but if the restaurant owner's changing the menu quite often, they can often run into formatting problems, and then mess up the markup as they try and change the layout and typography.
 
-In an ideal world the owner would leave the designer to it, and the designer would build an attractive, robust menu &#8211; something that works well online.
+In an ideal world the owner would leave the designer to it, and the designer would build an attractive, robust menu &#8211; something that works well online. What often happens is the owner wants the menu to look *exactly* like their printed document.
 
 Business and organisation owners' misunderstanding of how the web works, and their consequent lack of respect for web professionals, is often the biggest hurdle designers face when they build websites. I can see why so many PDFs and images end up online, but it really is worth the effort &#8211; from owner and developer &#8211; to get it right.
 
