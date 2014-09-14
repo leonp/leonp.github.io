@@ -3,7 +3,7 @@ title: The rhetoric of hard work (part 2)
 layout: post
 ---
 
-OK, so this <a href="http://www.theguardian.com/uk-news/2014/sep/13/endies-employed-no-disposable-income-struggling-in-london">Guardian piece on the working poor</a> makes some sound suggestions, such as building affordable houses. But several things annoy, not least the <i>Endies</i> acronym. You can picture the <cite>Guardian</cite> and <cite>Standard</cite> style sections already. *Endie chic*.
+OK, so this <a href="http://www.theguardian.com/uk-news/2014/sep/13/endies-employed-no-disposable-income-struggling-in-london">Guardian piece on the working poor</a> makes some sound suggestions, such as building affordable houses. But several things annoy, not least the <i>Endies</i> moniker. You can picture the <cite>Guardian</cite> and <cite>Standard</cite> style sections already. *Endie chic*.
 
 Yes, it is especially expensive in London, but I'm sure every town and city in the UK suffers from low pay and high living costs.
 
