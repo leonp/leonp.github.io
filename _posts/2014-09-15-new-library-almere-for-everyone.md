@@ -3,7 +3,7 @@ title: The New Library, Almere &#8211; What a universal library service looks li
 layout: post
 ---
 
-Noted: an <a href="http://www.shareable.net/blog/how-a-new-dutch-library-smashed-attendance-records">article on the Nieuwe Bibliotheek in the Dutch town of Almere</a>.
+Noted: an <a href="http://www.shareable.net/blog/how-a-new-dutch-library-smashed-attendance-records">article on the <i>Nieuwe Bibliotheek</i> in the Dutch town of Almere</a>.
 
 This is what you want libraries to look like:
 
