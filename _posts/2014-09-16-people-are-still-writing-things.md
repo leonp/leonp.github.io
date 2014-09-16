@@ -3,7 +3,7 @@ title: Bring on the fan fiction (even if I won't read it)
 layout: post
 ---
 
-I taught a few GCSE groups in my short career as a teacher of English. As well as <cite>Romeo and Juliet</cite>, war poetry and Dickens, the students submitted a piece of creative writing, which probably sounds quite fun.
+I taught a few GCSE groups in my short career as a teacher of English. As well as studying <cite>Romeo and Juliet</cite>, war poetry and Dickens, the students submitted a piece of creative writing, which probably sounds quite fun.
 
 In reality it was one of the more difficult subjects to teach. Surprisingly enough, the kids liked Shakespeare, but getting them to craft a well structured, pacey story was a painful process. Too often they'd write aimlessly, often endlessly, and most of it was, to be honest, pretty awful.
 
