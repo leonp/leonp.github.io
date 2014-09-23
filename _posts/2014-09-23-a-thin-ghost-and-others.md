@@ -9,7 +9,7 @@ When I commuted from Ipswich to Colchester I devoured all the Russian classics, 
 
 (This all assumes you're not one of those businessmen with a brick for a laptop who absolutely must read your email before you get to work, or that Greater Anglia allows you a seat by the time the train arrives at your stop.)
 
-Anyway, recently I was granted not one but two 90 minute return train journeys (the sole advantage to not being able to drive) to Lowestoft. I've got out of the habit of reading recently, so I decided to read a collection of M R James stories entitled <cite>A Thin Ghost and Others</cite> as the train rolled though Darsham, Saxmundham and Beccles (appropriately quaint, middle of nowhere settings).
+Anyway, recently I was granted not one but two 90 minute return train journeys (the sole advantage to not being able to drive) to Lowestoft. I've got out of the habit of reading recently, so I decided to try a collection of M R James stories entitled <cite>A Thin Ghost and Others</cite> as the train rolled though Darsham, Saxmundham and Beccles (appropriately quaint, middle of nowhere settings).
 
 I enjoyed the book, although the thing about horror that can put me off (and this goes for any genre) are the clunking conventions; which is to say a lot of horror stories are essentially the same. Now, James may well have invented a lot of the rules of horror, and in a way they make reading &#8211; and writing, no doubt &#8211; easier. So we know text x will contain some dark secret, and something odd will happen to the protagonist when he (it's always a he) goes to sleep in new surroundings. I guess some readers, ironically enough, may find comfort in convention, but it can grate over a series of short stories.
 
