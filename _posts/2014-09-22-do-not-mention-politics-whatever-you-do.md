@@ -7,7 +7,7 @@ I've been reading Matt Gemmell's blog recently, which is definitely worth subscr
 
 The Scotland piece starts with a warning: he's going to talk about politics. This is something he never does.
 
-Matt's only echoing the advice of many blogs about marketing yourself, getting readers etc. You can talk about web design, copywriting, javascript, photography, coffee and your exciting work habits, but mention politics and your readers will ruthlessly excise your feed from their readers. Just like that.
+Matt's only echoing the advice of many blogs about marketing yourself, getting readers etc. You can talk about web design, copywriting, javascript, photography, coffee and your exciting work habits, but mention politics and your readers will ruthlessly excise your feed from their lives. Just like that.
 
 Now, I don't really market myself online, nor chase readers. My blog is pretty much a log of what's on my mind at any given point in time, so I guess it doesn't matter if I start banging on about <a href="/2014/09/minimum-wage-legalises-low-pay/">how rubbish the minimum wage is</a>. But I do understand how readers come to expect a certain service from the writers they follow.
 
