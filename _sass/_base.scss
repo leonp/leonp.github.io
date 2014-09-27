@@ -42,7 +42,7 @@ body {
 	border-top: 0.25em solid $base-colour;
 	
 	@media #{$bp} {
-		font-size: 137.5%;
+		font-size: 150%;
 	}
 }
 
@@ -67,7 +67,7 @@ a img {
 }
 
 .inner-wrapper {
-	max-width: 29em;
+	max-width: 26em;
 	margin: 0 auto;
 	padding: 0 1.5em;
 }
@@ -78,7 +78,6 @@ a img {
 
 .secondary {
 	color: $grey;
-	font-family: $secondary-font;
 }
 
 .note {

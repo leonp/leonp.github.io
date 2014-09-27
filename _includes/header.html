@@ -10,11 +10,10 @@
 		<title>{% if page.title %}{{ page.title }} &#8211; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 		{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 
-		<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+		<link rel="stylesheet" href="/css/main.css">
 		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 		<link href="/feed" rel="alternate" type="application/rss+xml" title="{{ site.title }}">
 		
-		<!-- Load Typekit fonts asynchronously using Google Webfont Loader -->		
 		<script>
 			WebFontConfig = {
 			typekit: { id: 'coi4xnv' }
@@ -23,7 +22,7 @@
 			(function() {
 			var wf = document.createElement('script');
 			wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-			  '://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js';
+				  '://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js';
 			wf.type = 'text/javascript';
 			wf.async = 'true';
 			var s = document.getElementsByTagName('script')[0];
