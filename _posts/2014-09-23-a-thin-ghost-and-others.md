@@ -3,7 +3,7 @@ title: A Thin Ghost and Others by M R James
 layout: post
 ---
 
-A twitter pal is about to read a slew of American novels on the commute into work. While I wouldn't wish Greater Anglia on anyone, the one advantage to commuting is that it gives you a parcel of time in which you can do something you want, free of distractions.
+A twitter pal is about to read a slew of American novels on the commute into work. While I wouldn't wish Greater Anglia on anyone, the sole advantage to commuting is that it gives you a parcel of time in which you can do something you want, free of distractions.
 
 When I commuted from Ipswich to Colchester I devoured all the Russian classics, Dickens and plenty of Sebald over the course of a couple of years, among lots of other bits and pieces. It was by far the best thing about my job.
 
