@@ -7,7 +7,7 @@ By which I mean the typeface, not the former Soviet Union state, birthplace of S
 
 In 2012 <abbr title="Information Architects">IA</abbr> effectively announced the death of Georgia:
 
-> Georgia works perfectly as body text up until 16 pixels. As soon as you go over that size, it starts to look odd. This is not a design deficiency of the typeface. It was simply not designed to work for big body text sizes and dense screens. <cite><a href="New Site with Responsive Typography">New Site with Responsive Typography</a></cite>
+> Georgia works perfectly as body text up until 16 pixels. As soon as you go over that size, it starts to look odd. This is not a design deficiency of the typeface. It was simply not designed to work for big body text sizes and dense screens. <cite><a href="http://ia.net/blog/responsive-typography/">New Site with Responsive Typography</a></cite>
 
 &hellip; and pretty much since then we've seen Droid Serif (yuck), Freight Text, Tisa, Chaparall, Skolar, Minion <i>et al</i> supercede Georgia, through `@font-face`, Typekit, Fontdeck and Google  Fonts. Some of these typefaces look great and are eminently readable (some look not entirely dissimilar to Georgia), some pull off a cooler, more modern feel. There's lots of choice out there, some of it usable.
 
