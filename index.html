@@ -13,9 +13,8 @@ show: yes
 
 	<li class="link-list-item">
 		
+		<span class="link-list-meta secondary note">{{ post.date | date: "%b %-d, %Y" }}</span><br>
 		<a class="link-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-		&thinsp;&#8211;&thinsp;
-		<span class="link-list-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
 	</li>
 
