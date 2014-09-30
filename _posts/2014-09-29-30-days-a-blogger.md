@@ -30,7 +30,7 @@ Here are those posts in stats:
 <tr><td>Average number of pages visited by a Twitter referral</td><td>4.1</td></tr>
 <tr><td>LinkedIn referrals</td><td>1</td></tr>
 <tr><td>Search referrals</td><td>293</td></tr>
-<tr><td>People who noticed I blogged every day</td><td>0</td></tr>
+<tr><td>People who noticed I blogged every day</td><td><del>0</del> <a href="https://twitter.com/friendsofdarwin/status/516703230450233344">1</a></td></tr>
 <tr><td>Alcoholic drinks imbibed</td><td>9 bottles of beer, 2 pints of ale and a Glenmorangie</td></tr>
 </table>
 
