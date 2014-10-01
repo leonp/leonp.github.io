@@ -43,6 +43,8 @@ body {
 	
 	@media #{$bp} {
 		font-size: 112.5%;
+		background-color: #F1F1F1;
+		border-top: none;
 	}
 }
 
@@ -70,6 +72,13 @@ a img {
 	max-width: 32em;
 	margin: 0 auto;
 	padding: 0 1.5em;
+	
+	@media #{$bp} {
+		padding: 3em 4.5em;
+		background-color: #FFF;
+		margin: 1.5em auto;
+		border: 1px solid #CFCFCF;
+	}
 }
 
 .active {

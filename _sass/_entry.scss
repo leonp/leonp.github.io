@@ -25,7 +25,6 @@ entry a:focus {
 	margin-bottom: 0.429em;
 	font-family: $secondary-font;
 	font-weight: normal;
-	font-style: italic;
 	color: #000;
 }
 
@@ -135,6 +134,15 @@ entry a:focus {
 .entry-content td {
 	padding-right: 1em;
 }
+
+.pagination {
+	
+	@media #{$bp} {
+		padding-top: 1.5em;
+	}
+	
+}
+		
 
 .next {
 	float: right;
