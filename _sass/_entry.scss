@@ -24,7 +24,7 @@ entry a:focus {
 	line-height: 1.286em;
 	margin-bottom: 0.429em;
 	font-family: $secondary-font;
-	font-weight: normal;
+	font-weight: 300;
 	color: #000;
 }
 
@@ -71,8 +71,7 @@ entry a:focus {
 	line-height: 1.126em;
 	padding: 1.286em 0 0.643em 0;
 	font-family: $secondary-font;
-	font-weight: normal;
-	font-style: italic;
+	font-weight: 300;
 	color: #000;
 	text-align: center;
 }
@@ -83,8 +82,7 @@ entry a:focus {
 	line-height: 1.25em;
 	padding: 0.75em 0 0.5em 0;
 	font-family: $secondary-font;
-	font-weight: normal;
-	font-style: italic;
+	font-weight: 300;
 	color: #000;
 	text-align: center;
 }
@@ -108,6 +106,8 @@ entry a:focus {
 .entry-content figcaption,
 .entry-content .figcaption {
 	color: $grey;
+	font-family: $secondary-font;
+	font-weight: 300;
 	margin-bottom: 0.75em;
 }
 
