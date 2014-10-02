@@ -25,7 +25,13 @@ entry a:focus {
 	margin-bottom: 0.429em;
 	font-family: $secondary-font;
 	font-weight: 300;
-	color: #000;
+	color: #DF0000;
+	
+	@media #{$bp} {
+		font-size: 2em;
+		line-height: 1.25em;
+		margin-bottom: 0.5em;
+	}
 }
 
 .entry-content {
