@@ -25,7 +25,7 @@ entry a:focus {
 	margin-bottom: 0.429em;
 	font-family: $secondary-font;
 	font-weight: 300;
-	color: #DF0000;
+	color: $highlight;
 	
 	@media #{$bp} {
 		font-size: 2em;
