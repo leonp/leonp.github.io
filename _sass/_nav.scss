@@ -5,6 +5,10 @@
 	text-transform: uppercase;
 	list-style-type: none;
 	letter-spacing: 1px;
+	
+	@media #{$bp} {
+		font-size: 0.875em;
+	}
 }
 
 .nav {
