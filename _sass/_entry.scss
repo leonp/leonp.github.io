@@ -71,6 +71,15 @@ entry a:focus {
 	border: 1px solid $lgrey;
 }
 
+@media #{$bp} {
+	.entry-content img.bleed {
+	max-width: 48.542em !important;
+	border: none;
+	margin-left: -9.271em;
+	}
+
+}
+
 .entry-content h1,
 .entry-content h2 {
 	font-size: 1.167em;
@@ -80,6 +89,7 @@ entry a:focus {
 	font-weight: 300;
 	color: #000;
 	text-align: center;
+	color: $highlight;
 }
 
 .entry-content h3,
@@ -91,6 +101,7 @@ entry a:focus {
 	font-weight: 300;
 	color: #000;
 	text-align: center;
+	color: $highlight;
 }
 
 .entry-content blockquote {
@@ -114,7 +125,9 @@ entry a:focus {
 	color: $grey;
 	font-family: $secondary-font;
 	font-weight: 300;
-	margin-bottom: 0.75em;
+	margin-bottom: 1.5em;
+	line-height: 1.143em;
+	font-size: 0.875em;
 }
 
 .entry-content table {
