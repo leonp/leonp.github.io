@@ -8,7 +8,7 @@
 // Variables
 
 $main-font: georgia, serif;
-$secondary-font: 'Source Sans Pro', 'Open Sans', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
 
 
 $blh: 0.25em;
