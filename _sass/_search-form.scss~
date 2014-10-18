@@ -30,8 +30,7 @@
 
 .search-form-submit {
 	cursor: pointer;
-	background-color: $link;
-	color: #FFF;
+	background-color: $grey;
 }
 
 }
