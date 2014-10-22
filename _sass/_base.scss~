@@ -43,7 +43,7 @@ body {
 	
 	@media #{$bp} {
 		font-size: 112.5%;
-		background-color: #FCFCFC;
+		background-color: #FFF;
 		border-top: none;
 		margin: 1.5em auto;
 	}
