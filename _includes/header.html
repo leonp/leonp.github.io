@@ -31,14 +31,19 @@
 			
 		</div>
 						
-		<nav class="nav clearfix note" id="nav" role="navigation">
+		<nav class="nav clearfix" id="nav" role="navigation">
+		
+			<div class="inner-wrapper">
 	
-			<ul>
-				<li class="nav-item"><h1 class="nav-title"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}>Leon Paternoster</a></h1></li>
-				<li class="nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>	
-				<li class="nav-item"><a href="/work"{% if page.title == "Work" %} class="active"{% endif %}>Work</a></li>
-	
-			</ul>
+				<ul class="note">
+				
+					<li class="nav-item"><h1 class="nav-title"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}>Leon Paternoster</a></h1></li>
+					<li class="nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>	
+					<li class="nav-item"><a href="/work"{% if page.title == "Work" %} class="active"{% endif %}>Work</a></li>
+		
+				</ul>
+				
+			</div>
 	
 		</nav>
 		

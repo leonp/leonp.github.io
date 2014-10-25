@@ -2,7 +2,6 @@
 
 .search-form {
 	margin-bottom: 0.75em;
-	text-align: center;
 }
 
 .search-form-label {
@@ -14,8 +13,8 @@
 .search-form-search,
 .search-form-submit {
 	font-family: $main-font;
-	font-size: 1em;
-	padding: 0.25em;
+	font-size: 0.9375em;
+	padding: 0.125em;
 	border-radius: 0;
 	border: 1px solid $lgrey;
 }

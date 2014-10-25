@@ -14,19 +14,22 @@
 .nav {
 	padding: 1em 0;
 	margin-bottom: 1em;
-	text-align: center;
 	font-family: $secondary-font;
 	font-weight: 800;
 	
 	@media #{$bp} {
-		padding: 1.5em 0 0 0;
-		margin-bottom: 0;
+		padding: 1.5em 0;
+		margin-bottom: 1.5em;
 	}
 }
 
 .nav a {
 	padding: 0 0.75em;
 }
+
+	.nav li a:first-child {
+		padding-left: 0;
+	}
 
 .nav li:after {
 	content: '\00B7';

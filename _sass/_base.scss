@@ -43,7 +43,7 @@ body {
 	
 	@media #{$bp} {
 		font-size: 150%;
-		background-color: #FCFCFC;
+		background-color: #FFF;
 		margin: 0 auto;
 	}
 }
@@ -74,9 +74,7 @@ a img {
 	padding: 0 1.5em;
 	
 	@media #{$bp} {
-		padding: 3em 9.271em;
 		background-color: #FFF;
-		margin: 1.5em auto;
 	}
 }
 

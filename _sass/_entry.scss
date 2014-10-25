@@ -16,7 +16,6 @@ entry a:focus {
 
 .entry-header {
 	padding-bottom: 1.5em;
-	text-align: center;
 }
 
 .entry-title {
@@ -73,9 +72,9 @@ entry a:focus {
 
 @media #{$bp} {
 	.entry-content img.bleed {
-	max-width: 48.542em !important;
+	max-width: 39em !important;
 	border: none;
-	margin-left: -9.271em;
+	margin-left: -4.5em;
 	}
 
 }
@@ -87,7 +86,6 @@ entry a:focus {
 	padding: 1.286em 0 0.643em 0;
 	font-family: $secondary-font;
 	font-weight: 800;
-	text-align: center;
 	color: $highlight;
 }
 
@@ -98,7 +96,6 @@ entry a:focus {
 	padding: 0.75em 0 0.5em 0;
 	font-family: $secondary-font;
 	font-weight: 800;
-	text-align: center;
 	color: $highlight;
 }
 
