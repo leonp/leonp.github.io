@@ -14,21 +14,7 @@
 		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 		<link href="/feed" rel="alternate" type="application/rss+xml" title="{{ site.title }}">
 		
-		<script>
-			WebFontConfig = {
-			google: { families: [ 'Source+Sans+Pro:300:latin' ] }
-			};
-			(function() {
-			var wf = document.createElement('script');
-			wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-			'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-			wf.type = 'text/javascript';
-			wf.async = 'true';
-			var s = document.getElementsByTagName('script')[0];
-			s.parentNode.insertBefore(wf, s);
-			})();
-
-		</script>
+		<link rel="stylesheet" href="//brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700/Alegreya+Sans:800">
 		
 	</head>
 	
@@ -45,14 +31,19 @@
 			
 		</div>
 						
-		<nav class="nav clearfix note" id="nav" role="navigation">
+		<nav class="nav clearfix" id="nav" role="navigation">
+		
+			<div class="inner-wrapper">
 	
-			<ul>
-				<li class="nav-item"><h1 class="nav-title"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}>Leon Paternoster</a></h1></li>
-				<li class="nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>	
-				<li class="nav-item"><a href="/work"{% if page.title == "Work" %} class="active"{% endif %}>Work</a></li>
-	
-			</ul>
+				<ul class="note">
+				
+					<li class="nav-item"><h1 class="nav-title"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}>Leon Paternoster</a></h1></li>
+					<li class="nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>	
+					<li class="nav-item"><a href="/work"{% if page.title == "Work" %} class="active"{% endif %}>Work</a></li>
+		
+				</ul>
+				
+			</div>
 	
 		</nav>
 		
