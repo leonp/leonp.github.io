@@ -24,7 +24,7 @@
 			
 			<ul class="nav secondary note">
 			
-				<li class="nav-item">{{ words }} words</li> 			
+				<li class="nav-item">{ words }} words</li> 			
 				<li class="nav-item"><a href="/archive">Archive</a></li>
 				<li class="nav-item"><a href="/feed">RSS</a></li>
 			
