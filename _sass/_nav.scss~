@@ -25,6 +25,10 @@
 
 .nav li {
 	margin-right: 0.75em;
+	
+	@media #{$bp} {
+		margin-right: 1.5em;
+	}
 }	
 
 .nav a:link,
