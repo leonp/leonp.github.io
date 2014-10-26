@@ -34,7 +34,7 @@ main {
 }
 
 body {
-	font-size: 100%;
+	font-size: 112.5%;
 	line-height: $blh * 6;
 	font-family: $main-font;
 	background-color: #FFF;
@@ -42,10 +42,9 @@ body {
 	border-top: 0.25em solid $base-colour;
 	
 	@media #{$bp} {
-		font-size: 112.5%;
+		font-size: 150%;
 		background-color: #FFF;
-		border-top: none;
-		margin: 1.5em auto;
+		margin: 0 auto;
 	}
 }
 
@@ -75,11 +74,7 @@ a img {
 	padding: 0 1.5em;
 	
 	@media #{$bp} {
-		padding: 3em 9.271em;
 		background-color: #FFF;
-		margin: 1.5em auto;
-		border: 1px solid #CFCFCF;
-		border-radius: 0.25em;
 	}
 }
 
@@ -89,8 +84,6 @@ a img {
 
 .secondary {
 	color: $grey;
-	font-family: $secondary-font;
-	font-weight: 300;
 }
 
 .note {
