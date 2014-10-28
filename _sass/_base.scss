@@ -34,7 +34,7 @@ main {
 }
 
 body {
-	font-size: 112.5%;
+	font-size: 106.75%;
 	line-height: $blh * 6;
 	font-family: $main-font;
 	background-color: #FFF;
@@ -42,7 +42,7 @@ body {
 	border-top: 0.25em solid #000;
 	
 	@media #{$bp} {
-		font-size: 150%;
+		font-size: 137.5%;
 		background-color: #FFF;
 		margin: 0 auto;
 	}
@@ -69,7 +69,7 @@ a img {
 }
 
 .inner-wrapper {
-	max-width: 30em;
+	max-width: 32em;
 	margin: 0 auto;
 	padding: 0 1.5em;
 	

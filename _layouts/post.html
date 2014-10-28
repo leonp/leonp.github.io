@@ -22,14 +22,8 @@
 				{{ page.content | number_of_words }}
 			{% endcapture %}
 			
-			<ul class="nav secondary note">
-			
-				<li class="nav-item">{{ words }} words</li> 			
-				<li class="nav-item"><a href="/archive">Archive</a></li>
-				<li class="nav-item"><a href="/feed">RSS</a></li>
-			
-			</ul>
-			
+			<p class="secondary note">{{ words }} words. If you enjoyed them, subscribe to the <a href="/feed">RSS feed</a> and <a href="/archive">browse the archive</a>.</p>
+						
 			<div class="pagination clearfix">
 			
 				{% if page.next %}

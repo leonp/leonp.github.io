@@ -2,7 +2,8 @@
 
 .nav-item {
 	display: inline;
-	text-transform: uppercase;
+	text-transform: lowercase;
+	font-variant: small-caps;
 	list-style-type: none;
 	letter-spacing: 1px;
 	
@@ -14,8 +15,6 @@
 .nav {
 	padding: 1em 0;
 	margin-bottom: 1em;
-	font-family: $secondary-font;
-	font-weight: 800;
 	
 	@media #{$bp} {
 		padding: 1.5em 0;
@@ -47,10 +46,10 @@
 .nav-title {
 	font-size: 1em;
 	display: inline;	
-	font-family: $secondary-font;
-	font-weight: 800;
-	text-transform: uppercase;
+	text-transform: lowercase;
+	font-variant: small-caps;
 	letter-spacing: 1px;
+	font-weight: normal;
 }
 
 }

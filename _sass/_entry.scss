@@ -40,7 +40,8 @@ entry a:focus {
 .entry-content p,
 .entry-content ul,
 .entry-content ol,
-.entry-content dd {
+.entry-content dd,
+.entry-footer p {
 	margin-bottom: 0.75em;
 	-moz-hyphens: auto;
 	-webkit-hyphens: auto;
@@ -72,7 +73,7 @@ entry a:focus {
 
 @media #{$bp} {
 	.entry-content img.bleed {
-	max-width: 39em !important;
+	max-width: 41em !important;
 	border: none;
 	margin-left: -4.5em;
 	}
