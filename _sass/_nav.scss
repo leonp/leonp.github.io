@@ -6,10 +6,6 @@
 	font-variant: small-caps;
 	list-style-type: none;
 	letter-spacing: 1px;
-	
-	@media #{$bp} {
-		font-size: 0.875em;
-	}
 }
 
 .nav {
@@ -39,7 +35,7 @@
 .nav a:active,
 .nav a:focus,
 .nav a.active {
-	color: $base-colour;;
+	color: #000;
 	text-decoration: none;
 }
 
