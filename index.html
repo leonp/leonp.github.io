@@ -7,25 +7,18 @@ show: yes
 
 <h2>Recent posts</h2>
 
-<ul class="link-list">
+<ul class="complex-list">
 
-{% for post in site.posts limit:3 %}
+{% for post in site.posts limit:5 %}
 
-	<li class="link-list-item">
+	<li>
 		
-		<span class="link-list-meta secondary note">{{ post.date | date: "%b %-d, %Y" }}</span><br>
-		<a class="link-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		<div class="complex-list-title"><a class="link-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+		
+		<div class="complex-list-info">{{ post.date | date: "%b %-d, %Y" }}</div>
 
 	</li>
 
 {% endfor %}
 
 </ul>
-
-<p><em><a href="/archive">Archive of every post &rarr;</a></em></p>
-
-<h2>Work</h2>
-
-<p>I've been building and managing websites since 2008 and provide a range of services, from consultancy to coding and hosting.</p>
-
-<p><em><a href="/work">See my previous work and contact me &rarr;</a></em></p>

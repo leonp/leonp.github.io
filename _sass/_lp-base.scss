@@ -1,0 +1,18 @@
+@media screen, projection {
+
+body {
+	font-size: $layout-bs;
+	font-family: $font-primary;
+	line-height: 1.4;
+	background-color: #FFF;
+	color: $colour-base;
+
+	@media #{$layout-bp} {
+		font-size: $layout-ws;
+		background-color: #FFF;
+		margin: 0 auto;
+	}
+
+}
+
+}

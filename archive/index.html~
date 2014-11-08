@@ -6,6 +6,8 @@ show: yes
 ---
 
 <form class="pure-form form-custom" role="search" method="get" id="search" action="http://google.com/search">
+	
+	<p><small>Search my site with Google:</small></p>
 
 	<input type="hidden" value="site:leonpaternoster.com" name="q">
 	<input type="search" class="pure-input-2-3" name="q" placeholder="Search this site with Google">

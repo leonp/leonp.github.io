@@ -1,5 +1,7 @@
 {% include header.html %}
 
+<article class="entry">
+
 	{% if page.title %}
 				
 		<header class="entry-header">
@@ -15,5 +17,7 @@
 		{{ content }}
 		
 	</div>
+	
+</article>
 
 {% include footer.html %}
