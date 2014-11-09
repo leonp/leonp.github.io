@@ -133,7 +133,7 @@ Because words should be printed.
 	
 	.secondary {
 		font-size: 0.875em;
-		line-height: 1.3714;
+		line-height: 1.3714em;
 	}
 	
 	.amp {
@@ -186,12 +186,12 @@ Because words should be printed.
 	
 	.panel {
 		padding: 0.8em;
-		background-color: #FCF800;
+		background-color: #F1F1F1;
 	}
 	
 	.reversed {
 		background-color: #F1F1F1;
-		color: #FFF;
+		color: #333;
 		background-attachment: fixed;
 	}
 	
@@ -247,6 +247,11 @@ Because words should be printed.
 			max-width: 32em;
 		}
 		
+		.entry-content ul,
+		.entry-content ol {
+			margin-left: 2.8em;
+		}
+		
 		.entry-content img {
 			width: auto;
 			max-width: 100% !important;
@@ -295,7 +300,7 @@ Because words should be printed.
 		}
 		
 	.pagination {
-		padding: 0.8em 0;
+		padding: 1.6em 0 0.8em 0;
 	}
 		
 	.slot {
@@ -314,7 +319,7 @@ Because words should be printed.
 		
 	.complex-list li {
 		list-style-type: none;
-		margin-bottom: 0.4em;
+		margin-bottom: 0.8em;
 	}
 	
 		.complex-list-info {
@@ -330,6 +335,16 @@ Because words should be printed.
 		font-family: 'Open Sans', 'Helvetica Neue', 'Nimbus Sans L', helvetica, arial, sans-serif;
 		margin-bottom: 1.6em;
 	}
+	
+	.footnote {
+		padding-top: 0.4em;
+		font-size: 0.875em;
+		line-height: 1.3714em;
+	}
+	
+		.footnote p {
+			margin-bottom: 0.6857em;
+		}
 		
 			
 } /* End base query */
@@ -346,7 +361,6 @@ Because words should be printed.
 	
 	.complex-list li {
 		overflow: hidden;
-		margin-bottom: 0.8em;
 	}
 	
 	.complex-list-title,
@@ -448,7 +462,7 @@ Because words should be printed.
 		left: 0;
 		position: fixed;
 		border-top: none;
-		border-left: 0.2em solid #FCF800;
+		border-left: 0.4em solid #FCF800;
 		box-shadow: 0.4em 0 0.4em #AFAFAF;
 	}
 	

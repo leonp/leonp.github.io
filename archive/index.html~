@@ -6,8 +6,6 @@ show: yes
 ---
 
 <form class="pure-form form-custom" role="search" method="get" id="search" action="http://google.com/search">
-	
-	<p><small>Search my site with Google:</small></p>
 
 	<input type="hidden" value="site:leonpaternoster.com" name="q">
 	<input type="search" class="pure-input-2-3" name="q" placeholder="Search this site with Google">
@@ -41,7 +39,7 @@ show: yes
 
 			<li>
 	
-				<div class="complex-list-title"><a class="link-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+				<div class="complex-list-title"><a class="link-list-link secondary" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
 		
 				<div class="complex-list-info meta"><time>{{ post.date | date: "%b %-d, %Y" }}</time></div>
 

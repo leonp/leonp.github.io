@@ -13,9 +13,9 @@ show: yes
 
 	<li>
 		
-		<div class="complex-list-title"><a class="link-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+		<div class="complex-list-title"><a class="link-list-link meta secondary" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
 		
-		<div class="complex-list-info meta secondary">{{ post.date | date: "%b %-d, %Y" }}</div>
+		<div class="complex-list-info">{{ post.date | date: "%b %-d, %Y" }}</div>
 
 	</li>
 
