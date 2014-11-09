@@ -249,7 +249,7 @@ Because words should be printed.
 		
 		.entry-content ul,
 		.entry-content ol {
-			margin-left: 2.8em;
+			margin-left: 1.25em;
 		}
 		
 		.entry-content img {
@@ -315,6 +315,7 @@ Because words should be printed.
 		
 	.complex-list {
 		margin-bottom: 1.6em !important;
+		margin-left: 0 !important;
 	}
 		
 	.complex-list li {
@@ -374,6 +375,11 @@ Because words should be printed.
 		margin-right: 0;
 		padding: 0.2em 0;
 		list-style-type: none;
+	}
+	
+	.entry-content ul,
+	.entry-content ol {
+		margin-left: 0;
 	}
 	
 	.complex-list li {

@@ -315,6 +315,7 @@ Because words should be printed.
 		
 	.complex-list {
 		margin-bottom: 1.6em !important;
+		margin-left: 0 !important;
 	}
 		
 	.complex-list li {
@@ -346,6 +347,23 @@ Because words should be printed.
 			margin-bottom: 0.6857em;
 		}
 		
+		.footnote a:link {
+			color: #0000FF;
+			border-bottom: 1px dotted #AFAFAF;
+		}
+		
+		.footnote a:visited {
+			color: #336699;
+			border-bottom: 1px dotted #AFAFAF;
+		}
+		
+		.footnote a:hover,
+		.footnote a:active,
+		.footnote a:focus {
+			color: #0000FF;
+			border-bottom: 1px dotted #0000FF;
+		}
+		
 			
 } /* End base query */
 
@@ -357,6 +375,11 @@ Because words should be printed.
 		margin-right: 0;
 		padding: 0.2em 0;
 		list-style-type: none;
+	}
+	
+	.entry-content ul,
+	.entry-content ol {
+		margin-left: 0;
 	}
 	
 	.complex-list li {
