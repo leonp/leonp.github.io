@@ -5,10 +5,9 @@ description: Curated posts from 2008. A mix of web, literature, politics and a l
 show: yes
 ---
 
-<form class="pure-form form-custom" role="search" method="get" id="search" action="http://google.com/search">
+<form class="pure-form form-custom" role="search">
 
-	<input type="hidden" value="site:leonpaternoster.com" name="q">
-	<input type="search" class="pure-input-2-3" name="q" placeholder="Search this site with Google">
+	<input type="search" class="pure-input-2-3" id="search-query" placeholder="Search this site with Google">
 	<input type="submit" class="pure-button pure-button-primary" value="Search">
 
 </form>
@@ -39,9 +38,9 @@ show: yes
 
 			<li>
 	
-				<div class="complex-list-title"><a class="link-list-link secondary" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+				<div class="complex-list-title"><a class="link-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
 		
-				<div class="complex-list-info meta"><time>{{ post.date | date: "%b %-d, %Y" }}</time></div>
+				<div class="complex-list-info meta secondary"><time>{{ post.date | date: "%b %-d, %Y" }}</time></div>
 
 			</li>
 

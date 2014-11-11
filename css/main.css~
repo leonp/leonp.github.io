@@ -249,7 +249,7 @@ Because words should be printed.
 		
 		.entry-content ul,
 		.entry-content ol {
-			margin-left: 2.8em;
+			margin-left: 1.25em;
 		}
 		
 		.entry-content img {
@@ -363,6 +363,62 @@ Because words should be printed.
 			color: #0000FF;
 			border-bottom: 1px dotted #0000FF;
 		}
+		
+	/* Styling for the search engine plugin. All classes begin st- */
+	
+	.st-result {
+		border-bottom: 0 !important;
+		margin-bottom: 0.8em !important;
+		padding-bottom: 0.8em !important;
+	}
+	
+	/* Style search engine summary (above search results list) */
+	
+	.st-search-summary {
+		border: none !important;
+		margin: 0 !important;
+		padding-bottom: 0.8em !important;
+	}
+	
+		.st-search-summary h2 {
+			font-size: 1em !important;
+			font-family: Lora, georgia, serif !important;
+			padding: 1.6em 0 0 0 !important;
+		}
+		
+		.st-query {
+			font-style: normal !important;
+			font-weight: bold !important;
+		}
+		
+	
+	/* Style search engine results headings the same as subsub headings. */
+	
+	.st-result-text h3 {
+		font-size: 0.875em !important;
+		line-height: 1.3714 !important;
+		padding: 0.9143em 0 0.4571em 0 !important;
+		font-family: 'Open Sans', 'Helvetica Neue', 'Nimbus Sans L', helvetica, arial, sans-serif !important;
+		color: #888 !important;
+	}
+	
+	/* Style search engine snippets. */
+	
+	.st-snippet {
+		font-size: 1em !important;
+	}
+	
+		.st-snippet em {
+			font-style: normal !important;
+			background-color: #FCF800 !important;
+		}
+		
+	/* Style search engine pagination */
+	
+	.st-pagination {
+		padding-top: 0.8em !important;
+		border: none !important;
+	}
 		
 			
 } /* End base query */
