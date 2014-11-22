@@ -7,7 +7,7 @@ I have a confession: Newcastle United _annoy_ me. I know this is somehow wrong, 
 
 Why do I not like &#8216;the Toon&#8217;? Well, there's Alan Shearer, with his bigcollared, two tone Man at Next shirts and forever duff tactical analysis and dismal managerial record to match. Then there's the mawkish, unrealistic fans. All fairly irrational, typical football fan reasons.
 
-<p><img src="https://dl-web.dropbox.com/get/public/assets/images/nufcfans.jpg?_subject_uid=321454970&w=AADHHxT7MimaIS51PhgGpoQB3TZeJ5TEwQP_GIt6JbDbcg" alt="Newcastle fans" height="599" width="600" class="bleed"></p>
+<p><img src="/images/nufcfans.jpg" alt="Newcastle fans" height="599" width="600" class="bleed"></p>
 
 <p class="figcaption">Some Newcatle fans, yesterday</p>
 
@@ -17,7 +17,7 @@ My Newcastle objection is based on money and ownership. Now, Newcastle aren't th
 
 Nor are Newcastle fans unique in accepting this state of affairs; City fans are especially &#8216;umble in the presence of their royal benefactors:
 
-<p><img src="https://dl-web.dropbox.com/get/public/assets/images/city-fans.jpg?_subject_uid=321454970&w=AADNQt3BQshn2TNh7nYWzwMiSuUIKnv1D5b5RZac0nxDZg" alt="Manchester City banner saying Manchester thanks you, Sheikh Mansoor" height="296" width="699"></p>
+<p><img src="/images/city-fans.jpg" alt="Manchester City banner saying Manchester thanks you, Sheikh Mansoor" height="296" width="699"></p>
 
 No. It's the fact that they're run by a <a href="http://www.chroniclelive.co.uk/news/north-east-news/mike-ashley-newcastle-united-owners-7101870">businessman worth nearly &pound;4 billion</a> whose <a href="http://www.theguardian.com/business/2014/oct/27/sports-direct-zero-hours-contract-terms">_British_ company can't even guarantee its workers regular hours</a>. They're also sponsored by Wonga, who lend money to poor people at an <a href="www.theguardian.com/business/2014/oct/08/wonga-banned-tv-ad-interest-rate">interest rate of 5,853% APR</a>.
 
