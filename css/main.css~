@@ -190,11 +190,11 @@ Because words should be printed.
 	}
 	
 	.reversed {
-		background-color: #000;
+		background-color: #333;
 		color: #FFF;
 		background-attachment: fixed;
 		font-family: 'Open Sans', 'Helvetica Neue', 'Nimbus Sans L', helvetica, arial, sans-serif;
-		text-transform: uppercae;
+		text-transform: uppercase;
 	}
 	
 		.reversed a:link,
