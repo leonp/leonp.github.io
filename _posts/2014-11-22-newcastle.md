@@ -25,7 +25,7 @@ Newcastle is a working class city &#8211; if that phrase means anything these da
 
 But now we have a gruesome, modern factory line: low paid workers unable to rely on regular work sent to a usurious, <a href="http://www.mirror.co.uk/night-copy/wonga-the-men-who-made-50million-830110">Tory owned company</a> at the end of the month in order to make ends meet. You'd think (or hope) this would cause Newcastle fans, some of whom can surely relate to this state of affairs, a _little_ consternation; but no, very little I'm aware off.
 
-Of course, British football has never really been a hotbed of working class activism. Clubs have historically been owned, and <a href="http://en.wikipedia.org/wiki/Administration_%28British_football%29">sent into administration</a>, by wealthy businessmen (and it is men 99% of the time) while fans have been quite happy to lap up the entertainment on offer. My own Ipswich Town was run by local Etonians for decades, until we got <a href="http://en.wikipedia.org/wiki/Marcus_Evans">our very own tax dodging millionaire</a>.
+Of course, British football has never really been a hotbed of working class activism. Clubs have historically been owned, and <a href="http://en.wikipedia.org/wiki/Administration_%28British_football%29">sent into administration</a>, by wealthy businessmen and toffs (and it is men 99% of the time) while fans have been quite happy to lap up the entertainment on offer. My team Ipswich Town was run by local Etonians for decades, until we got <a href="http://en.wikipedia.org/wiki/Marcus_Evans">our very own tax dodging millionaire</a>.
 
 Fan ownership has been a largely minority pursuit, but at least it offers some alternative to the dodgy billions.
 
