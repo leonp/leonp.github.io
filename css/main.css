@@ -193,8 +193,6 @@ Because words should be printed.
 		background-color: #333;
 		color: #FFF;
 		background-attachment: fixed;
-		font-family: 'Open Sans', 'Helvetica Neue', 'Nimbus Sans L', helvetica, arial, sans-serif;
-		text-transform: uppercase;
 	}
 	
 		.reversed a:link,
@@ -505,6 +503,8 @@ Because words should be printed.
 	
 	.g-sidebar {
 		border-top: 0.2em solid #FCF400;
+		font-family: 'Open Sans', 'Helvetica Neue', 'Nimbus Sans L', helvetica, arial, sans-serif;
+		text-transform: uppercase;
 	}
 	
 } /* End base query */
@@ -541,11 +541,11 @@ Because words should be printed.
 	.g-sidebar {
 		top: 0;
 		bottom: 0;
-		left: 0;
+		right: 0;
 		position: fixed;
 		border-top: none;
-		border-left: 0.4em solid #FCF400;
-		box-shadow: 0.4em 0 0.4em #AFAFAF;
+		border-right: 0.4em solid #FCF400;
+		box-shadow: -0.4em 0 0.4em #AFAFAF;
 	}
 	
 } /* End widescreen query */

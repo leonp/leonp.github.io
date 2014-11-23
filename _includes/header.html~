@@ -29,7 +29,7 @@
 		s.parentNode.insertBefore(wf, s);
 		})(); </script>
 		
-		{% if page.title == "Archive" or page.title == "Search" %}
+		{% if page.title == "Archive" or page.title == "Search results" %}
 		
 			<script>
 				(function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
@@ -55,7 +55,7 @@
 		
 		<div class="g">
 			
-			<div class="g-col g-small g-left g-sidebar reversed">
+			<div class="g-col g-small g-right g-sidebar reversed">
 		
 				<div class="g-content">
 				
