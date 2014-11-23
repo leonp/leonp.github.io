@@ -190,21 +190,23 @@ Because words should be printed.
 	}
 	
 	.reversed {
-		background-color: #F1F1F1;
-		color: #333;
+		background-color: #000;
+		color: #FFF;
 		background-attachment: fixed;
+		font-family: 'Open Sans', 'Helvetica Neue', 'Nimbus Sans L', helvetica, arial, sans-serif;
+		text-transform: uppercae;
 	}
 	
 		.reversed a:link,
 		.reversed a:visited {
-			color: #000;
+			color: #FFF;
 		}
 		
 		.reversed a:hover,
 		.reversed a:active,
 		.reversed a:focus,
 		.reversed a.active {
-			color: #0000FF;
+			color: #FCF400;
 		}
 	
 	.entry {
@@ -389,6 +391,7 @@ Because words should be printed.
 		.st-query {
 			font-style: normal !important;
 			font-weight: bold !important;
+			color: #333 !important;
 		}
 		
 	
@@ -501,7 +504,7 @@ Because words should be printed.
 	}
 	
 	.g-sidebar {
-		border-top: 0.2em solid #FCF800;
+		border-top: 0.2em solid #FCF400;
 	}
 	
 } /* End base query */
@@ -541,7 +544,7 @@ Because words should be printed.
 		left: 0;
 		position: fixed;
 		border-top: none;
-		border-left: 0.4em solid #FCF800;
+		border-left: 0.4em solid #FCF400;
 		box-shadow: 0.4em 0 0.4em #AFAFAF;
 	}
 	
