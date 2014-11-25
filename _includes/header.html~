@@ -17,7 +17,7 @@
 		
 		<script>
 		WebFontConfig = {
-		google: { families: [ 'Lora:400,700,400italic:latin', 'Open+Sans:400,700:latin' ] }
+		google: { families: [ 'Lora:400,700,400italic:latin', 'Open+Sans:400,400italic,700:latin' ] }
 		};
 		(function() {
 		var wf = document.createElement('script');
@@ -61,18 +61,22 @@
 				
 					<header role="banner">
 					
-						<h1 class="logo"><a href="/">Leon Paternoster</a></h1>
+						<div class="wrapper">
+					
+							<h1 class="logo"><a href="/">Leon Paternoster</a></h1>
 						
-						<nav id="nav" role="navigation">
+							<nav id="nav" role="navigation">
 			
-							<ul class="menu-main secondary">
+								<ul class="menu-main secondary">
 				
-								<li class="nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>	
-								<li class="nav-item"><a href="/work"{% if page.title == "Work" %} class="active"{% endif %}>Work</a></li>
+									<li class="nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>	
+									<li class="nav-item"><a href="/work"{% if page.title == "Work" %} class="active"{% endif %}>Work</a></li>
 		
-							</ul>
+								</ul>
 							
-						</nav>
+							</nav>
+							
+						</div> <!-- end .wrapper -->
 						
 					</header>
 					

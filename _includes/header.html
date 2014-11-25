@@ -61,18 +61,22 @@
 				
 					<header role="banner">
 					
-						<h1 class="logo"><a href="/">Leon Paternoster</a></h1>
+						<div class="wrapper">
+					
+							<h1 class="logo"><a href="/">Leon Paternoster</a></h1>
 						
-						<nav id="nav" role="navigation">
+							<nav id="nav" role="navigation">
 			
-							<ul class="menu-main secondary">
+								<ul class="menu-main secondary">
 				
-								<li class="nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>	
-								<li class="nav-item"><a href="/work"{% if page.title == "Work" %} class="active"{% endif %}>Work</a></li>
+									<li class="nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>	
+									<li class="nav-item"><a href="/work"{% if page.title == "Work" %} class="active"{% endif %}>Work</a></li>
 		
-							</ul>
+								</ul>
 							
-						</nav>
+							</nav>
+							
+						</div> <!-- end .wrapper -->
 						
 					</header>
 					
@@ -83,7 +87,9 @@
 			<div class="g-col g-left g-big">
 			
 				<div class="g-content">
+				
+					<div class="wrapper">
 		
-					<main role="main" id="content">
+						<main role="main" id="content">
 					
-						<article class="entry">
+							<article class="entry">

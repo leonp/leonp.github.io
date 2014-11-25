@@ -239,12 +239,15 @@ Because words should be printed.
 			-webkit-hyphens: auto;
 		}
 		
+		.entry-content {
+			
+		}
+		
 		.entry-content p,
 		.entry-content ul,
 		.entry-content ol,
 		.entry-content dd {
 			margin-bottom: 0.8em;
-			max-width: 32em;
 		}
 		
 		.entry-content ul,
@@ -257,7 +260,7 @@ Because words should be printed.
 			max-width: 100% !important;
 			height: auto;
 			display: block;
-			margin-bottom: 0.8em;
+			margin: 0 auto 0.8em auto;
 		}
 		
 		.entry-content blockquote {
@@ -474,11 +477,11 @@ Because words should be printed.
 } /* End widescreen query */
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1020px) {
 	
 	.entry-content .bleed {
-		margin-left: -3.2em;
-		max-width: 35.2em !important;
+		margin-left: -3.5em;
+		max-width: 39em !important;
 	}
 	
 } /* End very widescreen query */
@@ -545,7 +548,7 @@ Because words should be printed.
 		position: fixed;
 		border-top: none;
 		border-right: 0.4em solid #FCF400;
-		box-shadow: 0.4em 0 0.4em #AFAFAF;
+		box-shadow: -0.4em 0 0.4em #AFAFAF;
 	}
 	
 } /* End widescreen query */
