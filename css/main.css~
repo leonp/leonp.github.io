@@ -477,7 +477,7 @@ Because words should be printed.
 } /* End widescreen query */
 
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1200px) {
 	
 	.entry-content .bleed {
 		margin-left: -3.5em;
@@ -495,6 +495,11 @@ Because words should be printed.
 
 @media screen, projection {
 
+	.wrapper {
+		max-width: 32em;
+		margin: 0 auto;
+	}
+	
 	.g {
 		clear: both;
 		overflow: hidden;
@@ -548,7 +553,6 @@ Because words should be printed.
 		position: fixed;
 		border-top: none;
 		border-right: 0.4em solid #FCF400;
-		box-shadow: -0.4em 0 0.4em #AFAFAF;
 	}
 	
 } /* End widescreen query */

@@ -477,11 +477,11 @@ Because words should be printed.
 } /* End widescreen query */
 
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1200px) {
 	
 	.entry-content .bleed {
-		margin-left: -3.5em;
-		max-width: 39em !important;
+		margin-left: -2.8em;
+		max-width: 37.6em !important;
 	}
 	
 } /* End very widescreen query */
@@ -553,7 +553,6 @@ Because words should be printed.
 		position: fixed;
 		border-top: none;
 		border-right: 0.4em solid #FCF400;
-		box-shadow: -0.4em 0 0.4em #AFAFAF;
 	}
 	
 } /* End widescreen query */
