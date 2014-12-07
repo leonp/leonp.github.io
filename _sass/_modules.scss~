@@ -98,7 +98,7 @@ CONTENTS
 }
 
 .entry-content a:link {
-	color: $link;
+	color: $highlight;
 }
 
 .entry-content a:visited {

@@ -99,6 +99,7 @@ CONTENTS
 
 .entry-content a:link {
 	color: $highlight;
+	border-bottom: 1px dotted $grey;
 }
 
 .entry-content a:visited {
