@@ -34,18 +34,31 @@ main {
 }
 
 body {
-	font-size: 112.5%;
-	line-height: $blh * 6;
+	font-size: 100%;
+	line-height: 1.4; /* 28px at widescreen */
 	font-family: $main-font;
-	background-color: #FFF;
-	color: $base-colour;
-	border-top: 0.25em solid $base-colour;
+	background-color: $light;
+	color: $dark;
+	border-top: 0.8889em solid $dark;
 	
 	@media #{$bp} {
-		font-size: 150%;
-		background-color: #FFF;
-		margin: 0 auto;
+		font-size: 112.5%;
 	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dt {
+	font-weight: 300;
+	color: $highlight;
+}
+
+code {
+	color: #669900;
 }
 
 a {
@@ -54,65 +67,18 @@ a {
 
 a:link,
 a:visited {
-	color: $link;
+	color: $highlight;
 }
 
 a:hover,
 a:active,
 a:focus {
-	text-decoration: underline;
+	background-color: $lgrey;
 }
 
 a img {
 	border: none;
 	color: #FFF;
-}
-
-.inner-wrapper {
-	max-width: 30em;
-	margin: 0 auto;
-	padding: 0 1.5em;
-	
-	@media #{$bp} {
-		background-color: #FFF;
-	}
-}
-
-.active {
-	text-decoration: underline;
-}
-
-.secondary {
-	color: $grey;
-}
-
-.note {
-	font-size: 0.875em;
-	line-height: 1.429em;
-}	
-
-.clearfix:before,
-.clearfix:after {
-	content: "";
-	display: block;
-}
-
-.clearfix:after {
-	clear: both;
-}
-
-.clearfix {
-	zoom: 1;
-}
-
-.hide {
-	position: absolute !important;
-	clip: rect(1px 1px 1px 1px);
-	clip: rect(1px, 1px, 1px, 1px);
-}
-
-.align-centre {
-	text-align: center;
 }
 
 }

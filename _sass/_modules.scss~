@@ -21,12 +21,12 @@ CONTENTS
 .secondary {
 	color: $grey;
 	font-size: 0.8077em;
-	line-height: 1.3756em;
+	line-height: 1.2381em;
 }
 
 .primary {
 	font-size: 1.3077em;
-	line-height: 1.3595em;
+	line-height: 1.3765em;
 }
 
 .clearfix:before,
@@ -79,10 +79,10 @@ CONTENTS
 */
 
 .entry-header {
-	margin-bottom: 1.1111em;
+	margin-bottom: 1em;
 	
 	@media #{$bp} {
-		margin-bottom: 2.2222em;
+		margin-bottom: 2em;
 	}
 }
 
@@ -94,11 +94,12 @@ CONTENTS
 }
 
 .entry-content {
-	padding-bottom: 0.8889em;
+	padding-bottom: 1em;
 }
 
 .entry-content a:link {
 	color: $highlight;
+	border-bottom: 1px dotted $grey;
 }
 
 .entry-content a:visited {
@@ -115,7 +116,7 @@ CONTENTS
 .entry-content ul,
 .entry-content ol,
 .entry-content dd {
-	margin-bottom: 0.8889em;
+	margin-bottom: 0.8em;
 }
 
 .entry-content li {
@@ -129,14 +130,16 @@ CONTENTS
 .entry-content blockquote {
 	margin-left: 1.4em;
 	padding-left: 0.7em;
-	border-left: 0.2222em solid $lgrey;
+	font-size: 0.8077em;
+	line-height: 1.2381em;
+	border-left: 0.2em solid $lgrey;
 }
 
 .entry-content h1,
 .entry-content h2 {
 	font-size: 1.3077em;
-	line-height: 1.3595em;
-	padding: 0.6797em 0;
+	line-height: 1.2235em;
+	padding: 0.6118em 0;
 	font-style: italic;
 	color: $dark;
 }
@@ -155,13 +158,13 @@ CONTENTS
 
 .entry-footer ul,
 .entry-footer p {
-	margin-bottom: 0.8889em;
+	margin-bottom: 0.8em;
 }
 
 .entry-content hr {
 	width: 38%;
-	margin: 0 auto 0.8889em auto;
-	padding-top: 1.7778em 0;
+	margin: 0 auto 0.8em auto;
+	padding-top: 1.6em 0;
 	border: none;
 	border-bottom: 1px solid $lgrey;
 }
@@ -184,7 +187,7 @@ CONTENTS
 }
 
 .figcaption {
-	padding-bottom: 0.8889em;
+	padding-bottom: 0.8em;
 	color: $grey;
 	font-style: italic;
 }
@@ -214,7 +217,7 @@ CONTENTS
 */
 
 .link-list {
-	padding-bottom: 0.8889em;
+	padding-bottom: 0.8em;
 }
 
 .link-list-item {
