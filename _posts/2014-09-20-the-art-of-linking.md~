@@ -29,7 +29,7 @@ would be better as
 
 > <a href="#">investors are prone (pdf) to buying poorly performing, high-charging funds</a>
 
-## Why bother writing links properly?
+## Why bother with writing links properly?
 
 1. _Accessibility_. Screen readers isolate page links to make it easier to find a document's important information. Isolated, _Click here_ makes no sense, but _annual report_ does.
 2. _Easing the reader's workload_. What is this link? Where does it lead? If the link doesn't make sense on its own, the reader has to reinterpret the words around it to figure out what it is.

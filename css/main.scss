@@ -1,0 +1,33 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+
+// Variables
+
+$main-font: Lato, sans-serif;
+
+$black: #000;
+$dark: #444;
+$light: #FFF;
+$highlight: #FF00A5;
+$grey: #AAA;
+$lgrey: #EFEFEF;
+$link: #FF7F00;
+$visited: #888;
+$active: #0000FF;
+
+$bp: "screen and (min-width: 780px)";
+$wbp: "screen and (min-width: 840px)";
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+@import
+        "base",
+        "layout",
+		"modules",
+		"print"
+;

@@ -1,0 +1,84 @@
+@media screen, projection {
+
+body,
+ul,
+ol,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+fieldset,
+dd,
+figure,
+figcaption,
+main {
+	margin:  0;
+	padding: 0;
+}
+
+article,
+aside,
+dialog,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+nav,
+section,
+main {
+	display: block;
+}
+
+body {
+	font-size: 100%;
+	line-height: 1.4; /* 28px at widescreen */
+	font-family: $main-font;
+	background-color: $light;
+	color: $dark;
+	border-top: 0.8889em solid $dark;
+	
+	@media #{$bp} {
+		font-size: 112.5%;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dt {
+	font-weight: 300;
+	color: $highlight;
+}
+
+code {
+	color: #669900;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link,
+a:visited {
+	color: $highlight;
+}
+
+a:hover,
+a:active,
+a:focus {
+	background-color: $lgrey;
+}
+
+a img {
+	border: none;
+	color: #FFF;
+}
+
+}

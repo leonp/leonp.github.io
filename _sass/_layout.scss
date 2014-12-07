@@ -1,0 +1,24 @@
+@media screen, projection {
+
+
+.wrapper {
+	max-width: 30em;
+	padding: 0 1.4em;
+	margin: 0 auto;
+}
+
+#banner {
+	padding: 0.8889em 0;
+	background-color: $lgrey;
+	border-top: 0.1111em solid $highlight;
+	border-bottom: 1px solid $grey;
+	margin-bottom: 2.222em;
+	font-weight: 300;
+	
+	@media #{$bp} {
+		margin-bottom: 4em;
+	}
+}
+
+
+}

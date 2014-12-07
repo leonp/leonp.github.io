@@ -8,86 +8,63 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
 		<title>{% if page.title %}{{ page.title }} &#8211; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-		{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}	
-		
-		<link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.5.0/tables-min.css&pure/0.5.0/forms-min.css&pure/0.5.0/buttons-min.css">
-		<link rel="stylesheet" href="/css/main.css">		
+		{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+
 		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+		<link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.5.0/buttons-min.css&pure/0.5.0/forms-min.css">
+		<link rel="stylesheet" href="/css/main.css">
 		<link href="/feed" rel="alternate" type="application/rss+xml" title="{{ site.title }}">
 		
 		<script>
-		WebFontConfig = {
-		google: { families: [ 'Lora:400,700,400italic:latin', 'Open+Sans:400,400italic,700:latin' ] }
-		};
-		(function() {
-		var wf = document.createElement('script');
-		wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-		'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-		wf.type = 'text/javascript';
-		wf.async = 'true';
-		var s = document.getElementsByTagName('script')[0];
-		s.parentNode.insertBefore(wf, s);
-		})(); </script>
-		
-		{% if page.title == "Archive" or page.title == "Search results" %}
-		
-			<script>
-				(function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-				(w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-				e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-				})(window,document,'script','//s.swiftypecdn.com/install/v1/st.js','_st');
-
-				_st('install','SyLyEw245M-NqiVymxkD');
-			</script>
-		
-		{% endif %}
+			WebFontConfig = {
+			google: { families: [ 'Lato:400,300,300italic,700,400italic:latin' ] }
+			};
+			(function() {
+			var wf = document.createElement('script');
+			wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+			'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+			wf.type = 'text/javascript';
+			wf.async = 'true';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(wf, s);
+			})();
+		</script>
 		
 	</head>
 	
 	<body>
 	
-		<ul class="hide">
+		<div class="accessibility hide">
 		
-			<li><a href="#nav">Skip to navigation</a></li>
-			<li><a href="#content">Skip to content</a></li>
-			
-		</ul>
-		
-		<div class="g">
-			
-			<div class="g-col g-small g-right g-sidebar reversed">
-		
-				<div class="g-content">
+			<ul>
 				
-					<header role="banner">
-					
-						<div class="wrapper">
-					
-							<h1 class="logo"><a href="/">Leon Paternoster</a></h1>
-						
-							<nav id="nav" role="navigation">
-			
-								<ul class="menu-main secondary">
+				<li><a href="#nav">Skip to navigation</a></li>
+				<li><a href="#content">Skip to content</a></li>
 				
-									<li class="nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>	
-									<li class="nav-item"><a href="/work"{% if page.title == "Work" %} class="active"{% endif %}>Work</a></li>
-		
-								</ul>
-							
-							</nav>
-							
-						</div> <!-- end .wrapper -->
-						
-					</header>
-					
-				</div> <!-- end g-content -->
-					
-			</div> <!-- end .g-small .g-col .g-right -->
-		
-			<div class="g-col g-left g-big">
+			</ul>
 			
-				<div class="g-content">
+		</div>
 		
-					<main role="main" id="content">
-					
-						<article class="entry">
+		<div id="banner">
+						
+			<nav class="nav clearfix" id="nav" role="navigation">
+		
+				<div class="wrapper">
+	
+					<ul class="inline-nav">
+				
+						<li class="inline-nav-item"><h1 class="site-title"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}>Leon Paternoster</a></h1></li>
+						<li class="inline-nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>	
+						<li class="inline-nav-item"><a href="/work"{% if page.title == "Work" %} class="active"{% endif %}>Work</a></li>
+		
+					</ul>
+				
+				</div>
+	
+			</nav>
+			
+		</div>
+		
+		<main id="content" role="main">
+		
+			<div class="wrapper">

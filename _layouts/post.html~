@@ -1,49 +1,53 @@
 {% include header.html %}
+
+	<article class="entry">
 				
-	<header class="entry-header">
-
-		{% if page.title %}<h1 class="title">{{ page.title }}</h1>{% endif %}
+		<header class="entry-header">
 		
-		<p class="meta secondary">{{ page.date | date: "%b %-d, %Y" }}</p>
+			<p class="entry-meta secondary">{{ page.date | date: "%b %-d, %Y" }}</p>
 
-	</header>
+			{% if page.title %}<h1 class="entry-title">{{ page.title }}</h1>{% endif %}
 
-	<div class="entry-content">
+		</header>
 
-		{{ content }}
+		<div class="entry-content">
 	
-	</div>
-	
-	<footer class="entry-meta meta footnote">
-	
-		{% capture words %}
-			{{ page.content | number_of_words }}
-		{% endcapture %}
+			{{ content }}
 		
-		<ul class="menu-secondary">
-								
-			<li>{{ words }} words</li>
-			<li><a href="/feed">RSS feed</a></li>
-			<li><a href="/archive">Archive</a></li>
-		
-		</ul>
-					
-		<div class="pagination clearfix">
-		
-			{% if page.next %}
-		
-				<p class="secondary next">Next: <a href="{{ page.next.url }}">{{ page.next.title }}</a></p>
-		
-			{% endif %}
-		
-			{% if page.previous %}
-		
-				<p class="secondary previous">Previous: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
-		
-			{% endif %}
-			
 		</div>
 		
-	</footer>
+		<footer class="entry-footer">
+		
+			{% capture words %}
+				{{ page.content | number_of_words }}
+			{% endcapture %}
+			
+			<ul class="inline-nav">
+			
+				<li class="inline-nav-item">{{ words }} words</li>
+				<li class="inline-nav-item"><a href="/feed">RSS feed</a></li>
+				<li class="inline-nav-item"><a href="/archive">Archive</a></li>
+				
+			</ul>
+						
+			<div class="pagination clearfix">
+			
+				{% if page.next %}
+			
+					<p class="secondary next">Next: <a href="{{ page.next.url }}">{{ page.next.title }}</a> &rarr;</p>
+			
+				{% endif %}
+			
+				{% if page.previous %}
+			
+					<p class="secondary previous">&larr; Previous: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
+			
+				{% endif %}
+				
+			</div>
+			
+		</footer>
+	
+	</article>
 	
 {% include footer.html %}
