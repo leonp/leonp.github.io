@@ -5,11 +5,11 @@ layout: post
 
 Adrian argues &#8211; quite rightly &#8211; that <a href="https://adrianshort.org/libraries-censorship-payday-loans/">libraries shouldn't block websites on the basis of commercial practices</a>. That includes gambling and payday loans websites.
 
-At Suffolk Libraries, we get the odd complaint about blocked sites. Like any service using a third party provider, we can't always control when a site is blocked. Unlike many councils, we are able to get sites unblocked when they're brought to our attention.
+At Suffolk Libraries we get the odd complaint about blocked sites. Like any service using a third party provider, we can't always control when a site is blocked. Unlike many councils, we are able to get sites unblocked when they're brought to our attention.
 
-Libraries exhibit varies degrees of paternalism. I _can_ see why councils block payday loan sites; after all, lots of our users can't afford a PC and internet access, just the sort of person payday loan companies exploit. Still, it's not our job to police the internet for them, and, of course, not every library user is a potential Wonga customer.
+Libraries exhibit varies degrees of paternalism. I _can_ see why councils block payday loan sites; after all, lots of our users can't afford a PC and internet access, and payday loan companies exploit poor people. Still, it's not our job to police the internet for them, and, of course, not every library user is a potential Wonga customer.
 
-More bizarrely, you can't even use Facebook in some library services, presumably because it's not improving enough.
+More bizarrely, you can't even use Facebook in some library services, presumably because it's not _improving_ enough.
 
 Anyway, we came up with a <a href="http://suffolklibraries.co.uk/help/what-we-filter-on-public-pcs-and-our-wifi-service">_what we block_ policy</a>. I reckon it's about right:
 
