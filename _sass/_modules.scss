@@ -57,7 +57,6 @@ CONTENTS
 
 .site-title {
 	font-size: 1em;
-	font-style: italic;
 	display: inline;
 }
 
@@ -89,8 +88,11 @@ CONTENTS
 .entry-title {
 	font-size: 1.6154em;
 	line-height: 1.2381em;
-	font-style: italic;
 	color: $dark;
+}
+
+.entry-meta {
+	margin-bottom: 0.427em;
 }
 
 .entry-content {
@@ -140,14 +142,12 @@ CONTENTS
 	font-size: 1.3077em;
 	line-height: 1.2235em;
 	padding: 0.6118em 0;
-	font-style: italic;
 	color: $dark;
 }
 
 .entry-content h3,
 .entry-content dt {
 	font-size: 1em;
-	font-style: italic;
 	color: $dark;
 	padding: 0.8em 0;
 }
