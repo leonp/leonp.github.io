@@ -15,9 +15,6 @@
 	margin-bottom: 2em;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	text-transform: lowercase;
-	font-variant: small-caps;
-	letter-spacing: 1px;
 	
 	@media #{$bp} {
 		margin-bottom: 4em;
