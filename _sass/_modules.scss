@@ -68,7 +68,7 @@ CONTENTS
 
 .inline-nav-item {
 	display: inline;
-	margin-right: 1.4em;
+	margin: 0 0.7em;
 }
 
 
@@ -79,6 +79,7 @@ CONTENTS
 
 .entry-header {
 	margin-bottom: 1em;
+	text-align: center;
 	
 	@media #{$bp} {
 		margin-bottom: 2em;
@@ -141,16 +142,20 @@ CONTENTS
 	font-size: 1.3077em;
 	line-height: 1.2235em;
 	padding: 0.6118em 0;
+	text-align: center;
 }
 
 .entry-content h3,
 .entry-content dt {
 	font-size: 1em;
 	padding: 0.8em 0;
+	text-align: center;
 }
 
 .entry-footer {
-	padding-bottom: 0.8em;
+	padding: 0.8em 0;
+	text-align: center;
+	border-top: 1px dotted $lgrey;
 }
 
 .entry-footer ul,
@@ -192,6 +197,7 @@ CONTENTS
 
 .form-custom {
 	margin-bottom: 1.6em;
+	text-align: center;
 }
 
 .form-custom input[type="search"] {
@@ -216,6 +222,7 @@ CONTENTS
 
 .link-list {
 	padding-bottom: 0.8em;
+	text-align: center;
 }
 
 .link-list-item {

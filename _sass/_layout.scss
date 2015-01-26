@@ -9,9 +9,10 @@
 
 #banner {
 	padding: 1em 0;
-	background-color: $black;
+	border-bottom: 1px solid $grey;
 	margin-bottom: 2em;
 	font-family: $main-font;
+	text-align: center;
 	
 	@media #{$bp} {
 		margin-bottom: 4em;
