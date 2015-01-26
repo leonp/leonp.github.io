@@ -11,8 +11,7 @@
 	padding: 1em 0;
 	background-color: $black;
 	margin-bottom: 2em;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	font-family: $main-font;
 	
 	@media #{$bp} {
 		margin-bottom: 4em;
