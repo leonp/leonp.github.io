@@ -33,16 +33,24 @@ main {
 	display: block;
 }
 
+html {
+	background-color: $lgrey;
+}
+
 body {
 	font-size: 100%;
 	line-height: 1.4; /* 28px at widescreen */
 	font-family: $main-font;
 	background-color: $light;
 	color: $dark;
-	border-top: 0.8889em solid $dark;
+	max-width: 36em;
+	margin: 0 auto;
 	
 	@media #{$bp} {
 		font-size: 125%;
+		max-width: 44em;
+		border-right: 1px solid $grey;
+		border-left: 1px solid $grey;
 	}
 }
 
@@ -54,7 +62,7 @@ h5,
 h6,
 dt {
 	font-weight: normal;
-	color: $highlight;
+	color: $black;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
