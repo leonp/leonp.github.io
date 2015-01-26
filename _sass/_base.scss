@@ -75,13 +75,13 @@ a {
 
 a:link,
 a:visited {
-	color: $highlight;
+	color: $link;
 }
 
 a:hover,
 a:active,
 a:focus {
-	background-color: $lgrey;
+	color: $active;
 }
 
 a img {
