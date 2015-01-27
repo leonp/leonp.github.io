@@ -11,10 +11,11 @@
 	padding: 1em 0;
 	border-bottom: 1px solid $grey;
 	margin-bottom: 2em;
-	font-family: $main-font;
+	font-family: $secondary-font;
 	text-align: center;
 	text-transform: lowercase;
 	font-variant: small-caps;
+	font-weight: bold;
 	
 	@media #{$bp} {
 		margin-bottom: 4em;
