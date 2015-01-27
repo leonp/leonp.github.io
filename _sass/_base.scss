@@ -33,22 +33,15 @@ main {
 	display: block;
 }
 
-html {
-	background-color: $lgrey;
-}
-
 body {
 	font-size: 100%;
 	line-height: 1.4; /* 28px at widescreen */
 	font-family: $main-font;
-	background-color: $light;
+	background-color: $lgrey;
 	color: $dark;
-	max-width: 36em;
-	margin: 0 auto;
 	
 	@media #{$bp} {
 		font-size: 125%;
-		max-width: 44em;
 		border-right: 1px solid $grey;
 		border-left: 1px solid $grey;
 	}
@@ -61,8 +54,9 @@ h4,
 h5,
 h6,
 dt {
-	color: $black;
 	font-family: $secondary-font;
+	color: $active;
+	font-weight: 300;
 }
 
 code {

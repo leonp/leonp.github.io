@@ -62,6 +62,15 @@ CONTENTS
 	font-variant: small-caps;
 }
 
+.logo {
+	text-align: center;
+	font-weight: 300;
+}
+
+	.logo a span {
+		color: $active;
+	}
+
 
 /*
 3.	INLINE NAV
@@ -70,7 +79,7 @@ CONTENTS
 
 .inline-nav-item {
 	display: inline;
-	margin: 0 0.7em;
+	margin-right: 1.4em;
 }
 
 
@@ -81,7 +90,6 @@ CONTENTS
 
 .entry-header {
 	margin-bottom: 1em;
-	text-align: center;
 	
 	@media #{$bp} {
 		margin-bottom: 2em;
@@ -91,9 +99,12 @@ CONTENTS
 .entry-title {
 	font-size: 1.6154em;
 	line-height: 1.2381em;
+	text-align: center;
 }
 
 .entry-meta {
+	font-size: 0.875em;
+	font-style: italic;
 	margin-bottom: 0.427em;
 }
 
@@ -121,6 +132,9 @@ CONTENTS
 .entry-content ol,
 .entry-content dd {
 	margin-bottom: 0.8em;
+	text-align: justify;
+	hyphens: auto;
+	-moz-hyphens: auto;
 }
 
 .entry-content li {
@@ -156,11 +170,12 @@ CONTENTS
 
 .entry-footer {
 	padding: 0.8em 0;
-	text-align: center;
 	border-top: 1px dotted $lgrey;
+	text-align: center;
 }
 
 .entry-footer ul,
+.entry-footer ol,
 .entry-footer p {
 	margin-bottom: 0.8em;
 }
@@ -184,10 +199,12 @@ CONTENTS
 }
 
 .entry-content img.bleed {
+	max-width: 32.8em !important;
+	margin-left: -1.4em;
+	border: none;
 	@media #{$wbp} {
 		max-width: 44em !important;
 		margin-left: -7em;
-		border: none;
 	}
 }
 
@@ -199,7 +216,6 @@ CONTENTS
 
 .form-custom {
 	margin-bottom: 1.6em;
-	text-align: center;
 }
 
 .form-custom input[type="search"] {
@@ -224,7 +240,6 @@ CONTENTS
 
 .link-list {
 	padding-bottom: 0.8em;
-	text-align: center;
 }
 
 .link-list-item {

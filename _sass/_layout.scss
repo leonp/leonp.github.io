@@ -4,22 +4,44 @@
 .wrapper {
 	max-width: 30em;
 	padding: 0 1.4em;
+	
+	@media #{$bp} {
+		padding: 0 7em;
+	}
+	
 	margin: 0 auto;
+	background-color: $lgrey;
+}
+
+.wrapper.page {
+	background-color: $light;
+	border: 1px solid $grey;
+	padding: 1.4em;
+	
+	@media #{$bp} {
+		padding: 2.8em 7em 0 7em;
+		margin-bottom: 1.4em;
+	}
+	
 }
 
 #banner {
 	padding: 1em 0;
-	border-bottom: 1px solid $grey;
-	margin-bottom: 2em;
 	font-family: $secondary-font;
-	text-align: center;
 	text-transform: lowercase;
 	font-variant: small-caps;
 	font-weight: bold;
-	
-	@media #{$bp} {
-		margin-bottom: 4em;
-	}
+}
+
+#banner a:link,
+#banner a:visited {
+	color: $grey;
+}
+
+#banner a:hover,
+#banner a:active,
+#banner a:focus {
+	color: $active;
 }
 
 

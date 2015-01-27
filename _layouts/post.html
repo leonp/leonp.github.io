@@ -4,7 +4,7 @@
 				
 		<header class="entry-header">
 		
-			<p class="entry-meta secondary">{{ page.date | date: "%b %-d, %Y" }}</p>
+			<p class="entry-meta secondary"></p>
 
 			{% if page.title %}<h1 class="entry-title">{{ page.title }}</h1>{% endif %}
 
@@ -18,19 +18,15 @@
 		
 		<footer class="entry-footer">
 		
-			{% capture words %}
-				{{ page.content | number_of_words }}
-			{% endcapture %}
+			<div class="secondary">
 			
-			<ul class="inline-nav secondary">
+				{% capture words %}
+					{{ page.content | number_of_words }}
+				{% endcapture %}
 			
-				<li class="inline-nav-item">{{ words }} words</li>
-				<li class="inline-nav-item"><a href="/feed">RSS feed</a></li>
-				<li class="inline-nav-item"><a href="/archive">Archive</a></li>
-				
-			</ul>
+				<p>Published <time>{{ page.date | date: "%b %-d, %Y" }}</time>, consisting of {{ words }} more or less considered words. Try <a href="/archive">the archive</a>, <a href="/">home page</a> and <a href="/feed">RSS feed</a> for more.</p>
 						
-			<div class="pagination clearfix">
+			<!-- <div class="pagination clearfix">
 			
 				{% if page.next %}
 			
@@ -44,7 +40,7 @@
 			
 				{% endif %}
 				
-			</div>
+			</div> -->
 			
 		</footer>
 	
