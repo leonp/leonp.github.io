@@ -199,12 +199,11 @@ CONTENTS
 }
 
 .entry-content img.bleed {
-	max-width: 32.8em !important;
-	margin-left: -1.4em;
-	border: none;
+		
 	@media #{$wbp} {
 		max-width: 44em !important;
 		margin-left: -7em;
+		border: none;
 	}
 }
 
@@ -216,6 +215,11 @@ CONTENTS
 
 .form-custom {
 	margin-bottom: 1.6em;
+	
+	@media #{$wbp} {
+		text-align: center;
+	}
+	
 }
 
 .form-custom input[type="search"] {
