@@ -24,7 +24,7 @@
 					{{ page.content | number_of_words }}
 				{% endcapture %}
 			
-				<p>Published <time>{{ page.date | date: "%b %-d, %Y" }}</time>, consisting of {{ words }} more or less considered words. Try <a href="/archive">the archive</a>, <a href="/">home page</a> and <a href="/feed">RSS feed</a> for more.</p>
+				<p><time>{{ page.date | date: "%b %-d %Y" }}</time> &middot; {{ words }} words &middot; <a href="/">Home</a> / <a href="/archive">Archive</a> / <a href="/feed">RSS feed</a></p>
 						
 			<!-- <div class="pagination clearfix">
 			
