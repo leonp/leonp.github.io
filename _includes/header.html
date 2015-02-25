@@ -9,11 +9,17 @@
 		
 		<title>{% if page.title %}{{ page.title }} &#8211; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 		{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+		
+		<!--[if lt IE 9]>
+    		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js">
+    	<![endif]-->
 
 		<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 		<link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.5.0/buttons-min.css&pure/0.5.0/forms-min.css&pure/0.5.0/tables-min.css">
 		<link rel="stylesheet" href="/css/main.css">
 		<link href="/feed" rel="alternate" type="application/rss+xml" title="{{ site.title }}">
+		
+		<script src="js/toggle.js"></script>
 		
 		<script>
 			WebFontConfig = {
@@ -36,35 +42,36 @@
 	
 		<div class="accessibility hide">
 		
-			<p>
+			<ul>
 				
-				<a href="#content">Skip to content</a>
+				<li><a href="#content">Skip to content</a></li>
+				<li><a href="#nav">Skip to navigation</a></li>
 				
-			</p>
+			</ul>
 			
 		</div>
 		
-		<div id="banner">
-						
-			<nav class="nav clearfix" id="nav" role="navigation">
+		<header id="banner">
 		
-				<div class="wrapper">
-	
-					<!-- <ul class="inline-nav">
-				
-						<li class="inline-nav-item"><h1 class="site-title"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}>Leon Paternoster</a></h1></li>
+			<div class="wrapper">
+						
+				<nav class="nav" id="nav" role="navigation">
+
+					<h1 class="accessibility hide">Navigation</h1>				
+
+					<ul class="inline-nav">
+
+						<li class="site-title inline-nav-item"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}><a href="/">Leon <span>&#9997;</span> Paternoster</a></h1></li>
 						<li class="inline-nav-item"><a href="/archive"{% if page.title == "Archive" %} class="active"{% endif %}>Archive</a></li>	
 						<li class="inline-nav-item"><a href="/work"{% if page.title == "Work" %} class="active"{% endif %}>Work</a></li>
-		
-					</ul> -->
-					
-					<div class="logo"><a href="/">Leon <span>&#9997;</span> Paternoster</a></div>
-				
-				</div>
-	
-			</nav>
+
+					</ul>				
+
+				</nav>
 			
-		</div>
+			</div> <!-- end .wrapper -->
+			
+		</header>
 		
 		<main id="content" role="main">
 		

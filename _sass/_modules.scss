@@ -67,9 +67,9 @@ CONTENTS
 	font-weight: 300;
 }
 
-	.logo a span {
-		color: $active;
-	}
+.logo a span {
+	color: $active;
+}
 
 
 /*
@@ -80,6 +80,14 @@ CONTENTS
 .inline-nav-item {
 	display: inline;
 	margin-right: 1.4em;
+}
+
+#banner .inline-nav-item {
+	margin: 0 0.7em 0 0.7em;
+}
+
+.active {
+	border-bottom: 0.1em solid $black;
 }
 
 
@@ -165,6 +173,10 @@ CONTENTS
 	font-size: 1em;
 	padding: 0.8em 0;
 	text-align: center;
+}
+
+.entry-content h2 a:link {
+		border-bottom: none;
 }
 
 .entry-footer {

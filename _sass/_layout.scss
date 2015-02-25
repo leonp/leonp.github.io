@@ -23,19 +23,25 @@
 		margin-bottom: 1.4em;
 	}
 	
-}
+}	
 
 #banner {
 	padding: 1em 0;
 	font-family: $secondary-font;
 	text-transform: lowercase;
 	font-variant: small-caps;
-	font-weight: bold;
+	font-weight: 300;
+	text-align: center;
+	
+	@media #{$bp} {
+		padding: 1.6842em 0 1.2632em 0;
+	}
+	
 }
 
 #banner a:link,
 #banner a:visited {
-	color: $grey;
+	color: $black;
 }
 
 #banner a:hover,
