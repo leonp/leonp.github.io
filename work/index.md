@@ -3,9 +3,8 @@ title: Work
 layout: default
 ---
 
-<p class="primary">I get small businesses online. I'll sort out hosting, design and all the technical stuff so you don't need to worry about a thing.</p>
-
-<p class="primary">Contact me at leon . paternoster @ unseen . is (you'll need to remove the spaces).</p>
+<p class="primary">I get small businesses online and manage not for profit organisations' websites. I've been working on the web since 2008. Contact me at <em><a href="http://twitter.com/leonpaternoster">@leonpaternoster</a></em> and <em>leon.paternoster@unseen.is</em></p>
+	
 <hr>
 
 <div class="g-row">
