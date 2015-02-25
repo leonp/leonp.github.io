@@ -3,7 +3,7 @@ title: Work
 layout: default
 ---
 
-<p class="primary">I get small businesses online and manage not for profit organisations' websites. I've been working on the web since 2008. Contact me at <em><a href="http://twitter.com/leonpaternoster">@leonpaternoster</a></em> and <em>leon.paternoster@unseen.is</em></p>
+<p class="primary">I get small businesses online and manage not for profit organisations&#8217; websites. I&#8217;ve been working on the web since 2008. Contact me at <em><a href="http://twitter.com/leonpaternoster">@leonpaternoster</a></em> and <em>leon.paternoster@unseen.is</em></p>
 	
 <hr>
 
@@ -43,7 +43,7 @@ layout: default
 	
 			<h2><a href="http://allsortzgroup.co.uk">Allsortz Theatre Group</a></h2>
 		
-			<p>A simple one page site. This project involved researching the client's work, using <a href="https://pages.github.com/">Github Pages</a> to set up simple, free and fast hosting, designing the look of the site and embedding a Vimeo film that scales when visitors visit the site with a mobile phone.</p>
+			<p>A simple one page site. This project involved researching the client&#8217;s work, using <a href="https://pages.github.com/">Github Pages</a> to set up simple, free and fast hosting, designing the look of the site and embedding a Vimeo film that scales when visitors visit the site with a mobile phone.</p>
 			
 		</article>
 		
