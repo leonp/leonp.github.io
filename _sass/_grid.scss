@@ -36,7 +36,9 @@
 	}
 	
 	.g-w-col1-2 {
-		width: 47.5%;
+		@media #{$bp} {
+			width: 47.5%;
+		}
 	}
 	
 	.g-left {
