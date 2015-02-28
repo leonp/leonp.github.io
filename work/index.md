@@ -15,7 +15,7 @@ layout: default
 	
 			<h2><a href="http://suffolklibraries.co.uk">Suffolk Libraries</a></h2>
 	
-			<p>I redesigned, built and continue to manage the Suffolk Libraries website. The project involves research into customer requirements, content audits, writing &amp; editing, stakeholder interviews, <abbr title="Information Architecture">IA</abbr> work, testing and WordPress development.</p>
+			<p>I redesigned, built and continue to manage the Suffolk Libraries website. The project involves research into customer requirements, content audits, writing &amp; editing, stakeholder interviews, <abbr title="Information Architecture">IA</abbr> work, content planning, running social media accounts, testing and WordPress development.</p>
 			
 		</article>
 
@@ -70,3 +70,5 @@ layout: default
 <p><a class="imglink" href="http://allsortzgroup.co.uk"><img class="bleed" src="/images/allsortz.jpg" height="416" width="860" alt="Allsortz Group website screenshot"></a></p>
 
 <p class="figcaption">Screenshot from the Allsortz Group website</p>
+
+<p class="primary">Contact me: <em>leon.paternoster@unseen.is</em> and <em><a href="http://twitter.com/leonpaternoster">@leonpaternoster</a></em></p>
