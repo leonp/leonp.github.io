@@ -35,6 +35,10 @@ layout: default
 	
 </div>
 
+<p><a class="imglink" href="http://cultcafe.co.uk"><img class="bleed" src="/images/cult.jpg" height="416" width="860" alt="Cult Cafe website screenshot"></a></p>
+
+<p class="figcaption">Screenshot from the Cult Cafe website</p>
+
 <div class="g-row">
 
 	<div class="g-w-left g-w-col1-2">
@@ -43,7 +47,7 @@ layout: default
 	
 			<h2><a href="http://allsortzgroup.co.uk">Allsortz Theatre Group</a></h2>
 		
-			<p>A simple one page site. This project involved researching the client&#8217;s work, using <a href="https://pages.github.com/">Github Pages</a> to set up simple, free and fast hosting, designing the look of the site and embedding a Vimeo film that scales when visitors visit the site with a mobile phone.</p>
+			<p>A simple one page site. This project involved researching the client&#8217;s work, using <a href="https://pages.github.com/">Github Pages</a> to set up simple, free and fast hosting, designing the look of the site and embedding a Vimeo film that scales when visitors view the site with a mobile phone.</p>
 			
 		</article>
 		
@@ -55,10 +59,14 @@ layout: default
 
 			<h2><a href="/">Leon Paternoster</a></h2>
 		
-			A fast, minimal, Github Pages hosted site which can change at any given moment. Written in Jekyll, which outputs static HTML from Markdown files.</p>
+			A fast, minimal, Github Pages hosted site which can change at any given moment :-) Written in Jekyll, which outputs static HTML from Markdown files. You can <a href="https://github.com/leonp/leonp.github.io">get the code from Github</a>.</p>
 			
 		</article>
 		
 	</div>
 	
 </div>
+
+<p><a class="imglink" href="http://allsortzgroup.co.uk"><img class="bleed" src="/images/allsortz.jpg" height="416" width="860" alt="Allsortz Group website screenshot"></a></p>
+
+<p class="figcaption">Screenshot from the Allsortz Group website</p>

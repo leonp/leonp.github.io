@@ -135,6 +135,11 @@ CONTENTS
 	color: $active;
 }
 
+.entry-content a.imglink {
+	border: none;
+	color: #FFF;
+}
+
 .entry-content p,
 .entry-content ul,
 .entry-content ol,
@@ -215,6 +220,8 @@ CONTENTS
 		max-width: 44em !important;
 		margin-left: -7em;
 		border: none;
+		border-top: 1px solid $lgrey;
+		border-bottom: 1px solid $lgrey;
 	}
 }
 
