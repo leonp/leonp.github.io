@@ -1,5 +1,5 @@
 ---
-title: Chrome for Android's default serif is too big (and it doesn't hyphenate)
+title: Chrome for Android's default serif is too big (and Chrome doesn't hyphenate)
 layout: post
 ---
 
