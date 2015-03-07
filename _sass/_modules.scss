@@ -49,6 +49,17 @@ CONTENTS
 	clip: rect(1px, 1px, 1px, 1px);
 }
 
+.img-round {
+	-webkit-border-radius: 50%;
+	moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.centre {
+	display: block;
+	margin: 0 auto;
+}
+
 
 /*
 2.	SITE-TITLE
