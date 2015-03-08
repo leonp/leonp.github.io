@@ -8,7 +8,8 @@ CONTENTS
 2.	SITE TITLE
 3.	INLINE NAV
 4.	ENTRY
-5,	LINK LIST
+5.	LINK LIST
+6.	TWITTER
 
 */
 
@@ -207,7 +208,8 @@ CONTENTS
 	margin-bottom: 0.8em;
 }
 
-.entry-content hr {
+.entry-content hr,
+#footer hr {
 	width: 38%;
 	margin: 0 auto 0.8em auto;
 	padding-top: 1.6em 0;
@@ -281,6 +283,24 @@ CONTENTS
 	margin-left: 0 !important;
 }
 
+
+/*
+5.	TWITTER
+===========
+*/
+
+#tweet li {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+#tweet .interact a:after {
+	content: ' / ';
+}
+
+#tweet .interact a:last-child:after {
+	content: '';
+}
 
 
 }

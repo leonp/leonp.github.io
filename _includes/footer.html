@@ -6,11 +6,35 @@
 					
 				<div class="wrapper">
 				
-					<p class="secondary" role="contentinfo">Built with <a href="http://jekyllrb.com" rel="external">Jekyll</a>. <a href="https://github.com/leonp/leonp.github.io" rel="external">View the code on Github</a>.</p>
+					<div class="secondary">
+				
+						<p role="contentinfo">Built with <a href="http://jekyllrb.com" rel="external">Jekyll</a>. <a href="https://github.com/leonp/leonp.github.io" rel="external">View the code on Github</a>.</p>
+						
+						<hr>
+						
+						<div id="tweet">
+						
+						</div>
+						
+					</div>					
 					
 				</div>
 				
 			</footer>
+	 	
+	 	<script>
+		
+			var config1 = {
+			"id": '252344591058092032',
+			"domId": 'tweet',
+			"maxTweets": 1,
+			"enableLinks": true,
+			"showImages": true,
+			"showUser": false
+			};
+			twitterFetcher.fetch(config1);
+			
+		</script>	
 		
 		<script>
 		

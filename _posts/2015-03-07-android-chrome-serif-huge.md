@@ -18,7 +18,7 @@ In the interests of keeping file sizes small I'm conservative when it comes to e
 
 That's all well and good, until you get to Android. Neither Chrome or Firefox have Georgia, so they'll use their default serifs instead. In Chrome's case that's Droid Serif, in Firefox's it's Charis.
 
-The same page therefore looks very different:
+The same page therefore looks very different (<a href="/labs/test-droid">see this page for a live example</a>):
 
 <div class="row clearfix">
 
