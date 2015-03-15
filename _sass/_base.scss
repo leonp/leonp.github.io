@@ -39,10 +39,11 @@ body {
 	font-family: $main-font;
 	color: $dark;
 	
-	@media #{$bp} {
+	@media #{$nbp} {
 		font-size: 118.75%;
-		border-right: 1px solid $grey;
-		border-left: 1px solid $grey;
+	}
+	
+	@media #{$bp} {
 		background-color: $lgrey;
 	}
 }
