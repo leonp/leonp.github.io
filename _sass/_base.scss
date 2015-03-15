@@ -37,13 +37,13 @@ body {
 	font-size: 100%;
 	line-height: 1.4; /* 28px at widescreen */
 	font-family: $main-font;
-	background-color: $lgrey;
 	color: $dark;
 	
 	@media #{$bp} {
-		font-size: 137.5%;
+		font-size: 118.75%;
 		border-right: 1px solid $grey;
 		border-left: 1px solid $grey;
+		background-color: $lgrey;
 	}
 }
 
@@ -75,7 +75,7 @@ a:visited {
 a:hover,
 a:active,
 a:focus {
-	color: $active;
+	color: $hover;
 }
 
 a img {

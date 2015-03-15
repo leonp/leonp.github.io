@@ -2,20 +2,19 @@
 
 
 .wrapper {
-	max-width: 27em;
+	max-width: 31em;
 	padding: 0 1.4em;
 	
 	@media #{$bp} {
 		padding: 0 7em;
+		background-color: $lgrey;
 	}
 	
 	margin: 0 auto;
-	background-color: $lgrey;
 }
 
 .wrapper.page {
 	background-color: $light;
-	border: 1px solid $grey;
 	padding: 1.4em;
 	
 	@media #{$bp} {
@@ -41,13 +40,13 @@
 
 #banner a:link,
 #banner a:visited {
-	color: $black;
+	color: $link;
 }
 
 #banner a:hover,
 #banner a:active,
 #banner a:focus {
-	color: $active;
+	color: $hover;
 }
 
 #footer {

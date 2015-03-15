@@ -45,7 +45,7 @@ layout: default
 	
 		<article class="vertical-box">
 	
-			<h2><a href="http://allsortzgroup.co.uk">Allsortz Theatre Group</a></h2>
+			<h2><a href="http://allsortzgroup.co.uk">Allsortz</a></h2>
 		
 			<p>A simple one page site. This project involved researching the client&#8217;s work, using <a href="https://pages.github.com/">Github Pages</a> to set up simple, free and fast hosting, designing the look of the site and embedding a Vimeo film that scales when visitors view the site with a mobile phone.</p>
 			
