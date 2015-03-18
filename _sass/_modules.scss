@@ -237,6 +237,16 @@ CONTENTS
 	}
 }
 
+.entry-content img.img-constrained {
+	max-height: 64px;
+	
+	@media #{$bp} {
+		max-height: 171px;
+	}
+	
+}
+	
+
 .figcaption {
 	padding-bottom: 0.8em;
 	color: $grey;
