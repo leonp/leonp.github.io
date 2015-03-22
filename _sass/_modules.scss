@@ -61,6 +61,25 @@ CONTENTS
 	margin: 0 auto;
 }
 
+.vid {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+	margin-bottom: 1.6em;
+}
+
+.vid iframe,
+.vid object,
+.vid embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 
 /*
 2.	SITE-TITLE
@@ -224,6 +243,7 @@ CONTENTS
 	box-sizing: border-box;	
 }
 
+.bleed,
 .entry-content img.bleed {
 		
 	@media #{$wbp} {

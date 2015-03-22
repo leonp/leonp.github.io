@@ -17,13 +17,14 @@ If we have labour costs but we're not willing to pay them, that leaves a few alt
 - Volunteers
 - Charging for a secondary service, e.g. job and dating adverts
 
-<img src="/images/advert.jpg" alt="A 1967 print advert for tobacco" class="bleed">
+<img height="639" width="900" src="/images/advert.jpg" alt="A 1967 print advert for tobacco" class="bleed">
 
 <p class="figcaption">Old style print adverts won't work online</p>
 
 Unfortunately, none of these approaches appear particularly profitable or sustainable. We genrally ignore ads, or block them altogether, while a millionaire's largesse and volunteer labour can disappear quickly.
 
 The sheer number of news publishers puts downward pressure on paywall costs, while there are plenty of dedicated jobs and dating sites out there. It's amazing there's a healthy online news industry at all &#8211; surely we'll have to cough up one day.
+
 
 
 
