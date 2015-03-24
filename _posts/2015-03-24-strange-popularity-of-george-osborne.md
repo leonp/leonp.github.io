@@ -15,4 +15,4 @@ In these anti&#8211;political times simply doing a straightforward job &#8211; n
 
 It is worth noting [Osborne has missed every economic target he's set since 2010](http://blogs.channel4.com/factcheck/cameron-busted-on-debt-claims/12556). Which goes to show that simple competence has very little to do with public approval; Nigel Farage runs a dismal, shambles of a political party.
 
-Similarly, you could argue that obsessing over perceived economic competence and fighting a deeply conservative campaign doesn't get you anywhwere. In fact, it only serves to [make your voters largely apathetic](http://lordashcroftpolls.com/wp-content/uploads/2015/03/BetterOff.jpg).
+Similarly, you could argue that obsessing over perceived economic competence and fighting a deeply defensive, conservative (small &#8216;c&#8217;) campaign doesn't get you anywhwere. In fact, it only serves to [make your voters largely apathetic](http://lordashcroftpolls.com/wp-content/uploads/2015/03/BetterOff.jpg).
