@@ -1,5 +1,5 @@
 ---
-title: Notes on designing a home page, part 1&thinsp;&#8212;&thinsp;Context
+title: Notes on designing a home page, part 1&#58; Context
 layout: post
 ---
 
