@@ -26,6 +26,10 @@ Some you can't. We live in insanely austere times. Or maybe you don't have full 
 
 The point is: this is complex stuff. That's why, as users, we're so often frustrated by websites.
 
+<hr>
+
+- [Notes on designing a home page, part 2: Navigation and signposting](/2015/03/designing-home-pages-part-2/)
+
 
 
 

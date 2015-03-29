@@ -3,7 +3,7 @@ title: The strange popularity of Gideon Oliver Osborne
 layout: post
 ---
 
-[Gideon is popular](http://www.theguardian.com/commentisfree/2015/mar/22/how-did-george-osborne-failure-become-peoples-favourite). But why, we ask?
+[Gideon is popular](http://www.theguardian.com/commentisfree/2015/mar/22/how-did-george-osborne-failure-become-peoples-favourite). <i>But why?</i> we ask.
 
 I think Andrew Rawnsley's reasons are all plausible, but I'd add another. Being chancellor is a pretty dry job, and Osborne is a pretty dull politician, albeit with a colourful past.
 
