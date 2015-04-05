@@ -1,6 +1,7 @@
 ---
 title: Chrome for Android's default serif is too big (and Chrome doesn't hyphenate)
 layout: post
+category: work
 ---
 
 I do try and make this website _quick_, mainly because without speed it's hard to make a good <abbr title="User experience">UX</abbr>, and I want to make your visit as pleasant as possible. I'm nice like that.

@@ -1,18 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2008-10-12 06:25:21+00:00
 layout: post
-slug: really-simple-design-a-second-example
 title: 'Really simple design: a second example'
-wordpress_id: 200
-categories:
-- Articles
-tags:
-- inspiration
-- lourenco
-- minimalism
-- simplicity
+category: work
 ---
 
 [Vitor Lourenco](http://www.vlourenco.com/) is 21.  Blimey:

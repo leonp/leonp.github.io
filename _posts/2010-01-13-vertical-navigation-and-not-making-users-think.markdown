@@ -1,19 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2010-01-13 22:48:07+00:00
 layout: post
-slug: vertical-navigation-and-not-making-users-think
 title: Vertical navigation and not making users think
-wordpress_id: 1001
-categories:
-- Articles
-tags:
-- bbc
-- guardian
-- ia
-- navigation
-- structure
+category: work
 ---
 
 It started with an innocuous looking post on Smashing Magazine by [Louis Lazaris](http://www.smashingmagazine.com/author/louis-lazaris/) entitled [The Case Against Vertical Navigation](http://www.smashingmagazine.com/2010/01/11/the-case-against-vertical-navigation/). The reaction was generally negative: Kyle Meyer was even prompted to write [a rare blog post in defence of vertical navigation](http://astheria.com/design/in-defense-of-vertical-navigation).

@@ -1,6 +1,7 @@
 ---
 title: The art of linking
 layout: post
+category: work
 ---
 
 The web is a network of links; they're what make plain, boring text _hyper_. Luckily, making a link is very, very easy, although crafting it properly takes a _little_ thought.

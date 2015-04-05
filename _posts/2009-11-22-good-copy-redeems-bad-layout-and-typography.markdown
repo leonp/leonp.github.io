@@ -1,16 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2009-11-22 14:47:17+00:00
 layout: post
-slug: good-copy-redeems-bad-layout-and-typography
 title: Good copy redeems bad layout and typography
-wordpress_id: 893
-categories:
-- Articles
-tags:
-- good practice
-- language
+category: work
 ---
 
 Meaning: Any cramped, outmoded, un–thought–out website can be saved. Well, _nearly_ any site.

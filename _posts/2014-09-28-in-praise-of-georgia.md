@@ -1,6 +1,7 @@
 ---
 title: In praise of Georgia (again)
 layout: post
+category: work
 ---
 
 By which I mean the typeface, not the former Soviet Union state, birthplace of Stalin, nor the southeastern US State, birthplace of Coca Cola.

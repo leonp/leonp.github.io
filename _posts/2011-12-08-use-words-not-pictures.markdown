@@ -1,19 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2011-12-08 14:45:53+00:00
 layout: post
-slug: use-words-not-pictures
-title: 'A mobile first approach to design: Use text instead of images'
-wordpress_id: 2388
-categories:
-- Articles
-tags:
-- design
-- images
-- mobile
-- rainfall daffinson
-- text
+title: A mobile first approach to design &#8211; Use text instead of images
+category: work
 ---
 
 Many moons ago I linked to the [Rainfall Daffinson](http://rainfall-daffinson.com/) website as [an example of confident, simple design](http://leonpaternoster.com/2008/09/really-simple-web-design-an-example/). At lunch today I was thumbing through my blog and thought I'd see if anything had changed. It has:

@@ -1,6 +1,7 @@
 ---
 title: A Tumblr theme
 layout: post
+category: work
 ---
 
 I've had a go at building a Tumblr theme, mainly because the existing themes seem to get things like margins and heading line heights wrong. This makes me sad.

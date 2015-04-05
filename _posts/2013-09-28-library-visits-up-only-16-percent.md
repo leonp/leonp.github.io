@@ -1,8 +1,7 @@
 ---
 date: 2013-09-28 12:58:57+00:00
 layout: post
-category: libraries
-cat_name: libraries
+category: work
 title: Library website visits increase 16% in 8 years&#8212;is that all?
 ---
 
@@ -11,10 +10,6 @@ According to a pretty slapdash <cite>Guardian</cite> piece, [visits to libraries
 (Actually, you're better off just reading the <cite><a href="https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/244895/Taking_Part_2013_14_Quarter_1_Report.doc.pdf">Taking Part</a></cite> report (PDF) yourself.)
 
 Reword the oddly negative standfirst &#8211; try &#8220;36.2% Britons visited a library in the last year&#8221; instead &#8211; and the picture isn't quite as bleak as the article makes out. You could also point to ambitious projects in Birmingham and Manchester.
-
-<img class="bleed" src="/uploads/brum-lib.jpg" alt="The exterior of Birmingham Library">
-
-<p class="figcaption">The new Birmingham Library's famous exterior</p>
 
 But there is a clear downward trend.
 

@@ -1,20 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2008-08-13 10:04:41+00:00
 layout: post
-slug: writing-great-articles-anatomy-of-a-bbc-news-story
-title: 'Writing great articles: anatomy of a BBC news story'
-wordpress_id: 75
-categories:
-- Articles
-tags:
-- bbc
-- essential
-- lead
-- readability
-- structure
-- Writing
+title: Writing great articles &#8211; anatomy of a BBC news story
+category: work
 ---
 
 I refer specifically to a news story about US swimmer Michael Phelps. Not all of the techniques apply to all forms of web writing, but many do, and most can be adapted in some way to make articles more readable.

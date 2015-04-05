@@ -1,21 +1,10 @@
 ---
-author: admin
-comments: true
-date: 2012-02-11 20:18:47+00:00
 layout: post
-slug: good-book-design-is-silent
 title: Good book design is silent
-wordpress_id: 2507
-categories:
-- Design
-tags:
-- design
-- e-readers
-- print
-- typography
+category: work
 ---
 
-**The job of book design is to make a text as easy to read as possible. Once it's done that, it should retire gracefully.**
+The job of book design is to make a text as easy to read as possible. Once it's done that, it should retire gracefully.
 
 What is it with designers and the physical form of books?
 

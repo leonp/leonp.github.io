@@ -1,18 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2011-10-31 16:26:51+00:00
 layout: post
-slug: teach-html-in-schools
 title: Web writers should know HTML so teach it in school
-wordpress_id: 2323
-categories:
-- Articles
-tags:
-- html
-- schools
-- semantics
-- Writing
+category: work
 ---
 
 If you write long form texts for the web you should know HTML.

@@ -1,20 +1,7 @@
 ---
-author: admin
-comments: false
-date: 2009-10-04 20:13:22+00:00
 layout: post
-published: false
-slug: introducing-the-scherzo-theme-for-wordpress
 title: Introducing the Scherzo theme for WordPress
-wordpress_id: 866
-categories:
-- Articles
-tags:
-- 16px
-- georgia
-- readability
-- responsive design
-- wordpress theme
+category: work
 ---
 
 **[Get the latest version of Scherzo](http://leonpaternoster.com/wp-themes/).**

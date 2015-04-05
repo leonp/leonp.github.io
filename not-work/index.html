@@ -1,13 +1,11 @@
 ---
 layout: default
-title: Blog
+title: Not work
 description: Curated posts from 2008. A mix of web, literature, politics and a little music.
 show: yes
 ---
 
-<p class="primary">Notes &amp; articles about managing, designing and building websites. Subscribe to the <a href="/feed">RSS feed</a>.</p>
-
-<p>You know, I also write about non&#8211;work stuff.</p>
+<p class="primary">Notes &amp; articles about politics, music, books, football and anything else not to do with my work. Subscribe to the <a href="/feed">RSS feed</a>.</p>
 
 <form method="get" action="http://www.google.com/search" class="pure-form form-custom" role="search" id="search">
 
@@ -45,7 +43,7 @@ show: yes
 
 	{% endif %}
 	
-	{% if post.category == 'work' %}
+	{% if post.category != 'work' %}
 
 	<li class="link-list-item">
 		

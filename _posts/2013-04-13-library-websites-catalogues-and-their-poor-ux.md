@@ -1,11 +1,7 @@
 ---
 title: Library websites, catalogues and their poor UX
-author: Leon
-excerpt: "Rubbish search, fragmentation and 10 year old design. It's a wonder anyone uses online catalogues."
 layout: post
-permalink: /2013/04/library-websites-catalogues-and-their-poor-ux/
-categories:
-  - Website management
+category: work
 ---
 I started working for [Suffolk Libraries][1] last week. Over the next few months I&#8217;ll be rebuilding our website. If you take a look now, you&#8217;ll see why.
 

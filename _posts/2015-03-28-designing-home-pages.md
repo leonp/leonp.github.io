@@ -1,6 +1,7 @@
 ---
 title: Notes on designing a home page, part 1&#58; Context
 layout: post
+category: work
 ---
 
 Home pages are difficult to get right. A good starting point would be to find out who's visiting your home page, and for what purpose. That's a big piece of work, but at Suffolk Libraries it's people who:

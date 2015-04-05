@@ -1,6 +1,7 @@
 ---
 title: Blocking websites in libraries&#8212;our policy
 layout: post
+category: work
 ---
 
 Adrian argues &#8211; quite rightly &#8211; that <a href="https://adrianshort.org/libraries-censorship-payday-loans/">libraries shouldn't block websites on the basis of commercial practices</a>. That includes gambling and payday loans websites.

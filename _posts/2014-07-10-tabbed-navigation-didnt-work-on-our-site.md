@@ -1,12 +1,7 @@
 ---
-title: 'Tabbed navigation didn&#8217;t work on our site'
-author: Leon
+title: Tabbed navigation didn&#8217;t work on our site
 layout: post
-permalink: /2014/07/tabbed-navigation-didnt-work-on-our-site/
-xyz_twap:
-  - 1
-categories:
-  - Design
+category: work
 ---
 I was using [tabbed navigation][1] on a couple of the [Suffolk Libraries][2] website pages. By tabbed navigation I mean a single document&#8217;s content divided by horizontal tabs, so you don&#8217;t see it all at once.
 

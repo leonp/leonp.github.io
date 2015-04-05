@@ -1,6 +1,7 @@
 ---
 title: I'd like a friendly Jekyll/Github hybrid to manage websites
 layout: post
+category: work
 ---
 
 Today I updated the work site to WordPress version 4. Updating WordPress work sites is never a pleasant experience.

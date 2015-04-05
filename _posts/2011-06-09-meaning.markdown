@@ -1,19 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2011-06-09 12:58:14+00:00
 layout: post
-slug: meaning
 title: Putting content and meaning first
-wordpress_id: 1969
-categories:
-- Articles
-tags:
-- content
-- florent
-- julien
-- meaning
-- vive la France
+catcategory: work
 ---
 
 The [very talented Florent](http://fvsch.com/) paid my website [a very nice compliment](http://twitter.com/#!/fvsch/statuses/78758259493842944), calling it an example of ‘content first’ design.

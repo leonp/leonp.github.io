@@ -1,18 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2012-08-05 09:38:46+00:00
 layout: post
-slug: readability-conundrum-provide-a-service-charge-for-it
-title: 'The great Readability conundrum (Or: If you provide a service, charge for
-  it)'
-wordpress_id: 2818
-categories:
-- Miscellany
-tags:
-- business
-- money
-- readability
+title: The great Readability conundrum (Or &#8211; If you provide a service, charge for it)
+category: work
 ---
 
 **[Readability](http://www.readability.com/)**, if you didn't know, is a service that reformats web articles so they're easy to read. If you've ever been confronted by a [great article set in justified Times New Roman](http://www.lacan.com/zizek-empire.htm), you'll appreciate what a godsend it is.

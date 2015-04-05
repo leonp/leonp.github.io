@@ -1,18 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2009-01-13 18:23:09+00:00
 layout: post
-slug: simple-complex-ordered-butchered
 title: Simple, complex, ordered, butchered
-wordpress_id: 410
-categories:
-- Article
-- Articles
-tags:
-- essays
-- fundamentals
-- rutledge
+category: work
 ---
 
 **More than any other blogger** I'm aware of, [Andy Rutledge](http://www.andyrutledge.com) discusses web design with an intellectual rigour that elevates the subject to an academic level. Andy has positioned himself as a [conservative dissident](http://www.andyrutledge.com/design-dissent.php#fragment-3), not only challenging commonly–held political beliefs that the design world holds, but also some of the apparently self–evident tenets of web design itself.

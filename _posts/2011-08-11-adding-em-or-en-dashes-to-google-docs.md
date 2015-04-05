@@ -1,11 +1,7 @@
 ---
 title: Adding em or en dashes to Google docs
-author: Leon
-excerpt: Always hyphenate properly.
 layout: post
-permalink: /2011/08/adding-em-or-en-dashes-to-google-docs/
-categories:
-  - Typography
+category: work
 ---
 Love Google docs and all that, but typographically it&#8217;s a little basic.
 

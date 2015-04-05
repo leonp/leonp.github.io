@@ -1,17 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2011-08-11 10:09:44+00:00
 layout: post
-slug: adding-em-dashes-to-google-docs
 title: Adding em or en dashes to Google docs
-wordpress_id: 2100
-categories:
-- Articles
-tags:
-- Google
-- hyphenation
-- typography
+category: work
 ---
 
 Love Google docs and all that, but typographically it's a little basic.

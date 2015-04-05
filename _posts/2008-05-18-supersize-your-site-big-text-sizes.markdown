@@ -1,17 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2008-05-18 11:34:58+00:00
 layout: post
-slug: supersize-your-site-big-text-sizes
 title: Supersize your site – big text sizes
-wordpress_id: 11
-categories:
-- Articles
-tags:
-- accessibility
-- legibility
-- typography
+category: work
 ---
 
 As someone who is interested in readability on the web, I thought I'd try an experiment.  I always set my site base font size to 100% (which virtually always means body copy will be sized at 16 pixels - picture 12 point Arial or Times on a word-processor to get an idea of the size).  The reason is simple: big text is easier to read than small text.  Squinting isn't fun.

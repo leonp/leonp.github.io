@@ -1,16 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2011-01-24 20:47:07+00:00
 layout: post
-slug: scherzo-theme-added-to-the-wordpress-directory
 title: Scherzo theme added to the WordPress directory
-wordpress_id: 1673
-categories:
-- Articles
-tags:
-- scherzo
-- WordPress
+category: work
 ---
 
 Today I got a short, jolly email from the WordPress theme reviewers:

@@ -1,7 +1,7 @@
 ---
-date: 2008-05-05 18:33:33+00:00
 layout: post
 title: Times for print, Georgia for screen
+category: work
 ---
 
 <img src="http://www.ascenderfonts.com/af/images/art/ascender/Georgia-720x360.jpg" alt="Georgia sample">

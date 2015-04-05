@@ -1,19 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2010-03-05 14:09:08+00:00
 layout: post
-slug: an-aside-really-isnt-a-sidebar
 title: An aside really isn’t a sidebar
-wordpress_id: 1057
-categories:
-- Article
-- Articles
-tags:
-- html
-- html5
-- semantics
-- tags
+category: work
 ---
 
 One of HTML5's structural tags is `aside`. I must admit to liking this one as soon as I found out about it; it seemed to promise a way of adding a little writerliness to blog posts, even a little depth. On a practical level, it could help authors supply supplementary or tangential information within their documents. One of the best uses of asides (not the actual tag itself) can be found on [Jon Tan's site](http://jontangerine.com/log/2008/02/designer-php-a-dynamic-menu-with-if-and-else):

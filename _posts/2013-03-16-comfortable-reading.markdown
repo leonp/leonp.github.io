@@ -1,17 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2013-03-16 19:22:40+00:00
 layout: post
-slug: comfortable-reading
 title: Comfortable reading
-wordpress_id: 3336
-categories:
-- Design
-tags:
-- reading
-- text
-- zeldman
+category: work
 ---
 
 > A bunch of people seem to find >20 pixel body text readable/preferable. Something weird afoot here.

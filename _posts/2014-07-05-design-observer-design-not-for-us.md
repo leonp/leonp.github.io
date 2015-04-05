@@ -7,6 +7,7 @@ categories:
   - Design
   - Politics
   - Typography
+  - Web
 ---
 History repeats itself quickly in the world of web design – it seems like only yesterday [we were lambasting <cite>Design Observer</cite> for its new–not–at–all–new design][1].
 

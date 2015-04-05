@@ -1,19 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2011-08-26 15:20:39+00:00
 layout: post
-slug: why-justify
 title: Why justify?
-wordpress_id: 2151
-categories:
-- Article
-- Articles
-tags:
-- css
-- justification
-- print
-- text
+category: work
 ---
 
 [Firefox 6 and Safari 5 now hyphenate](http://blog.fontdeck.com/post/9037028497/hyphens). In theory this means that you can now [justify](http://en.wikipedia.org/wiki/Justification_(typesetting)) blocks of text so they'll look like the neat, square paragraphs in most (all?) printed novels, _sans_ the [rivers](http://en.wikipedia.org/wiki/River_(typography)) that `text-align: justify` normally generates.

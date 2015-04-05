@@ -1,11 +1,7 @@
 ---
 title: Carrying out a web content audit
-author: Leon
-excerpt: "Know what you're publishing so you can get it under control."
 layout: post
-permalink: /2013/04/carrying-out-a-web-content-audit/
-categories:
-  - Website management
+category: work
 ---
 I&#8217;ve been undertaking a couple of largish projects since starting work as [Suffolk Libraries][1]&#8216; web manager. The first is a content audit.
 

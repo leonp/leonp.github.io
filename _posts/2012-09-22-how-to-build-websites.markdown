@@ -1,13 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2012-09-22 12:31:30+00:00
 layout: post
-slug: how-to-build-websites
 title: How to build websites
-wordpress_id: 3057
-categories:
-- Design
+category: work
 ---
 
 Here's how I'd go about building websites now.

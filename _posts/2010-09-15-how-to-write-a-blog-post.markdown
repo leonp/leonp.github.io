@@ -1,18 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2010-09-15 13:23:32+00:00
 layout: post
-slug: how-to-write-a-blog-post
 title: How to write a blog post
-wordpress_id: 1415
-categories:
-- Articles
-tags:
-- blogging
-- outlines
-- reading
-- Writing
+category: work
 ---
 
 ## 1. You want to write

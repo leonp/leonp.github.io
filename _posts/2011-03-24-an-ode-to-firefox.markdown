@@ -1,19 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2011-03-24 21:43:22+00:00
 layout: post
-slug: an-ode-to-firefox
 title: An ode to Firefox
-wordpress_id: 1796
-categories:
-- Miscellany
-tags:
-- Chrome
-- Firefox
-- IE
-- Microsoft
-- Opera
+category: work
 ---
 
 Ah Firefox. You did [bestride the world like a colossus](http://www.online-literature.com/shakespeare/julius_caesar/3/), since the time you were called [Phoenix 0.4](http://www.mozilla.com/en-US/firefox/releases/0.4.html) and I sneaked you onto a work computer under the watchful gaze of the [IDT](http://www.idt.net/) IT department. Back then in, oooohhhh, 2003(?) the IT department meant the Microsoft department.

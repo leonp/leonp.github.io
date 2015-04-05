@@ -2,6 +2,7 @@
 date: 2013-11-15 09:58:57+00:00
 layout: post
 title: Google plus auto generated pages cause problems
+category: work
 ---
 
 Nobody really wants Google Plus but Google is dying for you to want Plus.

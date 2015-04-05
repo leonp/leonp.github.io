@@ -1,16 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2013-06-06 19:56:53+00:00
 layout: post
-slug: extra-form-fields-shoul-benefit-the-user
-title: 'Extra form fields: Make sure they benefit the user'
-wordpress_id: 3490
-categories:
-- Design
-- Web management
-tags:
-- forms
+title: Extra form fields &#8211; Make sure they benefit the user
+category: work
 ---
 
 Something to look out for when your work CMS has a forms module.
@@ -29,23 +20,11 @@ Sounds good, apart from the fact you’ve shifted work to the user without provi
 
 Now, some might argue that adding a field to a form isn’t a big deal. But consider the additional work a dropdown list of 50 branches entails:
 
-
-
-	
-  * Another field to interpret and interact with.
-
-	
-  * Another compulsory field to complete.
-
-	
-  * Navigating to and pressing a small target area.
-
-	
-  * Scanning and interpreting a list of 50 branches.
-
-	
-  * Selecting one of the branches.
-
+- Another field to interpret and interact with.
+- Another compulsory field to complete.
+- Navigating to and pressing a small target area.
+- Scanning and interpreting a list of 50 branches.
+- Selecting one of the branches.
 
 Filling in forms on and offline is a joyless experience that involves interpretation, repetition and a degree of dexterity. Think of all the times you've had to complete an endless job application form which asks you about _every_ job you've ever had.
 

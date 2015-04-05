@@ -1,17 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2012-02-06 14:33:32+00:00
 layout: post
-slug: its-2012-and-we-still-have-popups
 title: It's 2012 and we still have pop–ups
-wordpress_id: 2500
-categories:
-- Design
-tags:
-- advertising
-- ethics
-- pop-ups
+category: work
 ---
 
 See:

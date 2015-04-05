@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Separating services is preferable to surface integration (or 3 principles for a web strategy)
+category: work
 ---
 
 At work, our approach (or &#8216;strategy&#8217;, if you like) is to incorporate as many services on our own website as possible. So if a customer wants to find a book, CD or download ideally they'd go to `http://suffolklibraries.co.uk`, do a search, browse the results and reserve/download it without leaving the site.

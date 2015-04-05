@@ -1,8 +1,7 @@
 ---
 date: 2013-06-24 09:40:00+00:00
 layout: post
-category: libraries
-cat_name: libraries
+category: work
 title: Libraries should invest millions in search engines
 ---
 

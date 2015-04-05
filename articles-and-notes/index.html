@@ -1,19 +1,23 @@
 ---
 layout: default
-title: Archive
-description: Curated posts from 2008. A mix of web, literature, politics and a little music.
+title: Articles &amp; notes
+description: Curated posts on building, managing &amp; designing websites from 2008.
 show: yes
 ---
 
-<form class="pure-form form-custom" role="search" method="get" id="search" action="https://duckduckgo.com/" name="x">
-		
-	<p class="secondary">Search my site with Duck Duck Go:</p>
+<p class="primary">Notes &amp; articles about managing, designing and building websites. I also write about <a href="/not-work">non&#8211;work stuff</a>. Subscribe to the <a href="/feed">RSS feed</a>.</p>
 
-	<input type="hidden" value="leonpaternoster.com" name="sites">
-	<input type="search" name="q" value="Search">
+<form method="get" action="http://www.google.com/search" class="pure-form form-custom" role="search" id="search">
+
+	<p class="secondary">Search my site with Google:</p>
+
+	<input type="search" name="q">
 	<input type="submit" class="pure-button pure-button-primary" value="Search">
-	
+	<input type="hidden" name="sitesearch" value="leonpaternoster.com">
+
 </form>
+
+<hr>
 
 {% for post in site.posts  %}
 
@@ -38,6 +42,8 @@ show: yes
 		{% endif %}
 
 	{% endif %}
+	
+	{% if post.category == 'work' %}
 
 	<li class="link-list-item">
 		
@@ -45,6 +51,8 @@ show: yes
 		<a class="link-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
 	</li>
+	
+	{% endif %}
 
 	{% if forloop.last %}
 	

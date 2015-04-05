@@ -1,6 +1,7 @@
 ---
 title: In defence of blogging
 layout: post
+category: work
 ---
 
 Matt is right in one sense: the term [‘blogging’ sounds oddly old-fashioned](http://mattgemmell.com/on-blogs/). Blogs were big a decade or so ago &#8211; everyone was at it on Blogger, wordpress.com and Typepad, banging out all sorts of updates.

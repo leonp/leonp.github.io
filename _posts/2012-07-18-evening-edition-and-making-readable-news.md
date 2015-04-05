@@ -2,6 +2,7 @@
 date: 2012-07-18 10:58:57+00:00
 layout: post
 title: Evening Edition and making readable news
+category: work
 ---
 
 Noted&#8212;[Evening Edition](http://evening-edition.com/), a daily news digest that plays nicely with mobile screens.

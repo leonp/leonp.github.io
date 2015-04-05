@@ -1,6 +1,7 @@
 ---
 title: Medium and the wrong paragraph
 layout: post
+category: work
 ---
 
 Warning: this is inessential stuff.

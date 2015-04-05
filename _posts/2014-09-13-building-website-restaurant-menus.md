@@ -1,6 +1,7 @@
 ---
 title: Why restaurants publish images of their menus online (and why they shouldn't)
 layout: post
+category: work
 ---
 
 We were looking for somewhere to eat in Ipswich and its environs and trawled through a few restaurant websites, which  is rarely a pleasurable experience. Apart from the <abbr title="Information Architecture">IA</abbr> problems (<i>where's the menu?</i>) and gigantic sliders of mashed potato, the most common annoyance is the menu.

@@ -1,6 +1,7 @@
 ---
 title: Notes on designing a home page, part 2&#58; Navigation and signposting
 layout: post
+category: work
 ---
 
 In the first note I discussed [the difficulties in providing users with an easy way to do whatever it is they want to do online](/2015/03/designing-home-pages/). This time I'll look at how you choose what to actually put on your home page.

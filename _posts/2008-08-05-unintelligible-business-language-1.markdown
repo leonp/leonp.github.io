@@ -1,17 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2008-08-05 08:32:57+00:00
 layout: post
-slug: unintelligible-business-language-1
-title: 'Unintelligible business language #1'
-wordpress_id: 62
-categories:
-- Articles
-tags:
-- marketese
-- readability
-- waffle
+title: Unintelligible business language #1
+category: work
 ---
 
 I actually rather like the design of [this site](http://www.optimasgroup.com/), but one does have to wonder if the writers have written for human beings before:

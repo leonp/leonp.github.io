@@ -4,8 +4,7 @@ author: Leon
 excerpt: "It's not that difficult and Jekyll's quick and elegant."
 layout: post
 permalink: /2013/06/moving-from-wordpress-to-jekyll/
-categories:
-  - Code and technology
+category: work
 ---
 <figure class="figure alignnone"><img class="full-bleed wp-image-32 size-full" src="http://leonpaternoster.com/wp-content/uploads/2013/06/jekyll.jpg" alt="Poster of Jekyll turning into Hyde" width="1020" height="709" /><figcaption class="secondary">Image from [Wikimedia][1]</figcaption></figure> 
 Last night I migrated my blog from WordPress to [Jekyll][2]. As it doesn&#8217;t really make much difference to readers (apart from in one major way, which I&#8217;ll discuss in a bit), I wasn&#8217;t planning to write about it. But the change elicited a few Twitter comments, so here&#8217;s a rough and ready explanation/guide.

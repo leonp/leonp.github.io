@@ -1,6 +1,7 @@
 ---
 title: Using Github as a CMS
 layout: post
+category: work
 ---
 
 I saw this idea in the comments on a post somewhere or other, and my immediate reaction was <i>nope</i>. Too technical, too using&#8211;something&#8211;that&#8211;it&#8211;wasn't&#8211;intended&#8211;for.

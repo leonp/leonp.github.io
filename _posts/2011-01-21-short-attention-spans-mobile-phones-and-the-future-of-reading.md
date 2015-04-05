@@ -1,13 +1,9 @@
 ---
 title: Short attention spans, mobile phones and the future of reading
-author: Leon
 layout: post
-permalink: /2011/01/short-attention-spans-mobile-phones-and-the-future-of-reading/
-categories:
-  - Design
-  - Language
-  - Writing
+category: work
 ---
+
 I bet you were expecting a doom filled post, rather similar to [this excellent, long meditation on short formats and modern reading behaviours][1]. But not a word of it; reading is, I think, in rude health.
 
 In fact I’m willing to bet that people are reading — and writing — (whether it’s Twitter updates, Facebook pages, blogs or news stories) more than ever.

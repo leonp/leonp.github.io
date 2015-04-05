@@ -1,6 +1,7 @@
 ---
 title: Four things to avoid when building website navigation menus
 layout: post
+category: work
 ---
 
 Information architecture is difficult when your organisation offers lots of different services to lots of different people.

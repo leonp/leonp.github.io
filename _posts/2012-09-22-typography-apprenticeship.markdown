@@ -1,15 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2012-09-22 08:11:31+00:00
 layout: post
-slug: typography-apprenticeship
 title: Typography apprenticeship
-wordpress_id: 3056
-categories:
-- Design
-tags:
-- apprenticeship
+category: work
 ---
 
 I sometimes think about a web typography apprenticeship, especially when I'm fiddling around with blog themes at the weekend. The fiddling involves lots of repetition.

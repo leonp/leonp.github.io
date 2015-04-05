@@ -1,11 +1,7 @@
 ---
 title: Your website is not as important as your catalogue
-author: Leon
-excerpt: 'Because your visitors want to <em>do</em> something online: search for and reserve books (or even download them).'
 layout: post
-permalink: /2013/05/your-website-is-not-as-important-as-your-catalogue/
-categories:
-  - Website management
+category: work
 ---
 > Your website is not as important as your catalog. This is a fact. We’ve asked many nonlibrarians about what they do on library websites, and the usual response is “Place reserves on books.” This is subtly different from how we think of our websites and catalogs (i.e., as distinct things). So, either our users see the two as the same thing, or they ignore our websites and just use our catalogs. Looking at website analytics suggests the latter. <cite><a href="http://www.scribd.com/doc/91222042/User-Experience-and-Library-Websites">User Experience (UX) Design for Libraries</a></cite>
 

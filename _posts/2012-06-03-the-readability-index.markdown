@@ -1,18 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2012-06-03 06:47:11+00:00
 layout: post
-slug: the-readability-index
 title: The readability index
-wordpress_id: 2615
-categories:
-- Article
-- Design
-tags:
-- design
-- legibility
-- readability
+category: work
 ---
 
 **If you design long form texts** for the web your readers shouldn't sigh or wince when they open one of your articles.

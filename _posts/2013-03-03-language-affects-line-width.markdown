@@ -1,17 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2013-03-03 11:58:53+00:00
 layout: post
-slug: language-affects-line-width
 title: Language affects line width
-wordpress_id: 3300
-categories:
-- Design
-tags:
-- line width
-- measure
-- typography
+category: work
 ---
 
 Enjoyed this [Smashing Mag piece on building layouts based on line width](http://www.smashingmagazine.com/2013/03/01/logical-breakpoints-responsive-design/), particularly the _I'm no expert_ tone. Exactly what a ‘content first’ approach demands, and I think it can also be applied to sites that display forms instead of lots of paragraphs. Of course, designing for text heavy sites is a lot easier, and more fun.

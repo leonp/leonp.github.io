@@ -1,19 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2008-09-20 09:33:38+00:00
 layout: post
-slug: simplifying-the-guardians-header
 title: Simplifying The Guardian’s header
-wordpress_id: 123
-categories:
-- Articles
-tags:
-- essential
-- front
-- guardian
-- lead
-- redesign simplicity
+category: work
 ---
 
 I've had a stab at redesiging [The Guardian](http://guardian.co.uk)'s home page before. I thought I'd take a different tack this time by concentrating on one part of the page: the header.

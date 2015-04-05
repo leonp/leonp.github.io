@@ -2,6 +2,7 @@
 date: 2013-06-22 20:45:55+00:00
 layout: post
 title: Setting up WordPress style year and month URLs in Jekyll
+category: work
 ---
 
 Just a quick note to mark my move from WordPress to <a href="http://jekyllrb.com/">Jekyll</a>.

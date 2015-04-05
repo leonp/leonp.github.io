@@ -1,18 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2012-03-22 18:13:21+00:00
 layout: post
-slug: itv-news-website-redesign
 title: ITV News website redesign
-wordpress_id: 2561
-categories:
-- Article
-- Design
-tags:
-- itv
-- news
-- tumblr
+category: work
 ---
 
 **Noted**: The new [ITV News website](http://www.itv.com/news/) from [Made by Many](http://madebymany.com/blog/rolling-out-real-time-digital-news-at-itv). It's very, very good. Why?

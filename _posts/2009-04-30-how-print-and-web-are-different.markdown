@@ -1,18 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2009-04-30 18:26:20+00:00
 layout: post
-slug: how-print-and-web-are-different
 title: How print and web are different
-wordpress_id: 549
-categories:
-- Articles
-tags:
-- design
-- jason santa maria
-- print
-- web
+category: work
 ---
 
 I've just listened to the wonderful SVA Dot Dot Dot Lectures: Jason Santa Maria:

@@ -1,18 +1,8 @@
 ---
-author: admin
-comments: true
-date: 2011-06-20 20:11:48+00:00
 layout: post
 slug: why-bother-with-html5-sectioning-elements
-title: 'An HTML5 challenge (which lead me to think: Why bother with HTML5 sectioning
-  elements?)'
-wordpress_id: 1999
-categories:
-- Articles
-tags:
-- html
-- html5
-- semantics
+title: An HTML5 challenge (which lead me to think &#8211; Why bother with HTML5 sectioning elements?)
+category: work
 ---
 
 [David asked for suggestions on how to markup a list of albums using HTML5](http://twitter.com/#!/BrightEyesDavid/statuses/82742770497892353). Each album includes the following information:

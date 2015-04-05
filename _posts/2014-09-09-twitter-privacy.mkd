@@ -1,6 +1,7 @@
 ---
 title: Twitter widgets &#8211; don't put them on your site, even if no one cares about privacy
 layout: post
+category: work
 ---
 > We may tailor the Services for you based on your visits to third-party websites that integrate Twitter buttons or widgets. When these websites first load our buttons or widgets for display, we receive Log Data that includes the web page you visited and a cookie that identifies your browser ("Widget Data"). After a maximum of 10 days, we start the process of deleting, de-identifying, or aggregating Widget Data, which is usually instantaneous but in some cases may take up to a week. We may use Widget Data to tailor content for you, such as suggestions for people to follow on Twitter and other content you may be interested in. <cite><a href="https://twitter.com/privacy">Twitter Privacy Policy</a></cite>
 

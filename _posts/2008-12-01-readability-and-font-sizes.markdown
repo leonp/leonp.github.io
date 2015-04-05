@@ -1,41 +1,18 @@
 ---
-author: admin
-comments: true
-date: 2008-12-01 23:00:38+00:00
 layout: post
-slug: readability-and-font-sizes
 title: Readability and font sizes
-wordpress_id: 248
-categories:
-- Articles
-tags:
-- font
-- legibility
-- readability
-- typography
+category: work
 ---
 
 Preliminary notes for an article:
 
 What is a 'good' font size for reading from a screen?  Lots of variables:
 
-
-
-	
-  * screen size/resolution
-
-	
-  * age/eyesight of viewer
-
-	
-  * length of paragraph
-
-	
-  * measure of paragraph
-
-	
-  * reader's taste
-
+- screen size/resolution
+- age/eyesight of viewer
+- length of paragraph
+- measure of paragraph
+- reader's taste
 
 I've always assumed that larger font size = more readable, but having read [Vivien's critique of my website](http://www.inspirationbit.com/design-critique-leon-paternoster), [comments on the iA site](http://informationarchitects.jp/100e2r/) and through listening to my work colleagues, I'm not so sure.
 

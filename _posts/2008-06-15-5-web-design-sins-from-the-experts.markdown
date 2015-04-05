@@ -1,19 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2008-06-15 07:37:58+00:00
 layout: post
-slug: 5-web-design-sins-from-the-experts
 title: 5 web design sins from the experts
-wordpress_id: 16
-categories:
-- Articles
-tags:
-- essential
-- imagery
-- lead
-- legibility
-- readability
+category: work
 ---
 
 As you can probably gather from this blog, I'm interested in the areas of **usability** and **accessibility** and how they relate to web design. There are some fabulous web designers out there, but the age old _apparent _conflict between attractiveness and accessibility sometimes flares up on their own web sites. Here I present 5 areas in which even the experts could improve:

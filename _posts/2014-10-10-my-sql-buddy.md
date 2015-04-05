@@ -1,6 +1,7 @@
 ---
 layout: post
 title: You don't have to use PHPmyadmin
+category: work
 ---
 
 I installed <a href="http://elementaryos.org/">elementary</a> recently, an OS X&#8211;ish Ubuntu variant. Installing a new distro means `sudo apt-get install`ing the same bits and pieces of software, including <abbr title="Linux Apache MySQL PHP">LAMP</abbr>.

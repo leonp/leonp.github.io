@@ -1,17 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2011-06-16 14:35:21+00:00
 layout: post
-slug: rubbish-writing
 title: Why business writing is rubbish
-wordpress_id: 1987
-categories:
-- Articles
-tags:
-- copy
-- minimalism
-- Writing
+category: work
 ---
 
 If you write anything for business, or you're interested in writing at all, it's well worth subscribing to the [Good Copy, Bad Copy](http://www.dorisandbertie.com/goodcopybadcopy/) blog.

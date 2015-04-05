@@ -1,23 +1,12 @@
 ---
-author: admin
-comments: true
-date: 2011-09-28 20:46:36+00:00
 layout: post
-slug: reading-newspapers
 title: Reading newspaper articles involves looking at words
-wordpress_id: 2222
-categories:
-- Articles
-tags:
-- boston globe
-- guardian
-- newspapers
-- readability
+category: work
 ---
 
-**What do most people do** when they find an article they want to read in a newspaper?
+What do most people do when they find an article they want to read in a newspaper?
 
-<!-- more -->Do they start flicking through the rest of the paper for related stories? Phone or email a friend to recommend the writer? Stand up and tell anyone within earshot what they're reading?
+Do they start flicking through the rest of the paper for related stories? Phone or email a friend to recommend the writer? Stand up and tell anyone within earshot what they're reading?
 
 So what makes reading online any different?
 
