@@ -35,9 +35,7 @@
 			})();
 		</script>
 
-        {% if page.title == "Articles &amp; notes" %}
-            <script src="/js/toggle.js"></script>
-        {% endif %}
+        <script src="/js/uilang.js"></script>
 		
 	</head>
 	

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Not work
-description: Curated posts from 2008. A mix of web, literature, politics and a little music.
+title: Articles &amp; notes
+description: Curated posts on building, managing &amp; designing websites from 2008.
 show: yes
 ---
 
-<p class="primary">Notes &amp; articles about politics, music, books, football and anything else not to do with my work. Subscribe to the <a href="/feed">RSS feed</a>.</p>
+<p class="primary">Notes &amp; articles about managing, designing and building websites. I also write about <a href="/not-work">non&#8211;work stuff</a>. Subscribe to the <a href="/feed">RSS feed</a>.</p>
 
 <form method="get" action="http://www.google.com/search" class="pure-form form-custom" role="search" id="search">
 
@@ -18,6 +18,8 @@ show: yes
 </form>
 
 <hr>
+
+<ul class>
 
 {% for post in site.posts  %}
 
@@ -43,7 +45,7 @@ show: yes
 
 	{% endif %}
 	
-	{% if post.category != 'work' %}
+	{% if post.category == 'work' %}
 
 	<li class="link-list-item">
 		

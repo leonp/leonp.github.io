@@ -303,34 +303,7 @@ CONTENTS
 }
 
 .table-custom {
-	margin-bottom: 1.4em;
-}
-
-*.button-custom + div {
-    display: none;
-}
-
-*.button-custom-active + div {
-    display: block;
-}
-
-.toggle-box {
-    position: relative;
-}
-
-.toggle-box-button-left {
-    position: absolute;
-    top: 0;
-}
-
-.toggle-box-button-right {
-    position: absolute;
-    top: 0;
-    left: 4em;
-}
-
-.toggle-box-content {
-    padding-top: 2.8em
+	margin-bottom: 1.6em;
 }
 
 
