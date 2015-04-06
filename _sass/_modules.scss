@@ -272,7 +272,11 @@ CONTENTS
 }
 
 .form-custom {
-	margin-bottom: 1.6em;	
+	margin-bottom: 0.8em;	
+}
+
+.form-custom input {
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .form-custom input[type="search"] {
