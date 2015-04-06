@@ -8,11 +8,10 @@
 html {
 	font-size: 118.5%;
 	line-height: 1.2;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: calluna, times, 'times new roman', georgia, serif;
 }
 
 .nav,
-#banner,
 .hide,
 .info-footer,
 .entry-content img {

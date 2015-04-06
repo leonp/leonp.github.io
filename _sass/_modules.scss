@@ -140,7 +140,6 @@ CONTENTS
 .entry-title {
 	font-size: 1.6154em;
 	line-height: 1.2381em;
-	text-align: center;
 }
 
 .entry-meta {
@@ -202,14 +201,12 @@ CONTENTS
 	font-size: 1.3077em;
 	line-height: 1.2235em;
 	padding: 0.6118em 0;
-	text-align: center;
 }
 
 .entry-content h3,
 .entry-content dt {
 	font-size: 1em;
 	padding: 0.8em 0;
-	text-align: center;
 }
 
 .entry-content h2 a:link {
@@ -219,7 +216,6 @@ CONTENTS
 .entry-footer {
 	padding: 0.8em 0;
 	border-top: 1px dotted $lgrey;
-	text-align: center;
 }
 
 .entry-footer ul,
@@ -276,12 +272,7 @@ CONTENTS
 }
 
 .form-custom {
-	margin-bottom: 1.6em;
-	
-	@media #{$wbp} {
-		text-align: center;
-	}
-	
+	margin-bottom: 1.6em;	
 }
 
 .form-custom input[type="search"] {
@@ -307,7 +298,7 @@ CONTENTS
 }
 
 *.button-custom + div {
-    display: none;
+   display: none;
 }
 
 *.button-custom-active + div {

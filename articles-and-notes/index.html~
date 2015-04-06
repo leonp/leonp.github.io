@@ -5,7 +5,7 @@ description: Curated posts on building, managing &amp; designing websites. Since
 show: yes
 ---
 
-<p class="primary">Subscribe to the <a href="/feed">RSS feed</a>.</p>
+<p class="primary text-centre">Subscribe to the <a href="/feed">RSS feed</a>.</p>
 
 <form method="get" action="http://www.google.com/search" class="pure-form form-custom" role="search" id="search">
 
@@ -26,8 +26,6 @@ show: yes
     <button class="pure-button pure-button-primary button-custom button-custom-active toggle-box-button-left">Work</button>
 
     <div class="toggle-box-content">
-        
-        <h2>Web management, design &amp; writing</h2>
 
         {% for post in site.posts  %}
 
@@ -80,8 +78,6 @@ show: yes
 
     <div class="toggle-box-content">
 
-        <h2>Politics, writing, music, football etc.</h2>
-
         {% for post in site.posts  %}
 
 	        {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
@@ -130,3 +126,13 @@ show: yes
     </div> <!-- end .toggle-box-content -->
 
 </div> <!-- end .inline-list -->
+
+<code>
+    <!-- start by removing the previous "open" class -->
+    clicking on ".button-custom" removes class "button-custom-active" on ".button-custom-active"
+    clicking on ".button-custom" removes class "pure-button-primary" on ".pure-button-primary"
+
+    <!-- then add it to the clicked title -->
+    clicking on ".button-custom" adds class "button-custom-active" on "target"
+    clicking on ".button-custom" adds class "pure-button-primary" on "target"
+</code>
