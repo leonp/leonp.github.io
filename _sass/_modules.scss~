@@ -115,6 +115,10 @@ CONTENTS
 	margin-right: 1.4em;
 }
 
+#banner .inline-nav-item {
+	margin: 0 0.7em 0 0.7em;
+}
+
 .active {
 	border-bottom: 0.1em solid $black;
 }

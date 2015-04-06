@@ -38,14 +38,14 @@ body {
 	line-height: 1.4; /* 28px at widescreen */
 	font-family: $main-font;
 	color: $dark;
-	background-color: $light;
+	background-color: $lgrey;
 	
 	@media #{$nbp} {
 		font-size: 118.75%;
 	}
 	
 	@media #{$bp} {
-		background-color: $light;
+		background-color: $lgrey;
 	}
 }
 

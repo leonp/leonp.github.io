@@ -15,8 +15,13 @@ html {
 #banner,
 .hide,
 .info-footer,
-.entry-footer {
+.entry-footer,
+#footer {
 	display: none;
+}
+
+.entry-footer time.published {
+    display: block !important;
 }
 
 .secondary,
