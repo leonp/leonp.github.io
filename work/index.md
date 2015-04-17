@@ -3,7 +3,7 @@ title: Work
 layout: default
 ---
 
-<p class="primary">I get small businesses online and manage not for profit organisations&#8217; websites. I&#8217;ve been working on the web since 2008. Contact me at <em><a href="http://twitter.com/leonpaternoster">@leonpaternoster</a></em> and <em>leon.paternoster@unseen.is</em></p>
+<p class="primary">I get small businesses online and manage not for profit organisations&#8217; websites. I&#8217;ve been working on the web since 2008. Contact me at <em><a href="http://twitter.com/leonpaternoster">@leonpaternoster</a></em> and <em>leon.paternoster@zoho.com</em></p>
 	
 <hr>
 
@@ -71,4 +71,4 @@ layout: default
 
 <p class="figcaption">Screenshot from the Allsortz Group website</p>
 
-<p class="primary">Contact me: <em>leon.paternoster@unseen.is</em> and <em><a href="http://twitter.com/leonpaternoster">@leonpaternoster</a></em></p>
+<p class="primary">Contact me: <em>leon.paternoster@zoho.com</em> and <em><a href="http://twitter.com/leonpaternoster">@leonpaternoster</a></em></p>
