@@ -28,7 +28,8 @@
 #banner {
 	padding: 1em 0;
 	font-family: $secondary-font;
-	font-weight: normal;
+	font-weight: bold;
+	text-transform: uppercase;
 	
 	@media #{$bp} {
 		padding: 1.6842em 0 1.2632em 0;
