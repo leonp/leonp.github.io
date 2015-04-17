@@ -7,14 +7,12 @@
 	
 	@media #{$bp} {
 		padding: 0 7em;
-		background-color: $light;
 	}
 	
 	margin: 0 auto;
 }
 
 .wrapper.page {
-	background-color: $light;
 	padding: 1.4em;
 	
 	@media #{$bp} {
@@ -30,6 +28,7 @@
 	font-family: $secondary-font;
 	font-weight: bold;
 	text-transform: uppercase;
+	background-color: $light;
 	
 	@media #{$bp} {
 		padding: 1.6842em 0 1.2632em 0;
