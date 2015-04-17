@@ -29,17 +29,11 @@
 	padding: 1em 0;
 	font-family: $secondary-font;
 	font-weight: normal;
-    background-color: $lgrey;
-    border-bottom: 1px solid $grey;
 	
 	@media #{$bp} {
 		padding: 1.6842em 0 1.2632em 0;
 	}
 	
-}
-
-#banner .wrapper {
-    background-color: $lgrey;
 }
 
 #banner a:link,
@@ -55,7 +49,6 @@
 
 #footer {
 	padding: 1.4em 0;
-	text-align: center;
 	font-style: italic;
 }
 
