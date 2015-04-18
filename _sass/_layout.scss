@@ -29,6 +29,7 @@
 	font-weight: bold;
 	text-transform: uppercase;
 	background-color: $light;
+	border-bottom: 1px solid #EFEFEF;
 	
 	@media #{$bp} {
 		padding: 1.6842em 0 1.2632em 0;

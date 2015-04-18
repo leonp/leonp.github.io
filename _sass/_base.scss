@@ -39,14 +39,12 @@ body {
 	font-family: $main-font;
 	color: $dark;
 	background-color: $lgrey;
+	border-top: 0.2em solid $highlight;
 	
 	@media #{$nbp} {
 		font-size: 118.75%;
 	}
 	
-	@media #{$bp} {
-		background-color: $lgrey;
-	}
 }
 
 h1,
