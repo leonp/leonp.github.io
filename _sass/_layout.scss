@@ -30,16 +30,23 @@
 	text-transform: uppercase;
 	background-color: $light;
 	border-bottom: 1px solid #EFEFEF;
+	text-shadow: 1px 1px 1px #000;
+	background-image: linear-gradient(
+			rgba(255, 208, 0, 0.45), 
+			rgba(255, 208, 0, 0.45)),
+			url('/images/serpent.jpg');
+	background-size: cover;
 	
 	@media #{$bp} {
 		padding: 1.6842em 0 1.2632em 0;
+		padding: 6em 0;
 	}
 	
 }
 
 #banner a:link,
 #banner a:visited {
-	color: $link;
+	color: $light;
 }
 
 #banner a:hover,
