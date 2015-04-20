@@ -33,6 +33,10 @@ main {
 	display: block;
 }
 
+html {
+	background-color: $lgrey;
+}
+
 body {
 	font-size: 100%;
 	line-height: 1.4; /* 28px at widescreen */
@@ -43,7 +47,7 @@ body {
 	
 	@media #{$nbp} {
 		font-size: 118.75%;
-		max-width: 1600px;
+		max-width: 1000px;
 		margin: 0 auto;
 	}
 	
