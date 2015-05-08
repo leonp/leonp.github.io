@@ -115,10 +115,6 @@ CONTENTS
 	margin-right: 1.4em;
 }
 
-.active {
-	color: $hover;
-}
-
 
 /*
 4.	ENTRY
@@ -272,7 +268,7 @@ CONTENTS
 }
 
 .form-custom input {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: $main-font;
 }
 
 .form-custom input[type="search"] {
@@ -284,6 +280,8 @@ CONTENTS
 	width: 100%;
 	display: block;
 	margin-bottom: 0.4em;
+	font-family: $main-font;
+	border-radius: 0.2em;
 	
 	@media #{$bp} {
 		width: 75%;
