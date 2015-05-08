@@ -46,7 +46,7 @@ body {
 	border-top: 0.2em solid $highlight;
 	
 	@media #{$nbp} {
-		font-size: 118.75%;
+		font-size: 125%;
 		max-width: 1000px;
 		margin: 0 auto;
 	}

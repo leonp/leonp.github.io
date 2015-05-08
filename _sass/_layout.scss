@@ -29,17 +29,10 @@
 	font-family: $secondary-font;
 	font-weight: bold;
 	text-transform: uppercase;
-	background-color: $light;
-	border-bottom: 1px solid #EFEFEF;
-	text-shadow: 1px 1px 1px #000;
-	background-image: linear-gradient(
-			rgba(255, 208, 0, 0.45), 
-			rgba(255, 208, 0, 0.45)),
-			url('/images/sketch3.jpg');
-	background-size: cover;
+	background-color: $dark;
+	border-bottom: 1px solid $hover;
 	
 	@media #{$bp} {
-		padding: 6em 0;
 	}
 	
 }
@@ -51,9 +44,11 @@
 
 #banner a:hover,
 #banner a:active,
-#banner a:focus {
+#banner a:focus,
+#banner a.active {
 	color: $hover;
 }
+
 
 #footer {
 	padding: 1.4em 0;
