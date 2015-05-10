@@ -1,37 +1,41 @@
 {% include header.html %}
 
-<article class="entry">
+<div class="wrapper page">
 
-	{% if page.title %}
+	<article class="entry">
+
+		{% if page.title %}
+					
+			<header class="entry-header">
+
+				<h1 class="entry-title">{{ page.title }}</h1>
+
+			</header>
+			
+		{% endif %}
+
+		<div class="entry-content">
+		
+			<p class="big">If you're a small businesses or not for profit I can set you up on the web, or improve your current website. I provide a range of services, from consultancy to coding and hosting.</p>
+			
+			<p>Email me at <strong>leon . paternoster @ unseen . is</strong> (without spaces) for more information.</p>
+			
+			<h2><a href="http://suffolklibraries.co.uk">Suffolk Libraries</a></h2>
 				
-		<header class="entry-header">
-
-			<h1 class="entry-title">{{ page.title }}</h1>
-
-		</header>
-		
-	{% endif %}
-
-	<div class="entry-content">
-	
-		<p class="big">If you're a small businesses or not for profit I can set you up on the web, or improve your current website. I provide a range of services, from consultancy to coding and hosting.</p>
-		
-		<p>Email me at <strong>leon . paternoster @ unseen . is</strong> (without spaces) for more information.</p>
-		
-		<h2><a href="http://suffolklibraries.co.uk">Suffolk Libraries</a></h2>
+			<p>Complete rebuild of the library service website. I did customer research into popular tasks and site structure, built a new WordPress template and rewrote all of the copy.</p>
 			
-		<p>Complete rebuild of the library service website. I did customer research into popular tasks and site structure, built a new WordPress template and rewrote all of the copy.</p>
-		
-		<h2><a href="http://cultcafe.co.uk">Cult cafe</a></h2>
+			<h2><a href="http://cultcafe.co.uk">Cult cafe</a></h2>
+				
+			<p>Responsive site which incorporates a Google Calendar for events. Like all restaurant and events sites should, especially those on a university campus, works perfectly on a mobile phone.</p>
 			
-		<p>Responsive site which incorporates a Google Calendar for events. Like all restaurant and events sites should, especially those on a university campus, works perfectly on a mobile phone.</p>
-		
-		<h2><a href="http://allsortzgroup.co.uk">Allsortz Theatre Group</a></h2>
+			<h2><a href="http://allsortzgroup.co.uk">Allsortz Theatre Group</a></h2>
+				
+			<p>Simple, responsive one page site that uses free Github Pages hosting.</p>
 			
-		<p>Simple, responsive one page site that uses free Github Pages hosting.</p>
+		</div>
 		
-	</div>
-	
-</article>
+	</article>
+
+</div>
 
 {% include footer.html %}

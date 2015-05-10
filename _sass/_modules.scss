@@ -340,21 +340,30 @@ CONTENTS
 
 
 /*
-5.	TWITTER
+6.	HEROIC
 ===========
 */
 
-#tweet li {
-	list-style-type: none;
-	margin-left: 0;
+.hero {
+	background-image: url('/images/sketch3.jpg');
+	background-repeat: no-repeat;
+	border-bottom: 1px solid $lgrey;
+	padding: 1.4em 0;
 }
 
-#tweet .interact a:after {
-	content: ' / ';
+.hero-title {
+	text-shadow: 1px 1px 1px #FFF;
+	margin-bottom: 0.371em;
 }
 
-#tweet .interact a:last-child:after {
-	content: '';
+.hero-content {
+	padding: 1.4em 1.4em 0.75em 1.4em;
+	background-color: $light;
+	opacity: 0.9;
+}
+
+.hero-content p {
+	margin-bottom: 0.8em;
 }
 
 

@@ -13,13 +13,13 @@ $secondary-font: freight-sans-pro, sans-serif;
 $black: #000;
 $dark: #444;
 $light: #FFF;
-$highlight: #FFD000;
+$highlight: #FF6A00;
 $grey: #AAA;
-$lgrey: #F9F9F9;
+$lgrey: #F1F1F1;
 $link: #0000FF;
 $visited: #7F7FFF;
 $active: #000;
-$hover: #FFD000;
+$hover: #FF6A00;
 
 $nbp: "screen and (min-width: 700px)";
 $bp: "screen and (min-width: 780px)";
@@ -29,9 +29,9 @@ $wbp: "screen and (min-width: 880px)";
 // Import partials from `sass_dir` (defaults to `_sass`)
 
 @import
-        "base",
-        "layout",
-		"modules",
-		"grid",
-		"print"
+    "base",
+    "layout",
+	"modules",
+	"grid",
+	"print"
 ;
