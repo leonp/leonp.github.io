@@ -26,7 +26,7 @@
 						{{ page.content | number_of_words }}
 					{% endcapture %}
 				
-					<p><time class="published">{{ page.date | date: "%b %-d %Y" }}</time> &middot; {{ words }} words &middot; <a href="/">Home</a> / <a href="/articles-and-notes">Articles &amp; notes</a> / <a href="/feed">RSS</a></p>
+					<p><time class="published">{{ page.date | date: "%b %-d %Y" }}</time> &middot; {{ words }} words &middot; <a href="/">Home</a> / {% if page.category == 'work' %}<a href="/articles-and-notes">Articles &amp; notes</a>{% elsif page.category != 'work' %}<a href="/journal">Journal</a>{% endif %} / <a href="/feed">RSS</a></p>
 							
 				<!-- <div class="pagination clearfix">
 				

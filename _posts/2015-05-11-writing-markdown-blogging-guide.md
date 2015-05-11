@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: post
 title: A guide to using Markdown to write blog posts
+category: work
 ---
 
 ## Introduction: What is Markdown?

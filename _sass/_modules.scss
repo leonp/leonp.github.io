@@ -196,9 +196,14 @@ CONTENTS
 }
 
 .entry-content h3,
+.entry-content h4,
 .entry-content dt {
 	font-size: 1em;
 	padding: 0.8em 0;
+}
+
+.entry-content h4 {
+	color: $grey;
 }
 
 .entry-content h2 a:link {
