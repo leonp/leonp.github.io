@@ -3,7 +3,7 @@ title: Work
 layout: default
 ---
 
-<p class="primary">I get small businesses online and manage not for profit organisations&#8217; websites. I&#8217;ve been working on the web since 2008. Contact me at <em><a href="http://twitter.com/leonpaternoster">@leonpaternoster</a></em>, <em>leon.paternoster@zoho.com</em> and <em><a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></em></p>
+<p class="primary">I get small businesses online and manage not for profit organisations&#8217; websites. I&#8217;ve been working on the web since 2008. Contact me at <em><a href="http://twitter.com/leonpaternoster">@leonpaternoster</a></em>, <em>leon.paternoster@zoho.com</em> and <em><a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></em>.</p>
 	
 <hr>
 
