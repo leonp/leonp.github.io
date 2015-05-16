@@ -3,7 +3,7 @@ title: Work
 layout: default
 ---
 
-<p class="primary">I get small businesses online and manage not for profit organisations&#8217; websites. I&#8217;ve been working on the web since 2008. Contact me at <em><a href="http://twitter.com/leonpaternoster">@leonpaternoster</a></em> and <em>leon.paternoster@zoho.com</em></p>
+<p class="primary">I get small businesses online and manage not for profit organisations&#8217; websites. I&#8217;ve been working on the web since 2008. Contact me at <em><a href="http://twitter.com/leonpaternoster">@leonpaternoster</a></em>, <em>leon.paternoster@zoho.com</em> and <em><a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></em></p>
 	
 <hr>
 
@@ -71,4 +71,20 @@ layout: default
 
 <p class="figcaption">Screenshot from the Allsortz Group website</p>
 
-<p class="primary">Contact me: <em>leon.paternoster@zoho.com</em> and <em><a href="http://twitter.com/leonpaternoster">@leonpaternoster</a></em></p>
+<hr>
+
+<h2>Testimonials</h2>
+
+<blockquote>
+
+	<p>Leon is very knowledgeable about web design and the nature and impact of on-line communications. I've always found his advice on web presentation to be very valuable. <cite>Alan Tanner, research analyst, CITB</cite></p>
+
+</blockquote>
+
+<blockquote>
+
+	<p>Great communication at all times, very pleased with Leon's work! <cite>Mike Keen, owner, The Brewery Tap and Cult Cafe</cite></p>
+
+</blockquote>
+
+<p class="primary">Contact me: <em>leon.paternoster@zoho.com</em> and <em><a href="http://twitter.com/leonpaternoster">@leonpaternoster</a></em> and <em><a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></em></p>
