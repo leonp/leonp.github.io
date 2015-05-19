@@ -6,7 +6,7 @@
 					
 			<header class="entry-header">
 			
-				<p class="entry-meta secondary"></p>
+				<p class="secondary breadcrumb"><a href="/">Leon Paternoster</a> &rarr; {% if page.category == 'work' %}<a href="/articles-and-notes">Articles &amp; notes</a>{% elsif page.category != 'work' %}<a href="/journal">Journal</a>{% endif %}</p>
 
 				{% if page.title %}<h1 class="entry-title">{{ page.title }}</h1>{% endif %}
 
