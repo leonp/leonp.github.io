@@ -8,7 +8,7 @@
 html {
 	font-size: 118.5%;
 	line-height: 1.2;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: $main-font, serif;
 }
 
 .nav,
@@ -36,5 +36,5 @@ html {
 	width: 25%;
 	margin: 1.5em auto;
 }
-  
+
 }

@@ -4,9 +4,9 @@ category: work
 title: Generating page specific classes in WordPress templates to keep code DRY and extensible
 ---
 
-_How to extend your WordPress template classes by adding the page slug to class names_.
+_How to generate page specific class names in a WordPress template, making it easy to extend your code and keep it <abbr title="Do not Repeat Yourself">DRY</abbr>_.
 
-At work we use WordPress to run our main website. We've built a child theme that includes lots of custom templates so we can build non&#8211;standard types of pages.
+At work we use WordPress to run our main website. We've built a child theme that includes lots of custom templates so we can build non&#8211;standard of pages.
 
 One such template is `custom-hero.php`. It calls the site header and displays the page excerpt on top of the custom image, should the page author have specified an excerpt and image in the WordPress page editor. You can see it in action on our [Summer Reading Challenge](http://suffolklibraries.co.uk/events-activities/summer-reading-challenge-2015) page.
 

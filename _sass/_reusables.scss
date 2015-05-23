@@ -1,0 +1,68 @@
+@media screen, projection {
+
+    .secondary {
+    	color: $grey;
+    	font-size: 0.9375em;
+    	line-height: 1.28em;
+    }
+
+    .primary {
+    	font-size: 1.3077em;
+    	line-height: 1.3765em;
+    }
+
+    .clearfix:before,
+    .clearfix:after {
+    	content: "";
+    	display: block;
+    }
+
+    .clearfix:after {
+    	clear: both;
+    }
+
+    .clearfix {
+    	zoom: 1;
+    }
+
+    .hide {
+    	position: absolute !important;
+    	clip: rect(1px 1px 1px 1px);
+    	clip: rect(1px, 1px, 1px, 1px);
+    }
+
+    .img-round {
+    	-webkit-border-radius: 50%;
+    	moz-border-radius: 50%;
+    	border-radius: 50%;
+    }
+
+    .centre {
+    	display: block;
+    	margin: 0 auto;
+    }
+
+    .text-centre {
+    	text-align: center;
+    }
+
+    .vid {
+    	position: relative;
+    	padding-bottom: 56.25%;
+    	padding-top: 30px;
+    	height: 0;
+    	overflow: hidden;
+    	margin-bottom: 1.6em;
+    }
+
+    .vid iframe,
+    .vid object,
+    .vid embed {
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	height: 100%;
+    }
+
+}

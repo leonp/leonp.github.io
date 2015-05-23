@@ -1,0 +1,18 @@
+@media screen, projection {
+
+    .global-nav li {
+        float: left;
+        width: 50%;
+        list-style-type: none;
+        padding: 0.25em 0;
+
+    @media #{$nbp} {
+        float: auto;
+        width: auto;
+    	display: inline;
+    	margin-right: 1.4em;
+        }
+
+    }
+
+}

@@ -3,13 +3,13 @@
 <html lang="en-gb">
 
 	<head>
-	
+
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
+
 		<title>{% if page.title %}{{ page.title }} &#8211; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 		{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-		
+
 		<!--[if lt IE 9]>
     		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js">
     	<![endif]-->
@@ -19,7 +19,7 @@
 		<link rel="stylesheet" href="/css/main.css">
 		<link href="/feed" rel="alternate" type="application/rss+xml" title="{{ site.title }}">
 		<link rel="shortcut icon" type="image/png" href="/images/favicon.png">
-		
+
 		<script>
 			WebFontConfig = {
 			typekit: { id: 'ofd4cut' }
@@ -35,44 +35,43 @@
         {% if page.title == "Articles &amp; notes" %}
             <script src="/js/toggle.js"></script>
         {% endif %}
-		
+
 	</head>
-	
+
 	<body>
-	
+
 		<div class="accessibility hide">
-		
+
 			<ul>
-				
+
 				<li><a href="#content">Skip to content</a></li>
 				<li><a href="#nav">Skip to navigation</a></li>
-				
+
 			</ul>
-			
+
 		</div>
-		
+
 		<header id="banner" role="banner">
-		
+
 			<div class="wrapper">
-						
-				<nav class="nav" id="nav" role="navigation">
 
-					<h1 class="accessibility hide">Navigation</h1>				
+				<nav class="nav clearfix" id="nav" role="navigation">
 
-					<ul class="inline-nav secondary">
+					<h1 class="accessibility hide">Navigation</h1>
 
-						<li class="site-title inline-nav-item"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}><a href="/">Home</a></h1></li>
-						<li class="inline-nav-item"><a href="/articles-and-notes"{% if page.title == "Articles &amp; notes" %} class="active"{% endif %}>Articles &amp; notes</a></li>	
-						<li class="inline-nav-item"><a href="/work"{% if page.title == "Work" %} class="active"{% endif %}>Work</a></li>
+					<ul class="global-nav secondary">
 
-					</ul>				
+						<li class="site-title global-nav-item"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}><a href="/">Home</a></h1></li>
+						<li class="global-nav-item"><a href="/articles-and-notes"{% if page.title == "Web articles" %} class="active"{% endif %}>Web articles</a></li>
+						<li class="global-nav-item"><a href="/journal"{% if page.title == "Journal" %} class="active"{% endif %}>Journal</a></li>
+						<li class="global-nav-item"><a href="/work"{% if page.title == "Work" %} class="active"{% endif %}>Work</a></li>
+
+					</ul>
 
 				</nav>
-			
+
 			</div> <!-- end .wrapper -->
-			
+
 		</header>
-		
+
 		<main id="content" role="main">
-		
-			

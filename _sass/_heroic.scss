@@ -1,0 +1,26 @@
+@media screen, projection {
+
+    .hero {
+    	background-image: url('/images/sketch3.jpg');
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	border-bottom: 1px solid $lgrey;
+    	padding: 1.4em 0;
+    }
+
+    .hero-title {
+    	text-shadow: 1px 1px 1px #FFF;
+    	margin-bottom: 0.371em;
+    }
+
+    .hero-content {
+    	padding: 1.4em 1.4em 0.75em 1.4em;
+    	background-color: $light;
+    	opacity: 0.95;
+    }
+
+    .hero-content p {
+    	margin-bottom: 0.8em;
+    }
+
+}
