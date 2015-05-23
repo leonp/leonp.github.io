@@ -3,51 +3,51 @@
 	<div class="wrapper page">
 
 		<article class="entry">
-					
+
 			<header class="entry-header">
-			
-				<p class="secondary breadcrumb"><a href="/">Leon Paternoster</a> &rarr; {% if page.category == 'work' %}<a href="/articles-and-notes">Articles &amp; notes</a>{% elsif page.category != 'work' %}<a href="/journal">Journal</a>{% endif %}</p>
+
+				<p class="secondary breadcrumb"><a href="/">Leon Paternoster</a> &rarr; {% if page.category == 'work' %}<a href="/articles-and-notes">Web articles</a>{% elsif page.category != 'work' %}<a href="/journal">Journal</a>{% endif %}</p>
 
 				{% if page.title %}<h1 class="entry-title">{{ page.title }}</h1>{% endif %}
 
 			</header>
 
 			<div class="entry-content">
-		
+
 				{{ content }}
-			
+
 			</div>
-			
+
 			<footer class="entry-footer">
-			
+
 				<div class="secondary">
-				
+
 					{% capture words %}
 						{{ page.content | number_of_words }}
 					{% endcapture %}
-				
-					<p><time class="published">{{ page.date | date: "%b %-d %Y" }}</time> &middot; {{ words }} words &middot; <a href="/">Home</a> / {% if page.category == 'work' %}<a href="/articles-and-notes">Articles &amp; notes</a>{% elsif page.category != 'work' %}<a href="/journal">Journal</a>{% endif %} / <a href="/feed">RSS</a></p>
-							
+
+					<p><time class="published">{{ page.date | date: "%b %-d %Y" }}</time> &middot; {{ words }} words &middot; <a href="/">Home</a> / {% if page.category == 'work' %}<a href="/articles-and-notes">More web articles</a>{% elsif page.category != 'work' %}<a href="/journal">More journal entries</a>{% endif %} / <a href="/feed">RSS</a></p>
+
 				<!-- <div class="pagination clearfix">
-				
+
 					{% if page.next %}
-				
+
 						<p class="secondary next">Next: <a href="{{ page.next.url }}">{{ page.next.title }}</a> &rarr;</p>
-				
+
 					{% endif %}
-				
+
 					{% if page.previous %}
-				
+
 						<p class="secondary previous">&larr; Previous: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
-				
+
 					{% endif %}
-					
+
 				</div> -->
-				
+
 			</footer>
-		
+
 		</article>
 
 	</div>
-	
+
 {% include footer.html %}
