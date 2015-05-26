@@ -4,25 +4,25 @@
 .wrapper {
 	max-width: 30em;
 	padding: 0 1.4em;
-	
+
 	@media #{$bp} {
 		padding: 0 5.6em;
 	}
-	
+
 	margin: 0 auto;
 }
 
 .wrapper.page {
 	padding: 1.4em;
-	
+
 	@media #{$bp} {
 		padding: 2.8em 5.6em 0 5.6em;
 		margin-bottom: 1.4em;
 		border: none;
 		background-color: $light;
 	}
-	
-}	
+
+}
 
 #banner {
 	padding: 1em 0;
@@ -31,10 +31,10 @@
 	text-transform: uppercase;
 	background-color: $dark;
 	border-bottom: 1px solid $hover;
-	
+
 	@media #{$bp} {
 	}
-	
+
 }
 
 #banner a:link,
