@@ -24,57 +24,22 @@
 
 		<div class="wrapper page">
 
-			<h2>Website management</h2>
+			<h2>Latest articles</h2>
 
-			<p>I help you answer questions like:</p>
+			<ul class="link-list">
 
-			<ul>
+				{% for post in site.categories['work'] limit:10 %}
 
-				<li>What&#8217;s our website for?</li>
-				<li>What do we need to publish?</li>
-				<li>How do we use social media?</li>
-				<li>What do our customers want to do on our website?</li>
-				<li>How do we keep everything up to date and running smoothly?</li>
-				<li>Do we need to build an app?</li>
-				<li>How do we promote events and services online?</li>
+					<li class="link-list-item">
 
-			</ul>
+						<span class="link-list-meta secondary note">{{ post.date | date: "%b %-d, %Y" }}</span><br>
+						<a class="link-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
-			<p>I&#8217;ll also write a plan outlining just how you&#8217;ll do all these things and who&#8217;s responsible for what in your organisation. In short, I&#8217;ll get you working online.</p>
+					</li>
 
-			<h3>A potted history of managing websites</h3>
-
-			<p>I&#8217;ve managed not for profit organisations&#8217; websites since 2008. When I started it was all about commissioning a new, trendy site: now it&#8217;s about researching customers, testing and coming up with a strategy that makes sense of it all. At least it should be &#8211; there are still plenty of pretty but hard to use websites out there.</p>
-
-			<p>Not for profit websites are usually an inward looking, tangled mess of too much, impenetrable <em>stuff</em>. I find out what customers want to do and make those tasks as easy as possible. Sounds simple, but it&#8217;s surprisingly difficult to view what you publish from your customers&#8217; point of view. In fact it&#8217;s often downright counter&#8211;intuitive and misunderstood. Us web managers have to be able to explain difficult concepts. We also have thick skins.</p>
-
-			<hr>
-
-			<h2>Building websites</h2>
-
-			<p>If you run a small business or organisation and need to get online or improve your website, I can help. Here's what I do:</p>
-
-			<ul>
-
-				<li>Design and build you a new website that fits in with your budget</li>
-				<li>Make it look great on any device</li>
-				<li>Make it easy to update</li>
-				<li>Arrange hosting and a business email address, if you need it</li>
-				<li>Set you up on social media</li>
+				{% endfor %}
 
 			</ul>
-
-			<p>I build websites that last&hellip;</p>
-
-			<h3>Building web things since 2008</h3>
-
-			<p>Back in 2008 (it was a good year!) Smashing Magazine linked to <a href="http://www.smashingmagazine.com/2008/08/25/30-free-high-quality-wordpress-themes/2">a WordPress theme I'd made available on my site</a>. As well as knocking over my server this gave me some excellent publicity &#8211; people started asking me to build their websites.</p>
-
-			<p>Then came design for smartphones, and I can claim to have published <a href="https://wordpress.org/themes/scherzo/">the very first <em>mobile first</em> theme to the WordPress theme directory</a>. I've been building mobile first websites for small organisations since 2010 &#8211; I've saved several organisations the hassle (and cost!) of rebuilding their websites for mobiles and tablets.</p>
-
-			<p>I look at what your customers want to do online, your requirements and budget and come up with a website that&#8217;ll get your business working online.</p>
-
-			<p class="primary"><em><a href="/work">Browse some projects &rarr;</a></em></p>
 
 		</div>
 
