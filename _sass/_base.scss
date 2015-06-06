@@ -42,15 +42,14 @@ body {
 	line-height: 1.4; /* 28px at widescreen */
 	font-family: $main-font;
 	color: $dark;
-	background-color: $light;
 	border-top: 0.2em solid $highlight;
-	
+
 	@media #{$nbp} {
 		font-size: 137.5%;
-		max-width: 1000px;
+		max-width: 40.2em;
 		margin: 0 auto;
 	}
-	
+
 }
 
 h1,
@@ -66,7 +65,7 @@ dt {
 }
 
 code {
-	color: #669900;
+	color: $highlight;
 }
 
 pre {

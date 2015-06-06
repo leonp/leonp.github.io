@@ -2,7 +2,7 @@
 
 
 .wrapper {
-	max-width: 30em;
+	max-width: 29em;
 	padding: 0 1.4em;
 
 	@media #{$bp} {
@@ -16,7 +16,7 @@
 	padding: 1.4em;
 
 	@media #{$bp} {
-		padding: 2.8em 5.6em 0 5.6em;
+		padding: 2.8em 5.6em 1.4em 5.6em;
 		margin-bottom: 1.4em;
 		border: none;
 		background-color: $light;
@@ -51,7 +51,7 @@
 
 
 #footer {
-	padding: 1.4em 0;
+	padding-bottom: 1.4em;
 	font-style: italic;
 }
 

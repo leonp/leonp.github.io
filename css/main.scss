@@ -23,7 +23,7 @@ $hover: #FF6A00;
 
 $nbp: "screen and (min-width: 700px)";
 $bp: "screen and (min-width: 780px)";
-$wbp: "screen and (min-width: 880px)";
+$wbp: "screen and (min-width: 900px)";
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -41,5 +41,6 @@ $wbp: "screen and (min-width: 880px)";
     "heroic",
     "breadcrumb",
     "global-nav",
+    "bleed",
 	"print"
 ;
