@@ -119,27 +119,6 @@
     	box-sizing: border-box;
     }
 
-    .bleed,
-    .entry-content img.bleed {
-
-    	@media #{$wbp} {
-    		/* max-width: 42.2em !important;
-    		margin-left: -5.6em;
-    		border: none;
-    		border-top: 1px solid $lgrey;
-    		border-bottom: 1px solid $lgrey; */
-    	}
-    }
-
-    .entry-content img.img-constrained {
-    	max-height: 64px;
-
-    	@media #{$bp} {
-    		max-height: 171px;
-    	}
-
-    }
-
 
     .figcaption {
     	padding-bottom: 0.8em;

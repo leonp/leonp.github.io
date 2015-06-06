@@ -14,12 +14,12 @@
 
 .wrapper.page {
 	padding: 1.4em;
+	background-color: $light;
 
 	@media #{$bp} {
 		padding: 2.8em 5.6em 1.4em 5.6em;
 		margin-bottom: 1.4em;
 		border: none;
-		background-color: $light;
 	}
 
 }
