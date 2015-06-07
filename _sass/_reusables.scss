@@ -3,12 +3,12 @@
     .secondary {
     	color: $grey;
     	font-size: 0.9375em;
-    	line-height: 1.28em;
+    	line-height: 1.358em;
     }
 
     .primary {
-    	font-size: 1.3077em;
-    	line-height: 1.3765em;
+    	font-size: 1.273em;
+    	line-height: 1.286em;
     }
 
     .clearfix:before,
@@ -33,7 +33,7 @@
 
     .img-round {
     	-webkit-border-radius: 50%;
-    	moz-border-radius: 50%;
+    	-moz-border-radius: 50%;
     	border-radius: 50%;
     }
 
@@ -52,7 +52,7 @@
     	padding-top: 30px;
     	height: 0;
     	overflow: hidden;
-    	margin-bottom: 1.6em;
+    	margin-bottom: 1.455em;
     }
 
     .vid iframe,

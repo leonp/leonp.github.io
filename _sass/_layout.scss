@@ -3,7 +3,7 @@
 
 .wrapper {
 	max-width: 29em;
-	padding: 0 1.4em;
+	padding: 0 1.273em;
 
 	@media #{$bp} {
 		padding: 0 5.6em;
@@ -13,19 +13,19 @@
 }
 
 .wrapper.page {
-	padding: 1.4em;
+	padding: 1.273em;
 	background-color: $light;
 
 	@media #{$bp} {
-		padding: 2.8em 5.6em 1.4em 5.6em;
-		margin-bottom: 1.4em;
+		padding: 2.545em 5.6em 1.273em 5.6em;
+		margin-bottom: 1.273em;
 		border: none;
 	}
 
 }
 
 #banner {
-	padding: 1em 0;
+	padding: 0.909em 0;
 	font-family: $secondary-font;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -51,7 +51,7 @@
 
 
 #footer {
-	padding: 0.2em 0 1.4em 0;
+	padding: 0.2em 0 1.273em 0;
 	font-style: italic;
 }
 

@@ -4,23 +4,23 @@
     	margin-bottom: 1em;
 
     	@media #{$bp} {
-    		margin-bottom: 2em;
+    		margin-bottom: 1.455em;
     	}
     }
 
     .entry-title {
-    	font-size: 1.6154em;
-    	line-height: 1.2381em;
+    	font-size: 1.636em;
+    	line-height: 1.222em;
     }
 
     .entry-meta {
     	font-size: 0.875em;
     	font-style: italic;
-    	margin-bottom: 0.427em;
+    	margin-bottom: 0.416em;
     }
 
     .entry-content {
-    	padding-bottom: 1em;
+    	padding-bottom: 0.909em;
     }
 
     .entry-content a:link {
@@ -46,7 +46,7 @@
     .entry-content ul,
     .entry-content ol,
     .entry-content dd {
-    	margin-bottom: 0.8em;
+    	margin-bottom: 0.727em;
     	hyphens: auto;
     	-moz-hyphens: auto;
     }
@@ -60,25 +60,25 @@
     }
 
     .entry-content blockquote {
-    	margin-left: 1.4em;
-    	padding-left: 0.7em;
+    	margin-left: 1.455em;
+    	padding-left: 0.727em;
     	font-size: 0.9375em;
-    	line-height: 1.28em;
+    	line-height: 1.358em;
     	border-left: 0.2em solid $lgrey;
     }
 
     .entry-content h1,
     .entry-content h2 {
-    	font-size: 1.3077em;
-    	line-height: 1.2235em;
-    	padding: 0.6118em 0;
+    	font-size: 1.273em;
+    	line-height: 1.143em;
+    	padding: 0.571em 0;
     }
 
     .entry-content h3,
     .entry-content h4,
     .entry-content dt {
     	font-size: 1em;
-    	padding: 0.8em 0;
+    	padding: 0.727em 0;
     }
 
     .entry-content h4 {
@@ -90,21 +90,21 @@
     }
 
     .entry-footer {
-    	padding: 0.8em 0;
+    	padding: 0.727em 0;
     	border-top: 1px dotted $lgrey;
     }
 
     .entry-footer ul,
     .entry-footer ol,
     .entry-footer p {
-    	margin-bottom: 0.8em;
+    	margin-bottom: 0.727em;
     }
 
     .entry-content hr,
     #footer hr {
     	width: 38%;
-    	margin: 0 auto 0.8em auto;
-    	padding-top: 1.6em 0;
+    	margin: 0 auto 0.727em auto;
+    	padding-top: 1.455em 0;
     	border: none;
     	border-bottom: 1px solid $lgrey;
     }
@@ -121,7 +121,7 @@
 
 
     .figcaption {
-    	padding-bottom: 0.8em;
+    	padding-bottom: 0.727em;
     	color: $grey;
     	font-style: italic;
     }
