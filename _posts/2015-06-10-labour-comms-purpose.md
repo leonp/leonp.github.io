@@ -13,7 +13,7 @@ But there's a danger we conflate the inability to express something in vaguely h
 
 In other words, just because the Tories have been able to construct a serviceable household budget metaphor as a justification for austerity, it doesn't mean austerity's right.
 
-Sunny reckons there are lots of <q>fiscally rightwing Labour voters</q> out there.  If we accept this (and I'm not sure where he gets his figures from) then it doesn't mean they're right either. Austerity could be (is) damaging for millions of people across class divides.
+Sunny reckons there are lots of <q>[fiscally rightwing Labour voters](https://twitter.com/sunny_hundal/status/608561012455841793)</q> out there.  If we accept this (and I'm not sure where he gets his figures from) then it doesn't mean they're right either. Austerity could be (is) damaging for millions of people across class divides.
 
 The problem isn't just _how_ we make these arguments, it's the fact that Labour doesn't make them _at all_.
 
@@ -21,4 +21,4 @@ Now, Labour can go down the Liz Kendall route and decide to accept the Tory vers
 
 The only problem with ceding ground to the Tories entirely is i) it'd inflict more damage on the UK and ii) Labour would lose touch with its constituency altogether.
 
-How does austerity affect the majority of people in the UK, including those earning around average incomes? How does it affect house prices? The cost of things? Job security? These aren't questions just for the left; start answering them and you can formulate a simple, understandable pitch to the electorate. Assume voters are inherently left _or_ right wing and you're doing them a disservice.
+How does austerity affect the majority of people in the UK, including those earning around average incomes? How does it affect household incomes? How does it affect house prices? The cost of things? Job security? These aren't questions just for the left; start answering them and you can formulate a simple, understandable pitch to the electorate. Assume voters are inherently left _or_ right wing and you're doing them a disservice.
