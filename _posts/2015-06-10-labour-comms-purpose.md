@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Labours' problems are only partly about how it talks
+title: Labour's problems are only partly about how it talks
 ---
 
 [Sunny makes a good point about _some_ leftwing communication](http://labourlist.org/2015/06/we-failed-to-defeat-the-tories-because-the-left-has-stopped-understanding-the-public/), quoting Podemos' pablo Iglesias:
