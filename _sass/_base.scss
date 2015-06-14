@@ -34,7 +34,7 @@ main {
 }
 
 html {
-	background-color: $lgrey;
+	background-color: $light;
 }
 
 body {
@@ -48,7 +48,9 @@ body {
 		font-size: 137.5%;
 		line-height: 1.455em;
 		max-width: 40.2em;
-		margin: 0 auto;
+		margin: 1.455em auto;
+		border: 1px solid $lgrey;
+		border-radius: 0.25em;
 	}
 
 }
