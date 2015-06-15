@@ -34,7 +34,7 @@ main {
 }
 
 html {
-	background-color: $light;
+	background-color: $lgrey;
 }
 
 body {
@@ -42,15 +42,14 @@ body {
 	line-height: 1.4; /* 28px at widescreen */
 	font-family: $main-font;
 	color: $dark;
-	border-top: 0.2em solid $highlight;
+	background-color: $light;
 
 	@media #{$nbp} {
 		font-size: 137.5%;
 		line-height: 1.455em;
 		max-width: 40.2em;
 		margin: 1.455em auto;
-		border: 1px solid $lgrey;
-		border-radius: 0.25em;
+		border: 1px solid $midgrey;
 	}
 
 }
