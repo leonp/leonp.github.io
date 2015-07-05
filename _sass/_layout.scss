@@ -29,24 +29,36 @@
 	font-family: $secondary-font;
 	font-weight: bold;
 	text-transform: uppercase;
-	background-color: $light;
+	background-color:#269;
+	background-image: linear-gradient(white 2px, transparent 2px),
+	linear-gradient(90deg, white 2px, transparent 2px),
+	linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+	linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+	background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+	background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+	/* background-color: $light;
 	border-bottom: 1px solid $lgrey;
+	background-image: url('/images/bg-col.png'); */
 
 	@media #{$bp} {
+		padding: 1.6em 0;
 	}
 
 }
 
 #banner a:link,
 #banner a:visited {
-	color: $grey;
+	color: $lgrey;
+	padding: 0.25em 0.5em;
+	background-color: $dark;
+	opacity: 0.9;
 }
 
 #banner a:hover,
 #banner a:active,
 #banner a:focus,
 #banner a.active {
-	color: $dark;
+	color: $hover;
 }
 
 
