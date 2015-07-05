@@ -34,7 +34,7 @@ main {
 }
 
 html {
-	background-color: $lgrey;
+	background-color: $light;
 }
 
 body {
@@ -47,9 +47,7 @@ body {
 	@media #{$nbp} {
 		font-size: 137.5%;
 		line-height: 1.455em;
-		max-width: 40.2em;
 		margin: 1.455em auto;
-		border: 1px solid $midgrey;
 	}
 
 }

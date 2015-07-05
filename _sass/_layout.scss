@@ -2,7 +2,7 @@
 
 
 .wrapper {
-	max-width: 29em;
+	max-width: 30em !important;
 	padding: 0 1.273em;
 
 	@media #{$bp} {
@@ -29,9 +29,8 @@
 	font-family: $secondary-font;
 	font-weight: bold;
 	text-transform: uppercase;
-	background-color: $dark;
-	border-bottom: 0.1em solid $highlight;
-	background-image: url('/images/dark_fish_skin.png');
+	background-color: $light;
+	border-bottom: 1px solid $lgrey;
 
 	@media #{$bp} {
 	}
@@ -40,20 +39,19 @@
 
 #banner a:link,
 #banner a:visited {
-	color: $light;
+	color: $grey;
 }
 
 #banner a:hover,
 #banner a:active,
 #banner a:focus,
 #banner a.active {
-	color: $hover;
+	color: $dark;
 }
 
 
 #footer {
-	padding: 0.2em 0 1.273em 0;
-	font-style: italic;
+	padding: 1.273em 0;
 	border-top: 1px solid $lgrey;
 }
 

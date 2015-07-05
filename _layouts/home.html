@@ -1,50 +1,46 @@
 {% include header.html %}
 
-<article class="entry">
+<div class="wrapper page">
 
-	<div class="hero">
+	<article class="entry">
 
-		<div class="wrapper">
+		<div class="entry-header">
 
-			<div class="hero-content">
-
-				<h1 class="entry-title hero-title">Leon Paternoster</h1>
-
-				<p class="primary"><em>I manage the <a href="http://suffolklibraries.co.uk">Suffolk Libraries</a> website and its customer service team. I also build websites for small businesses and not for profits.</em></p>
-
-				<p>leon.paternoster@zoho.com &middot; <a href="https://twitter.com/leonpaternoster">@leonpaternoster</a> &middot; <a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></p>
-
-			</div>
+			<h1 class="entry-title hero-title">Hello, I'm Leon.</h1>
 
 		</div>
 
-	</div>
+		<div class="entry-content">
 
-	<div class="entry-content">
+			<p class="primary hero">I'm web and customer service manager at <a href="http://suffolklibraries.co.uk">Suffolk Libraries</a>, an industrial and provident society contracted by Suffolk County Council to run Suffolk&apos;s library service. I've managed not for profit websites since 2008.</p>
 
-		<div class="wrapper page">
+			<hr>
 
-			<h2>Latest articles</h2>
+			<p>I also build websites for small organisations, including <a href="http://cultcafe.co.uk">Cult Café</a>, <a href="http://allsortzgroup.co.uk">Allsortz Theatre Group</a> and <a href="http://open-heritage.co.uk/">Open Heritage</a>.</p>
 
-			<ul class="link-list">
+			<p>I live and work in Ipswich, Suffolk in the East of England.</p>
 
-				{% for post in site.categories['work'] limit:10 %}
+			<h2>What I can do for you</h2>
 
-					<li class="link-list-item">
+			<ul>
 
-						<span class="link-list-meta secondary note">{{ post.date | date: "%b %-d, %Y" }}</span><br>
-						<a class="link-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-
-					</li>
-
-				{% endfor %}
+				<li>Digital strategy</li>
+				<li>Content planning</li>
+				<li>Social media</li>
+				<li>Web copywriting</li>
+				<li>Design &amp; coding</li>
+				<li>Hosting &amp; domain names</li>
+				<li>WordPress integration</li>
+				<li>Jekyll integration</li>
 
 			</ul>
 
+			<p>Contact me via <a href="https://twitter.com/leonpaternoster">Twitter</a> or <a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a>, or email <strong>leon.paternoster@zoho.com</strong></p>
+
 		</div>
 
-	</div> <!-- end .entry-content -->
+	</article>
 
-</article>
+</div> <!-- end .wrapper .page -->
 
 {% include footer.html %}
