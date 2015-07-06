@@ -2,6 +2,7 @@
 
     .entry-header {
     	margin-bottom: 1em;
+        text-align: center;
 
     	@media #{$bp} {
     		margin-bottom: 1.455em;
@@ -9,8 +10,9 @@
     }
 
     .entry-title {
-    	font-size: 1.636em;
+    	font-size: 2em;
     	line-height: 1.222em;
+        font-style: italic;
     }
 
     .entry-meta {
@@ -72,6 +74,8 @@
     	font-size: 1.273em;
     	line-height: 1.143em;
     	padding: 0.571em 0;
+        text-align: center;
+        font-style: italic;
     }
 
     .entry-content h3,
@@ -79,19 +83,24 @@
     .entry-content dt {
     	font-size: 1em;
     	padding: 0.727em 0;
+        text-align: center;
+        font-style: italic;
     }
 
     .entry-content h4 {
     	color: $grey;
+        text-align: center;
+        font-style: italic;
     }
 
     .entry-content h2 a:link {
-    		border-bottom: none;
+    	border-bottom: none;
     }
 
     .entry-footer {
     	padding: 0.727em 0;
     	border-top: 1px dotted $lgrey;
+        text-align: center;
     }
 
     .entry-footer ul,

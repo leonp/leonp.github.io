@@ -34,20 +34,21 @@ main {
 }
 
 html {
-	background-color: $light;
+	background-color: $lgrey;
 }
 
 body {
-	font-size: 100%;
+	font-size: 112.5%;
 	line-height: 1.4; /* 28px at widescreen */
 	font-family: $main-font;
 	color: $dark;
-	background-color: $light;
+	background-color: $lgrey;
+	margin: 0.7em auto;
 
 	@media #{$nbp} {
-		font-size: 137.5%;
+		font-size: 150%;
 		line-height: 1.455em;
-		margin: 0 auto;
+		margin: 1.445em auto;
 	}
 
 }
