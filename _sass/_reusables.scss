@@ -2,13 +2,25 @@
 
     .secondary {
     	color: $grey;
-    	font-size: 0.9375em;
-    	line-height: 1.358em;
+    	font-size: 0.889em;
+    	line-height: 1.25em;
+
+        @media #{$bp} {
+            font-size: 0.826em;
+            line-height: 1.263em;
+        }
+
     }
 
     .primary {
-    	font-size: 1.273em;
-    	line-height: 1.286em;
+    	font-size: 1.167em;
+    	line-height: 1.143em;
+
+        @media #{$bp} {
+            font-size: 1.333em;
+            line-height: 1.355em;
+        }
+
     }
 
     .clearfix:before,
@@ -52,7 +64,7 @@
     	padding-top: 30px;
     	height: 0;
     	overflow: hidden;
-    	margin-bottom: 1.455em;
+    	margin-bottom: 1.333em;
     }
 
     .vid iframe,

@@ -2,13 +2,17 @@
 
     .global-nav li {
     	display: inline;
-    	margin: 0 0.75em;
-        font-size: 0.875em;
+    	margin: 0 0.889em;
+        font-size: 0.889em;
     	font-family: $secondary-font;
     	font-weight: normal;
     	text-transform: lowercase;
     	font-variant: small-caps;
-    }
 
+        @media #{$bp} {
+            font-size: 0.826em;
+            line-height: 1.263em;
+        }
+    }
 
 }

@@ -3,21 +3,15 @@
 
 .wrapper {
 	max-width: 30em !important;
-	padding: 0 1.273em;
-
-	@media #{$bp} {
-		padding: 0 5.6em;
-	}
-
 	margin: 0 auto;
 }
 
 .wrapper.page {
-	padding: 1.273em;
+	padding: 1.778em;
 	background-color: $light;
 
 	@media #{$bp} {
-		padding: 2.545em 5.6em 1.273em 5.6em;
+		padding: 3.13em 5em 1.391em 5em;
 		margin-bottom: 0;
 		border: 1px solid $lgrey;
 	}
@@ -25,15 +19,20 @@
 }
 
 #footer {
-	padding: 0.5em 0;
+	padding: 0.75em 0;
 	text-align: center;
-	font-size: 0.875em;
+	font-size: 0.889em;
 	font-family: $secondary-font;
 	font-weight: normal;
 	text-transform: lowercase;
 	font-variant: small-caps;
 	letter-spacing: 1px;
 	text-shadow: 1px 1px 1px $light;
+
+	@media #{$bp} {
+		font-size: 0.826em;
+		padding: 1.053em 0;
+	}
 }
 
 

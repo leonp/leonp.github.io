@@ -38,17 +38,17 @@ html {
 }
 
 body {
-	font-size: 112.5%;
-	line-height: 1.4; /* 28px at widescreen */
+	font-size: 112.5%; /* 18px */
+	line-height: 1.333; /* 24px */
 	font-family: $main-font;
 	color: $dark;
 	background-color: $lgrey;
 	margin: 0.7em auto;
 
 	@media #{$nbp} {
-		font-size: 150%;
-		line-height: 1.455em;
-		margin: 1.445em auto;
+		font-size: 143.75%; /* 23px */
+		line-height: 1.391em; /* 32px */
+		margin: 1.739em auto;
 	}
 
 }
@@ -75,6 +75,12 @@ pre {
 	margin-bottom: 1.4em;
 	padding: 0.75em;
 	background-color: $dark;
+
+	@media #{$bp} {
+		margin-bottom: 1.043em;
+		padding: 1.043em;
+	}
+
 }
 
 a {

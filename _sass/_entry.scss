@@ -1,28 +1,40 @@
 @media screen, projection {
 
     .entry-header {
-    	margin-bottom: 1em;
+    	margin-bottom: 1.111em;
         text-align: center;
 
     	@media #{$bp} {
-    		margin-bottom: 1.455em;
+    		margin-bottom: 1.391em;
     	}
     }
 
     .entry-title {
     	font-size: 2em;
-    	line-height: 1.222em;
+    	line-height: 1.111em;
         font-style: italic;
+
+        @media #{$bp} {
+            font-size: 2em;
+        	line-height: 1.087em;
+        }
+
     }
 
     .entry-meta {
-    	font-size: 0.875em;
+    	font-size: 0.889em;
     	font-style: italic;
-    	margin-bottom: 0.416em;
+    	margin-bottom: 0.5em;
+
+        @media #{$bp} {
+            font-size: 0.826em;
+            line-height: 1.263em;
+            margin-bottom: 0.632em;
+        }
     }
 
     .entry-content {
-    	padding-bottom: 0.909em;
+    	padding-bottom: 0.826em;
     }
 
     .entry-content a:link {
@@ -48,9 +60,14 @@
     .entry-content ul,
     .entry-content ol,
     .entry-content dd {
-    	margin-bottom: 0.727em;
+    	margin-bottom: 0.667em;
     	hyphens: auto;
     	-moz-hyphens: auto;
+
+        @media #{$bp} {
+            margin-bottom: 0.696em;
+        }
+
     }
 
     .entry-content li {
@@ -62,29 +79,52 @@
     }
 
     .entry-content blockquote {
-    	margin-left: 1.455em;
-    	padding-left: 0.727em;
-    	font-size: 0.9375em;
-    	line-height: 1.358em;
+    	margin-left: 1.333em;
+    	padding-left: 0.666em;
+    	font-size: 0.889em;
+    	line-height: 1.25em;
     	border-left: 0.2em solid $lgrey;
+
+        @media #{$bp} {
+            font-size: 0.826em;
+            line-height: 1.263em;
+            margin-left: 1.263em;
+            padding-left: 0.826em;
+        }
+
     }
 
     .entry-content h1,
     .entry-content h2 {
-    	font-size: 1.273em;
-    	line-height: 1.143em;
-    	padding: 0.571em 0;
+    	font-size: 1.333em;
+    	line-height: 1.167em;
+    	padding: 0.5em 0;
         text-align: center;
         font-style: italic;
+
+        @media #{$bp} {
+            font-size: 1.5em;
+            line-height: 1.143em;
+            padding: 0.457em 0;
+        }
+
     }
 
     .entry-content h3,
     .entry-content h4,
     .entry-content dt {
     	font-size: 1em;
-    	padding: 0.727em 0;
+        line-height: 1.111em;
+    	padding: 0.667em 0;
         text-align: center;
         font-style: italic;
+
+        @media #{$bp} {
+            font-size: 1.167em;
+            line-height: 1.185em;
+            padding: 0.593em 0;
+        }
+
     }
 
     .entry-content h4 {
@@ -98,24 +138,38 @@
     }
 
     .entry-footer {
-    	padding: 0.727em 0;
+    	padding: 0.667em 0;
     	border-top: 1px dotted $lgrey;
         text-align: center;
+
+        @media #{$bp} {
+            padding: 0.348em 0;
+        }
+
     }
 
     .entry-footer ul,
     .entry-footer ol,
     .entry-footer p {
-    	margin-bottom: 0.727em;
+    	margin-bottom: 0.667em;
+
+        @media #{$bp} {
+            padding: 0.696em 0;
+        }
     }
 
     .entry-content hr,
     #footer hr {
     	width: 38%;
-    	margin: 0 auto 0.727em auto;
-    	padding-top: 1.455em 0;
+    	margin: 0 auto 0.667em auto;
+    	padding-top: 1.333em;
     	border: none;
     	border-bottom: 1px solid $lgrey;
+
+        @media #{$bp} {
+            padding-top: 0.696em;
+            margin: 0 auto 0.696em auto;
+        }
     }
 
     .entry-content img {
@@ -130,9 +184,14 @@
 
 
     .figcaption {
-    	padding-bottom: 0.727em;
+    	padding-bottom: 0.667em;
     	color: $grey;
     	font-style: italic;
+
+        @media #{$bp} {
+            padding-bottom: 0.87em;
+        }
+
     }
 
 
