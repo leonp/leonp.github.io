@@ -5,7 +5,7 @@ layout: post
 
 Reader, I am rich. And, because I've been gaming the benefits system, [George Osborne is about to crackdown on me](http://news.sky.com/story/1513430/crackdown-on-rich-council-house-tenants). Ask those marvelous Sky News journalists. [And the ones at LBC](http://www.lbc.co.uk/crackdown-on-rich-council-house-tenants-112348). And the millions of other high quality websites fed news by Sky.
 
-Me, Bob Crowe and Frank Dobson. Bastards all.
+Me, Bob Crow and Frank Dobson. Bastards all.
 
 You see, I live in social housing. When we moved in to this house I was the only person earning an income, and I earned less than I do now. I've moved on to a better paid job and my wife works, so we're deemed rich, and will have to pay 'market rates' for my rent.
 
