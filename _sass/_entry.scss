@@ -12,7 +12,6 @@
     .entry-title {
     	font-size: 2em;
     	line-height: 1.111em;
-        font-style: italic;
 
         @media #{$bp} {
             font-size: 2em;
@@ -100,7 +99,6 @@
     	line-height: 1.167em;
     	padding: 0.5em 0;
         text-align: center;
-        font-style: italic;
 
         @media #{$bp} {
             font-size: 1.5em;
@@ -117,7 +115,6 @@
         line-height: 1.111em;
     	padding: 0.667em 0;
         text-align: center;
-        font-style: italic;
 
         @media #{$bp} {
             font-size: 1.167em;
@@ -130,7 +127,6 @@
     .entry-content h4 {
     	color: $grey;
         text-align: center;
-        font-style: italic;
     }
 
     .entry-content h2 a:link {
