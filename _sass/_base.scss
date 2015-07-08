@@ -35,6 +35,11 @@ main {
 
 html {
 	background-color: $light;
+	border-top: 0.222em solid $highlight;
+
+	@media #{$nbp} {
+		border-top: 0.348em solid $highlight;
+	}
 }
 
 body {
