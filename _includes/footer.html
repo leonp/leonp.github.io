@@ -21,6 +21,14 @@
 
 					</nav> -->
 
+					{% if page.title != "Home" %}
+
+						<p class="secondary"><a href="/">Home</a> &middot; <a href="/articles-and-notes">Web articles</a> &middot; <a href="/journal">Non work Journal</a></p>
+
+						<br>
+
+					{% endif %}
+
 					<p class="logo"><a onclick="smoothScroll('top');" href="#top"><img class="logo-img" src="/images/up.svg"></a></p>
 
 				</div>

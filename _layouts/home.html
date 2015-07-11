@@ -12,9 +12,37 @@
 
 		<div class="entry-content">
 
-			<p class="primary hero">I'm web and customer service manager at <a href="http://suffolklibraries.co.uk">Suffolk Libraries</a>. I've managed not for profit websites since 2008, and written <a href="/articles-and-notes">articles</a> along the way.</p>
+			<p>Web and customer service manager. Occasional designer of websites for local businesses. Blogger of <a href="/articles-and-notes">web articles</a>. Keeps a non&#8211;work <a href="/journal">journal</a>.</p>
 
-			<p>I also build websites for small organisations, including <a href="http://cultcafe.co.uk">Cult Café</a>, <a href="http://allsortzgroup.co.uk">Allsortz Theatre Group</a> and <a href="http://open-heritage.co.uk/">Open Heritage</a>. Contact me via <a href="https://twitter.com/leonpaternoster">Twitter</a> or <a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a>, or email <em>leon.paternoster@zoho.com</em></p>
+			<h2>Work</h2>
+
+			<ul class="link-list">
+
+				<li class="link-list-item"><a href="http://suffolklibraries.co.uk">Suffolk Libraries</a></li>
+				<li class="link-list-item"><a href="http://cultcafe.co.uk">Cult Cafe</a></li>
+				<li class="link-list-item"><a href="http://allsortzgroup.co.uk">Allsortz Group</a></li>
+				<li class="link-list-item"><a href="http://open-heritage.co.uk">Open Heritage</a></li>
+
+			</ul>
+
+			<h2>Articles</h2>
+
+			<ul class="link-list">
+
+				{% for post in site.categories.work limit:5 %}
+
+				    <li class="link-list-item">
+
+				        <span class="link-list-meta secondary note">{{ post.date | date: "%b %-d, %Y" }}</span><br>
+				        <a class="link-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+
+				    </li>
+
+				{% endfor %}
+
+				<li class="link-list-item"><a href="/articles-and-notes">All web articles &rarr;</a></li>
+
+			</ul>
 
 			<!-- <hr>
 
@@ -25,8 +53,6 @@
 				<li class="global-nav-item"><a href="/journal"{% if page.title == "Journal" %} class="active"{% endif %}>Journal</a></li>
 
 			</ul> -->
-
-			<p>(I also keep a <a href="/journal">journal</a> of non&#8211;work stuff.)</p>
 
 		</div>
 
