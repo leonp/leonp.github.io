@@ -1,18 +1,54 @@
 @media screen, projection {
 
-    .global-nav li {
-    	display: inline;
-    	margin: 0 0.889em;
-        font-size: 0.889em;
-    	font-family: $secondary-font;
-    	font-weight: normal;
-    	text-transform: lowercase;
-    	font-variant: small-caps;
+    .top-bar {
+        padding: 0.444em 0;
+        border-bottom: 1px $grey dotted;
 
         @media #{$bp} {
-            font-size: 0.826em;
-            line-height: 1.263em;
+            padding: 0.696em 0;
         }
+
+    }
+
+    .top-bar a:link,
+    .top-bar a:visited {
+        color: $dark;
+    }
+
+    .top-bar a:hover,
+    .top-bar a:active,
+    .top-bar a:focus {
+        color: $hover;
+    }
+
+    .top-bar-title {
+        font-size: 1em;
+        font-weight: normal;
+        text-transform: lowercase;
+        font-variant: small-caps;
+        letter-spacing: 1px;
+    }
+
+    .top-bar-nav {
+        font-style: italic;
+        padding: 0.444em 0;
+
+        @media #{$bp} {
+            padding: 0;
+        }
+
+    }
+
+    .top-bar-nav-item a:link,
+    .top-bar-nav-item a:visited {
+        color: $grey;
+    }
+
+    .top-bar-nav-item a:hover,
+    .top-bar-nav-item a:active,
+    .top-bar-nav-item a:focus,
+    .top-bar-nav-item a.active {
+        color: $dark;
     }
 
 }

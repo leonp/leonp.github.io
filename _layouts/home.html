@@ -12,40 +12,9 @@
 
 		<div class="entry-content">
 
-			<p>Web and customer service manager. Occasional designer of websites for local businesses. Blogger of <a href="/articles-and-notes">web articles</a>. Keeps a non&#8211;work <a href="/journal">journal</a>.</p>
+			<p>Web and customer service manager. Occasional designer of websites for local businesses. Writes articles about working on the web and keeps a journal about everything else.</p>
 
-			<h2>Work</h2>
-
-			<p><a href="http://suffolklibraries.co.uk">Suffolk Libraries</a> &middot; <a href="http://cultcafe.co.uk">Cult Cafe</a> &middot; <a href="http://allsortzgroup.co.uk">Allsortz Group</a> &middot; <a href="http://open-heritage.co.uk">Open Heritage</a></p>
-
-			<h2>Articles</h2>
-
-			<ul class="link-list">
-
-				{% for post in site.categories.work limit:5 %}
-
-				    <li class="link-list-item">
-
-				        <span class="link-list-meta secondary note">{{ post.date | date: "%b %-d, %Y" }}</span><br>
-				        <a class="link-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-
-				    </li>
-
-				{% endfor %}
-
-				<li class="link-list-item"><a href="/articles-and-notes">All web articles &rarr;</a></li>
-
-			</ul>
-
-			<!-- <hr>
-
-			<ul class="global-nav secondary text-centre">
-
-				<li class="site-title global-nav-item"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}>Home</a></li>
-				<li class="global-nav-item"><a href="/articles-and-notes"{% if page.title == "Web articles" %} class="active"{% endif %}>Web articles</a></li>
-				<li class="global-nav-item"><a href="/journal"{% if page.title == "Journal" %} class="active"{% endif %}>Journal</a></li>
-
-			</ul> -->
+			<p>Email <em>leon.paternoster@zoho.com</em>  &middot; <em><a href="https://twitter.com/leonpaternoster">@leonpaternoster</a></em></p>
 
 		</div>
 

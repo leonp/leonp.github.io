@@ -1,35 +1,31 @@
 @media screen, projection {
 
+.outer-wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
 
 .wrapper {
-	max-width: 25em !important;
+	max-width: 28em !important;
 	margin: 0 auto;
 }
 
 .wrapper.page {
-	padding: 1.778em;
 	background-color: $light;
+	padding: 1.333em 0;
 
 	@media #{$bp} {
-		padding: 3.13em 5em 1.391em 5em;
-		margin-bottom: 0;
+		padding: 3.478em 0 1.391em 0;
 	}
 
 }
 
 #footer {
 	padding: 0.75em 0;
-	text-align: center;
-	font-size: 0.889em;
 	font-family: $secondary-font;
-	font-weight: normal;
-	text-transform: lowercase;
-	font-variant: small-caps;
-	letter-spacing: 1px;
-	text-shadow: 1px 1px 1px $light;
+	color: $grey;
 
 	@media #{$bp} {
-		font-size: 0.826em;
 		padding: 1.053em 0;
 	}
 }

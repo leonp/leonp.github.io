@@ -38,8 +38,53 @@
 
 	<body id="top">
 
-		<p class="accessibility hide"><a href="#content">Skip to content</a></p>
+		<ul class="accessibility hide">
 
-		<p class="logo"><a href="/"><img src="/images/home.svg" class="logo-img" alt="Home"></a></p>
+			<li><a href="#content">Skip to content</a></li>
+			<li><a href="#nav">Skip to navigation</a></li>
+
+		</ul>
+
+		<header id="top" class="top-bar">
+
+			<div class="outer-wrapper">
+
+				<div class="wrapper">
+
+					<div class="g-row secondary">
+
+						<div class="g-w-left g-w-col1">
+
+							<h1 class="top-bar-title"><a href="/">Leon Paternoster</a></h1>
+
+						</div>
+
+						<div class="g-w-right g-w-col2 g-w-align-right g-w-last">
+
+							<nav id="nav">
+
+								<h1 class="accessibility hide">Navigation</h1>
+
+								<ul class="top-bar-nav inline-nav">
+
+									<li class="top-bar-nav-item inline-nav-item"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}>Home</a></li>
+									<li class="top-bar-nav-item inline-nav-item"><a href="/articles-and-notes"{% if page.title == "Web articles" %} class="active"{% endif %}>Web articles</a></li>
+									<li class="top-bar-nav-item inline-nav-item"><a href="/journal"{% if page.title == "Journal" %} class="active"{% endif %}>Journal</a></li>
+
+								</ul>
+
+							</nav>
+
+						</div>
+
+					</div>
+
+				</div> <!-- end .wrapper -->
+
+			</div> <!-- end .outer-wrapper -->
+
+		</header>
 
 		<main id="content" role="main">
+
+			<div class="outer-wrapper">

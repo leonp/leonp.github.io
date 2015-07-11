@@ -1,35 +1,30 @@
-				</div> <!-- end .wrapper -->
+					</div> <!-- end .wrapper -->
+
+				</div> <!-- end .outer-wrapper -->
 
 			</main> <!-- end .inner-wrapper -->
 
 			<footer id="footer">
 
-				<div class="wrapper">
+				<div class="outer-wrapper">
 
-					<!-- <nav class="nav clearfix" id="nav" role="navigation">
+					<div class="wrapper">
 
-						<h1 class="accessibility hide">Navigation</h1>
+						<div class="secondary">
 
-						<ul class="global-nav secondary">
+							{% if page.title != "Home" %}
 
-							<li class="site-title global-nav-item"><a href="/"{% if page.title == "Home" %} class="active"{% endif %}>Home</a></li>
-							<li class="global-nav-item"><a href="/articles-and-notes"{% if page.title == "Web articles" %} class="active"{% endif %}>Web articles</a></li>
-							<li class="global-nav-item"><a href="/journal"{% if page.title == "Journal" %} class="active"{% endif %}>Journal</a></li>
-							<li class="global-nav-item"><a href="/work"{% if page.title == "Work" %} class="active"{% endif %}>Work</a></li>
+								<p>Leon Paternoster. Web and customer service manager. Occasional designer of websites for local businesses. Writes articles about working on the web and keeps a journal about everything else. <em>leon.paternoster@zoho.com</em> &middot; <em><a href="https://twitter.com/leonpaternoster">@leonpaternoster</a></em></p>
 
-						</ul>
+								<br>
 
-					</nav> -->
+							{% endif %}
 
-					{% if page.title != "Home" %}
+							<p class="logo text-centre"><a onclick="smoothScroll('top');" href="#top"><img class="logo-img" src="/images/up.svg"></a></p>
 
-						<p class="secondary"><a href="/">Home</a> &middot; <a href="/articles-and-notes">Web articles</a> &middot; <a href="/journal">Non work Journal</a></p>
+						</div>
 
-						<br>
-
-					{% endif %}
-
-					<p class="logo"><a onclick="smoothScroll('top');" href="#top"><img class="logo-img" src="/images/up.svg"></a></p>
+					</div>
 
 				</div>
 

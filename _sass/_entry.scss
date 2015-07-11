@@ -2,7 +2,6 @@
 
     .entry-header {
     	margin-bottom: 1.111em;
-        text-align: center;
 
     	@media #{$bp} {
     		margin-bottom: 1.391em;
@@ -12,6 +11,8 @@
     .entry-title {
     	font-size: 2em;
     	line-height: 1.111em;
+        font-weight: normal;
+        color: $highlight;
 
         @media #{$bp} {
             font-size: 2em;
@@ -38,6 +39,7 @@
 
     .entry-content a:link {
     	color: $link;
+        text-decoration: underline;
     }
 
     .entry-content a:visited {
@@ -48,6 +50,7 @@
     .entry-content a:active,
     .entry-content a:focus {
     	color: $hover;
+        text-decoration-color: $grey;
     }
 
     .entry-content a.imglink {
@@ -98,7 +101,8 @@
     	font-size: 1.333em;
     	line-height: 1.167em;
     	padding: 0.5em 0;
-        text-align: center;
+        font-weight: normal;
+        color: $highlight;
 
         @media #{$bp} {
             font-size: 1.5em;
@@ -114,7 +118,8 @@
     	font-size: 1em;
         line-height: 1.111em;
     	padding: 0.667em 0;
-        text-align: center;
+        font-weight: normal;
+        color: $highlight;
 
         @media #{$bp} {
             font-size: 1.167em;
@@ -125,8 +130,8 @@
     }
 
     .entry-content h4 {
-    	color: $grey;
-        text-align: center;
+        font-weight: normal;
+        color: $highlight;
     }
 
     .entry-content h2 a:link {
@@ -136,7 +141,6 @@
     .entry-footer {
     	padding: 0.667em 0;
     	border-top: 1px dotted $lgrey;
-        text-align: center;
 
         @media #{$bp} {
             padding: 0.348em 0;

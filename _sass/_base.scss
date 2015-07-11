@@ -35,11 +35,6 @@ main {
 
 html {
 	background-color: $light;
-	border-top: 0.222em solid $black;
-
-	@media #{$nbp} {
-		border-top: 0.348em solid $black;
-	}
 }
 
 body {
@@ -48,12 +43,10 @@ body {
 	font-family: $main-font;
 	color: $dark;
 	background-color: $light;
-	margin: 0.7em auto;
 
 	@media #{$nbp} {
 		font-size: 143.75%; /* 23px */
 		line-height: 1.391em; /* 32px */
-		margin: 1.739em auto;
 	}
 
 }
