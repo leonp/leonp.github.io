@@ -64,7 +64,7 @@ dt {
 }
 
 code {
-	color: $highlight;
+	color: $dark;
 }
 
 pre {
@@ -79,6 +79,10 @@ pre {
 		padding: 1.043em;
 	}
 
+}
+
+pre code {
+	color: $code;
 }
 
 a {
