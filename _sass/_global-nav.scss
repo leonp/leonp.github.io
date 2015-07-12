@@ -6,6 +6,7 @@
         font-variant: small-caps;
         letter-spacing: 1px;
         font-weight: 300;
+        border-bottom: 1px solid $grey;
 
         @media #{$bp} {
             padding: 0.696em 0;
