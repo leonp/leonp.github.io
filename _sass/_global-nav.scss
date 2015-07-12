@@ -2,7 +2,10 @@
 
     .top-bar {
         padding: 0.444em 0;
-        border-bottom: 1px $grey dotted;
+        text-transform: lowercase;
+        font-variant: small-caps;
+        letter-spacing: 1px;
+        font-weight: 300;
 
         @media #{$bp} {
             padding: 0.696em 0;
@@ -12,7 +15,7 @@
 
     .top-bar a:link,
     .top-bar a:visited {
-        color: $dark;
+        color: $black;
     }
 
     .top-bar a:hover,
@@ -23,14 +26,10 @@
 
     .top-bar-title {
         font-size: 1em;
-        font-weight: normal;
-        text-transform: lowercase;
-        font-variant: small-caps;
-        letter-spacing: 1px;
+        font-weight: 900;
     }
 
     .top-bar-nav {
-        font-style: italic;
         padding: 0.444em 0;
 
         @media #{$bp} {

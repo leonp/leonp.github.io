@@ -11,8 +11,8 @@
     .entry-title {
     	font-size: 2em;
     	line-height: 1.111em;
-        font-weight: normal;
         color: $highlight;
+        font-weight: 900;
 
         @media #{$bp} {
             font-size: 2em;
@@ -101,7 +101,7 @@
     	font-size: 1.333em;
     	line-height: 1.167em;
     	padding: 0.5em 0;
-        font-weight: normal;
+        font-weight: 300;
         color: $highlight;
 
         @media #{$bp} {
@@ -118,7 +118,7 @@
     	font-size: 1em;
         line-height: 1.111em;
     	padding: 0.667em 0;
-        font-weight: normal;
+        font-weight: 300;
         color: $highlight;
 
         @media #{$bp} {
@@ -130,7 +130,7 @@
     }
 
     .entry-content h4 {
-        font-weight: normal;
+        font-weight: 300;
         color: $highlight;
     }
 
@@ -164,7 +164,7 @@
     	margin: 0 auto 0.667em auto;
     	padding-top: 1.333em;
     	border: none;
-    	border-bottom: 1px solid $lgrey;
+    	border-bottom: 1px dotted $grey;
 
         @media #{$bp} {
             padding-top: 0.696em;
