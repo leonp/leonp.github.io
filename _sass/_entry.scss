@@ -12,7 +12,6 @@
     	font-size: 2em;
     	line-height: 1.111em;
         color: $highlight;
-        font-weight: 900;
 
         @media #{$bp} {
             font-size: 2em;
@@ -101,8 +100,6 @@
     	font-size: 1.333em;
     	line-height: 1.167em;
     	padding: 0.5em 0;
-        font-weight: 300;
-        color: $highlight;
 
         @media #{$bp} {
             font-size: 1.5em;
@@ -118,8 +115,6 @@
     	font-size: 1em;
         line-height: 1.111em;
     	padding: 0.667em 0;
-        font-weight: 300;
-        color: $highlight;
 
         @media #{$bp} {
             font-size: 1.167em;
@@ -130,8 +125,10 @@
     }
 
     .entry-content h4 {
-        font-weight: 300;
-        color: $highlight;
+        color: $grey;
+        font-weight: normal;
+        text-transform: lowercase;
+        font-variant: small-caps;
     }
 
     .entry-content h2 a:link {

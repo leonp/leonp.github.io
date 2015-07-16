@@ -5,8 +5,10 @@
         text-transform: lowercase;
         font-variant: small-caps;
         letter-spacing: 1px;
-        font-weight: 300;
-        border-bottom: 1px solid $grey;
+        font-weight: bold;
+        -webkit-box-shadow: 0 8px 6px -6px black;
+        -moz-box-shadow: 0 8px 6px -6px black;
+         box-shadow: 0 8px 6px -6px black;
 
         @media #{$bp} {
             padding: 0.696em 0;
