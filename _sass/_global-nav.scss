@@ -6,9 +6,6 @@
         font-variant: small-caps;
         letter-spacing: 1px;
         font-weight: bold;
-        -webkit-box-shadow: 0 8px 6px -6px black;
-        -moz-box-shadow: 0 8px 6px -6px black;
-         box-shadow: 0 8px 6px -6px black;
 
         @media #{$bp} {
             padding: 0.696em 0;
