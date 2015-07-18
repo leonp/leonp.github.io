@@ -24,9 +24,9 @@
 						{{ page.content | number_of_words }}
 					{% endcapture %}
 
-					<p><time class="published">{{ page.date | date: "%b %-d %Y" }}</time> &middot; {{ words }} words &middot; <a href="/">Home</a> / {% if page.category == 'work' %}<a href="/articles-and-notes">More web articles</a>{% elsif page.category != 'work' %}<a href="/journal">More journal entries</a>{% endif %} / <a href="/feed">RSS</a></p>
+					<p><time class="published">{{ page.date | date: "%b %-d %Y" }}</time> &middot; {{ words }} words &middot; <a href="/">Home</a> / <a href="/articles">More articles</a> / <a href="/feed">RSS</a></p>
 
-					<!-- <br>
+					<br>
 
 					<div class="pagination clearfix">
 
@@ -42,7 +42,7 @@
 
 					{% endif %}
 
-				</div> -->
+				</div>
 
 				</footer>
 

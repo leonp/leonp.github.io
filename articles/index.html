@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Web articles
+title: Articles
 description: Curated posts on building, managing &amp; designing websites. Since 2008.
 show: yes
 ---
@@ -12,8 +12,6 @@ show: yes
 	<input type="hidden" name="sitesearch" value="leonpaternoster.com">
 
 </form>
-
-<p>Articles about web design, writing and management. There's also a <a href="/journal">journal</a> of non&#8211;work stuff.</p>
 
 {% for post in site.posts  %}
 
@@ -39,16 +37,12 @@ show: yes
 
     {% endif %}
 
-    {% if post.category == 'work' %}
-
     <li class="link-list-item">
 
         <span class="link-list-meta secondary note">{{ post.date | date: "%b %-d, %Y" }}</span><br>
         <a class="link-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
     </li>
-
-    {% endif %}
 
     {% if forloop.last %}
 
