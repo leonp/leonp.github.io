@@ -44,19 +44,23 @@
 
 		</ul>
 
-		<header id="top" class="top-bar">
+		<div class="top-bar">
 
-			<div class="outer-wrapper">
+			{% if page.title != "Home" %}
 
-				<div class="wrapper">
+				<div class="outer-wrapper">
 
-					<div class="logo text-centre"><a href="/"><img class="logo-img" src="/images/home-blue.svg" alt="Go to the home page" title="Go to the home page"></a></div>
+					<div class="wrapper">
 
-				</div> <!-- end .wrapper -->
+						<div class="logo text-centre"><a href="/"><img class="logo-img" src="/images/home-blue.svg" alt="Go to the home page" title="Go to the home page"></a></div>
 
-			</div> <!-- end .outer-wrapper -->
+					</div> <!-- end .wrapper -->
 
-		</header>
+				</div> <!-- end .outer-wrapper -->
+
+			{% endif %}
+
+		</div>
 
 		<main id="content" role="main">
 
