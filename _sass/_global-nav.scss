@@ -8,7 +8,7 @@
         font-weight: bold;
 
         @media #{$bp} {
-            padding: $single-line 0;
+            padding-bottom: $double-line;
         }
 
     }
