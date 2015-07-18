@@ -1,17 +1,13 @@
 @media screen, projection {
 
     .link-list {
-    	padding-bottom: 0.727em;
+    	padding-bottom: $half-line;
     }
 
     .link-list-item {
-    	margin-bottom: 1.556em;
+    	margin-bottom: $single-line;
     	list-style-type: none;
     	margin-left: 0 !important;
-    }
-
-    .link-list-item a {
-        text-decoration: none !important;
     }
 
 }

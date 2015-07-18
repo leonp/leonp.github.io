@@ -2,25 +2,12 @@
 
     .secondary {
     	color: $grey;
-    	font-size: 0.889em;
-    	line-height: 1.25em;
-
-        @media #{$bp} {
-            font-size: 0.826em;
-            line-height: 1.263em;
-        }
-
     }
 
     .primary {
-    	font-size: 1.167em;
-    	line-height: 1.143em;
-
-        @media #{$bp} {
-            font-size: 1.333em;
-            line-height: 1.355em;
-        }
-
+    	font-size: 1em;
+    	color: $grey;
+        font-weight: bold;
     }
 
     .clearfix:before,

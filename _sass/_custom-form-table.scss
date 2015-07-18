@@ -1,12 +1,7 @@
 @media screen, projection {
 
     .form-custom {
-    	margin-bottom: 1.333em;
-
-        @media #{$bp} {
-            margin-bottom: 1.391em;
-        }
-
+    	margin-bottom: $single-line;
     }
 
     .form-custom input {
@@ -14,14 +9,14 @@
     }
 
     .form-custom input[type="search"] {
-    	padding: 0.222em;
+    	padding: $eighth-line;
     	font-size: 1em;
     	-webkit-box-sizing: border-box;
     	-moz-box-sizing: border-box;
     	box-sizing: border-box;
     	width: 100%;
     	display: block;
-    	margin-bottom: 0.222em;
+    	margin-bottom: $quarter-line;
     	font-family: $main-font;
     	border-radius: 0.2em;
 
@@ -29,19 +24,14 @@
     		width: 75%;
     		display: inline;
     		margin-bottom: 0;
-            padding: 0.348em;
-            margin-bottom: 0.348em;
+            padding: $quarter-line;
+            margin-bottom: $quarter-line;
     	}
 
     }
 
     .table-custom {
-    	margin-bottom: 1.333em;
-
-        @media #{$bp} {
-            margin-bottom: 1.391em;
-        }
-
+    	margin-bottom: $single-line;
     }
 
 

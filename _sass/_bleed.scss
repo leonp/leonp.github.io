@@ -2,15 +2,6 @@
 
     .entry-content .bleed {
 
-        @media #{$wbp} {
-            width: auto;
-            max-width: 38em !important;
-            height: auto !important;
-            margin-left: -5em;
-            border-right: 0;
-            border-left: 0;
-        }
-
     }
 
 }

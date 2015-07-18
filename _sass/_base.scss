@@ -35,19 +35,17 @@ main {
 
 html {
 	background-color: $light;
-	border-top: 0.348em solid $background;
+	color: $dark;
 }
 
 body {
-	font-size: 112.5%; /* 18px */
-	line-height: 1.333; /* 24px */
+	font-size: $base-font-size;
+	line-height: $base-line-height;
 	font-family: $main-font;
-	color: $dark;
-	background-color: $light;
+	padding: 0 $single-line;
 
 	@media #{$nbp} {
-		font-size: 143.75%; /* 23px */
-		line-height: 1.391em; /* 32px */
+		font-size: $widescreen-font-size;
 	}
 
 }
@@ -60,8 +58,6 @@ h5,
 h6,
 dt {
 	font-family: $secondary-font;
-	color: $active;
-	font-weight: 700;
 }
 
 code {

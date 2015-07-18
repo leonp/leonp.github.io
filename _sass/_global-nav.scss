@@ -1,17 +1,14 @@
 @media screen, projection {
 
     .top-bar {
-        padding: 0.444em 0;
+        padding: $half-line 0;
         text-transform: lowercase;
         font-variant: small-caps;
         letter-spacing: 1px;
         font-weight: bold;
-        -webkit-box-shadow: 0 8px 6px -6px black;
-        -moz-box-shadow: 0 8px 6px -6px black;
-         box-shadow: 0 8px 6px -6px black;
 
         @media #{$bp} {
-            padding: 0.696em 0;
+            padding: $single-line 0;
         }
 
     }
@@ -29,28 +26,6 @@
 
     .top-bar-title {
         font-size: 1em;
-        font-weight: 900;
-    }
-
-    .top-bar-nav {
-        padding: 0.444em 0;
-
-        @media #{$bp} {
-            padding: 0;
-        }
-
-    }
-
-    .top-bar-nav-item a:link,
-    .top-bar-nav-item a:visited {
-        color: $grey;
-    }
-
-    .top-bar-nav-item a:hover,
-    .top-bar-nav-item a:active,
-    .top-bar-nav-item a:focus,
-    .top-bar-nav-item a.active {
-        color: $dark;
     }
 
 }

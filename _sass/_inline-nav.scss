@@ -2,21 +2,21 @@
 
     .inline-nav-item {
     	display: inline;
-    	margin-right: 1.333em;
+    	margin-right: $single-line;
     }
 
     .align-right .inline-nav-item {
         margin-right: 0;
-        margin-left: 1.333em;
+        margin-left: $single-line;
     }
 
     .g-w-align-right .inline-nav-item {
 
         @media #{$bp} {
             margin-right: 0;
-            margin-left: 1.333em;
+            margin-left: $single-line;
         }
-        
+
     }
 
 }

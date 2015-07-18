@@ -7,11 +7,32 @@
 
 // Variables
 
-$main-font: freight-sans-pro, sans-serif;
-$secondary-font: freight-sans-pro, sans-serif;
+
+// Fonts
+
+$main-font: proxima-nova, sans-serif;
+$secondary-font: proxima-nova, sans-serif;
+
+
+// Size
+
+$base-line-height: 1.4;
+$single-line: 1.4em;
+$line-and-a-half: 2.1em;
+$double-line: 2.8em;
+$treble-line: 4.2em;
+$quadruple-line: 5.6em;
+$half-line: 0.7em;
+$quarter-line: 0.35em;
+$eighth-line: 0.175em;
+$base-font-size: 100%;
+$widescreen-font-size: 112.5%;
+
+
+// Colours
 
 $black: #000;
-$dark: #333;
+$dark: #444;
 $light: #FFF;
 $highlight: #000;
 $grey: #AAA;

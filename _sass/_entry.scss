@@ -1,44 +1,26 @@
 @media screen, projection {
 
     .entry-header {
-    	margin-bottom: 1.111em;
-
-    	@media #{$bp} {
-    		margin-bottom: 1.391em;
-    	}
+    	margin-bottom: $single-line;
     }
 
     .entry-title {
-    	font-size: 2em;
-    	line-height: 1.111em;
-        color: $highlight;
-
-        @media #{$bp} {
-            font-size: 2em;
-        	line-height: 1.130em;
-        }
-
+    	font-size: 1em;
+    	line-height: 1.2em;
     }
 
     .entry-meta {
     	font-size: 0.889em;
     	font-style: italic;
-    	margin-bottom: 0.5em;
-
-        @media #{$bp} {
-            font-size: 0.826em;
-            line-height: 1.263em;
-            margin-bottom: 0.632em;
-        }
+    	margin-bottom: $single-line;
     }
 
     .entry-content {
-    	padding-bottom: 0.826em;
+    	padding-bottom: $single-line;
     }
 
     .entry-content a:link {
     	color: $link;
-        text-decoration: underline;
     }
 
     .entry-content a:visited {
@@ -49,7 +31,6 @@
     .entry-content a:active,
     .entry-content a:focus {
     	color: $hover;
-        text-decoration-color: $grey;
     }
 
     .entry-content a.imglink {
@@ -61,14 +42,9 @@
     .entry-content ul,
     .entry-content ol,
     .entry-content dd {
-    	margin-bottom: 0.667em;
+    	margin-bottom: $half-line;
     	hyphens: auto;
     	-moz-hyphens: auto;
-
-        @media #{$bp} {
-            margin-bottom: 0.696em;
-        }
-
     }
 
     .entry-content li {
@@ -80,100 +56,51 @@
     }
 
     .entry-content blockquote {
-    	margin-left: 1.333em;
-    	padding-left: 0.666em;
-    	font-size: 0.889em;
-    	line-height: 1.25em;
-    	border-left: 0.2em solid $lgrey;
-
-        @media #{$bp} {
-            font-size: 0.826em;
-            line-height: 1.263em;
-            margin-left: 1.263em;
-            padding-left: 0.826em;
-        }
-
+    	margin-left: $single-line;
+    	line-height: 1.2em;
     }
 
     .entry-content h1,
-    .entry-content h2 {
-    	font-size: 1.333em;
-    	line-height: 1.167em;
-    	padding: 0.5em 0;
-
-        @media #{$bp} {
-            font-size: 1.5em;
-            line-height: 1.143em;
-            padding: 0.457em 0;
-        }
-
-    }
-
+    .entry-content h2,
     .entry-content h3,
     .entry-content h4,
     .entry-content dt {
     	font-size: 1em;
-        line-height: 1.111em;
-    	padding: 0.667em 0;
+    	line-height: 1.2em;
+    	padding: $single-line 0 $half-line 0;
+        color: $grey;
+    }
 
-        @media #{$bp} {
-            font-size: 1.167em;
-            line-height: 1.185em;
-            padding: 0.593em 0;
-        }
-
+    .entry-content h3,
+    .entry-content dt {
+    	text-transform: lowercase;
+        font-variant: small-caps;
+        font-weight: normal;
+        letter-spacing: 1px;
     }
 
     .entry-content h4 {
-        color: $grey;
         font-weight: normal;
-        text-transform: lowercase;
-        font-variant: small-caps;
-    }
-
-    .entry-content h2 a:link {
-    	border-bottom: none;
+        font-style: italic;
     }
 
     .entry-footer {
-    	padding: 0.667em 0;
-    	border-top: 1px dotted $lgrey;
-
-        @media #{$bp} {
-            padding: 0.348em 0;
-        }
-
-    }
-
-    .entry-footer ul,
-    .entry-footer ol,
-    .entry-footer p {
-    	margin-bottom: 0.667em;
-
-        @media #{$bp} {
-            padding: 0.696em 0;
-        }
+    	padding: $half-line 0;
     }
 
     .entry-content hr,
     #footer hr {
-    	width: 38%;
-    	margin: 0 auto 0.667em auto;
-    	padding-top: 1.333em;
+    	width: 33%;
+    	margin: 0 auto $half-line auto;
+    	padding-top: $single-line;
     	border: none;
     	border-bottom: 1px dotted $grey;
-
-        @media #{$bp} {
-            padding-top: 0.696em;
-            margin: 0 auto 0.696em auto;
-        }
     }
 
     .entry-content img {
     	width: auto !important;
     	max-width: 100% !important;
     	height: auto !important;
-    	border: 1px solid $lgrey;
     	-webkit-box-sizing: border-box;
     	-moz-box-sizing: border-box;
     	box-sizing: border-box;
@@ -181,15 +108,8 @@
 
 
     .figcaption {
-    	padding-bottom: 0.667em;
+    	padding-bottom: $half-line;
     	color: $grey;
-    	font-style: italic;
-
-        @media #{$bp} {
-            padding-bottom: 0.87em;
-        }
-
     }
-
 
 }

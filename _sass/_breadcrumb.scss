@@ -1,11 +1,7 @@
 @media screen, projection {
 
     .breadcrumb {
-    	margin-bottom: 1.25em;
-
-        @media #{$bp} {
-            margin-bottom: 1.263em;
-        }
+    	margin-bottom: $single-line;
     }
 
 }
