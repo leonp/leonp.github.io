@@ -46,6 +46,7 @@ body {
 
 	@media #{$nbp} {
 		font-size: $widescreen-font-size;
+		padding: $single-line;
 	}
 
 }

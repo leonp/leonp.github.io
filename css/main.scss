@@ -18,15 +18,15 @@ $secondary-font: proxima-nova, sans-serif;
 
 $base-line-height: 1.4;
 $single-line: 1.4em;
-$line-and-a-half: 2.1em;
-$double-line: 2.8em;
-$treble-line: 4.2em;
-$quadruple-line: 5.6em;
-$half-line: 0.7em;
-$quarter-line: 0.35em;
-$eighth-line: 0.175em;
-$base-font-size: 100%;
-$widescreen-font-size: 112.5%;
+$line-and-a-half: ($single-line * 1.5);
+$double-line: ($single-line * 2);
+$treble-line: ($single-line * 3)m;
+$quadruple-line: ($single-line * 4);
+$half-line: ($single-line / 2);
+$quarter-line: ($single-line / 4);
+$eighth-line: ($single-line / 8);
+$base-font-size: 106.75%;
+$widescreen-font-size: 118.75%;
 
 
 // Colours
@@ -34,7 +34,7 @@ $widescreen-font-size: 112.5%;
 $black: #000;
 $dark: #444;
 $light: #FFF;
-$highlight: #000;
+$highlight: #FF0059;
 $grey: #AAA;
 $lgrey: #F7F7F7;
 $midgrey: #DFDFDF;
