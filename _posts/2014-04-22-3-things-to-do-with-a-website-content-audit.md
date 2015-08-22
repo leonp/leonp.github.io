@@ -1,10 +1,10 @@
 ---
 title: 3 things to do with a website content audit
 author: Leon
-excerpt: Keep your website up to date and organised.
+excerpt: Keep your website up to date, lean and organised.
 layout: post
-permalink: /2014/04/3-things-to-do-with-a-website-content-audit/
 category: work
+
 ---
 A year or so ago I posted [a guide to carrying out a content audit][1]. At the time I was getting to grips with the [Suffolk Libraries][2] website, and the audit was a really useful way to understand the library service and what we were trying to do online.
 

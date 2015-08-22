@@ -2,6 +2,7 @@
 title: Do not always fear the nav bar on narrow screens
 layout: post
 category: work
+excerpt: Users scan pages for text that might help them complete their task. Navigation bars and lists are rich in information scent, so it makes sense to avoid hiding them whenever possible.
 ---
 
 _You should display your whole navigation menu on narrow screens if possible. While hamburger toggle buttons and their ilk solve a problem neatly, the best navigation menu is visible by default._

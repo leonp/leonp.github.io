@@ -1,6 +1,7 @@
 ---
 title: The New Library, Almere &#8211; What a universal library service looks like
 layout: post
+excerpt: The Almere library looks like somewhere anyone would like to spend a few hours. That's what all libraries should be like.
 ---
 
 Noted: an <a href="http://www.shareable.net/blog/how-a-new-dutch-library-smashed-attendance-records">article on the <i>Nieuwe Bibliotheek</i> in the Dutch town of Almere</a>.

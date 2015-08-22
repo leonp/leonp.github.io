@@ -2,6 +2,7 @@
 layout: post
 category: work
 title: Generating page specific classes in WordPress templates to keep code DRY and extensible
+excerpt: How to generate page specific class names in a WordPress template, making it easy to extend your code and keep it <abbr title="Do not Repeat Yourself">DRY</abbr>
 ---
 
 _How to generate page specific class names in a WordPress template, making it easy to extend your code and keep it <abbr title="Do not Repeat Yourself">DRY</abbr>_.

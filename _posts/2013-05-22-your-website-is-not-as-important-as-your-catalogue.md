@@ -2,6 +2,7 @@
 title: Your website is not as important as your catalogue
 layout: post
 category: work
+excerpt: And your users don't distinguish between the two. Poor web skills and procurement processes result in poor user experience.
 ---
 > Your website is not as important as your catalog. This is a fact. We’ve asked many nonlibrarians about what they do on library websites, and the usual response is “Place reserves on books.” This is subtly different from how we think of our websites and catalogs (i.e., as distinct things). So, either our users see the two as the same thing, or they ignore our websites and just use our catalogs. Looking at website analytics suggests the latter. <cite><a href="http://www.scribd.com/doc/91222042/User-Experience-and-Library-Websites">User Experience (UX) Design for Libraries</a></cite>
 

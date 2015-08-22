@@ -2,6 +2,7 @@
 layout: post
 title: A guide to using Markdown to write blog posts
 category: work
+excerpt: Markdown is quick, easy and portable. If you're writing for websites, you really should learn it.
 ---
 
 ## Introduction: What is Markdown?

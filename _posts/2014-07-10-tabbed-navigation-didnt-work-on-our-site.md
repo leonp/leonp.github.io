@@ -2,6 +2,7 @@
 title: Tabbed navigation didn&#8217;t work on our site
 layout: post
 category: work
+excerpt: Tabbed navigation looks a good idea, but it often causes confusion. Generally, it makes more sense to publish a single, visible, well-organised document.
 ---
 I was using [tabbed navigation][1] on a couple of the [Suffolk Libraries][2] website pages. By tabbed navigation I mean a single document&#8217;s content divided by horizontal tabs, so you don&#8217;t see it all at once.
 

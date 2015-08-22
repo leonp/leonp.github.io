@@ -13,15 +13,15 @@ show: yes
 
 </form>
 
-<ul class="link-list">
-
 {% for post in site.posts  %}
 
-    <li class="link-list-item">
+    <article class="entry entry-excerpt">
 
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <h1 class="entry-title entry-title-excerpt"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
 
-    </li>
+		{{ post.excerpt }}
+
+    </article>
 
 {% endfor %}
 

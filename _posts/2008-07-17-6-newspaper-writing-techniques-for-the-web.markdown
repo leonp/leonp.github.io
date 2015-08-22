@@ -1,21 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2008-07-17 14:27:46+00:00
 layout: post
-slug: 6-newspaper-writing-techniques-for-the-web
 title: 6 newspaper writing techniques for the web
-wordpress_id: 23
-categories:
-- Article
-- Articles
-tags:
-- copy
-- essential
-- lead
-- readability
-- tabloids
-- the sun
+excerpt: Concision, chunking and emphasis will make your web writing more effective.
 ---
 
 ## Why use these techniques?

@@ -3,6 +3,7 @@ date: 2013-06-24 09:40:00+00:00
 layout: post
 category: work
 title: Libraries should invest millions in search engines
+excerpt: Miserable and clunky search and discovery don't really cut it in the age of Google and Amazon.
 ---
 
 Libraries are under threat, and not just from ideological governments.
@@ -68,17 +69,3 @@ Although this might make you feel gloomy libraries have three big advantages ove
 *Libraries do have an advantage over companies like Amazon*. But they're facing stiff competition from an industry that understands the importance of making the search experience as frictionless and convenient as possible.
 
 Libraries need to start investing serious money in search and catalogue user experience. They could start by asking more from their catalogue providers.
-
-
-
-
-
-
-
-
-
-
-
-
-
-

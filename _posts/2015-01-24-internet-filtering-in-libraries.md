@@ -2,6 +2,7 @@
 title: Blocking websites in libraries&#8212;our policy
 layout: post
 category: work
+excerpt: What we do and don't block on Suffolk library PCs. Our first instinct is to allow access to as much information as possible.
 ---
 
 Adrian argues &#8211; quite rightly &#8211; that <a href="https://adrianshort.org/libraries-censorship-payday-loans/">libraries shouldn't block websites on the basis of commercial practices</a>. That includes gambling and payday loans websites.
