@@ -11,9 +11,11 @@
     }
 
     .entry-meta {
-    	font-size: 0.889em;
-    	font-style: italic;
     	margin-bottom: $single-line;
+    }
+
+    .entry-meta-excerpt {
+        margin-bottom: $half-line !important;
     }
 
     .entry-content {

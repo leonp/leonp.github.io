@@ -19,6 +19,8 @@ show: yes
 
         <h1 class="entry-title entry-title-excerpt"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
 
+		<p class="secondary entry-meta entry-meta-excerpt"><time class="published">{{ post.date | date: "%b %-d %Y" }}</time></p>
+
 		{{ post.excerpt }}
 
     </article>
