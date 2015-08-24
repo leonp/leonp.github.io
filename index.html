@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-description: I'm web manager at Suffolk Libraries and I blog about the web, books and music and politics. I've managed and built websites since 2008, and can help get you online or improve your current website.
+description: I'm web and customer service manager at Suffolk Libraries. I post articles about building and managing websites.
 show: yes
 ---
 
@@ -12,7 +12,7 @@ show: yes
 {% for post in site.posts limit:5 %}
 
 	<li class="link-list-item">
-		
+
 		<span class="link-list-meta secondary">{{ post.date | date: "%b %-d, %Y" }}</span><br>
 		<a class="link-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 
