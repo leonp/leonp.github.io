@@ -8,11 +8,15 @@
 
 				<div class="outer-wrapper">
 
-					<div class="wrapper">
+					{% if page.title != "Home" %}
 
-						<p class="secondary logo text-centre"><a onclick="smoothScroll('top');" href="#top"><img class="logo-img" src="/images/up.svg"></a></p>
+						<div class="wrapper">
 
-					</div>
+							<p class="secondary logo text-centre"><a onclick="smoothScroll('top');" href="#top"><img class="logo-img" src="/images/up.svg"></a></p>
+
+						</div>
+
+					{% endif %}
 
 				</div>
 
