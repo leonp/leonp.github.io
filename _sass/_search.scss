@@ -1,0 +1,51 @@
+@media screen, projection {
+
+.gsc-control-cse,
+.gsc-results,
+.gsc-thumbnail-inside,
+.gsc-url-top,
+.gsc-table-result,
+.gsc-result-info {
+    padding: 0 !important;
+    font-family: $main-font !important;
+    font-size: 1em !important;
+    height: auto !important;
+}
+
+.gsc-result-info {
+    color: $grey !important;
+}
+
+.gsc-result,
+.gsc-webResult,
+.gs-title,
+.gs-title b {
+    height: auto !important;
+    font-size: 1em !important;
+    font-weight: normal;
+    text-decoration: none !important;
+}
+
+.gsc-above-wrapper-area {
+    border: none !important;
+}
+
+.gcsc-branding {
+    display: none !important;
+}
+
+.gs-snippet {
+    margin-bottom: $single-line !important;
+}
+
+.gsc-cursor-box {
+    margin-left: 0 !important;
+}
+
+.gsc-cursor-page {
+    margin-right: $single-line !important;
+    color: $dark !important;
+}
+
+
+}
