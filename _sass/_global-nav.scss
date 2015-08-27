@@ -6,6 +6,7 @@
         font-variant: small-caps;
         letter-spacing: 1px;
         font-weight: bold;
+        text-align: center;
 
         @media #{$bp} {
             padding-bottom: $double-line;
@@ -15,7 +16,7 @@
 
     .top-bar a:link,
     .top-bar a:visited {
-        color: $grey;
+        color: $link;
     }
 
     .top-bar a:hover,
