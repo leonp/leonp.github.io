@@ -13,6 +13,20 @@ Try another search:
 
 </form>
 
+<noscript>
+
+Try this form if you have javascript turned off:
+
+	<form method="get" action="https://google.co.uk" class="pure-form form-custom" role="search" id="search">
+
+		<input type="search" name="q">
+		<input type="submit" class="pure-button" value="Search">
+		<input type="hidden" name="sitesearch" value="leonpaternoster.com">
+
+	</form>
+
+</noscript>
+
 <script>
     (function() {
         var cx = '014626350489520397086:dw0dlftob6c';
