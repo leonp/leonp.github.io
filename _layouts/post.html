@@ -4,11 +4,17 @@
 
 		<article class="entry">
 
-			<div class="entry-header">
+			<header class="entry-header">
 
 				{% if page.title %}<h1 class="entry-title">{{ page.title }}</h1>{% endif %}
 
-			</div>
+				{% capture words %}
+					{{ page.content | number_of_words }}
+				{% endcapture %}
+
+				<p class="secondary entry-meta">First published <time class="published">{{ page.date | date: "%b %-d %Y" }}</time> &middot; {{ words }} words</p>
+
+			</header>
 
 			<div class="entry-content">
 
@@ -19,14 +25,6 @@
 			<footer class="entry-footer">
 
 				<div class="secondary">
-
-					{% capture words %}
-						{{ page.content | number_of_words }}
-					{% endcapture %}
-
-					<p><time class="published">{{ page.date | date: "%b %-d %Y" }}</time> &middot; {{ words }} words &middot; <a href="/">Home</a> / <a href="/articles">More articles</a> / <a href="/feed">RSS</a></p>
-
-					<br>
 
 					<div class="pagination clearfix">
 

@@ -11,11 +11,11 @@
     }
 
     .entry-meta {
-    	margin-bottom: $single-line;
+    	margin: $half-line 0 $single-line 0;
     }
 
     .entry-meta-excerpt {
-        margin-bottom: $quarter-line !important;
+        margin: 0 0 $quarter-line 0 !important;
     }
 
     .entry-content {
