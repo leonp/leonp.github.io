@@ -12,6 +12,7 @@
 
     .entry-meta {
     	margin: $half-line 0 $single-line 0;
+        font-weight: 300;
     }
 
     .entry-meta-excerpt {
@@ -89,6 +90,7 @@
 
     .entry-footer {
     	padding: $half-line 0;
+        font-weight: 300;
     }
 
     .entry-content hr,
@@ -113,6 +115,7 @@
     .figcaption {
     	padding-bottom: $half-line;
     	color: $grey;
+        font-weight: 300;
     }
 
     .entry-excerpt {
