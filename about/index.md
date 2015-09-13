@@ -3,21 +3,7 @@ title: About
 layout: default
 ---
 
-<div class="g-row">
-
-    <div class="g-w-col1 g-w-left">
-
-        <p><img class="centre img-round" src="/images/leon3.jpg" alt="Leon Paternoster"></p>
-
-    </div>
-
-    <div class="g-w-col2 g-w-left g-w-last">
-
-        <p>I'm web and customer service manager at <a href="http://suffolklibraries.co.uk">Suffolk Libraries</a> (although I go under the fairly grandiose title of deputy head of IT).</p>
-
-    </div>
-
-</div>
+I'm web and customer service manager at <a href="http://suffolklibraries.co.uk">Suffolk Libraries</a> (although I go under the fairly grandiose title of deputy head of IT).
 
 We're a mutual that was formed in 2012 to run Suffolk's Library service.
 

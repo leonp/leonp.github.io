@@ -44,23 +44,55 @@
 
 		</ul>
 
-		<div class="top-bar">
+		<header class="top-bar">
 
-			{% if page.title != "Home" %}
+			<div class="outer-wrapper">
 
-				<div class="outer-wrapper">
+				<div class="g-row">
 
-					<div class="wrapper">
+					<div class="g-left g-col1">
 
-						<p><a href="/"><img class="logo" src="/images/home-blue-small.svg" alt="Home" title="Go to the home page"></a>{% if page.layout == "post" %} &rarr; <a href="/articles">Articles</a>{% endif %}</p>
+						<a href="/"><img class="logo" src="/images/home-blue-small.svg" alt="Home" title="Go to the home page"></a>
 
-					</div> <!-- end .wrapper -->
+					</div>
 
-				</div> <!-- end .outer-wrapper -->
+					<div class="g-right g-col2 g-last text-right">
 
-			{% endif %}
+						<nav>
 
-		</div>
+							<ul class="inline-nav">
+
+								{% if page.title != 'Articles' %}
+
+									<li class="inline-nav-item"><a href="/articles">Articles</a></li>
+
+								{% else %}
+
+									<li class="inline-nav-item">Articles</li>
+
+								{% endif %}
+
+								{% if page.title != 'About' %}
+
+									<li class="inline-nav-item"><a href="/about">About</a></li>
+
+								{% else %}
+
+									<li class="inline-nav-item">About</li>
+
+								{% endif %}
+
+							</ul>
+
+						</nav>
+
+					</div>
+
+				</div>
+
+			</div> <!-- end .outer-wrapper -->
+
+		</header>
 
 		<main id="content" role="main">
 

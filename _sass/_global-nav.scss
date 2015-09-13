@@ -1,14 +1,17 @@
 @media screen, projection {
 
     .top-bar {
-        padding: $single-line 0;
+        padding: $half-line 0;
+        font-weight: 300;
         text-transform: lowercase;
         font-variant: small-caps;
         letter-spacing: 1px;
-        text-align: center;
+        background-color: $lgrey;
+        margin-bottom: $single-line;
+        border-bottom: 1px solid $midgrey;
 
         @media #{$bp} {
-            padding-bottom: $double-line;
+            margin-bottom: $quadruple-line;
         }
 
     }

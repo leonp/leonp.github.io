@@ -42,11 +42,9 @@ body {
 	font-size: $base-font-size;
 	line-height: $base-line-height;
 	font-family: $main-font;
-	padding: 0 $single-line;
 
 	@media #{$nbp} {
 		font-size: $widescreen-font-size;
-		padding: $single-line;
 	}
 
 }

@@ -5,18 +5,9 @@
     	margin-right: $single-line;
     }
 
-    .align-right .inline-nav-item {
+    .text-right .inline-nav-item {
         margin-right: 0;
         margin-left: $single-line;
-    }
-
-    .g-w-align-right .inline-nav-item {
-
-        @media #{$bp} {
-            margin-right: 0;
-            margin-left: $single-line;
-        }
-
     }
 
 }
