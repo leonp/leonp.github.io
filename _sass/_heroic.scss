@@ -1,15 +1,24 @@
 @media screen, projection {
 
     .hero {
-    	padding: 0.727em 0;
+        margin-top: -$single-line;
+    	padding: $single-line 0;
+        background-image: url('/images/manhattan.jpg');
+        background-repeat: no-repeat;
+        text-shadow: 1px 1px 1px $dark;
+        background-size: cover;
+        color: $light;
+
+        @media #{$bp} {
+            padding: $double-line 0;
+            margin-top: -$double-line;
+        }
+
     }
 
     .hero-title {
-    	margin-bottom: 0.333em;
+        color: $light;
     }
 
-    .hero-content p {
-    	margin-bottom: 0.727em;
-    }
 
 }

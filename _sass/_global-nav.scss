@@ -1,30 +1,28 @@
 @media screen, projection {
 
     .top-bar {
-        padding: $half-line 0;
-        font-weight: 300;
+        padding: $single-line 0;
         text-transform: lowercase;
-        font-variant: small-caps;
-        letter-spacing: 1px;
-        background-color: $lgrey;
+        background-color: $link;
         margin-bottom: $single-line;
-        border-bottom: 1px solid $midgrey;
 
         @media #{$bp} {
-            margin-bottom: $quadruple-line;
+            margin-bottom: $double-line;
         }
 
     }
 
     .top-bar a:link,
     .top-bar a:visited {
-        color: $link;
+        color: $light;
     }
 
     .top-bar a:hover,
     .top-bar a:active,
-    .top-bar a:focus {
-        color: $hover;
+    .top-bar a:focus,
+    .inline-nav-item-current {
+        color: $light;
+        border-bottom: $eighth-line solid;
     }
 
     .top-bar-title {

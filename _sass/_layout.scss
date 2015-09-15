@@ -1,13 +1,19 @@
 @media screen, projection {
 
-.outer-wrapper {
-	max-width: 95%;
-	margin: 0 auto;
-}
-
 .wrapper {
 	max-width: 28em !important;
 	margin: 0 auto;
+	padding: 0 $quarter-line;
+}
+
+.page {
+	background-color: $light;
+	padding: $single-line;
+
+	@media #{$bp} {
+		padding: $double-line $quadruple-line;
+	}
+
 }
 
 

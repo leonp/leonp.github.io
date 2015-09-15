@@ -41,24 +41,25 @@
 		<ul class="accessibility hide">
 
 			<li><a href="#content">Skip to content</a></li>
+			<li><a href="#nav">Skip to navigation</a></li>
 
 		</ul>
 
 		<header class="top-bar">
 
-			<div class="outer-wrapper">
+			<div class="wrapper">
 
 				<div class="g-row">
 
 					<div class="g-left g-col1">
 
-						<a href="/"><img class="logo" src="/images/home-blue-small.svg" alt="Home" title="Go to the home page"></a>
+						<a href="/"><img class="logo" src="/images/home-white.svg" alt="Home" title="Go to the home page"></a>
 
 					</div>
 
 					<div class="g-right g-col2 g-last text-right">
 
-						<nav>
+						<nav id="nav">
 
 							<ul class="inline-nav">
 
@@ -68,7 +69,7 @@
 
 								{% else %}
 
-									<li class="inline-nav-item">Articles</li>
+									<li class="inline-nav-item inline-nav-item-current">Articles</li>
 
 								{% endif %}
 
@@ -78,7 +79,7 @@
 
 								{% else %}
 
-									<li class="inline-nav-item">About</li>
+									<li class="inline-nav-item inline-nav-item-current">About</li>
 
 								{% endif %}
 
@@ -90,10 +91,8 @@
 
 				</div>
 
-			</div> <!-- end .outer-wrapper -->
+			</div> <!-- end .wrapper -->
 
 		</header>
 
 		<main id="content" role="main">
-
-			<div class="outer-wrapper">
