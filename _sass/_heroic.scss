@@ -3,10 +3,7 @@
     .hero {
         margin-top: -$single-line;
     	padding: $single-line 0;
-        background-image: url('/images/manhattan.jpg');
-        background-repeat: no-repeat;
-        text-shadow: 1px 1px 1px $dark;
-        background-size: cover;
+        background-color: $highlight;
         color: $light;
 
         @media #{$bp} {
