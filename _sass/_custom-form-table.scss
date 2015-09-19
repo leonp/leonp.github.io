@@ -1,33 +1,34 @@
 @media screen, projection {
 
-    .form-custom {
+    .custom-form {
     	margin-bottom: $single-line;
     }
 
-    .form-custom input {
-        font-family: $main-font;
+    .custom-form fieldset {
+        border: 0;
     }
 
-    .form-custom input[type="search"] {
-    	padding: $eighth-line;
-    	font-size: 1em;
-    	-webkit-box-sizing: border-box;
-    	-moz-box-sizing: border-box;
-    	box-sizing: border-box;
-    	width: 100%;
-    	display: block;
+    .custom-form input {
+        font-family: $main-font;
+        font-size: 1em;
+        border: 1px solid $midgrey;
+        padding: $eighth-line;
+        -webkit-appearance: none;
+    }
+
+    .custom-form input[type="search"] {
     	margin-bottom: $quarter-line;
-    	font-family: $main-font;
-    	border-radius: 0.2em;
 
     	@media #{$bp} {
     		width: 75%;
-    		display: inline;
-    		margin-bottom: 0;
-            padding: $quarter-line;
-            margin-bottom: $quarter-line;
     	}
 
+    }
+
+    .custom-form-button {
+        cursor: pointer;
+        background-color: $midgrey;
+        color: $dark;
     }
 
     .table-custom {
