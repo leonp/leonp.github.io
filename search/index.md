@@ -3,15 +3,20 @@ layout: default
 title: Search results
 ---
 
-Try another search:
+<form method="get" action="/search" role="search" id="search" class="custom-form">
 
-<form method="get" action="/search" class="pure-form form-custom" role="search" id="search">
+	<fieldset>
 
-	<input type="search" name="q">
-	<input type="submit" class="pure-button" value="Search">
-	<input type="hidden" name="sitesearch" value="leonpaternoster.com">
+		<legend class="accessibility hide">Search this website</legend>
+
+		<input type="search" name="q">
+		<input type="submit" class="custom-form-button" value="Search">
+		<input type="hidden" name="sitesearch" value="leonpaternoster.com">
+
+	</fieldset>
 
 </form>
+
 
 <noscript>
 
