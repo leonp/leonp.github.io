@@ -1,27 +1,20 @@
 @media screen, projection {
 
     .top-bar {
-        padding: $single-line 0;
-        text-transform: lowercase;
-        background-color: $link;
-        margin-bottom: $single-line;
-
-        @media #{$bp} {
-            margin-bottom: $double-line;
-        }
-
+        padding: $half-line 0;
+        margin-bottom: $half-line;
     }
 
     .top-bar a:link,
     .top-bar a:visited {
-        color: $light;
+        color: $link;
     }
 
     .top-bar a:hover,
     .top-bar a:active,
     .top-bar a:focus,
     .inline-nav-item-current {
-        color: $light;
+        color: $dark;
         border-bottom: $eighth-line solid;
     }
 
