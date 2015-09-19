@@ -3,7 +3,9 @@
     .top-bar {
         padding: $single-line 0;
         text-transform: lowercase;
-        background-color: $link;
+        font-variant: small-caps;
+        letter-spacing: 1px;
+        background-color: $light;
         margin-bottom: $single-line;
 
         @media #{$bp} {
@@ -14,15 +16,14 @@
 
     .top-bar a:link,
     .top-bar a:visited {
-        color: $light;
+        color: $link;
     }
 
     .top-bar a:hover,
     .top-bar a:active,
     .top-bar a:focus,
     .inline-nav-item-current {
-        color: $light;
-        border-bottom: $eighth-line solid;
+        color: $dark;
     }
 
     .top-bar-title {
