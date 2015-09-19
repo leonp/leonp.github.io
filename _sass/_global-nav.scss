@@ -1,17 +1,8 @@
 @media screen, projection {
 
     .top-bar {
-        padding: $single-line 0;
-        text-transform: lowercase;
-        font-variant: small-caps;
-        letter-spacing: 1px;
-        background-color: $light;
-        margin-bottom: $single-line;
-
-        @media #{$bp} {
-            margin-bottom: $double-line;
-        }
-
+        padding: $half-line 0;
+        margin-bottom: $half-line;
     }
 
     .top-bar a:link,
@@ -24,6 +15,7 @@
     .top-bar a:focus,
     .inline-nav-item-current {
         color: $dark;
+        border-bottom: $eighth-line solid;
     }
 
     .top-bar-title {

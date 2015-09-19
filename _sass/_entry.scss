@@ -2,17 +2,20 @@
 
     .entry-header {
     	margin-bottom: $single-line;
+        text-align: center;
     }
 
     .entry-title {
-    	font-size: 1em;
+    	font-size: 2em;
     	line-height: 1.2em;
         color: $black;
+        font-style: italic;
     }
 
     .entry-meta {
     	margin: $half-line 0 $single-line 0;
         font-weight: 300;
+        text-align: center;
     }
 
     .entry-meta-excerpt {
@@ -73,24 +76,25 @@
     	line-height: 1.2em;
     	padding: $single-line 0 $half-line 0;
         color: $grey;
+        text-align: center;
+        font-weight: normal;
+        font-style: italic;
+        font-size: 1.5em;
     }
 
     .entry-content h3,
     .entry-content dt {
-    	text-transform: lowercase;
-        font-variant: small-caps;
-        font-weight: normal;
-        letter-spacing: 1px;
+        font-size: 1.333em;
     }
 
     .entry-content h4 {
-        font-weight: normal;
-        font-style: italic;
+        font-size: 1.167em;
     }
 
     .entry-footer {
     	padding: $half-line 0;
         font-weight: 300;
+        text-align: center;
     }
 
     .entry-content hr,
@@ -109,13 +113,17 @@
     	-webkit-box-sizing: border-box;
     	-moz-box-sizing: border-box;
     	box-sizing: border-box;
+        border: 1px $grey solid;
+        display: block;
+        margin: 0 auto $quarter-line auto;
     }
 
 
     .figcaption {
     	padding-bottom: $half-line;
     	color: $grey;
-        font-weight: 300;
+        font-style: italic;
+        text-align: center;
     }
 
     .entry-excerpt {
