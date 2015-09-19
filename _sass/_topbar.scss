@@ -1,8 +1,12 @@
 @media screen, projection {
 
     .top-bar {
-        padding: $half-line 0;
-        margin-bottom: $half-line;
+        padding: $half-line 0 0 0;
+
+        @media #{$bp} {
+            padding: $single-line 0 $half-line 0;
+    		margin-bottom: $single-line;
+    	}
     }
 
     .top-bar a:link,
