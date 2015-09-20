@@ -21,15 +21,19 @@ show: yes
 
 {% for post in site.posts  %}
 
-    <article class="entry entry-excerpt">
+	{% if post.layout != 'redirect' %}
 
-        <h1 class="entry-title entry-title-excerpt"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+	    <article class="entry entry-excerpt">
 
-		<p class="secondary entry-meta entry-meta-excerpt">First published <time class="published">{{ post.date | date: "%b %-d %Y" }}</time></p>
+	        <h1 class="entry-title entry-title-excerpt"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
 
-		{{ post.excerpt }}
+			<p class="secondary entry-meta entry-meta-excerpt">First published <time class="published">{{ post.date | date: "%b %-d %Y" }}</time></p>
 
-    </article>
+			{{ post.excerpt }}
+
+	    </article>
+
+	{% endif %}
 
 {% endfor %}
 

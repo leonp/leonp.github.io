@@ -12,6 +12,7 @@
     </author>
     <rights>Copyright (c) Leon Paternoster</rights>
     {% for post in site.posts limit:10 %}
+    {% if post.layout != 'redirect' %}
     <entry>
         <title>{{ post.title }}</title>
         <link href="http://www.leonpaternoster.com{{ post.url }}"/>
@@ -19,5 +20,6 @@
         <id>http://www.leonpaternoster.com{{ post.url }}/</id>
         <content type="html">{{ post.content | xml_escape }}</content>
     </entry>
+    {% endif %}
     {% endfor %}
 </feed>
