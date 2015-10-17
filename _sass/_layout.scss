@@ -1,21 +1,14 @@
 @media screen, projection {
 
 .wrapper {
-	max-width: 26em !important;
-	margin: 0 auto;
-	padding: 0 $quarter-line;
-}
-
-.page {
-	background-color: $light;
-	padding: $single-line;
+	max-width: 28em !important;
+	padding: 0 $half-line;
 
 	@media #{$bp} {
-		padding: $double-line $quadruple-line;
+		padding: 0 $double-line;
 	}
 
 }
-
 
 #footer {
 	padding: $half-line 0;

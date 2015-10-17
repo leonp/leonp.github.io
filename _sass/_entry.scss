@@ -2,19 +2,15 @@
 
     .entry-header {
     	margin-bottom: $single-line;
-        text-align: center;
     }
 
     .entry-title {
     	font-size: 2em;
     	line-height: 1.2em;
-        color: $black;
-        font-style: italic;
     }
 
     .entry-meta {
     	margin: $half-line 0 $single-line 0;
-        text-align: center;
     }
 
     .entry-meta-excerpt {
@@ -27,16 +23,19 @@
 
     .entry-content a:link {
     	color: $link;
+        border-bottom: 1px dotted $grey;
     }
 
     .entry-content a:visited {
     	color: $visited;
+        border-bottom: 1px dotted $grey;
     }
 
     .entry-content a:hover,
     .entry-content a:active,
     .entry-content a:focus {
     	color: $hover;
+        border-bottom: 1px dotted $hover;
     }
 
     .entry-content a.imglink {
@@ -75,9 +74,6 @@
     	line-height: 1.2em;
     	padding: $single-line 0 $half-line 0;
         color: $grey;
-        text-align: center;
-        font-weight: normal;
-        font-style: italic;
         font-size: 1.5em;
     }
 
@@ -91,9 +87,12 @@
     }
 
     .entry-footer {
-    	padding: $half-line 0;
-        font-weight: 300;
-        text-align: center;
+        padding: $half-line;
+
+        @media #{$bp} {
+            padding: $half-line $double-line;
+        }
+
     }
 
     .entry-content hr,
@@ -112,17 +111,15 @@
     	-webkit-box-sizing: border-box;
     	-moz-box-sizing: border-box;
     	box-sizing: border-box;
-        border: 1px $grey solid;
+        border: 1px $lgrey solid;
         display: block;
-        margin: 0 auto $quarter-line auto;
+        margin-bottom: $quarter-line;
     }
 
 
     .figcaption {
     	padding-bottom: $half-line;
     	color: $grey;
-        font-style: italic;
-        text-align: center;
     }
 
     .entry-excerpt {
@@ -131,6 +128,10 @@
 
     .entry-title-excerpt {
         padding: 0 0 $quarter-line 0 !important;
+    }
+
+    .entry-content .entry-title-excerpt a {
+        border-bottom: none;
     }
 
 }

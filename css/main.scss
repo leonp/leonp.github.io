@@ -10,8 +10,9 @@
 
 // Fonts
 
-$main-font: freight-text-pro, serif;
-$secondary-font: freight-text-pro, serif;
+$main-font: proxima-nova, calibri, sans-serif;
+$secondary-font: proxima-nova, calibri, sans-serif;
+$display-font: proxima-nova, calibri, sans-serif;
 
 
 // Size
@@ -35,14 +36,14 @@ $max-width: 1920px;
 $black: #000;
 $dark: #444;
 $light: #FFF;
-$highlight: #265A8E;
+$highlight: #FC4E0F;
 $grey: #AAA;
 $lgrey: #F7F7F7;
 $midgrey: #DFDFDF;
-$link: #0282F9;
-$visited: #46A4FC;
-$active: #000;
-$hover: #02CAF7;
+$link: #FC4E0F;
+$visited: #FC855A;
+$active: #F91800;
+$hover: #F91800;
 $code: #FCDF02;
 $background: #F7F7F7;
 

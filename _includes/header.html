@@ -23,9 +23,9 @@
 		<script>
 			(function(d) {
 			var config = {
-			kitId: 'ofd4cut',
-			scriptTimeout: 3000,
-			async: true
+			  kitId: 'ofd4cut',
+			  scriptTimeout: 3000,
+			  async: true
 			},
 			h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
 			})(document);
@@ -44,24 +44,36 @@
 
 		</ul>
 
-		<header class="top-bar">
+		<article class="entry">
 
-			<div class="wrapper">
+			<header class="top-bar entry-header">
 
-				<div id="nav" class="text-centre">
+				{% if page.layout != "home" %}
 
-					<a href="/"><img class="logo" src="/images/home-blue.svg" alt="Home" title="Go to the home page"></a>
+					<div id="nav" class="top-bar-nav">
 
-					{% if page.layout == 'post' %}
+						<a href="/"><img class="logo" src="/images/home-orange.svg" alt="Home" title="Go to the home page"></a>
 
-						<span> &rarr; <a href="/articles">Articles</a></span>
+						{% if page.layout == 'post' %}
 
-					{% endif %}
+							<span> &rarr; <a href="/articles">Articles</a></span>
 
-				</div>
+						{% endif %}
 
-			</div> <!-- end .wrapper -->
+					</div>
 
-		</header>
+				{% endif %}
 
-		<main id="content" role="main">
+				<h1 class="top-bar-title entry-title">{{ page.title }}</h1>
+
+				{% if page.layout == 'post' %}
+
+					{% capture words %}
+						{{ page.content | number_of_words }}
+					{% endcapture %}
+
+					<p class="entry-meta">First published <time class="published">{{ page.date | date: "%b %-d %Y" }}</time> &middot; {{ words }} words</p>
+
+				{% endif %}
+
+			</header>

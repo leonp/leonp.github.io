@@ -103,11 +103,4 @@ a img {
 	color: #FFF;
 }
 
-.wf-active body > *,
-.wf-inactive body > * {
-    animation-name: fadeIn;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-}
-
 }

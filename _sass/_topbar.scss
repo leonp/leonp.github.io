@@ -1,12 +1,15 @@
 @media screen, projection {
 
     .top-bar {
-        padding: $half-line 0 0 0;
+        padding: $half-line;
 
         @media #{$bp} {
-            padding: $single-line 0 $half-line 0;
-    		margin-bottom: $single-line;
+            padding: $single-line $double-line;
+    		margin-bottom: $double-line;
     	}
+
+        background-color: $dark;
+        color: $light;
     }
 
     .top-bar a:link,
@@ -18,12 +21,19 @@
     .top-bar a:active,
     .top-bar a:focus,
     .inline-nav-item-current {
-        color: $dark;
+        color: $link;
         border-bottom: $eighth-line solid;
     }
 
+    .top-bar-nav {
+        margin-bottom: $half-line;
+    }
+
     .top-bar-title {
-        font-size: 1em;
+        font-family: $display-font;
+        color: $light;
+        line-height: 1em;
+        text-shadow: 1px 1px 1px $highlight;
     }
 
 }
