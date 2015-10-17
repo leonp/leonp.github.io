@@ -27,6 +27,7 @@
 
     .top-bar-nav {
         margin-bottom: $half-line;
+        text-shadow: 1px 1px 1px $black;
     }
 
     .top-bar-title {
@@ -34,6 +35,28 @@
         color: $light;
         line-height: 1em;
         text-shadow: 1px 1px 1px $highlight;
+    }
+
+    .top-bar-form,
+    .top-bar-form fieldset {
+        display: inline;
+        padding-top: $half-line;
+        font-size: 0.9375em;
+
+        @media #{$bp} {
+            padding-top: 0;
+        }
+
+    }
+
+    .top-bar-form input[type='search'] {
+
+        @media #{$bp} {
+
+            width: 18em;
+
+        }
+
     }
 
 }

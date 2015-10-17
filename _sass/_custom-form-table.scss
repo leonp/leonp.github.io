@@ -1,9 +1,5 @@
 @media screen, projection {
 
-    .custom-form {
-    	margin-bottom: $single-line;
-    }
-
     .custom-form fieldset {
         border: 0;
     }
@@ -12,7 +8,7 @@
         font-family: $main-font;
         font-size: 1em;
         border: 1px solid $midgrey;
-        padding: $eighth-line;
+        padding: $quarter-line;
         -webkit-appearance: none;
     }
 
@@ -20,7 +16,7 @@
     	margin-bottom: $quarter-line;
 
     	@media #{$bp} {
-    		width: 75%;
+    		width: 40%;
     	}
 
     }

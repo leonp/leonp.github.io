@@ -48,21 +48,39 @@
 
 			<header class="top-bar entry-header">
 
-				{% if page.layout != "home" %}
+				<nav id="nav" class="top-bar-nav">
 
-					<div id="nav" class="top-bar-nav">
+					<h1 class="hide accessibility">Navigation</h1>
 
-						<a href="/"><img class="logo" src="/images/home-orange.svg" alt="Home" title="Go to the home page"></a>
+					<ul class="inline-nav">
 
-						{% if page.layout == 'post' %}
+						<li class="inline-nav-item"><a href="/"><img class="logo" src="/images/home-orange.svg" alt="Home" title="Go to the home page"></a></li>
 
-							<span> &rarr; <a href="/articles">Articles</a></span>
+						<li class="inline-nav-item"><a href="/articles">Articles</a></li>
 
-						{% endif %}
+						<li class="inline-nav-item"><a href="/about">About &amp; contact</a></li>
 
-					</div>
+						<li class="inline-nav-item">
 
-				{% endif %}
+							<form method="get" action="/search" role="search" id="search" class="custom-form top-bar-form">
+
+								<fieldset>
+
+									<legend class="accessibility hide">Search this website</legend>
+
+									<input type="search" name="q">
+									<input type="submit" class="custom-form-button" value="Search">
+									<input type="hidden" name="sitesearch" value="leonpaternoster.com">
+
+								</fieldset>
+
+							</form>
+
+						</li>
+
+					</ul>
+
+				</nav>
 
 				<h1 class="top-bar-title entry-title">{{ page.title }}</h1>
 
@@ -73,6 +91,12 @@
 					{% endcapture %}
 
 					<p class="entry-meta">First published <time class="published">{{ page.date | date: "%b %-d %Y" }}</time> &middot; {{ words }} words</p>
+
+				{% endif %}
+
+				{% if page.title == "Leon Paternoster" %}
+
+					<p class="entry-meta">Web and customer service manager and occasional designer of websites for local businesses.</p>
 
 				{% endif %}
 

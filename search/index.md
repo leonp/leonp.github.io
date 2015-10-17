@@ -3,21 +3,6 @@ layout: default
 title: Search results
 ---
 
-<form method="get" action="/search" role="search" id="search" class="custom-form">
-
-	<fieldset>
-
-		<legend class="accessibility hide">Search this website</legend>
-
-		<input type="search" name="q">
-		<input type="submit" class="custom-form-button" value="Search">
-		<input type="hidden" name="sitesearch" value="leonpaternoster.com">
-
-	</fieldset>
-
-</form>
-
-
 <noscript>
 
 Try this form if you have javascript turned off:
