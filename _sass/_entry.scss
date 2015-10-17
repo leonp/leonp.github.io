@@ -87,12 +87,7 @@
     }
 
     .entry-footer {
-        padding: $half-line;
-
-        @media #{$bp} {
-            padding: $half-line $double-line;
-        }
-
+        padding: $half-line 0;
     }
 
     .entry-content hr,

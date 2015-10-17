@@ -49,6 +49,10 @@ body {
 		font-size: $widescreen-font-size;
 	}
 
+	@media #{$vwbp} {
+		font-size: $very-widescrenn-font-size;
+	}
+
 }
 
 h1,

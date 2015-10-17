@@ -1,8 +1,9 @@
 @media screen, projection {
 
 .wrapper {
-	max-width: 28em !important;
+	max-width: 32em;
 	padding: 0 $half-line;
+	margin: 0 auto;
 
 	@media #{$bp} {
 		padding: 0 $double-line;

@@ -26,8 +26,9 @@ $quadruple-line: ($single-line * 4);
 $half-line: ($single-line / 2);
 $quarter-line: ($single-line / 4);
 $eighth-line: ($single-line / 8);
-$base-font-size: 112.5%;
+$base-font-size: 118.75%;
 $widescreen-font-size: 137.5%;
+$very-widescrenn-font-size: 150%;
 $max-width: 1920px;
 
 
@@ -50,6 +51,7 @@ $background: #F7F7F7;
 $nbp: "screen and (min-width: 700px)";
 $bp: "screen and (min-width: 780px)";
 $wbp: "screen and (min-width: 900px)";
+$vwbp: "screen and (min-width: 1200px)";
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
