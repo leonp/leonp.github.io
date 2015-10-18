@@ -1,10 +1,10 @@
 @media screen, projection {
 
     .top-bar {
-        padding: $half-line;
+        padding: $half-line $half-line $single-line $half-line;
 
         @media #{$bp} {
-            padding: $single-line $double-line;
+            padding: $single-line $double-line $double-line $double-line;
     		margin-bottom: $double-line;
     	}
 
@@ -28,12 +28,13 @@
     .top-bar-nav {
         margin-bottom: $half-line;
         text-shadow: 1px 1px 1px $black;
+        font-size: 0.9375em;
     }
 
     .top-bar-title {
         font-family: $display-font;
         color: $light;
-        line-height: 1em;
+        line-height: 1.2em;
         text-shadow: 1px 1px 1px $highlight;
     }
 
