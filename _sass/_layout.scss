@@ -40,13 +40,13 @@
 
 #footer {
 	color: $grey;
-	padding: $half-line;
+	padding: $single-line 0;
 
-	@media #{$bp} {
-		padding: $double-line;
+		@media #{$bp} {
+			margin-left: 35%;
+			padding: $line-and-a-half 0;
+		}
 	}
-
-}
 
 
 }
