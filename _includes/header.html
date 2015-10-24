@@ -44,66 +44,62 @@
 
 		</ul>
 
-		<article class="entry">
+		<h1 class="hide accessibility">Leon Paternoster</h1>
 
-			<header class="top-bar entry-header">
-
-				<div class="wrapper">
-
-					<nav id="nav" class="top-bar-nav">
-
-						<h1 class="hide accessibility">Navigation</h1>
-
-						<ul class="inline-nav">
-
-							<li class="inline-nav-item"><a href="/"><img class="logo" src="/images/home-orange.svg" alt="Home" title="Go to the home page"></a></li>
-
-							<li class="inline-nav-item"><a href="/articles">Articles</a></li>
-
-							<li class="inline-nav-item"><a href="/about">About</a></li>
-
-							<li class="inline-nav-item">
-
-								<form method="get" action="/search" role="search" id="search" class="custom-form top-bar-form">
-
-									<fieldset>
-
-										<legend class="accessibility hide">Search this website</legend>
-
-										<input type="search" name="q">
-										<input type="submit" class="custom-form-button" value="Search">
-										<input type="hidden" name="sitesearch" value="leonpaternoster.com">
-
-									</fieldset>
-
-								</form>
-
-							</li>
-
-						</ul>
-
-					</nav>
-
-					<h1 id="content" class="top-bar-title entry-title">{{ page.title }}</h1>
-
-					{% if page.layout == 'post' %}
-
-						{% capture words %}
-							{{ page.content | number_of_words }}
-						{% endcapture %}
-
-						<p class="entry-meta">First published <time class="published">{{ page.date | date: "%b %-d %Y" }}</time> &middot; {{ words }} words</p>
-
-					{% endif %}
-
-					{% if page.title == "Leon Paternoster" %}
-
-						<p class="entry-meta">Web and customer service manager and occasional designer of websites for local businesses.</p>
-
-					{% endif %}
-
-				</div> <!-- end .wrapper -->
-
-			</header>
+		<div class="top-bar">
 
 			<div class="wrapper">
+
+				<nav id="nav" class="top-bar-nav">
+
+					<h1 class="hide accessibility">Navigation</h1>
+
+					<ul class="inline-nav">
+
+						<li class="inline-nav-item"><a href="/"><img class="logo" src="/images/home-orange.svg" alt="Home" title="Go to the home page"></a></li>
+
+						<li class="inline-nav-item"><a href="/articles">Articles</a></li>
+
+						<li class="inline-nav-item"><a href="/about">About</a></li>
+
+						<li class="inline-nav-item">
+
+							<form method="get" action="/search" role="search" id="search" class="custom-form top-bar-form">
+
+								<fieldset>
+
+									<legend class="accessibility hide">Search this website</legend>
+
+									<input type="search" name="q">
+									<input type="submit" class="custom-form-button" value="Search">
+									<input type="hidden" name="sitesearch" value="leonpaternoster.com">
+
+								</fieldset>
+
+							</form>
+
+						</li>
+
+					</ul>
+
+				</nav>
+
+			</div> <!-- end .wrapper -->
+
+		</div> <!-- end .top-bar -->
+
+		<article class="entry" id="content">
+
+			<div class="wrapper">
+
+				<h1 class="entry-title">{{ page.title }}</h1>
+
+				{% if page.layout == 'post' %}
+
+					{% capture words %}
+						{{ page.content | number_of_words }}
+					{% endcapture %}
+
+					<p class="entry-meta">First published <time class="published">{{ page.date | date: "%b %-d %Y" }}</time> &middot; {{ words }} words &middot; by <a href="/">Leon Paternoster</a></p>
+
+				{% endif %}
