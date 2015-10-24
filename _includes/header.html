@@ -20,7 +20,16 @@
 		<link href="/feed" rel="alternate" type="application/rss+xml" title="{{ site.title }}">
 		<link rel="shortcut icon" type="image/png" href="/images/favicon.png">
 
-		<script src="/js/smooth.js"></script>
+		<script>
+			(function(d) {
+			var config = {
+			kitId: 'ofd4cut',
+			scriptTimeout: 3000,
+			async: true
+			},
+			h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+			})(document);
+		</script>
 
 	</head>
 
@@ -43,7 +52,7 @@
 
 				<ul class="inline-nav">
 
-					<li class="inline-nav-item"><a href="/"><img class="logo" src="/images/home.svg" alt="Home" title="Go to the home page"></a></li>
+					<li class="inline-nav-item"><a href="/">Home</a></li>
 
 					<li class="inline-nav-item"><a href="/articles">Articles</a></li>
 

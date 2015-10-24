@@ -1,8 +1,14 @@
 @media screen, projection {
 
 	.logo {
-		height: 1.4em;
+		height: $single-line;
 		vertical-align: text-bottom;
+		border-radius: 50%;
+
+		@media #{$bp} {
+			height: $treble-line;
+		}
+
 	}
 
 }

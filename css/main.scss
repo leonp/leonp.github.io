@@ -10,9 +10,9 @@
 
 // Fonts
 
-$main-font: georgia, serif;
-$secondary-font: 'helvetica neue', helvetica, arial, sans-serif;
-$display-font: georgia, serif;
+$main-font: proxima-nova, 'Source Sans Pro', sans-serif;
+$secondary-font: proxima-nova, 'Source Sans Pro', sans-serif;
+$display-font: proxima-nova, 'Source Sans Pro', sans-serif;
 
 
 // Size
@@ -26,9 +26,9 @@ $quadruple-line: ($single-line * 4);
 $half-line: ($single-line / 2);
 $quarter-line: ($single-line / 4);
 $eighth-line: ($single-line / 8);
-$base-font-size: 112.5%;
-$widescreen-font-size: 112.5%;
-$very-widescrenn-font-size: 112.5%;
+$base-font-size: 118.75%;
+$widescreen-font-size: 125%;
+$very-widescrenn-font-size: 125%;
 $max-width: 1920px;
 
 

@@ -12,19 +12,27 @@
 
 #header {
 	padding: $half-line;
+	background-color: $background;
+	background-image: url('/images/can.jpg');
 
 	@media #{$bp} {
-		padding: $half-line $double-line;
+		width: 20%;
+		padding: 5%;
+		bottom: 0;
+		left: 0;
+		position: fixed;
+		height: 90%;
+		border-right: 1px solid $midgrey;
 	}
 
 }
 
 #content {
 	padding-top: $single-line;
-	background-color: $background;
 
 	@media #{$bp} {
 		padding-top: $treble-line;
+		margin-left: 35%;
 	}
 
 }
