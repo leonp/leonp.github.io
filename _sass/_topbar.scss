@@ -2,11 +2,8 @@
 
     .top-bar {
         padding: $half-line 0;
-        margin-bottom: $single-line;
-        background-color: $background;
 
         @media #{$bp} {
-    		margin-bottom: $treble-line;
             background-color: $light;
     	}
 
@@ -29,7 +26,7 @@
     }
 
     .top-bar-nav {
-        
+
         @media #{$bp} {
             padding-top: $eighth-line;
         }

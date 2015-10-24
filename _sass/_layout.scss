@@ -3,10 +3,9 @@
 .wrapper {
 	max-width: 32em;
 	padding: 0 $half-line;
-	margin: 0 auto;
 
 	@media #{$bp} {
-		padding: 0 $single-line;
+		padding: 0 $double-line;
 	}
 
 }
@@ -15,7 +14,17 @@
 	padding: $half-line;
 
 	@media #{$bp} {
-		padding: $half-line $single-line;
+		padding: $half-line $double-line;
+	}
+
+}
+
+#content {
+	padding-top: $single-line;
+	background-color: $background;
+
+	@media #{$bp} {
+		padding-top: $treble-line;
 	}
 
 }
@@ -25,7 +34,7 @@
 	padding: $half-line;
 
 	@media #{$bp} {
-		padding: $single-line;
+		padding: $double-line;
 	}
 
 }
