@@ -11,7 +11,7 @@
 // Fonts
 
 $main-font: georgia, serif;
-$secondary-font: georgia, serif;
+$secondary-font: 'helvetica neue', helvetica, arial, sans-serif;
 $display-font: georgia, serif;
 
 
@@ -30,6 +30,18 @@ $base-font-size: 100%;
 $widescreen-font-size: 112.5%;
 $very-widescrenn-font-size: 112.5%;
 $max-width: 1920px;
+
+
+// Type scale (see http://type-scale.com/ minor third)
+
+$size-1: 0.579em;
+$size-2: 0.694em;
+$size-3: 0.833em;
+$size-4: 1em;
+$size-5: 1.2em;
+$size-6: 1.44em;
+$size-7: 1.728em;
+$size-8: 2.074em;
 
 
 // Colours

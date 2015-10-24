@@ -96,6 +96,16 @@
 
 			<div class="wrapper">
 
+				{% if page.layout == 'post' %}
+
+					<header class="entry-header">
+
+				{% else %}
+
+					<div class="entry-header">
+
+				{% endif %}
+
 				<h1 class="entry-title">{{ page.title }}</h1>
 
 				{% if page.layout == 'post' %}
@@ -104,6 +114,16 @@
 						{{ page.content | number_of_words }}
 					{% endcapture %}
 
-					<p class="entry-meta">First published <time class="published">{{ page.date | date: "%b %-d %Y" }}</time> &middot; {{ words }} words &middot; by <a href="/">Leon Paternoster</a></p>
+					<p class="entry-meta secondary">First published <time class="published">{{ page.date | date: "%b %-d %Y" }}</time> &middot; {{ words }} words &middot; by <a href="/">Leon Paternoster</a></p>
+
+				{% endif %}
+
+				{% if page.layout == 'post' %}
+
+			</header> <!-- end .entry-header -->
+
+				{% else %}
+
+			</div> <!-- end .entry-header -->
 
 				{% endif %}

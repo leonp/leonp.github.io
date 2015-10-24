@@ -27,7 +27,6 @@
     }
 
     .top-bar-nav {
-        font-size: 0.9375em;
         margin-bottom: $half-line;
         text-transform: lowercase;
         font-variant: small-caps;
@@ -41,12 +40,7 @@
 
     .top-bar-form,
     .top-bar-form fieldset {
-        font-size: 0.9375em;
-
-        @media #{$bp} {
-            padding-top: 0;
-        }
-
+        font-size: $size-4;
     }
 
     .top-bar-form input[type='search'] {

@@ -1,16 +1,15 @@
 @media screen, projection {
 
     .entry-header {
-    	margin-bottom: $single-line;
+    	padding-bottom: $single-line;
     }
 
     .entry-title {
-    	font-size: 2em;
-    	line-height: 1.2em;
+    	font-size: $size-7;
     }
 
     .entry-meta {
-    	margin-top: $half-line;
+    	padding-top: $half-line;
     }
 
     .entry-meta-excerpt {
@@ -61,8 +60,11 @@
     }
 
     .entry-content blockquote {
+        font-size: $size-3;
     	margin-left: $single-line;
-    	line-height: 1.2em;
+        margin-bottom: $single-line;
+    	padding-left: $half-line;
+        border-left: $quarter-line solid $lgrey;
     }
 
     .entry-content h1,
@@ -70,20 +72,23 @@
     .entry-content h3,
     .entry-content h4,
     .entry-content dt {
-    	font-size: 1em;
-    	line-height: 1.2em;
+    	font-size: $size-4;
     	padding: $single-line 0 $half-line 0;
-        color: $grey;
-        font-size: 1.5em;
+    }
+
+    .entry-content h1,
+    .entry-content h2 {
+        font-size: $size-5;
     }
 
     .entry-content h3,
     .entry-content dt {
-        font-size: 1.333em;
+        font-size: $size-4;
     }
 
     .entry-content h4 {
-        font-size: 1.167em;
+        font-size: $size-4;
+        font-weight: normal;
     }
 
     .entry-footer {
@@ -115,6 +120,7 @@
     .figcaption {
     	padding-bottom: $half-line;
     	color: $grey;
+        font-family: $secondary-font;
     }
 
     .entry-excerpt {
