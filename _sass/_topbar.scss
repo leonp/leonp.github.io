@@ -28,8 +28,6 @@
 
     .top-bar-nav {
         margin-bottom: $half-line;
-        text-transform: lowercase;
-        font-variant: small-caps;
 
         @media #{$bp} {
             margin-bottom: 0;
