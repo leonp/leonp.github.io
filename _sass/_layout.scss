@@ -1,20 +1,33 @@
 @media screen, projection {
 
 .wrapper {
-	max-width: 32em;
+	max-width: 30em;
 	padding: 0 $half-line;
 	margin: 0 auto;
 
 	@media #{$bp} {
-		padding: 0 $double-line;
+		padding: 0 $single-line;
+	}
+
+}
+
+#header {
+	padding: $half-line;
+
+	@media #{$bp} {
+		padding: $half-line $single-line;
 	}
 
 }
 
 #footer {
-	padding: $half-line 0;
-	font-family: $secondary-font;
 	color: $grey;
+	padding: $half-line;
+
+	@media #{$bp} {
+		padding: $single-line;
+	}
+
 }
 
 

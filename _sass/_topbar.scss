@@ -1,47 +1,46 @@
 @media screen, projection {
 
     .top-bar {
-        padding: $half-line $half-line $single-line $half-line;
+        padding: $half-line 0;
+        margin-bottom: $single-line;
 
         @media #{$bp} {
-            padding: $single-line $double-line $double-line $double-line;
     		margin-bottom: $double-line;
     	}
 
-        background-color: $dark;
-        color: $light;
+        background-color: $light;
+        color: $dark;
+        border-bottom: 1px solid $lgrey;
     }
 
     .top-bar a:link,
     .top-bar a:visited {
-        color: $link;
+        color: $dark;
     }
 
     .top-bar a:hover,
     .top-bar a:active,
     .top-bar a:focus,
     .inline-nav-item-current {
-        color: $link;
+        color: $hover;
         border-bottom: $eighth-line solid;
     }
 
     .top-bar-nav {
-        margin-bottom: $half-line;
-        text-shadow: 1px 1px 1px $black;
         font-size: 0.9375em;
-    }
+        margin-bottom: $half-line;
+        text-transform: lowercase;
+        font-variant: small-caps;
 
-    .top-bar-title {
-        font-family: $display-font;
-        color: $light;
-        line-height: 1.2em;
-        text-shadow: 1px 1px 1px $highlight;
+        @media #{$bp} {
+            margin-bottom: 0;
+            padding-top: $eighth-line;
+        }
+
     }
 
     .top-bar-form,
     .top-bar-form fieldset {
-        display: inline;
-        padding-top: $half-line;
         font-size: 0.9375em;
 
         @media #{$bp} {

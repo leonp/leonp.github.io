@@ -46,47 +46,51 @@
 
 		<h1 class="hide accessibility">Leon Paternoster</h1>
 
-		<div class="top-bar">
+		<header class="top-bar" id="header">
 
-			<div class="wrapper">
+			<div class="g-row">
 
-				<nav id="nav" class="top-bar-nav">
+				<div class="g-w-col1 g-w-left">
 
-					<h1 class="hide accessibility">Navigation</h1>
+					<nav id="nav" class="top-bar-nav">
 
-					<ul class="inline-nav">
+						<h1 class="hide accessibility">Navigation</h1>
 
-						<li class="inline-nav-item"><a href="/"><img class="logo" src="/images/home-orange.svg" alt="Home" title="Go to the home page"></a></li>
+						<ul class="inline-nav">
 
-						<li class="inline-nav-item"><a href="/articles">Articles</a></li>
+							<li class="inline-nav-item"><a href="/"><img class="logo" src="/images/home-orange.svg" alt="Home" title="Go to the home page"></a></li>
 
-						<li class="inline-nav-item"><a href="/about">About</a></li>
+							<li class="inline-nav-item"><a href="/articles">Articles</a></li>
 
-						<li class="inline-nav-item">
+							<li class="inline-nav-item"><a href="/about">About</a></li>
 
-							<form method="get" action="/search" role="search" id="search" class="custom-form top-bar-form">
+						</ul>
 
-								<fieldset>
+					</nav>
 
-									<legend class="accessibility hide">Search this website</legend>
+				</div>
 
-									<input type="search" name="q">
-									<input type="submit" class="custom-form-button" value="Search">
-									<input type="hidden" name="sitesearch" value="leonpaternoster.com">
+				<div class="g-w-col2 g-w-right g-w-align-right g-w-last">
 
-								</fieldset>
+					<form method="get" action="/search" role="search" id="search" class="custom-form top-bar-form">
 
-							</form>
+						<fieldset>
 
-						</li>
+							<legend class="accessibility hide">Search this website</legend>
 
-					</ul>
+							<input type="search" name="q">
+							<input type="submit" class="custom-form-button" value="Search">
+							<input type="hidden" name="sitesearch" value="leonpaternoster.com">
 
-				</nav>
+						</fieldset>
 
-			</div> <!-- end .wrapper -->
+					</form>
 
-		</div> <!-- end .top-bar -->
+				</div>
+
+			</div> <!-- end .g-row -->
+
+		</header> <!-- end .top-bar -->
 
 		<article class="entry" id="content">
 

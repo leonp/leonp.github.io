@@ -25,6 +25,8 @@
         cursor: pointer;
         background-color: $midgrey;
         color: $dark;
+        text-transform: lowercase;
+        font-variant: small-caps;
         -moz-box-shadow:    inset 0 0 $half-line $lgrey;
         -webkit-box-shadow: inset 0 0 $half-line $lgrey;
         box-shadow:         inset 0 0 $half-line $lgrey;

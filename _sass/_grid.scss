@@ -1,9 +1,18 @@
 @media screen, projection {
 
-	.g-row {
-		clear: both;
-		overflow: hidden;
-	}
+	.g-row:before,
+    .g-row:after {
+    	content: "";
+    	display: block;
+    }
+
+    .g-row:after {
+    	clear: both;
+    }
+
+    .g-row {
+    	zoom: 1;
+    }
 
 	.g-col1 {
 		width: 30%;
