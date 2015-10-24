@@ -12,10 +12,6 @@
     	padding-top: $half-line;
     }
 
-    .entry-meta-excerpt {
-        margin: 0 0 $quarter-line 0 !important;
-    }
-
     .entry-content {
     	padding-bottom: $single-line;
     }
@@ -61,8 +57,7 @@
 
     .entry-content blockquote {
         font-size: $size-3;
-    	margin-left: $single-line;
-        margin-bottom: $single-line;
+    	margin: $single-line 0 $single-line $single-line;
     	padding-left: $half-line;
         border-left: $quarter-line solid $lgrey;
     }
@@ -123,17 +118,5 @@
         font-family: $secondary-font;
     }
 
-    .entry-excerpt {
-        padding: 0 0 $line-and-a-half 0;
-    }
-
-    .entry-content .entry-title-excerpt {
-        padding: 0 0 $quarter-line 0 !important;
-        font-size: 1.167em;
-    }
-
-    .entry-content .entry-title-excerpt a {
-        border-bottom: none;
-    }
 
 }

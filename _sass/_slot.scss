@@ -1,0 +1,33 @@
+@media screen, projection {
+
+.slot {
+    padding-bottom: $line-and-a-half;
+}
+
+.entry-content .slot-title {
+    padding: 0;
+}
+
+.entry-content .slot-title a {
+    border-bottom: none;
+}
+
+.entry-content .slot-header {
+    padding-bottom: $half-line;
+}
+
+.entry-content .slot-title {
+    font-size: $size-5;
+}
+
+.entry-content .slot-meta {
+    padding-top: $quarter-line;
+}
+
+.entry-content .slot p {
+    margin-bottom: 0;
+}
+
+
+
+}

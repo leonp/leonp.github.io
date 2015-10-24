@@ -61,7 +61,7 @@ $code: #FCDF02;
 $background: #F7F7F7;
 
 $nbp: "screen and (min-width: 700px)";
-$bp: "screen and (min-width: 780px)";
+$bp: "screen and (min-width: 820px)";
 $wbp: "screen and (min-width: 900px)";
 $vwbp: "screen and (min-width: 1200px)";
 
@@ -83,5 +83,6 @@ $vwbp: "screen and (min-width: 1200px)";
     "topbar",
     "bleed",
 	"print",
-    "search"
+    "search",
+    "slot"
 ;
