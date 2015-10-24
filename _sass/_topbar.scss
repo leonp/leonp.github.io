@@ -29,10 +29,8 @@
     }
 
     .top-bar-nav {
-        margin-bottom: $half-line;
-
+        
         @media #{$bp} {
-            margin-bottom: 0;
             padding-top: $eighth-line;
         }
 
@@ -41,13 +39,14 @@
     .top-bar-form,
     .top-bar-form fieldset {
         font-size: $size-4;
+        margin-bottom: $line-and-a-half;
     }
 
     .top-bar-form input[type='search'] {
 
         @media #{$bp} {
 
-            width: 18em;
+            width: 25em;
 
         }
 

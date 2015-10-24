@@ -5,6 +5,20 @@ description: Curated posts on building, managing &amp; designing websites. Since
 show: yes
 ---
 
+<form method="get" action="/search" role="search" id="search" class="custom-form top-bar-form">
+
+	<fieldset>
+
+		<legend class="accessibility hide">Search this website</legend>
+
+		<input type="search" name="q">
+		<input type="submit" class="custom-form-button" value="Search">
+		<input type="hidden" name="sitesearch" value="leonpaternoster.com">
+
+	</fieldset>
+
+</form>
+
 {% for post in site.posts  %}
 
 	{% if post.layout != 'redirect' %}
