@@ -3,6 +3,7 @@
 .wrapper {
 	max-width: 32em;
 	padding: 0 $half-line;
+	margin: 0 auto;
 
 	@media #{$bp} {
 		padding: 0 $double-line;
@@ -33,7 +34,7 @@
 
 	@media #{$bp} {
 		padding-top: $treble-line;
-		margin-left: 35%;
+		margin-left: 30%;
 	}
 
 }
@@ -43,7 +44,7 @@
 	padding: $single-line 0;
 
 		@media #{$bp} {
-			margin-left: 35%;
+			margin-left: 30%;
 			padding: $line-and-a-half 0;
 		}
 	}
