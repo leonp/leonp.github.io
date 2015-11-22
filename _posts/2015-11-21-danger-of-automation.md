@@ -12,7 +12,7 @@ However, we fear the machines taking over, the power of the algorithm. Automatin
 
 Automation is clearly the right tool for processing lots of information, such as branch library details. But when it comes to making judgements or adding value in some way, it becomes more fuzzy. While Amazon can make useful suggestions based on what you and others have browsed and bought before you don't really want to offload your advertising to a machine, especially one owned by a shady third party.
 
-My objection to overautomation isn't just based on its accuracy or relevancy, although I would argue that big data isn't the panacea its producers make it out to be. When it comes to library websites, a list of, say, the 10 latest crime novels added to library stock or the 10 most popular fantasy titles are useful &#8211; library websites are crying out for this basic level of automation.
+My objection to overautomation isn't just based on its accuracy or relevancy, although I would argue that big data isn't the panacea its producers make it out to be. When it comes to library websites, an automatically generated list of, say, the 10 latest crime novels or the 10 most popular fantasy titles would be really useful. Without this, they won't be able to compete with your Amazons.
 
 But no matter how good the algorithm, it can only suggest a book by analysing borrower and meta data. It has no idea that a bit of the plot is particularly interesting to local customers, or that it could be linked to a local event unless someone, somewhere has attached impossible amounts of complex data to it. Hand curation offers us this insight.
 
