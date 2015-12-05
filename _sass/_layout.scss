@@ -15,6 +15,7 @@
 	padding: $half-line;
 	background-color: $dark;
 	background-image: url('/images/tube.jpg');
+	font-size: $size-3;
 
 	@media #{$bp} {
 		width: 20%;
@@ -24,6 +25,7 @@
 		position: fixed;
 		height: 90%;
 		border-left: 1px solid $midgrey;
+		font-size: $size-3;
 	}
 
 }
