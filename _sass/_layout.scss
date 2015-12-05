@@ -14,7 +14,7 @@
 #header {
 	padding: $half-line;
 	background-color: $dark;
-	background-size: cover;
+	background-image: url('/images/tube.jpg');
 
 	@media #{$bp} {
 		width: 20%;
