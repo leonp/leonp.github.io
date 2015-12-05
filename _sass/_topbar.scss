@@ -15,19 +15,19 @@
     .top-bar a:link,
     .top-bar a:visited {
         color: $dark;
-        background-color: $highlight;
+        background-color: $lgrey;
         padding: $quarter-line;
+        border: 1px solid $dark;
     }
 
     .top-bar a:hover,
     .top-bar a:active,
     .top-bar a:focus {
-        color: $hover;
+        background-color: $highlight;
     }
 
     .top-bar a.inline-nav-item-selected {
         background-color: $highlight;
-        color: $link;
     }
 
     .top-bar-nav {
