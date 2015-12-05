@@ -13,8 +13,7 @@
 
 #header {
 	padding: $half-line;
-	background-color: $background;
-	background-image: url('/images/borges.jpg');
+	background-color: $dark;
 	background-size: cover;
 
 	@media #{$bp} {

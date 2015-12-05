@@ -21,13 +21,16 @@
 
     .top-bar a:hover,
     .top-bar a:active,
-    .top-bar a:focus,
-    .inline-nav-item-current {
+    .top-bar a:focus {
         color: $hover;
     }
 
-    .top-bar-nav {
+    .top-bar a.inline-nav-item-selected {
+        background-color: $highlight;
+        color: $link;
+    }
 
+    .top-bar-nav {
         text-transform: uppercase;
         font-weight: bold;
 
