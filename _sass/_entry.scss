@@ -1,7 +1,9 @@
 @media screen, projection {
 
     .entry-header {
-    	padding-bottom: $single-line;
+    	margin-bottom: $single-line;
+      padding-bottom: $half-line;
+      text-align: center;
     }
 
     .entry-title {
@@ -10,10 +12,14 @@
 
     .entry-meta {
     	padding-top: $half-line;
+      text-transform: lowercase;
+      font-variant:small-caps;
     }
 
     .entry-content {
     	padding-bottom: $single-line;
+      hyphens: auto;
+      -moz-hyphens: auto;
     }
 
     .entry-content a:link {
@@ -56,10 +62,10 @@
     }
 
     .entry-content blockquote {
-        font-size: $size-3;
+      font-size: $size-3;
     	margin: $single-line 0 $single-line $single-line;
     	padding-left: $half-line;
-        border-left: $quarter-line solid $lgrey;
+      border-left: $quarter-line solid $lgrey;
     }
 
     .entry-content h1,
@@ -69,6 +75,7 @@
     .entry-content dt {
     	font-size: $size-4;
     	padding: $single-line 0 $half-line 0;
+      text-align: center;
     }
 
     .entry-content h1,
@@ -84,6 +91,7 @@
     .entry-content h4 {
         font-size: $size-4;
         font-weight: normal;
+        font-style: italic;
     }
 
     .entry-footer {

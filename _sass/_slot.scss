@@ -4,24 +4,21 @@
     padding-bottom: $line-and-a-half;
 }
 
+.slot-meta {
+  padding: $quarter-line 0;
+}
+
 .entry-content .slot-title {
     padding: 0;
+    text-align: left;
 }
 
 .entry-content .slot-title a {
     border-bottom: none;
 }
 
-.entry-content .slot-header {
-    padding-bottom: $half-line;
-}
-
 .entry-content .slot-title {
     font-size: $size-5;
-}
-
-.entry-content .slot-meta {
-    padding-top: $quarter-line;
 }
 
 .entry-content .slot p {

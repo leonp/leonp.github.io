@@ -1,0 +1,43 @@
+<div class="top-bar" id="header">
+
+  <nav id="nav" class="top-bar-nav">
+
+      <h1 class="hide accessibility">Navigation</h1>
+
+      <ul class="inline-nav">
+
+      {% if page.title == 'Leon Paternoster' %}
+
+        <li class="inline-nav-item"><a href="/" class="inline-nav-item-selected">Home</a></li>
+
+      {% else %}
+
+        <li class="inline-nav-item"><a href="/">Home</a></li>
+
+      {% endif %}
+
+      {% if page.title == 'Articles' or page.layout == 'post' %}
+
+        <li class="inline-nav-item"><a href="/articles" class="inline-nav-item-selected">Articles</a></li>
+
+      {% else %}
+
+        <li class="inline-nav-item"><a href="/articles">Articles</a></li>
+
+      {% endif %}
+
+      {% if page.title == 'About' %}
+
+        <li class="inline-nav-item"><a href="/about" class="inline-nav-item-selected">About</a></li>
+
+      {% else %}
+
+        <li class="inline-nav-item"><a href="/about">About</a></li>
+
+      {% endif %}
+
+      </ul>
+
+  </nav>
+
+</div> <!-- end .top-bar -->

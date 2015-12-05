@@ -34,7 +34,7 @@ main {
 }
 
 html {
-	background-color: $light;
+	background-color: $lgrey;
 	color: $dark;
 }
 
@@ -43,9 +43,11 @@ body {
 	line-height: $base-line-height;
 	font-family: $main-font;
 	max-width: $max-width;
+	margin: $half-line 0;
 
 	@media #{$nbp} {
 		font-size: $widescreen-font-size;
+		margin: $single-line 0;
 	}
 
 	@media #{$vwbp} {

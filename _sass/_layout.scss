@@ -12,30 +12,19 @@
 }
 
 #header {
-	padding: $half-line;
-	background-color: $dark;
-	background-image: url('/images/tube.jpg');
-	font-size: $size-3;
-
-	@media #{$bp} {
-		width: 20%;
-		padding: 5%;
-		bottom: 0;
-		right: 0;
-		position: fixed;
-		height: 90%;
-		border-left: 1px solid $midgrey;
-		font-size: $size-3;
-	}
-
+	padding: $quarter-line;
+	background-color: $lgrey;
+	border-bottom: 1px dashed $midgrey;
 }
 
 #content {
-	padding-top: $single-line;
+	padding: $single-line;
+	background-color: $light;
 
 	@media #{$bp} {
-		padding-top: $treble-line;
-		margin-right: 30%;
+		padding: $line-and-a-half $treble-line;
+		border-top: 1px dotted $midgrey;
+		border-bottom: 1px dotted $midgrey;
 	}
 
 }
@@ -43,11 +32,12 @@
 #footer {
 	color: $grey;
 	padding: $single-line 0;
+	text-align: center;
 
 		@media #{$bp} {
-			margin-right: 30%;
 			padding: $line-and-a-half 0;
 		}
+
 	}
 
 

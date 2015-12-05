@@ -2,52 +2,7 @@
 
     .top-bar {
         padding: $half-line 0;
-
-        @media #{$bp} {
-            background-color: $light;
-    	}
-
-        background-color: $light;
-        color: $dark;
-        border-bottom: 1px solid $lgrey;
-    }
-
-    .top-bar a:link,
-    .top-bar a:visited {
-        color: $dark;
-        background-color: $lgrey;
-        padding: $quarter-line;
-        border: 1px solid $dark;
-    }
-
-    .top-bar a:hover,
-    .top-bar a:active,
-    .top-bar a:focus {
-        background-color: $highlight;
-    }
-
-    .top-bar a.inline-nav-item-selected {
-        background-color: $highlight;
-    }
-
-    .top-bar-nav {
-        text-transform: uppercase;
-        font-weight: bold;
-
-        @media #{$bp} {
-            padding-top: $treble-line;
-            text-align: center;
-        }
-
-    }
-
-    .top-bar-nav li {
-
-        @media #{$bp} {
-            display: block;
-            margin-bottom: $single-line;
-        }
-
+        text-align: center;
     }
 
     .top-bar-form,
@@ -65,5 +20,11 @@
         }
 
     }
+
+    .logo {
+      height: $single-line;
+      margin-bottom: $half-line;
+    }
+
 
 }

@@ -20,6 +20,17 @@
 		<link href="/feed" rel="alternate" type="application/rss+xml" title="{{ site.title }}">
 		<link rel="shortcut icon" type="image/png" href="/images/favicon.png">
 
+		<script>
+		(function(d) {
+		var config = {
+		kitId: 'ofd4cut',
+		scriptTimeout: 3000,
+		async: true
+		},
+		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+		})(document);
+		</script>
+
 	</head>
 
 	<body id="top">
@@ -31,51 +42,7 @@
 
 		</ul>
 
-		<h1 class="hide accessibility">Leon Paternoster</h1>
-
-		<div class="top-bar" id="header">
-
-			<nav id="nav" class="top-bar-nav">
-
-				<h1 class="hide accessibility">Navigation</h1>
-
-				<ul class="inline-nav">
-
-				{% if page.title == 'Leon Paternoster' %}
-
-					<li class="inline-nav-item"><a href="/" class="inline-nav-item-selected">Home</a></li>
-
-				{% else %}
-
-					<li class="inline-nav-item"><a href="/">Home</a></li>
-
-				{% endif %}
-
-				{% if page.title == 'Articles' or page.layout == 'post' %}
-
-					<li class="inline-nav-item"><a href="/articles" class="inline-nav-item-selected">Articles</a></li>
-
-				{% else %}
-
-					<li class="inline-nav-item"><a href="/articles">Articles</a></li>
-
-				{% endif %}
-
-				{% if page.title == 'About' %}
-
-					<li class="inline-nav-item"><a href="/about" class="inline-nav-item-selected">About</a></li>
-
-				{% else %}
-
-					<li class="inline-nav-item"><a href="/about">About</a></li>
-
-				{% endif %}
-
-				</ul>
-
-			</nav>
-
-		</div> <!-- end .top-bar -->
+		<p class="text-centre"><a href="/"><img class="logo" src="/images/home.svg"></a></p>
 
 		<article class="entry" id="content">
 
@@ -99,7 +66,7 @@
 						{{ page.content | number_of_words }}
 					{% endcapture %}
 
-					<p class="entry-meta secondary">First published <time class="published">{{ page.date | date: "%b %-d %Y" }}</time> &middot; {{ words }} words &middot; by <a href="/">Leon Paternoster</a></p>
+					<p class="entry-meta secondary"><time class="published"><span>{{ page.date | date: "%b %-d %Y" }}</span></time> by <a href="/">Leon Paternoster</a></p>
 
 				{% endif %}
 
