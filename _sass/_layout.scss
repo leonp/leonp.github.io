@@ -18,7 +18,7 @@
 }
 
 #content {
-	padding: $single-line;
+	padding: $single-line $quarter-line;
 	background-color: $light;
 
 	@media #{$bp} {
@@ -31,11 +31,11 @@
 
 #footer {
 	color: $grey;
-	padding: $single-line 0;
+	padding: $single-line $quarter-line;
 	text-align: center;
 
 		@media #{$bp} {
-			padding: $line-and-a-half 0;
+			padding: $line-and-a-half $quarter-line;
 		}
 
 	}
