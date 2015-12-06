@@ -44,13 +44,13 @@
 
 		<p class="text-centre"><a href="/"><img class="logo" src="/images/home.svg"></a></p>
 
-		<article class="entry" id="content">
+		<article class="entry page" id="content">
 
 			<div class="wrapper">
 
 				{% if page.layout == 'post' %}
 
-					<header class="entry-header">
+					<div class="entry-header">
 
 				{% else %}
 
@@ -66,13 +66,11 @@
 						{{ page.content | number_of_words }}
 					{% endcapture %}
 
-					<p class="entry-meta secondary"><time class="published"><span>{{ page.date | date: "%b %-d %Y" }}</span></time> by <a href="/">Leon Paternoster</a></p>
-
 				{% endif %}
 
 				{% if page.layout == 'post' %}
 
-			</header> <!-- end .entry-header -->
+			</div> <!-- end .entry-header -->
 
 				{% else %}
 
