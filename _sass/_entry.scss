@@ -11,8 +11,6 @@
 
     .entry-meta {
     	padding-top: $half-line;
-        text-transform: lowercase;
-        font-variant: small-caps;
     }
 
     .entry-content {
@@ -23,19 +21,16 @@
 
     .entry-content a:link {
     	color: $link;
-        border-bottom: 1px dotted $grey;
     }
 
     .entry-content a:visited {
     	color: $visited;
-        border-bottom: 1px dotted $grey;
     }
 
     .entry-content a:hover,
     .entry-content a:active,
     .entry-content a:focus {
     	color: $hover;
-        border-bottom: 1px dotted $hover;
     }
 
     .entry-content a.imglink {
@@ -74,7 +69,6 @@
     .entry-content dt {
     	font-size: $size-4;
     	padding: $single-line 0 $half-line 0;
-        font-style: italic;
     }
 
     .entry-content h1,
@@ -123,6 +117,7 @@
     	padding-bottom: $half-line;
     	color: $grey;
         font-family: $secondary-font;
+        font-size: $size-3;
     }
 
 

@@ -34,7 +34,7 @@ main {
 }
 
 html {
-	background-color: $lgrey;
+	background-color: $light;
 	color: $dark;
 }
 
@@ -66,7 +66,6 @@ dt {
 	font-family: $secondary-font;
 	line-height: 1.2em;
 	color: $highlight;
-	font-weight: normal;
 }
 
 code {
@@ -104,6 +103,7 @@ a:hover,
 a:active,
 a:focus {
 	color: $hover;
+	text-decoration: underline;
 }
 
 a img {

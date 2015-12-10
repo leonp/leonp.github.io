@@ -4,10 +4,8 @@
 	background-color: $light;
 
 	@media #{$bp} {
-		max-width: 28em;
+		max-width: 30em;
 		margin: 0 auto;
-		border: 1px solid $midgrey;
-		border-radius: $quarter-line;
 	}
 
 }
@@ -35,7 +33,6 @@
 #footer {
 	color: $grey;
 	padding: $single-line $quarter-line;
-	text-align: center;
 
 		@media #{$bp} {
 			padding: $line-and-a-half $quarter-line;

@@ -66,6 +66,8 @@
 						{{ page.content | number_of_words }}
 					{% endcapture %}
 
+					<p class="entry-meta secondary"><time class="published"><span>{{ page.date | date: "%b %-d %Y" }}</span></time></p>
+
 				{% endif %}
 
 				{% if page.layout == 'post' %}

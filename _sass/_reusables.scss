@@ -11,6 +11,10 @@
         font-weight: bold;
     }
 
+    .small {
+        font-size: $size-3;
+    }
+
     .clearfix:before,
     .clearfix:after {
     	content: "";
