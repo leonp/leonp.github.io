@@ -3,6 +3,8 @@ title: About
 layout: default
 ---
 
+> Simplicity, usefulness, functionality, details and facts, transparency; these are the pillars of the new digital design. <cite><a href="http://www.gerrymcgovern.com/new-thinking/era-distrust-and-disloyalty">The era of distrust and disloyalty, Gerry McGovern</a></cite>
+
 I'm web and customer service manager at <a href="http://suffolklibraries.co.uk">Suffolk Libraries</a> (although I go under the fairly grandiose title of deputy head of IT).
 
 We're a mutual that was formed in 2012 to run Suffolk's Library service.
