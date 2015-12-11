@@ -66,7 +66,7 @@
 						{{ page.content | number_of_words }}
 					{% endcapture %}
 
-					<p class="entry-meta secondary"><time class="published"><span>{{ page.date | date: "%b %-d %Y" }}</span></time></p>
+					<p class="entry-meta secondary"><time class="published">{{ page.date | date: "%b %-d %Y" }}</time> &#9997; {{ words }} words</p>
 
 				{% endif %}
 

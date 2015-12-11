@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text" xml:lang="en">Leon Paternoster</title>
+    <link type="application/atom+xml" href="http://www.leonpaternoster.com.com/feed/" rel="self"/>
+    <link type="text" href="http://www.leonpaternoster.com" rel="alternate"/>
+    <updated>2015-12-10T15:13:39+00:00</updated>
+    <id>http://leonpaternoster.com</id>
+    <author>
+        <name>Leon Paternoster</name>
+    </author>
+    <rights>Copyright (c) Leon Paternoster</rights>
+    
+    
+    <entry>
+        <title>The dangers of automation (or making a visit to the library worth it)</title>
+        <link href="http://www.leonpaternoster.com/2015/11/danger-of-automation/"/>
+        <updated>2015-11-21T00:00:00+00:00</updated>
+        <id>http://www.leonpaternoster.com/2015/11/danger-of-automation//</id>
+        <content type="html">&lt;p&gt;Software automates, which saves us time, money and tedium. Without it, updating our website would takes dozens of editors and coders, and it’d be pretty dull work.&lt;/p&gt;
+
+&lt;p&gt;However, we fear the machines taking over, the power of the algorithm. Automating the wrong things is already causing complex problems beyond unemployment. The mess that newspapers have got themselves in over income and performance are down to offloading their advertising to some machine somewhere or other:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As opposed to coming up with solutions to innovate around advertising, we sacrificed user experience for a couple of bucks on a CPM [cost per thousand]. When our users moved to mobile, we tried to do the same thing, where it’s even more intrusive. [Whether] it’s the ad format or the data being captured or the data use, it’s hard to love online advertising. &lt;cite&gt;&lt;a href=&quot;http://niemanreports.org/articles/to-fight-ad-blocking-build-better-ads/&quot;&gt;To Fight Ad Blocking, Build Better Ads&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Automation is clearly the right tool for processing lots of information, such as branch library details. But when it comes to making judgements or adding value in some way, it becomes more fuzzy. While Amazon can make useful suggestions based on what you and others have browsed and bought before you don’t really want to offload your advertising to a machine, especially one owned by a shady third party.&lt;/p&gt;
+
+&lt;p&gt;My objection to overautomation isn’t just based on its accuracy or relevancy, although I would argue that big data isn’t the panacea its producers make it out to be. When it comes to library websites, an automatically generated list of, say, the 10 latest crime novels or the 10 most popular fantasy titles would be really useful. Without this kind of basic intelligence, they won’t be able to compete with your Amazons.&lt;/p&gt;
+
+&lt;p&gt;But no matter how good the algorithm, it can only suggest a book by analysing borrower and meta data. It has no idea that a bit of the plot is particularly interesting to local customers, or that it could be linked to a local event unless someone, somewhere has attached impossible amounts of complex data to it. Hand curation offers us this insight.&lt;/p&gt;
+
+&lt;p&gt;There’s a related question of distance, trust and brand here. We &lt;em&gt;know&lt;/em&gt; the people who curate our book lists; we can even go into the library and talk to them. They’re a part of our community.&lt;/p&gt;
+
+&lt;p&gt;This is the main advantage libraries have over the likes of Google and Amazon: we’re people you know and can relate to. Our motives are clear: we’re not flogging you anything.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, we see overautomation creeping into the library world. While library management systems are a million miles from using complex algorithms, systems such as &lt;a href=&quot;http://www.bibliotheca.com/3/index.php/en-uk/our-solutions/24-hour-library-open&quot;&gt;Open+&lt;/a&gt; are used to replace library staff rather than extend opening hours.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We need to be wary of reducing libraries to places that just dispense books&lt;/strong&gt;. I can order a bestseller from Amazon and have it on my Kindle in 3 clicks and 30 seconds, or at my house the same day. Travelling to a library and borrowing the same book involves far more effort, and I’ll have to make the return journey within 3 weeks.&lt;/p&gt;
+
+&lt;p&gt;What libraries can offer over Amazon – and what makes that journey worthwhile – is a combination of environment, experience and expertise, and that means good staff. Removing people from libraries is simply a step on the path to closing them.&lt;/p&gt;
+</content>
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Designing for what they need is difficult but liberating</title>
+        <link href="http://www.leonpaternoster.com/2015/11/tasks-before-marketing-is-liberating/"/>
+        <updated>2015-11-09T00:00:00+00:00</updated>
+        <id>http://www.leonpaternoster.com/2015/11/tasks-before-marketing-is-liberating//</id>
+        <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;There is a type of product that does require lots and lots of content marketing and will continue to require such marketing long into the future. The type of product where the more you learn about what it’s made of, the less likely you are to buy it. Thus, the product’s manufacturers must create a ‘brand’ that is as far away from the actual product as possible. Coca Cola and Red Bull are good examples of such brands. &lt;cite&gt;&lt;a href=&quot;http://www.gerrymcgovern.com/new-thinking/less-content-marketing-more-quality-content&quot;&gt;Less content marketing, more quality content&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Yes, see the &lt;a href=&quot;https://www.redbullcontentpool.com/content/international&quot;&gt;Red Bull Content Pool&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are many ways to say the same thing over and over, but you really should listen to Gerry McGovern on websites. It’d be easy to dismiss it as a non-engaging, non-imaginative view of the web, but that would miss the point.&lt;/p&gt;
+
+&lt;p&gt;To make a good website you have to find out what customers really &lt;em&gt;need&lt;/em&gt; from you; not what they, your organisation (or you, for that matter) wants, or would like them to need. This can be difficult and counterintuitive work, not least because there’s quite a chasm between what customers say (especially in focus groups), what they actually do and how you see your website.&lt;/p&gt;
+
+&lt;p&gt;It takes imagination and discipline to interpret a card sort or top task list and convert the results into a web design that works.&lt;/p&gt;
+
+&lt;p&gt;While this task-first view of the world may seem limiting, it can be liberating. After all, most customer tasks are prosaic. In terms of HTML and CSS it is, most of the time, incredibly easy to code designs that enable customers to do what they want to do. The skill comes in working out what exactly that is, writing it and figuring out what it looks like on a web page.&lt;/p&gt;
+</content>
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Unstyle and looking at naked HTML</title>
+        <link href="http://www.leonpaternoster.com/2015/10/unstyle-naked-html/"/>
+        <updated>2015-10-17T00:00:00+01:00</updated>
+        <id>http://www.leonpaternoster.com/2015/10/unstyle-naked-html//</id>
+        <content type="html">&lt;p&gt;&lt;a href=&quot;https://unstyleapp.com/&quot;&gt;Unstyle&lt;/a&gt; is an iOS browser that removes all styles and scripts from a page, replacing the original CSS with a minimal stylesheet.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Unstyle removes the website’s original CSS, and replaces it with a much smaller, &lt;em&gt;better&lt;/em&gt; [my italics] optimized version. &lt;cite&gt;&lt;a href=&quot;https://unstyleapp.com/about/&quot;&gt;Unstyle&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m not sure in what ways Unstyle’s stylesheet is better than, say, &lt;cite&gt;&lt;a href=&quot;http://guardian.co.uk&quot;&gt;The Guardian’s&lt;/a&gt;&lt;/cite&gt; styles. It’s certainly smaller, and in a mobile world that really is an important aspect of getting your page to render as quickly as possible. But Unstyle is still a &lt;em&gt;visual&lt;/em&gt; browser, where &lt;em&gt;some&lt;/em&gt; CSS is necessary to improve the reading experience. For example, it makes sense to hide &lt;em&gt;Skip to…&lt;/em&gt; links when we can see where the navigation and main content areas are. Overriding the default CSS &lt;code&gt;line-height&lt;/code&gt; value will make prose more readable.&lt;/p&gt;
+
+&lt;p&gt;It’s a lot easier to scan and interpret &lt;cite&gt;The Guardian’s&lt;/cite&gt; home page than its Unstyled version.&lt;/p&gt;
+
+&lt;p&gt;So Unstyle is slightly misimplemented, but the idea of rendering a meaningful, readable website &lt;i&gt;sans&lt;/i&gt; javascript and CSS raises some interesting questions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.nytimes.com/interactive/2015/10/01/business/cost-of-mobile-ads.html&quot;&gt;&lt;cite&gt;The Guardian&lt;/cite&gt; loads quickly over a 4G connection&lt;/a&gt;, but how would it perform over something a lot less reliable when it serves up &lt;a href=&quot;http://tools.pingdom.com/fpt/#!/dLvXl3/http://www.guardian.co.uk&quot;&gt;1MB of images and 444kb of javascript&lt;/a&gt;? What if we need to unstyle it? Does it work naked, exposing its HTML to the world? How accessible is it?&lt;/p&gt;
+
+&lt;p&gt;Take a look at the home page using Firefox’s &lt;em&gt;No style&lt;/em&gt; option. The HTML is messy:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Some links are repeated one after another&lt;/li&gt;
+  &lt;li&gt;Some links are oddly labelled&lt;/li&gt;
+  &lt;li&gt;Some stories are inexplicably placed in nested lists&lt;/li&gt;
+  &lt;li&gt;There are hundreds of stories to read&lt;/li&gt;
+  &lt;li&gt;There’s no overall heading structure&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The page looks like as if the visual design hasn’t been translated to well structured HTML (whether we should be designing from HTML outwards is a separate question, but let’s assume most people don’t do that…)&lt;/p&gt;
+
+&lt;p&gt;Services like Unstyle and websites like &lt;a href=&quot;http://deathtobullshit.com/&quot;&gt;Death to Bullshit&lt;/a&gt; pose a difficult question. If we are serious about designing progressively for &lt;em&gt;all&lt;/em&gt; reading contexts &lt;strong&gt;our pages need to work well as simple HTML first&lt;/strong&gt;. That’s a restraint in many ways, but if we can load 2MB of images, scripts and styles in 0.8s over a 4G connection, it ought to be possible. The result should be quicker, easier to read pages for everyone.&lt;/p&gt;
+</content>
+    </entry>
+    
+    
+    
+    <entry>
+        <title>The case against universal navigation</title>
+        <link href="http://www.leonpaternoster.com/2015/08/case-against-universal-navigation/"/>
+        <updated>2015-08-30T00:00:00+01:00</updated>
+        <id>http://www.leonpaternoster.com/2015/08/case-against-universal-navigation//</id>
+        <content type="html">&lt;blockquote&gt;
+  &lt;p&gt;There is no reason to mention all features of the site on all pages. Instead, select a very small number of highly useful features and limit pervasive linking to maybe five or six things like search. — Jakob Nielsen &lt;cite&gt;&lt;a href=&quot;http://www.nngroup.com/articles/is-navigation-useful/&quot;&gt;Is Navigation Useful?&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Website navigation is difficult. Labelling and organising content can be a nightmarish exercise in interpreting users’ idiosyncratic ways of conceptualising and labelling your services.&lt;/p&gt;
+
+&lt;p&gt;Long navigation lists are noisy, but omitting items suggests they don’t exist at all. Throw in a host of design problems caused by limited screen space, and you have a thorny set of questions to untangle.&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+
+&lt;img src=&quot;/images/sl-sidebar.png&quot; alt=&quot;The Suffolk Libraries universal navigation&quot; /&gt;
+
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;p&gt;The Suffolk Libraries universal navigation menu appears on lots of pages in a sidebar. We&#39;re considering removing it from the website.&lt;/p&gt;&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;We should &lt;strong&gt;be wary of answers that consist of simply getting rid of things&lt;/strong&gt;, even if they come with a pleasingly minimalist pay off. Providing too little information for users is just as bad as overwhelming them – both result in frustrating experiences and, ultimately, users giving up and going elsewhere.&lt;/p&gt;
+
+&lt;p&gt;Still, it does make sense to at least ask whether we need a universal navigation menu on all sites on all pages all of the time. Here are some things you need to consider if you’re thinking of taking this approach:&lt;/p&gt;
+
+&lt;h2 id=&quot;most-users-come-to-your-website-to-do-one-thing&quot;&gt;Most users come to your website to do one thing&lt;/h2&gt;
+
+&lt;p&gt;Checking your analytics and watching people use your website can be a sobering experience. All those news items and sweating over the look and feel, all for someone to come along, find a plain old table containing a phone number they need and then leave, all in 10 seconds or less. Your bounce rate is in the 70-80% range.&lt;/p&gt;
+
+&lt;p&gt;Worse (or better, actually) they don’t even make your website. Instead, they google the number and get it from the top search result.&lt;/p&gt;
+
+&lt;p&gt;The chances are any given website visitor &lt;strong&gt;wants to do one thing only&lt;/strong&gt;. They really don’t need to see Kessingland Library events if they just want to find out how much the library charges for overdue books. In other words, universal navigation is of little use &lt;em&gt;as long as they can get to their information quickly&lt;/em&gt;. If they can’t get to their information quickly then they may reach for a navigation menu.&lt;/p&gt;
+
+&lt;p&gt;So if you’re ditching universal navigation make sure you:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Use search engine friendly language&lt;/strong&gt;: in other words, use the words and phrases your customers use when they look for you and your services on Google. Most of the time this simply means &lt;strong&gt;not using jargon and internal brand names&lt;/strong&gt;, unless your customers use them. Sometimes it can be a bit more complex: for example, our customers use &lt;em&gt;charges&lt;/em&gt; and &lt;em&gt;fines&lt;/em&gt; interchangeably, so it makes sense to use both words on our &lt;cite&gt;Charges, fines and what you can borrow&lt;/cite&gt; page.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Have a good search engine&lt;/strong&gt;: when users can’t find information on your site they’ll &lt;em&gt;maybe&lt;/em&gt; reach for the search engine. Put it somewhere easy to find (top right corner) and make sure it actually works. If you’re using WordPress you’ll need to use a search plugin as the default engine is weak. Google Custom Search Engine is an excellent alternative.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;your-home-page-will-do-a-lot-more-work&quot;&gt;Your home page will do a lot more work&lt;/h2&gt;
+
+&lt;p&gt;This isn’t necessarily a bad thing. Designing home pages can be difficult, especially when you’re figuring out whether a link should appear in the navigation menu or main content area – there’s only a main content area to worry about. &lt;strong&gt;Duplicating links can be confusing&lt;/strong&gt; as you present users with a choice they don’t need to make.&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+
+&lt;img src=&quot;/images/sl-home-page.jpg&quot; alt=&quot;The Suffolk Libraries home page&quot; /&gt;
+
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;p&gt;The Suffolk Libraries home page has a content area of links to deeper content and a universal sidebar. Duplicate links can be confusing. Do we need both areas?&lt;/p&gt;&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;On the Suffolk Libraries website we’ve opted to limit the main navigation menu to top level sections. We found that users were overwhelmed by the sheer number of links when we also displayed subpages, but this can make deeper content hard to find.&lt;/p&gt;
+
+&lt;p&gt;We have a lot of content to structure on the site, and some is &lt;strong&gt;hard to find via the main navigation menu&lt;/strong&gt;. When we did our card sort users often grouped services like the home library service, mobile libraries and the schools library service together. However, the label they used for this group varied widely, from &lt;em&gt;out and about&lt;/em&gt; to &lt;em&gt;external services&lt;/em&gt; and the somewhat unwieldy &lt;em&gt;services provided outside of library buildings&lt;/em&gt;. In the end, we plumped for &lt;em&gt;Community services&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;If I run a &lt;em&gt;Find information about the schools library service&lt;/em&gt; test the results are mixed. This isn’t necessarily a problem as users are often sent directly to the relevant part of the website via print materials they receive when they sign up for the service, and a Google search for &lt;em&gt;Suffolk schools library service&lt;/em&gt; will take you straight there.&lt;/p&gt;
+
+&lt;p&gt;If you run a website for a varied, complex service you’ll inevitably make some parts of that service difficult to find by limiting the number of top level sections and by cramming content into places it doesn’t readily belong. A larger home page with &lt;strong&gt;a content area set aside for navigation makes it easier to expose more sections to visitors&lt;/strong&gt;. Government websites are using this ‘mega home page menu’ so much it’s fast becoming a convention – see the &lt;a href=&quot;http://counciltoolkit.org/template-examples/home.html&quot;&gt;Council Toolkit framework&lt;/a&gt; for an example of how it works.&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+
+&lt;img src=&quot;/images/council-toolkit.jpg&quot; alt=&quot;The Council Toolkit home page template&quot; /&gt;
+
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;p&gt;The Council Toolkit home page template provides an example of a content only navigation menu. It allows designers to expose more links to users.&lt;/p&gt;&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;some-tasks-are-complex-and-require-contextual-navigation&quot;&gt;Some tasks are complex and require contextual navigation&lt;/h2&gt;
+
+&lt;p&gt;Let’s say a user is looking to find and reserve a book. They don’t know which book and pick up on the &lt;em&gt;New in and recommended&lt;/em&gt; section of the website from the home page.&lt;/p&gt;
+
+&lt;p&gt;This is split into several subcategories (including fiction, local interest and staff picks). The user likes the suggestions and wants to explore more.&lt;/p&gt;
+
+&lt;p&gt;Without universal navigation you’ll have to use alternative techniques to allow the user to complete their task. Again, this is an opportunity to &lt;strong&gt;improve the user’s route through the website to task completion&lt;/strong&gt; as you can concentrate on providing links that are relevant to their current task, rather than links to every section.&lt;/p&gt;
+
+&lt;p&gt;There are 3 main ways to guide users through the website:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Inline links&lt;/strong&gt;: Links within the text, perhaps marked up as a list. Most of the time they’re handcrafted by the page author.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Breadcrumbs&lt;/strong&gt;: If you’ve structured your site well an automatically generated breadcrumb will provide users with &lt;a href=&quot;http://www.nngroup.com/articles/breadcrumb-navigation-useful/&quot;&gt;a clear route through the current section&lt;/a&gt;, and back to the home page.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Sidebar&lt;/strong&gt;: Sidebars are any secondary content separated from the main page content. Most of the time they’ll be automatically generated by the CMS, and possibly comprise a list of pages in the same section of the website.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;some-links-are-universally-important&quot;&gt;Some links are universally important&lt;/h2&gt;
+
+&lt;p&gt;As Jakob Nielsen says at the top of this article, some navigation elements may be relevant to all users, or at least a lot of them, all the time. Links to help, search, contacts and social media accounts are obvious examples; in the case of the library service using the catalogue and logging into your account often represent the final action in a chain of tasks.&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+
+&lt;img src=&quot;/images/sl-toolbar.jpg&quot; alt=&quot;The Suffolk Libraries toolbar&quot; /&gt;
+
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;p&gt;The Suffolk Libraries website toolbar appears on every page.&lt;/p&gt;&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Often these links are actions rather than sections of the website; in fact, you might describe them collectively as a toolbar rather than a navigation menu.&lt;/p&gt;
+
+&lt;h2 id=&quot;possible-problems&quot;&gt;Possible problems&lt;/h2&gt;
+
+&lt;p&gt;In my experience of watching users try and complete tasks on websites, &lt;strong&gt;navigation menus are rich in information scent&lt;/strong&gt;. They’re concise, containing words users recognise – and because they’re such a well established convention their meaning takes little interpretation.&lt;/p&gt;
+
+&lt;p&gt;Although few users &lt;em&gt;need&lt;/em&gt; access to all website sections from every page of the website, it’s reassuring to know they could reach a far away section, especially if they’ve ended up in the wrong neighborhood.&lt;/p&gt;
+
+&lt;p&gt;Perhaps more importantly, &lt;strong&gt;universal navigation gives users an overview of what an organisation does&lt;/strong&gt;. While it’s true most of them are only interested in doing one thing as quickly and effortlessly as possible, it would be nice to think we can show these users other aspects of our service.&lt;/p&gt;
+
+&lt;p&gt;As with all design, there’s a balance to be struck between competing user requirements. The positives of ditching complex, universal navigation perhaps outweigh the negatives. There are some websites where you really do want to be able to reach everything from anywhere – portfolios, for example, but &lt;strong&gt;for more complex, task driven sites it will probably pay to make navigation focused and contextual rather than universal&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;We’ve started moving away from displaying a complete navigation menu on every page of our site. For example, none of our microsites display it. The &lt;a href=&quot;http://suffolklibraries.co.uk/events-activities/summer-reading-challenge-2015&quot;&gt;Summer Reading Challenge&lt;/a&gt; section displays a contextual sidebar:&lt;/p&gt;
+
+&lt;figure class=&quot;figure&quot;&gt;
+
+&lt;img src=&quot;/images/sl-src.jpg&quot; alt=&quot;The Summer Reading Challenge page&quot; /&gt;
+
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;p&gt;The Summer Reading Challenge page&#39;s sidebar contains links to reading challenge information rather than a universal navigation menu.&lt;/p&gt;&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;We’ve already removed most subsections from the universal navigation menu. It is worth bearing in mind that users get used to finding information in a certain way; when they come to your site they may head straight for a particular link without even thinking. We found this was the case when one user had got used to locating the &lt;em&gt;Mobile libraries&lt;/em&gt; link in the universal navigation menu. She found a new link in the home page content area, but did provide some feedback. &lt;strong&gt;When you change your website you will always upset some users&lt;/strong&gt; as you’re forcing them to relearn your UI.&lt;/p&gt;
+
+&lt;p&gt;However, we feel the benefits will outweigh any short term annoyance – we’ll remove our universal navigation menu sometime soon.&lt;/p&gt;
+</content>
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Do not always fear the nav bar on narrow screens</title>
+        <link href="http://www.leonpaternoster.com/2015/05/do-not-fear-the-nav-bar/"/>
+        <updated>2015-05-23T00:00:00+01:00</updated>
+        <id>http://www.leonpaternoster.com/2015/05/do-not-fear-the-nav-bar//</id>
+        <content type="html">&lt;p&gt;&lt;em&gt;You should display your whole navigation menu on narrow screens if possible. While hamburger toggle buttons and their ilk solve a problem neatly, the best navigation menu is visible by default.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;When we design websites for small screens navigation can cause a problem. If we use a long, vertical list of navigation links we risk them taking up most or even all of the screen. If we go horizontal, the menu can extend beyond its right edge. For example, this is what &lt;cite&gt;The Telegraph’s&lt;/cite&gt; screen looks like if you narrow your browser window:&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&quot;/images/telegraph-narrow.png&quot; alt=&quot;Screenshot of The Telegraph&#39;s website&quot; /&gt;
+
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;p&gt;&lt;cite&gt;The Telegraph&#39;s&lt;/cite&gt; navigation menu extends beyond the right edge of a narrow screen&lt;/p&gt;&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;There are &lt;a href=&quot;https://bradfrost.github.io/this-is-responsive/patterns.html&quot;&gt;lots of ways to tackle this problem&lt;/a&gt;. The most common is to toggle the navigation list by pressing a button – you’ve probably seen some variation of this hundreds of times:&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&quot;/images/menu-icon-infolink.png&quot; alt=&quot;Screenshot of the Infolink website&quot; /&gt;
+
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;p&gt;&lt;cite&gt;Infolink&#39;s&lt;/cite&gt; navigation menu disappears when you view the site on a narrow screen. You can click the &amp;#8216;hamburger&amp;#8217; icon to see the full menu.&lt;/p&gt;&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;I’m not interested here in the rights and wrongs of hamburger menus. But I think it is worth remembering two things about website navigation on narrow screens.&lt;/p&gt;
+
+&lt;p&gt;Firstly, &lt;em&gt;we’d rather not use hamburger icons at all&lt;/em&gt;. The simplest, most accessible navigation menu is… a list of links. I’ve spoken to several Suffolk Libraries website users who simply have no idea what pressing the icon does, or that it’s even some sort of toggle button. Although it’s inventive and reasonably whizzy, the hamburger and its ilk create a tension between competing user problems: the awkwardness of scrolling horizontally and the findability of the navigation menu.&lt;/p&gt;
+
+&lt;p&gt;Secondly, &lt;em&gt;screen real estate is valuable on a mobile but visible navigation menus make a site more usable&lt;/em&gt;. Again, there’s a tension between making content difficult to reach by displaying a long navigation menu on a narrow screen and hiding it behind a button click.&lt;/p&gt;
+
+&lt;p&gt;I’d suggest we err a little too much toward hiding the navigation menu. If your navigation menu consists of 6 or more links then you probably need to use a hamburger or something, but there are ways to display shorter menus on a narrow screen.&lt;/p&gt;
+
+&lt;p&gt;At the time of writing, I’m not hiding my navigation menu behind a toggle button on narrow screens. Instead, I’m displaying all four links in rows of two:&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&quot;/images/my-site-narrow-menu.png&quot; alt=&quot;Screenshot of my website&#39;s navigation menu on a narrow screen&quot; /&gt;
+
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;p&gt;On my website you can see the whole navigation menu on a narrow screen&lt;/p&gt;&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;On a widescreen you get a traditional horizontal menu:&lt;/p&gt;
+
+&lt;figure&gt;
+
+&lt;img src=&quot;/images/my-site-wide-menu.png&quot; alt=&quot;Screenshot of my website&#39;s navigation menu on a narrow screen&quot; /&gt;
+
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;p&gt;A traditional horizontal menu&lt;/p&gt;&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Most blog navigation menus consist of a handful of links which could comfortably fit on a narrow screen. Yet you see a surprising number of hamburger menus in the blog world – perhaps bloggers could experiment with visible menus a little more.&lt;/p&gt;
+</content>
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Generating page specific classes in WordPress templates to keep code DRY and extensible</title>
+        <link href="http://www.leonpaternoster.com/2015/05/dynamic-classes-in-wordpress-templates/"/>
+        <updated>2015-05-21T00:00:00+01:00</updated>
+        <id>http://www.leonpaternoster.com/2015/05/dynamic-classes-in-wordpress-templates//</id>
+        <content type="html">&lt;p&gt;&lt;em&gt;How to generate page specific class names in a WordPress template, making it easy to extend your code and keep it &lt;abbr title=&quot;Do not Repeat Yourself&quot;&gt;DRY&lt;/abbr&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;At work we use WordPress to run our main website. We’ve built a child theme that includes lots of custom templates so we can build non–standard of pages.&lt;/p&gt;
+
+&lt;p&gt;One such template is &lt;code&gt;custom-hero.php&lt;/code&gt;. It calls the site header and displays the page excerpt on top of the custom image, should the page author have specified an excerpt and image in the WordPress page editor. You can see it in action on our &lt;a href=&quot;http://suffolklibraries.co.uk/events-activities/summer-reading-challenge-2015&quot;&gt;Summer Reading Challenge&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;p&gt;If you build a new page you’ll get some default styling. The hero image caption has a corporate purple background (&lt;code&gt;#642D91&lt;/code&gt;) and is positioned in the bottom left of its containing &lt;code&gt;div&lt;/code&gt;. The page title is centred and inherits the default heading &lt;code&gt;font-weight&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sometimes we might want to change these default styles. For example, we might build an event page which calls for a more muted approach, perhaps through a lighter heading &lt;code&gt;font-weight&lt;/code&gt;, or a less garish caption background colour.&lt;/p&gt;
+
+&lt;p&gt;One way we could do this is by creating another WordPress custom template (&lt;code&gt;custom-hero-tasteful.php&lt;/code&gt;, perhaps), but that’s obviously somewhat inefficient. Instead, we can go a bit more &lt;abbr title=&quot;Do not Repeat Yourself&quot;&gt;DRY&lt;/abbr&gt; and extend &lt;code&gt;custom-hero.php&lt;/code&gt;’s classes.&lt;/p&gt;
+
+&lt;h2 id=&quot;static-and-dynamic-class-names-in-wordpress-templates&quot;&gt;Static and dynamic class names in WordPress templates&lt;/h2&gt;
+
+&lt;p&gt;We want our template to spit out &lt;abbr title=&quot;HyperText Markup Language&quot;&gt;HTML&lt;/abbr&gt; with a static, default set of class names and something dynamically generated that’s unique to the page.&lt;/p&gt;
+
+&lt;p&gt;Take a look at the &lt;code&gt;figcaption&lt;/code&gt; classes on the &lt;a href=&quot;http://suffolklibraries.co.uk/events-activities/summer-reading-challenge-2015&quot;&gt;Summer Reading Challenge&lt;/a&gt; page for an example:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;class=&quot;sl-hero-splash-text sl-hero-splash-text-summer-reading-challenge-2015&quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;We want all pages built on &lt;code&gt;custom-hero.php&lt;/code&gt; to use the &lt;code&gt;sl-hero-splash-text&lt;/code&gt; declarations, but only the Summer Reading Challenge page to use &lt;code&gt;sl-hero-splash-text-summer-reading-challenge-2015&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;How do we do this in one WordPress template?&lt;/p&gt;
+
+&lt;p&gt;We basically need to spit out a piece of page specific text in our template. The most obvious page property that does this in a CSS friendly way (i.e. with no non–standard characters or spaces) is the page slug (&lt;code&gt;summer-reading-challenge-2015&lt;/code&gt; in our example). We can grab the post slug by querying the &lt;code&gt;$post&lt;/code&gt; object:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;global $post; echo $post-&amp;gt;post_name;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;So if we use this code in our &lt;code&gt;custom-hero&lt;/code&gt; template we get static and dynamic class names:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sl-hero-splash-text sl-hero-splash-text-&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;global&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$post&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;post_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;the_excerpt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;By using dynamic class names we don’t have to write additional templates whenever we want to make minor styling changes. We make our code a lot more manageable.&lt;/p&gt;
+</content>
+    </entry>
+    
+    
+    
+    <entry>
+        <title>A guide to using Markdown to write blog posts</title>
+        <link href="http://www.leonpaternoster.com/2015/05/writing-markdown-blogging-guide/"/>
+        <updated>2015-05-11T00:00:00+01:00</updated>
+        <id>http://www.leonpaternoster.com/2015/05/writing-markdown-blogging-guide//</id>
+        <content type="html">&lt;h2 id=&quot;introduction-what-is-markdown&quot;&gt;Introduction: What is Markdown?&lt;/h2&gt;
+
+&lt;p&gt;Markdown makes it possible for anybody to structure their text and publish it in an electronic format. The most common electronic format is &lt;abbr title=&quot;HyperText Markup Language&quot;&gt;HTML&lt;/abbr&gt;, but you can also use Markdown to produce other formats, such as &lt;abbr title=&quot;Portable Document Format&quot;&gt;PDF&lt;/abbr&gt;.&lt;/p&gt;
+
+&lt;p&gt;For the purposes of this guide we’ll stick to HTML.&lt;/p&gt;
+
+&lt;p&gt;Markdown is simple, quick, portable and efficient. To really appreciate why you should use Markdown, it’s best to take a look at the old fashioned way of publishing websites.&lt;/p&gt;
+
+&lt;h2 id=&quot;publishing-html-the-old-fashioned-way-wysiwyg-editors&quot;&gt;Publishing HTML the old fashioned way: WYSIWYG editors&lt;/h2&gt;
+
+&lt;p&gt;If you publish a web page you publish HTML. This may come as a surprise – when you wrote that blog post you didn’t write this:&lt;/p&gt;
+
+&lt;pre&gt;
+&lt;code&gt;&amp;lt;h1&amp;gt;Why writers should use Markdown&amp;lt;/h1&amp;gt;
+&amp;lt;p&amp;gt;Markdown is quick, simple and portable. It&#39;s also extremely elegant and very cool. You need to know Markdown.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;WYSIWYGs are the past. They&#39;re slow and bloated.&amp;lt;/p&amp;gt;&lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;But that’s what you ended up publishing.&lt;/p&gt;
+
+&lt;p&gt;What happened?&lt;/p&gt;
+
+&lt;p&gt;Let’s say you use WordPress. When you write a post in WordPress you use a &lt;em&gt;What you see is what you get&lt;/em&gt; (WYSIWYG) editor, which is like a simple word processor. You write text, select bits of it and then make those bits a heading, list or quote.&lt;/p&gt;
+
+&lt;p&gt;WordPress then takes your text and converts it to HTML. Why? Because browsers need HTML to understand the structure of your article. HTML is the &lt;em&gt;language&lt;/em&gt; of web pages.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-use-wysiwyg-editors&quot;&gt;Why use WYSIWYG editors?&lt;/h3&gt;
+
+&lt;p&gt;HTML isn’t code. Anyone can look at HTML and understand what it’s doing.&lt;/p&gt;
+
+&lt;p&gt;Take our example. The text between the &amp;lt;h1&amp;gt; &amp;lt;/h1&amp;gt; &lt;em&gt;tags&lt;/em&gt; is a first level heading, which the browser will display in a large, bold style. The text between the &amp;lt;p&amp;gt; &amp;lt;/p&amp;gt; &lt;em&gt;tags&lt;/em&gt; is a parapgraph (&lt;em&gt;p&lt;/em&gt; for &lt;em&gt;paragraph&lt;/em&gt;, see) which the browser will display in a normal style.&lt;/p&gt;
+
+&lt;p&gt;There are 5 or so commonly used tags. Once you know these you can pretty much write HTML.&lt;/p&gt;
+
+&lt;p&gt;However, writing HTML &lt;em&gt;is&lt;/em&gt; laborious. As most people have some experience of using a word processor, it makes sense to replicate the Word experience online.&lt;/p&gt;
+
+&lt;h3 id=&quot;problems-with-wysiwyg-editors&quot;&gt;Problems with WYSIWYG editors&lt;/h3&gt;
+
+&lt;h4 id=&quot;wysiwyg-makes-it-easy-to-write-poor-html&quot;&gt;WYSIWYG makes it easy to write poor HTML&lt;/h4&gt;
+
+&lt;p&gt;Writing HTML is simple, but it is important to follow the rules.&lt;/p&gt;
+
+&lt;p&gt;When you use a WYSIWYG editor, it’s easy to get hung up on the text’s appearance rather than its structure.&lt;/p&gt;
+
+&lt;p&gt;In order to make their text &lt;em&gt;look&lt;/em&gt; right, writers can misuse headings, quotes and blockquotes. A first level heading not only looks bigger than a paragraph, it has a different &lt;em&gt;meaning&lt;/em&gt; to a browser.&lt;/p&gt;
+
+&lt;p&gt;This might not seem a huge problem, but think about who – and what – might read your web page.&lt;/p&gt;
+
+&lt;p&gt;If it’s a visitor using a screen reader a misplaced &amp;lt;h1&amp;gt; will make your page confusing. If it’s a search engine trying to figure out what your page is actually about, it may get the wrong idea, making your page hard to find.&lt;/p&gt;
+
+&lt;h4 id=&quot;wysiwyg-isnt-portable&quot;&gt;WYSIWYG isn’t portable&lt;/h4&gt;
+
+&lt;p&gt;Let’s say you have to move to a new blogging system, or you want publish some of your blog posts in another format, such as PDF or ePub.&lt;/p&gt;
+
+&lt;p&gt;If you’ve used the WordPress WYSIWYG editor all your posts are in WordPress’s own format.&lt;/p&gt;
+
+&lt;p&gt;Now, WordPress is a good web citizen. It makes it easy to export your posts in an open XML format. But you’ll still need to find a tool that can convert this complex XML into your new system’s format, or into another file format.&lt;/p&gt;
+
+&lt;p&gt;It’s far easier to move plain text, Markdown or HTML between systems and formats.&lt;/p&gt;
+
+&lt;p&gt;You can also store all your content on a USB or in a Dropbox folder.&lt;/p&gt;
+
+&lt;h4 id=&quot;wysiwyg-isnt-that-quick&quot;&gt;WYSIWYG isn’t that quick&lt;/h4&gt;
+
+&lt;p&gt;If you write a lot chances are you’ve got used to using your keyboard to select bits of text and copy and paste.&lt;/p&gt;
+
+&lt;p&gt;Although WYSIWYG editors are quicker than writing HTML, you still have to navigate your way round a web page and select formatting options from a dropdown menu. You’ll be switching between keyboard and mouse a lot.&lt;/p&gt;
+
+&lt;p&gt;The more you keep to the keyboard, the more efficient your writing.&lt;/p&gt;
+
+&lt;h2 id=&quot;enter-markdown-a-quicker-more-efficient-way-to-publish-web-texts&quot;&gt;Enter Markdown: A quicker, more efficient way to publish web texts&lt;/h2&gt;
+
+&lt;p&gt;You write Markdown in a text editor. Think of it as an easy to use shorthand for HTML.&lt;/p&gt;
+
+&lt;p&gt;Take our HTML example. In Markdown, it would look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Why writers should use Markdown
+
+Markdown is quick, simple and portable. It&#39;s also extremely elegant and very cool. You need to know Markdown.
+
+WYSIWYGs are the past. They&#39;re slow and bloated.&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note the &lt;code&gt;#&lt;/code&gt; we used. That tells the Markdown editor (or programme you’re using to convert Markdown to HTML) to wrap to the following line in &amp;lt;h1&amp;gt; &amp;lt;/h1&amp;gt; tags.&lt;/p&gt;
+
+&lt;p&gt;Markdown knows you’re writing a paragraph when you leave a line between blocks of text.&lt;/p&gt;
+
+&lt;p&gt;To make a second level heading, we use 2 &lt;code&gt;##&lt;/code&gt;s:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;## This is a subheading&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;There are lots of little characters we use to structure our text. For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; This makes a blockquote. A blockquote is a long piece of quoted text. Blockquotes are often indented and occasionally italicised.&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which a browser will make look something like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This makes a blockquote. A blockquote is a long piece of quoted text. Blockquotes are often indented and occasionally italicised.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;why-write-in-markdown&quot;&gt;Why write in Markdown&lt;/h3&gt;
+
+&lt;p&gt;Once you understand Markdown’s &lt;em&gt;syntax&lt;/em&gt; it’s easy – and quick – to write web documents. Using a WYSIWYG editor will seem cumbersome.&lt;/p&gt;
+
+&lt;p&gt;Markdown mirrors HTML. When you write in Markdown you’re thinking about structure and meaning, not appearance. Quality control is easier in Markdown than WYSIWYG.&lt;/p&gt;
+
+&lt;h3 id=&quot;from-markdown-to-your-blog&quot;&gt;From Markdown to your blog&lt;/h3&gt;
+
+&lt;p&gt;OK, so that all sounds grand. You’ve written your first blog post in Markdown in record time. How do you actually convert it to HTML and get it on the internet?&lt;/p&gt;
+
+&lt;p&gt;You’ve got a few options. You can either do the conversion &lt;em&gt;before&lt;/em&gt; you open your blogging software, or you can do it &lt;em&gt;in&lt;/em&gt; your blogging software.&lt;/p&gt;
+
+&lt;p&gt;Let’s take a look at WordPress again.&lt;/p&gt;
+
+&lt;h4 id=&quot;converting-markdown-to-html-before-opening-wordpress&quot;&gt;Converting Markdown to HTML before opening WordPress&lt;/h4&gt;
+
+&lt;p&gt;You can write Markdown in any text editor, but you’ll need some software to convert it to HTML.&lt;/p&gt;
+
+&lt;p&gt;The best way to do this is to use a Markdown editor, which’ll let you edit and convert in one program. Lots of editors will show you what your HTML will look like as you write Markdown.&lt;/p&gt;
+
+&lt;p&gt;There are lots of good Markdown editors out there. I use:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pad.haroopress.com/user.html&quot;&gt;haroopad&lt;/a&gt; in Ubuntu/Debian Linux, Windows or Mac OS X&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.iawriter.com/mac/&quot;&gt;iA Writer&lt;/a&gt; in Mac OS X/iOS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.markdownpad.com/&quot;&gt;Markdown Pad&lt;/a&gt; in Windows&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The process is simple. Write in Markdown then choose &lt;em&gt;Export&lt;/em&gt; from your file menu. At the very least you’ll get the option to export HTML. Some editors also let you export to a PDF file.&lt;/p&gt;
+
+&lt;p&gt;Once you have some HTML to work with, login to your website, select &lt;em&gt;New post&lt;/em&gt; and paste your HTML into the &lt;em&gt;Text&lt;/em&gt; tab in the WYSIWYG editor pane. Press &lt;em&gt;Publish&lt;/em&gt; and you’re done.&lt;/p&gt;
+
+&lt;h4 id=&quot;writing-markdown-in-wordpress&quot;&gt;Writing Markdown in WordPress&lt;/h4&gt;
+
+&lt;p&gt;You &lt;em&gt;can&lt;/em&gt; bypass Markdown editors altogether. This will make for a more streamlined workflow, but you won’t have any local copies of your blog posts. Remember, one of the weaknesses of WYSIWYG editors was the lack of portability.&lt;/p&gt;
+
+&lt;p&gt;You’ll still write better quality posts more quickly.&lt;/p&gt;
+
+&lt;p&gt;However, if exporting and copying and pasting HTML is too time consuming, then it makes sense to use Markdown &lt;em&gt;in&lt;/em&gt; WordPress. To do that, you’ll need a plugin. You could try &lt;a href=&quot;https://wordpress.org/plugins/wp-markdown/&quot;&gt;wp-markdown&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This time, you’ll login to your website and select &lt;em&gt;New post&lt;/em&gt;. Instead of using the WYSIWYG editor you’ll chose the &lt;em&gt;Text&lt;/em&gt; editor and write in Markdown.&lt;/p&gt;
+
+&lt;h4 id=&quot;using-an-app-like-blogeasy&quot;&gt;Using an app like Blogeasy&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://blogeasyapp.com/&quot;&gt;Blogeasy&lt;/a&gt; offers the best of both worlds. Write local Markdown files and hit the &lt;em&gt;Publish&lt;/em&gt; button to send them straight to your WordPress powered website.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-future&quot;&gt;The future&lt;/h2&gt;
+
+&lt;p&gt;As you’ve probably figured out, the Markdown/WordPress workflow isn’t perfect at the moment. Although there are some advantages to using a Markdown editor you may well find the whole export/copy/login/paste process too time consuming.&lt;/p&gt;
+
+&lt;p&gt;There are some desktop apps out there that let you write Wordpress posts in a WYSIWYG editor on your computer &lt;em&gt;before&lt;/em&gt; uploading to your site. A few (such as Blogeasy) let you write in Markdown. This is ideal.&lt;/p&gt;
+
+&lt;p&gt;We need more Markdown editors that connect directly to websites, whether they’re built on WordPress, Blogger or Drupal.&lt;/p&gt;
+
+&lt;p&gt;Alternatively, you could try a different blogging engine. There are lots of static site generators out there which take Markdown files and convert them to complete websites. The likes of Jekyll (which runs this site) are super fast, secure and portable, but they do take quite a bit of technical know how.&lt;/p&gt;
+</content>
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Blocking websites in libraries&#8212;our policy</title>
+        <link href="http://www.leonpaternoster.com/2015/01/internet-filtering-in-libraries/"/>
+        <updated>2015-01-24T00:00:00+00:00</updated>
+        <id>http://www.leonpaternoster.com/2015/01/internet-filtering-in-libraries//</id>
+        <content type="html">&lt;p&gt;Adrian argues – quite rightly – that &lt;a href=&quot;https://adrianshort.org/libraries-censorship-payday-loans/&quot;&gt;libraries shouldn’t block websites on the basis of commercial practices&lt;/a&gt;. That includes gambling and payday loans websites.&lt;/p&gt;
+
+&lt;p&gt;At Suffolk Libraries we get the odd complaint about blocked sites. Like any service using a third party provider, we can’t always control when a site is blocked. Unlike many councils, we are able to get sites unblocked when they’re brought to our attention.&lt;/p&gt;
+
+&lt;p&gt;Libraries exhibit varies degrees of paternalism. I &lt;em&gt;can&lt;/em&gt; see why councils block payday loan sites; after all, lots of our users can’t afford a PC and internet access, and payday loan companies exploit poor people. Still, it’s not our job to police the internet for them, and, of course, not every library user is a potential Wonga customer.&lt;/p&gt;
+
+&lt;p&gt;More bizarrely, you can’t even use Facebook in some library services, presumably because it’s not &lt;em&gt;improving&lt;/em&gt; enough.&lt;/p&gt;
+
+&lt;p&gt;Anyway, we came up with a &lt;a href=&quot;http://suffolklibraries.co.uk/help/what-we-filter-on-public-pcs-and-our-wifi-service&quot;&gt;&lt;em&gt;what we block&lt;/em&gt; policy&lt;/a&gt;. I reckon it’s about right:&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+&lt;p&gt;As a library service we believe in freedom of speech. We only block access to internet sites or pages you access on our fixed PCs if a website:&lt;/p&gt;
+
+&lt;ul&gt;
+
+&lt;li&gt;publishes illegal material&lt;/li&gt;
+&lt;li&gt;publishes material of a racist or homphobic nature&lt;/li&gt;
+&lt;li&gt;publishes material we deem pornographic or excessively violent&lt;/li&gt;
+
+&lt;/ul&gt;
+
+&lt;p&gt;We do reserve the right to block any website we choose.&lt;/p&gt;
+
+&lt;p&gt;Our internet access is filtered by third parties; however, we can ask for a site or page to be unblocked when you access it from one of our fixed PCs.&lt;/p&gt;
+
+&lt;p&gt;We can’t unblock sites you access via our WiFi service. The filtering on the WiFi service is set nationally by the WiFi provider (either Polkaspots or O2). We’ve chosen ‘family’ WiFi filtering levels because we can’t tell who’s using the service.&lt;/p&gt;
+
+&lt;/blockquote&gt;
+</content>
+    </entry>
+    
+    
+    
+    <entry>
+        <title>Separating services is preferable to surface integration (or 3 principles for a web strategy)</title>
+        <link href="http://www.leonpaternoster.com/2014/10/separation-better-than-surface-integration-web-strategy/"/>
+        <updated>2014-10-18T00:00:00+01:00</updated>
+        <id>http://www.leonpaternoster.com/2014/10/separation-better-than-surface-integration-web-strategy//</id>
+        <content type="html">&lt;p&gt;At work, our approach (or ‘strategy’, if you like) is to incorporate as many services on our own website as possible. So if a customer wants to find a book, CD or download ideally they’d go to &lt;code&gt;http://suffolklibraries.co.uk&lt;/code&gt;, do a search, browse the results and reserve/download it without leaving the site.&lt;/p&gt;
+
+&lt;p&gt;The reasons for this are pretty obvious:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Customers make no distinction between services. They expect to find everything on the library website – the idea of a separate searchable catalogue doesn’t even occur to them, just as they wouldn’t expect to leave Amazon to buy a book.&lt;/li&gt;
+  &lt;li&gt;Shifting between sites is confusing and a chore. It means we lose customers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Unfortunately, it’s difficult to follow this approach. Library catalogues live separately from library websites, mainly because the library was traditionally a small part of a council’s bigger website, and integrating the two would represent a huge amount of work. To be honest, I’m not sure this even occurred to library services. It’s easy to buy an off the shelf library management system that shifts all the web work to the supplier.&lt;/p&gt;
+
+&lt;p&gt;This is a problem. We shunt customers off to websites that offer miserable search and user experience. I’ve yet to find a UK library that offers a responsive catalogue and search results sorted by relevancy properly. (Take a few seconds to digest the lunacy of the second part of that sentence.)&lt;/p&gt;
+
+&lt;p&gt;Once upon a time, we tried to tackle this problem by making the catalogue &lt;em&gt;look&lt;/em&gt; like our website. You can see why this makeover approach would appeal as it might ease the friction of moving between sites. But it soon ran into problems:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Whenever we wanted to change the appearance or structure of the main website we’d have to update the catalogue.&lt;/li&gt;
+  &lt;li&gt;We had little control over the catalogue’s HTML or scripting.&lt;/li&gt;
+  &lt;li&gt;There was no local/staging/production workflow.&lt;/li&gt;
+  &lt;li&gt;The catalogue’s code was completely undocumented, poorly structured and liable to change whenever the provider updated the software.&lt;/li&gt;
+  &lt;li&gt;While the sites looked the same, underneath they weren’t, which meant we could confuse customers quite easily. For example, customers would use the site search box to search for titles.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We therefore took the decision to uncouple the site from the catalogue, until we built something that could integrate the two properly. In turn, we added something else to our strategy:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Don’t change things we don’t have full control over. Separation is preferable to false integration. Concentrate on integrating things properly.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;We apply this to &lt;em&gt;all&lt;/em&gt; our web work. It’s an important principle as it helps us maintain control of our web experience as much as possible.&lt;/p&gt;
+
+&lt;p&gt;Of course, whether other parts of the organisation understand this is a different matter. It’s not entirely unknown for someone to approach us to say they’ve bought a web product from supplier &lt;em&gt;x&lt;/em&gt; and they’d like us to make it look like our website. Unfortunately, the answer is &lt;em&gt;no&lt;/em&gt; (and you really should involve the web department when you’re buying things for the web!)&lt;/p&gt;
+
+&lt;p&gt;Which leads to another principle:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;We’re always helpful, but we decide how we implement things on the web as bodged solutions are impossible to manage and result in poor customer experiences.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;And we know what we’re doing, goddamit :-)&lt;/p&gt;
+</content>
+    </entry>
+    
+    
+    
+    <entry>
+        <title>The art of linking</title>
+        <link href="http://www.leonpaternoster.com/2014/09/the-art-of-linking/"/>
+        <updated>2014-09-20T00:00:00+01:00</updated>
+        <id>http://www.leonpaternoster.com/2014/09/the-art-of-linking//</id>
+        <content type="html">&lt;p&gt;The web is a network of links; they’re what make plain, boring text &lt;em&gt;hyper&lt;/em&gt;. Luckily, making a link is very, very easy, although crafting it properly takes a &lt;em&gt;little&lt;/em&gt; thought.&lt;/p&gt;
+
+&lt;p&gt;You only need to follow one rule to get links right:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;When you write link text, make sure it makes sense on its own.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s surprising how many &lt;a href=&quot;http://stumblingandmumbling.typepad.com/stumbling_and_mumbling/2014/09/economists-as-food-experts.html&quot;&gt;good writers get links wrong&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;An example. You want to link to your organisation’s annual report PDF (rather than publish an HTML version, but that’s a different story). Many people write:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To download our annual report, &lt;a href=&quot;#&quot;&gt;click here&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A better way:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Download our &lt;a href=&quot;#&quot;&gt;annual report&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(You can argue over whether to include the verb in your link; I don’t, some would.)&lt;/p&gt;
+
+&lt;p&gt;Or to take an example from &lt;cite&gt;Stumbling and Mumbling&lt;/cite&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;investors are &lt;a href=&quot;#&quot;&gt;prone (pdf)&lt;/a&gt; to buying poorly perforning [&lt;i&gt;sic&lt;/i&gt;], high-charging funds&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;would be better as&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;#&quot;&gt;investors are prone (pdf) to buying poorly performing, high-charging funds&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;why-bother-writing-links-properly&quot;&gt;Why bother writing links properly?&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;em&gt;Accessibility&lt;/em&gt;. Screen readers isolate page links to make it easier to find a document’s important information. Isolated, &lt;em&gt;Click here&lt;/em&gt; makes no sense, but &lt;em&gt;annual report&lt;/em&gt; does.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Easing the reader’s workload&lt;/em&gt;. What is this link? Where does it lead? If the link doesn’t make sense on its own, the reader has to reinterpret the words around it to figure out what it is.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Easier scanning&lt;/em&gt;. What’s this document about? It’s rare for a reader to work through your text word by word, from start to finish. Instead, they’ll scan for words and phrases they’re interested in. Links stand out from the rest of the text, so they’re a key clue to the text’s meaning.&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Reader interest&lt;/em&gt;. You can tease readers with a well turned link; maybe &lt;em&gt;good writers get links wrong&lt;/em&gt; piqued your curiosity. &lt;em&gt;investors are prone (pdf) to buying poorly performing, high-charging funds&lt;/em&gt; is a lot more enticing than &lt;em&gt;prone (pdf)&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Getting links right will improve the reader’s experience of your writing – it’s worth sparing them a little time and thought.&lt;/p&gt;
+</content>
+    </entry>
+    
+    
+</feed>

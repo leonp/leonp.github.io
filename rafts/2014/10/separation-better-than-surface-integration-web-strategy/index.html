@@ -1,0 +1,173 @@
+<!doctype html>
+
+<html lang="en-gb">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Separating services is preferable to surface integration (or 3 principles for a web strategy) &#8211; Leon Paternoster</title>
+		
+
+		<!--[if lt IE 9]>
+    		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js">
+    	<![endif]-->
+
+		<link rel="canonical" href="http://www.leonpaternoster.com/2014/10/separation-better-than-surface-integration-web-strategy/">
+		<link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.6.0/tables-min.css">
+		<link rel="stylesheet" href="/css/main.css">
+		<link href="/feed" rel="alternate" type="application/rss+xml" title="Leon Paternoster">
+		<link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+
+		<script>
+		(function(d) {
+		var config = {
+		kitId: 'ofd4cut',
+		scriptTimeout: 3000,
+		async: true
+		},
+		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+		})(document);
+		</script>
+
+	</head>
+
+	<body id="top">
+
+		<ul class="accessibility hide">
+
+			<li><a href="#content">Skip to content</a></li>
+			<li><a href="#nav">Skip to navigation</a></li>
+
+		</ul>
+
+		<p class="text-centre"><a href="/"><img class="logo" src="/images/home.svg"></a></p>
+
+		<article class="entry page" id="content">
+
+			<div class="wrapper">
+
+				
+
+					<div class="entry-header">
+
+				
+
+				<h1 class="entry-title">Separating services is preferable to surface integration (or 3 principles for a web strategy)</h1>
+
+				
+
+					
+
+					<p class="entry-meta secondary"><time class="published"><span>Oct 18 2014</span></time></p>
+
+				
+
+				
+
+			</div> <!-- end .entry-header -->
+
+				
+
+
+	<div class="entry-content">
+
+		<p>At work, our approach (or ‘strategy’, if you like) is to incorporate as many services on our own website as possible. So if a customer wants to find a book, CD or download ideally they’d go to <code>http://suffolklibraries.co.uk</code>, do a search, browse the results and reserve/download it without leaving the site.</p>
+
+<p>The reasons for this are pretty obvious:</p>
+
+<ul>
+  <li>Customers make no distinction between services. They expect to find everything on the library website – the idea of a separate searchable catalogue doesn’t even occur to them, just as they wouldn’t expect to leave Amazon to buy a book.</li>
+  <li>Shifting between sites is confusing and a chore. It means we lose customers.</li>
+</ul>
+
+<p>Unfortunately, it’s difficult to follow this approach. Library catalogues live separately from library websites, mainly because the library was traditionally a small part of a council’s bigger website, and integrating the two would represent a huge amount of work. To be honest, I’m not sure this even occurred to library services. It’s easy to buy an off the shelf library management system that shifts all the web work to the supplier.</p>
+
+<p>This is a problem. We shunt customers off to websites that offer miserable search and user experience. I’ve yet to find a UK library that offers a responsive catalogue and search results sorted by relevancy properly. (Take a few seconds to digest the lunacy of the second part of that sentence.)</p>
+
+<p>Once upon a time, we tried to tackle this problem by making the catalogue <em>look</em> like our website. You can see why this makeover approach would appeal as it might ease the friction of moving between sites. But it soon ran into problems:</p>
+
+<ul>
+  <li>Whenever we wanted to change the appearance or structure of the main website we’d have to update the catalogue.</li>
+  <li>We had little control over the catalogue’s HTML or scripting.</li>
+  <li>There was no local/staging/production workflow.</li>
+  <li>The catalogue’s code was completely undocumented, poorly structured and liable to change whenever the provider updated the software.</li>
+  <li>While the sites looked the same, underneath they weren’t, which meant we could confuse customers quite easily. For example, customers would use the site search box to search for titles.</li>
+</ul>
+
+<p>We therefore took the decision to uncouple the site from the catalogue, until we built something that could integrate the two properly. In turn, we added something else to our strategy:</p>
+
+<p><em>Don’t change things we don’t have full control over. Separation is preferable to false integration. Concentrate on integrating things properly.</em></p>
+
+<p>We apply this to <em>all</em> our web work. It’s an important principle as it helps us maintain control of our web experience as much as possible.</p>
+
+<p>Of course, whether other parts of the organisation understand this is a different matter. It’s not entirely unknown for someone to approach us to say they’ve bought a web product from supplier <em>x</em> and they’d like us to make it look like our website. Unfortunately, the answer is <em>no</em> (and you really should involve the web department when you’re buying things for the web!)</p>
+
+<p>Which leads to another principle:</p>
+
+<p><em>We’re always helpful, but we decide how we implement things on the web as bodged solutions are impossible to manage and result in poor customer experiences.</em></p>
+
+<p>And we know what we’re doing, goddamit :-)</p>
+
+
+	</div>
+
+	<footer class="entry-footer">
+
+		<div class="secondary">
+
+			<div class="pagination">
+
+			
+
+				<p class="secondary next">Next: <a href="/2015/01/internet-filtering-in-libraries/">Blocking websites in libraries&#8212;our policy</a> &rarr;</p>
+
+			
+
+			
+
+				<p class="secondary previous">&larr; Previous: <a href="/2014/09/the-art-of-linking/">The art of linking</a></p>
+
+			
+
+		</div>
+
+	</footer>
+
+				</div> <!-- end .wrapper -->
+
+			</article>
+
+		<footer id="footer">
+
+			<div class="wrapper">
+
+				<nav id="nav">
+
+					<h1 class="hide">Navigation</h1>
+
+					<p class="small"><a href="/">Leon Paternoster</a> / <a href="/articles">Articles</a> / <a href="/about">More info</a></p>
+
+				</nav>
+
+			</div> <!-- end .wrapper -->
+
+		</footer>
+
+		<script>
+
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-15495291-1', 'auto');
+			ga('send', 'pageview');
+
+		</script>
+
+	</body>
+
+</html>
+

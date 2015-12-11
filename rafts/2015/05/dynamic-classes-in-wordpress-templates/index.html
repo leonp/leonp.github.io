@@ -1,0 +1,170 @@
+<!doctype html>
+
+<html lang="en-gb">
+
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Generating page specific classes in WordPress templates to keep code DRY and extensible &#8211; Leon Paternoster</title>
+		
+
+		<!--[if lt IE 9]>
+    		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js">
+    	<![endif]-->
+
+		<link rel="canonical" href="http://www.leonpaternoster.com/2015/05/dynamic-classes-in-wordpress-templates/">
+		<link rel="stylesheet" href="http://yui.yahooapis.com/combo?pure/0.6.0/tables-min.css">
+		<link rel="stylesheet" href="/css/main.css">
+		<link href="/feed" rel="alternate" type="application/rss+xml" title="Leon Paternoster">
+		<link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+
+		<script>
+		(function(d) {
+		var config = {
+		kitId: 'ofd4cut',
+		scriptTimeout: 3000,
+		async: true
+		},
+		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+		})(document);
+		</script>
+
+	</head>
+
+	<body id="top">
+
+		<ul class="accessibility hide">
+
+			<li><a href="#content">Skip to content</a></li>
+			<li><a href="#nav">Skip to navigation</a></li>
+
+		</ul>
+
+		<p class="text-centre"><a href="/"><img class="logo" src="/images/home.svg"></a></p>
+
+		<article class="entry page" id="content">
+
+			<div class="wrapper">
+
+				
+
+					<div class="entry-header">
+
+				
+
+				<h1 class="entry-title">Generating page specific classes in WordPress templates to keep code DRY and extensible</h1>
+
+				
+
+					
+
+					<p class="entry-meta secondary"><time class="published"><span>May 21 2015</span></time></p>
+
+				
+
+				
+
+			</div> <!-- end .entry-header -->
+
+				
+
+
+	<div class="entry-content">
+
+		<p><em>How to generate page specific class names in a WordPress template, making it easy to extend your code and keep it <abbr title="Do not Repeat Yourself">DRY</abbr></em>.</p>
+
+<p>At work we use WordPress to run our main website. We’ve built a child theme that includes lots of custom templates so we can build non–standard of pages.</p>
+
+<p>One such template is <code>custom-hero.php</code>. It calls the site header and displays the page excerpt on top of the custom image, should the page author have specified an excerpt and image in the WordPress page editor. You can see it in action on our <a href="http://suffolklibraries.co.uk/events-activities/summer-reading-challenge-2015">Summer Reading Challenge</a> page.</p>
+
+<p>If you build a new page you’ll get some default styling. The hero image caption has a corporate purple background (<code>#642D91</code>) and is positioned in the bottom left of its containing <code>div</code>. The page title is centred and inherits the default heading <code>font-weight</code>.</p>
+
+<p>Sometimes we might want to change these default styles. For example, we might build an event page which calls for a more muted approach, perhaps through a lighter heading <code>font-weight</code>, or a less garish caption background colour.</p>
+
+<p>One way we could do this is by creating another WordPress custom template (<code>custom-hero-tasteful.php</code>, perhaps), but that’s obviously somewhat inefficient. Instead, we can go a bit more <abbr title="Do not Repeat Yourself">DRY</abbr> and extend <code>custom-hero.php</code>’s classes.</p>
+
+<h2 id="static-and-dynamic-class-names-in-wordpress-templates">Static and dynamic class names in WordPress templates</h2>
+
+<p>We want our template to spit out <abbr title="HyperText Markup Language">HTML</abbr> with a static, default set of class names and something dynamically generated that’s unique to the page.</p>
+
+<p>Take a look at the <code>figcaption</code> classes on the <a href="http://suffolklibraries.co.uk/events-activities/summer-reading-challenge-2015">Summer Reading Challenge</a> page for an example:</p>
+
+<p><code>class="sl-hero-splash-text sl-hero-splash-text-summer-reading-challenge-2015"</code></p>
+
+<p>We want all pages built on <code>custom-hero.php</code> to use the <code>sl-hero-splash-text</code> declarations, but only the Summer Reading Challenge page to use <code>sl-hero-splash-text-summer-reading-challenge-2015</code></p>
+
+<p>How do we do this in one WordPress template?</p>
+
+<p>We basically need to spit out a piece of page specific text in our template. The most obvious page property that does this in a CSS friendly way (i.e. with no non–standard characters or spaces) is the page slug (<code>summer-reading-challenge-2015</code> in our example). We can grab the post slug by querying the <code>$post</code> object:</p>
+
+<p><code>global $post; echo $post-&gt;post_name;</code></p>
+
+<p>So if we use this code in our <code>custom-hero</code> template we get static and dynamic class names:</p>
+
+<figure class="highlight"><pre><code class="language-php" data-lang="php"><span class="nt">&lt;figcaption</span> <span class="na">class=</span><span class="s">"sl-hero-splash-text sl-hero-splash-text-</span><span class="cp">&lt;?php</span> <span class="k">global</span> <span class="nv">$post</span><span class="p">;</span> <span class="k">echo</span> <span class="nv">$post</span><span class="o">-&gt;</span><span class="na">post_name</span><span class="p">;</span> <span class="cp">?&gt;</span><span class="s">"</span><span class="nt">&gt;</span><span class="cp">&lt;?php</span> <span class="nx">the_excerpt</span><span class="p">();</span> <span class="cp">?&gt;</span><span class="nt">&lt;/figcaption&gt;</span></code></pre></figure>
+
+<p>By using dynamic class names we don’t have to write additional templates whenever we want to make minor styling changes. We make our code a lot more manageable.</p>
+
+
+	</div>
+
+	<footer class="entry-footer">
+
+		<div class="secondary">
+
+			<div class="pagination">
+
+			
+
+				<p class="secondary next">Next: <a href="/2015/05/do-not-fear-the-nav-bar/">Do not always fear the nav bar on narrow screens</a> &rarr;</p>
+
+			
+
+			
+
+				<p class="secondary previous">&larr; Previous: <a href="/2015/05/writing-markdown-blogging-guide/">A guide to using Markdown to write blog posts</a></p>
+
+			
+
+		</div>
+
+	</footer>
+
+				</div> <!-- end .wrapper -->
+
+			</article>
+
+		<footer id="footer">
+
+			<div class="wrapper">
+
+				<nav id="nav">
+
+					<h1 class="hide">Navigation</h1>
+
+					<p class="small"><a href="/">Leon Paternoster</a> / <a href="/articles">Articles</a> / <a href="/about">More info</a></p>
+
+				</nav>
+
+			</div> <!-- end .wrapper -->
+
+		</footer>
+
+		<script>
+
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-15495291-1', 'auto');
+			ga('send', 'pageview');
+
+		</script>
+
+	</body>
+
+</html>
+
