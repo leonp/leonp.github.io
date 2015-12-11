@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Kill the LMS &#8211; what a modern library digital presence should look like
-excerpt: Library’s do digital badly. Replace the LMS with an open, queryable database that can talk to other apps that do one job well. Kill the LMS or be killed.
+excerpt: Libraries do digital badly. Replace the LMS with an open, queryable database that can talk to other apps that do one job well. Kill the LMS or be killed.
 ---
 
 ## Summary
 
-Library's do digital badly. Replace the LMS with an open, queryable database that can talk to other apps that do one job well. Kill the LMS or be killed.
+Libraries do digital badly. Replace the LMS with an open, queryable database that can talk to other apps that do one job well. Kill the LMS or be killed.
 
 ## What's a digital presence?
 
