@@ -11,18 +11,19 @@
 
     .top-bar li {
         list-style-type: none;
+        display: inline;
         font-size: $size-3;
         font-weight: bold;
         text-transform: lowercase;
         font-variant: small-caps;
     }
 
-    .top-bar-left {
-        float: left;
+    .top-bar li:after {
+        content: ' / ';
     }
 
-    .top-bar-right {
-        float: right;
+    .top-bar li:last-child:after {
+        content: '';
     }
 
 }
