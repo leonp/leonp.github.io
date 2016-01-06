@@ -35,47 +35,25 @@
 
 	<body id="top">
 
-		<ul class="accessibility hide">
+		<div class="accessibility hide">
 
-			<li><a href="#content">Skip to content</a></li>
-			<li><a href="#nav">Skip to navigation</a></li>
+			<p><a href="#nav">Skip to navigation</a></p>
 
-		</ul>
+		</div>
 
-		<p class="text-centre"><a href="/"><img class="logo" src="/images/home.svg"></a></p>
+		<nav class="top-bar clearfix">
 
-		<article class="entry page" id="content">
+			<h1 class="hide">Navigation</h1>
 
-			<div class="wrapper">
+			<ul>
 
-				{% if page.layout == 'post' %}
+				<li class="top-bar-left"><a href="/">Home</a></li>
+				<li class="top-bar-right"><a href="/blog">Blog</a></li>
 
-					<div class="entry-header">
+			</ul>
 
-				{% else %}
+		</nav>
 
-					<div class="entry-header">
+		<div class="wrapper">
 
-				{% endif %}
-
-				<h1 class="entry-title">{{ page.title }}</h1>
-
-				{% if page.layout == 'post' %}
-
-					{% capture words %}
-						{{ page.content | number_of_words }}
-					{% endcapture %}
-
-					<p class="entry-meta secondary"><time class="published">{{ page.date | date: "%b %-d %Y" }}</time> &#9997; {{ words }} words</p>
-
-				{% endif %}
-
-				{% if page.layout == 'post' %}
-
-			</div> <!-- end .entry-header -->
-
-				{% else %}
-
-			</div> <!-- end .entry-header -->
-
-				{% endif %}
+			<main id="content">

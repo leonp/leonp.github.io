@@ -1,9 +1,19 @@
 {% include header.html %}
 
-<div class="entry-content">
+<article class="entry">
 
-	{{ content }}
+	<div class="entry-header">
 
-</div>
+		<h1 class="entry-title">{{ page.title }}</h1>
+
+	</div>
+
+	<div class="entry-content">
+
+		{{ content }}
+
+	</div>
+
+</article>
 
 {% include footer.html %}

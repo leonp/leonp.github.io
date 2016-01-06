@@ -1,5 +1,9 @@
 @media screen, projection {
 
+    .custom-form {
+        margin-bottom: $single-line;
+    }
+
     .custom-form fieldset {
         border: 0;
     }
@@ -16,7 +20,7 @@
     	margin-bottom: $quarter-line;
 
     	@media #{$bp} {
-    		width: 40%;
+    		width: 75%;
     	}
 
     }

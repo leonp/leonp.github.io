@@ -1,12 +1,26 @@
 {% include header.html %}
 
+<article class="entry">
+
+	<header class="entry-header">
+
+		<h1 class="entry-title">{{ page.title }}</h1>
+
+		{% capture words %}
+	        {{ page.content | number_of_words }}
+	    {% endcapture %}
+
+	    <p class="entry-meta secondary"><time class="published">{{ page.date | date: "%b %-d %Y" }}</time>, {{ words }} words</p>
+
+	</header>
+
 	<div class="entry-content">
 
 		{{ content }}
 
 	</div>
 
-	<footer class="entry-footer">
+	<!-- <footer class="entry-footer">
 
 		<div class="secondary">
 
@@ -26,6 +40,8 @@
 
 		</div>
 
-	</footer>
+	</footer> -->
+
+</article>
 
 {% include footer.html %}

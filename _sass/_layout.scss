@@ -1,44 +1,24 @@
 @media screen, projection {
 
-.page {
-	background-color: $light;
-
-	@media #{$bp} {
-		max-width: 30em;
-		margin: 0 auto;
-	}
-
-}
-
 .wrapper {
-	max-width: 28em;
+	max-width: 32em;
 	padding: 0 $half-line;
 	margin: 0 auto;
 }
 
-#header {
-	padding: $quarter-line;
-	background-color: $lgrey;
-}
-
 #content {
-	padding: $single-line $quarter-line;
+	margin-top: $single-line;
 
 	@media #{$bp} {
-		padding: $line-and-a-half $treble-line;
+		margin-top: $double-line;
 	}
 
 }
 
 #footer {
-	color: $grey;
-	padding: $single-line $quarter-line;
-
-		@media #{$bp} {
-			padding: $line-and-a-half $quarter-line;
-		}
-
-	}
+	padding-top: $single-line;
+	font-size: $size-3;
+}
 
 
 }

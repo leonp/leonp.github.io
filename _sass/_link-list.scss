@@ -1,11 +1,8 @@
 @media screen, projection {
 
-    .link-list {
-    	padding-bottom: $half-line;
-    }
-
-    .link-list-item {
-        padding: $quarter-line 0;
+    .link-list-item,
+    .link-list li {
+        margin-bottom: $quarter-line;
     }
 
 }
