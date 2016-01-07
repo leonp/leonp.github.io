@@ -16,7 +16,12 @@
 }
 
 #footer {
-	padding: $single-line 0;
+	margin-top: $single-line;
+	padding: $half-line 0;
+	border-top: 1px dotted $midgrey;
+}
+
+#footer p {
 	font-size: $size-3;
 }
 

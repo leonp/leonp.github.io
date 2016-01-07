@@ -15,6 +15,12 @@
 
     }
 
+    .top-bar-current,
+    .top-bar a:hover {
+        text-decoration: none;
+        border-bottom: $eighth-line solid $dark;
+    }
+
     .top-bar li {
         list-style-type: none;
         display: inline;

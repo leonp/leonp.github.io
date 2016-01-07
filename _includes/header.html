@@ -49,8 +49,25 @@
 
 				<ul>
 
-					<li><a href="/">Home</a></li>
-					<li><a href="/blog">Blog</a></li>
+					{% if page.title != 'Leon Paternoster' %}
+
+						<li><a href="/">Home</a></li>
+
+					{% else %}
+
+						<li><a class="top-bar-current" href="/">Home</a></li>
+
+					{% endif %}
+
+					{% if page.title != 'Blog' %}
+
+						<li><a href="/blog">Blog</a></li>
+
+					{% else %}
+
+						<li><a class="top-bar-current" href="/">Blog</a></li>
+
+					{% endif %}
 
 				</ul>
 
