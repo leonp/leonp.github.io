@@ -7,12 +7,22 @@
 
     .top-bar a {
         color: $dark;
+        padding: $quarter-line;
+
+        @media #{$bp} {
+            padding: 0;
+        }
+
     }
 
     .top-bar li {
         list-style-type: none;
         display: inline;
-        font-size: $size-3;
+
+        @media #{$bp} {
+            font-size: $size-3;
+        }
+
         font-weight: bold;
         text-transform: lowercase;
         font-variant: small-caps;
