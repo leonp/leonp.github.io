@@ -1,0 +1,29 @@
+{% include header.html %}
+
+<article class="entry">
+
+    <div class="entry-header">
+
+        <h1 class="entry-title">{{ page.title }}</h1>
+
+    </div>
+
+    <div class="entry-content">
+
+        <p>{{ page.description }}</p>
+
+        <ul class="link-list">
+
+            {% for post in site.categories[page.category] %}
+
+                <li class="link-list-item"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <time class="link-list-item-meta published secondary">{{ post.date | date: "%b %-d %Y" }}</time></li>
+
+            {% endfor %}
+
+        </ul>
+
+    </div>
+
+</article>
+
+{% include footer.html %}
