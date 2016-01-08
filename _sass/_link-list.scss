@@ -3,6 +3,11 @@
     .link-list-item,
     .link-list li {
         margin-bottom: $quarter-line;
+        font-family: $secondary-font;
+    }
+
+    .link-list-item-meta {
+        font-family: $main-font;
     }
 
 }
