@@ -10,10 +10,6 @@ As you're no doubt very bored of hearing, I'm interested in the idea of a Basic 
 
 I blogged [a couple of examples of how it might work in the UK](/2013/09/basic-income-examples/), using figures published by Dr Malcolm Torry. Unfortunately, it'll never happen, due to our punitive attitude to poor people.
 
-<img src="/uploads/swiss-money.jpg" alt="People sweeping a pile of coins in a city square">
-
-<p class="figcaption">Swiss Generation Basic Income activists outside the Swiss parliament building</p>
-
 What's interesting about the Swiss proposal is the amount they'll be voting on. In the UK 2800 USD amounts to about &pound;1750, i.e. the average full&#8211;time worker's net pay.
 
 In my examples, anyone over the age of 24 would receive &pound;308 a month, *around &pound;1400 less than in Switzerland*. And yet it still seems a million miles away. (Note: Dr Torry's figures assume housing and council tax benefits remain the same. They substantially increase UK state derived income.)
