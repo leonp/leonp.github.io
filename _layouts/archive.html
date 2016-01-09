@@ -18,7 +18,7 @@
 
             {% for post in site.categories[page.category] %}
 
-                <li class="link-list-item"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <time class="link-list-item-meta published secondary">{{ post.date | date: "%b %-d %Y" }}</time></li>
+                <li class="link-list-item"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <span class="link-list-item-meta secondary">Posted <time>{{ post.date | date: "%b %-d %Y" }}</time></span></li>
 
             {% endfor %}
 
