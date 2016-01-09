@@ -4,10 +4,6 @@ title: Times for print, Georgia for screen
 category: web
 ---
 
-<img src="http://www.ascenderfonts.com/af/images/art/ascender/Georgia-720x360.jpg" alt="Georgia sample">
-
-<p class="figcaption">Image from from <a href="http://www.ascenderfonts.com/af/images/art/ascender/Georgia-720x360.jpg">Ascender fonts</a></p>
-
 Despite its appearance on some recent websites, Times New Roman is an ineffective choice for body copy. Use Georgia instead.
 
 The [New Yorker](http://newyorker.com) has undergone a recent redesign. There are plenty of modern web design cues present (a grid-based layout and some thoughtful typography for two), but it soon becomes clear that the designers have steered clear of one of the tenets of modern web typography: Use Georgia as your serif font.
