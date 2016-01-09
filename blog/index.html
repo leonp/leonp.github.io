@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Blog
-description: Curated posts on building, managing &amp; designing websites. Since 2008.
-show: yes
+description: Since 2008.
 ---
 
 <form method="get" action="/search" role="search" id="search" class="custom-form top-bar-form">
@@ -31,7 +30,7 @@ show: yes
 
 {% for post in site.posts  %}
 
-	<li class="link-list-item"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <time class="link-list-item-meta published secondary">{{ post.date | date: "%b %-d %Y" }}</time></li>
+	<li class="link-list-item"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <span class="link-list-item-meta secondary">Posted <time>{{ post.date | date: "%b %-d %Y" }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
 
 {% endfor %}
 
