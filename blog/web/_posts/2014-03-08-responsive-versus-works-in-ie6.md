@@ -1,10 +1,10 @@
 ---
 title: Responsive versus works in IE6
-author: Leon
 excerpt: Making your site responsive will get you more accessibility points than making it work in IE6.
 layout: post
-category: work
+category: web
 ---
+
 Stats from 4 days’ worth of [Suffolk Libraries][1] website traffic:
 
 *   Proportion of visits from mobiles and tablets: 1 in 4

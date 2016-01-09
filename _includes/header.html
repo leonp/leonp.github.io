@@ -61,7 +61,35 @@
 
 					{% if page.title != 'Blog' %}
 
-						<li><a href="/blog">Blog</a></li>
+						<li>
+
+							<a href="/blog">Blog</a>
+
+							{% if page.title == 'Web' %}
+
+								<span> &rarr; Web</span>
+
+							{% endif %}
+
+							{% if page.title == 'Politics' %}
+
+								<span> &rarr; Politics</span>
+
+							{% endif %}
+
+							{% if page.title == 'Thinking' %}
+
+								<span> &rarr; Thinking</span>
+
+							{% endif %}
+
+							{% if page.title == 'Libraries' %}
+
+								<span> &rarr; Libraries</span>
+
+							{% endif %}
+
+						</li>
 
 					{% else %}
 

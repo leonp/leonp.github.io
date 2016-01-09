@@ -91,8 +91,7 @@
     .entry-content hr,
     #footer hr {
     	width: 33%;
-    	margin: 0 auto $half-line auto;
-    	padding-top: $single-line;
+    	margin: $single-line auto;
     	border: none;
     	border-bottom: 1px dotted $grey;
     }
