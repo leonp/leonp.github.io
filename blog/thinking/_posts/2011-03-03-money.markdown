@@ -1,5 +1,5 @@
 ---
-slug: money
+layout: post
 title: Money
 category: thinking
 ---
