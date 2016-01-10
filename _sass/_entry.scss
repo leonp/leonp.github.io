@@ -6,8 +6,12 @@
     }
 
     .entry-title {
-    	font-size: $size-5;
+    	font-size: $size-6;
         margin-bottom: $half-line
+    }
+
+    .entry-meta {
+        font-size: $size-3;
     }
 
     .entry-content {
