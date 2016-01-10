@@ -3,26 +3,27 @@ title: About
 layout: default
 ---
 
+<p><strong>leon.paternoster@zoho.com</strong> / <a href="https://twitter.com/leonpaternoster">Twitter</a> / <a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></p>
+
 > Simplicity, usefulness, functionality, details and facts, transparency; these are the pillars of the new digital design. <cite><a href="http://www.gerrymcgovern.com/new-thinking/era-distrust-and-disloyalty">The era of distrust and disloyalty, Gerry McGovern</a></cite>
 
 I'm web and customer service manager at <a href="http://suffolklibraries.co.uk">Suffolk Libraries</a> (although I go under the fairly grandiose title of deputy head of IT).
 
 We're a mutual that was formed in 2012 to run Suffolk's Library service.
 
-We design, build and manage our website in house, and fit several external services (such as the catalogue of physical titles and ebook service) into that.
+We design, build and manage our website in house, and fit several external services such as the catalogue of physical titles and ebook service into it.
 
 In previous lives I've been a newspaper ad salesperson, telecoms engineer and teacher of English. If you were looking for a common thread you might argue I've always been interested in communication, user experience and technology.
 
-I figure out what organisations should do online. This involves answering questions like:
+I figure out what organisations should do online. This involves:
 
-- What do our customers want to do online?
-- How do we help our customers do what they want to do online?
-- How do we write for the web?
-- When can we develop services in house?
-- Who's responsible for producing, editing and publishing content?
-- What content can we get rid of?
-- What social media do we use?
-- How do we use social media?
+- Researching customer requirements
+- Testing designs with customers
+- Writing style guides
+- Writing a strategy
+- Deciding when to develop services in house
+- Writing content guidelines
+- Managing social media
 
 ## Skills and experience
 
@@ -36,10 +37,8 @@ I figure out what organisations should do online. This involves answering questi
 - [Git](https://git-scm.com/), [Grunt](http://gruntjs.com/) and [SASS](http://sass-lang.com/)
 - [WordPress](http://wordpress.org) and [Jekyll](http://jekyllrb.com)
 
-I write [articles about this stuff](/articles).
+I write [articles about this stuff](/blog/web).
 
 Occasionally I build websites for local businesses.
 
 Get in touch if you'd like to work with me.
-
-Email __leon.paternoster@zoho.com__ · __[@leonpaternoster](https://twitter.com/leonpaternoster)__
