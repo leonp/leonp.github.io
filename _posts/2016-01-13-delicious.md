@@ -4,7 +4,7 @@ title: Delicious and how every excellent web service ends up eating itself
 category: web
 ---
 
-Hard to believe, but once upon a time Delicious was a really great bookmarking service. The offer was very simple: install a plugin or bookmarklet and send all your bookmarks to your delicious account for synching and, more interestingly, sharing.
+Hard to believe, but once upon a time [Delicious](http://delicious.com) was a really great bookmarking service. The offer was very simple: install a plugin or bookmarklet and send all your bookmarks to your delicious account for synching and, more interestingly, sharing.
 
 This was all before Facebook and Twitter took off. Back then, we weren't really interested in sharing personal updates &#8211; blogging and bookmarking were our online currency. And Delicious did bookmarks really well: the crowd determined what was popular, generating a folksonomy. There were no dismal clickbait lists or adverts, unlike now:
 
