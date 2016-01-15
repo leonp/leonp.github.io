@@ -1,9 +1,14 @@
 @media screen, projection {
 
+    .inline-nav {
+      list-style-type: none;
+    }
+
     .inline-nav li,
     .inline-nav-item {
     	display: inline;
     	margin-right: $single-line;
+      margin-left: 0 !important;
     }
 
     .text-right .inline-nav-item {
