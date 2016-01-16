@@ -6,9 +6,13 @@
 
     .inline-nav li,
     .inline-nav-item {
-    	display: inline;
-    	margin-right: $single-line;
-      margin-left: 0 !important;
+        display: inline;
+        margin-right: $half-line;
+        @media #{$nbp} {
+            margin-right: $single-line;
+        }
+
+        margin-left: 0 !important;
     }
 
     .text-right .inline-nav-item {
