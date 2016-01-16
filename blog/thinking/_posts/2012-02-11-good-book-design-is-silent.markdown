@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Good book design is silent
-category: work
+category: thinking
 ---
 
 The job of book design is to make a text as easy to read as possible. Once it's done that, it should retire gracefully.
@@ -18,8 +18,6 @@ As in so many of these articles, the author affords an absurd degree of importan
 
 So the next time you're debating whether to read Anna Karenina or not, make sure you check out the cover, typeface and weight of the paper. You might even want to test the aroma.
 
-[caption id="attachment_2513" align="aligncenter" width="600" caption="An OK cover, serif font and a wonderful book that doesn't need to be sold by the design."]![Cover of Sebald's The Emigrants](http://leonpaternoster.com/wp-content/uploads/2012/02/sebald.jpg)[/caption]
-
 The truth is that the printed book is an essentially democratic, mass market medium. Movable type allowed writers to communicate ideas to millions of people. Beautiful, hand–written manuscripts were the reserve of rich people and monks.
 
 (Possibly useless fact: the 19th century London émigré communist scene boasted many typesetters, and The Communist Manifesto came with a brand new gothic typeface.)
@@ -30,11 +28,11 @@ But the designer's main job is to honour the text and get out of the way of the 
 
 So the best textual design is both readable and interchangeable. Take the Penguin Classics range:
 
-[caption id="attachment_2514" align="aligncenter" width="600" caption="Completely different books but the same design."]![Photo of Sracula and The Idiot](http://leonpaternoster.com/wp-content/uploads/2012/02/victorian.jpg)[/caption]
+![Photo of Dracula and The Idiot](http://leonpaternoster.com/wp-content/uploads/2012/02/victorian.jpg)
 
 The design tells us about the publisher rather than the text itself. Even better, Penguin's Swiss era:
 
-[caption id="attachment_2515" align="aligncenter" width="600" caption="A plain cover and Helvetica: silent design"]![Photo of Franny and Zooey by Salinger](http://leonpaternoster.com/wp-content/uploads/2012/02/salinger.jpg)[/caption]
+![Photo of Franny and Zooey by Salinger](http://leonpaternoster.com/wp-content/uploads/2012/02/salinger.jpg)
 
 In fact you could argue that this silent design reaches its apogee with the e–reader, when the text has become completely decoupled from its container.
 

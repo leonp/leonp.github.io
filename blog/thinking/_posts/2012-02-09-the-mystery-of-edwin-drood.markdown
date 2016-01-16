@@ -1,16 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2012-02-09 10:07:44+00:00
 layout: post
-slug: the-mystery-of-edwin-drood
 title: The Mystery of Edwin Drood
-wordpress_id: 3025
-categories:
-- Literature
-tags:
-- Dickens
-- The Mystery of Edwin Drood
+category: thinking
 ---
 
 First, the confession. I have never read a complete Charles Dickens novel (and yes, I know, Dickens died before completing Edwin Drood.) I've read lots of _bits_ of novels for class, and A Christmas Carol, but never the full several hundred pages.

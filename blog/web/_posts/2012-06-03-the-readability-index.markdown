@@ -1,10 +1,10 @@
 ---
 layout: post
 title: The readability index
-category: work
+category: web
 ---
 
-**If you design long form texts** for the web your readers shouldn't sigh or wince when they open one of your articles.
+If you design long form texts for the web your readers shouldn't sigh or wince when they open one of your articles.
 
 One of the finest inventions of the digital age is [Readability](http://www.readability.com/). Press the red sofa icon and _voila_! no more ads, dark backgrounds or tiny text. It can even send articles to your Kindle.
 
