@@ -1,11 +1,14 @@
 ---
 title: Patience (After Sebald)
 layout: post
+category: thinking
 ---
 
 I went to see <cite>Patience (After Sebald)</cite> at the Ipswich Film Theatre last night. Highly enjoyable, it touched on some of Sebald's themes and the slightly strange idea of rectracing the walk in a pilgrimage.
 
-<div class="vid"><iframe src="https://player.vimeo.com/video/48941736?color=ffffff&title=0&byline=0&portrait=0" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+<div class="vid">
+<iframe src="https://player.vimeo.com/video/48941736?color=ffffff&title=0&byline=0&portrait=0" width="900" height="506" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 
 Inevitably, it makes you want to read the book again. Which I am.
 
@@ -23,14 +26,6 @@ I hadn't realised that these dog days are related to the dog star, so the Suffol
 
 The Rings of Saturn _is_ the ebb and flow between the present and the past, the here and the there; a beautiful meditation on entropy.
 
-
-
-
-
 One more thing: Hearing Sebald's slow, German baritone is a joy.
-
-
-
-
 
 Can I have my treat now?

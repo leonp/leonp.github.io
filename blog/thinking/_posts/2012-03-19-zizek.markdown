@@ -1,19 +1,8 @@
 ---
-author: admin
-comments: true
-date: 2012-03-19 21:33:29+00:00
 layout: post
-slug: zizek
-title: Have Michael Hardt and Antonio Negri rewritten The Communist Manifesto for
-  the twenty-first century?
-wordpress_id: 3043
-categories:
-- Politics
-tags:
-- Žižek
+title: Have Michael Hardt and Antonio Negri rewritten The Communist Manifesto for the twenty-first century?
+category: thinking
 ---
-
-[caption id="" align="alignnone" width="640" caption="Žižek at a Liverpool seminar (Wikimedia Commons CCBY License)"]![Slavoj Žižek seated](http://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Slavoj_Zizek_in_Liverpool_2.jpg/640px-Slavoj_Zizek_in_Liverpool_2.jpg)[/caption]
 
 [A Žižek essay I've restyled on my website](http://leonpaternoster.com/labs/zizek.html) because it's unreadable on the original website.
 
@@ -21,16 +10,9 @@ The answer to the essay's title, according to Slavoj Žižek, is _no_, but that'
 
 If you're left leaning you really should take the time to read this essay. Žižek raises the questions you're thinking about. Stuff like:
 
-
-
-	
-  * what does the Occupy movement really mean and achieve?
-
-	
-  * how does Marx fit into the modern world?
-
-	
-  * how can you use the web?
+- What does the Occupy movement really mean and achieve?
+- How does Marx fit into the modern world?
+- How can you use the web?
 
 
 Žižek's main argument is that you can't question capitalism without questioning liberal democracy: One is the political expression of a set of economic relationships. So far, so Marx, but Žižek develops this view by asking how capitalism has changed since Marx's time (it's become digitalised) and what form might dissent take.

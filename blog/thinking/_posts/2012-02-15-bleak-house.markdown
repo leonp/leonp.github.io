@@ -1,19 +1,9 @@
 ---
-author: admin
-comments: true
-date: 2012-02-15 13:50:16+00:00
-layout: post
-slug: bleak-house
-title: Bleak House
-wordpress_id: 3052
-categories:
-- Literature
-tags:
-- Bleak House
-- Dickens
----
 
-[caption id="attachment_88" align="aligncenter" width="400" caption="Illustration from Bleak House"]![Black and white illustration from Bleak House: 3 women and a man stand on some steps.](http://blog.leonpaternoster.com/wp-content/uploads/2012/02/bleak-house.jpg)[/caption]
+layout: post
+title: Bleak House
+category: thinking
+---
 
 So it begins. It's a beast (a megalosaurus, to be precise).
 

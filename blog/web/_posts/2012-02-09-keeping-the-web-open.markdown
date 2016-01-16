@@ -1,17 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2012-02-09 21:39:42+00:00
 layout: post
-slug: keeping-the-web-open
 title: Keeping the web open
-wordpress_id: 2505
-categories:
-- Politics
-tags:
-- apple
-- open web
-- webkit
+category: web
 ---
 
 I don't own an iThingy. Partly because I can't afford one, partly because I don't need one and partly because I generally prefer open source stuff.

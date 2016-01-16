@@ -1,20 +1,8 @@
 ---
-author: admin
-comments: true
-date: 2012-01-30 16:48:06+00:00
 layout: post
-slug: karl-marx
 title: Karl Marx
-wordpress_id: 3023
-categories:
-- Literature
-- Politics
-tags:
-- Karl Marx
-- Wheen
+category: thinking
 ---
-
-[caption id="attachment_95" align="aligncenter" width="422" caption="Marx, family and Engels"]![Photo of Karl Marx, four of his children and Engels](http://blog.leonpaternoster.com/wp-content/uploads/2012/01/marx.jpg)[/caption]
 
 Wheen argues that mythologising or demonising Marx for twentieth century mass murder misses the point. From this point of view it's a really useful biography. One case where getting to the man behind the work is of some importance. Most of the time it's simple distraction.
 

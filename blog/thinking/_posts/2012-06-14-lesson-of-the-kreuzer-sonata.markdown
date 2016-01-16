@@ -1,19 +1,11 @@
 ---
-author: admin
-comments: true
-date: 2012-06-14 09:53:03+00:00
 layout: post
 slug: lesson-of-the-kreuzer-sonata
 title: Lesson of The Kreuzer Sonata
-wordpress_id: 3048
-categories:
-- Literature
-tags:
-- The Kreuzer Sonata
-- Tolstoy
+category: thinking
 ---
 
-[caption id="" align="alignnone" width="353"]![A colour photo of Tolstoy](http://upload.wikimedia.org/wikipedia/commons/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg) A colour photo of Tolstoy ([From Wikimedia](http://upload.wikimedia.org/wikipedia/commons/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg)).[/caption]
+![A colour photo of Tolstoy](http://upload.wikimedia.org/wikipedia/commons/c/c6/L.N.Tolstoy_Prokudin-Gorsky.jpg)
 
 Some inbetween reading while I consider my next move.
 

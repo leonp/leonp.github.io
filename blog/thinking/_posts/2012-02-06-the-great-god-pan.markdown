@@ -1,19 +1,8 @@
 ---
-author: admin
-comments: true
-date: 2012-02-06 13:23:23+00:00
 layout: post
-slug: the-great-god-pan
 title: The Great God Pan
-wordpress_id: 3041
-categories:
-- Literature
-tags:
-- Machen
-- The Great God Pan
+category: thinking
 ---
-
-[caption id="attachment_93" align="aligncenter" width="500" caption="The Great God Pan and nymphs"]![A fountain of Pan and the nymphs](http://blog.leonpaternoster.com/wp-content/uploads/2012/02/pan1.jpg)[/caption]
 
 Been meaning to read this for a long time. Partly because I really liked ghost and horror fiction in my teens and partly because Mr Mark Smith is a big fan. The Kindle lets me make these impromptu downloads (it's free on Gutenberg).
 

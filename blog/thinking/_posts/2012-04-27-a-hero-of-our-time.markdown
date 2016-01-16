@@ -1,19 +1,8 @@
 ---
-author: admin
-comments: true
-date: 2012-04-27 12:44:20+00:00
 layout: post
-slug: a-hero-of-our-time
 title: A Hero of our Time
-wordpress_id: 3046
-categories:
-- Literature
-tags:
-- A Hero of our Time
-- Lermontov
+category: thinking
 ---
-
-[caption id="attachment_125" align="aligncenter" width="500" caption="Lermontov"]![Portrait of Lermontov](http://blog.leonpaternoster.com/wp-content/uploads/2012/04/ml.jpg)[/caption]
 
 Beguiling. Starts with some some beautiful descriptive stuff; seems like a standard novel. Folk–like feeling to the story of Bela.
 
