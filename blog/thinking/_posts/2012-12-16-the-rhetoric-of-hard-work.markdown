@@ -1,15 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2012-12-16 17:07:46+00:00
 layout: post
-slug: the-rhetoric-of-hard-work
 title: The rhetoric of hard work
-wordpress_id: 3070
-categories:
-- Politics
-tags:
-- Tories
+category: thinking
 ---
 
 If there's anything more divisive, lazy and offensive in politics than the rhetoric of hard work, I've yet to come across it.
