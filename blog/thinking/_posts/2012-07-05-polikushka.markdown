@@ -1,21 +1,10 @@
 ---
-author: admin
-comments: true
-date: 2012-07-05 08:12:15+00:00
 layout: post
-slug: polikushka
-title: 'Polikushka: Or, the lot of a wicked court servant'
-wordpress_id: 3049
-categories:
-- Literature
-tags:
-- Kreuzer Sonata
-- Polikushka
-- Tolstoy
+title: Polikushka &#8211; Or, the lot of a wicked court servant
+category: thinking
 ---
 
-**A few stories** tagged onto The Kreuzer Sonata. A bit meh, apart from some somewhat socialist visions of the future in Ivan the Fool. Tolstoy imagines modern warfare:
-
+A few stories tagged onto _The Kreuzer Sonata_. A bit meh, apart from some somewhat socialist visions of the future in _Ivan the Fool_. Tolstoy imagines modern warfare:
 
 > But Simeon's intentions reached the ears of the Indian ruler, who
 prepared to do battle with him. In addition to having secured all
@@ -35,13 +24,10 @@ get within shooting distance, while the bombs from the flying-machine
 carried destruction and terror in their path, completely routing his
 army, so that Simeon was left alone.
 
-
 These stories are moralistic and patronising, but, this being Tolstoy, there is some fantastic rhythm and tension. Best of all is Polikushka's suicide and the preceding cart ride home:
-
 
 > But Polikey failed to follow the girl, and went instead to another place.
 
-From the porch of his house there was a ladder reaching to the attic. Arriving at the foot of the ladder Polikey looked around him, and seeing no one about, he quickly ascended to the garret.
-
+> From the porch of his house there was a ladder reaching to the attic. Arriving at the foot of the ladder Polikey looked around him, and seeing no one about, he quickly ascended to the garret.
 
 Finished this a while back. Naughty Leon, neglecting the reading journal.

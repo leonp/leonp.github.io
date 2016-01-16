@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Rings of Saturn
+category: thinking
 ---
 
 Reading Sebald again, which is always a deep pleasure. This is my second run through his East Anglian pilgrimage.

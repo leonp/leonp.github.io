@@ -1,8 +1,7 @@
 ---
-date: 2012-07-18 10:58:57+00:00
 layout: post
 title: Evening Edition and making readable news
-category: work
+category: web
 ---
 
 Noted&#8212;[Evening Edition](http://evening-edition.com/), a daily news digest that plays nicely with mobile screens.
@@ -20,5 +19,3 @@ Online newspapers still find it difficult to let readers find and just read news
 Because computers are good at storing and classifying data online newspapers have been designed more like archives than something you just read.
 
 That's not to say archiving isn't a really important function. Sometimes you might want to research an organisation's history or see what happened ten years ago. But it's not what the majority of readers want, and newspaper design should reflect that.
-
-
