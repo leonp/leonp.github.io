@@ -1,12 +1,9 @@
 ---
 title: A few notes on moving from WordPress to Jekyll
-author: Leon
-excerpt: "It's not that difficult and Jekyll's quick and elegant."
 layout: post
-permalink: /2013/06/moving-from-wordpress-to-jekyll/
-category: work
+category: web
 ---
-<figure class="figure alignnone"><img class="full-bleed wp-image-32 size-full" src="http://leonpaternoster.com/wp-content/uploads/2013/06/jekyll.jpg" alt="Poster of Jekyll turning into Hyde" width="1020" height="709" /><figcaption class="secondary">Image from [Wikimedia][1]</figcaption></figure> 
+
 Last night I migrated my blog from WordPress to [Jekyll][2]. As it doesn&#8217;t really make much difference to readers (apart from in one major way, which I&#8217;ll discuss in a bit), I wasn&#8217;t planning to write about it. But the change elicited a few Twitter comments, so here&#8217;s a rough and ready explanation/guide.
 
 ## What&#8217;s Jekyll?
@@ -25,11 +22,7 @@ Finally, the Jekyll **writing workflow** is simpler and more flexible than WordP
 
 ## Disadvantages
 
-Initially, Jekyll is daunting, especially if you&#8217;re not used to the **command line**. You can&#8217;t open a program with an icon and windows and buttons. This is what you&#8217;ll be using:<figure>
-
-![Screenshot of the Linux command line][5]</figure> <p class="figcaption">
-  A command line, yesterday
-</p>
+Initially, Jekyll is daunting, especially if you&#8217;re not used to the **command line**. You can&#8217;t open a program with an icon and windows and buttons. This is what you&#8217;ll be using.
 
 To get everything up and running you&#8217;ll need to install Ruby and the Jekyll gems, and write in Markdown. You&#8217;ll also have to use an FTP client (or even run the site through Github).
 
@@ -80,7 +73,7 @@ It&#8217;s also worth remembering you can run a special Ruby command line from W
 
 I couldn&#8217;t get the ‘official’ WordPress importer to work, but [exitwp][9] was excellent. Just make sure you follow *all* the instructions carefully.
 
-Unfortunately, you won&#8217;t just be able to publish your exported markdown posts as is. **They&#8217;ll need *some* editing**. For example, exitwp didn&#8217;t handle WordPress&#8217;s `` very well. I found that a normal post will take around two–five minutes to edit, depending on how many images it contains, which is why I&#8217;ve only published 10 at the time of writing (check your analytics to see what&#8217;s popular).
+Unfortunately, you won&#8217;t just be able to publish your exported markdown posts as is. **They&#8217;ll need *some* editing**. For example, exitwp didn&#8217;t handle WordPress&#8217;s quotes very well. I found that a normal post will take around two–five minutes to edit, depending on how many images it contains, which is why I&#8217;ve only published 10 at the time of writing (check your analytics to see what&#8217;s popular).
 
 You&#8217;ll save yourself a lot of heartache if you can **keep your existing permalink and image path settings**. It&#8217;s easy to configure pretty URLs in Jekyll (and I published a post on [keeping the standard YY/MM/post-name structure][10]).
 
@@ -95,11 +88,7 @@ Again, this isn&#8217;t as daunting as it seems. Both these methods worked perfe
 
 ## Conclusion
 
-And that&#8217;s all I did. I now have a website that&#8217;s generated on my laptop then uploaded to my server. I&#8217;ve found it easy to publish posts and everything is a lot quicker:<figure>
-
-![Screenshot of my faster than 100% of other sites pingdom result][13]</figure> <p class="figcaption">
-  My site put through <a href="http://tools.pingdom.com/fpt/">Pingdom&#8217;s tester</a>
-</p>
+And that&#8217;s all I did. I now have a website that&#8217;s generated on my laptop then uploaded to my server. I&#8217;ve found it easy to publish posts and everything is a lot quicker.
 
 If you know the basics of WordPress theme creation then you should know enough to start using Jekyll. It all depends on how important comments and plugins are to you. WordPress isn&#8217;t ‘bloated’–it&#8217;s just more than you need for a simple blog.
 

@@ -1,8 +1,7 @@
 ---
-date: 2013-07-07 10:58:57+00:00
 layout: post
 title: Evening Edition looks good but has an audience problem
-category: work
+category: web
 ---
 
 The ever excellent Nieman Journalism Lab ran <a href="http://www.niemanlab.org/2013/07/evening-edition-looks-to-build-beyond-its-simple-model/">a low key piece on <cite>Evening Edition</cite></a> earlier this week, noting its moderate subscriber numbers and the appointment of a new editor&#8211;in&#8211;chief.

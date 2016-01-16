@@ -1,17 +1,7 @@
 ---
-author: admin
-comments: true
-date: 2013-05-06 19:42:31+00:00
 layout: post
-slug: hhhh-and-the-value-of-print
 title: HHhH and the value of print
-wordpress_id: 3440
-categories:
-- Literature
-tags:
-- Binet
-- Heydrick
-- reading
+category: thinking
 ---
 
 > But in the Sudetenland, news of the Anschluss provokes an extraordinary enthusiasm. Suddenly people talk only of their ultimate fantasy: being reunited with the Reich… Beneš will write in his memoirs that he was stunned by this mystical romanticism that seemed to suddenly seize all the Germans of Bohemia.
@@ -20,8 +10,6 @@ He [Hitler] was reportedly seen throwing himself to the floor and chewing the ed
 
 
 HHhH is the story of [Reinhard Heydrich](http://en.wikipedia.org/wiki/Reinhard_Heydrich)'s assassination in 1942. Or rather, it's the story of the assassination and the story of writing the story. Depicting monstrous characters like Heydrich, Himmler and Göring is difficult. We enjoy reading grotesque scenes in the same way we enjoy reading horror, while we ignore the artifice, selection and judgement involved in writing history (or historical fiction), and the fact that something incredibly evil _really_ happened. This is fiction that isn't just fiction.
-
-[caption id="" align="aligncenter" width="524"]![Reinhard Heydrich in nazi uniform](http://upload.wikimedia.org/wikipedia/commons/a/a5/Bundesarchiv_Bild_146-1969-054-16%2C_Reinhard_Heydrich.jpg) Reinhard Heydrich, the Hangman of Prague[/caption]
 
 While reading HHhH I came across this comprehensive [review of the research into the differences between reading from paper and screens](http://www.scientificamerican.com/article.cfm?id=reading-paper-screens&page=1). It's fascinating stuff, and I liked the melancholic tone.
 

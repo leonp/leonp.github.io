@@ -1,22 +1,13 @@
 ---
-author: admin
-comments: true
-date: 2013-06-12 19:46:55+00:00
 layout: post
-slug: how-to-write-a-factually-dubious-but-potent-blog-post
 title: How to write a factually dubious but potent blog post
-wordpress_id: 3496
-categories:
-- Writing
-tags:
-- libraries
-- style
+category: web
 ---
 
 I’m referring to [this article about… well, what _exactly_ it’s about I’m not sure](http://www.goodlibraryguide.com/blog/archives/2013/06/amazon_and_goog.html), but it's a superlative 167 words.
 
 9 killer techniques in 167 words (91 fewer than I could manage talking about it):
-	
+
 * Contentious title and opening. Your first reaction when you read it? Probably _Never!_
 * Short, active sentences and paragraphs.
 * Reference to powerful, controversial brand names (the library world both admires and fears Amazon and Google).
@@ -30,7 +21,7 @@ I’m referring to [this article about… well, what _exactly_ it’s about I’
 Unsurprisingly, several people commented.
 
 But read it again, and a few gaps appear:
-	
+
 * _Legal tax evasion_ is an oxymoron that comes from the writer's attempt to resolve several contradictory ideas. Should Google and Amazon be allowed to dodge tax – not that they did dodge tax, of course – in order to save taxpayers money?
 * The America example is intriguing but not outlined in _any_ detail at all.
 * In the same vein, _how_ has Google provided a better information service? One sentence would do.

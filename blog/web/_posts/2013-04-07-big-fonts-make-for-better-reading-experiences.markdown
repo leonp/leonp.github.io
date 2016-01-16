@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Big fonts make for better reading experiences
-category: work
+category: web
 ---
 
 A month or so ago we bought a new television. We'd used a trusty 20 inch Toshiba for 10 years or so, but it had begun to act a bit strangely.
