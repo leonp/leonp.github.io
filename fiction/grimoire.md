@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The Mad Arab's ePub
+title: Grimoire
 category: fiction
 layout: story
 ---
@@ -23,4 +23,4 @@ He lay on the floor, a jumble of arms and legs, a binliner of unwanted clothes.
 
 _Don’t come up here!_
 
-There was an iPad by the body, emitting an eldritch glow. Reading the wrong things, unprepared fool.
+There was an iPad by the body, emitting an eldritch glow. _Too easy to find difficult knowledge._
