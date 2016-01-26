@@ -14,4 +14,4 @@ I don't disagree, but Kettle's wrong in his conclusion. Michael Rosen (also a pa
 
 All politics is based on the _belief_ that the world should work in a certain way, and, as such, all politics is in a sense religious. Politics isn't science, or maths, although we use science and maths in the service of our beliefs.
 
-And like all religions, there are the simplistic, doctrinaire versions useful to gangsters (Stalin's Soviet union), more nuanced interpretations (Gramsci, Frankfurt school, Zizek etc.) and a more &#8216;practical&#8217; version that can look a lot like apostasy.
+And like all religions, there are the simplistic, doctrinaire versions useful to gangsters (Stalin's Soviet union), more nuanced interpretations (Gramsci, Frankfurt school, Zizek and a million and one post-Marx writers) and a more &#8216;practical&#8217; version that can look a lot like apostasy.
