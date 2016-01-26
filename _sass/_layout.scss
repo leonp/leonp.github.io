@@ -23,7 +23,7 @@
 
 .page {
 	background-color: $light;
-	padding: $single-line;
+	padding: $single-line $half-line;
 
 	@media #{$bp} {
 		padding: $single-line $double-line;
