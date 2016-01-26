@@ -2,8 +2,13 @@
 
     .link-list-item,
     .link-list li {
-        margin-bottom: $quarter-line;
+        margin-bottom: $three-quarter-line;
         font-family: $secondary-font;
+        list-style-type: none;
+        margin-left: 0;
+        line-height: 1.2em;
+        padding-top: $quarter-line;
+        border-top: 1px dotted $midgrey;
     }
 
     .link-list-item-meta {

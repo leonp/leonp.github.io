@@ -3,20 +3,36 @@
 .wrapper {
 	max-width: $screen-max-width;
 	padding: 0 $half-line;
+
+	@media #{$bp} {
+		padding-top: 0 $double-line;
+	}
+
 	margin: 0 auto;
 }
 
 #content {
-	margin-top: $single-line;
+	padding: $single-line 0;
+	background-color: $background;
 
 	@media #{$bp} {
-		margin-top: $double-line;
+		padding-top: $double-line;
+	}
+
+}
+
+.page {
+	background-color: $light;
+	padding: $half-line;
+
+	@media #{$bp} {
+		padding: $single-line $double-line;
+		border: 1px solid $lgrey;
 	}
 
 }
 
 #footer {
-	margin-top: $single-line;
 	padding: $half-line 0;
 	border-top: 1px dotted $midgrey;
 }

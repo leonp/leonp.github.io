@@ -4,10 +4,11 @@
         padding: $half-line 0;
         border-bottom: 1px dotted $midgrey;
         font-family: $secondary-font;
+        background-color: $highlight;
     }
 
     .top-bar a {
-        color: $dark;
+        color: $light;
         padding: $quarter-line;
 
         @media #{$bp} {
@@ -19,7 +20,7 @@
     .top-bar-current,
     .top-bar a:hover {
         text-decoration: none;
-        border-bottom: $eighth-line solid $dark;
+        border-bottom: $eighth-line solid $light;
     }
 
     .top-bar li {
