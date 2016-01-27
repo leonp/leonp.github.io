@@ -13,7 +13,6 @@
 
 #content {
 	padding: $single-line 0;
-	background-color: $background;
 
 	@media #{$bp} {
 		padding-top: $double-line;
@@ -27,14 +26,14 @@
 
 	@media #{$bp} {
 		padding: $single-line $double-line;
-		border: 1px solid $lgrey;
+		border: 1px solid $midgrey;
+		border-radius: $quarter-line;
 	}
 
 }
 
 #footer {
 	padding: $half-line 0;
-	border-top: 1px dotted $midgrey;
 }
 
 #footer p {
