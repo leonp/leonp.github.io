@@ -12,7 +12,7 @@ Ipswich has two mainstream newspapers, the <cite>Ipswich Star</cite> and the <ci
 
 The result is a non-controversial mix of press releases and feelgood fluff, with the honorable exception of a few specialist journalists' writing (for example, <cite>The Star</cite>'s political editor, Paul Geater).
 
-We do have the excellent <cite>[Ipswich Spy](https://ipswichspy.com/)</cite>, which started out as a political blog before expanding into 'normal' news, jobs and even a style section, as well as other parts of Suffolk. It's well connected and continues to report local politics in some depth, but it's not an investigative website in the same way as <cite>The Bristol Cable</cite>.
+We do have the excellent <cite>[Ipswich Spy](https://ipswichspy.com/)</cite>, which started out as a political blog before expanding into 'normal' news, jobs and even a style section, as well as other parts of Suffolk. It's well connected and continues to report local politics in some depth, but it's not an investigative website in the same way as <cite>[The Bristol Cable](https://thebristolcable.org/)</cite>.
 
 ## What will it report?
 
