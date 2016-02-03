@@ -2,7 +2,9 @@
 title: Bad WordPress user names
 layout: post
 category: web
+published: true
 ---
+
 
 If you publish a website someone will try to hack into it in order to flog Viagra (read [my sorry tale](/2016/01/me-wordpress-and-getting-hacked/)). Because a huge proportion of the world's websites are published using WordPress it's particularly vulnerable software.
 
@@ -12,6 +14,7 @@ These emails include the would-be hacker's attempted login credentials. They'll 
 
 - admin (because this is what WordPress gives you by default)
 - your website name (with and without the [TLD](https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains))
+- any published email address (with and without the TLD)
 - your Twitter handle
 - your Facebook page name
 
