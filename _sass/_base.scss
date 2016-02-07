@@ -35,6 +35,7 @@ main {
 
 html {
 	background-color: $background;
+	background-image: url('/images/symphony.jpg');
 	color: $dark;
 }
 
@@ -49,8 +50,10 @@ body {
 	}
 
 	@media #{$bp} {
-		max-width: 95%;
+		max-width: 80%;
 		margin: $single-line auto;
+		border: 1px solid $lgrey;
+		border-radius: $quarter-line;
 	}
 
 	@media #{$vwbp} {
