@@ -10,7 +10,7 @@ The normal process is:
 
 1. A colleague tells us they want a new section on the website
 2. They email various ideas and bits of text
-3. We meet the colleague and agreewhat we're going to do
+3. We meet the colleague and agree what we're going to do
 4. We (all 2 of us) start sketching
 
 Today we were at stage 4 when I had the no doubt not entirely original idea of including the colleague:
