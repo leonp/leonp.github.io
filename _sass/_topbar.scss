@@ -3,13 +3,13 @@
     .top-bar {
         padding: $half-line 0;
         font-family: $secondary-font;
-        background-color: $highlight;
-        color: $light;
+        background-color: $light;
+        color: $grey;
         border-bottom: 1px solid $midgrey;
     }
 
     .top-bar a {
-        color: $light;
+        color: $grey;
         padding: $quarter-line;
 
         @media #{$bp} {
@@ -21,7 +21,8 @@
     .top-bar-current,
     .top-bar a:hover {
         text-decoration: none;
-        border-bottom: $eighth-line solid $light;
+        border-bottom: $eighth-line solid $dark;
+        color: $dark !important;
     }
 
     .top-bar li {
