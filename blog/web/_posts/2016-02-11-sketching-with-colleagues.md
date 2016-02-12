@@ -9,9 +9,9 @@ We tried a new way of coming up with ideas for web pages today.
 The normal process is:
 
 1. A colleague tells us they want a new section on the website
-2. They email various ideas and bits of text
-3. We meet the colleague and agree what we're going to do
-4. We (all 2 of us) start sketching
+2. The colleague email various ideas and bits of text
+3. The web team meets the colleague and agrees an outline for the new section
+4. The web team (all 2 of us) start sketching
 
 Today we were at stage 4 when I had the no doubt not entirely original idea of including the colleague:
 
@@ -23,6 +23,8 @@ Today we were at stage 4 when I had the no doubt not entirely original idea of i
 
 </figure>
 
-It worked really well. I reckon colleagues will feel a lot more involved while you can explain why your doing x and not doing y. Seeing what text and images you're planning on using, and how, will encourage colleagues to provide content, and you can design around anything they're already planning to provide.
+It worked really well. I expect colleagues feel a lot more involved when you explain why you're doing _x_ and not doing _y_ &#8211; especially when they can _see_ why.
 
-You'll also save time and ill feeling in the future because when you present your first HTML page it won't be a _complete_ surprise.
+You can sketch ideas around any content they've provided up front, while they'll have more incentive to provide text and images if they can understand its purpose within a design.
+
+Finally, you'll hopefully save time and disagreement in the future because when you present your first HTML page it won't be a _complete_ surprise to your colleague.
