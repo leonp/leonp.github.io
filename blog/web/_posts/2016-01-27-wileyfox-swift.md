@@ -8,7 +8,7 @@ published: true
 
 Noted: if you were looking for a cheap smartphone, the [Wileyfox Swift](https://www.wileyfox.com/swift/) (cheesy name and logo aside) looks a good choice ([combined with a giffgaff SIM card](https://twitter.com/everythingabili/status/692319886584995840)).
 
-<p><img src="/images/wileyfox-swift.jpg" alt="The Wileyfox smartphone"></p>
+<p><img class="bleed" src="/images/wileyfox-swift.jpg" alt="The Wileyfox smartphone"></p>
 
 It looks like the old Nexus 4, which was my phone for a good couple of years. To be honest, I preferred it to the replacement iPhone I got from work.
 

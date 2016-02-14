@@ -7,6 +7,7 @@
         margin-bottom: $single-line;
         background-color: $highlight;
         color: $light;
+        text-shadow: 1px 1px 1px $midgrey;
     }
 
     .entry-title {
@@ -111,6 +112,15 @@
         border: 1px $lgrey solid;
         display: block;
         margin-bottom: $quarter-line;
+    }
+
+    .entry-content img.bleed {
+
+        @media #{$bp} {
+            margin-left: -$half-line;
+            max-width: $bleed-width !important;
+        }
+
     }
 
 
