@@ -45,71 +45,67 @@
 
 			<h1 class="hide">Navigation</h1>
 
-			<div class="wrapper">
+			<ul>
 
-				<ul>
+				{% if page.title != 'Leon Paternoster' %}
 
-					{% if page.title != 'Leon Paternoster' %}
+					<li><a href="/">Home</a></li>
 
-						<li><a href="/">Home</a></li>
+				{% else %}
 
-					{% else %}
+					<li><a class="top-bar-current" href="/">Home</a></li>
 
-						<li><a class="top-bar-current" href="/">Home</a></li>
+				{% endif %}
 
-					{% endif %}
+				{% if page.title != 'About' %}
 
-					{% if page.title != 'About' %}
+					<li><a href="/about">About</a></li>
 
-						<li><a href="/about">About</a></li>
+				{% else %}
 
-					{% else %}
+					<li><a class="top-bar-current" href="/about">About</a></li>
 
-						<li><a class="top-bar-current" href="/about">About</a></li>
+				{% endif %}
 
-					{% endif %}
+				{% if page.title != 'Blog' %}
 
-					{% if page.title != 'Blog' %}
+					<li>
 
-						<li>
+						<a href="/blog">Blog</a>
 
-							<a href="/blog">Blog</a>
+						{% if page.title == 'Web' %}
 
-							{% if page.title == 'Web' %}
+							<span> &rarr; <a class="top-bar-current" href="/blog/web">Web</a></span>
 
-								<span> &rarr; <a class="top-bar-current" href="/blog/web">Web</a></span>
+						{% endif %}
 
-							{% endif %}
+						{% if page.title == 'Politics' %}
 
-							{% if page.title == 'Politics' %}
+							<span> &rarr; <a class="top-bar-current" href="/blog/politics">Politics</a></span>
 
-								<span> &rarr; <a class="top-bar-current" href="/blog/politics">Politics</a></span>
+						{% endif %}
 
-							{% endif %}
+						{% if page.title == 'Thinking' %}
 
-							{% if page.title == 'Thinking' %}
+							<span> &rarr; <a class="top-bar-current" href="/blog/thinking">Thinking</a></span>
 
-								<span> &rarr; <a class="top-bar-current" href="/blog/thinking">Thinking</a></span>
+						{% endif %}
 
-							{% endif %}
+						{% if page.title == 'Libraries' %}
 
-							{% if page.title == 'Libraries' %}
+							<span> &rarr; <a class="top-bar-current" href="/blog/libraries">Libraries</a></span>
 
-								<span> &rarr; <a class="top-bar-current" href="/blog/libraries">Libraries</a></span>
+						{% endif %}
 
-							{% endif %}
+					</li>
 
-						</li>
+				{% else %}
 
-					{% else %}
+					<li><a class="top-bar-current" href="/">Blog</a></li>
 
-						<li><a class="top-bar-current" href="/">Blog</a></li>
+				{% endif %}
 
-					{% endif %}
-
-				</ul>
-
-			</div>
+			</ul>
 
 		</nav>
 

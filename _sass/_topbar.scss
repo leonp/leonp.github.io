@@ -1,15 +1,13 @@
 @media screen, projection {
 
     .top-bar {
-        padding: $half-line 0;
-        font-family: $secondary-font;
-        background-color: $light;
-        color: $grey;
-        border-bottom: 1px solid $midgrey;
+        padding: $quarter-line $half-line;
+        background-color: $dark;
+        color: $light;
     }
 
     .top-bar a {
-        color: $grey;
+        color: $light;
         padding: $quarter-line;
 
         @media #{$bp} {
@@ -21,8 +19,7 @@
     .top-bar-current,
     .top-bar a:hover {
         text-decoration: none;
-        border-bottom: $eighth-line solid $dark;
-        color: $dark !important;
+        color: $highlight !important;
     }
 
     .top-bar li {
@@ -33,9 +30,6 @@
             font-size: $size-3;
         }
 
-        font-weight: bold;
-        text-transform: lowercase;
-        font-variant: small-caps;
     }
 
     .top-bar li:after {

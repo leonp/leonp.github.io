@@ -3,19 +3,10 @@
 .wrapper {
 	max-width: $screen-max-width;
 	padding: 0 $half-line;
-
-	@media #{$bp} {
-		padding-top: 0 $double-line;
-	}
-
 	margin: 0 auto;
-}
-
-#content {
-	padding: $single-line 0;
 
 	@media #{$bp} {
-		padding-top: $double-line;
+		margin: 0;
 	}
 
 }
@@ -23,20 +14,21 @@
 .page {
 	background-color: $light;
 	padding: $single-line $half-line;
-
-	@media #{$bp} {
-		padding: $single-line $double-line;
-	}
-
+	max-width: $page-width;
 }
 
 #footer {
 	padding: $half-line 0;
-	border-top: 1px solid $midgrey;
+	background-color: $dark;
+	color: $light;
 }
 
 #footer p {
 	font-size: $size-3;
+}
+
+#footer a {
+	color: $highlight;
 }
 
 

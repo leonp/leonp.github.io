@@ -50,10 +50,6 @@
 
     .entry-content li {
     	margin-left: 1.25em;
-
-    	@media #{$bp} {
-    		margin-left: 0;
-    	}
     }
 
     .entry-content blockquote {
