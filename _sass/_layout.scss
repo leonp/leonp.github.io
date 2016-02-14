@@ -13,7 +13,7 @@
 
 .page {
 	background-color: $light;
-	padding: $single-line $half-line;
+	padding: 0 $half-line $single-line $half-line;
 	max-width: $page-width;
 }
 
