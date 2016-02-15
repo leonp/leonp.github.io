@@ -1,17 +1,18 @@
 @media screen, projection {
 
     .top-bar {
-        padding: $quarter-line 0;
-        color: $dark;
+        padding: 0;
+        color: $highlight;
         margin-bottom: $single-line;
         font-family: $secondary-font;
         text-transform: lowercase;
         font-variant: small-caps;
         font-weight: bold;
+        border-bottom: $quarter-line solid $highlight;
     }
 
     .top-bar a {
-        color: $dark;
+        color: $grey;
         padding: $quarter-line;
 
         @media #{$bp} {
@@ -24,25 +25,17 @@
     .top-bar a:hover {
         text-decoration: none;
         color: $dark !important;
-        border-bottom: $eighth-line solid $dark;
     }
 
     .top-bar li {
         list-style-type: none;
         display: inline;
+        margin-right: $half-line;
 
         @media #{$bp} {
             font-size: $size-3;
         }
 
-    }
-
-    .top-bar li:after {
-        content: ' / ';
-    }
-
-    .top-bar li:last-child:after {
-        content: '';
     }
 
 }

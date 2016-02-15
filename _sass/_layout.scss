@@ -13,11 +13,11 @@
 
 .page {
 	background-color: $light;
-	padding: $single-line $half-line;
+	padding: 0 $half-line;
 	margin: 0 auto;
 
 	@media #{$bp} {
-		padding: $single-line $treble-line;
+		padding: $half-line $double-line;
 		border: 1px solid $midgrey;
 	}
 
@@ -26,7 +26,8 @@
 }
 
 #footer {
-	padding: $half-line 0;
+	padding: $eighth-line 0;
+	border-top: $eighth-line solid $highlight;
 }
 
 #footer p {
