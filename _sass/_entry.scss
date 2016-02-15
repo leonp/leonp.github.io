@@ -5,15 +5,11 @@
         margin-right: -$half-line;
         margin-left: -$half-line;
         margin-bottom: $single-line;
-        background-color: $highlight;
-        color: $light;
-        text-shadow: 1px 1px 1px $dark;
     }
 
     .entry-title {
-    	font-size: $size-8;
-        color: $light;
-        margin-bottom: $eighth-line;
+    	font-size: $size-6;
+        margin-bottom: $quarter-line;
     }
 
     .entry-meta {
@@ -21,9 +17,9 @@
     }
 
     .entry-content {
-    padding-bottom: $single-line;
-      hyphens: auto;
-      -moz-hyphens: auto;
+        padding-bottom: $single-line;
+        hyphens: auto;
+        -moz-hyphens: auto;
     }
 
     .entry-content a:link {
@@ -117,12 +113,11 @@
     .entry-content img.bleed {
 
         @media #{$bp} {
-            margin-left: -$half-line;
+            margin-left: -$treble-line;
             max-width: $bleed-width !important;
         }
 
     }
-
 
     .figcaption {
     	padding-bottom: $half-line;

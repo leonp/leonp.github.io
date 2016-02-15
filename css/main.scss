@@ -16,8 +16,8 @@ $display-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen"
 
 // Size
 
-$base-line-height: 1.45;
-$single-line: 1.45em;
+$base-line-height: 1.4;
+$single-line: 1.4em;
 $line-and-a-half: ($single-line * 1.5);
 $double-line: ($single-line * 2);
 $treble-line: ($single-line * 3);
@@ -29,10 +29,10 @@ $eighth-line: ($single-line / 8);
 $base-font-size: 125%;
 $widescreen-font-size: 150%;
 $very-widescreen-font-size: 150%;
-$max-width: 32em;
-$screen-max-width: 32em;
-$page-width: 32em;
-$bleed-width: ($page-width);
+$max-width: 40em;
+$screen-max-width: 40em;
+$page-width: 28em;
+$bleed-width: ($page-width+$treble-line+$treble-line);
 
 
 // Type scale (see http://type-scale.com/ minor third)
@@ -52,7 +52,7 @@ $size-8: 2.074em;
 $black: #000;
 $dark: #444;
 $light: #FFF;
-$highlight: #49D4FF;
+$highlight: #FCC100;
 $grey: #AAA;
 $lgrey: #F7F7F7;
 $midgrey: #DFDFDF;

@@ -49,7 +49,7 @@ body {
 
 	@media #{$bp} {
 		max-width: $max-width;
-		margin: 0 auto;
+		margin: $single-line auto;
 	}
 
 	@media #{$vwbp} {
