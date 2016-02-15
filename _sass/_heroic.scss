@@ -1,25 +1,8 @@
 @media screen, projection {
 
     .hero {
-        margin-top: -$single-line;
-    	padding: $single-line 0;
-        background-color: $highlight;
-        color: $light;
-
-        @media #{$bp} {
-            padding: $double-line 0;
-            margin-top: -$double-line;
-        }
-
+        background-image: url('/images/robotic.jpg');
+        height: $quadruple-line;
     }
-
-    .hero a {
-        font-weight: bold;
-    }
-
-    .hero-title {
-        color: $light;
-    }
-
 
 }

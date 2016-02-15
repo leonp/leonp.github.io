@@ -9,6 +9,14 @@ layout: default
 
 I'm web and customer service manager at <a href="http://suffolklibraries.co.uk">Suffolk Libraries</a> (although I go under the fairly grandiose title of deputy head of IT).
 
+<figure class="figure">
+
+    <img class="bleed" alt="Leon Paternoster" src="/images/leon-2016-02-15.jpg">
+
+    <figcaption class="figcaption"><p>Leon, yesterday</p></figcaption>
+
+</figure>
+
 We're a mutual that was formed in 2012 to run Suffolk's Library service.
 
 We design, build and manage our website in house, and fit several external services such as the catalogue of physical titles and ebook service into it.
