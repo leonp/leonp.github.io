@@ -2,12 +2,11 @@
 
     .top-bar {
         padding: 0;
-        color: $highlight;
+        color: $grey;
         margin-bottom: $single-line;
         font-family: $secondary-font;
         text-transform: lowercase;
         font-variant: small-caps;
-        font-weight: bold;
         border-bottom: $quarter-line solid $highlight;
     }
 
@@ -25,7 +24,7 @@
     .top-bar-current,
     .top-bar a:hover {
         text-decoration: none;
-        color: $dark !important;
+        color: $highlight !important;
     }
 
     .top-bar li {
