@@ -17,7 +17,7 @@ Today we were at stage 4 when I had the no doubt not entirely original idea of i
 
 <figure>
 
-<img src="/images/board.jpg" alt="A board with a sketch on it">
+<img class="bleed" src="/images/board.jpg" alt="A board with a sketch on it">
 
 <figcaption class="figcaption"><p>A website sketch, yesterday</p></figcaption>
 

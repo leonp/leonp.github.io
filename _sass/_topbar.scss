@@ -2,16 +2,14 @@
 
     .top-bar {
         padding: 0;
-        color: $grey;
+        color: $dark;
         margin-bottom: $single-line;
         font-family: $secondary-font;
-        text-transform: lowercase;
-        font-variant: small-caps;
         border-bottom: $quarter-line solid $highlight;
     }
 
     .top-bar a {
-        color: $grey;
+        color: $dark;
         padding: $quarter-line;
 
         @media #{$bp} {
