@@ -9,7 +9,7 @@ category: web
 
 <figure>
 
-<img src="/images/forbes.jpg" alt="The Forbes splash screen">
+<img src="/images/forbes.jpg" class="bleed" alt="The Forbes splash screen">
 
 <figcaption class="figcaption"><p>The Forbes quote of the day</p></figcaption>
 

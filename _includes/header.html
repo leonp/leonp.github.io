@@ -59,6 +59,16 @@
 
 					{% endif %}
 
+					{% if page.title != 'About' %}
+
+						<li><a href="/about">About</a></li>
+
+					{% else %}
+
+						<li><a class="top-bar-current" href="/about">About</a></li>
+
+					{% endif %}
+
 					{% if page.title != 'Blog' %}
 
 						<li>

@@ -9,8 +9,8 @@
 
 
 // Fonts
-$main-font: freight-text-pro, serif;
-$secondary-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", 'Source Sans Pro', sans-serif, proxima-nova, sans-serif;
+$main-font: proxima-nova, sans-serif;
+$secondary-font: proxima-nova, sans-serif;
 $display-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", 'Source Sans Pro', sans-serif;
 
 
@@ -32,7 +32,7 @@ $very-widescreen-font-size: 150%;
 $max-width: 40em;
 $screen-max-width: 40em;
 $page-width: 27em;
-$bleed-width: ($page-width+$double-line+$double-line);
+$bleed-width: ($page-width+$quadruple-line);
 
 
 // Type scale (see http://type-scale.com/ minor third)
