@@ -1,9 +1,6 @@
 @media screen, projection {
 
     .entry-header {
-        padding: $half-line;
-        margin-right: -$half-line;
-        margin-left: -$half-line;
         margin-bottom: $single-line;
     }
 
@@ -56,10 +53,9 @@
     }
 
     .entry-content blockquote {
-      font-size: $size-3;
-    	margin: $single-line 0 $single-line $single-line;
-    	padding-left: $half-line;
-      border-left: $quarter-line solid $lgrey;
+        font-size: $size-3;
+        margin: $single-line 0 $single-line $single-line;
+        padding-left: $half-line;
     }
 
     .entry-content h1,
@@ -114,7 +110,7 @@
     .entry img.bleed {
 
         @media #{$bp} {
-            margin-left: -$double-line;
+            margin-left: -($double-line+$half-line);
             max-width: $bleed-width !important;
             border: none;
         }

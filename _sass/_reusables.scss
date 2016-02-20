@@ -1,7 +1,7 @@
 @media screen, projection {
 
     .secondary {
-        font-family: $secondary-font;
+        font-size: $size-4;
     }
 
     .primary {
@@ -76,7 +76,25 @@
             margin-left: -$double-line;
             max-width: $bleed-width !important;
         }
-        
+
+    }
+
+    .bg-lgrey {
+        background-color: $lgrey;
+    }
+
+    .bg-light {
+        background-color: $light;
+    }
+
+    .bg-symphony {
+        background-image: url('/images/symphony.jpg');
+    }
+
+    .niblet {
+        font-weight: bold;
+        text-transform: lowercase;
+        font-variant: small-caps;
     }
 
 }

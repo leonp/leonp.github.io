@@ -1,0 +1,20 @@
+@media screen, projection {
+
+    .pill-nav a {
+        background-color: $lgrey;
+        padding: $quarter-line $half-line;
+        border-radius: $eighth-line;
+        color: $grey !important;
+        text-decoration: none !important;
+        font-size: $size-3;
+        text-transform: lowercase;
+        font-variant: small-caps;
+    }
+
+    .pill-nav a:hover,
+    .pill-nav a:active,
+    .pill-nav a:focus {
+        color: $highlight !important;
+    }
+
+}

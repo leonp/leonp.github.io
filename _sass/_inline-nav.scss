@@ -7,7 +7,7 @@
     .inline-nav li,
     .inline-nav-item {
         display: inline;
-        margin-right: $half-line;
+        margin-right: $quarter-line;
         @media #{$nbp} {
             margin-right: $single-line;
         }

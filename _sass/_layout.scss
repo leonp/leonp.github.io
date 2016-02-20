@@ -1,33 +1,19 @@
 @media screen, projection {
 
 .wrapper {
-	max-width: $screen-max-width;
-	padding: 0 $half-line;
-	margin: 0 auto;
-
-	@media #{$bp} {
-		margin: 0;
-	}
-
+	max-width: $max-page-width;
 }
 
-.page {
-	background-color: $light;
+#header {
 	padding: 0 $half-line;
-	margin: 0 auto;
+}
 
-	@media #{$bp} {
-		padding: $half-line $double-line;
-		border: 1px solid $midgrey;
-	}
-
-	max-width: $page-width;
-
+#content {
+	padding: 0 $half-line;
 }
 
 #footer {
-	padding: $eighth-line 0;
-	border-top: 1px dotted $highlight;
+	padding: $half-line;
 }
 
 #footer p {

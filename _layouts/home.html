@@ -2,47 +2,115 @@
 
 <article class="entry">
 
-	<div class="entry-header">
-
-		<h1 class="entry-title">Leon Paternoster</h1>
-
-	</div>
+	<h1 class="hide">Leon Paternoster</h1>
 
 	<div class="entry-content">
 
-		<div class="primary">
+		<p class="secondary"><em>Web and customer service manager ~ <br>leon.paternoster@zoho.com / <a href="https://twitter.com/leonpaternoster">@leonpaternoster</a></em></p>
 
-			<p>Web and customer service manager at <a href="http://suffolklibraries.co.uk">Suffolk Libraries</a> and occasional designer of websites for small businesses and organisations.</p>
-
-			<p><em>leon.paternoster@zoho.com</em> / <a href="https://twitter.com/leonpaternoster">Twitter</a> / <a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></p>
-
-		</div>
-
-		<h2>Recent blog posts</h2>
-
-		<ul class="link-list">
+		<hr>
 
 		{% for post in site.categories.web limit:1 %}
 
-			<li class="link-list-item"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <span class="link-list-item-meta secondary">Posted <time>{{ post.date | date: "%b %-d %Y" }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
+			<article class="slot">
+
+				<header class="slot-header">
+
+					<h1 class="slot-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+
+					<div class="slot-meta">
+
+						<p>Posted <time>{{ post.date | date: "%b %-d %Y" }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></p>
+
+					</div>
+
+				</header>
+
+				<div class="slot-excerpt">
+
+					{{ post.excerpt }}
+
+				</div>
+
+			</article>
 
 		{% endfor %}
 
 		{% for post in site.categories.libraries limit:1 %}
 
-			<li class="link-list-item"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <span class="link-list-item-meta secondary">Posted <time>{{ post.date | date: "%b %-d %Y" }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
+		<article class="slot">
+
+			<header class="slot-header">
+
+				<h1 class="slot-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+
+				<div class="slot-meta">
+
+					<p>Posted <time>{{ post.date | date: "%b %-d %Y" }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></p>
+
+				</div>
+
+			</header>
+
+			<div class="slot-excerpt">
+
+				{{ post.excerpt }}
+
+			</div>
+
+		</article>
 
 		{% endfor %}
 
 		{% for post in site.categories.politics limit:1 %}
 
-			<li class="link-list-item"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <span class="link-list-item-meta secondary">Posted <time>{{ post.date | date: "%b %-d %Y" }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
+		<article class="slot">
+
+			<header class="slot-header">
+
+				<h1 class="slot-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+
+				<div class="slot-meta">
+
+					<p>Posted <time>{{ post.date | date: "%b %-d %Y" }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></p>
+
+				</div>
+
+			</header>
+
+			<div class="slot-excerpt">
+
+				{{ post.excerpt }}
+
+			</div>
+
+		</article>
 
 		{% endfor %}
 
 		{% for post in site.categories.thinking limit:1 %}
 
-			<li class="link-list-item"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <span class="link-list-item-meta secondary">Posted <time>{{ post.date | date: "%b %-d %Y" }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
+		<article class="slot">
+
+			<header class="slot-header">
+
+				<h1 class="slot-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+
+				<div class="slot-meta">
+
+					<p>Posted <time>{{ post.date | date: "%b %-d %Y" }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></p>
+
+				</div>
+
+			</header>
+
+			<div class="slot-excerpt">
+
+				{{ post.excerpt }}
+
+			</div>
+
+		</article>
 
 		{% endfor %}
 

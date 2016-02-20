@@ -1,14 +1,14 @@
 @media screen, projection {
 
 .slot {
-    padding-bottom: $line-and-a-half;
+    padding-bottom: $double-line;
 }
 
-.slot-meta {
-  margin-bottom: $quarter-line;
-}
-
+.slot-title,
 .entry-content .slot-title {
+    font-weight: normal;
+    font-size: $size-5;
+    margin-bottom: $eighth-line;
     padding: 0;
 }
 
@@ -16,14 +16,14 @@
     border-bottom: none;
 }
 
-.entry-content .slot-title {
-    font-size: $size-5;
+.slot-meta {
+  margin-bottom: $quarter-line;
+  font-size: $size-3;
+  color: $grey;
 }
 
 .entry-content .slot p {
     margin-bottom: 0;
 }
-
-
 
 }

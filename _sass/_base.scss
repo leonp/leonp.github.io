@@ -1,5 +1,6 @@
 @media screen, projection {
 
+html,
 body,
 ul,
 ol,
@@ -34,11 +35,12 @@ main {
 }
 
 html {
-	background-color: $lgrey;
+	background-color: $light;
 	color: $dark;
 }
 
 body {
+
 	font-size: $base-font-size;
 	line-height: $base-line-height;
 	font-family: $main-font;
@@ -47,10 +49,6 @@ body {
 		font-size: $widescreen-font-size;
 	}
 
-	@media #{$bp} {
-		max-width: $max-width;
-		margin: $single-line auto;
-	}
 
 	@media #{$vwbp} {
 		font-size: $very-widescreen-font-size;
@@ -67,7 +65,7 @@ h6,
 dt {
 	font-family: $secondary-font;
 	line-height: 1.2em;
-	color: $dark;
+	color: $highlight;
 }
 
 code {
