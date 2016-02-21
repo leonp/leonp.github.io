@@ -9,6 +9,14 @@ Read to accompany [Francis Wheen's biography of Marx](http://reading.leonpaterno
 
 (Incidentally, when David Miliband came to Ipswich during the leadership campaign, he made an interesting aside in his speech: _The Labour party is more methodist than Marx_.)
 
+<figure>
+
+<img class="bleed" alt="Original Communist Manifesto cover" src="/images/manifesto.jpg">
+
+<figcaption class="figcaption"><p>The cover of <cite>The Communist Manifesto</cite>. Boasts its own typeface &#8211; printers and typesetters were always politically radical.</p></figcaption>
+
+</figure>
+
 Well, Marx was wrong. Partly. The proletariat didn't overthrow the bourgeois. Instead, the bourgeois made concessions and became more dispersed. The nature of work changed and, as a consequence, so did societal relationships (a perfectly Marxist process). You could say that the conservative socialists won.
 
 Still, most of the Manifesto's ten demands came to be. And now they're disappearing. So it goes.
