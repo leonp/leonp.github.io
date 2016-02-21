@@ -1,19 +1,20 @@
 @media screen, projection {
 
     .top-bar {
-        color: $grey;
+        color: $dark;
         margin-bottom: $single-line;
-        font-family: $secondary-font;
         padding: $half-line;
+        position: relative;
 
         @media #{$bp} {
             padding: 0;
+            text-align: center;
         }
 
     }
 
     .top-bar a {
-        color: $grey;
+        color: $link;
         padding: $quarter-line 0;
 
         @media #{$bp} {

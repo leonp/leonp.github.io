@@ -1,14 +1,21 @@
 @media screen, projection {
 
 	.logo {
-		height: $single-line;
-		vertical-align: text-bottom;
+		height: auto;
+		width: auto;
+		max-height: $single-line;
+		vertical-align: middle;
 		border-radius: 50%;
+		border: $eighth-line solid $link;
 
 		@media #{$bp} {
-			height: $treble-line;
+			max-height: $double-line;
 		}
 
+	}
+
+	.logo:hover {
+		border: $eighth-line solid $highlight;
 	}
 
 }
