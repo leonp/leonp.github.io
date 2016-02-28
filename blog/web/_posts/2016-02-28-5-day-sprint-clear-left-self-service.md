@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A 5 day sprint with Clear Left exploring self-service machine software
+title: A 5 day sprint with Clear Left exploring library self-service machine software
 category: web
 ---
 
@@ -10,9 +10,9 @@ Here are a few observations about how Clear Left and a sprint work. It was certa
 
 ## Background
 
-We're replacing the self-service machines customers use to check out and return books in libraries (in this respect libraries are years ahead of supermarkets).
+We're replacing the self-service machines customers use to check out and return books in libraries. The machines were installed about 8 years ago (in this respect libraries are years ahead of supermarkets).
 
-A lot has changed in the last 8 years &#8211; there was no such thing as an iPad and the world wasn't quite as connected to the internet as it is now.
+A lot has changed in the last 8 years &#8211; in 2008 there was no such thing as an iPad and the world wasn't quite as connected to the internet as it is now.
 
 <figure>
 
@@ -22,15 +22,15 @@ A lot has changed in the last 8 years &#8211; there was no such thing as an iPad
 
 </figure>
 
-We discussed what a new self-service system might look like. The library IT team liked the idea of it being a lot more portable, device agnostic and easy to manage than the current system. All this led us to conclude that some sort of web app might be the best approach, rather than, say, a Windows client or an Android app.
+Over the last few weeks, the IT team has been discussing what a new self-service system might look like. We want something a lot more portable, cheaper, device agnostic and easy to manage than the current system. All this led us to conclude that some sort of web app might be the best approach, rather than, say, a Windows client or an Android app.
 
 As there aren't any software-only providers out there, we'd need to build it ourselves (or rather, get someone to build it for us).
 
-At this stage we felt we needed an expert opinion. Was this really the right approach? If so, what might a web app look like? What problems might we run into?
+At this stage we felt we needed an expert opinion. Was this really the right approach? If so, what might a web app look like? What problems might we run into? How do we go about this project?
 
-I hit on the idea of asking Clear Left to help us validate and explore our idea. Why Clear Left? Well, they have a stellar reputation and have done [similar digital strategy work with organisations like the Wellcome Trust](http://clearleft.com/made/wellcome-trust-digitalstories). Most of all, I felt we could trust them to keep accessibility to the fore. Not just in areas such as designing for older people or people with a visual impairment, but in keeping the whole system as open and device agnostic as possible.
+I hit on the idea of asking Clear Left to help us validate and explore our idea. Why Clear Left? Well, they have a stellar reputation and have done [similar digital strategy work with organisations like the Wellcome Trust](http://clearleft.com/made/wellcome-trust-digitalstories). Most of all, I felt we could trust them to keep accessibility to the fore. Not just in areas such as designing for older people or people with a visual impairment, but in keeping the whole system as open and device agnostic as possible. Clear Left's [Jeremy Keith](http://clearleft.com/is/jeremy-keith) understands the web and its technical side better than most, which I felt made them the ideal agency to undertake this work.
 
-There's a clear, longterm business advantage in keeping our hardware, software, library management system (LMS) and software _decoupled_ (a word we used a lot throughout the sprint). If you know a bit about the web development world, you know there are few people more committed to this idea of openness and accessibility than Clear Left's [Jeremy Keith](http://clearleft.com/is/jeremy-keith), for example.
+There's a clear, longterm business advantage in keeping our hardware, software, library management system (LMS) and software _decoupled_ (a word we used a lot during the week), and in extricating ourselves from [the cosy LMS/self-service provider world](/2015/12/kill-the-lms-future-digital-experience/).
 
 As you can imagine, I was pretty excited to get Jeremy and James Bates into the library for a weeklong _sprint_. I got a stack of A3 sheets ready for Monday morning.
 
@@ -106,7 +106,7 @@ The final stage involved assigning all the sketched ideas points based on how im
 
 ## Bringing it all together
 
-We did a _lot_ of work over the week (it is a sprint, after all). Jeremy looked into a javascript library that uses a device's camera to recognise barcodes, but found it wasn't _quite_ ready (unfortunately &#8211; getting rid of peripheral devices makes the whole web app approach a lot easier, and reduces our hardware costs). However, we did establish we could use an API rather than the SIP protocol (really good news &#8211; it means we can use simple https and access lots of LMS data). James produced some clickable prototypes that helped everyone picture what our own self-service app might actually look like:
+We did a _lot_ of work over the week (it is a sprint, after all). Jeremy looked into a javascript library that uses a device's camera to recognise barcodes, but found it wasn't _quite_ ready (unfortunately &#8211; getting rid of peripheral devices makes the whole web app approach a lot easier, and reduces our hardware costs). However, we did establish we could use an API rather than the SIP protocol (really good news &#8211; it means we can use simple https to connect to the LMS, while accessing all the data we hold on borrowers and titles). James produced some clickable prototypes that helped everyone picture what our own self-service app might actually look like:
 
 <figure>
 
