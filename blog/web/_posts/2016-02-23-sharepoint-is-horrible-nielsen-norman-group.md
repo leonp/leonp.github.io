@@ -5,7 +5,7 @@ excerpt: Intranets are websites for staff, and Sharepoint is a product that help
 category: web
 ---
 
-It's very rare for articles about the web to [get me angry](https://twitter.com/leonpaternoster/status/701872228049285124) these days (although they might have in the past), but this [advert for Sharepoint](https://www.nngroup.com/articles/sharepoint-intranet-ux/) from Nielsen Norman Group did just that.
+It's very rare for articles about the web to [get me angry](https://twitter.com/leonpaternoster/status/701872228049285124) these days (although [they might have in the past](/2008/05/times-for-print-georgia-for-screen/)), but this [advert for Sharepoint](https://www.nngroup.com/articles/sharepoint-intranet-ux/) from Nielsen Norman Group did just that.
 
 There are many stupid statements in this poorly written piece of shit. Let's start near the beginning:
 
