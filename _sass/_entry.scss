@@ -110,7 +110,7 @@
     .entry img.bleed {
 
         @media #{$bp} {
-            margin-left: -($double-line+$half-line);
+            margin-left: -($treble-line);
             max-width: $bleed-width !important;
             border: none;
         }
