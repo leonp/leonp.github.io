@@ -44,7 +44,7 @@ As you can imagine, I was pretty excited to get Jeremy and James Bates into the 
 
 ## Making it up as you go along (and visualising it)
 
-Before the sprint we sent Clear Left our own research and thoughts on self-service, including a report from a staff workshop we'd run a couple weeks beforehand. We'd agreed some basic outputs we wanted from the week; namely, a feasibility report and perhaps some sort of sketch of what a web app could look like.
+Before the sprint we sent Clear Left our own research and thoughts on self-service, including a report from a staff workshop we'd run a couple of weeks beforehand. We'd agreed some basic outputs we wanted from the week; namely, a feasibility report and perhaps some sort of sketch of what a web app could look like.
 
 I'd also arranged for several staff members and volunteers to turn up on the Monday morning. What we were going to do I wasn't sure.
 
