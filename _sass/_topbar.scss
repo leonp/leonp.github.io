@@ -3,7 +3,7 @@
     .top-bar {
         color: $dark;
         margin-bottom: $single-line;
-        padding: $half-line;
+        padding: $half-line 0;
         position: relative;
 
         @media #{$bp} {

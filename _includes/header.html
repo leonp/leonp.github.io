@@ -45,75 +45,79 @@
 
 			<div class="bg-lgrey g-w-left g-w-col-small g-w-fixed">
 
-				<div class="header">
+				<div id="header">
 
-					<nav class="top-bar clearfix secondary">
+					<div class="wrapper">
 
-						<h1 class="hide">Navigation</h1>
+						<nav class="top-bar clearfix secondary">
 
-						<ul>
+							<h1 class="hide">Navigation</h1>
 
-							<li>
-
-								<a href="/">
-
-									<img class="logo" src="/images/leon-round-2016.jpg" alt="Leon Paternoster" title="Go to the home page">
-
-								</a>
-
-							</li>
-
-							{% if page.title != 'About' %}
-
-								<li><a href="/about">About</a></li>
-
-							{% else %}
-
-								<li><a class="top-bar-current" href="/about">About</a></li>
-
-							{% endif %}
-
-							{% if page.title != 'Blog' %}
+							<ul>
 
 								<li>
 
-									<a href="/blog">Blog</a>
+									<a href="/">
 
-									{% if page.title == 'Web' %}
+										<img class="logo" src="/images/leon-round-2016.jpg" alt="Leon Paternoster" title="Go to the home page">
 
-										<span> &rarr; <a class="top-bar-current" href="/blog/web">Web</a></span>
-
-									{% endif %}
-
-									{% if page.title == 'Politics' %}
-
-										<span> &rarr; <a class="top-bar-current" href="/blog/politics">Politics</a></span>
-
-									{% endif %}
-
-									{% if page.title == 'Thinking' %}
-
-										<span> &rarr; <a class="top-bar-current" href="/blog/thinking">Thinking</a></span>
-
-									{% endif %}
-
-									{% if page.title == 'Libraries' %}
-
-										<span> &rarr; <a class="top-bar-current" href="/blog/libraries">Libraries</a></span>
-
-									{% endif %}
+									</a>
 
 								</li>
 
-							{% else %}
+								{% if page.title != 'About' %}
 
-								<li><a class="top-bar-current" href="/">Blog</a></li>
+									<li><a href="/about">About</a></li>
 
-							{% endif %}
+								{% else %}
 
-						</ul>
+									<li><a class="top-bar-current" href="/about">About</a></li>
 
-					</nav>
+								{% endif %}
+
+								{% if page.title != 'Blog' %}
+
+									<li>
+
+										<a href="/blog">Blog</a>
+
+										{% if page.title == 'Web' %}
+
+											<span> &rarr; <a class="top-bar-current" href="/blog/web">Web</a></span>
+
+										{% endif %}
+
+										{% if page.title == 'Politics' %}
+
+											<span> &rarr; <a class="top-bar-current" href="/blog/politics">Politics</a></span>
+
+										{% endif %}
+
+										{% if page.title == 'Thinking' %}
+
+											<span> &rarr; <a class="top-bar-current" href="/blog/thinking">Thinking</a></span>
+
+										{% endif %}
+
+										{% if page.title == 'Libraries' %}
+
+											<span> &rarr; <a class="top-bar-current" href="/blog/libraries">Libraries</a></span>
+
+										{% endif %}
+
+									</li>
+
+								{% else %}
+
+									<li><a class="top-bar-current" href="/">Blog</a></li>
+
+								{% endif %}
+
+							</ul>
+
+						</nav>
+
+					</div> <!-- end .wrapper -->
 
 				</div> <!-- end #header -->
 

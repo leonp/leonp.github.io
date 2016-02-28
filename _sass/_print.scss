@@ -8,33 +8,17 @@
 html {
 	font-size: 118.5%;
 	line-height: 1.2;
-	font-family: $main-font, sans-serif;
+	font-family: sans-serif;
 }
 
-.nav,
-#banner,
-.hide,
-.info-footer,
-.entry-footer,
+#header,
 #footer {
 	display: none;
-}
-
-.entry-footer time.published {
-    display: block !important;
 }
 
 .secondary,
 .figcaption {
 	color: $grey;
-}
-
-.entry-content hr {
-	color: $lgrey;
-	border: none;
-	border-top: 1px solid $lgrey;
-	width: 25%;
-	margin: 1.5em auto;
 }
 
 }
