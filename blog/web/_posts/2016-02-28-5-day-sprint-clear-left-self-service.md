@@ -28,9 +28,11 @@ As there aren't any software-only providers out there, we'd need to build it our
 
 At this stage we felt we needed an expert opinion. Was this really the right approach? If so, what might a web app look like? What problems might we run into? How do we go about this project?
 
-I hit on the idea of asking Clear Left to help us validate and explore our idea. Why Clear Left? Well, they have a stellar reputation and have done [similar digital strategy work with organisations like the Wellcome Trust](http://clearleft.com/made/wellcome-trust-digitalstories). Most of all, I felt we could trust them to keep accessibility to the fore. Not just in areas such as designing for older people or people with a visual impairment, but in keeping the whole system as open and device agnostic as possible. Clear Left's [Jeremy Keith](http://clearleft.com/is/jeremy-keith) understands the web and its technical side better than most, which I felt made them the ideal agency to undertake this work.
+We chose Clear Left because they've done [similar digital strategy work with organisations like the Wellcome Trust](http://clearleft.com/made/wellcome-trust-digitalstories). Most of all, I felt they'd keep accessibility to the fore; not just in areas such as designing for older people, but in keeping the system as open and device agnostic as possible.
 
-There's a clear, longterm business advantage in keeping our hardware, software, library management system (LMS) and software _decoupled_ (a word we used a lot during the week), and in extricating ourselves from [the cosy LMS/self-service provider world](/2015/12/kill-the-lms-future-digital-experience/).
+There's a longterm business advantage in keeping our hardware, software, library management system (LMS) and software _decoupled_ (a word we used a lot during the week), and in extricating ourselves from [the cosy LMS/self-service provider world](/2015/12/kill-the-lms-future-digital-experience/).
+
+Since one of Clear Left's founders [Jeremy Keith](http://clearleft.com/is/jeremy-keith) has been [writing about the core technologies of the web](http://alistapart.com/article/behavioralseparation) for over a decade, they seemed the right choice.
 
 As you can imagine, I was pretty excited to get Jeremy and James Bates into the library for a weeklong _sprint_. I got a stack of A3 sheets ready for Monday morning.
 
