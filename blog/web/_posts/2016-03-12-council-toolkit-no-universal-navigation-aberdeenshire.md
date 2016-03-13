@@ -2,6 +2,7 @@
 layout: post
 category: web
 title: Council Toolkit and non-universal navigation
+excerpt: Council Toolkit does complex navigation really well by using an old fashioned, easy to interpret method.
 ---
 
 Stumbled on [Aberdeenshire Libraries](https://www.aberdeenshire.gov.uk/libraries/) website earlier this week. It's built on [Council Toolkit](http://counciltoolkit.org/), an HTML, CSS and javascript framework that'll help you build a council (or similar) website quickly.
@@ -18,7 +19,7 @@ One of the things I like about Council Toolkit is the way it handles navigation.
 
 </figure>
 
-There's something old fashioned about this approach, but I think it has 4 advantages over a traditional navbar:
+There's something old fashioned about this approach &#8211; the home page is essentially an index, but I think it has 4 advantages over a traditional navbar:
 
 - _It lightens the user's cognitive load._ As there's only one area to navigate there's no need to choose between a list of links at the top of the page and links to deeper content in the main page area. You're also saving your users working out what happens when they hover over a link, especially if you've added dropdown menus (and they won't accidentally open pop open when the user moves the cursor across the page).
 - Similarly, _it's easy to learn._ You click on a link which leads to a page with links styled in exactly the same way. UI wise, there's nothing to work out, and more space means more text to get labels right. A navbar with dropdown menus could result in less clicks, but [the number of clicks don't matter when the route to the goal is clearer](http://uxmyths.com/post/654026581/myth-all-pages-should-be-accessible-in-3-clicks).
