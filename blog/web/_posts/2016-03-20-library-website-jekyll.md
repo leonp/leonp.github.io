@@ -21,9 +21,9 @@ There are many reasons _not_ to build a static site, one of which is its staticn
 
 While there are plenty of third party services that'll fill in the gaps for you, time remains a really thorny problem on a static site because _now_ is when the site's built, not the actual _now_ you're sitting in at this moment in time. Consequently, events are difficult (but not impossible) &#8211; and any library website will need to do events in some form or other.
 
-So Florent is right when he says
+So Florens is right when he says
 
-> "PHP site generators suck!" *writes a static site generator in Ruby/Node/Rust* "More dynamic pls!" *makes it run like PHP* <cite>[Florent, Twitter](https://twitter.com/fvsch/status/709417111542747136)</cite>
+> "PHP site generators suck!" *writes a static site generator in Ruby/Node/Rust* "More dynamic pls!" *makes it run like PHP* <cite>[Florens, Twitter](https://twitter.com/fvsch/status/709417111542747136)</cite>
 
 &hellip; which makes something like [Kirby](https://getkirby.com/) pretty attractive.
 
