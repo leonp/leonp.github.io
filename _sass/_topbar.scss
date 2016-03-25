@@ -5,6 +5,9 @@
         margin-bottom: $single-line;
         padding: $half-line 0;
         position: relative;
+        font-family: $secondary-font !important;
+        font-weight: 700;
+        letter-spacing: 1px;
 
         @media #{$bp} {
             padding: 0;
