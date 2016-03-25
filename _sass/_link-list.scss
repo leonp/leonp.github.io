@@ -6,7 +6,7 @@
         font-family: $secondary-font;
         list-style-type: none;
         margin-left: 0;
-        line-height: 1.2em;
+        line-height: $heading-line-height;
         padding-top: $quarter-line;
     }
 
@@ -15,6 +15,7 @@
         font-size: $size-3;
         color: $grey;
         font-family: $main-font;
+        margin-top: $eighth-line;
     }
 
 }

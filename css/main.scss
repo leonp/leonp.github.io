@@ -9,15 +9,16 @@
 
 
 // Fonts
-$main-font: 'Source Sans Pro', ff-tisa-web-pro, georgia, serif;
-$secondary-font: 'Source Serif Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", 'Source Sans Pro', sans-serif;
+$main-font: 'Charter', 'Roboto Slab', cambria, georgia, serif;
+$secondary-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", 'Source Sans Pro', sans-serif;
 $display-font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", 'Source Sans Pro', sans-serif;
 
 
 // Size
 
-$base-line-height: 1.45;
-$single-line: 1.45em;
+$base-line-height: 1.6;
+$single-line: 1.6em;
+$heading-line-height: 1.3;
 $line-and-a-half: ($single-line * 1.5);
 $double-line: ($single-line * 2);
 $treble-line: ($single-line * 3);
