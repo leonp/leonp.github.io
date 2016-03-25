@@ -63,7 +63,7 @@ h4,
 h5,
 h6,
 dt {
-	font-family: $secondary-font;
+	font-family: $secondary-font !important;
 	line-height: $heading-line-height;
 	color: $highlight;
 	font-weight: 700;
