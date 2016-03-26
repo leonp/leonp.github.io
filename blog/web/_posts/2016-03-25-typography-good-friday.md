@@ -25,4 +25,4 @@ For some reason, iOS won't render headings in bold on my site. I'm using the sys
 
 </figure>
 
-Florens suggested some workarounds, but nothing worked. If you've got any ideas, [tweet me](https://twitter.com/leonpaternoster).
+I've tried setting explicit numerical font weights and combinations of `-apple-system-body` and `-apple-system`, but nothing works. If you've got any ideas, [tweet me](https://twitter.com/leonpaternoster).

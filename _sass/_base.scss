@@ -76,13 +76,13 @@ code {
 pre {
 	overflow: auto;
 	display: block;
-	margin-bottom: 1.4em;
-	padding: 0.75em;
+	margin-bottom: $single-line;
+	padding: $half-line;
 	background-color: $dark;
 
 	@media #{$bp} {
-		margin-bottom: 1.043em;
-		padding: 1.043em;
+		margin-bottom: $three-quarter-line;
+		padding: $three-quarter-line;
 	}
 
 }
