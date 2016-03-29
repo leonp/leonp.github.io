@@ -5,9 +5,9 @@ excerpt: Tachyons is an atomic CSS framework that you could, in theory, use for 
 category: web
 ---
 
-We've used the Foundation front end framework at work for a few years and, while it's served us pretty well, I've come to find it too opinionated and unwieldy, which means more overwriting styles and large payloads.
+We've used the [Foundation front end framework](http://foundation.zurb.com/) at work for a few years and, while it's served us pretty well, I've come to find it too opinionated and unwieldy, which means lots of overwriting styles, large files and unused javascript and CSS.
 
-We're looking at developing our own set of modules, but as there are far better developers out there I've also been keeping an eye out for a Foundation alternative. I've enjoyed reading Adam Morse recently, so I thought I'd try [Tachyons](http://tachyons.io), his atomic CSS framework.
+We're looking at developing our own set of CSS modules, but as there are far better developers out there I've also been keeping an eye out for a Foundation alternative. I've enjoyed reading Adam Morse recently, so I thought I'd try [Tachyons](http://tachyons.io), his atomic CSS framework.
 
 ## Atomic CSS
 
@@ -21,7 +21,7 @@ As Morse puts it:
 
 A jumbotron is a combination of lego bricks &#8211; think of it as something like a pre-built lego house. You _might_ be able to squeeze the same lego house into different lego cities, but you can _always_ use a combination of bricks to build a house that fits perfectly.
 
-Atomic CSS also deals specificity problems. Because each class does just one thing independently of other classes, styles can only have one effect, even when they're nested. There are no `.introduction .f5` type declarations.
+Atomic CSS also solves specificity problems. Because each class does just one thing independently of other classes, styles can only have one effect, even when they're nested. There are no `.introduction .f5` type declarations.
 
 This sounds great. So I thought I'd redo a copy of my site locally using Tachyons.
 
@@ -69,7 +69,9 @@ Now, this could all be a function of my poor templating, or CSS, for that matter
 
 ## What I learned
 
-If I was rebuilding my site I'd be tempted to use Tachyons, even though I'm not taking advantage of its main feature by using it across projects. It has helped me to use CSS in a better way.
+If I was rebuilding my site I'd be tempted to use Tachyons, even though I'm not taking advantage of its main feature by using it across projects.
+
+It has made me reassess the way I'm using CSS.
 
 ### Semantic class names are rubbish for styling
 
