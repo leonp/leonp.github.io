@@ -2,7 +2,7 @@
 layout: post
 title: The future of libraries (again)
 category: libraries
-excerpt: A BBC report into library branch and staff numbers brings out the usual anti-library suspects
+excerpt: A BBC report into library branch and staff numbers brings out the usual arguments against the service. Why can't some right wing critics even bother to find out what libraries do.
 ---
 
 The BBC has investigated the state of the UK's library service. The figures (gathered from Freedom of Information Act requests made to library services) are pretty depressing, although if you work in libraries they won't come as a surprise. Turns out government estimates have underplayed the extent of the damage done to the service as a whole. Since 2010:
