@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Taking Tachyons CSS framework for a spin
+title: Atomic CSS and content buckets
 excerpt: Tachyons is an atomic CSS framework that you could, in theory, use for any project at all. I found it easy to use and quick for building pages, but there are a couple of caveats.
 category: web
 ---
