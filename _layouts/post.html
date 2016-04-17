@@ -1,46 +1,20 @@
 {% include header.html %}
 
-<article class="entry">
+<article class="{% include article.html %}">
 
-	<header class="entry-header">
+    <header>
 
-		<h1 class="entry-title">{{ page.title }}</h1>
+        <h1 class="{% include article-title.html %}">{{ page.title }}</h1>
 
-		{% capture words %}
-	        {{ page.content | number_of_words }}
-	    {% endcapture %}
+        <p class="{% include article-meta.html %}"><time>{{ page.date | date_to_string }}</time> &middot; filed under <a class="custom-sc" href="/blog/{{ page.category }}">{{ page.category }}</a></p>
 
-	    <p class="entry-meta secondary"><time class="published">{{ page.date | date: "%b %-d %Y" }}</time>, {{ words }} words, filed under <a href="/blog/{{ page.category }}">{{ page.category }}</a></p>
+    </header>
 
-	</header>
+    <div class="{% include prose-wrapper.html %}">
 
-	<div class="entry-content">
+        {{ content }}
 
-		{{ content }}
-
-	</div>
-
-	<!-- <footer class="entry-footer">
-
-		<div class="secondary">
-
-			<div class="pagination">
-
-			{% if page.next %}
-
-				<p class="secondary next">Next: <a href="{{ page.next.url }}">{{ page.next.title }}</a> &rarr;</p>
-
-			{% endif %}
-
-			{% if page.previous %}
-
-				<p class="secondary previous">&larr; Previous: <a href="{{ page.previous.url }}">{{ page.previous.title }}</a></p>
-
-			{% endif %}
-
-		</div>
-
-	</footer> -->
+    </div>
 
 </article>
 

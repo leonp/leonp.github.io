@@ -1,0 +1,48 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// Tachyons colours
+
+$black: #111;
+$near-black: #111;
+$dark-gray:#333;
+$mid-gray:#555;
+$gray: #777;
+$silver: #999;
+$light-silver: #AAA;
+$moon-gray: #CCC;
+$light-gray: #EEE;
+$near-white: #F4F4F4;
+$white: #FFF;
+
+
+// Custom colours
+
+$base-colour: #0F70B7;
+$accent-colour: #FF9205;
+$link: $base-colour;
+$visited: #589BCB;
+$hover: $accent-colour;
+
+
+// Variables
+
+$sans-serif: proxima-nova, sans-serif;
+$lh-title: 1.2;
+$lh-copy: 1.45;
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+@import
+    "tachyons",
+    "custom-line-height",
+    "custom-small-caps",
+    "custom-serif",
+    "custom-sans-serif",
+    "custom-prose",
+    "custom-measure",
+    "custom-base",
+    "custom-colours"
+;

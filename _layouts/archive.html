@@ -1,24 +1,20 @@
 {% include header.html %}
 
-<article class="entry">
+<article class="{% include article.html %}">
 
-    <div class="entry-header">
+    <h1 class="{% include article-title.html %}">{{ page.title }}</h1>
 
-        <h1 class="entry-title">{{ page.title }}</h1>
-
-    </div>
-
-    <div class="entry-content">
+    <div class="pb2">
 
         <p>{{ page.description }}</p>
 
         <hr>
 
-        <ul class="link-list">
+        <ul class="list pl0">
 
             {% for post in site.categories[page.category] %}
 
-                <li class="link-list-item"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <span class="link-list-item-meta secondary">Posted <time>{{ post.date | date: "%b %-d %Y" }}</time></span></li>
+                <li class="{% include link-list.html %}"><a href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time></span></li>
 
             {% endfor %}
 
