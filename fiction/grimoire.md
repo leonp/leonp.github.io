@@ -2,7 +2,6 @@
 layout: default
 title: Grimoire
 category: fiction
-layout: story
 ---
 
 A whatsapp from the girlfriend at 11.40 _Come now. He’s in truble_ which was unarguable judging by the screams. I politely manouvered a couple of worried, pyjamaed neighbours out of the way – _It’s OK,_ I lied, _I’m a doctor &#8211; cancer,_ nodding toward the house.

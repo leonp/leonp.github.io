@@ -3,15 +3,15 @@ title: About
 layout: default
 ---
 
+I'm Leon Paternoster, digital and customer service manager at [Suffolk Libraries](http://suffolklibraries.co.uk) (I work under the job title of deputy head of IT). We're a mutual formed in 2012 to run Suffolk's library service.
+
 <figure class="figure">
 
     <img class="bleed" alt="Leon Paternoster" src="/images/leon-2016-02-15.jpg">
 
-    <figcaption class="figcaption"><p>Leon, yesterday</p></figcaption>
+    <figcaption class="figcaption"><p>Me</p></figcaption>
 
 </figure>
-
-I'm Leon Paternoster, digital and customer service manager at [Suffolk Libraries](http://suffolklibraries.co.uk) (I work under the job title of deputy head of IT). We're a mutual formed in 2012 to run Suffolk's library service.
 
 We design, build and manage our website in house, and fit several external services such as the catalogue of physical titles and ebook service into it.
 

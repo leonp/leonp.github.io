@@ -1,0 +1,23 @@
+@media screen, projection {
+
+.custom-base-colour {
+    color: $base-colour;
+}
+
+.custom-accent-colour {
+    color: $accent-colour;
+}
+
+.custom-border-base {
+    border-color: $base-colour;
+}
+
+.custom-border-accent {
+    border-color: $accent-colour;
+}
+
+.custom-bg-base-colour {
+    background-color: $base-colour;
+}
+
+}
