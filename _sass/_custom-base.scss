@@ -18,6 +18,10 @@ a:focus {
     color: $hover;
 }
 
+a.black {
+    color: #000;
+}
+
 hr {
     border: none;
     border-top: 1px dotted #CCC;
