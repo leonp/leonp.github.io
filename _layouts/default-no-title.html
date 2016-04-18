@@ -1,0 +1,15 @@
+{% include header.html %}
+
+<article class="{% include article.html %}">
+
+    <h1 class="dn">{{ page.title }}</h1>
+
+    <div class="{% include prose-wrapper.html %}">
+
+        {{ content }}
+
+    </div>
+
+</article>
+
+{% include footer.html %}

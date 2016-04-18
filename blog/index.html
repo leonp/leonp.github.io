@@ -4,7 +4,7 @@ title: Blog
 description: Since 2008.
 ---
 
-<form method="get" action="/search" role="search" id="search" class="custom-form top-bar-form">
+<!-- <form method="get" action="/search" role="search" id="search" class="custom-form top-bar-form">
 
 	<fieldset>
 
@@ -16,26 +16,24 @@ description: Since 2008.
 
 	</fieldset>
 
-</form>
+</form> -->
 
-<p>Filter by:</p>
+<ul class="list pl0 f6 f5-ns">
 
-<ul class="inline-nav pill-nav">
-
-	<li><a href="/blog/web">Web</a></li>
-	<li><a href="/blog/politics">Politics</a></li>
-	<li><a href="/blog/libraries">Libraries</a></li>
-	<li><a href="/blog/thinking">Thinking</a></li>
+	<li class="custom-sc tracked dib mr2 mb2"><a href="/blog/web">Web</a></li>
+	<li class="custom-sc tracked dib mr2 mb2"><a href="/blog/politics">Politics</a></li>
+	<li class="custom-sc tracked dib mr2 mb2"><a href="/blog/libraries">Libraries</a></li>
+	<li class="custom-sc tracked dib mb2"><a href="/blog/thinking">Thinking</a></li>
 
 </ul>
 
 <h2>All posts</h2>
 
-<ul class="link-list">
+<ul class="list pl0">
 
 {% for post in site.posts  %}
 
-	<li class="link-list-item"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <span class="link-list-item-meta secondary">Posted <time>{{ post.date | date: "%b %-d %Y" }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
+	<li class="{% include link-list.html %}"><a href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
 
 {% endfor %}
 

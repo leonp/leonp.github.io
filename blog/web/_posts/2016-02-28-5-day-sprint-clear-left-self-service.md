@@ -119,3 +119,5 @@ We did a _lot_ of work over the week (it is a sprint, after all). Jeremy looked 
 </figure>
 
 I can't recommend this kind of research sprint enough. We got a report, detailed technical validation of an idea, mock ups and a plan for how to proceed, while getting staff and stakeholders involved in the project &#8211; all in the space of 5 days.
+
+(See [Clear Left's write up of the week](http://clearleft.com/made/suffolk-libraries-design-sprint).)

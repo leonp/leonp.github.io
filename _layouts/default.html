@@ -1,18 +1,14 @@
 {% include header.html %}
 
-<article class="entry">
+<article class="{% include article.html %}">
 
-	<div class="entry-header">
+    <h1 class="{% include article-title.html %}">{{ page.title }}</h1>
 
-		<h1 class="entry-title">{{ page.title }}</h1>
+    <div class="{% include prose-wrapper.html %}">
 
-	</div>
+        {{ content }}
 
-	<div class="entry-content">
-
-		{{ content }}
-
-	</div>
+    </div>
 
 </article>
 

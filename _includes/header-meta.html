@@ -1,0 +1,11 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>{% if page.title  == 'Leon Paternoster' %}{{ page.title | escape }}{% else %}{{ page.title | escape }} &#8211; {{ site.title | escape }}{% endif %}</title>
+
+{% if page.excerpt %}
+
+    <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
+
+{% endif %}
