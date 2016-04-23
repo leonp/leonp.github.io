@@ -6,7 +6,7 @@ title: Doing a Liverpool
 
 Ha! So all along (via over 2,000 words) [all I was really proposing](/2016/03/council-toolkit-no-universal-navigation-aberdeenshire/) [was _doing a Liverpool_](/2015/08/case-against-universal-navigation/). Nothing to do with the Fab 4, <cite>You'll Never Walk Alone</cite> or Stan Boardman for that matter.
 
-> An unexciting, yet efficient UI pattern. Describes a set of titles, arranged in a grid, that each link to an overview page. <cite>[Doing a Liverpool](https://ia.net/dictionary/l/liverpool])</cite>
+> An unexciting, yet efficient UI pattern. Describes a set of titles, arranged in a grid, that each link to an overview page. <cite>[Doing a Liverpool](https://ia.net/dictionary/l/liverpool)</cite>
 
 There's a lot of playfulness in iA's description of the [old internet](https://ia.net/dictionary/o/old-internet). Are they being serious? Aren't they fairly old internet themselves?
 
