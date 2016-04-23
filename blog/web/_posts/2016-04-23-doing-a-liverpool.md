@@ -4,7 +4,7 @@ category: web
 title: Doing a Liverpool
 ---
 
-Ha! So all along (via over 2,000 words) all I was really proposing was _doing a Liverpool_. Nothing to do with the Fab 4, <cite>You'll Never Walk Alone</cite> or Stan Boardman for that matter.
+Ha! So all along (via over 2,000 words) [all I was really proposing](/2016/03/council-toolkit-no-universal-navigation-aberdeenshire/) [was _doing a Liverpool_](/2015/08/case-against-universal-navigation/). Nothing to do with the Fab 4, <cite>You'll Never Walk Alone</cite> or Stan Boardman for that matter.
 
 > An unexciting, yet efficient UI pattern. Describes a set of titles, arranged in a grid, that each link to an overview page. <cite>[Doing a Liverpool](https://ia.net/dictionary/l/liverpool])</cite>
 
