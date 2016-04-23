@@ -1,12 +1,22 @@
         </main> <!-- end #content -->
 
-        <footer id="footer" class="f6 f5-ns silver custom-lh-copy ph3 ph4-ns pv2 bg-white bt b--light-gray">
+        <footer id="footer" class="f6 f5-ns silver custom-lh-copy ph3 ph4-ns pv2 bg-white bt b--light-gray cf">
 
-            {% if page.title != 'Leon Paternoster' %}<p><a href="/">Leon Paternoster</a></p>{% endif %}
+            {% if page.title != 'Leon Paternoster' %}
 
-            <p class="mb0">Built with <a href="https://jekyllrb.com">Jekyll</a>, <a href="http://tachyons.io">Tachyons</a> &amp; <a href="https://github.com/leonp/leonp.github.io">Github</a>.</p>
+            <div class="fl-ns mr3-ns">
 
-            <p class="mt0">That's all there is, there isn't any more x</p>
+                <p>{% if page.layout == 'post' %}<span class="custom-sc">Written by</span>{% endif %} <a href="/">Leon Paternoster</a></p>{% endif %}
+
+            </div>
+
+            <div class="fr-ns">
+
+                <p class="mb0">Built with <a href="https://jekyllrb.com">Jekyll</a>, <a href="http://tachyons.io">Tachyons</a> &amp; <a href="https://github.com/leonp/leonp.github.io">Github</a></p>
+
+                <p class="mt0">That's all there is, there isn't any more <a href="https://en.wikipedia.org/wiki/Madeline">&#8467;</a></p>
+
+            </div>
 
         </footer>
 
