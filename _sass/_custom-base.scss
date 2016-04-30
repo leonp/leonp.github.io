@@ -75,6 +75,8 @@ figcaption,
 .figcaption {
     color: silver;
     line-height: $lh-title;
+    font-family: $sans-serif;
+    font-size: 1rem;
 }
 
 figcaption p {
