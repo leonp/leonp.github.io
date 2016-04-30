@@ -16,4 +16,4 @@
 
         {% include main-nav.html %}
 
-        <main id="content" class="custom-measure pa3 pa4-ns pt3 center">
+        <main id="content" class="{% if page.layout != 'full-width' %}custom-measure {% endif %}pa3 pa4-ns pt3 center">
