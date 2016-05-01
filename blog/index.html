@@ -1,8 +1,25 @@
 ---
-layout: default
+layout: full-width
 title: Blog
 description: Since 2008.
 ---
+
+<div class="cf">
+
+	<div class="fl-ns w-25-ns pr4-ns">
+
+		<h1 class="{% include article-title.html %}">{{ page.title }}</h1>
+
+		<ul class="list pl0 f6 f5-ns mb2 pb4">
+
+			<li class="custom-sc tracked dib db-ns mr2 mr0-ns mb2"><a href="/blog/web">Web</a></li>
+			<li class="custom-sc tracked dib db-ns mr2 mr0-ns mb2"><a href="/blog/politics">Politics</a></li>
+			<li class="custom-sc tracked dib db-ns mr2 mr0-ns mb2"><a href="/blog/libraries">Libraries</a></li>
+			<li class="custom-sc tracked dib db-ns mb2 mr0-ns"><a href="/blog/thinking">Thinking</a></li>
+
+		</ul>
+
+	</div>
 
 <!-- <form method="get" action="/search" role="search" id="search" class="custom-form top-bar-form">
 
@@ -18,23 +35,20 @@ description: Since 2008.
 
 </form> -->
 
-<ul class="list pl0 f6 f5-ns">
+	<div class="fl-ns w-75-ns pl4-ns">
 
-	<li class="custom-sc tracked dib mr2 mb2"><a href="/blog/web">Web</a></li>
-	<li class="custom-sc tracked dib mr2 mb2"><a href="/blog/politics">Politics</a></li>
-	<li class="custom-sc tracked dib mr2 mb2"><a href="/blog/libraries">Libraries</a></li>
-	<li class="custom-sc tracked dib mb2"><a href="/blog/thinking">Thinking</a></li>
+		<h2 class="{% include article-title.html %}">All posts</h2>
 
-</ul>
+		<ul class="list pl0">
 
-<h2>All posts</h2>
+		{% for post in site.posts  %}
 
-<ul class="list pl0">
+			<li class="{% include link-list.html %}"><a href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
 
-{% for post in site.posts  %}
+		{% endfor %}
 
-	<li class="{% include link-list.html %}"><a href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
+		</ul>
 
-{% endfor %}
+	</div>
 
-</ul>
+</div>

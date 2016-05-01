@@ -6,9 +6,9 @@ excerpt: Web and customer service manager at Suffolk Libraries. Blogs about web 
 
 <div class="cf">
 
-	<div class="fl-ns w-50-ns pr4-ns">
+	<div class="fl-ns w-40-ns pr4-ns">
 
-		<h1 class="f5 custom-lh-title b tracked custom-sc custom-base-colour">{{ page.title }}</h1>
+		<h1 class="{% include article-title.html %}">{{ page.title }}</h1>
 
 		<p class="custom-serif">Web and customer service manager at Suffolk Libraries. You can contact me at:</p>
 
@@ -22,9 +22,9 @@ excerpt: Web and customer service manager at Suffolk Libraries. Blogs about web 
 
 	</div>
 
-	<div class="fl-ns w-50-ns pl4-ns">
+	<div class="fl-ns w-60-ns pl4-ns">
 
-		<h2 class="f5 custom-lh-title b tracked custom-sc custom-base-colour">Recent blog posts</h2>
+		<h2 class="{% include article-title.html %}">Recent blog posts</h2>
 
 		<ul class="list pl0">
 
