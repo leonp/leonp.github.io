@@ -10,7 +10,7 @@ excerpt: Web and customer service manager at Suffolk Libraries. Blogs about web 
 
 		<h1 class="{% include article-title.html %}">{{ page.title }}</h1>
 
-		<p class="custom-serif">Web and customer service manager at Suffolk Libraries. You can contact me at:</p>
+		<p class="custom-serif custom-lh-copy">Web and customer service manager at Suffolk Libraries. You can contact me at:</p>
 
 		<ul class="custom-serif mb2 pb4 custom-lh-copy">
 
