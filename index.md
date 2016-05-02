@@ -12,7 +12,7 @@ excerpt: Web and customer service manager at Suffolk Libraries. Blogs about web 
 
 		<p class="custom-serif">Web and customer service manager at Suffolk Libraries. You can contact me at:</p>
 
-		<ul class="custom-serif mb2 pb4">
+		<ul class="custom-serif mb2 pb4 custom-lh-copy">
 
 			<li class="mb2"><a href="https://twitter.com/leonpaternoster">Twitter</a></li>
 			<li class="mb2"><a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></li>
