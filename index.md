@@ -14,8 +14,8 @@ excerpt: Web and customer service manager at Suffolk Libraries. Blogs about web 
 
 		<ul class="custom-serif mb2 pb4">
 
-			<li><a href="https://twitter.com/leonpaternoster">Twitter</a></li>
-			<li><a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></li>
+			<li class="mb2"><a href="https://twitter.com/leonpaternoster">Twitter</a></li>
+			<li class="mb2"><a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></li>
 			<li>leon.paternoster@zoho.com</li>
 
 		</ul>
