@@ -3,13 +3,8 @@ title: Meaning, separation and using lots of classes freely
 layout: post
 category: web
 ---
-<section class="f4 f3-ns">
 
-<h1 class="dn">Abstract</h1>
-
-<p><a href="http://alistapart.com/article/meaningful-css-style-like-you-mean-it">This article feels like the end of an era</a>, the last hurrah for a flawed way of thinking about how we should build websites. Those of us who remember the <abbr title="Cascading Style Sheets">CSS</abbr>/tables wars perhaps feel a nostalgic tug towards something more &#8220;semantic&#8221; than presentational classes. Perhaps we feel all those divs and classes are somehow polluting our markup. But that misunderstands the whole point of keeping everything separate and therefore more organised, manageable and, yes, semantic.</p>
-
-</section>
+<p class="f4 f3-ns"><a href="http://alistapart.com/article/meaningful-css-style-like-you-mean-it">This article feels like the end of an era</a>, the last hurrah for a flawed way of thinking about how we should build websites. Those of us who remember the <abbr title="Cascading Style Sheets">CSS</abbr>/tables wars perhaps feel a nostalgic tug towards something more &#8220;semantic&#8221; than presentational classes. Perhaps we feel all those divs and classes are somehow polluting our markup. But that misunderstands the whole point of keeping everything separate and therefore more organised, manageable and, yes, semantic.</p>
 
 <hr>
 
