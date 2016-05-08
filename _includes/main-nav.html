@@ -1,21 +1,13 @@
-<nav id="nav" class="f6 f5-ns mb2 mb5-ns bg-white pa3 pa4-ns bb b--light-gray">
+<nav id="nav" class="f6 f5-ns mb2 mb5-ns bg-white pa3 pa4-ns bb b--light-gray cf">
 
     <h1 class="dn">Navigation</h1>
 
-    <ul class="list ma0 pa0 cf">
+    <p class="fl b dib mr3 mr4-ns ma0"><a class="{% if page.title == 'Leon Paternoster' %}black{% endif %}" href="/">Home</a></p>
 
-        <div class="fl mr2">
+    <ul class="fr tr ma0 pa0 list">
 
-            <li class="b dib mr3 mr4-ns"><a class="{% if page.title == 'Leon Paternoster' %}black{% endif %}" href="/">Home</a></li>
-
-        </div>
-
-        <div class="fr">
-
-            <li class="b dib mr3 mr4-ns"><a class="{% if page.title == 'About' %}black{% endif %}" href="/about">About</a></li>
-            <li class="b dib"><a class="{% if page.title == 'Blog' %}black{% endif %}" href="/blog">Blog</a></li>
-
-        </div>
+        <li class="b dib mr3 mr4-ns"><a class="{% if page.title == 'About' %}black{% endif %}" href="/about">About</a></li>
+        <li class="b dib"><a class="{% if page.title == 'Blog' %}black{% endif %}" href="/blog">Blog</a></li>
 
     </ul>
 

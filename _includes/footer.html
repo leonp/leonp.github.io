@@ -4,19 +4,25 @@
 
             {% if page.title != 'Leon Paternoster' %}
 
-            <div class="fl-ns mr3-ns">
+            <section class="fl-ns mr3-ns">
 
-                <p>{% if page.layout == 'post' %}<span class="custom-sc">Written by</span>{% endif %} <a href="/">Leon Paternoster</a></p>{% endif %}
+                <h1 class="dn">Who?</h1>
 
-            </div>
+                <p>{% if page.layout == 'post' %}<span class="custom-sc">Written by</span>{% endif %} <a href="/">Leon Paternoster</a></p>
 
-            <div class="fr-ns">
+            </section>
+
+            {% endif %}
+
+            <section class="fr-ns">
+
+                <h1 class="dn">Colophon</h1>
 
                 <p class="mb0">Built with <a href="https://jekyllrb.com">Jekyll</a>, <a href="http://tachyons.io">Tachyons</a> &amp; <a href="https://github.com/leonp/leonp.github.io">Github</a></p>
 
                 <p class="mt0">That's all there is, there isn't any more <a href="https://en.wikipedia.org/wiki/Madeline">&#8467;</a></p>
 
-            </div>
+            </section>
 
         </footer>
 

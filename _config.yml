@@ -1,8 +1,7 @@
 # Site settings
 title: Leon Paternoster
-email: leon.paternoster@unseen.is
-description: > # this means to ignore newlines until "baseurl:"
-  I'm Leon, a web manager. I blog about working on the web and other, unrelated things, such as politics, books and football.
+email: leon.paternoster@zoho.com
+description: Web and customer service manager at Suffolk Libraries. Blogs about working on the web, libraries and politics. ℓ
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.leonpaternoster.com" # the base hostname & protocol for your site
 twitter_username: leonpaternoster
