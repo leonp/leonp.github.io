@@ -16,7 +16,7 @@ excerpt: Web and customer service manager at Suffolk Libraries. Blogs about web 
 
 </ul>
 
-<h2 class="gray f6 tracked ttu pa0 ma0 mt4-ns mb1 custom-lh-title">Recent blog posts</h2>
+<!-- <h2 class="gray f6 tracked ttu pa0 ma0 mt4-ns mb1 custom-lh-title">Recent blog posts</h2>
 
 <ul class="list pl0">
 
@@ -26,4 +26,4 @@ excerpt: Web and customer service manager at Suffolk Libraries. Blogs about web 
 
 {% endfor %}
 
-</ul>
+</ul> -->
