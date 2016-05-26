@@ -1,25 +1,17 @@
 ---
-layout: full-width
+layout: default
 title: Blog
 description: Since 2008.
 ---
 
-<div class="cf">
+<ul class="list pl0 f6 f5-ns mb2 pb4 tc">
 
-	<div class="fl-ns w-25-ns pr4-ns">
+	<li class="custom-sc tracked dib mh2 mb2"><a href="/blog/web">Web</a></li>
+	<li class="custom-sc tracked dib mh2 mb2"><a href="/blog/politics">Politics</a></li>
+	<li class="custom-sc tracked dib mh2 mb2"><a href="/blog/libraries">Libraries</a></li>
+	<li class="custom-sc tracked dib mh2 mb2"><a href="/blog/thinking">Thinking</a></li>
 
-		<h1 class="{% include article-title.html %}">{{ page.title }}</h1>
-
-		<ul class="list pl0 f6 f5-ns mb2 pb4">
-
-			<li class="custom-sc tracked dib db-ns mr2 mr0-ns mb2"><a href="/blog/web">Web</a></li>
-			<li class="custom-sc tracked dib db-ns mr2 mr0-ns mb2"><a href="/blog/politics">Politics</a></li>
-			<li class="custom-sc tracked dib db-ns mr2 mr0-ns mb2"><a href="/blog/libraries">Libraries</a></li>
-			<li class="custom-sc tracked dib db-ns mb2 mr0-ns"><a href="/blog/thinking">Thinking</a></li>
-
-		</ul>
-
-	</div>
+</ul>
 
 <!-- <form method="get" action="/search" role="search" id="search" class="custom-form top-bar-form">
 
@@ -35,20 +27,15 @@ description: Since 2008.
 
 </form> -->
 
-	<div class="fl-ns w-75-ns pl4-ns">
 
-		<h2 class="{% include article-title.html %}">All posts</h2>
+<h2>All posts</h2>
 
-		<ul class="list pl0">
+<ul class="list pl0">
 
-		{% for post in site.posts  %}
+{% for post in site.posts  %}
 
-			<li class="{% include link-list.html %}"><a href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
+	<li class="{% include link-list.html %}"><a href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
 
-		{% endfor %}
+{% endfor %}
 
-		</ul>
-
-	</div>
-
-</div>
+</ul>

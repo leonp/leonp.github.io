@@ -1,5 +1,14 @@
 @media screen, projection {
 
+body {
+    font-size: 112.5%;
+
+    @media (min-width: 700px) {
+        font-size: 125%;
+    }
+
+}
+
 a {
     text-decoration: none;
 }
