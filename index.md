@@ -4,7 +4,7 @@ title: Leon Paternoster
 excerpt: Web and customer service manager at Suffolk Libraries. Blogs about web design, code, politics, books and all sorts of other things.
 ---
 
-<p class="tc">Web, customer service manager and IT project manager at Suffolk Libraries.</p>
+<p class="tc">Web, customer service and IT project manager at Suffolk Libraries.</p>
 
 <ul class="ma0 pa0 mb2 pb4 tc">
 
