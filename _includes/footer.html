@@ -1,5 +1,23 @@
         </main> <!-- end #content -->
 
+        {% if page.title != 'Leon Paternoster' %}
+
+            <footer class="pv3 ph2 ph4-ns f5 bg-white bt b--light-gray sans-serif">
+
+                {% if page.layout == 'post' %}<p class="mt0 mb2">Written by <a href="/">Leon Paternoster</a></p>{% endif %}
+
+                <ul class="pa0 list ma0 mb2">
+
+                    <li class="dib-ns pv2 pv0-ns mr4-ns"><a href="/">Home</a></li>
+                    <li class="dib-ns pv2 pv0-ns mr4-ns"><a href="/">About</a></li>
+                    <li class="dib-ns pv2 pv0-ns mr4-ns"><a href="/">Blog</a></li>
+
+                </ul>
+
+            </footer>
+
+        {% endif %}
+
         <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
