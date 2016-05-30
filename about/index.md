@@ -3,7 +3,9 @@ title: About
 layout: default
 ---
 
-I'm Leon Paternoster, digital and customer service manager at [Suffolk Libraries](http://suffolklibraries.co.uk) (I work under the job title of deputy head of IT). We're a mutual formed in 2012 to run Suffolk's library service.
+I'm Leon Paternoster, deputy head of IT at [Suffolk Libraries](http://suffolklibraries.co.uk). I manage our web and customer service teams, as well as [several IT projects](/2016/02/5-day-sprint-clear-left-self-service/). I also help manage our network and staff and public PCs.
+
+Suffolk County Council contracts us to run the county's library service.
 
 <figure class="figure">
 
@@ -14,8 +16,6 @@ I'm Leon Paternoster, digital and customer service manager at [Suffolk Libraries
 </figure>
 
 We design, build and manage our website in house, and fit several external services such as the catalogue of physical titles and ebook service into it.
-
-I set up (and continue to manage) our customer service team, as well as run IT projects such as [designing our own self-service software](/2016/02/5-day-sprint-clear-left-self-service/).
 
 In previous lives I've been a newspaper ad salesperson, telecoms engineer and teacher of English. If you were looking for a common thread you might argue I've always been interested in communication, user experience and technology.
 
