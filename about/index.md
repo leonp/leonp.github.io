@@ -15,13 +15,9 @@ Suffolk County Council contracts us to run the county's library service.
 
 </figure>
 
-We design, build and manage our website in house, and fit several external services such as the catalogue of physical titles and ebook service into it.
+We design, build and manage our website in house, integrating it with several external services such as the catalogue of physical titles and ebook downloads. We manage PCs for 400 staff, hundreds of public PCs and our staff and public networks.
 
 In previous lives I've been a newspaper ad salesperson, telecoms engineer and teacher of English. If you were looking for a common thread you might argue I've always been interested in communication, user experience and technology.
-
-I figure out what organisations should do online, especially not for profits who don't have the resources to employ a full web team.
-
-This involves lots of things, including research, coding, testing, writing style guides, digital strategy, social media and commissioning.
 
 <hr>
 
