@@ -4,12 +4,16 @@ title: Leon Paternoster
 excerpt: Web and customer service manager at Suffolk Libraries. Blogs about web design, code, politics, books and all sorts of other things.
 ---
 
-<p class="tc">Web, customer service and IT project manager at Suffolk Libraries.</p>
+I post articles and notes about the web, politics, libraries and other bits and pieces. You can [follow me on Twitter](https://twitter.com/leonpaternoster).
 
-<ul class="ma0 pa0 mb2 pb4 tc">
+## Recent posts
 
-	<li class="dib mh2 mb2 mb0-ns"><a href="https://twitter.com/leonpaternoster">Twitter</a></li>
-	<li class="dib mh2 mb2 mb0-ns"><a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></li>
-	<li class="dib mh2"><em>leon.paternoster@zoho.com</em></li>
+<ul class="list pl0">
+
+{% for post in site.posts limit:10 %}
+
+	<li class="{% include link-list.html %}"><a href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
+
+{% endfor %}
 
 </ul>
