@@ -1,5 +1,14 @@
 @media screen, projection {
 
+body {
+    font-size: 106.25%;
+
+    @media (min-width: $breakpoint) {
+        font-size: 118.75%;
+    }
+
+}
+
 a {
     text-decoration: none;
 }
@@ -22,6 +31,10 @@ a.black {
     color: #000;
 }
 
+a.custom-bg-base-colour-link {
+    color: #FFF !important;
+}
+
 hr {
     border: none;
     border-top: 1px dotted #CCC;
@@ -30,7 +43,7 @@ hr {
 }
 
 code {
-    font-size: 80%;
+    font-size: 87.5%;
 }
 
 blockquote {
@@ -41,6 +54,10 @@ img {
     width: auto !important;
     max-width: 100% !important;
     height: auto !important;
+}
+
+abbr {
+    cursor: help;
 }
 
 .vid {
@@ -69,8 +86,10 @@ figure {
 
 figcaption,
 .figcaption {
-    color: silver;
     line-height: $lh-title;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 1rem;
+    text-align: center;
 }
 
 figcaption p {

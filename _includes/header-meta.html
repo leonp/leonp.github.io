@@ -4,8 +4,8 @@
 
 <title>{% if page.title  == 'Leon Paternoster' %}{{ page.title | escape }}{% else %}{{ page.title | escape }} &#8211; {{ site.title | escape }}{% endif %}</title>
 
-{% if page.excerpt %}
+{% if page.title  == 'Leon Paternoster' %}
 
-    <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
+<meta name="description" content="{{ site.description | strip_html | strip_newlines | truncate: 160 }}">
 
 {% endif %}

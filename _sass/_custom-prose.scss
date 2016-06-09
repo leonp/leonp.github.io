@@ -12,18 +12,32 @@
 .custom-prose h4,
 .custom-prose dt {
     margin: 0;
-    color: $base-colour;
     line-height: $lh-title;
     padding-top: 1rem;
+    color: #999;
 }
 
 .custom-prose h1,
 .custom-prose h2 {
     font-size: 1.25rem;
+    @media (min-width: $breakpoint) {
+        font-size: 1.5rem;
+    }
 }
 
 .custom-prose h3 {
     font-size: 1rem;
+    @media (min-width: $breakpoint) {
+        font-size: 1.25rem;
+    }
+}
+
+.custom-prose h4 {
+    font-size: 1rem;
+    font-weight: normal;
+    @media (min-width: $breakpoint) {
+        font-weight: bold;
+    }
 }
 
 }

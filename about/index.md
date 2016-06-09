@@ -3,7 +3,9 @@ title: About
 layout: default
 ---
 
-I'm Leon Paternoster, digital and customer service manager at [Suffolk Libraries](http://suffolklibraries.co.uk) (I work under the job title of deputy head of IT). We're a mutual formed in 2012 to run Suffolk's library service.
+I'm Leon Paternoster, deputy head of IT at [Suffolk Libraries](http://suffolklibraries.co.uk). I manage our web and customer service teams, as well as [several IT projects](/2016/02/5-day-sprint-clear-left-self-service/). I also help manage our network and staff and public PCs.
+
+Suffolk County Council contracts us to run the county's library service.
 
 <figure class="figure">
 
@@ -13,19 +15,13 @@ I'm Leon Paternoster, digital and customer service manager at [Suffolk Libraries
 
 </figure>
 
-We design, build and manage our website in house, and fit several external services such as the catalogue of physical titles and ebook service into it.
-
-I also set up (and continue to manage) our customer service team.
+We design, build and manage our website in house, integrating it with several external services such as the catalogue of physical titles and ebook downloads. We manage PCs for 400 staff, hundreds of public PCs and our staff and public networks.
 
 In previous lives I've been a newspaper ad salesperson, telecoms engineer and teacher of English. If you were looking for a common thread you might argue I've always been interested in communication, user experience and technology.
 
-I figure out what organisations should do online, especially not for profits who don't have the resources to employ a full web team.
-
-This involves lots of things, including research, coding, testing, writing style guides, digital strategy, social media and commissioning.
-
 <hr>
 
-I've published blog posts since 2008 on web design and writing, my work, politics, books, philosophy and other bits and pieces. These are my thoughts and opinions, not those of someone else, you'll be unsurprised to hear.
+I've published blog posts since 2008 on web design and writing, my work, politics, books, philosophy and other bits and pieces. These are my thoughts and opinions, not those of someone else, my employer or you.
 
 ## Contact me
 

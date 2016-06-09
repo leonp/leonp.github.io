@@ -1,14 +1,12 @@
 {% include header.html %}
 
-<article class="{% include article.html %}">
+<article class="{% include article.html %} pb2">
 
     <h1 class="{% include article-title.html %}">{{ page.title }}</h1>
 
-    <div class="pb2">
+    <p class="mb4 mb5-ns">{{ page.description }}</p>
 
-        <p>{{ page.description }}</p>
-
-        <hr>
+    <div class="{% include prose-wrapper.html %}">
 
         <ul class="list pl0">
 

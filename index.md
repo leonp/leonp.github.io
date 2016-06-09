@@ -1,15 +1,12 @@
 ---
 layout: default
 title: Leon Paternoster
+excerpt: Web and customer service manager at Suffolk Libraries. Blogs about web design, code, politics, books and all sorts of other things.
 ---
 
-I'm Leon, web and customer service manager at Suffolk Libraries. You can contact me at:
+I post articles and notes about the web, politics, libraries and other bits and pieces. You can [follow me on Twitter](https://twitter.com/leonpaternoster).
 
-- [Twitter](https://twitter.com/leonpaternoster)
-- [LinkedIn](https://uk.linkedin.com/in/leonpaternoster)
-- leon.paternoster@zoho.com
-
-## Recent blog posts
+## Recent posts
 
 <ul class="list pl0">
 

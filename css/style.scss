@@ -19,18 +19,20 @@ $white: #FFF;
 
 // Custom colours
 
-$base-colour: #0F70B7;
-$accent-colour: #FF4905;
+$base-colour: #0074D9;
+$accent-colour: #EB2915;
 $link: $base-colour;
-$visited: #589BCB;
+$visited: #4395D8;
 $hover: $accent-colour;
 
 
 // Variables
 
 $sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+$serif: ff-meta-serif-web-pro, charter, 'Roboto Slab', 'Noto Serif', cambria, 'Liberation Serif', georgia, serif;
 $lh-title: 1.2;
 $lh-copy: 1.45;
+$breakpoint: 40em;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
