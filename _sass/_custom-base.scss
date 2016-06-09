@@ -4,7 +4,7 @@ body {
     font-size: 106.25%;
 
     @media (min-width: $breakpoint) {
-        font-size: 118.75%;
+        font-size: 112.5%;
     }
 
 }
@@ -87,9 +87,8 @@ figure {
 figcaption,
 .figcaption {
     line-height: $lh-title;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-size: 1rem;
-    text-align: center;
+    color: #999;
 }
 
 figcaption p {
