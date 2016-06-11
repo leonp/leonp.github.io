@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Leon Paternoster
+title: Digital and IT design and strategy
 excerpt: Web and customer service manager at Suffolk Libraries. Blogs about web design, code, politics, books and all sorts of other things.
 ---
 
