@@ -4,7 +4,7 @@ title: The dangers of not opposing (part II)
 category: politics
 ---
 
-A while back I wrote a short piece on how the Labour Party had got into a bind because it had failed to oppose austerity. Watching the Brexit debate unfold suggests a similar problem with Europe.
+A while back I wrote a short piece on how the Labour Party got into a bind because it had failed to oppose austerity. Watching the Brexit debate unfold suggests a similar problem with Europe.
 
 No-one in Britain (or Europe, for that matter) has had a good word to say about Europe as some form of union of nations for years. It's always been about striking some sort of "tough" deal, opting out of agreements or moaning about immigration.
 
