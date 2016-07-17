@@ -20,25 +20,22 @@
 
 .custom-prose h1,
 .custom-prose h2 {
-    font-size: 1.25rem;
-    @media (min-width: $breakpoint) {
-        font-size: 1.5rem;
-    }
-}
-
-.custom-prose h3 {
     font-size: 1rem;
     @media (min-width: $breakpoint) {
         font-size: 1.25rem;
     }
 }
 
-.custom-prose h4 {
-    font-size: 1rem;
-    font-weight: normal;
+.custom-prose h3 {
+    font-size: 0.874rem;
     @media (min-width: $breakpoint) {
-        font-weight: bold;
+        font-size: 1rem;
     }
+}
+
+.custom-prose h4 {
+    font-size: 0.875rem;
+    font-weight: normal;
 }
 
 }
