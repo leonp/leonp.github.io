@@ -1,18 +1,26 @@
 {% include header.html %}
 
-<article class="{% include article.html %} pb2">
+<article>
 
-    <h1 class="{% include article-title.html %}">{{ page.title }}</h1>
+    <header class="{% include header-block.html %} bg-black orange">
 
-    <p class="mb4 mb5-ns">{{ page.description }}</p>
+        <div class="{% include wrapper.html %}">
 
-    <div class="{% include prose-wrapper.html %}">
+            <h1 class="{% include article-title.html %}">{{ page.title }}</h1>
 
-        <ul class="list pl0">
+            <p class="{% include article-meta.html %} custom-lh-copy">{{ page.description }}</p>
+
+        </div>
+
+    </header>
+
+    <div class="{% include wrapper.html %}">
+
+        <ul class="list pl0 mt4">
 
             {% for post in site.categories[page.category] %}
 
-                <li class="{% include link-list.html %}"><a href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time></span></li>
+                <li class="{% include link-list.html %}"><a class="blue" href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time></span></li>
 
             {% endfor %}
 

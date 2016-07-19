@@ -1,10 +1,7 @@
-// Custom colours
-
-$base-colour: #0074D9;
-$accent-colour: #EB2915;
-$link: $base-colour;
-$visited: #4395D8;
-$hover: $accent-colour;
+---
+sitemap: false
+---
+@charset "utf-8";
 
 
 // Variables
@@ -14,3 +11,15 @@ $serif: charter, 'Roboto Slab', 'Noto Serif', cambria, 'Liberation Serif', georg
 $lh-title: 1.2;
 $lh-copy: 1.45;
 $breakpoint: 36em;
+
+
+// Imports
+
+@import
+"custom-base",
+"custom-line-height",
+"custom-measure",
+"custom-prose",
+"custom-sans-serif",
+"custom-serif"
+;

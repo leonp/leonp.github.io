@@ -1,10 +1,10 @@
 @media screen, projection {
 
 body {
-    font-size: 106.75%;
+    font-size: 100%;
 
     @media (min-width: $breakpoint) {
-        font-size: 118.75%;
+        font-size: 125%;
     }
 
 }
@@ -13,26 +13,10 @@ a {
     text-decoration: none;
 }
 
-a:link {
-    color: $link;
-}
-
-a:visited {
-    color: $visited;
-}
-
 a:hover,
 a:active,
 a:focus {
-    color: $hover;
-}
-
-a.black {
-    color: #000;
-}
-
-a.custom-bg-base-colour-link {
-    color: #FFF !important;
+    border-bottom: 2px solid;
 }
 
 hr {
@@ -47,7 +31,9 @@ code {
 }
 
 blockquote {
-    color: $gray;
+    color: #777;
+    font-size: 87.5%;
+    font-family: $sans-serif;
 }
 
 img {
@@ -88,7 +74,7 @@ figcaption,
 .figcaption {
     line-height: $lh-title;
     font-size: 1rem;
-    color: #999;
+    color: #777;
     font-family: $sans-serif;
 }
 

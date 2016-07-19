@@ -1,5 +1,17 @@
 @media screen, projection {
 
+.custom-prose a {
+    border-bottom: 2px solid;
+}
+
+.custom-prose a:link {
+    color: #357EDD; /* Tachyons blue */
+}
+
+.custom-prose a:visited {
+    color: #777; /* Tachyons gray */
+}
+
 .custom-prose {
     hyphens: auto;
     -moz-hyphens: auto;
@@ -13,29 +25,30 @@
 .custom-prose dt {
     margin: 0;
     line-height: $lh-title;
-    padding-top: 1rem;
-    color: #999;
+    padding: 1rem 0;
     font-family: $sans-serif;
 }
 
 .custom-prose h1,
 .custom-prose h2 {
-    font-size: 1rem;
-    @media (min-width: $breakpoint) {
-        font-size: 1.25rem;
-    }
+        font-size: 1.5rem;
 }
 
 .custom-prose h3 {
-    font-size: 0.874rem;
-    @media (min-width: $breakpoint) {
-        font-size: 1rem;
-    }
+    font-size: 1.25rem;
 }
 
 .custom-prose h4 {
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: normal;
+}
+
+.custom-prose h1 + p,
+.custom-prose h2 + p,
+.custom-prose h3 + p,
+.custom-prose h4 + p,
+.custom-prose dt + p {
+    margin-top: 0;
 }
 
 }

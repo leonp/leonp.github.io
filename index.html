@@ -1,0 +1,34 @@
+---
+layout: default
+title: Hello.
+excerpt: Web and customer service manager at Suffolk Libraries. Blogs about web design, code, politics, books and all sorts of other things.
+header-message: 'I post articles and notes about the web, politics, libraries and other bits and pieces. You can <a href="https://twitter.com/leonpaternoster" class="white">follow me on Twitter</a>.'
+---
+
+<div class="pt4"></div>
+
+<h2 class="custom-sans-serif f3 ma0 pb2 pt4 custom-lh-title">Popular</h2>
+
+<ul class="list pl0">
+
+{% assign featured_posts = (site.posts | where: "featured", "true") %}
+
+{% for post in featured_posts %}
+
+	<li class="{% include link-list.html %}"><a class="blue" href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time> and filed under <a class="blue" href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
+
+{% endfor %}
+
+</ul>
+
+<h2 class="custom-sans-serif f3 ma0 pb2 pt4 custom-lh-title">Recent</h2>
+
+<ul class="list pl0">
+
+{% for post in site.posts limit:10 %}
+
+	<li class="{% include link-list.html %}"><a class="blue" href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time> and filed under <a class="blue" href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
+
+{% endfor %}
+
+</ul>

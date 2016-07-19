@@ -1,18 +1,26 @@
 {% include header.html %}
 
-<article class="{% include article.html %}">
+<article>
 
-    <header>
+    <header class="{% include header-block.html %} bg-black orange">
 
-        <h1 class="{% include article-title.html %}">{{ page.title }}</h1>
+        <div class="{% include wrapper.html %}">
 
-        <p class="{% include article-meta.html %}"><time>{{ page.date | date_to_string }}</time> &middot; filed under <a href="/blog/{{ page.category }}">{{ page.category }}</a></p>
+            <h1 class="{% include article-title.html %}">{{ page.title }}</h1>
+
+            <p class="{% include article-meta.html %}"><time>{{ page.date | date_to_string }}</time> &middot; filed under <a class="white link" href="/blog/{{ page.category }}">{{ page.category }}</a></p>
+
+        </div>
 
     </header>
 
-    <div class="{% include prose-wrapper.html %}">
+    <div class="{% include prose-wrapper.html %} pt3 pt4-ns pb3">
 
-        {{ content }}
+        <div class="{% include wrapper.html %}">
+
+            {{ content }}
+
+        </div>
 
     </div>
 
