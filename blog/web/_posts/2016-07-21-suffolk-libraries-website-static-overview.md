@@ -32,4 +32,4 @@ I'll maybe write a lot more about it over the next few weeks, but here's a summa
 - Improve event finding.
 - Docs
 
-We're happy with it. Let's see if it makes much difference to our feedbacks and analytics.
+We're happy with it. Let's see if it makes much difference to our feedback and analytics.
