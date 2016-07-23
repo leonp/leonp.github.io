@@ -82,5 +82,14 @@ figcaption p {
     margin-top: 0;
 }
 
+pre {
+    overflow: auto;
+    hyphens: none !important;
+}
+
+code {
+    color: #F00007 /* Tachyons red */;
+}
+
 
 }
