@@ -2,11 +2,6 @@
 
 body {
     font-size: 100%;
-
-    @media (min-width: $breakpoint) {
-        font-size: 125%;
-    }
-
 }
 
 a {
@@ -32,8 +27,10 @@ code {
 
 blockquote {
     color: #777;
-    font-size: 87.5%;
-    font-family: $sans-serif;
+    margin: 2rem 0;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 0.25rem solid #357edd;
 }
 
 img {
@@ -73,7 +70,7 @@ figure {
 figcaption,
 .figcaption {
     line-height: $lh-title;
-    font-size: 1rem;
+    font-size: 0.875rem;
     color: #777;
     font-family: $sans-serif;
 }
