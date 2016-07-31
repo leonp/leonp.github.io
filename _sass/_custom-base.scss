@@ -2,6 +2,10 @@
 
 body {
     font-size: 100%;
+
+    @media (min-width: $breakpoint) {
+        font-size: 106.75%;
+    }
 }
 
 a {

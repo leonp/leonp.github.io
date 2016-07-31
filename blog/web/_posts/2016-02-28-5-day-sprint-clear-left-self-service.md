@@ -3,6 +3,7 @@ layout: post
 title: A 5 day sprint with Clear Left exploring library self-service machine software
 category: web
 featured: true
+hero: sprint.jpg
 ---
 
 Last week we spent 5 days with digital agency [Clear Left](http://clearleft.com/) exploring how we might develop new self-service machine software for libraries.
