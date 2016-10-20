@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: A world without work
 category: thinking
 ---

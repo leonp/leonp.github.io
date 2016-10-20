@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Creating WordPress sub navigation menus that only appear where you need them
 category: web
 ---

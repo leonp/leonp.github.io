@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Fight and Challenge Everything (yourselves)
 category: politics
 ---

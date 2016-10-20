@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Adding em or en dashes to Google docs
 excerpt: How to make Google docs display an em or en dash when you press the dash key twice.
 category: web

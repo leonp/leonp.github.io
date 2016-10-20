@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Good copy redeems bad layout and typography
 category: web
 ---

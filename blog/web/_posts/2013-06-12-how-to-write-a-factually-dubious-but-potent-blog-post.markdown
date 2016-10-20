@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: How to write a factually dubious but potent blog post
 category: web
 ---

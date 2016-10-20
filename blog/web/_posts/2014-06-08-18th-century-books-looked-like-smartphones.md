@@ -1,6 +1,6 @@
 ---
 title: 18th century books looked like smartphones
-layout: post
+layout: default
 category: web
 ---
 Liked this picture of an 18th century book <cite>Conjectures on Original Composition</cite> by Edward Young:

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Sketching pages with colleagues
 category: web
 ---

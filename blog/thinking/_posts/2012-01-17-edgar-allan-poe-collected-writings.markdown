@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Edgar Allan Poe Collected Writings
 category: thinking
 ---

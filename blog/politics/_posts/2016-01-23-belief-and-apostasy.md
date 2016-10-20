@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Belief and apostasy
 category: politics
 ---

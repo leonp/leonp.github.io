@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-02-12 20:55:54+00:00
-layout: post
+layout: default
 slug: stillness-in-the-white-ribbon
 title: Stillness in The White Ribbon
 wordpress_id: 3019

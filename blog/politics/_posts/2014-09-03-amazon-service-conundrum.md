@@ -1,6 +1,6 @@
 ---
 title: The Amazon service conundrum
-layout: post
+layout: default
 category: politics
 ---
 

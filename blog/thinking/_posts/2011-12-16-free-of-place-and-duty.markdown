@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Free of place and duty
 category: thinking
 ---

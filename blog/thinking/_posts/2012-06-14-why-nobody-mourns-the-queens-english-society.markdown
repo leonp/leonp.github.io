@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Why nobody mourns the Queen's English Society
 category: thinking
 ---

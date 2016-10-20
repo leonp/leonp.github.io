@@ -1,6 +1,6 @@
 ---
 title: Library websites, catalogues and their poor UX
-layout: post
+layout: default
 excerpt: Website and catalogue separation and search stuck in the mid-90s result in poor user experiences.
 category: libraries
 ---

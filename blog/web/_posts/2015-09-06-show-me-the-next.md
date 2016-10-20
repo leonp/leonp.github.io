@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Show me the Next &#8211; genius concept, needs better content
 category: web
 ---

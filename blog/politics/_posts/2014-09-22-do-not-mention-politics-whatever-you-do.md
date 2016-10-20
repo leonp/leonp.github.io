@@ -1,6 +1,6 @@
 ---
 title: Whatever you do, don't mention politics if you're marketing yourself
-layout: post
+layout: default
 category: politics
 ---
 

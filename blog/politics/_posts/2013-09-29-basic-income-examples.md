@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Basic citizen income&#8212;two examples of how it would work
 category: politics
 ---

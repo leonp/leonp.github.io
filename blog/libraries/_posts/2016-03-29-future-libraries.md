@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: The future of libraries (again)
 category: libraries
 excerpt: A BBC report into library branch and staff numbers brings out the usual arguments against the service. Why can't some right wing critics even bother to find out what libraries do?

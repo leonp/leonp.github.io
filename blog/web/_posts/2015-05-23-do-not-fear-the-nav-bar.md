@@ -1,6 +1,6 @@
 ---
 title: Do not always fear the nav bar on narrow screens
-layout: post
+layout: default
 excerpt: Users scan pages for text that might help them complete their task. Navigation bars and lists are rich in information scent, so it makes sense to avoid hiding them whenever possible.
 category: web
 ---

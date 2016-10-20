@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Setting up WordPress style year and month URLs in Jekyll
 category: web
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Polikushka &#8211; Or, the lot of a wicked court servant
 category: thinking
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Basic citizen income&#8212;genius idea the UK will never adopt
 category: politics
 ---

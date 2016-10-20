@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Introducing the Scherzo theme for WordPress
 category: web
 ---

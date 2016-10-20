@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2013-02-21 10:14:20+00:00
-layout: post
+layout: default
 title: Google's infantile big brain
 category: libraries
 ---

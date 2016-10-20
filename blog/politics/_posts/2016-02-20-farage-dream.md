@@ -1,6 +1,6 @@
 ---
 title: Living in Nigel Farage's dream
-layout: post
+layout: default
 category: politics
 excerpt: Apparently we're all really concerned about being part of the EU and David Cameron's made some deal over migrants on our behalf.
 ---

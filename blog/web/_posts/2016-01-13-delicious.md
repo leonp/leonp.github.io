@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Delicious and how every excellent web service ends up eating itself
 category: web
 ---

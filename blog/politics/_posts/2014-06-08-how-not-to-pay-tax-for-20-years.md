@@ -1,6 +1,6 @@
 ---
 title: How not to pay tax for 20 years
-layout: post
+layout: default
 category: politics
 ---
 

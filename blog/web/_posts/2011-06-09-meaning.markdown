@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Putting content and meaning first
 category: web
 ---

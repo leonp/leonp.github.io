@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Using presentational classes makes web design easier
 category: web
 ---

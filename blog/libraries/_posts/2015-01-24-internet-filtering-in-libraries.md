@@ -1,6 +1,6 @@
 ---
 title: Blocking websites in libraries&#8212;our policy
-layout: post
+layout: default
 excerpt: What we do and don't block on Suffolk library PCs. Our first instinct is to allow access to as much information as possible.
 category: libraries
 ---

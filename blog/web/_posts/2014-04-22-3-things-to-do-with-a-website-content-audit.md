@@ -1,7 +1,7 @@
 ---
 title: 3 things to do with a website content audit
 excerpt: Keep your website up to date, lean and organised.
-layout: post
+layout: default
 category: web
 
 ---

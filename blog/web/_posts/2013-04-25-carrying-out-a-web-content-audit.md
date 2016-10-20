@@ -1,6 +1,6 @@
 ---
 title: Carrying out a web content audit
-layout: post
+layout: default
 excerpt: Audit your content in order to control and prune it.
 category: web
 ---

@@ -1,6 +1,6 @@
 ---
 title: The minimum wage legalises low pay
-layout: post
+layout: default
 category: politics
 ---
 

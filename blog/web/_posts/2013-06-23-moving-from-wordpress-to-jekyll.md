@@ -1,6 +1,6 @@
 ---
 title: A few notes on moving from WordPress to Jekyll
-layout: post
+layout: default
 category: web
 ---
 

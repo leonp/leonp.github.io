@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 category: web
 title: Doing a Liverpool
 ---

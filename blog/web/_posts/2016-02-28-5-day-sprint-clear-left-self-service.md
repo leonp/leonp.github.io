@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: A 5 day sprint with Clear Left exploring library self-service machine software
 category: web
 featured: true

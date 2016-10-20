@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Typographic observations Good Friday 2016 (95% of what we serve is pointless)
 category: web
 excerpt: We serve too much rubbish over the web but what're you going to do about it? Adam Morse has the answers.

@@ -1,6 +1,6 @@
 ---
 title: Write edit build publish edit build republish
-layout: post
+layout: default
 category: thinking
 ---
 

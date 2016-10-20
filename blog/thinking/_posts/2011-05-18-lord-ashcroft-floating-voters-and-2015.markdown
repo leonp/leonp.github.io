@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Lord Ashcroft, floating voters and 2015
 category: politics
 ---

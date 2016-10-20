@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Paradise Lost
 category: thinking
 ---

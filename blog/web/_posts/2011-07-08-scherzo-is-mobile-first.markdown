@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Scherzo, mobile first (and what that means for you)
 category: web
 ---

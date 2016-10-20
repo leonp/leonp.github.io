@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 6 newspaper writing techniques for the web
 excerpt: Concision, chunking and emphasis will make your web writing more effective.
 category: web

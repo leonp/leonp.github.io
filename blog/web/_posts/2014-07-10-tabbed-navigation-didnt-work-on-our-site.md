@@ -1,6 +1,6 @@
 ---
 title: Tabbed navigation didn&#8217;t work on our site
-layout: post
+layout: default
 excerpt: Tabbed navigation looks a good idea, but it often causes confusion. Generally, it makes more sense to publish a single, visible, well-organised document.
 category: web
 ---

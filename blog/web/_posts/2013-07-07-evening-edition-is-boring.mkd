@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Evening Edition looks good but has an audience problem
 category: web
 ---

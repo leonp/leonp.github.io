@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Piano Quintet in F minor (Franck)
 category: thinking
 ---

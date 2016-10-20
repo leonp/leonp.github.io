@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Container housing &#8211; Right solution, wrong problem
 category: politics
 ---

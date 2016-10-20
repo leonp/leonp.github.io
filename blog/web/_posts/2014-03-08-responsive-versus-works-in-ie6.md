@@ -1,7 +1,7 @@
 ---
 title: Responsive versus works in IE6
 excerpt: Making your site responsive will get you more accessibility points than making it work in IE6.
-layout: post
+layout: default
 category: web
 ---
 

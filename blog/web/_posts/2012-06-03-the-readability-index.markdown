@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: The readability index
 category: web
 ---

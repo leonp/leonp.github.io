@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Note to self &#8211; keep all your data OS agnostic and in the cloud, and don't live your life on your phone
 category: thinking
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Nabokov on other writers
 category: thinking
 ---

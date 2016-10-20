@@ -1,0 +1,19 @@
+<nav id="nav">
+
+    <ul>
+
+    {% assign nav-pages = site.pages | sort: "nav-weight" %}
+
+    {% for nav in nav-pages %}
+
+        {% if nav.nav-weight %}
+
+            <li><a href="{{ nav.url }}" {% if nav.url == page.url %} class="link blue"{% else %}class="link blue"{% endif %}>{{ nav.title }}</a></li>
+
+        {% endif %}
+
+    {% endfor %}
+
+    </ul>
+
+</nav>

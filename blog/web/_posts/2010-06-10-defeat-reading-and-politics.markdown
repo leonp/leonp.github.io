@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Defeat, reading and politics
 category: web
 ---

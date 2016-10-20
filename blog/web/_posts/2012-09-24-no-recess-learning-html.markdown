@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: No recess—learning HTML
 category: web
 ---

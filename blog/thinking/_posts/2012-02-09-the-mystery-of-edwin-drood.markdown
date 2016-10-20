@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: The Mystery of Edwin Drood
 category: thinking
 ---

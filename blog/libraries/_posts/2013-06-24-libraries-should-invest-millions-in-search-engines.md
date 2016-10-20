@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Libraries should invest millions in search engines
 excerpt: Miserable and clunky search and discovery don't really cut it in the age of Google and Amazon.
 category: libraries

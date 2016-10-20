@@ -1,6 +1,6 @@
 ---
 title: In my experience
-layout: post
+layout: default
 category: politics
 ---
 

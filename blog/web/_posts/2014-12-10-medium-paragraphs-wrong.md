@@ -1,6 +1,6 @@
 ---
 title: Medium and the wrong paragraph
-layout: post
+layout: default
 category: web
 ---
 

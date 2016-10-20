@@ -1,6 +1,6 @@
 ---
 title: Dieter Moebius, 1944&#8211;2015
-layout: post
+layout: default
 category: thinking
 ---
 

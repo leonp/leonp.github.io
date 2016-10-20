@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Forbes means business, do you?
 category: web
 ---

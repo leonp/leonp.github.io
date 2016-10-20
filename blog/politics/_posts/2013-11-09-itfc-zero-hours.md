@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Ipswich Town FC in the community&thinsp;&#8212;&thinsp;what does it owe?
 category: politics
 ---

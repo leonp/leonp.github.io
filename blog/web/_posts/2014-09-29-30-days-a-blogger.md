@@ -1,6 +1,6 @@
 ---
 title: 30 days a blogger
-layout: post
+layout: default
 category: web
 ---
 

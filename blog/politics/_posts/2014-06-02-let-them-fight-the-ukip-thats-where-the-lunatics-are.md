@@ -1,6 +1,6 @@
 ---
 title: Let them fight the UKIP—that&#8217;s where the lunatics are
-layout: post
+layout: default
 category: politics
 ---
 

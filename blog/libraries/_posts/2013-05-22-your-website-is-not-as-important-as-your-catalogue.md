@@ -1,6 +1,6 @@
 ---
 title: Your website is not as important as your catalogue
-layout: post
+layout: default
 excerpt: And your users don't distinguish between the two. Poor web skills and procurement processes result in poor user experience.
 category: libraries
 ---

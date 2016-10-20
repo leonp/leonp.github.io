@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: An HTML5 challenge (which lead me to think &#8211; Why bother with HTML5 sectioning elements?)
 category: web
 ---

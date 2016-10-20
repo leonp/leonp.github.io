@@ -1,6 +1,6 @@
 ---
 title: The dangers of automation (or making a visit to the library worth it)
-layout: post
+layout: default
 excerpt: Automation saves time, money and tedium. But overautomation destroys the things that differentiate libraries.
 category: libraries
 ---

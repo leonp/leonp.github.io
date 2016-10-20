@@ -1,6 +1,6 @@
 ---
 title: Unstyle and looking at naked HTML
-layout: post
+layout: default
 excerpt: Unstyle is a browser that strips pages of javascript and styles. How well do websites work without them? Does your site look good naked?
 category: web
 ---

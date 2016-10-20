@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Text is text is text is text
 category: web
 ---

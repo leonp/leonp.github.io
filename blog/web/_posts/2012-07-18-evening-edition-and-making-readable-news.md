@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Evening Edition and making readable news
 category: web
 ---

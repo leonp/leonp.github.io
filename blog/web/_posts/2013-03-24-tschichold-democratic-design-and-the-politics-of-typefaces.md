@@ -1,6 +1,6 @@
 ---
 title: Tschichold, democratic design and the politics of typefaces
-layout: post
+layout: default
 category: web
 ---
 Penguin founder Allen Lane hired Jan Tschichold to design the publisher’s book covers in 1947. Tschichold made an immediate impact:

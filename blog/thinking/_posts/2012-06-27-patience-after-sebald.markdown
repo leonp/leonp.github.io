@@ -1,6 +1,6 @@
 ---
 title: Patience (After Sebald)
-layout: post
+layout: default
 category: thinking
 ---
 

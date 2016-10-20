@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 category: web
 title: Running a library website on Jekyll (maybe)
 excerpt: To run a static site or not? Static means faster, more robust and more secure, but you lose plugins, time and easy editing.

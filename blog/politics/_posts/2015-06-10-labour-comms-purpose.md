@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Labour's problems are only partly about how it talks
 category: politics
 ---

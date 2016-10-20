@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Writing great articles &#8211; anatomy of a BBC news story
 category: web
 ---

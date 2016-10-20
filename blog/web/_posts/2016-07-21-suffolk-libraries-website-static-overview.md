@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: How we built a static Suffolk Libraries website (an overview)
 category: web
 ---

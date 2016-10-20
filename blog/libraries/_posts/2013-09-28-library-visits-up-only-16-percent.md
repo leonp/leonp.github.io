@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 category: libraries
 title: Library website visits increase 16% in 8 years&#8212;is that all?
 ---

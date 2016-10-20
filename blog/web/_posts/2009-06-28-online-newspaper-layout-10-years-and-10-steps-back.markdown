@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Online newspaper layout &#8211; 10 years and 10 steps back
 category: web
 ---

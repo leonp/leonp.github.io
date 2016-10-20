@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Separating services is preferable to surface integration (or 3 principles for a web strategy)
 excerpt: It's a bad idea to make web things look like other things when they're something else altogether. Instead, integrate services to make for better user experiences.
 category: web

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Why I don't like Tumblr and Posterous
 category: web
 ---

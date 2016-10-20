@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Occupy the centre, comrades
 category: politics
 ---

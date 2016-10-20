@@ -1,6 +1,6 @@
 ---
 title: How I became rich and used the benefits system to claim subsidies only for George Osborne to crackdown on me
-layout: post
+layout: default
 category: politics
 ---
 

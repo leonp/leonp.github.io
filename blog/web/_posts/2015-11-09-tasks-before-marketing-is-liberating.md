@@ -1,6 +1,6 @@
 ---
 title: Designing for what they need is difficult but liberating
-layout: post
+layout: default
 excerpt: Interpreting what customers actually need from your website through methods such as top task analysis and card sorts is difficult work, but the results can be liberating. Coding your website is the (relatively) easy bit.
 category: web
 ---

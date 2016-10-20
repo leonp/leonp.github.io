@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Web writers should know HTML so teach it in school
 category: web
 ---

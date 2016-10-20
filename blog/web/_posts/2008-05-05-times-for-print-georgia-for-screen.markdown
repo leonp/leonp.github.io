@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Times for print, Georgia for screen
 category: web
 ---

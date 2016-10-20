@@ -1,6 +1,6 @@
 ---
 title: Matthew Parris only said what most British people think about places like Clacton
-layout: post
+layout: default
 category: politics
 ---
 

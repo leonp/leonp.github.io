@@ -1,6 +1,6 @@
 ---
 title: Meaning, separation and using lots of classes freely
-layout: post
+layout: default
 category: web
 ---
 

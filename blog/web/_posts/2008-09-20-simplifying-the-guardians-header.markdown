@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Simplifying The Guardian’s header
 category: web
 ---

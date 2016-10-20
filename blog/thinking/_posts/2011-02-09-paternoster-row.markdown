@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Paternoster Row
 category: thinking
 ---

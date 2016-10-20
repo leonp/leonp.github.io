@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: A Hero of our Time
 category: thinking
 ---

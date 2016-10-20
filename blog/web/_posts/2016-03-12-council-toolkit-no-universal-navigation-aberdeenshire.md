@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 category: web
 title: Council Toolkit and non-universal navigation
 excerpt: Council Toolkit does complex navigation really well by using an old fashioned, easy to interpret method.

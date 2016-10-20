@@ -1,6 +1,6 @@
 ---
 title: Bring on the fan fiction (even if I won't read it)
-layout: post
+layout: default
 category: thinking
 ---
 

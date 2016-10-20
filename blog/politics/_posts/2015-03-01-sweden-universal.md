@@ -1,6 +1,6 @@
 ---
 title: The Swedish universal versus austerity
-layout: post
+layout: default
 category: politics
 ---
 

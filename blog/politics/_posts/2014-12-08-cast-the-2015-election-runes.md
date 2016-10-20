@@ -1,6 +1,6 @@
 ---
 title: Cast the 2015 election runes
-layout: post
+layout: default
 category: politics
 ---
 

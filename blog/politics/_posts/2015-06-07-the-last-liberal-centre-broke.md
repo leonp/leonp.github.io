@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: The last liberal and how the centre broke
 category: politics
 ---

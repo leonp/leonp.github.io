@@ -1,7 +1,7 @@
 ---
 published: true
 title: The vacant centre (part III)
-layout: post
+layout: default
 category: politics
 ---
 

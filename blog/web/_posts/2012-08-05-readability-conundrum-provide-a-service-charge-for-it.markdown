@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: The great Readability conundrum (Or &#8211; If you provide a service, charge for it)
 category: web
 ---

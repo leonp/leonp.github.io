@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: A mobile first approach to design &#8211; Use text instead of images
 category: web
 ---

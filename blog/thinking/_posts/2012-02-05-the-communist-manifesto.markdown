@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: The Communist Manifesto
 wordpress_id: 3024
 category: thinking

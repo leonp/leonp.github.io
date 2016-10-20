@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: It's all marketing
 category: thinking
 ---

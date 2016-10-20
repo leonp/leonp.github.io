@@ -1,6 +1,6 @@
 ---
 
-layout: post
+layout: default
 title: Bleak House
 category: thinking
 ---

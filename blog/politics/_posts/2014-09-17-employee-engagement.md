@@ -1,6 +1,6 @@
 ---
 title: Employee engagement
-layout: post
+layout: default
 category: politics
 ---
 

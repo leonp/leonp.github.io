@@ -1,6 +1,6 @@
 ---
 title: Do one thing well etc. etc.
-layout: post
+layout: default
 category: web
 excerpt: Doing one thing well is obvious good advice. But what is that thing and how do you communicate it?
 ---

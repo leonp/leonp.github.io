@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: The Rings of Saturn
 category: thinking
 ---

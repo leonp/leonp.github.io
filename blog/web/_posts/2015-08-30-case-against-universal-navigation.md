@@ -1,6 +1,6 @@
 ---
 title: The case against universal navigation
-layout: post
+layout: default
 excerpt: Do we need a complete list of links to every section of our website on every page? Or can we offer simple signposts to major pages and contextual links?
 category: web
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Obama shows Ed Miliband how to do blogging
 category: web
 ---

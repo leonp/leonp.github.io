@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Extra form fields &#8211; Make sure they benefit the user
 category: web
 ---

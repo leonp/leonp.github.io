@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: One layout is all you need
 category: web
 ---

@@ -2,29 +2,19 @@
 
 <article>
 
-    <header class="{% include header-block.html %} bg-black orange">
+    <header>
 
-        <div class="{% include wrapper.html %}">
+        <h1>{{ page.title }}</h1>
 
-            <h1 class="{% include article-title.html %}">{{ page.title }}</h1>
+        {% if page.header-message %}
 
-            {% if page.header-message %}
+            <p class="{% include article-meta.html %} custom-lh-copy">{{ page.header-message }}</p>
 
-                <p class="{% include article-meta.html %} custom-lh-copy">{{ page.header-message }}</p>
-
-            {% endif %}
-
-        </div>
+        {% endif %}
 
     </header>
 
-    <div class="{% include wrapper.html %}">
-
-        {{ content }}
-
-    </div>
-
-    </div>
+    {{ content }}
 
 </article>
 

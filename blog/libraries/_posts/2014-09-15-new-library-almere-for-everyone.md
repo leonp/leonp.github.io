@@ -1,6 +1,6 @@
 ---
 title: The New Library, Almere &#8211; What a universal library service looks like
-layout: post
+layout: default
 excerpt: The Almere library looks like somewhere anyone would like to spend a few hours. That's what all libraries should be like.
 category: libraries
 ---

@@ -1,6 +1,6 @@
 ---
 title: They went and broke citizens income, so what's next?
-layout: post
+layout: default
 category: politics
 ---
 

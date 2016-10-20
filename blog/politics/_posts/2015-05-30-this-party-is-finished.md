@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: A party which makes errors like this is already finished
 category: politics
 ---

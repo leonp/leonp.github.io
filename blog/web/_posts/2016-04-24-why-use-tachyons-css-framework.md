@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 category: web
 title: Why we'll be using a CSS framework like Tachyons to rebuild our website
 ---

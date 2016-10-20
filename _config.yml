@@ -12,3 +12,17 @@ markdown: kramdown
 permalink: /:year/:month/:title/
 sass:
   style: compressed
+
+# Enable is.post test for posts
+# Means we don't need a post layout
+# But we can test for a post in layouts/default.html
+# Simply use {% if page.is_post %}
+
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
+      layout: default

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Why do we work unpaid hours?
 category: politics
 ---

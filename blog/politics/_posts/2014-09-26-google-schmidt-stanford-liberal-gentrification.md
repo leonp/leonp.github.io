@@ -1,6 +1,6 @@
 ---
 title: Friday reading &#8211; Google, Stanford, DC, liberals and gentrification
-layout: post
+layout: default
 category: politics
 ---
 

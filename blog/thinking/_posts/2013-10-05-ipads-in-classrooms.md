@@ -1,7 +1,7 @@
 ---
 title: iPads in classrooms
 excerpt: Seems such a good idea, but more often than not a pain in the backside. And a Huddle's less than half the price.
-layout: post
+layout: default
 category: thinking
 ---
 According to <cite>Hechinger Report</cite>, [a scheme to roll out iPads for students in California has been an unmitigated disaster][1] (via [@joeclark][2]).

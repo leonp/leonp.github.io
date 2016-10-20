@@ -1,6 +1,6 @@
 ---
 title: Why restaurants publish images of their menus online (and why they shouldn't)
-layout: post
+layout: default
 excerpt: It's very easy to publish a PDF or image. Unfortunately, they're hard to read, especially on mobile screens. It's a far better idea to publish a menu in HTML, but persuading restaurant owners can be difficult.
 category: web
 ---

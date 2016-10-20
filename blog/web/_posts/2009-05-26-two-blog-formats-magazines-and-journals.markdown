@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Two blog formats &#8211; magazines and journals
 category: web
 ---

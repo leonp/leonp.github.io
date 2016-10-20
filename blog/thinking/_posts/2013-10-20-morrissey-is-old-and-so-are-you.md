@@ -1,6 +1,6 @@
 ---
 category: thinking
-layout: post
+layout: default
 title: Morrissey, you and me
 ---
 

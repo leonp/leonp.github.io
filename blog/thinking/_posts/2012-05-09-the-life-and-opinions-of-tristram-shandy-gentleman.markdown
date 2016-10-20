@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: The Life and Opinions of Tristram Shandy, Gentleman
 category: thinking
 ---

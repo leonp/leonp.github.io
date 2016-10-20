@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: How the Observer used dubious research and shoddy reporting to promote a Blairite Labour leader
 category: politics
 ---

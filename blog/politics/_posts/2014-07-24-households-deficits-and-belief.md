@@ -1,6 +1,6 @@
 ---
 title: Households, deficits and belief
-layout: post
+layout: default
 category: politics
 ---
 I know next to nothing about economics. I&#8217;ve read the odd bit of Marx and lots of modern blogs, which are surprisingly often about Mr Marx, but I didn&#8217;t study the subject and I haven&#8217;t read Piketty&#8217;s <cite>Capital in the Twenty-First Century</cite>.

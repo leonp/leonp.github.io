@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: World domination and the end of the printed word
 category: web
 ---

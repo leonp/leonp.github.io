@@ -1,6 +1,6 @@
 ---
 title: The morality of work
-layout: post
+layout: default
 category: politics
 ---
 On the &#8220;morality of work&#8221;:

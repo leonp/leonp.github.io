@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Using Tachyons and keeping your markup dry
 category: web
 ---

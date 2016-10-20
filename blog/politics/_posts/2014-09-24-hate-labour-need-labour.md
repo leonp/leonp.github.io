@@ -1,6 +1,6 @@
 ---
 title: We hate Labour and we need Labour
-layout: post
+layout: default
 category: politics
 ---
 

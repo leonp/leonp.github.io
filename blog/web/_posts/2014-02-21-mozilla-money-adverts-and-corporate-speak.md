@@ -1,7 +1,7 @@
 ---
 title: Mozilla, money, adverts and corporate speak
 excerpt: Mozilla's a not for profit with a slick line in corporate speak and $300m a year in funding from Google. What's it actually for?
-layout: post
+layout: default
 category: web
 ---
 What to make of Mozilla.

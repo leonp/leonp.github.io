@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Vertical navigation and not making users think
 category: web
 ---

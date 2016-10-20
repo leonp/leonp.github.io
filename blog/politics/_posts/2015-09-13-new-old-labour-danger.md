@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: New Old Labour Old New Danger
 category: politics
 ---

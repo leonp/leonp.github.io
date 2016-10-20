@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Language affects line width
 category: web
 ---

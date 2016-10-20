@@ -1,6 +1,6 @@
 ---
 title: What we can learn from the Tories in opposition (and how there's an opportunity for the new Labour leader to remold the party)
-layout: post
+layout: default
 category: politics
 ---
 

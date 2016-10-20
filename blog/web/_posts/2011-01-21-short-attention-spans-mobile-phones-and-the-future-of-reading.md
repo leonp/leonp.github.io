@@ -1,6 +1,6 @@
 ---
 title: Short attention spans, mobile phones and the future of reading
-layout: post
+layout: default
 category: web
 ---
 
