@@ -4,7 +4,7 @@
 
     <header>
 
-        <h1>{{ page.title }}</h1>
+        <h1 class="f3 lh-title ma0 pa0 pb3 red">{{ page.title }}</h1>
 
         {% if page.header-message %}
 
@@ -14,7 +14,21 @@
 
     </header>
 
-    {{ content }}
+    <div class="custom-prose">
+
+        {{ content }}
+
+    </div>
+
+    {% if page.is_post %}
+
+        <footer class="f5 gray lh-title">
+
+            <p>&#8212; Posted <time>{{ page.date | date: "%b %-d, %Y" }}</time>. Filed under <a href="/blog/{{ page.category }}/" class="blue link">{{ page.category }}</a>.</p>
+
+        </footer>
+
+    {% endif %}
 
 </article>
 

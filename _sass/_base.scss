@@ -1,0 +1,33 @@
+@media screen, projection {
+
+body {
+    font-family: $main-font;
+    font-size: $base-font-size;
+    @media #{$nbp} {
+		font-size: $widescreen-font-size;
+	}
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+    border-bottom: 2px solid;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: auto;
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+
+}

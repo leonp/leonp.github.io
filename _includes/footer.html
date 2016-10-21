@@ -1,20 +1,26 @@
-        </main> <!-- end #content -->
+            </main> <!-- end #content -->
 
-        <footer>
+            <footer class="pt2 pt5 lh-title f5">
 
-            <ul>
+                <ul class="ma0 pa0 list">
 
-                <li><a class="blue" href="/">Leon Paternoster</a></li>
-                <li><a class="blue" href="https://twitter.com/leonpaternoster">Twitter</a></li>
-                <li><a class="blue" href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></li>
-                <li>leon.paternoster@zoho.com</li>
+                    {% assign nav-pages = site.pages | sort: "nav-weight" %}
 
-            </ul>
+                    {% for nav in nav-pages %}
 
-            <p><a class="blue" href="/subscribe">Subscribe to RSS feeds</a></p>
+                        {% if nav.nav-weight %}
 
+                            <li class="dib mr2"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="link blue"{% else %}class="link blue"{% endif %}>{{ nav.title }}</a></li>
 
-        </footer>
+                        {% endif %}
+
+                    {% endfor %}
+
+                </ul>
+
+            </footer>
+
+        </div>
 
     </body>
 

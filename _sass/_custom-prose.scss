@@ -1,54 +1,61 @@
 @media screen, projection {
 
-.custom-prose a {
-    border-bottom: 2px solid;
-}
-
-.custom-prose a:link {
-    color: #357EDD; /* Tachyons blue */
-}
-
-.custom-prose a:visited {
-    color: #777; /* Tachyons gray */
-}
-
 .custom-prose {
-    hyphens: auto;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
-}
+    hyphens: auto;
+	}
 
 .custom-prose h1,
 .custom-prose h2,
 .custom-prose h3,
 .custom-prose h4,
-.custom-prose dt {
+.custom-prose h5,
+.custom-prose h6 {
     margin: 0;
-    line-height: $lh-title;
-    padding: 1rem 0;
-    font-family: $sans-serif;
+    padding: 1.5rem 0 0 0;
+    line-height: 1.3rem;
 }
 
 .custom-prose h1,
 .custom-prose h2 {
-        font-size: 1.5rem;
-}
-
-.custom-prose h3 {
     font-size: 1.25rem;
 }
 
-.custom-prose h4 {
+.custom-prose h3 {
     font-size: 1rem;
-    font-weight: normal;
 }
 
-.custom-prose h1 + p,
-.custom-prose h2 + p,
-.custom-prose h3 + p,
-.custom-prose h4 + p,
-.custom-prose dt + p {
-    margin-top: 0;
+.custom-prose h4 {
+    font-size: .875rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.custom-prose a:link {
+    color: #357EDD;
+}
+
+.custom-prose a:visited {
+    color: #96CCFF;
+}
+
+.custom-prose figure {
+    margin-bottom: 1rem;
+}
+
+.custom-prose figcaption,
+.custom-prose .figcaption {
+    color: #777;
+    line-height: 1.3em;
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+.custom-prose blockquote {
+    line-height: 1.3;
 }
 
 }

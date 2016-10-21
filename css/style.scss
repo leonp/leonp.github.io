@@ -1,26 +1,27 @@
 ---
 sitemap: false
 ---
+
 @charset "utf-8";
 
 
-// Variables
+// Fonts
 
-$sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-$serif: charter, 'Roboto Slab', 'Noto Serif', cambria, 'Liberation Serif', georgia, serif;
-$lh-title: 1.2;
-$lh-copy: 1.5;
-$breakpoint: 36em;
+$main-font: avenir, 'segoe ui', 'source sans pro', sans-serif;
+$secondary-font: avenir, 'segoe ui', 'source sans pro', sans-serif;
 
 
-// Imports
+// Size
+
+$base-font-size: 118.75%;
+$widescreen-font-size: 125%;
+
+$nbp: "screen and (min-width: 960px)";
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
 
 @import
-"custom-base",
-"custom-line-height",
-"custom-measure",
-"custom-prose",
-"custom-sans-serif",
-"custom-serif",
-"custom-bg-hero"
+    "base",
+    "custom-prose"
 ;
