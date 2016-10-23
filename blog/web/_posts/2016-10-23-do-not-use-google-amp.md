@@ -10,7 +10,7 @@ There are lots of reasons not to use [Google's Accelerated Mobile Pages](https:/
 
 We're entering a realm of doublespeak, where no-one admits the _real_ reasons for AMP's existence and use.
 
-So let's start with a simple question. What is AMP for? Well, its stated aim is simple enough:
+So let's start with a basic question. What is AMP for? Well, its stated aim is simple enough:
 
 > AMP is a way to build web pages for static content that render fast. <cite><a href="https://www.ampproject.org/learn/about-amp/">What is AMP?</a></cite>
 
