@@ -23,6 +23,7 @@ $nbp: "screen and (min-width: 960px)";
 // Import partials from `sass_dir` (defaults to `_sass`)
 
 @import
+    "tachyons",
     "base",
     "custom-prose"
 ;
