@@ -15,6 +15,7 @@
     margin: 0;
     padding: 1.5rem 0 0 0;
     line-height: 1.3rem;
+    color: #E7040F; // Tachyons dark-red
 }
 
 .custom-prose h1,
@@ -55,7 +56,63 @@
 }
 
 .custom-prose blockquote {
-    line-height: 1.3;
+    font-size: 0.875em;
+    margin: 0 0 0 3rem;
+}
+
+.custom-prose pre {
+    overflow: auto;
+    font-family: $custom-code-font;
+}
+
+.custom-prose code {
+    font-size: 0.875em;
+    font-family: $custom-code-font;
+    color: #137752; // Tachyons dark green
+}
+
+.custom-prose hr {
+    border: none;
+    border-top: 1px solid #CCC; // Tachyons moon gray
+    width: 50%;
+    margin: auto;
+}
+
+.custom-prose thead {
+    text-align: left;
+    border-bottom: 1px solid #CCC;
+}
+
+.custom-prose td {
+    padding: 0.25rem 0.5rem;
+    background-color: #EEE; // Moon gray
+}
+
+.custom-prose img {
+    border: 1px solid #EEE; // Light gray
+}
+
+.vid,
+.constrain {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+.vid iframe,
+.vid object,
+.vid embed,
+.constrain iframe,
+.constrain object,
+.constrain embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 }

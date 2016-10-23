@@ -10,10 +10,10 @@ The comments reveal some designer disdain for large type. But there are some rel
 
 The upshot is that type size online is a **fairly** complex business. Here are some of the things you need to consider:
 
-* size of the display. Too much scrolling within paragraphs isn't conducive to comfortable reading. This is an argument for a relatively smaller type size on mobile devices.
-* display resolution will affect the size of your type
-* x–height of your typeface. 16 pixel verdana is bigger than 16 pixel Minion. Set type size accordingly.
-* online quality of the typeface. Georgia renders far more crisply than Minion, especially on older operating systems.
-* leading and measure, and their relationship with each other and type size
+* _Size of the display_. Too much scrolling within paragraphs isn't conducive to comfortable reading. This is an argument for a relatively smaller type size on mobile devices.
+* _Display resolution_ will affect the size of your type
+* _x–height of your typeface_. 16 pixel verdana is bigger than 16 pixel Minion. Set type size accordingly.
+* _Online quality of the typeface_. Georgia renders far more crisply than Minion, especially on older operating systems.
+* _Leading and measure_, and their relationship with each other and type size
 
-But the original point is valid even if the argument has already been won. Choosing small type becuase it somehow looks more pleasing than larger, more readable type is going to cost you.
+But the original point is valid even if the argument has already been won. Choosing small type because it somehow looks more pleasing than larger, more readable type is going to cost you.

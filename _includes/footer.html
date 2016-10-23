@@ -1,26 +1,6 @@
-            </main> <!-- end #content -->
+            </div> <!-- end #content -->
 
-            <footer class="pt2 pt5 lh-title f5">
-
-                <ul class="ma0 pa0 list">
-
-                    {% assign nav-pages = site.pages | sort: "nav-weight" %}
-
-                    {% for nav in nav-pages %}
-
-                        {% if nav.nav-weight %}
-
-                            <li class="dib mr2"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="link blue"{% else %}class="link blue"{% endif %}>{{ nav.title }}</a></li>
-
-                        {% endif %}
-
-                    {% endfor %}
-
-                </ul>
-
-            </footer>
-
-        </div>
+        </div> <!-- end the wrapping div -->
 
     </body>
 

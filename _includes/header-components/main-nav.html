@@ -1,6 +1,8 @@
-<!-- <nav id="nav">
+<nav id="nav" class="cf mb3 mb5-ns">
 
-    <ul>
+    <p class="ma0 pa0 mr2 fl f5 b"><a class="link blue" href="/" rel="home">Home</a></p>
+
+    <ul class="list ma0 pa0 fr f5 b">
 
     {% assign nav-pages = site.pages | sort: "nav-weight" %}
 
@@ -8,7 +10,7 @@
 
         {% if nav.nav-weight %}
 
-            <li><a href="{{ nav.url }}" {% if nav.url == page.url %} class="link blue"{% else %}class="link blue"{% endif %}>{{ nav.title }}</a></li>
+            <li class="di ml2"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="link black"{% else %}class="link blue"{% endif %}>{{ nav.title }}</a></li>
 
         {% endif %}
 
@@ -17,11 +19,3 @@
     </ul>
 
 </nav>
-
-<header>
-
-    <h1 class="f5 ma0 pa0"><a href="/" class="blue link">Leon Paternoster</a></h1>
-
-    <p class="f6 gray mt0 mb3 mb5-ns">Web, customer service and IT projects manager at Suffolk Libraries.</p>
-
-</header> -->

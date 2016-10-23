@@ -10,11 +10,11 @@
 
     </header>
 
-    <ul>
+    <ul class="list pl0">
 
         {% for post in site.categories[page.category] %}
 
-            <li><a class="blue" href="{{ post.url }}">{{ post.title }}</a> <span>Posted <time>{{ post.date | date_to_string }}</time></span></li>
+            <li class="{% include link-list.html %}"><a class="blue" href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time></li>
 
         {% endfor %}
 

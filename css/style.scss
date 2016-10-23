@@ -7,14 +7,15 @@ sitemap: false
 
 // Fonts
 
-$main-font: avenir, 'segoe ui', 'source sans pro', sans-serif;
-$secondary-font: avenir, 'segoe ui', 'source sans pro', sans-serif;
+$main-font: ff-dagny-web-pro, avenir, 'segoe ui', 'source sans pro', sans-serif;
+$secondary-font: ff-dagny-web-pro, avenir, 'segoe ui', 'source sans pro', sans-serif;
+$custom-code-font: 'Courier New', courier, consolas, monospace;
 
 
 // Size
 
 $base-font-size: 118.75%;
-$widescreen-font-size: 125%;
+$widescreen-font-size: 131.25%;
 
 $nbp: "screen and (min-width: 960px)";
 

@@ -2,16 +2,17 @@
 layout: default
 title: How we built a static Suffolk Libraries website (an overview)
 category: web
+featured: true
 ---
 
 After lots and lots of work and a painful propagation period we've got a new [Suffolk Libraries](https://www.suffolklibraries.co.uk) site up and running (by we I mean me and the excellent [Emma Raindle](https://twitter.com/emmaraindle), who will be sorely missed at Suffolk Libraries when she leaves next week).
 
-I'll maybe write a lot more about it over the next few weeks, but here's a summary of what we've built (which is, if nothing else, different from any other library website).
+Here's a summary of what we've built (which is, if nothing else, different from any other library website).
 
 ## Our set up
 
-- We use Jekyll to build a set of static HTML, CSS and javascript files (AKA a _website_). Jekyll uses a potent mix of HTML, CSS, Markdown, CSV, YAML and Liquid to magic up the site.
-- We use Tachyons and Pure CSS (and a sprinkling of our own)
+- We use Jekyll to build a set of static HTML, CSS and javascript files (AKA a _website_). Jekyll uses a potent mix of Ruby, HTML, CSS, Markdown, CSV, YAML and Liquid to magic up the site.
+- We use Tachyons and Pure CSS (and a sprinkling of our own CSS)
 - We push code to three [Github repo](https://github.com/suffolklibraries/sljekyll) branches (dev/staging/master)
 - We use [Netlify](https://netlify.com) to host the site. Netlify links our production and staging sites to two of our Github branches. That means when we `git push` to these branches our websites get updated.
 - Netlify provides some smart dynamic features, including redirects, emailed form submissions and, even better, Zapier integration. That means we can automatically build our site at 1am every morning, send email notifications in response to form submissions and add those submissions to Google sheets.

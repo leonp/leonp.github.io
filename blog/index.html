@@ -5,31 +5,31 @@ description: Since 2008.
 nav-weight: 2
 ---
 
+<h2>Start here</h2>
 
+<ul class="list pl0">
 
-<!-- <form method="get" action="/search" role="search" id="search" class="custom-form top-bar-form">
+{% assign featured_posts = (site.posts | where: "featured", "true") %}
 
-	<fieldset>
+{% for post in featured_posts %}
 
-		<legend class="accessibility hide">Search this website</legend>
+	<li class="{% include link-list.html %}"><a class="blue" href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time> and filed under <a class="blue" href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
 
-		<input type="search" name="q">
-		<input type="submit" class="custom-form-button" value="Search">
-		<input type="hidden" name="sitesearch" value="leonpaternoster.com">
+{% endfor %}
 
-	</fieldset>
+</ul>
 
-</form> -->
-
-<div class="pt4"></div>
-
-<h2 class="custom-sans-serif f3 ma0 pv1 pt4 custom-lh-title">All posts</h2>
+<h2>Every post</h2>
 
 <ul class="list pl0">
 
 {% for post in site.posts  %}
 
+	{% if post.category == 'web' or post.category == 'libraries' %}
+
 	<li class="{% include link-list.html %}"><a class="blue" href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time> and filed under <a class="blue" href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
+
+	{% endif %}
 
 {% endfor %}
 

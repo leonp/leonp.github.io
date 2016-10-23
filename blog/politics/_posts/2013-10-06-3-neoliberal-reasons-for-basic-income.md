@@ -2,7 +2,6 @@
 layout: default
 title: 3 right wing reasons for a Basic Citizens' Income
 category: politics
-featured: true
 ---
 
 A Basic Citizens' Income (BCI) is one of those subjects that's fun to think about (if you're philosophically or politically inclined &#8211; I guess other people find it mortally dull, for which I apologise).

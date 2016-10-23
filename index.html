@@ -2,31 +2,8 @@
 layout: default
 title: Leon Paternoster
 excerpt: Web and customer service manager at Suffolk Libraries. Blogs about web design, code, politics, books and all sorts of other things.
-nav-weight: 1
 ---
 
-<h2>Popular</h2>
+<p>I'm web, customer service and IT project manager at <a href="https://suffolklibraries.co.uk">Suffolk Libraries</a>. We're a small team with a smaller budget using a <a href="http://alistapart.com/article/what-really-matters-focusing-on-top-tasks">top task methodology</a>, card sorts and <a href="https://netlify.com">static hosting</a> to make our customer experience as fast and easy as possible.</p>
 
-<ul>
-
-{% assign featured_posts = (site.posts | where: "featured", "true") %}
-
-{% for post in featured_posts %}
-
-	<li><a class="blue" href="{{ post.url }}">{{ post.title }}</a> <span>Posted <time>{{ post.date | date_to_string }}</time> and filed under <a class="blue" href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
-
-{% endfor %}
-
-</ul>
-
-<h2>Recent</h2>
-
-<ul>
-
-{% for post in site.posts limit:10 %}
-
-	<li><a class="blue" href="{{ post.url }}">{{ post.title }}</a> <span>Posted <time>{{ post.date | date_to_string }}</time> and filed under <a class="blue" href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
-
-{% endfor %}
-
-</ul>
+<p>I've got 7 years experience of working in the not-for-profit sector. If you're setting up a new team, or looking to review what you do at the moment, I can help. You'll find me on <a href="https://twitter.com/leonpaternoster">Twitter</a> and <a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a>. Or you can email me at leon.paternoster@zoho.com</p>
