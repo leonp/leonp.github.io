@@ -36,10 +36,17 @@
 
 .custom-prose a:link {
     color: #357EDD; // Tachyons blue
+    border-bottom: 1px dotted;
 }
 
 .custom-prose a:visited {
     color: #5E2CA5; // Tachyons purple
+}
+
+.custom-prose a:hover,
+.custom-prose a:active,
+.custom-prose a:focus {
+    border-bottom: 2px solid;
 }
 
 .custom-prose figure {
