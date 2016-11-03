@@ -13,8 +13,9 @@
 .custom-prose h5,
 .custom-prose h6 {
     margin: 0;
-    padding: 1.5rem 0 0 0;
+    padding: 1.5rem 0 0.5rem 0;
     line-height: 1.3rem;
+    border-bottom: 1px dotted #000;
 }
 
 .custom-prose h1,
@@ -35,7 +36,6 @@
 
 .custom-prose a:link {
     color: #0000FF; // International linke blue
-    border-bottom: 1px dotted;
 }
 
 .custom-prose a:visited {
