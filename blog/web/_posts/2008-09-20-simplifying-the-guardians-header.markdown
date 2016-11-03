@@ -43,3 +43,5 @@ I've also dropped the .co.uk from the masthead as it only serves to devalue the 
 ![Current Guardian header: confused, busy, difficult](http://farm4.static.flickr.com/3095/2871554755_1f5b165ed8_o.jpg)
 
 ![My version of The Guardian's header: simpler and easier](http://farm4.static.flickr.com/3100/2872393384_208b474c7c_o.jpg)
+
+A lot more scannable and purposeful.
