@@ -20,6 +20,16 @@ That doesn't mean it can't do lots of complex things. For example, we handle eve
 
 There are just two of us in the Suffolk Libraries web team. We can do all this because we use [state of the art hosting](https://www.netlify.com) and APIs such as Google Maps and [Mailchimp](https://www.suffolklibraries.co.uk/newsletter), linking the two together with [Zapier](https://zapier.com/). Anything a dynamic site can do, we can do too. And we have a strategy&hellip;
 
+### Find out more
+
+- [How we built a static Suffolk Libraries website (an overview)](/2016/07/suffolk-libraries-website-static-overview/)
+- [Coding one off and recurrent events in Jekyll](/2016/07/jekyll-events-static-site-libraries/)
+- [Why we'll be using a CSS framework like Tachyons to rebuild our website](/2016/04/why-use-tachyons-css-framework/)
+- [Doing a Liverpool](/2016/04/doing-a-liverpool/)
+- [Carrying out a web content audit](/2013/04/carrying-out-a-web-content-audit/)
+- [Your website is not as important as your catalogue](/2013/05/your-website-is-not-as-important-as-your-catalogue/)
+- [Library websites, catalogues and their poor UX](/2013/04/library-websites-catalogues-and-their-poor-ux/)
+
 ## Suffolk Libraries digital strategy
 
 You'll need a strategy to figure out what you should be doing online, when and how. It consists of answers to questions like:
@@ -47,6 +57,10 @@ Suffolk Libraries is a complex organisation. It consists of 44 libraries and the
 
 The strategy determines what the web team does, how it goes about it and establishes good relationships with other teams and libraries.
 
+### Find out more
+
+[Separating services is preferable to surface integration (or 3 principles for a web strategy)](/2014/10/separation-better-than-surface-integration-web-strategy/)
+
 ## Working with outside agencies
 
 Sometimes we use agencies to help us complete work. I keeping abreast of the latest developments in web technology (check out [my blog](/blog/web/) to see several hundred articles on all things web). That not only means we follow best practices; we also know _who_ the best people are to work with, and what you'll need to look for in an external agency.
@@ -55,7 +69,9 @@ Sometimes we use agencies to help us complete work. I keeping abreast of the lat
 
 That's why we chose [Clearleft](http://clearleft.com) to conduct the research phase of our project to develop library self-service software. In the space of a week we got a project plan, a written report on what to develop and even design prototypes.
 
-Find out more about [our design sprint with Clearleft](/2016/02/5-day-sprint-clear-left-self-service/).
+### Find out more
+
+[A 5 day sprint with Clear Left exploring library self-service machine software](/2016/02/5-day-sprint-clear-left-self-service/).
 
 ## Contact me
 

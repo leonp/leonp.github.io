@@ -35,5 +35,3 @@ Of course, whether other parts of the organisation understand this is a differen
 Which leads to another principle:
 
 _We're always helpful, but we decide how we implement things on the web as bodged solutions are impossible to manage and result in poor customer experiences._
-
-And we know what we're doing, goddamit :-)
