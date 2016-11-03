@@ -1,0 +1,66 @@
+---
+title: Work
+layout: default
+nav-weight: 1
+---
+
+## Suffolk Libraries website
+
+I design, code and write for the [Suffolk Libraries website](https://www.suffolklibraries.co.uk).
+
+We prioritse speed and clear language over fancy graphics and animations, which means we can focus on making it easy for customers to complete their most important tasks.
+
+Under the hood we use [Jekyll](http://jekyllrb.com), which generates a static site. Static sites simply serve <abbr title="HyoerText Markup Language">HTML</abbr> files to browsers. There's no database in the background, which means less moving parts, which means speed, security and reliability.
+
+Our website is _very_ fast. We regularly put it through the industry standard [Pingdom test](https://tools.pingdom.com/), where it scores 94/100, achieving an A Grade. Load times are often under half a second.
+
+{% include figure.html alt="Screenshot of a Pingdom test" url="pingdom-screenshot.jpg" caption="The Suffolk Libraries website scores well in the Pingdom test" %}
+
+That doesn't mean it can't do lots of complex things. For example, we handle events in a far more sophisticated way than any other library, linking one-off and recurrent events to [44 locations](https://www.suffolklibraries.co.uk/libraries/), and creating [microsites built on event categories](https://www.suffolklibraries.co.uk/events-activities/bookfest/).
+
+There are just two of us in the Suffolk Libraries web team. We can do all this because we use [state of the art hosting](https://www.netlify.com) and APIs such as Google Maps and [Mailchimp](https://www.suffolklibraries.co.uk/newsletter), linking the two together with [Zapier](https://zapier.com/). Anything a dynamic site can do, we can do too. And we have a strategy&hellip;
+
+## Suffolk Libraries digital strategy
+
+You'll need a strategy to figure out what you should be doing online, when and how. It consists of answers to questions like:
+
+- What do we publish online?
+- How do we write online?
+- Who does the writing?
+- Who does the editing?
+- What's our house style?
+- Who's responsible for producing content?
+- Where do we publish?
+- Do we need an app?
+- How do we integrate all our disparate content?
+- What are the most important things we need to be doing first?
+- What work do we do in house and what do we get an agency to do?
+- How do we make our content accessible?
+
+Some of these questions will always have the same answers (for example, you should always code content for screen readers in order to make it accessible and search engine friendly), while others will depend on your organisation's structure and its history.
+
+Suffolk Libraries is a complex organisation. It consists of 44 libraries and their staff, a central, operational office and 44 friends groups. Our strategy tackles questions like:
+
+- how do friends groups and libraries fit in together online?
+- should libraries have their own social media accounts?
+- how does website content help us reach the targets in our business plan?
+
+The strategy determines what the web team does, how it goes about it and establishes good relationships with other teams and libraries.
+
+## Working with outside agencies
+
+Sometimes we use agencies to help us complete work. I keeping abreast of the latest developments in web technology (check out my blog to see several hundred articles on all things web). That not only means we follow best practices; we also know _who_ the best people are to work with, and what you'll need to look for in an external agency.
+
+{% include figure.html alt="People around a table sketching" url="cl-workshop.jpg" caption="Suffolk Libraries staff and Clearleft sketching ideas for a new self-service web application" %}
+
+That's why we chose [Clearleft](http://clearleft.com) to conduct the research phase of our project to develop library self-service software. In the space of a week we got a project plan, a written report on what to develop and even design prototypes.
+
+Find out more about [our design sprint with Clearleft](/2016/02/5-day-sprint-clear-left-self-service/).
+
+## Contact me
+
+If you'd like to work with me get in touch:
+
+- leon.paternoster@zoho.com
+- [Twitter](https://twitter.com/leonpaternoster)
+- [LinkedIn](https://uk.linkedin.com/in/leonpaternoster)

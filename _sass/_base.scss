@@ -33,5 +33,15 @@ img {
     color: #0000FF; // Overriding Tachyons blue
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dt {
+    font-family: $secondary-font;
+}
+
 
 }
