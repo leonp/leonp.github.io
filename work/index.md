@@ -63,7 +63,7 @@ The strategy determines what the web team does, how it goes about it and establi
 
 ## Working with outside agencies
 
-Sometimes we use agencies to help us complete work. I keeping abreast of the latest developments in web technology (check out [my blog](/blog/web/) to see several hundred articles on all things web). That not only means we follow best practices; we also know _who_ the best people are to work with, and what you'll need to look for in an external agency.
+We work with agencies on projects where we need specialist expertise. By keeping abreast of the latest developments in web technology (check out [my blog](/blog/web/) to see several hundred articles on all things web), I know _who_ the best people are to work with, and what you'll need to look for in an external agency.
 
 {% include figure.html alt="People around a table sketching" url="cl-workshop.jpg" caption="Suffolk Libraries staff and Clearleft sketching ideas for a new self-service web application" %}
 
