@@ -10,12 +10,16 @@
 
     </head>
 
-    <body class="bg-near-white black lh-copy">
+    <body class="bg-near-white black">
 
-            {% include /header-components/skip-links.html %}
+        {% include /header-components/skip-links.html %}
 
-            {% include /header-components/main-nav.html %}
+        <div class="cf">
 
-            <div class="measure center pa2 pv3 pa3-ns">
+            <header class="w-third-ns fixed-ns fl-ns bg-black near-white h-100-ns pa2 pa4-ns custom-auto custom-work">
 
-                <div id="content">
+                {% include /header-components/main-nav.html %}
+
+            </header>
+
+            <main id="content" class="w-two-thirds-ns fr-ns">

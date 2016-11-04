@@ -1,36 +1,16 @@
 @media screen, projection {
 
 body {
-    font-family: $main-font;
-    font-size: $base-font-size;
-    @media #{$nbp} {
-		font-size: $widescreen-font-size;
-	}
+    font-size: 118.5%;
 }
 
 a {
     text-decoration: none;
 }
 
-a:hover,
-a:active,
-a:focus {
-    border-bottom: 2px solid;
-}
-
 figure {
     margin: 0;
     padding: 0;
-}
-
-img {
-    width: auto;
-    max-width: 100% !important;
-    height: auto !important;
-}
-
-.blue {
-    color: #0000FF; // Overriding Tachyons blue
 }
 
 h1,
@@ -40,7 +20,7 @@ h4,
 h5,
 h6,
 dt {
-    font-family: $secondary-font;
+    font-family: "Work Sans", sans-serif;
 }
 
 

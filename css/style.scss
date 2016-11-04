@@ -4,26 +4,7 @@ sitemap: false
 
 @charset "utf-8";
 
-
-// Fonts
-
-$main-font: ff-dagny-web-pro, avenir, 'segoe ui', 'source sans pro', sans-serif;
-$secondary-font: ff-dagny-web-pro, avenir, 'segoe ui', 'source sans pro', sans-serif;
-$custom-code-font: 'Courier New', courier, consolas, monospace;
-
-
-// Size
-
-$base-font-size: 118.75%;
-$widescreen-font-size: 131.25%;
-
-$nbp: "screen and (min-width: 960px)";
-
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-
 @import
-    "tachyons",
     "base",
-    "custom-prose"
+    "custom"
 ;

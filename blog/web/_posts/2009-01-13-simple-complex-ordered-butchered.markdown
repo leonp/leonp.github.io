@@ -4,7 +4,7 @@ title: Simple, complex, ordered, butchered
 category: web
 ---
 
-**More than any other blogger** I'm aware of, [Andy Rutledge](http://www.andyrutledge.com) discusses web design with an intellectual rigour that elevates the subject to an academic level. Andy has positioned himself as a [conservative dissident](http://www.andyrutledge.com/design-dissent.php#fragment-3), not only challenging commonly–held political beliefs that the design world holds, but also some of the apparently self–evident tenets of web design itself.
+More than any other blogger I'm aware of, [Andy Rutledge](http://www.andyrutledge.com) discusses web design with an intellectual rigour that elevates the subject to an academic level. Andy has positioned himself as a [conservative dissident](http://www.andyrutledge.com/design-dissent.php#fragment-3), not only challenging commonly–held political beliefs that the design world holds, but also some of the apparently self–evident tenets of web design itself.
 
 [One of his articles](http://www.andyrutledge.com/complex-order-simple-chaos.php#one) argues that the concepts of simplicity and order have been erroneously conflated, that “design must often work to preserve complexity”. As is often the case when firing up the news reader and seeing that Andy has published a new post, I begin reading with some trepidation. Andy doesn't pull any punches in his writing; for example, he states that “in many cases recommendations toward simplicity are the lazy/shallow man’s answer to design”. As someone who has often extolled the virtues of simplicity I'm immediately on the defensive: am I being lazy or shallow? Andy really knows his onions, his own blog is one of the best designed I've ever read.
 

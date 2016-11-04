@@ -1,5 +1,9 @@
 @media screen, projection {
 
+.custom-work {
+    font-family: "Work Sans", sans-serif;
+}
+
 .custom-prose {
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
@@ -13,39 +17,40 @@
 .custom-prose h5,
 .custom-prose h6 {
     margin: 0;
-    padding: 1.5rem 0 0.5rem 0;
-    line-height: 1.3rem;
-    border-bottom: 1px dotted #000;
+    padding: 1.5rem 0 0.25rem 0;
+    line-height: 1.3;
+    color: #FF6300; // Orange
 }
 
 .custom-prose h1,
 .custom-prose h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .custom-prose h3 {
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 .custom-prose h4 {
-    font-size: .875rem;
+    font-size: 1rem;
     font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
 }
 
 .custom-prose a:link {
-    color: #0000FF; // International linke blue
+    color: #357EDD; // Tachyons blue
+    border-bottom: 1px dotted;
 }
 
 .custom-prose a:visited {
-    color: #5E2CA5; // Tachyons purple
+    color: #777; // Tachyons gray
+    border-bottom: 1px dotted;
 }
 
 .custom-prose a:hover,
 .custom-prose a:active,
 .custom-prose a:focus {
-    border-bottom: 2px solid;
+    color: #357EDD; // Tachyons blue
+    border-bottom: 1px solid;
 }
 
 .custom-prose figure {
@@ -54,27 +59,25 @@
 
 .custom-prose figcaption,
 .custom-prose .figcaption {
-    color: #777;
     line-height: 1.3em;
     padding: 0 1rem;
     text-align: center;
     font-size: 0.875rem;
+    font-family: "Work Sans", sans-serif;
 }
 
 .custom-prose blockquote {
+    margin: 0 0 0 2rem;
+    padding: 1rem 0;
     font-size: 0.875em;
-    margin: 0 0 0 3rem;
 }
 
 .custom-prose pre {
     overflow: auto;
-    font-family: $custom-code-font;
 }
 
 .custom-prose code {
     font-size: 0.875em;
-    font-family: $custom-code-font;
-    color: #137752; // Tachyons dark green
 }
 
 .custom-prose hr {
