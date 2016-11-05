@@ -89,11 +89,17 @@
 .custom-prose thead {
     text-align: left;
     border-bottom: 1px solid #CCC;
+    font-family: "Work Sans", sans-serif;
+}
+
+.custom-prose th {
+    padding: 0 0.5rem;
 }
 
 .custom-prose td {
     padding: 0.25rem 0.5rem;
     background-color: #EEE; // Moon gray
+    font-family: "Work Sans", sans-serif;
 }
 
 .custom-prose img {
