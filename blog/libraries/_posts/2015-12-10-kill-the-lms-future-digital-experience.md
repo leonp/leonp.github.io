@@ -4,6 +4,8 @@ title: Kill the LMS &#8211; what a modern library digital presence should look l
 excerpt: Libraries do digital badly. Replace the LMS with an open, queryable database that can talk to other apps that do one job well. Kill the LMS or be killed.
 category: libraries
 featured: true
+description: An exploration of what libraries should do in order to modernise their digital and web presences. Suggests getting rid of library management systems that fulfil all digital functions and using a more modular, API-based approach.
+subject: Digital strategy in libraries
 ---
 
 ## Summary

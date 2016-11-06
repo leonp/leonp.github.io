@@ -3,7 +3,8 @@ layout: default
 title: A 5 day sprint with Clear Left exploring library self-service machine software
 category: web
 featured: true
-hero: sprint.jpg
+description: An account of running a design sprint in order to plan a web product, in this case library self-service software. Includes a timetable, techniques and overview of the outcomes. The sprint was run by Leon Paternoster and Clearleft for Suffolk Libraries.
+subject: Design in libraries
 ---
 
 Last week we spent 5 days with digital agency [Clear Left](http://clearleft.com/) exploring how we might develop new self-service machine software for libraries.

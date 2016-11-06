@@ -8,6 +8,12 @@
 
             <h1 class="custom-work f2 f1-ns lh-title fw3">{{ page.title }}</h1>
 
+            {% if page.is_post %}
+
+                <p class="f6 custom-work"><time>{{ page.date | date: "%b %-d %Y" }}</time></p>
+
+            {% endif %}
+
             {% if page.header-message %}
 
                 <p class="{% include article-meta.html %} custom-lh-copy">{{ page.header-message }}</p>
@@ -34,7 +40,7 @@
 
             <div class="measure-wide center custom-work">
 
-                <p class="f6">&#8212; <a href="/" class="blue link">Leon Paternoster</a>, <time>{{ page.date | date: "%b %-d %Y" }}</time>. Filed under <a href="/blog/{{ page.category }}/" class="blue link">{{ page.category }}</a>.</p>
+                <p class="f6">&#8212; <a href="/" class="blue link">Leon Paternoster</a>. Filed under <a href="/blog/{{ page.category }}/" class="blue link">{{ page.category }}</a>.</p>
 
             </div>
 

@@ -1,6 +1,22 @@
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; all posts" href="{{ "/feed/index.xml" | prepend: site.baseurl | prepend: site.url }}">
 
+{% if page.is_post %}
+
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/">
+<meta name="DC.Title" content="{{ page.title}}">
+<meta name="DC.Creator" content="Leon Paternoster">
+<meta name="DC.Subject" content="{% if page.subject %}{{ page.subject }}{% else %}{{ page.category | capitalize }}{% endif %}">
+{% if page.description %}<meta name="DC.Description" content="{{ page.description }}">{% endif %}
+<meta name="DC.Publisher" content="Leon Paternoster">
+<meta name="DC.Contributor" content="Leon Paternoster">
+<meta name="DC.Date" content="{{ page.date | date: "%b %-d %Y" }}">
+<link rel="DC.Identifier" href="{{ site.url }}{{ page.url }}">
+<meta name="DC.Language" content="en-gb">
+
+{% endif %}
+
 {% if page.category == 'libraries' or page.title == 'Libraries' %}
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; posts about libraries" href="/blog/libraries/feed/index.xml">
