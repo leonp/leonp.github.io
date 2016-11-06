@@ -1,9 +1,5 @@
 @media screen, projection {
 
-.custom-work {
-    font-family: "Work Sans", sans-serif;
-}
-
 .custom-prose {
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
@@ -59,10 +55,9 @@
 .custom-prose figcaption,
 .custom-prose .figcaption {
     line-height: 1.3em;
-    padding: 0 1rem;
-    text-align: center;
     font-size: 0.875rem;
-    font-family: "Work Sans", sans-serif;
+    font-family: sans-serif;
+    margin-top: 0.25rem;
 }
 
 .custom-prose blockquote {
@@ -91,7 +86,7 @@
 .custom-prose thead {
     text-align: left;
     border-bottom: 1px solid #CCC;
-    font-family: "Work Sans", sans-serif;
+    font-family: sans-serif;
 }
 
 .custom-prose th {
@@ -101,7 +96,6 @@
 .custom-prose td {
     padding: 0.25rem 0.5rem;
     background-color: #EEE; // Moon gray
-    font-family: "Work Sans", sans-serif;
 }
 
 .custom-prose img {
