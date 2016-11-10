@@ -2,7 +2,12 @@
 
 body {
     font-size: 118.75%;
-    font-family: ff-tisa-web-pro, serif;
+
+    @media (min-width: 40em) {
+		font-size: 137.5%;
+	}
+
+    font-family: ff-more-web-pro, ff-tisa-web-pro, serif;
 }
 
 a {
@@ -21,7 +26,7 @@ h4,
 h5,
 h6,
 dt {
-    font-family: ff-tisa-web-pro, serif;
+    font-family: ff-more-web-pro, serif;
 }
 
 
