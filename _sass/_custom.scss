@@ -28,7 +28,6 @@
 
 .custom-prose h4 {
     font-size: 1rem;
-    font-weight: normal;
 }
 
 .custom-prose a:link {
@@ -106,7 +105,13 @@
 }
 
 .custom-lh-copy {
-    line-height: 1.6;
+    line-height: 1.5;
+}
+
+.custom-bg-arch {
+    background-image: url('/images/arch.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .vid,
