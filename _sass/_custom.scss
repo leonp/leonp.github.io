@@ -55,7 +55,7 @@
 .custom-prose .figcaption {
     line-height: 1.3em;
     font-size: 0.875rem;
-    font-family: sans-serif;
+    font-family: 'PT Sans', sans-serif;
     margin-top: 0.25rem;
 }
 
@@ -63,6 +63,7 @@
     margin: 0 0 0 2rem;
     padding: 1rem 0;
     font-size: 0.875em;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .custom-prose pre {
@@ -85,7 +86,7 @@
 .custom-prose thead {
     text-align: left;
     border-bottom: 1px solid #CCC;
-    font-family: sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .custom-prose th {
@@ -112,6 +113,10 @@
     background-image: url('/images/arch.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.custom-pt-sans {
+    font-family: 'PT Sans', sans-serif;
 }
 
 .vid,

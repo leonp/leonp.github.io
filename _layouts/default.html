@@ -10,7 +10,7 @@
 
             {% if page.is_post %}
 
-                <p class="f6 sans-serif"><time>{{ page.date | date: "%b %-d %Y" }}</time></p>
+                <p class="f6 custom-pt-sans"><time>{{ page.date | date: "%b %-d %Y" }}</time></p>
 
             {% endif %}
 
@@ -36,9 +36,9 @@
 
     {% if page.is_post %}
 
-        <footer class="lh-title pt3 ph2 ph4 bt b--light-blue gray">
+        <footer class="custom-pt-sans lh-title pt3 ph2 ph4 bt b--light-blue gray">
 
-            <div class="measure-wide center sans-serif">
+            <div class="measure-wide center">
 
                 <p class="f6">&#8212; <a href="/" class="blue link">Leon Paternoster</a>. Filed under <a href="/blog/{{ page.category }}/" class="blue link">{{ page.category }}</a>.</p>
 
