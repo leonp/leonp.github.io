@@ -6,11 +6,11 @@
 
         <div class="measure-wide center">
 
-            <h1 class="f2 f1-ns lh-title">{{ page.title }}</h1>
+            <h1 class="f1 lh-title">{{ page.title }}</h1>
 
             {% if page.is_post %}
 
-                <p class="f6 custom-pt-sans"><time>{{ page.date | date: "%b %-d %Y" }}</time></p>
+                <p class="f6 custom-sans"><time>{{ page.date | date: "%b %-d %Y" }}</time></p>
 
             {% endif %}
 
@@ -26,7 +26,7 @@
 
     <div class="custom-lh-copy custom-prose ph2 ph4-ns pb4-ns">
 
-        <div class="measure-wide center">
+        <div class="measure center">
 
             {{ content }}
 
@@ -36,7 +36,7 @@
 
     {% if page.is_post %}
 
-        <footer class="custom-pt-sans lh-title pt3 ph2 ph4 bt b--light-blue gray">
+        <footer class="custom-sans lh-title pt3 ph2 ph4 bt b--light-blue gray">
 
             <div class="measure-wide center">
 

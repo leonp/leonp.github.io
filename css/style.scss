@@ -4,6 +4,12 @@ sitemap: false
 
 @charset "utf-8";
 
+
+// VARIABLES
+
+$primary-font: charter, cambria, georgia, serif;
+$secondary-font: 'avenir next', 'segoe ui', sans-serif;
+
 @import
     "base",
     "custom"
