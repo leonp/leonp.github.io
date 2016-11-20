@@ -14,38 +14,48 @@
 .custom-prose h6,
 .custom-prose dt {
     margin: 0;
-    padding: 1.5rem 0 0 0;
+    padding: 0.5rem 0;
     line-height: 1.3;
+    color: #00449E; // Tachyons dark blue
+}
+
+.custom-prose h1 + p,
+.custom-prose h2 + p,
+.custom-prose h3 + p,
+.custom-prose h4 + p,
+.custom-prose h5 + p,
+.custom-prose h6 + p {
+    margin-top: 0;
 }
 
 .custom-prose h1,
 .custom-prose h2 {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
 }
 
 .custom-prose h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .custom-prose h4,
 .custom-prose dt {
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 .custom-prose a:link {
-    color: #357EDD; // Tachyons blue
+    color: #00449E; // Tachyons dark blue
     border-bottom: 1px dotted;
 }
 
 .custom-prose a:visited {
-    color: #777; // Tachyons gray
+    color: #357EDD; // Tachyons blue
     border-bottom: 1px dotted;
 }
 
 .custom-prose a:hover,
 .custom-prose a:active,
 .custom-prose a:focus {
-    color: #357EDD; // Tachyons blue
+    color: #001B44; // Tachyons navy
     border-bottom: 1px solid;
 }
 
