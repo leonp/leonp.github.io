@@ -2,17 +2,18 @@
 title: Work
 layout: default
 nav-weight: 1
+published: true
 ---
 
 ## Suffolk Libraries website
 
 I design, code and write for the [Suffolk Libraries website](https://www.suffolklibraries.co.uk).
 
-We prioritse speed and clear language over fancy graphics and animations, which means we can focus on making it easy for customers to complete their most important tasks.
+We prefer speed, clear language and logical navigation to fancy graphics and animations, which helps customers complete important tasks with minimum effort.
 
-Under the hood we use [Jekyll](http://jekyllrb.com), which generates a static site. Static sites simply serve <abbr title="HyoerText Markup Language">HTML</abbr> files to browsers. There's no database in the background, which means less moving parts, which means speed, security and reliability.
+We use [Jekyll](http://jekyllrb.com), a static site generator. Static sites simply serve <abbr title="HyperText Markup Language">HTML</abbr> files to browsers. There's no database in the background, which means less moving parts, more speed, more reliability and more security.
 
-Our website is _very_ fast. We regularly put it through the industry standard [Pingdom test](https://tools.pingdom.com/), where it scores 94/100, achieving an A Grade. Load times are often under half a second.
+We regularly put the site through the industry standard [Pingdom test](https://tools.pingdom.com/), where it scores 94/100, achieving an A Grade. Load times average under half a second.
 
 {% include figure.html alt="Screenshot of a Pingdom test" url="pingdom-screenshot.jpg" caption="The Suffolk Libraries website scores well in the Pingdom test" %}
 
@@ -60,6 +61,29 @@ The strategy determines what the web team does, how it goes about it and establi
 ### Find out more
 
 [Separating services is preferable to surface integration (or 3 principles for a web strategy)](/2014/10/separation-better-than-surface-integration-web-strategy/)
+
+## Managing sites: Content audits, kiosk testing and card sorts
+
+### Content audits
+
+We run a content audit every six months, reviewing our site structure, content ownership and visitor numbers. We use insights from the audit to remove pages, relabel them and discuss changes with content owners. Find out more:
+
+- [Carrying out a web content audit](/2013/04/carrying-out-a-web-content-audit/)
+- [3 things to do with a website content audit](/2014/04/3-things-to-do-with-a-website-content-audit/)
+
+### Kiosk testing
+
+If we make a major change to the site we'll kiosk test it. Kiosk testing provides a fast and easy way to test different designs and labels. It sounds formal and scientific, but it's not; it consists of setting tasks, observing five or so people try and complete them and acting on how they did. The art lies in expressing the tasks as neutrally as possible, reassuring your testers and getting out of the way once the test starts.
+
+What we think is a good idea may confuse customers: running simple tests will soon reveal any design and language problems, providing a way to proceed with some confidence. Of course, you can only *really* test a design choice on a live site, so we monitor feedback to see how our changes are doing in the wild and, if necessary, make changes, test again and repeat.
+
+### Card sorts
+
+We run online card sorts to test our site structure, using [Optimal Sort](https://optimalsort.com).
+
+We have an idea of how our site should be structured, and how we should label sections within that structure. However, we've worked for the library service for years; our view of things is jaundiced, and probably completely different from our users'.
+
+A card sort does two things. Firstly, it provides a starting point for organising a website. Secondly, it helps determine what labels we should use in our navigation menus. Remember, customers don't know your acronyms and lingo. Usually, a good navigation system uses plain language that anyone can understand.
 
 ## Working with outside agencies
 
