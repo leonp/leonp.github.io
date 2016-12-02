@@ -2,9 +2,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>{% if page.title  == 'Managing and building websites since 2008' %}{{ page.title | escape }}{% else %}{{ page.title | escape }} &#8211; {{ site.title | escape }}{% endif %}</title>
+<title>{{ page.title | escape }} &#8211; {{ site.title | escape }}</title>
 
-{% if page.title  == 'Managing not-for-profit digital teams since 2008' %}
+{% if page.title  == 'Home' %}
 
 <meta name="description" content="{{ site.description | strip_html | strip_newlines | truncate: 160 }}">
 

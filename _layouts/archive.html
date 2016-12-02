@@ -6,7 +6,7 @@ layout: default
 
         {% for post in site.categories[page.category] %}
 
-            <li class="{% include link-list.html %}"><a class="blue" href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time></li>
+            <li class="{% include link-list.html %}"><a href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time></li>
 
         {% endfor %}
 

@@ -1,22 +1,26 @@
 {% include header.html %}
 
-<article class="pv2">
+<article>
 
-    <header class="ph2 ph4-ns mb5-ns bb bb--dotted b--light-blue">
+    <header class="pa2 pt5-ns ph5-ns">
 
-        <div class="measure-wide center">
+        <div class="measure-wide">
 
-            <h1 class="f2 lh-title">{{ page.title }}</h1>
+            {% unless page.hide-title %}
+
+                <h1 class="f2 lh-title pa0 ma0 mb2 mb3-ns">{{ page.title }}</h1>
+
+            {% endunless %}
 
             {% if page.is_post %}
 
-                <p class="f6 custom-sans"><time>{{ page.date | date: "%b %-d %Y" }}</time></p>
+                <p class="f6 ma0 c-sans gray"><time>{{ page.date | date: "%b %-d %Y" }}</time></p>
 
             {% endif %}
 
             {% if page.header-message %}
 
-                <p class="{% include article-meta.html %} custom-lh-copy">{{ page.header-message }}</p>
+                <p class="{% include article-meta.html %} c-lh-copy">{{ page.header-message }}</p>
 
             {% endif %}
 
@@ -24,9 +28,9 @@
 
     </header>
 
-    <div class="custom-lh-copy custom-prose ph2 ph4-ns pb4-ns">
+    <div class="custom-lh-copy custom-prose ph2 ph5-ns">
 
-        <div class="measure-wide center">
+        <div class="measure-wide">
 
             {{ content }}
 
@@ -36,11 +40,11 @@
 
     {% if page.is_post %}
 
-        <footer class="custom-sans lh-title pt3 ph2 ph4 bt b--light-blue gray">
+        <footer class="c-sans lh-title pa2 pv3-ns ph5-ns mv2 mt4-ns bt b--light-gray gray bb b--light-gray gray">
 
-            <div class="measure-wide center">
+            <div class="measure-wide">
 
-                <p class="f6">&#8212; <a href="/" class="blue link">Leon Paternoster</a>. Filed under <a href="/blog/{{ page.category }}/" class="blue link">{{ page.category }}</a>.</p>
+                <p class="f6 ma0">&#8212; <a href="/" class="black link">Leon Paternoster</a>. Filed under <a href="/blog/{{ page.category }}/" class="black link">{{ page.category }}</a>.</p>
 
             </div>
 

@@ -5,7 +5,7 @@ category: web
 description: "A discussion of whether to display just a title, a title and an excerpt or the whole article on a page that lists several articles or blog posts."
 ---
 
-If you publish blog posts ([or _articles_, if you prefer a more grandiose label](http://mattgemmell.com/on-blogs/)) then you'll also publish at least one post (or article) listing page. How best to display this page? What approaches can you use?
+<p class="f4">If you publish blog posts then you'll also publish at least one listing page. How best to display this page? What approaches can you use?</p>
 
 ## What are you trying to do?
 

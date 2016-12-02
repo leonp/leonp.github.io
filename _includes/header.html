@@ -10,18 +10,22 @@
 
     </head>
 
-    <body class="bg-near-white black custom-lh-copy">
+    <body class="bg-washed-yellow black c-lh-copy">
 
         {% include /header-components/skip-links.html %}
 
-        <div class="cf">
+        <header>
 
-            <header class="w-third-ns fixed-ns fl-ns bg-black near-white h-100-ns pa2 pa4-ns custom-auto custom-work custom-bg-arch">
+            <div class="cf pa2 ph5-ns">
 
-                {% include /header-components/main-nav.html %}
+                <a href="/" class="dark-red fl f5 mr1 mr2-ns c-lh-copy">&#9733;</a>
 
-                
+                <h1 class="fl f5 c-lh-copy ma0 pa0"><a href="/" class="black link">Leon Paternoster<a></h1>
 
-            </header>
+            </div>
 
-            <main id="content" class="w-two-thirds-ns fr-ns">
+            {% include /header-components/main-nav.html %}
+
+        </header>
+
+        <main id="content">
