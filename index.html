@@ -10,3 +10,19 @@ hide-title: yes
 <p>I'm digital manager at <a href="https://suffolklibraries.co.uk">Suffolk Libraries</a>. We're a small team with a smaller budget using a <a href="http://alistapart.com/article/what-really-matters-focusing-on-top-tasks">top task methodology</a>, card sorts and <a href="https://netlify.com">static hosting</a> to make our customer experience as fast and easy as we can.</p>
 
 <p>I've managed not-for-profits' digital teams for eight years. If you're setting up a new team, or looking to review what you do at the moment, I can help. You'll find me on <a href="https://twitter.com/leonpaternoster">Twitter</a> and <a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a>, or you can email me at leon.paternoster@zoho.com</p>
+
+<h2>Latest blog posts</h2>
+
+<ul class="list pl0">
+
+{% for post in site.posts limit:10 %}
+
+    {% if post.category == 'web' or post.category == 'libraries' %}
+
+    <li class="{% include link-list.html %}"><a href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
+
+    {% endif %}
+
+{% endfor %}
+
+</ul>
