@@ -9,7 +9,7 @@ description: >-
 published: true
 ---
 
-I first built a proper website in 2007-ish, a three page effort for a poet and author who'd just finished his first novel. I got drunk on the heady power of being able to mould text and pictures into something anyone could find by typing a pin aa propweberproperproperproper web address into a browser. It had a sidebar and was set in 16 pixel Georgia, which looked huge on an 800x600 monitor. Ahead of the curve, as ever &#8211; in 2006, most websites used 11px Arial.
+I first built a proper website in 2007-ish, a three page effort for a poet and author who'd just finished his first novel. I got drunk on the heady power of being able to mould text and pictures into something anyone could find by simply typing a proper web address into a browser. It had a sidebar and was set in 16 pixel Georgia, which looked huge on an 800x600 monitor. Ahead of the curve, as ever &#8211; in 2006, most websites used 11px Arial.
 
 Back then I wrestled with naked HTML and CSS, which was a wholly enjoyable, if long-winded, experience. When I built a new website I'd start from scratch: the only thing it would have in common with my poet's effort would be `#content` and `#sidebar` IDs (which I'd merrily style). I'd use a bunch of completely new classes to build new page components, recycle nothing and construct gruesomely long selectors. This would result in several thousand lines of <del>repetitive CSS soup</del> handcrafted CSS.
 
