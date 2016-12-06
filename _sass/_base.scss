@@ -35,5 +35,7 @@ dt {
     font-family: $secondary-font;
 }
 
-
+p {
+    margin: 0 0 0.725em 0; // Half custom-lh-copy for bottom margin
+}
 }
