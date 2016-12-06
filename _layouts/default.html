@@ -4,33 +4,29 @@
 
     <header class="pa2 pt3 pt4-ns ph5-ns">
 
-        <div class="measure-wide">
+        {% unless page.hide-title %}
 
-            {% unless page.hide-title %}
+            <h1 class="f3 f2-ns lh-title pa0 ma0 mb2 measure">{{ page.title }}</h1>
 
-                <h1 class="f2 lh-title pa0 ma0 mb2">{{ page.title }}</h1>
+        {% endunless %}
 
-            {% endunless %}
+        {% if page.is_post %}
 
-            {% if page.is_post %}
+            <p class="f6 ma0 c-sans gray measure"><time>{{ page.date | date: "%b %-d %Y" }}</time></p>
 
-                <p class="f6 ma0 c-sans gray"><time>{{ page.date | date: "%b %-d %Y" }}</time></p>
+        {% endif %}
 
-            {% endif %}
+        {% if page.header-message %}
 
-            {% if page.header-message %}
+            <p class="{% include article-meta.html %} c-lh-copy measure">{{ page.header-message }}</p>
 
-                <p class="{% include article-meta.html %} c-lh-copy">{{ page.header-message }}</p>
-
-            {% endif %}
-
-        </div>
+        {% endif %}
 
     </header>
 
     <div class="custom-lh-copy custom-prose ph2 ph5-ns pb2">
 
-        <div class="measure-wide">
+        <div class="measure">
 
             {{ content }}
 

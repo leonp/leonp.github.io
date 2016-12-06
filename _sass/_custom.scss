@@ -26,16 +26,25 @@
 }
 
 .custom-prose h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    @media (min-width: 40em) {
+        font-size: 1.5rem;
+    }
 }
 
 .custom-prose h3 {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    @media (min-width: 40em) {
+        font-size: 1.25rem;
+    }
 }
 
 .custom-prose h4,
 .custom-prose dt {
-    font-size: 1rem;
+    font-size: 0.875rem;
+    @media (min-width: 40em) {
+        font-size: 1rem;
+    }
 }
 
 .custom-prose a:link {
