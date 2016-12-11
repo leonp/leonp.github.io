@@ -2,7 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>{{ page.title | escape }} &#8211; {{ site.title | escape }}</title>
+<title>{{ page.title | escape | strip_html }} &#8211; {{ site.title | escape | strip_html }}</title>
 
 {% if page.title  == 'Home' %}
 
