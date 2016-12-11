@@ -19,21 +19,34 @@ I've been experimenting with Jekyll and Contentful. I found it easy to set up an
 
 ## Setting up Contentful and Jekyll
 
-I decided to create a simple collection of books for my experiment. The content type `book` consisted of just four text fields:
+I decided to create a simple collection of books for my experiment. The content type `book` consisted of four fields:
 
 - Book title
 - Author surname
 - Summary (a longer text field)
 - Picture (any image)
 
-This took a couple of minutes. I found the Contentful UI simple and intuitive:
+Setting up an account and a content type took a couple of minutes. I found the Contentful UI simple and intuitive:
 
 {% include figure.html url='contentful1.jpg' alt="Screenshot of the Contenful editor" caption="Adding content types and content is easy. The rich text box will be welcome for non-technical editors, and it generates Markdown, which is great for Jekyll." %}
 
-Happily enough, Contentful provide Jekyll and Middleman plugins for grabbing content and putting it into your project. I installed the Jekyll plugin with no problems and was soon pulling content into my local project by running `bundle exec jekyll contentful`.
+Happily enough, Contentful provides Jekyll and Middleman plugins for grabbing content and putting it into your project. I installed the Jekyll plugin with no problems &#8211; you'll just need a 'space' code and an API access token, which you'll add to your `_config.yml` file. Pull content into your project by running `bundle exec jekyll contentful`.
 
 ## Displaying pulled in content on the website
 
-Contentful places <abbr title="Yaml Ain't Markup Language">YAML</abbr> files in your Jekyll project's data folder. As you'd expect, the files consist of jason name and value pairs:
+Contentful places <abbr title="Yaml Ain't Markup Language">YAML</abbr> files in your Jekyll project's data folder. As you'd expect, the files consist of json name and value pairs:
 
 {% include gist.html code="f163a966aba840af33e877440e97aca2" gh-user="leonp" %}
+
+Now, the normal way you'd access data in Jekyll is with `site.data.[name of folder containing data]`, so in the case of a books data folder it'd be `site.data.books`. You'd then loop through whatever that returned.
+
+With Contentful data two things complicate your data's name:
+
+- Contentful tucks data away into nested folders. So My books data lives in `_data → contentful → spaces → books.yaml`.
+- As you can see from the YAML file, Contentful allows for some complex data structures in the `books.yaml` file by placing `books:` at the top of the file, which implies you could have different data types within `books`.
+
+All this means `site.data.books` doesn't work. Jekyll deals with this by altering the namespace to match the folder and data structure, which results in the somewhat verbose `site.data.contentful.spaces.books.book` So, to loop through the collection you could use:
+
+{% include gist.html code="8cc7bc573c2f6740c4d242fad8414beb" gh-user="leonp" %}
+
+Note that Contentful returns Markdown, so using the `markdownify` filter will convert images to HTML fo you.
