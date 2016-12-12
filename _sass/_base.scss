@@ -1,7 +1,7 @@
 @media screen, projection {
 
 body {
-    font-size: 118.75%;
+    font-size: 125%;
 
     @media (min-width: 40em) {
 		font-size: 143.75%;
@@ -37,6 +37,10 @@ dt {
 
 p {
     margin: 0 0 0.75em 0; // Half custom-lh-copy for bottom margin
+}
+
+abbr {
+    cursor: help;
 }
 
 }
