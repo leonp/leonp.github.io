@@ -41,4 +41,12 @@
 
 {% endif %}
 
-<link rel="stylesheet" href="/css/style.css"/>
+{% capture styles %}
+{% include /sass/_tachyons.scss %}
+{% include /sass/_base.scss %}
+{% include /sass/_custom.scss %}
+{% endcapture %}
+
+<style>
+{{ styles | scssify }}
+</style>

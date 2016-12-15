@@ -1,0 +1,179 @@
+@media screen, projection {
+
+.custom-prose {
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+	}
+
+.custom-prose h2,
+.custom-prose h3,
+.custom-prose h4,
+.custom-prose h5,
+.custom-prose h6,
+.custom-prose dt {
+    margin: 0;
+    padding: 0.5rem 0;
+    line-height: 1.3;
+}
+
+.custom-prose h2 + *,
+.custom-prose h3 + *,
+.custom-prose h4 + *,
+.custom-prose h5 + *,
+.custom-prose h6 + * {
+    margin-top: 0;
+}
+
+.custom-prose h2 {
+    font-size: 1.25rem;
+    @media (min-width: 40em) {
+        font-size: 1.5rem;
+    }
+}
+
+.custom-prose h3 {
+    font-size: 1rem;
+    @media (min-width: 40em) {
+        font-size: 1.25rem;
+    }
+}
+
+.custom-prose h4,
+.custom-prose dt {
+    font-size: 0.875rem;
+    @media (min-width: 40em) {
+        font-size: 1rem;
+    }
+}
+
+.custom-prose a:link {
+    color: #00449E; // Tachyons dark blue
+    border-bottom: 1px dotted;
+}
+
+.custom-prose a:visited {
+    color: #357EDD; // Tachyons blue
+    border-bottom: 1px dotted;
+}
+
+.custom-prose a:hover,
+.custom-prose a:active,
+.custom-prose a:focus {
+    color: #E7040F; // Tachyons dark red
+    border-bottom: 1px solid;
+}
+
+.custom-prose figure {
+    margin-bottom: 1rem;
+}
+
+.custom-prose figcaption,
+.custom-prose .figcaption {
+    line-height: 1.3em;
+    font-size: 0.875rem;
+    font-family: $secondary-font;
+    margin-top: 0.25rem;
+}
+
+.custom-prose blockquote {
+    margin: 0 0 0 2rem;
+    padding: 1rem 0;
+    font-size: 0.875em;
+    font-family: $secondary-font;
+}
+
+.custom-prose pre {
+    overflow: auto;
+    color: #E7040F;
+}
+
+.custom-prose code {
+    font-size: 0.75em;
+    color: #E7040F;
+}
+
+.custom-prose hr {
+    border: none;
+    border-top: 1px solid #EFEFEF; // Tachyons moon gray
+    width: 50%;
+    display: block;
+    margin: 1rem auto;
+}
+
+.custom-prose thead {
+    text-align: left;
+    border-bottom: 1px solid #CCC;
+    font-family: $secondary-font;
+}
+
+.custom-prose th {
+    padding: 0 0.5rem;
+}
+
+.custom-prose td {
+    padding: 0.25rem 0.5rem;
+    background-color: #EEE; // Moon gray
+}
+
+.custom-prose img {
+    border: 1px solid #EEE; // Light gray
+    width: auto;
+    height: auto;
+    max-width: auto;
+}
+
+.c-lh-copy {
+    line-height: 1.5;
+}
+
+.custom-bg-arch {
+    background-image: url('/images/arch.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c-sans {
+    font-family: $secondary-font;
+}
+
+/*
+Odd Tachyons error.
+Published bg-yellow is FFFCEB.
+Current is darker.
+Also, https://unpkg.com/tachyons@4.5.5/css/tachyons.min.css
+is actually 4.5.3
+*/
+
+.c-bg-washed-yellow {
+    background-color: #FFFCEB;
+}
+
+.custom-auto {
+    overflow: auto;
+}
+
+.vid,
+.constrain {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+.vid iframe,
+.vid object,
+.vid embed,
+.constrain iframe,
+.constrain object,
+.constrain embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+}
