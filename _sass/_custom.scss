@@ -7,6 +7,7 @@
 	}
 
 .custom-prose h2,
+.custom-prose h1,
 .custom-prose h3,
 .custom-prose h4,
 .custom-prose h5,
@@ -18,6 +19,7 @@
 }
 
 .custom-prose h2 + *,
+.custom-prose h1 + *,
 .custom-prose h3 + *,
 .custom-prose h4 + *,
 .custom-prose h5 + *,
@@ -25,7 +27,8 @@
     margin-top: 0;
 }
 
-.custom-prose h2 {
+.custom-prose h2,
+.custom-prose h1 {
     font-size: 1.25rem;
     @media (min-width: 40em) {
         font-size: 1.5rem;
