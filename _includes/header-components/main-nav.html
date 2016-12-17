@@ -1,10 +1,10 @@
-<nav id="nav" class="pa2 ph5-ns bt b--light-gray bb b--light-gray">
+<nav id="nav" class="pa2 bt b--light-gray bb b--light-gray">
 
     <h1 class="dn">Navigation</h1>
 
     <ul class="ma0 pa0 list c-sans tc center">
 
-        <li class="di mh2 mh3-ns f6 ttu tracked"><a class="link {% if page.title == "Home" %}black{% else %}dark-blue{% endif %}" href="/" rel="home">Home</a></li>
+        <li class="di mh2 f6"><a class="link {% if page.title == "Home" %}black{% else %}dark-blue{% endif %}" href="/" rel="home">Home</a></li>
 
     {% assign nav-pages = site.pages | sort: "nav-weight" %}
 
@@ -12,7 +12,7 @@
 
     {% if nav.nav-weight %}
 
-        <li class="di mh2 mh3-ns f6 ttu tracked"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="link black"{% else %}class="link dark-blue"{% endif %}>{{ nav.title }}</a></li>
+        <li class="di mh2 f6"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="link black"{% else %}class="link dark-blue"{% endif %}>{{ nav.title }}</a></li>
 
     {% endif %}
 
