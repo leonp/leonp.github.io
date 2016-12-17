@@ -25,17 +25,6 @@ figure {
     padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-dt {
-    font-family: $secondary-font;
-    text-align: center;
-}
-
 p {
     margin: 0 0 0.75em 0; // Half custom-lh-copy for bottom margin
 }
@@ -43,5 +32,104 @@ p {
 abbr {
     cursor: help;
 }
+
+h2,
+h1,
+h3,
+h4,
+h5,
+h6,
+dt {
+    margin: 0;
+    padding: 0.5rem 0;
+    line-height: 1.3;
+    font-family: $secondary-font;
+    text-align: center;
+}
+
+h2 + *,
+h1 + *,
+h3 + *,
+h4 + *,
+h5 + *,
+h6 + * {
+    margin-top: 0;
+}
+
+h2,
+h1 {
+    font-size: 1.25rem;
+    @media (min-width: 40em) {
+        font-size: 1.5rem;
+    }
+}
+
+h3 {
+    font-size: 1rem;
+    @media (min-width: 40em) {
+        font-size: 1.25rem;
+    }
+}
+
+h4,
+dt {
+    font-size: 0.875rem;
+    @media (min-width: 40em) {
+        font-size: 1rem;
+    }
+}
+
+figure {
+    margin-bottom: 1rem;
+}
+
+figcaption,
+.figcaption {
+    line-height: 1.3em;
+    font-size: 0.875rem;
+    font-family: $secondary-font;
+    margin-top: 0.25rem;
+}
+
+blockquote {
+    margin: 0 0 0 2rem;
+    padding: 1rem 0;
+    font-size: 0.875em;
+    font-family: $secondary-font;
+}
+
+pre {
+    overflow: auto;
+    color: #E7040F;
+}
+
+code {
+    font-size: 0.75em;
+    color: #E7040F;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #EFEFEF; // Tachyons moon gray
+    width: 50%;
+    display: block;
+    margin: 1rem auto;
+}
+
+thead {
+    text-align: left;
+    border-bottom: 1px solid #CCC;
+    font-family: $secondary-font;
+}
+
+th {
+    padding: 0 0.5rem;
+}
+
+td {
+    padding: 0.25rem 0.5rem;
+    background-color: #EEE; // Moon gray
+}
+
 
 }

@@ -15,11 +15,13 @@ We use Jekyll at work and publish with a text editor, command line and Git. That
 
 Even we'd like the option of adding a news story without having to fire up a terminal &#8211; we could publish on a phone or tablet, for example, or the comms manager could post a news story in an emergency. While we can use [Prose](http://prose.io) or even edit files directly in Github, a proper editor would be a lot more useful.
 
-So I decided to test Jekyll and Contentful. Setting up content types and using the Contentful editor was great, especially for someone who's been using Markdown for years. Getting Contentful to talk to jekyll was also relatively easy.
+So I decided to test Jekyll and Contentful.
 
 ## Setting up Contentful and Jekyll
 
-I decided to create a simple collection of books for my experiment. The content type `book` consisted of four fields:
+Setting up content types and using the Contentful editor was great, especially for someone who's been using Markdown for years. Getting Contentful to talk to jekyll was also relatively easy.
+
+I created a simple collection of books for my experiment. The content type `book` consisted of four fields:
 
 - Book title (short text)
 - Author surname (short text)
