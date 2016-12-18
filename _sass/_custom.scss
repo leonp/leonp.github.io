@@ -37,6 +37,12 @@
     font-family: $secondary-font;
 }
 
+.c-small-caps {
+    text-transform: lowercase;
+    letter-spacing: 0.1em;
+    font-variant: small-caps;
+}
+
 /*
 Odd Tachyons error.
 Published bg-yellow is FFFCEB.

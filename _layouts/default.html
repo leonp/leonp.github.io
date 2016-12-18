@@ -10,12 +10,6 @@
 
         {% endunless %}
 
-        {% if page.is_post %}
-
-            <p class="{% include article-meta.html %}"><time>{{ page.date | date: "%b %-d %Y" }}</time></p>
-
-        {% endif %}
-
         {% if page.header-message %}
 
             <p class="{% include article-meta.html %}">{{ page.header-message }}</p>
@@ -40,7 +34,7 @@
 
             <div class="measure-wide center">
 
-                <p class="f6 ma0 tc">&#8212; <a href="/" class="dark-blue link">Leon Paternoster</a>. Filed under <a href="/blog/{{ page.category }}/" class="dark-blue link">{{ page.category }}</a>.</p>
+                <p class="f6 ma0 tc">Posted <time>{{ page.date | date: "%b %-d %Y" }}</time> by <a href="/" class="dark-blue link">Leon Paternoster</a>. Filed under <a href="/blog/{{ page.category }}/" class="dark-blue link">{{ page.category }}</a>.</p>
 
             </div>
 
