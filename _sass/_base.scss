@@ -1,8 +1,8 @@
 @media screen, projection {
 
 html {
-    font-size: 100%;
-    font-size: calc( 16px + (12) * ( (100vw - 320px) / ( 1600 - 320) ));
+    font-size: 106.75%;
+    font-size: calc(100% + 0.4vw)
 }
 
 body {
@@ -58,16 +58,16 @@ h6 + * {
 
 h2,
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 h3 {
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 h4,
 dt {
-    font-size: 1rem;
+    font-size: 0.875rem;
 }
 
 figure {
