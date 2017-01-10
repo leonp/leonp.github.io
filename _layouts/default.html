@@ -1,40 +1,36 @@
 {% include header.html %}
 
-<article class="pb2">
+<article class="pa0 ma0 center lh-copy pb2">
 
-    <header class="pa2 pt3 mb2 measure-wide center">
+    {% unless page.hide-title %}
 
-        {% unless page.hide-title %}
+        <h1 class="{% include article-title.html %}">{{ page.title }}</h1>
 
-            <h1 class="{% include article-title.html %}">{{ page.title }}</h1>
+    {% endunless %}
 
-        {% endunless %}
+    {% if page.header-message %}
 
-        {% if page.header-message %}
+        <div class="measure center ph2">
 
             <p class="{% include article-meta.html %}">{{ page.header-message }}</p>
 
-        {% endif %}
-
-    </header>
-
-    <div class="custom-lh-copy custom-prose ph2 pb2">
-
-        <div class="measure center">
-
-            {{ content }}
-
         </div>
+
+    {% endif %}
+
+    <div class="lh-copy c-prose center ph2 pb2">
+
+        {{ content }}
 
     </div>
 
     {% if page.is_post %}
 
-        <footer class="c-sans lh-title pa2 mv2 bt b--light-gray gray">
+        <footer class="c-sans lh-title ph2 mv2">
 
             <div class="measure-wide center">
 
-                <p class="f6 ma0 tc">Posted <time>{{ page.date | date: "%b %-d %Y" }}</time> by <a href="/" class="dark-blue link">Leon Paternoster</a>. Filed under <a href="/blog/{{ page.category }}/" class="dark-blue link">{{ page.category }}</a>.</p>
+                <p class="f6 ma0 tc i"><time>{{ page.date | date: "%b %-d %Y" }}</time></p>
 
             </div>
 

@@ -7,11 +7,10 @@ sitemap: false
 
 // VARIABLES
 
-$primary-font: charter, 'Noto Serif', georgia, 'Noto Serif', 'Droid Serif', 'Roboto Slab', cambria, serif;
-$secondary-font: avenir, 'Avenir Next', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+$primary-font: ff-meta-serif-web-pro, serif;
+$secondary-font: ff-meta-serif-web-pro, serif;
 
 @import
     "tachyons",
-    "base",
-    "custom"
+    "c"
 ;

@@ -55,31 +55,8 @@ is actually 4.5.3
     background-color: #FFFCEB;
 }
 
-.custom-auto {
-    overflow: auto;
-}
 
-.vid,
-.constrain {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-    margin-bottom: 1.5rem;
-}
 
-.vid iframe,
-.vid object,
-.vid embed,
-.constrain iframe,
-.constrain object,
-.constrain embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+
 
 }
