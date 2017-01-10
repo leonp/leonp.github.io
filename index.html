@@ -5,24 +5,16 @@ excerpt: Web and customer service manager at Suffolk Libraries. Blogs about mana
 hide-title: yes
 ---
 
-<h1 class="{% include article-title.html %}">About</h1>
+{% assign posts = site.posts | where: "featured", "true" %}
 
-<p>I'm digital manager at <a href="https://suffolklibraries.co.uk">Suffolk Libraries</a>. We're a small team with a smaller budget using a <a href="http://alistapart.com/article/what-really-matters-focusing-on-top-tasks">top task methodology</a>, card sorts and <a href="https://netlify.com">static hosting</a> to make our customer experience as fast and easy as we can.</p>
+{% for post in posts limit:10 %}
 
-<p>I've managed not-for-profits' digital teams for eight years. If you're setting up a new team, or looking to review what you do at the moment, I can help. You'll find me on <a href="https://twitter.com/leonpaternoster">Twitter</a> and <a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a>, or you can email me at leon.paternoster@zoho.com</p>
+    <article class="pb5 measure center">
 
-<h2>Latest blog posts</h2>
+        <h1 class="f4 ma0 mb2 i center tc lh-title"><a class="black link" href="{{ post.url }}">{{ post.title }}</a></h1>
 
-<ul class="list pl0">
+        <p class="ma0 measure center">{{ post.excerpt }}</p>
 
-{% for post in site.posts limit:10 %}
-
-    {% if post.category == 'web' or post.category == 'libraries' %}
-
-    <li class="{% include link-list.html %}"><a href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
-
-    {% endif %}
+    </article>
 
 {% endfor %}
-
-</ul>

@@ -1,6 +1,6 @@
 {% include header.html %}
 
-<article class="pa0 ma0 center lh-copy pb2">
+<article class="pa0 ma0 center lh-copy pb4 ph2">
 
     {% unless page.hide-title %}
 
@@ -18,7 +18,7 @@
 
     {% endif %}
 
-    <div class="lh-copy c-prose center ph2 pb2">
+    <div class="lh-copy {% if page.is_post %}c-prose{% endif %} center ph2 pb2">
 
         {{ content }}
 
