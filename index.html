@@ -13,8 +13,12 @@ hide-title: yes
 
         <h1 class="f4 ma0 mb2 i center tc lh-title"><a class="black link" href="{{ post.url }}">{{ post.title }}</a></h1>
 
+        <p class="ma0 mb2 f6 tc"><time>{{ post.date | date: "%b %-d %Y" }}</time></p>
+
         <p class="ma0 measure center">{{ post.excerpt }}</p>
 
     </article>
 
 {% endfor %}
+
+<p class="tc"><a href="/blog/" class="shadow-4 ph3 pv2 bg-blue white link">All blog posts &rarr;</a></p>

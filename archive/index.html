@@ -3,16 +3,34 @@ layout: default
 title: Archive
 ---
 
-<p>You found the archive of every post I've ever posted, including the political and philosophical stuff. These are, of course, my thoughts, not those of any one or thing else.</p>
+<p class="f4 measure center">You found the archive of every post I've ever posted, including the political and philosophical stuff. These are, of course, my thoughts, not those of any one or thing else.</p>
 
-<h2>Every post (really)</h2>
+<div class="measure ph2 center c-prose">
 
-<ul class="list pl0">
+	{% for post in site.posts %}
 
-{% for post in site.posts  %}
+		{% assign currentdate = post.date | date: "%Y" %}
 
-	<li class="{% include link-list.html %}"><a class="blue" href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time> and filed under <a class="blue" href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
+		{% if currentdate != date %}
 
-{% endfor %}
+			{% unless forloop.first %}</ul>{% endunless %}
+
+			<h2 id="y{{post.date | date: "%Y"}}" class="{% include article-title.html %}">{{ currentdate }}</h2>
+
+			<ul class="ma0 pa0 list">
+
+			{% assign date = currentdate %}
+
+		{% endif %}
+
+			<li class="{% include link-list-item.html %}"><a href="{{ post.url }}">{{ post.title }}</a><span class="{% include link-list-meta.html %}"><time>{{ post.date | date: "%b %-d %Y" }}</time></li>
+
+		{% if forloop.last %}</ul>{% endif %}
+
+	{% endfor %}
+
+	<ul class="list pl0">
+
+</div>
 
 </ul>

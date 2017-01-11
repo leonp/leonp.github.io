@@ -5,32 +5,34 @@ description: Since 2008.
 nav-weight: 2
 ---
 
-<h2>Start here</h2>
+<div class="measure center c-prose">
 
-<ul class="list pl0">
+	{% for post in site.posts %}
 
-{% assign featured_posts = (site.posts | where: "featured", "true") %}
+		{% assign currentdate = post.date | date: "%Y" %}
 
-{% for post in featured_posts %}
+		{% if currentdate != date %}
 
-	<li class="{% include link-list.html %}"><a href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time> and filed under <a href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
+			{% unless forloop.first %}</ul>{% endunless %}
 
-{% endfor %}
+			<h2 id="y{{post.date | date: "%Y"}}" class="{% include article-title.html %}">{{ currentdate }}</h2>
 
-</ul>
+			<ul class="ma0 pa0 list">
 
-<h2>Every post</h2>
+			{% assign date = currentdate %}
 
-<ul class="list pl0">
+		{% endif %}
 
-{% for post in site.posts  %}
+		{% if post.category == 'web' or post.category == 'libraries' %}
 
-	{% if post.category == 'web' or post.category == 'libraries' %}
+				<li class="{% include link-list-item.html %}"><a href="{{ post.url }}">{{ post.title }}</a><span class="{% include link-list-meta.html %}"><time>{{ post.date | date: "%b %-d %Y" }}</time></li>
 
-	<li class="{% include link-list.html %}"><a class="blue" href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time> and filed under <a class="blue" href="/blog/{{ post.category }}">{{ post.category }}</a></span></li>
+		{% endif %}
 
-	{% endif %}
+		{% if forloop.last %}</ul>{% endif %}
 
-{% endfor %}
+	{% endfor %}
 
-</ul>
+	<ul class="list pl0">
+
+</div>

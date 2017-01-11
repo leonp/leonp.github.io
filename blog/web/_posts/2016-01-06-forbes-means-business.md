@@ -13,4 +13,6 @@ category: web
 
 <figcaption class="figcaption"><p>The Forbes quote of the day</p></figcaption>
 
+</figure>
+
 The quote of the day asks some simple questions through Thoreau, Husserl, Nietzsche and Marx: Are you business enough? Can you handle more business?
