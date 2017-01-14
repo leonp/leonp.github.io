@@ -5,17 +5,15 @@ excerpt: Web and customer service manager at Suffolk Libraries. Blogs about mana
 hide-title: yes
 ---
 
-{% assign posts = site.posts | where: "featured", "true" %}
+{% assign posts = site.posts %}
 
 {% for post in posts limit:10 %}
 
     <article class="pb5 measure center">
 
-        <h1 class="f4 ma0 mb2 i center tc lh-title"><a class="black link" href="{{ post.url }}">{{ post.title }}</a></h1>
+        <h1 class="f4 ma0 mb2 i center tc lh-title normal"><a class="black link" href="{{ post.url }}">{{ post.title }}</a></h1>
 
         <p class="ma0 mb2 f6 tc"><time>{{ post.date | date: "%b %-d %Y" }}</time></p>
-
-        <p class="ma0 measure center">{{ post.excerpt }}</p>
 
     </article>
 

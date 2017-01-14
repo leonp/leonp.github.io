@@ -9,25 +9,25 @@ published: true
 
     <h2>Suffolk Libraries website</h2>
 
-    <p>I design, code and write for the [Suffolk Libraries website](https://www.suffolklibraries.co.uk).</p>
+    <p>I design, code and write for the <a href="https://www.suffolklibraries.co.uk">Suffolk Libraries website</a>.</p>
 
     <p>We prefer speed, clear language and logical navigation to fancy graphics and animations, which helps customers complete important tasks with minimum effort.</p>
 
-    <p>We use [Jekyll](http://jekyllrb.com), a static site generator. Static sites simply serve <abbr title="HyperText Markup Language">HTML</abbr> files to browsers. There's no database in the background, which means less moving parts, more speed, more reliability and more security.</p>
+    <p>We use <a href="http://jekyllrb.com">Jekyll</a>, a static site generator. Static sites simply serve <abbr title="HyperText Markup Language">HTML</abbr> files to browsers. There's no database in the background, which means less moving parts, more speed, more reliability and more security.</p>
 
-    <p>We regularly put the site through the industry standard [Pingdom test](https://tools.pingdom.com/), where it scores 94/100, achieving an A Grade. Load times average under half a second.</p>
+    <p>We regularly put the site through the industry standard <a href="https://tools.pingdom.com/">Pingdom test</a>, where it scores 94/100, achieving an A Grade. Load times average under half a second.</p>
 
     {% include figure.html alt="Screenshot of a Pingdom test" url="pingdom-screenshot.jpg" caption="The Suffolk Libraries website scores well in the Pingdom test" %}
 
-    <p>That doesn't mean it can't do lots of complex things. For example, we handle events in a far more sophisticated way than any other library, linking one-off and recurrent events to [44 locations](https://www.suffolklibraries.co.uk/libraries/), and creating [microsites built on event categories](https://www.suffolklibraries.co.uk/events-activities/bookfest/).</p>
+    <p>That doesn't mean it can't do lots of complex things. For example, we handle events in a far more sophisticated way than any other library, linking one-off and recurrent events to <a href="https://www.suffolklibraries.co.uk/libraries/">44 locations</a>, and creating <a href="https://www.suffolklibraries.co.uk/events-activities/bookfest/">microsites built on event categories</a>.</p>
 
-    <p>There are just two of us in the Suffolk Libraries web team. We can do all this because we use [state of the art hosting](https://www.netlify.com) and APIs such as Google Maps and [Mailchimp](https://www.suffolklibraries.co.uk/newsletter), linking the two together with [Zapier](https://zapier.com/). Anything a dynamic site can do, we can do too. And we have a strategy&hellip;</p>
+    <p>There are just two of us in the Suffolk Libraries web team. We can do all this because we use <a href="https://www.netlify.com">state of the art hosting</a> and APIs such as Google Maps and <a href="https://www.suffolklibraries.co.uk/newsletter">Mailchimp</a>, linking the two together with <a href="https://zapier.com/">Zapier</a>. Anything a dynamic site can do, we can do too. And we have a strategy&hellip;</p>
 
     <h3>Find out more</h3>
 
     <ul>
 
-    <li>[How we built a static Suffolk Libraries website (an overview)](/2016/07/suffolk-libraries-website-static-overview/)</li>
+    <li><a href="/2016/07/suffolk-libraries-website-static-overview/">How we built a static Suffolk Libraries website (an overview)</a></li>
     <li>[Coding one off and recurrent events in Jekyll](/2016/07/jekyll-events-static-site-libraries/)</li>
     <li>[Why we'll be using a CSS framework like Tachyons to rebuild our website](/2016/04/why-use-tachyons-css-framework/)</li>
     <li>[Doing a Liverpool](/2016/04/doing-a-liverpool/)</li>
@@ -119,8 +119,12 @@ published: true
 
     <p>If you'd like to work with me get in touch:</p>
 
-    <li>leon.paternoster@zoho.com
-    <li>[Twitter](https://twitter.com/leonpaternoster)
-    <li>[LinkedIn](https://uk.linkedin.com/in/leonpaternoster)
+    <ul>
+
+        <li>leon.paternoster@zoho.com</li>
+        <li>[Twitter](https://twitter.com/leonpaternoster)</li>
+        <li>[LinkedIn](https://uk.linkedin.com/in/leonpaternoster)</li>
+
+    </ul>
 
 </div>
