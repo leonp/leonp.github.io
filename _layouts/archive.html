@@ -2,12 +2,32 @@
 layout: default
 ---
 
-    <ul class="list pl0">
+<div class="ph2 measure center">
 
-        {% for post in site.categories[page.category] %}
+    <ul class="ma0 pa0 list">
 
-            <li class="{% include link-list.html %}"><a href="{{ post.url }}">{{ post.title }}</a> <span class="{% include link-list-meta.html %}">Posted <time>{{ post.date | date_to_string }}</time></li>
+    {% for post in site.categories[page.category] %}
 
-        {% endfor %}
+        {% assign currentdate = post.date | date: "%Y" %}
 
-    </ul>
+        {% if currentdate != date %}
+
+			{% unless forloop.first %}</ul>{% endunless %}
+
+            <h2 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+
+			<ul class="ma0 pa0 list">
+
+			{% assign date = currentdate %}
+
+        {% endif %}
+
+        <li class="{% include link-list-item.html %}"><a class="black" href="{{ post.url }}">{{ post.title }}</a><span class="{% include link-list-meta.html %}"><time>{{ post.date | date: "%b %-d %Y" }}</time></li>
+
+            {% if forloop.last %}</ul>{% endif %}
+
+    	{% endfor %}
+
+    	<ul class="list pl0">
+
+</div>

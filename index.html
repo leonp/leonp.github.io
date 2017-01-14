@@ -5,18 +5,22 @@ excerpt: Web and customer service manager at Suffolk Libraries. Blogs about mana
 hide-title: yes
 ---
 
-{% assign posts = site.posts %}
+{% assign web_posts = site.posts | where: "category", "web" %}
+
+{% assign library_posts = site.posts | where: "category", "libraries" %}
+
+{% assign posts = web_posts | concat: library_posts %}
 
 {% for post in posts limit:10 %}
 
-    <article class="pb5 measure center">
+    <article class="pb5 measure center ph2">
 
-        <h1 class="f4 ma0 mb2 i center tc lh-title normal"><a class="black link" href="{{ post.url }}">{{ post.title }}</a></h1>
+        <h1 class="f4 ma0 mb2 lh-title normal"><a class="black link" href="{{ post.url }}">{{ post.title }}</a></h1>
 
-        <p class="ma0 mb2 f6 tc"><time>{{ post.date | date: "%b %-d %Y" }}</time></p>
+        <p class="ma0 mb2 f6"><time>{{ post.date | date: "%b %-d %Y" }}</time></p>
 
     </article>
 
 {% endfor %}
 
-<p class="tc"><a href="/blog/" class="shadow-4 ph3 pv2 bg-blue white link">All blog posts &rarr;</a></p>
+<p class="measure center ph2"><a href="/blog/" class="shadow-4 ph3 pv2 bg-blue white link">All blog posts &rarr;</a></p>

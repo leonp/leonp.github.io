@@ -48,12 +48,6 @@ figure {
     font-size: 0.875rem;
 }
 
-blockquote {
-    margin: 0 0 0 2rem;
-    padding: 1rem 0 1.5rem 0;
-    font-size: 0.875rem;
-}
-
 pre {
     overflow: auto;
     color: #E7040F;
@@ -141,9 +135,16 @@ td {
     font-style: italic;
 }
 
+.c-hyphens {
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
 .c-prose * {
-    max-width: 30em;
+    max-width: 30rem;
     margin: auto;
+    padding: 0 0.5rem;
 }
 
 .c-prose figure {
@@ -168,7 +169,10 @@ td {
 .c-prose strong,
 .c-prose code,
 .c-prose cite,
-.c-prose abbr {
+.c-prose abbr,
+.c-prose span,
+.c-prose i,
+.c-prose b {
     padding: 0;
     margin: 0;
 }
@@ -180,6 +184,7 @@ td {
 
 .c-prose li {
     padding: 0;
+    margin-left: 1rem;
 }
 
 .c-prose p,
@@ -213,14 +218,10 @@ td {
 .c-prose h5,
 .c-prose h6,
 .c-prose dt {
-    padding: 1rem 0;
-    font-weight: normal;
-    font-style: italic;
-    text-align: center;
+    padding: 1rem 0.5rem;
     line-height: 1.3;
 }
 
-.c-prose h1,
 .c-prose h2 {
     font-size: 1.5rem;
 }
@@ -234,5 +235,13 @@ td {
     font-size: 1rem;
 }
 
+.c-prose blockquote {
+    padding: 1.5rem 0;
+    font-size: 0.875rem;
+}
+
+.c-prose blockquote p {
+    padding-left: 2rem;
+}
 
 }
