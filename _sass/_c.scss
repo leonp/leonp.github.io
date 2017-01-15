@@ -12,7 +12,7 @@ CONTENTS
 */
 
 html {
-    font-size: calc(100% + 0.4vw)
+    font-size: calc(100% + 0.5vw)
 }
 
 body {
@@ -24,7 +24,7 @@ a {
 }
 
 a:link {
-    color: #00449E; /* Dark blue */
+    color: #000;
 }
 
 img {
@@ -160,6 +160,10 @@ td {
     border-bottom: 1px dotted;
 }
 
+.c-prose a:link {
+    color: #00449E; /* Dark blue */
+}
+
 .c-prose a:visited {
     color: #357EDD; /* Blue */
 }
@@ -197,6 +201,13 @@ td {
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 0.2em;
+}
+
+.c-prose blockquote {
+    font-size: 0.875em;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 2rem;
 }
 
 }

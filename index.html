@@ -5,22 +5,20 @@ excerpt: Web and customer service manager at Suffolk Libraries. Blogs about mana
 hide-title: yes
 ---
 
-{% assign web_posts = site.posts | where: "category", "web" %}
+<ul class="ma0 pa0 list">
 
-{% assign library_posts = site.posts | where: "category", "libraries" %}
+    {% assign web_posts = site.posts | where: "category", "web" %}
 
-{% assign posts = web_posts | concat: library_posts %}
+    {% assign library_posts = site.posts | where: "category", "libraries" %}
 
-{% for post in posts limit:10 %}
+    {% assign posts = web_posts | concat: library_posts %}
 
-    <article class="pb5 measure center ph2">
+    {% for post in posts limit:10 %}
 
-        <h1 class="f4 ma0 mb2 lh-title normal"><a class="black link" href="{{ post.url }}">{{ post.title }}</a></h1>
+        <li class="{% include link-list-item.html %}"><a class="black link hover-dark-red" href="{{ post.url }}">{{ post.title }}</a><span class="{% include link-list-meta.html %}"><time>{{ post.date | date: "%b %-d %Y" }}</time></li>
 
-        <p class="ma0 mb2 f6"><time>{{ post.date | date: "%b %-d %Y" }}</time></p>
+    {% endfor %}
 
-    </article>
+</ul>
 
-{% endfor %}
-
-<p class="measure center ph2"><a href="/blog/" class="shadow-4 ph3 pv2 bg-blue white link">All blog posts &rarr;</a></p>
+<p><a href="/blog/" class="shadow-4 ph3 pv2 bg-blue hover-bg-dark-red white link">All blog posts &rarr;</a></p>

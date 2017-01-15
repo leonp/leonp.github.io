@@ -22,12 +22,10 @@ layout: default
 
         {% endif %}
 
-        <li class="{% include link-list-item.html %}"><a class="black" href="{{ post.url }}">{{ post.title }}</a><span class="{% include link-list-meta.html %}"><time>{{ post.date | date: "%b %-d %Y" }}</time></li>
+        <li class="{% include link-list-item.html %}"><a class="black link hover-dark-red" href="{{ post.url }}">{{ post.title }}</a><span class="{% include link-list-meta.html %}"><time>{{ post.date | date: "%b %-d %Y" }}</time></li>
 
             {% if forloop.last %}</ul>{% endif %}
 
     	{% endfor %}
-
-    	<ul class="list pl0">
 
 </div>
