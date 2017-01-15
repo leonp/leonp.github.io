@@ -2,30 +2,26 @@
 layout: default
 ---
 
-<div class="ph2 measure center">
+<ul class="ma0 pa0 list">
 
-    <ul class="ma0 pa0 list">
+{% for post in site.categories[page.category] %}
 
-    {% for post in site.categories[page.category] %}
+    {% assign currentdate = post.date | date: "%Y" %}
 
-        {% assign currentdate = post.date | date: "%Y" %}
+    {% if currentdate != date %}
 
-        {% if currentdate != date %}
+		{% unless forloop.first %}</ul>{% endunless %}
 
-			{% unless forloop.first %}</ul>{% endunless %}
+        <h2 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
 
-            <h2 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+		<ul class="ma0 pa0 list">
 
-			<ul class="ma0 pa0 list">
+		{% assign date = currentdate %}
 
-			{% assign date = currentdate %}
+    {% endif %}
 
-        {% endif %}
+    <li class="{% include link-list-item.html %}"><a class="black link hover-dark-red" href="{{ post.url }}">{{ post.title }}</a><span class="{% include link-list-meta.html %}"><time>{{ post.date | date: "%b %-d %Y" }}</time></li>
 
-        <li class="{% include link-list-item.html %}"><a class="black link hover-dark-red" href="{{ post.url }}">{{ post.title }}</a><span class="{% include link-list-meta.html %}"><time>{{ post.date | date: "%b %-d %Y" }}</time></li>
+        {% if forloop.last %}</ul>{% endif %}
 
-            {% if forloop.last %}</ul>{% endif %}
-
-    	{% endfor %}
-
-</div>
+{% endfor %}
