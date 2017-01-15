@@ -5,7 +5,7 @@ nav-weight: 1
 published: true
 ---
 
-<div class="c-prose center">
+<div class="c-prose">
 
     <h2>Suffolk Libraries website</h2>
 
@@ -28,12 +28,12 @@ published: true
     <ul>
 
     <li><a href="/2016/07/suffolk-libraries-website-static-overview/">How we built a static Suffolk Libraries website (an overview)</a></li>
-    <li>[Coding one off and recurrent events in Jekyll](/2016/07/jekyll-events-static-site-libraries/)</li>
-    <li>[Why we'll be using a CSS framework like Tachyons to rebuild our website](/2016/04/why-use-tachyons-css-framework/)</li>
-    <li>[Doing a Liverpool](/2016/04/doing-a-liverpool/)</li>
-    <li>[Carrying out a web content audit](/2013/04/carrying-out-a-web-content-audit/)</li>
-    <li>[Your website is not as important as your catalogue](/2013/05/your-website-is-not-as-important-as-your-catalogue/)</li>
-    <li>[Library websites, catalogues and their poor UX](/2013/04/library-websites-catalogues-and-their-poor-ux/)</li>
+    <li><a href="/2016/07/jekyll-events-static-site-libraries/">Coding one off and recurrent events in Jekyll</a></li>
+    <li><a href="/2016/04/why-use-tachyons-css-framework/">Why we'll be using a CSS framework like Tachyons to rebuild our website</a></li>
+    <li><a href="/2016/04/doing-a-liverpool/">Doing a Liverpool</a></li>
+    <li><a href="/2013/04/carrying-out-a-web-content-audit/">Carrying out a web content audit</a></li>
+    <li><a href="/2013/05/your-website-is-not-as-important-as-your-catalogue/">Your website is not as important as your catalogue</a></li>
+    <li><a href="/2013/04/library-websites-catalogues-and-their-poor-ux/">Library websites, catalogues and their poor UX</a></li>
 
     </ul>
 
@@ -74,7 +74,7 @@ published: true
 
     <h3>Find out more</h3>
 
-    <p>[Separating services is preferable to surface integration (or 3 principles for a web strategy)](/2014/10/separation-better-than-surface-integration-web-strategy/)</p>
+    <p><a href="/2014/10/separation-better-than-surface-integration-web-strategy/">Separating services is preferable to surface integration (or 3 principles for a web strategy)</a></p>
 
     <h2>Managing sites: Content audits, kiosk testing and card sorts</h2>
 
@@ -84,8 +84,8 @@ published: true
 
     <ul>
 
-    <li>[Carrying out a web content audit](/2013/04/carrying-out-a-web-content-audit/)
-    <li>[3 things to do with a website content audit](/2014/04/3-things-to-do-with-a-website-content-audit/)
+    <li><a href="/2013/04/carrying-out-a-web-content-audit/">Carrying out a web content audit</a></li>
+    <li><a href="/2014/04/3-things-to-do-with-a-website-content-audit/">3 things to do with a website content audit</a></li>
 
     </ul>
 
@@ -97,7 +97,7 @@ published: true
 
     <h3>Card sorts</h3>
 
-    <p>We run online card sorts to test our site structure, using [Optimal Sort](https://optimalsort.com).</p>
+    <p>We run online card sorts to test our site structure, using <a href="https://optimalsort.com">Optimal Sort</a>.</p>
 
     <p>We have an idea of how our site should be structured, and how we should label sections within that structure. However, we've worked for the library service for years; our view of things is jaundiced, and probably completely different from our users'.</p>
 
@@ -105,15 +105,15 @@ published: true
 
     <h2>Working with outside agencies</h2>
 
-    <p>We work with agencies on projects where we need specialist expertise. By keeping abreast of the latest developments in web technology (check out [my blog](/blog/web/) to see several hundred articles on all things web), I know _who_ the best people are to work with, and what you'll need to look for in an external agency.</p>
+    <p>We work with agencies on projects where we need specialist expertise. By keeping abreast of the latest developments in web technology (check out <a href="/blog/web/">my blog</a> to see several hundred articles on all things web), I know <em>who</em> the best people are to work with, and what you'll need to look for in an external agency.</p>
 
     {% include figure.html alt="People around a table sketching" url="cl-workshop.jpg" caption="Suffolk Libraries staff and Clearleft sketching ideas for a new self-service web application" %}
 
-    <p>That's why we chose [Clearleft](http://clearleft.com) to conduct the research phase of our project to develop library self-service software. In the space of a week we got a project plan, a written report on what to develop and even design prototypes.</p>
+    <p>That's why we chose <a href="http://clearleft.com">Clearleft</a> to conduct the research phase of our project to develop library self-service software. In the space of a week we got a project plan, a written report on what to develop and even design prototypes.</p>
 
     <h3>Find out more</h3>
 
-    <p>[A 5 day sprint with Clear Left exploring library self-service machine software](/2016/02/5-day-sprint-clear-left-self-service/).</p>
+    <p><a href="/2016/02/5-day-sprint-clear-left-self-service/">A 5 day sprint with Clear Left exploring library self-service machine software</a>.</p>
 
     <h2>Contact me</h2>
 
@@ -122,8 +122,8 @@ published: true
     <ul>
 
         <li>leon.paternoster@zoho.com</li>
-        <li>[Twitter](https://twitter.com/leonpaternoster)</li>
-        <li>[LinkedIn](https://uk.linkedin.com/in/leonpaternoster)</li>
+        <li><a href="https://twitter.com/leonpaternoster">Twitter</a></li>
+        <li><a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></li>
 
     </ul>
 
