@@ -2,7 +2,7 @@
 title: Leon Paternoster
 email: leon.paternoster@zoho.com
 description: Digital and customer service manager at Suffolk Libraries. Design, coding, strategy and project management.
-biog: 'I&#8217;m digital and customer service manager at Suffolk Libraries. I&#8217;ve been writing about design, code and managing websites since 2008, and you&#8217;ll find a hundred or so articles on this site. Contact me at leon.paternoster@zoho.com or <a href="https://twitter.com/leonpaternoster" class="dark-blue link">Tweet me</a>.'
+biog: 'I&#8217;m digital and customer service manager at Suffolk Libraries. I&#8217;ve been writing about design, code and managing websites since 2008, and you&#8217;ll find a hundred or so articles on this site. Contact me at leon.paternoster@zoho.com or <a href="https://twitter.com/leonpaternoster" class="dark-blue link hover-dark-red bb b--dotted bl-0 br-0 bt-0">Tweet me</a>.'
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.leonpaternoster.com" # the base hostname & protocol for your site
 twitter_username: leonpaternoster
