@@ -156,6 +156,22 @@ td {
     hyphens: auto;
 }
 
+.c-source-serif {
+    font-family: freight-text-pro, serif;
+}
+
+.c-source-sans {
+    font-family: franklin-gothic-urw, sans-serif;
+}
+
+.c-gothic {
+    font-family: franklin-gothic-urw, sans-serif;
+}
+
+.c-freight {
+    font-family: freight-text-pro, serif;
+}
+
 .c-prose a {
     border-bottom: 1px dotted;
 }
@@ -184,6 +200,8 @@ td {
     margin: 0;
     padding: 1rem 0 0.5rem 0;
     line-height: 1.3;
+    font-family: franklin-gothic-urw, sans-serif;
+    font-weight: 700;
 }
 
 .c-prose h1,
@@ -198,7 +216,6 @@ td {
 
 .c-prose h4 {
     font-size: 0.875rem;
-    font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 0.2em;
 }
