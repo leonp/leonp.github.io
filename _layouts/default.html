@@ -1,6 +1,6 @@
 {% include header.html %}
 
-<article class="pa0 ma0 lh-copy pb4">
+<article class="pa0 ma0 pb4">
 
     <div class="measure center ph2">
 
@@ -18,7 +18,7 @@
 
     </div>
 
-    <div class="measure center ph2 lh-copy pb2 {% if page.is_post %}c-prose{% endif %} c-hyphens">
+    <div class="measure center ph2 pb2 {% if page.is_post %}c-prose{% endif %} c-hyphens">
 
         {{ content }}
 
@@ -30,7 +30,7 @@
 
             <div class="lh-title ph2 mv2">
 
-                <p class="f6 ma0">&#8212;&thinsp;<time>{{ page.date | date: "%b %-d,  %Y" }}</time>, filed under <a class="dark-blue hover-dark-red bb b--dotted bl-0 br-0 bt-0" href="/blog/{{ page.category }}/">{{ page.category }}</a>.</p>
+                <p class="f6 ma0 tc i"><time>{{ page.date | date: "%b %-d,  %Y" }}</time> &middot; filed under <a class="dark-blue hover-dark-red bb b--dotted bl-0 br-0 bt-0" href="/blog/{{ page.category }}/">{{ page.category }}</a></p>
 
             </div>
 

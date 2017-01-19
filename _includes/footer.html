@@ -8,7 +8,7 @@
 
                     <ul class="ma0 pa0 tc">
 
-                        <li class="dib mh2 c-small-caps fw7 c-gothic f6"><a class="link hover-dark-red {% if page.title == "Home" %}black{% else %}dark-blue{% endif %}" href="/" rel="home">Home</a></li>
+                        <li class="dib mh2 c-small-caps c-sans b f6"><a class="hover-dark-red {% if page.title == "Home" %}black{% else %}dark-blue{% endif %}" href="/" rel="home">Home</a></li>
 
                     {% assign nav-pages = site.pages | sort: "nav-weight" %}
 
@@ -16,7 +16,7 @@
 
                     {% if nav.nav-weight %}
 
-                        <li class="dib mh2 c-small-caps fw7 c-gothic f6"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="link black hover-dark-red"{% else %}class="link dark-blue hover-dark-red"{% endif %}>{{ nav.title }}</a></li>
+                        <li class="dib mh2 c-small-caps c-sans b f6"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="black hover-dark-red"{% else %}class="dark-blue hover-dark-red"{% endif %}>{{ nav.title }}</a></li>
 
                     {% endif %}
 
@@ -28,7 +28,7 @@
 
                 {% if site.biog %}
 
-                    <p class="f6 lh-copy ma0 c-hyphens">{{ site.biog }}</p>
+                    <p class="f6 c-lh-copy ma0 c-hyphens">{{ site.biog }}</p>
 
                 {% endif %}
 

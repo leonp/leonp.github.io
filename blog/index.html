@@ -3,6 +3,7 @@ layout: default
 title: Blog
 description: Since 2008.
 nav-weight: 2
+hide-title: yes
 ---
 
 {% assign web_posts = site.posts | where: "category", "web" %}
@@ -19,15 +20,15 @@ nav-weight: 2
 
 		{% unless forloop.first %}</ul>{% endunless %}
 
-		<h2 class="c-gothic fw7" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+		<h2 class="ma0 pa0 pv2 pt4 f3 tc" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
 
-		<ul class="ma0 pa0 list">
+		<ul class="mb3">
 
 		{% assign date = currentdate %}
 
 	{% endif %}
 
-		<li class="{% include link-list-item.html %}"><a class="black link hover-dark-red" href="{{ post.url }}">{{ post.title }}</a><span class="{% include link-list-meta.html %}"><time>{{ post.date | date: "%b %-d %Y" }}</time></li>
+		{% include link-list-item.html %}
 
 	{% if forloop.last %}</ul>{% endif %}
 

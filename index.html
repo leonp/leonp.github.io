@@ -5,9 +5,7 @@ excerpt: Web and customer service manager at Suffolk Libraries. Blogs about mana
 hide-title: yes
 ---
 
-<p class="f4 pb3 bb b--white">I'm Leon, web, customer service and IT project manager at Suffolk Libraries. I've blogged since 2008, mainly about web design, writing and technology. You can email me at <em>leon.paternoster@zoho.com</em></p>
-
-<ul class="ma0 pa0 list">
+<ul class="mb3">
 
     {% assign web_posts = site.posts | where: "category", "web" %}
 
@@ -17,10 +15,8 @@ hide-title: yes
 
     {% for post in posts limit:10 %}
 
-        <li class="{% include link-list-item.html %}"><a class="black link hover-dark-red" href="{{ post.url }}">{{ post.title }}</a><span class="{% include link-list-meta.html %}"><time>{{ post.date | date: "%b %-d %Y" }}</time></li>
+        {% include link-list-item.html %}
 
     {% endfor %}
 
 </ul>
-
-<p><a href="/blog/" class="shadow-4 ph3 pv2 bg-blue hover-bg-dark-red white link">All blog posts &rarr;</a></p>
