@@ -3,8 +3,6 @@ layout: default
 hide-title: yes
 ---
 
-<ul class="ma0 pa0 list">
-
 {% for post in site.categories[page.category] %}
 
     {% assign currentdate = post.date | date: "%Y" %}
@@ -15,7 +13,7 @@ hide-title: yes
 
         <h2 class="ma0 pa0 pv2 pt4 f3 tc" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
 
-		<ul class="mb3">
+		<ul class="mb3 list">
 
 		{% assign date = currentdate %}
 
