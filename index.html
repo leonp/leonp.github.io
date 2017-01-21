@@ -5,13 +5,15 @@ excerpt: Web and customer service manager at Suffolk Libraries. Blogs about mana
 hide-title: yes
 ---
 
+<h1 class="{% include article-title.html %}">Latest blog posts</h1>
+
 <ul class="mb3 ml0 pl0 list">
 
-    {% assign web_posts = site.posts | where: "category", "web" %}
+  {% assign web_posts = site.posts | where: "category", "web" %}
 
-    {% assign library_posts = site.posts | where: "category", "libraries" %}
+  {% assign library_posts = site.posts | where: "category", "libraries" %}
 
-    {% assign posts = web_posts | concat: library_posts %}
+  {% assign posts = web_posts | concat: library_posts | sort: "date" | reverse %}
 
     {% for post in posts limit:10 %}
 
