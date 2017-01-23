@@ -12,7 +12,7 @@ Germanic, African, classical, high magic funk, as Julian Cope might say. Beyond 
 
 Can could have been horrible.
 
-Like so many of the Krautock <i>ubermenschen</i> (and <i>frauen</i>), Liebezeit lived a materially modest life, largely anonymous in his Köln home, packing up his own gear at the end of a gig. This is not a cause for anger. Can were a collective (Can is also an acronym: _communism, anarchism, nihlism_), just as Neu, Faust and [Cluster](/2015-07-26-moebius-schlage/) were. Anti-celebrities, not posing rock'n'roll stars. Can weren't Oasis.
+Like so many of the Krautock <i>ubermenschen</i> (and <i>frauen</i>), Liebezeit lived a materially modest life, largely anonymous in his Köln home, packing up his own gear at the end of a gig. This is not a cause for anger. Can were a collective (Can is also an acronym: _communism, anarchism, nihlism_), just as Neu, Faust and [Cluster](/2015/07/moebius-schlage/) were. Anti-celebrities, not posing rock'n'roll stars. Can weren't Oasis.
 
 That drumming&hellip;
 
