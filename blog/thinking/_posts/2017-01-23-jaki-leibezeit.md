@@ -6,7 +6,7 @@ category: thinking
 
 Jaki Liebezeit died yesterday. Perhaps surprisingly, he was 78, born just before the Second World War, nine years ahead of David Bowie. When [Can](https://en.wikipedia.org/wiki/Can_(band)) &#8211; for whom Liebezeit drummed &#8211; released <cite>Monster Movie</cite> he was already a not particularly rock'n'roll 31 years old.
 
-Can weren't rock'n'roll. <i>Krautrock</i> wasn't rock'n'roll. Instead, it took bits of funk, jazz, Turkish (<i>Can</i> is the Turkish word for <i>peace</i>) African, experimental, classical and rock'n'roll music and made something very European. That's not to say it was a gruesome world music in a Peter Gabriel way (although Can did head down that road): at their best, Can were _hard_ &#8211; repetitive, simple, direct and complex all at the same time. And driven by _that_ incredible beat; again, both intricate and plain. _Very_ funky, but not like funk.
+Can weren't rock'n'roll. <i>Krautrock</i> wasn't rock'n'roll. Instead, they molded funk, jazz, Turkish (<i>Can</i> is the Turkish word for <i>peace</i>) African, experimental, classical and rock'n'roll music into something very European. That's not to say it was a gruesome world music in a Peter Gabriel way (although Can did head down that road): at their best, Can were _hard_ &#8211; repetitive, simple, direct and complex all at the same time. And driven by _that_ incredible beat; again, both intricate and plain. _Very_ funky, but not like funk.
 
 Germanic, African, classical, high magic funk, as Julian Cope might say. Beyond genre.
 
