@@ -1,6 +1,6 @@
 //This is the service worker with the combined offline experience (Offline page + Offline copy of pages)
-
 //Install stage sets up the offline page in the cahche and opens a new cache
+
 self.addEventListener('install', function(event) {
   event.waitUntil(preLoad());
 });
@@ -9,7 +9,7 @@ var preLoad = function(){
   console.log('[Manifoldjs] Install Event processing');
   return caches.open('manifoldjs-offline').then(function(cache) {
     console.log('[Manifoldjs] Cached index and offline page during Install');
-    return cache.addAll(['/offline.html', '/index.html']);
+    return cache.addAll(['/offline/', '/']);
   });
 }
 
@@ -46,7 +46,7 @@ var returnFromCache = function(request){
   return caches.open('manifoldjs-offline').then(function (cache) {
     return cache.match(request).then(function (matching) {
      if(!matching || matching.status == 404) {
-       return cache.match('offline.html')
+       return cache.match('/','/offline/','/blog/','/work','/2017/02/functional-vs-user-testing/','/2016/12/getting-started-with-contentful-and-jekyll/','/2016/02/5-day-sprint-clear-left-self-service/','/2015/12/kill-the-lms-future-digital-experience/', '/css/style.css')
      } else {
        return matching
      }

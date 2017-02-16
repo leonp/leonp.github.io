@@ -1,5 +1,8 @@
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; all posts" href="{{ "/feed/index.xml" | prepend: site.baseurl | prepend: site.url }}">
+<link rel="manifest" href="manifest.json"></link>
+
+<script src="/manifoldjs-sw-register.js">
 
 {% if page.is_post %}
 

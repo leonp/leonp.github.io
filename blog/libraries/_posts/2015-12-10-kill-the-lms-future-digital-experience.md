@@ -6,6 +6,7 @@ category: libraries
 featured: true
 description: An exploration of what libraries should do in order to modernise their digital and web presences. Suggests getting rid of library management systems that fulfil all digital functions and using a more modular, API-based approach.
 subject: Digital strategy in libraries
+cache: true
 ---
 
 ## Summary

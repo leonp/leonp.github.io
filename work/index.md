@@ -3,6 +3,7 @@ title: Work
 layout: default
 nav-weight: 1
 published: true
+cache: true
 ---
 
 <div class="c-prose">

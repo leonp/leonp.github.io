@@ -1,0 +1,40 @@
+---
+layout: default
+title: There's no internet connection
+---
+
+<div class="c-prose">
+
+  <p class="f4">But you can still find pages on this website&hellip;</p>
+
+  <p>If you've visited this site before your PC will have downloaded copies of popular posts and pages, so you can still read the site offline.</p>
+
+  <h2>Pages</h2>
+
+  <ul class="mb3 ml0 pl0 list">
+
+  {% assign cached-pages = site.pages | where: "cache", "true" %}
+
+  {% for page in cached-pages %}
+
+      {% include link-list-item-page.html %}
+
+  {% endfor %}
+
+  </ul>
+
+  <h2>Posts</h2>
+
+  <ul class="mb3 ml0 pl0 list">
+
+  {% assign cached-posts = site.posts | where: "cache", "true" %}
+
+  {% for post in cached-posts %}
+
+      {% include link-list-item.html %}
+
+  {% endfor %}
+
+  </ul>
+
+</div>
