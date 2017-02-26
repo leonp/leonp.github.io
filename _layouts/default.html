@@ -1,24 +1,20 @@
 {% include header.html %}
 
-<article class="pa0 ma0 pb4">
+<article class="pb4 measure">
 
-    <div class="measure center ph2">
+      {% unless page.hide-title %}
 
-        {% unless page.hide-title %}
+          <h1 class="{% include article-title.html %}">{{ page.title }}</h1>
 
-            <h1 class="{% include article-title.html %}">{{ page.title }}</h1>
+      {% endunless %}
 
-        {% endunless %}
+      {% if page.header-message %}
 
-        {% if page.header-message %}
+          <p class="{% include article-meta.html %}">{{ page.header-message }}</p>
 
-            <p class="{% include article-meta.html %}">{{ page.header-message }}</p>
+      {% endif %}
 
-        {% endif %}
-
-    </div>
-
-    <div class="measure center ph2 pb2 {% if page.is_post %}c-prose{% endif %} c-hyphens">
+    <div class="pb2 {% if page.is_post %}c-prose{% endif %} c-hyphens">
 
         {{ content }}
 
@@ -26,7 +22,7 @@
 
     {% if page.is_post %}
 
-        <footer class="measure center">
+        <footer>
 
             <div class="lh-title ph2 mv2">
 
