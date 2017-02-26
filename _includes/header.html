@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="en-gb"{% if page.is_post %} profile="http://dublincore.org/documents/2008/08/04/dc-html/"{% endif %}>
+<html class="bt bw3 b--black" lang="en-gb"{% if page.is_post %} profile="http://dublincore.org/documents/2008/08/04/dc-html/"{% endif %}>
 
     <head>
 
@@ -10,15 +10,35 @@
 
     </head>
 
-    <body class="bg-near-white near-black c-lh-copy pa2 pa5-ns">
+    <body class="bg-white near-black c-lh-copy pa2 pa5-ns">
 
         {% include /header/skip-links.html %}
 
-        <header class="mb3 mb5-ns">
+        <header class="mb4 mb5-ns pb2 bb bw2 b--light-gray">
 
-            <h1 class="f6 pa0 ma0"><span class="c-small-caps"><a href="/" class="near-black hover-dark-red">Leon Paternoster</span></a></h1>
+            <h1 class="f5 pa0 ma0"><a href="/" class="near-black hover-dark-red">Leon Paternoster</a></h1>
 
-            <p class="f6 ma0 i">Web <a href="/work/" class="near-black hover-dark-red bb b--dark-blue b--dotted bt-0 bl-0 br-0">worker</a> and <a href="/blog/" class="dark-blue hover-dark-red bb b--dark-blue b--dotted bt-0 bl-0 br-0">blogger</a> since 2008</p>
+            <nav id="nav">
+
+                <ul class="ma0 pa0">
+
+                    <li class="dib mr3 f6"><a class="hover-dark-red {% if page.title == "Home" %}black{% else %}dark-blue{% endif %}" href="/" rel="home">Home</a></li>
+
+                {% assign nav-pages = site.pages | sort: "nav-weight" %}
+
+                {% for nav in nav-pages %}
+
+                {% if nav.nav-weight %}
+
+                    <li class="dib mr3 f6"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="black hover-dark-red"{% else %}class="dark-blue hover-dark-red"{% endif %}>{{ nav.title }}</a></li>
+
+                {% endif %}
+
+                {% endfor %}
+
+                </ul>
+
+            </nav>
 
         </header>
 

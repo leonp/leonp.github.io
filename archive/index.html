@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Archive
-hide-title: yes
 ---
 
 <p class="f4">You found the archive of every post I've ever posted, including the political and philosophical stuff. These are, of course, my thoughts, not those of any one or thing else.</p>
@@ -14,7 +13,7 @@ hide-title: yes
 
 	{% unless forloop.first %}</ul>{% endunless %}
 
-	<h2 class="ma0 pa0 pv2 pt4 f3 tc" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+	<h2 class="ma0 pa0 pv2 pt4 f3" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
 
 	<ul class="mb3 ml0 pl0 list">
 

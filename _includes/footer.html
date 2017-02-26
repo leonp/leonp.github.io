@@ -1,36 +1,24 @@
         </main> <!-- end #content -->
 
-        <footer class="ma0 bg-white mb4">
+        <footer class="ma0 mb4 pt2 bt bw2 b--light-gray">
 
-            <div class="ph2 pv3 measure center">
+            <div class="measure">
 
-                <nav id="nav" class="mb3">
+            {% if site.biog %}
 
-                    <ul class="ma0 pa0 tc">
+                    <h1 class="f5 pa0 ma0 mb2">About</h1>
 
-                        <li class="dib mh2 c-small-caps c-sans b f6"><a class="hover-dark-red {% if page.title == "Home" %}black{% else %}dark-blue{% endif %}" href="/" rel="home">Home</a></li>
-
-                    {% assign nav-pages = site.pages | sort: "nav-weight" %}
-
-                    {% for nav in nav-pages %}
-
-                    {% if nav.nav-weight %}
-
-                        <li class="dib mh2 c-small-caps c-sans b f6"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="black hover-dark-red"{% else %}class="dark-blue hover-dark-red"{% endif %}>{{ nav.title }}</a></li>
-
-                    {% endif %}
-
-                    {% endfor %}
-
-                    </ul>
-
-                </nav>
-
-                {% if site.biog %}
-
-                    <p class="f6 c-lh-copy ma0 c-hyphens">{{ site.biog }}</p>
+                    <p class="f6 c-lh-copy c-hyphens">{{ site.biog }}</p>
 
                 {% endif %}
+
+                <ul class="list ma0 pa0 f6">
+
+                    <li>Email: <strong>leon.paternoster@zoho.com</strong></li>
+                    <li>Twitter: <strong><a class="dark-blue hover-dark-red" href="https://twitter.com/leonpaternoster">@leonpaternoster</a></strong></li>
+                    <li>LinkedIn: <strong><a class="dark-blue hover-dark-red" href="https://uk.linkedin.com/in/leonpaternoster">Profile</a></strong></li>
+
+                </ul>
 
             </div>
 

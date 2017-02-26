@@ -92,15 +92,6 @@ td {
     background-color: #EEE; // Moon gray
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: fira-sans, sans-serif;
-}
-
 
 /*
 2. LEGACY CLASSES
@@ -205,7 +196,6 @@ h6 {
     margin: 0;
     padding: 1rem 0 0.5rem 0;
     line-height: 1.2;
-    text-align: center;
 }
 
 .c-prose h1,
@@ -227,7 +217,9 @@ h6 {
 
 .c-prose blockquote {
     font-size: 0.875em;
-    margin-left: 2rem;
+    margin-left: 0;
+    padding-left: 1.5rem;
+    border-left: 0.25rem solid #96CCFF; /* Tachyons light blue */
 }
 
 }
