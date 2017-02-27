@@ -20,9 +20,9 @@
 
             <nav id="nav">
 
-                <ul class="ma0 pa0 c-secondary">
+                <ul class="ma0 pa0 pv1 c-secondary">
 
-                    <li class="dib mr3 f6"><a class="hover-dark-red {% if page.title == "Home" %}black{% else %}dark-blue{% endif %}" href="/" rel="home">Home</a></li>
+                    <li class="dib mr3 f6"><a class="hover-dark-red {% if page.title == "Home" %}black{% else %}gray{% endif %}" href="/" rel="home">Home</a></li>
 
                 {% assign nav-pages = site.pages | sort: "nav-weight" %}
 
@@ -30,7 +30,7 @@
 
                 {% if nav.nav-weight %}
 
-                    <li class="dib mr3 f6"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="black hover-dark-red"{% else %}class="dark-blue hover-dark-red"{% endif %}>{{ nav.title }}</a></li>
+                    <li class="dib mr3 f6"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="black hover-dark-red"{% else %}class="gray hover-dark-red"{% endif %}>{{ nav.title }}</a></li>
 
                 {% endif %}
 
