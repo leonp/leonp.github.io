@@ -5,20 +5,28 @@ excerpt: Web and customer service manager at Suffolk Libraries. Blogs about mana
 hide-title: yes
 ---
 
-<h1 class="{% include article-title.html %}">Latest blog posts</h1>
+<h1 class="{% include article-title.html %} mb">Introduction</h1>
 
-<ul class="mb3 ml0 pl0 list">
+<div class="c-prose">
 
-  {% assign web_posts = site.posts | where: "category", "web" %}
+    <p class="f4 mb5-ns">I'm Leon, digital, IT and customer service manager at Suffolk Libraries. I blog about all subjects web, including managing websites and teams, accessibility and strategy, design, code and typography. <a href="/work/">Find out more about my work</a>.</p>
 
-  {% assign library_posts = site.posts | where: "category", "libraries" %}
+    <h2>Latest blog posts</h2>
 
-  {% assign posts = web_posts | concat: library_posts | sort: "date" | reverse %}
+    <ul class="mb3 ml0 pl0 list">
 
-    {% for post in posts limit:10 %}
+      {% assign web_posts = site.posts | where: "category", "web" %}
 
-        {% include link-list-item.html %}
+      {% assign library_posts = site.posts | where: "category", "libraries" %}
 
-    {% endfor %}
+      {% assign posts = web_posts | concat: library_posts | sort: "date" | reverse %}
 
-</ul>
+        {% for post in posts limit:10 %}
+
+            {% include link-list-item.html %}
+
+        {% endfor %}
+
+    </ul>
+
+</div>
