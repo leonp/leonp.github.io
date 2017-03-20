@@ -12,15 +12,25 @@ CONTENTS
 */
 
 html {
-    font-size: calc(100% + 0.5vw)
-}
-
-body {
-    font-family: $primary-font;
+    font-size: calc(100% + 0.2vw)
 }
 
 a {
+    color: #00449E; /* Dark blue */
     text-decoration: none;
+    border-bottom: 1px dotted;
+    font-weight: bold;
+}
+
+a:hover,
+a:active,
+a:focus {
+    border-bottom: 2px solid;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
 }
 
 img {
@@ -33,37 +43,12 @@ abbr {
     cursor: help;
 }
 
-h2,
-h1,
-h3,
-h4,
-h5,
-h6 {
-    font-family: $secondary-font;
-}
-
 h2 + *,
 h1 + *,
 h3 + *,
 h4 + *,
 h5 + *,
 h6 + * {
-    margin-top: 0;
-}
-
-figure {
-    margin: 0.5rem 0;
-    padding: 0;
-    font-size: 0.875rem;
-}
-
-figure img {
-    margin-bottom: 0.5rem;
-}
-
-figcaption p,
-.figcaption {
-    line-height: 1.3;
     margin-top: 0;
 }
 
@@ -132,6 +117,26 @@ td {
 /*
 3. c-PREFIXED CUSTOM CLASSES
 */
+
+.c-max-page-width {
+    max-width: 56em;
+}
+
+.c-rotate-cw {
+    transform: rotate(20deg);
+}
+
+.c-rotate-acw {
+    transform: rotate(-20deg);
+}
+
+.c-visited-links a:link {
+    color: #00449E;
+}
+
+.c-visited-links a:visited {
+    color: #357EDD;
+}
 
 .c-auto {
     overflow: auto;

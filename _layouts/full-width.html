@@ -1,0 +1,35 @@
+{% include header.html %}
+
+<article class="pv3 pv5-ns">
+
+    <header class="mb3 mb4-ns bb b--light-gray">
+
+        {% unless page.hide-title %}
+
+            <h1 class="{% include article-title.html %}">{{ page.title }}</h1>
+
+        {% endunless %}
+
+        {% if page.is_post %}
+
+            <p class="gray"><time>{{ page.date | date: "%b %-d,  %Y" }}</time> &middot; filed under <a href="/blog/{{ page.category }}/">{{ page.category }}</a>
+
+        {% endif %}
+
+        {% if page.excerpt %}
+
+            <p class="f4">{{ page.excerpt }}</p>
+
+        {% endif %}
+
+    </header>
+
+    {% if page.is_post %}<div class="c-visited-links">{% endif %}
+
+        {{ content }}
+
+    {% if page.is_post %}</div>{% endif %}
+
+</article>
+
+{% include footer.html %}

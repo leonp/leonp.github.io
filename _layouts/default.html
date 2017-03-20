@@ -1,38 +1,48 @@
 {% include header.html %}
 
-<article class="pb2 measure-wide">
+<article>
 
-      {% unless page.hide-title %}
+    <div class="cf">
 
-          <h1 class="{% include article-title.html %}">{{ page.title }}</h1>
+        <div class="fl-l w-70-l pr4-l border-box br-l b--light-gray pv3 pv5-ns">
 
-      {% endunless %}
+            <header class="mb3 mb4-ns bb b--light-gray">
 
-      {% if page.header-message %}
+            {% unless page.hide-title %}
 
-          <p class="{% include article-meta.html %}">{{ page.header-message }}</p>
+                <h1 class="{% include article-title.html %}">{{ page.title }}</h1>
 
-      {% endif %}
+            {% endunless %}
 
-    <div class="pb2 {% if page.is_post %}c-prose{% endif %} c-hyphens">
+            {% if page.is_post %}
 
-        {{ content }}
+                <p class="gray"><time>{{ page.date | date: "%b %-d,  %Y" }}</time> &middot; filed under <a href="/blog/{{ page.category }}/">{{ page.category }}</a>
+
+            {% endif %}
+
+            {% if page.excerpt %}
+
+                <p class="f4">{{ page.excerpt }}</p>
+
+            {% endif %}
+
+        </header>
+
+        {% if page.is_post %}<div class="c-visited-links">{% endif %}
+
+            {{ content }}
+
+        {% if page.is_post %}</div>{% endif %}
 
     </div>
 
-    {% if page.is_post %}
+    <footer class="fl-l w-30-l pl4-l pv3 pv5-l">
 
-        <footer>
+        <h1 class="f6 ma0 mb2 lh-copy ttu tracked normal">About</h1>
 
-            <div class="lh-title mv2">
+        <p class="mt0 f6">I'm Leon, a digital manager working for <a href="https://www.suffolklibraries.co.uk">Suffolk Libraries</a>. I write about building and managing digital things, including websites and web apps. <a href="/work/">More about me &rarr;</a></p>
 
-                <p class="f6 ma0 c-secondary"><time>{{ page.date | date: "%b %-d,  %Y" }}</time> &middot; filed under <a class="dark-blue hover-dark-red bb b--dotted bl-0 br-0 bt-0" href="/blog/{{ page.category }}/">{{ page.category }}</a></p>
-
-            </div>
-
-        </footer>
-
-    {% endif %}
+    </footer>
 
 </article>
 
