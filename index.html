@@ -4,11 +4,35 @@ title: Leon Paternoster
 excerpt: Digital manager at Suffolk Libraries. I blog about managing and building websites and apps and working for a library service.
 ---
 
-<section class="pb2">
+<section class="pb3 pb4-ns">
+
+    <h1 class="f6 ttu tracked ma0 mb2 normal">Featured post</h1>
+
+    {% assign featured_post = site.posts | where: "featured", "true" | reverse %}
+
+    {% for post in featured_post | limit: 1 %}
+
+    <article>
+
+        <h1 class="f4 f3-ns lh-title ma0 mb2 measure"><a class="b--none" href="{{ post.url }}">{{ post.title }}</a></h1>
+
+        {% if post.description %}
+
+        <p class="mt0 f4 measure">{{ post.description }}</p>
+
+        {% endif %}
+
+    </article>
+
+    {% endfor %}
+
+</section>
+
+<section class="pb3 pb4-ns">
 
     <h1 class="f6 ttu tracked ma0 mb2 normal">Latest blog posts</h1>
 
-    <ul class="mb3 ml0 pl0 list">
+    <ul class="ma0 mb3 ml0 pl0 list">
 
       {% assign web_posts = site.posts | where: "category", "web" %}
 
