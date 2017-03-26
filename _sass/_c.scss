@@ -50,7 +50,7 @@ h4,
 h5,
 h6,
 dt {
-    margin: 0.25rem 0;
+    margin: 0.5rem 0;
     line-height: 1.25;
 }
 
@@ -159,21 +159,6 @@ td {
     letter-spacing: 0.2em;
 }
 
-.c-columns-2 {
-    -moz-columns: 2;
-    -webkit-columns: 2;
-    columns: 2;
-}
-
-.c-fancy {
-    font-family: baskerville, garamond, palatino, serif;
-    font-style: italic;
-}
-
-.c-secondary {
-    font-family: $secondary-font;
-}
-
 .c-hyphens {
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
@@ -181,73 +166,12 @@ td {
 }
 
 .c-lh-copy {
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 .c-lh-title {
-    line-height: 1.2;
+    line-height: 1.25;
 }
 
-.c-serif {
-    font-family: ff-meta-serif-web-pro, serif;
-}
-
-.c-sans {
-    font-family: 'fira-sans', sans-serif;
-}
-
-.c-prose a {
-    border-bottom: 1px dotted;
-}
-
-.c-prose a:link {
-    color: #00449E; /* Dark blue */
-}
-
-.c-prose a:visited {
-    color: #357EDD; /* Blue */
-}
-
-.c-prose a:hover,
-.c-prose a:active,
-.c-prose a:focus {
-    color: #E7040F; /* Dark red */
-}
-
-.c-prose h1,
-.c-prose h2,
-.c-prose h3,
-.c-prose h4,
-.c-prose h5,
-.c-prose h6,
-.c-prose dt {
-    margin: 0;
-    padding: 1rem 0 0.5rem 0;
-    line-height: 1.2;
-}
-
-.c-prose h1,
-.c-prose h2 {
-    font-size: 1.25rem;
-}
-
-.c-prose h3,
-.c-prose dt {
-    font-size: 1rem;
-}
-
-.c-prose h4 {
-    font-size: 0.875rem;
-    text-transform: lowercase;
-    font-variant: small-caps;
-    letter-spacing: 0.2em;
-}
-
-.c-prose blockquote {
-    font-size: 0.875em;
-    margin-left: 0;
-    padding-left: 1.5rem;
-    border-left: 0.25rem solid #96CCFF; /* Tachyons light blue */
-}
 
 }

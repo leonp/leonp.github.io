@@ -2,6 +2,9 @@
 layout: full-width
 title: Leon Paternoster
 excerpt: Digital manager at Suffolk Libraries. I blog about managing and building websites and apps and working for a library service.
+img: plan.jpg
+alt: A wide poster attached to a wall used for planning a design sprint
+nav-weight: 1
 ---
 
 <section class="pb3 pb4-ns">
@@ -12,13 +15,13 @@ excerpt: Digital manager at Suffolk Libraries. I blog about managing and buildin
 
     {% for post in featured_post | limit: 1 %}
 
-    <article>
+    <article class="measure-wide">
 
-        <h1 class="f4 f3-ns lh-title ma0 mb2 measure"><a class="b--none" href="{{ post.url }}">{{ post.title }}</a></h1>
+        <h1 class="f4 f3-ns lh-title ma0 mb2"><a class="b--none" href="{{ post.url }}">{{ post.title }}</a></h1>
 
         {% if post.description %}
 
-        <p class="mt0 f4 measure">{{ post.description }}</p>
+        <p class="mt0 f4">{{ post.description }}</p>
 
         {% endif %}
 

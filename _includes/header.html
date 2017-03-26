@@ -14,30 +14,36 @@
 
         {% include /header/skip-links.html %}
 
-        <nav id="nav" class="pa2 pa5-ns pv3-ns bg-dark-red white">
+        <header>
 
-            <ul class="list ma0 pa0">
+            <nav id="nav" class="pa2 pa5-ns pv3-ns bg-gold black">
 
-                <li class="c-rotate-acw dib mr2 mr3-ns pv1 pv0-l"><a class="white b--none" href="/"><span class="f3" rel="home" title="Go to the home page">&starf;</span></a></li>
+                <ul class="list ma0 pa0">
 
-                <li class="dib mr2 mr3-ns pv1 pv0-l"><a class="white b--none normal" href="/">Home</a></li>
+                    <li class="c-rotate-acw dib mr2 mr3-ns pv1 pv0-l"><a class="black b--none" href="/"><span class="f3" rel="home" title="Go to the home page">&starf;</span></a></li>
 
-            {% assign nav-pages = site.pages | sort: "nav-weight" %}
+                {% assign nav-pages = site.pages | sort: "nav-weight" %}
 
-            {% for nav in nav-pages %}
+                {% for nav in nav-pages %}
 
-            {% if nav.nav-weight %}
+                {% if nav.nav-weight %}
 
-                <li class="dib mr2 mr3-ns pv1 pv0-ns"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="white normal"{% else %}class="white b--none normal"{% endif %}>{{ nav.title }}</a></li>
+                    <li class="dib mr2 mr3-ns pv1 pv0-ns"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="black normal"{% else %}class="black b--none normal"{% endif %}>{{ nav.title }}</a></li>
 
-            {% endif %}
+                {% endif %}
 
-            {% endfor %}
+                {% endfor %}
 
-            </ul>
+                </ul>
 
-        </nav>
+            </nav>
 
         </header>
+
+        {% if page.img %}
+
+        <img src="/images/{{ page.img }}"{% if page.alt %} alt="{{ page.alt }}"{% endif %}>
+
+        {% endif %}
 
         <main class="ph2 ph5-ns" id="content">

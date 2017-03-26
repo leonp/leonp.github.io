@@ -1,7 +1,7 @@
 ---
 title: Work
 layout: default
-nav-weight: 1
+nav-weight: 2
 published: true
 cache: true
 ---
