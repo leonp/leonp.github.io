@@ -4,6 +4,8 @@ layout: default
 nav-weight: 2
 published: true
 cache: true
+img: plan.jpg
+alt: A wide poster attached to a wall used for planning a design sprint
 ---
 
 <div class="c-prose">
