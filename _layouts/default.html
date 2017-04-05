@@ -2,47 +2,29 @@
 
 <article>
 
-    <div class="cf">
+    <header class="mb3 mb4-ns">
 
-        <div class="fl-l w-70-l pr4-l border-box br-l b--light-gray pv3 pv5-ns">
+        <h1 class="{% include article-title.html %}">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
 
-            <header class="mb3 mb4-ns bb b--light-gray">
+        {% if page.is_post %}
 
-            {% unless page.hide-title %}
+        <p class="gray"><time>{{ page.date | date: "%b %-d,  %Y" }}</time> &middot; filed under <a href="/blog/{{ page.category }}/">{{ page.category }}</a>
 
-                <h1 class="{% include article-title.html %}">{{ page.title }}</h1>
+        {% endif %}
 
-            {% endunless %}
+        {% if page.description %}
 
-            {% if page.is_post %}
+        <p class="f4">{{ page.description }}</p>
 
-                <p class="gray"><time>{{ page.date | date: "%b %-d,  %Y" }}</time> &middot; filed under <a href="/blog/{{ page.category }}/">{{ page.category }}</a>
+        {% endif %}
 
-            {% endif %}
+    </header>
 
-            {% if page.description %}
+    {% if page.is_post %}<div class="c-visited-links">{% endif %}
 
-                <p class="f4">{{ page.description }}</p>
+        {{ content }}
 
-            {% endif %}
-
-        </header>
-
-        {% if page.is_post %}<div class="c-visited-links">{% endif %}
-
-            {{ content }}
-
-        {% if page.is_post %}</div>{% endif %}
-
-    </div>
-
-    <footer class="fl-l w-30-l pl4-l pv3 pv5-l">
-
-        <h1 class="f6 ma0 mb2 lh-copy ttu tracked normal">About</h1>
-
-        <p class="mt0 f6">I'm Leon, a digital manager working for <a href="https://www.suffolklibraries.co.uk">Suffolk Libraries</a>. I write about building and managing digital things, including websites and web apps. <a href="/work/">More about me &rarr;</a></p>
-
-    </footer>
+    {% if page.is_post %}</div>{% endif %}
 
 </article>
 
