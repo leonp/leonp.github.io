@@ -1,19 +1,63 @@
 ---
-layout: default
-title: Home
-excerpt: Web and customer service manager at Suffolk Libraries. Blogs about managing and building websites and working for a library service.
-hide-title: yes
+layout: full-width
+title: Leon Paternoster
+excerpt: Digital manager at Suffolk Libraries. I blog about managing and building websites and apps and working for a library service.
+nav-weight: 1
 ---
 
-<h1 class="{% include article-title.html %} mb">Introduction</h1>
+<section class="cf pb3 pb4-ns c-visited-links" id="intro">
 
-<div class="c-prose">
+    <div class="border-box fl-l w-50-l pr2-l">
 
-    <p class="f4 mb5-ns">I'm Leon, digital, IT and customer service manager at Suffolk Libraries. I blog about all subjects web, including managing websites and teams, accessibility and strategy, design, code and typography. <a href="/work/">Find out more about my work</a>.</p>
+        <p class="f4 mt0">I manage, code and write for websites, web apps and anything else with an internet connection and a screen. I'm currently working for <a href="https://www.suffolklibraries.co.uk">Suffolk Libraries</a>, a co-operative that runs Suffolk's library service.</p>
 
-    <h2>Latest blog posts</h2>
+        <ul>
 
-    <ul class="mb3 ml0 pl0 list">
+            <li>leon.paternoster@zoho.com</li>
+            <li><a href="https://twitter.com/leonpaternoster">@leonpaternoster</a></li>
+            <li><a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></li>
+
+        </ul>
+
+    </div>
+
+    <div class="border-box fl-l w-50-l pl2-l">
+
+        <img src="/images/big/sprint.jpg" alt="A tablet next to a PC showing self-service software" class="shadow-4 db mb2">
+
+    </div>
+
+</section>
+
+<section class="pt3 bt b--light-gray pb3 pb4-ns">
+
+    <h1 class="f6 ttu tracked ma0 mb2 normal">Featured post</h1>
+
+    {% assign featured_post = site.posts | where: "featured", "true" | reverse %}
+
+    {% for post in featured_post | limit: 1 %}
+
+    <article class="measure-wide">
+
+        <h1 class="f4 f3-ns lh-title ma0 mb2"><a class="b--none" href="{{ post.url }}">{{ post.title }}</a></h1>
+
+        {% if post.description %}
+
+        <p class="mt0 f4">{{ post.description }}</p>
+
+        {% endif %}
+
+    </article>
+
+    {% endfor %}
+
+</section>
+
+<section class="pt3 bt b--light-gray pb3 pb4-ns">
+
+    <h1 class="f6 ttu tracked ma0 mb2 normal">Latest blog posts</h1>
+
+    <ul class="ma0 mb3 ml0 pl0 list">
 
       {% assign web_posts = site.posts | where: "category", "web" %}
 
@@ -29,4 +73,4 @@ hide-title: yes
 
     </ul>
 
-</div>
+</section>

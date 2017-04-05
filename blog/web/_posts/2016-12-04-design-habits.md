@@ -2,10 +2,7 @@
 layout: default
 title: 'Design habits: Being a CSS API user rather than an API author'
 category: web
-description: >-
-  Good design habits and CSS APIs allow us to work more efficiently, predictably
-  and faster. Choosing the right API and establishing good design habits is the
-  key to working well. Become an API user rather than an API author.
+description: Good design habits and CSS APIs allow us to work more efficiently, predictably and faster. Choosing the right API and establishing good design habits is the key to working well. Become an API user rather than an API author.
 published: true
 ---
 

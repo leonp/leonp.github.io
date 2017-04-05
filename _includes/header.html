@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html class="bt bw3 b--black" lang="en-gb"{% if page.is_post %} profile="http://dublincore.org/documents/2008/08/04/dc-html/"{% endif %}>
+<html class="bg-near-white" lang="en-gb"{% if page.is_post %} profile="http://dublincore.org/documents/2008/08/04/dc-html/"{% endif %}>
 
     <head>
 
@@ -10,19 +10,17 @@
 
     </head>
 
-    <body class="bg-white dark-gray lh-copy pa2 pa5-ns">
+    <body class="bg-white dark-gray sans-serif lh-copy center c-max-page-width center mv4-l ba-l b--light-gray">
 
         {% include /header/skip-links.html %}
 
-        <header class="mb4 mb5-ns pb2 bb bw2 b--light-gray">
+        <header>
 
-            <h1 class="f5 pa0 ma0"><a href="/" class="near-black hover-dark-red">Leon Paternoster</a></h1>
+            <nav id="nav" class="pa2 pa5-ns pv3-ns bg-gold black">
 
-            <nav id="nav">
+                <ul class="list ma0 pa0">
 
-                <ul class="ma0 pa0 pv1 c-secondary">
-
-                    <li class="dib mr3 f6"><a class="hover-dark-red {% if page.title == "Home" %}black{% else %}gray{% endif %}" href="/" rel="home">Home</a></li>
+                    <li class="c-rotate-acw dib mr2 mr3-ns pv1 pv0-l"><a class="black b--none" href="/"><span class="f3" rel="home" title="Go to the home page">&starf;</span></a></li>
 
                 {% assign nav-pages = site.pages | sort: "nav-weight" %}
 
@@ -30,7 +28,7 @@
 
                 {% if nav.nav-weight %}
 
-                    <li class="dib mr3 f6"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="black hover-dark-red"{% else %}class="gray hover-dark-red"{% endif %}>{{ nav.title }}</a></li>
+                    <li class="dib mr2 mr3-ns pv1 pv0-ns"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="black normal"{% else %}class="black b--none normal"{% endif %}>{{ nav.title }}</a></li>
 
                 {% endif %}
 
@@ -42,4 +40,10 @@
 
         </header>
 
-        <main class="mb3 mb5-ns" id="content">
+        {% if page.img %}
+
+        <img src="/images/{{ page.img }}"{% if page.alt %} alt="{{ page.alt }}"{% endif %}>
+
+        {% endif %}
+
+        <main class="ph2 ph5-ns" id="content">
