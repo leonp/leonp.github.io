@@ -10,7 +10,7 @@
 
     </head>
 
-    <body class="bg-white dark-gray c-proxima lh-copy measure-wide pa2 pv5-l center">
+    <body class="bg-washed-yellow black sans-serif lh-copy measure-wide pa2 pv5-l center">
 
         {% include /header/skip-links.html %}
 
@@ -20,7 +20,7 @@
 
                 <ul class="list ma0 pa0">
 
-                    <li class="dib mr2 mr3-ns pv1 pv0-l"><a class="dark-red b--none" href="/"><span class="f3" rel="home" title="Go to the home page">&starf;</span></a></li>
+                    <li class="dib mr2 mr3-ns pv1 pv0-l"><a class="dark-red b--none c-no-border-hover" href="/"><span class="f3" rel="home" title="Go to the home page">&starf;</span></a></li>
 
                 {% assign nav-pages = site.pages | sort: "nav-weight" %}
 
@@ -28,7 +28,7 @@
 
                 {% if nav.nav-weight %}
 
-                    <li class="dib mr2 mr3-ns pv1 pv0-ns"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="black normal"{% else %}class="black b--none normal"{% endif %}>{{ nav.title }}</a></li>
+                    <li class="dib mr2 mr3-ns pv1 pv0-ns"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="black normal dark-red"{% else %}class="black b--none normal"{% endif %}>{{ nav.title }}</a></li>
 
                 {% endif %}
 
