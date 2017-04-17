@@ -2,6 +2,8 @@
 layout: default
 title: Coding one off and recurrent events in Jekyll
 category: web
+article: true
+excerpt: How do you make events appear and disappear at the right time on a static website, while linking them to specific locations? This article contains a detailed explanation.
 ---
 
 Suffolk Libraries puts on thousands of events and activities over a year, ranging from regular song and rhyme sessions for babies to one off Raspberry Jams, gigs and author talks. (Didn't know that? Libraries don't just lend books, you know&hellip;)

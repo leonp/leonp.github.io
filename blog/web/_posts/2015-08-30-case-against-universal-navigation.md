@@ -3,6 +3,7 @@ title: The case against universal navigation
 layout: default
 excerpt: Do we need a complete list of links to every section of our website on every page? Or can we offer simple signposts to major pages and contextual links?
 category: web
+article: true
 ---
 
 > There is no reason to mention all features of the site on all pages. Instead, select a very small number of highly useful features and limit pervasive linking to maybe five or six things like search. &#8212; Jakob Nielsen <cite>[Is Navigation Useful?](http://www.nngroup.com/articles/is-navigation-useful/)</cite>

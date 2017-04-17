@@ -2,6 +2,8 @@
 layout: default
 title: Jaki Liebezeit
 category: thinking
+img: jaki.jpg
+alt: Shot behind Jaki playing drums for Can with Damo Suzuki singing in front.
 ---
 
 Jaki Liebezeit died yesterday. Perhaps surprisingly, he was 78, born just before the Second World War, nine years ahead of David Bowie. When [Can](https://en.wikipedia.org/wiki/Can_(band)) &#8211; for whom Liebezeit drummed &#8211; released <cite>Monster Movie</cite> he was already a not particularly rock'n'roll 31 years old.

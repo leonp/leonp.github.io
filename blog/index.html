@@ -1,36 +1,37 @@
 ---
 layout: default
-title: Blog
+title: Notes
 description: Since 2008.
 nav-weight: 3
 cache: true
 ---
 
-{% assign web_posts = site.posts | where: "category", "web" %}
+<p class="f4">Shorter posts on a variety of subjects, from web, work and libraries to books, beer and music.</p>
 
-{% assign library_posts = site.posts | where: "category", "libraries" %}
-
-{% assign posts = web_posts | concat: library_posts | sort: "date" | reverse %}
-
+{% assign posts = site.posts %}
 
 {% for post in posts %}
 
-	{% assign currentdate = post.date | date: "%Y" %}
+	{% unless post.article %}
 
-	{% if currentdate != date %}
+		{% assign currentdate = post.date | date: "%Y" %}
 
-		{% unless forloop.first %}</ul>{% endunless %}
+		{% if currentdate != date %}
 
-		<h2 class="ma0 pa0 pv2 pt4 f4" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+			{% unless forloop.first %}</ul>{% endunless %}
 
-		<ul class="mb3 ml0 pl0 list">
+			<h2 class="ma0 pa0 pv2 pt4 f4" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
 
-		{% assign date = currentdate %}
+			<ul class="mb3 ml0 pl0 list">
 
-	{% endif %}
+			{% assign date = currentdate %}
 
-		{% include link-list-item.html %}
+		{% endif %}
 
-	{% if forloop.last %}</ul>{% endif %}
+			{% include link-list-item.html %}
+
+		{% if forloop.last %}</ul>{% endif %}
+
+	{% endunless %}
 
 {% endfor %}
