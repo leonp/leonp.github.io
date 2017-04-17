@@ -7,6 +7,8 @@ description: An account of running a design sprint in order to plan a web produc
 subject: Design in libraries
 excerpt: We're building our own self-service software. The first stage was organising a five day design sprint with design agency Clear Left. Here's what we did and what we got from the week.
 cache: true
+img: first-wall-poster.jpg
+alt: A large poster of a plan on a wall
 ---
 
 Last week we spent 5 days with digital agency [Clear Left](http://clearleft.com/) exploring how we might develop new self-service machine software for libraries.

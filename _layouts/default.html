@@ -1,24 +1,34 @@
 {% include header.html %}
 
-<article>
+<article class="c-measure bg-white center ba-l b--light-gray pb3 pb5-l">
 
-    <header class="mb3 mb4-ns">
+    <header class="pb3 pb4-l bb b--light-gray mb3 mb4-l">
 
-        <h1 class="{% include article-title.html %}">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
+        {% if page.img %}
 
-        {% if page.is_post %}
-
-        <p class="gray"><time>{{ page.date | date: "%b %-d,  %Y" }}</time> &middot; filed under <a href="/blog/{{ page.category }}/">{{ page.category }}</a>
+        <img src="/images/{{ page.img }}" alt="{{ page.alt }}">
 
         {% endif %}
 
+        <div class="ph2 ph5-ns">
+
+            <h1 class="dark-pink fw3 f3 f2-ns lh-title sans-serif ma0 {% if page.img %}pt3{% else %}pt3 pt4-l{% endif %}">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
+
+            {% if page.is_post %}
+
+            <p class="gray sans-serif mb0"><time>{{ page.date | date: "%b %-d,  %Y" }}</time> &middot; filed under <a href="/blog/{{ page.category }}/">{{ page.category }}</a>
+
+            {% endif %}
+
+        </div>
+
     </header>
 
-    {% if page.is_post %}<div class="c-visited-links">{% endif %}
+    <div class="ph2 ph5-ns serif {% if page.is_post %}c-link-underline c-link-visited c-hyphens{% endif %}">
 
         {{ content }}
 
-    {% if page.is_post %}</div>{% endif %}
+    </div>
 
 </article>
 

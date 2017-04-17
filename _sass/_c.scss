@@ -13,7 +13,7 @@ CONTENTS
 
 html {
     font-size: 100%;
-    @media (max-width: 600px) {
+    @media (min-width: 600px) {
         font-size: 112.5%;
     }
 }
@@ -24,10 +24,8 @@ a {
     font-weight: bold;
 }
 
-a:hover,
-a:active,
-a:focus {
-    border-bottom: 2px solid;
+a:hover {
+    color: #D5008F;
 }
 
 h1,
@@ -37,13 +35,18 @@ h4,
 h5,
 h6 {
     font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
-    margin: 1.5rem 0 0.75rem 0;
+    margin: 2rem 0 0.5rem 0;
     line-height: 1.25;
+    font-weight: 300;
 }
 
 figure {
     margin: 0;
     padding: 0;
+}
+
+figcaption {
+    font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
 }
 
 img {
@@ -93,7 +96,7 @@ hr {
 thead {
     text-align: left;
     border-bottom: 1px solid #CCC;
-    font-family: $secondary-font;
+    font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
 }
 
 th {
@@ -104,6 +107,12 @@ td {
     padding: 0.25rem 0.5rem;
 }
 
+blockquote {
+    font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+    margin-left: 2rem;
+    font-size: 0.875em;
+    padding: 0.5rem 0;
+}
 
 /*
 2. LEGACY CLASSES
