@@ -5,7 +5,7 @@ category: web
 description: "Lots of visitors doesn't equal success. The only real measure of whether your website is doing well is if it helps people do what they want to do."
 ---
 
-As ever, Gerry McGovern makes an important point on a Sunday afternoon:
+As ever, Gerry McGovern makes an important point on a Sunday afternoon (which is when his weekly newsletter arrives):
 
 > Digital must be measured based on customer outcomes. Traffic, visits, time spent, page views; these are not outcomes. <cite><a href="http://gerrymcgovern.com/high-traffic-does-not-equal-good-customer-experience">High traffic does not equal good customer experience</a></cite>
 
