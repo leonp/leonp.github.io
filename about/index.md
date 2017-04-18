@@ -1,19 +1,12 @@
 ---
 title: About
 layout: default
+nav-weight: 2
 ---
 
-I'm Leon Paternoster, deputy head of IT at [Suffolk Libraries](http://suffolklibraries.co.uk). I manage our web and customer service teams, as well as [several IT projects](/2016/02/5-day-sprint-clear-left-self-service/). I also help manage our network and staff and public PCs.
+I'm Leon, deputy head of IT at [Suffolk Libraries](https://www.suffolklibraries.co.uk). I manage our web and customer service teams, as well as [several IT projects](/2016/02/5-day-sprint-clear-left-self-service/). I also help manage our network and staff and public PCs.
 
 Suffolk County Council contracts us to run the county's library service.
-
-<figure class="figure">
-
-    <img class="bleed" alt="Leon Paternoster" src="/images/leon-2016-02-15.jpg">
-
-    <figcaption class="figcaption"><p>Me</p></figcaption>
-
-</figure>
 
 We design, build and manage our website in house, integrating it with several external services such as the catalogue of physical titles and ebook downloads. We manage PCs for 400 staff, hundreds of public PCs and our staff and public networks.
 
