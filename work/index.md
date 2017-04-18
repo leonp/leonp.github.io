@@ -4,7 +4,50 @@ layout: default
 nav-weight: 2
 published: true
 cache: true
+img: first-wall-poster.jpg
+alt: "A large poster of design sprint plan attached to a wall"
 ---
+
+<section class="pb3 bb b--light-gray mb3">
+
+    <h1 class="f3">Research &amp; strategy</h1>
+
+    <ul>
+
+        <li>Stakeholder interviews</li>
+        <li>Content audit</li>
+        <li>Top task research</li>
+        <li>Digital strategy</li>
+
+    </ul>
+
+    <p>The strategy will help you answer questions like:</p>
+
+    <ul>
+
+        <li>What do we publish online?</li>
+        <li>Where do we publish?</li>
+        <li>Who's responsible for what?</li>
+        <li>How should we design our website?</li>
+        <li>When do we outsource work?</li>
+
+    </ul>
+
+    <p>Find out more:</p>
+
+    <ul>
+
+    <li><a href="/2016/07/suffolk-libraries-website-static-overview/">How we built a static Suffolk Libraries website (an overview)</a></li>
+    <li><a href="/2016/07/jekyll-events-static-site-libraries/">Coding one off and recurrent events in Jekyll</a></li>
+    <li><a href="/2016/04/why-use-tachyons-css-framework/">Why we'll be using a CSS framework like Tachyons to rebuild our website</a></li>
+    <li><a href="/2016/04/doing-a-liverpool/">Doing a Liverpool</a></li>
+    <li><a href="/2013/04/carrying-out-a-web-content-audit/">Carrying out a web content audit</a></li>
+    <li><a href="/2013/05/your-website-is-not-as-important-as-your-catalogue/">Your website is not as important as your catalogue</a></li>
+    <li><a href="/2013/04/library-websites-catalogues-and-their-poor-ux/">Library websites, catalogues and their poor UX</a></li>
+
+    </ul>
+
+</section>
 
 <div class="c-prose">
 
