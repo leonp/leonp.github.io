@@ -16,7 +16,7 @@
 
             {% if page.is_post %}
 
-            <p class="gray sans-serif mb1 mt2"><time>{{ page.date | date: "%b %-d,  %Y" }}</time> &middot; {% if page.article %}An <a href="/articles/">article</a>{% else %}A <a href="/blog/">note</a> {% endif %} filed under <a href="/blog/{{ page.category }}/">{{ page.category }}</a>
+            <p class="gray sans-serif mb1 mt2"><time>{{ page.date | date: "%b %-d,  %Y" }}</time> &middot; {% if page.article %}An <a href="/articles/" class="b">article</a>{% else %}A <a href="/blog/" class="b">note</a> {% endif %} filed under <a href="/blog/{{ page.category }}/" class="b">{{ page.category }}</a>
 
             {% endif %}
 
@@ -24,7 +24,7 @@
 
     </header>
 
-    <div class="ph2 ph5-ns serif {% if page.is_post %}c-link-underline c-link-visited c-hyphens{% endif %}">
+    <div class="ph2 ph5-ns serif c-link-underline c-link-visited c-hyphens">
 
         {{ content }}
 
