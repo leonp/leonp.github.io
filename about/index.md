@@ -4,6 +4,8 @@ layout: default
 nav-weight: 2
 ---
 
+{% include figure.html url="leon-6.jpg" alt="Leon Paternoster" caption="Leon Paternoster, by Esme Paternoster" %}
+
 I'm Leon, deputy head of IT at [Suffolk Libraries](https://www.suffolklibraries.co.uk). I manage our web and customer service teams, as well as [several IT projects](/2016/02/5-day-sprint-clear-left-self-service/). I also help manage our network and staff and public PCs.
 
 Suffolk County Council contracts us to run the county's library service.
