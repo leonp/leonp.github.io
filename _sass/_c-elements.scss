@@ -1,0 +1,104 @@
+@media screen, projection {
+
+html {
+    font-size: 106.75%;
+    @media (min-width: 600px) {
+        font-size: 118.75%;
+    }
+}
+
+a {
+    color: #00449E; /* Dark blue */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D5008F;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "c-system";
+    margin: 2rem 0 0.5rem 0;
+    line-height: 1.25;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    font-family: "c-system";
+}
+
+img {
+    width: auto;
+    max-width: 100% !important;
+    height: auto !important;
+}
+
+abbr {
+    cursor: help;
+}
+
+h1,
+h2 {
+    font-size: 1.25rem;
+}
+
+h3,
+dt {
+    font-size: 1rem;
+}
+
+h4 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+pre {
+    overflow: auto;
+    color: #E7040F;
+}
+
+code {
+    font-size: 0.75em;
+    color: #E7040F;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #EFEFEF; // Tachyons moon gray
+    width: 50%;
+    display: block;
+    margin: 1rem auto;
+}
+
+thead {
+    text-align: left;
+    border-bottom: 1px solid #CCC;
+    font-family: "c-system";
+}
+
+th {
+    padding: 0 0.5rem;
+}
+
+td {
+    padding: 0.25rem 0.5rem;
+}
+
+blockquote {
+    font-family: "c-system";
+    margin-left: 2rem;
+    font-size: 0.875em;
+    padding: 0.5rem 0;
+}
+
+}

@@ -1,0 +1,48 @@
+@media screen, projection {
+
+.c-sans-serif {
+    font-family: "c-system";
+}
+
+.c-measure {
+    max-width: 39.68em;
+}
+
+.c-dashed-list li:before {
+    content: '- ';
+}
+
+.c-link-underline a {
+    border-bottom: 1px dotted;
+}
+
+.c-link-visited a:visited {
+    color: #357EDD;
+}
+
+.c-link-visited a:hover {
+    color: #D5008F;
+}
+
+.c-hover-white:hover,
+.c-hover-white:active {
+    color: #FFF;
+}
+
+.c-auto {
+    overflow: auto;
+}
+
+.c-small-caps {
+    text-transform: lowercase;
+    font-variant: small-caps;
+    letter-spacing: 0.2em;
+}
+
+.c-hyphens {
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+}
