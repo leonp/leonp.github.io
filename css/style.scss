@@ -5,14 +5,8 @@ sitemap: false
 @charset "utf-8";
 
 
-// VARIABLES
-
-$primary-font: 'Noto Serif', georgia, serif;
-$secondary-font: Roboto, 'Segoe UI', sans-serif;
-
 @import
     "tachyons",
-    "c-fonts",
     "c-elements",
     "c-legacy",
     "c-c"
