@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-nav-weight: 2
+nav-weight: 3
 ---
 
 {% include figure.html url="leon-6.jpg" alt="Leon Paternoster" caption="Leon Paternoster, by Esme Paternoster" %}

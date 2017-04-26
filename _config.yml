@@ -14,25 +14,32 @@ permalink: /:year/:month/:title/
 sass:
   style: compressed
 
+
+# Defaults
+
 # Enable is.post test for posts
 # Means we don't need a post layout
 # But we can test for a post in layouts/default.html
 # Simply use {% if page.is_post %}
 
 defaults:
-  -
+-
     scope:
-      path: ""      # empty string for all files
-      type: posts   # limit to posts
+        path: ""      # empty string for all files
+        type: posts   # limit to posts
     values:
-      is_post: true # automatically set is_post=true for all posts
-      layout: default
-    - scope:
-        type: studies
-      values:
+        is_post: true # automatically set is_post=true for all posts
         layout: default
+-
+    scope:
+        path: ""
+        type: work
+    values:
+        is_work: true
+        layout: default
+
 
 # Collections
 collections:
-    studies:
+    work:
         output: true

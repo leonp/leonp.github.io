@@ -1,0 +1,19 @@
+---
+layout: default
+title: Work
+nav-weight: 2
+---
+
+{% for work in site.work %}
+
+<article class="pb3">
+
+    <h1 class="ma0 pa0 mb2 f3"><a href="{{ work.url }}">{{ work.title }}</a></h1>
+
+    {% if work.img %}<a href="{{ work.url }}"><img class="db mb2" src="/images/{{ work.img }}" alt="{{ work.alt }}"></a>{% endif %}
+
+    <p>{{ work.excerpt }}</p>
+
+</article>
+
+{% endfor %}
