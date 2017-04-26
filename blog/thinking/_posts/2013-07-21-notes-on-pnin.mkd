@@ -3,6 +3,8 @@ date: 2013-07-21 10:58:57+00:00
 layout: default
 title: Notes on Pnin
 category: thinking
+img: nab-sig.jpg
+alt: "Vladimir Nabokov's signature dated 1957"
 ---
 
 As I might be on Radio Suffolk tomorrow to discuss two books (Nabokov's <cite>Pnin</cite> and <cite>Madeline</cite>, by Ludwig Bemelmans) I thought I'd write something on <cite>Pnin</cite> just to get my thoughts in order. I am in no way nervous at all.
