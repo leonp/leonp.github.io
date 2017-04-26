@@ -27,3 +27,12 @@ defaults:
     values:
       is_post: true # automatically set is_post=true for all posts
       layout: default
+    - scope:
+        type: studies
+      values:
+        layout: default
+
+# Collections
+collections:
+    studies:
+        output: true
