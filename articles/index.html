@@ -6,28 +6,12 @@ nav-weight: 4
 cache: true
 ---
 
-<p class="f4">Detailed, longer articles investigating web and library practice. I've updated these over time.</p>
+<p class="f4">Detailed, longer articles discussing web and library practice.</p>
 
 {% assign posts = site.posts | where: "article", "true" %}
 
 {% for post in posts %}
 
-	{% assign currentdate = post.date | date: "%Y" %}
-
-	{% if currentdate != date %}
-
-		{% unless forloop.first %}</ul>{% endunless %}
-
-		<h2 class="ma0 pa0 pv2 pt4 f4" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
-
-		<div class="mb3 ml0 pl0 list">
-
-		{% assign date = currentdate %}
-
-	{% endif %}
-
-		{% include article-list-item.html %}
-
-	{% if forloop.last %}</div>{% endif %}
+	{% include article-list-item.html %}
 
 {% endfor %}
