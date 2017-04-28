@@ -1,8 +1,9 @@
 ---
 layout: default
 title: The Communist Manifesto
-wordpress_id: 3024
 category: thinking
+review-title: The Communist Manifesto
+review-author: Karl Marx
 ---
 
 Read to accompany [Francis Wheen's biography of Marx](http://reading.leonpaternoster.com/karl-marx/) and because the British left is debating what it stands for at the moment.

@@ -2,6 +2,8 @@
 layout: default
 title: Understanding the Ur-Bororo
 category: thinking
+review-title: "Understanding the Ur-Bororo"
+review-author: Will Self
 ---
 
 I've really been enjoying the BBC's _Human Planet_ series, which films some of the most extreme and isolated environments and their inhabitants on the, erm, planet.

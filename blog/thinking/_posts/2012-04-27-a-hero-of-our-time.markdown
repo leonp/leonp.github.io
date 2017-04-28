@@ -2,6 +2,8 @@
 layout: default
 title: A Hero of our Time
 category: thinking
+review-title: A Hero of our Time
+review-author: Mikhail Lermontov
 ---
 
 Beguiling. Starts with some some beautiful descriptive stuff; seems like a standard novel. Folk–like feeling to the story of Bela.

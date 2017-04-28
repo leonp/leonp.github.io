@@ -2,6 +2,8 @@
 layout: default
 title: The Emigrants
 category: thinking
+review-title: The Emigrants
+review-author: W G Sebald
 ---
 
 It is good to be reading Sebald again. Had a rather odd moment when a description of something suggested Nabokov catching butterflies in the mountains. I turned the page and there was a photo (which I have in my _Nabokov's Butterflies_ collection) of Nabokov, beshorted, clutching a butterfly net.

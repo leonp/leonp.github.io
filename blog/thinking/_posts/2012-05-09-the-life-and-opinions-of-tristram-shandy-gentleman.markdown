@@ -2,6 +2,8 @@
 layout: default
 title: The Life and Opinions of Tristram Shandy, Gentleman
 category: thinking
+review-title: "The Life and Opinions of Tristram Shandy, Gentleman"
+review-author: Laurence Sterne
 ---
 
 > —'My sister, mayhap,' quoth my uncle Toby, 'does not choose to let a man come so near her....' Make this dash,—'tis an Aposiopesis,—Take the dash away, and write Backside,—'tis Bawdy.—Scratch Backside out, and put Cover'd way in, 'tis a Metaphor;—and, I dare say, as fortification ran so much in my uncle Toby's head, that if he had been left to have added one word to the sentence,—that word was it.

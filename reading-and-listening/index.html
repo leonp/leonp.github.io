@@ -1,0 +1,21 @@
+---
+layout: default
+title: "Reading &amp; listening"
+description: Since 2008.
+nav-weight: 6
+cache: true
+---
+
+<p class="f4">I used to read when I had time on the commute into Colchester from Ipswich, and back. Now I don't. Here's some of the stuff I've read/listened to and made some form of comment on.</p>
+
+{% assign posts = site.posts %}
+
+{% for post in posts %}
+
+	{% if post.review-title %}
+
+		{% include book-list-item.html %}
+
+	{% endif %}
+
+{% endfor %}

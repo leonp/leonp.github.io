@@ -2,6 +2,8 @@
 layout: default
 title: Why I like Freedom
 category: thinking
+review-title: Freedom
+review-author: Jonathon Franzen
 ---
 
 I've been somewhat gushing but unspecific in my praise for _Freedom_. [I do like the book because of its satire of liberal mores](http://theother.leonpaternoster.com/uncreatives), but there's more to it.

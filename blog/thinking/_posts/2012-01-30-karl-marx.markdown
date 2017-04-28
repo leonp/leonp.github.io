@@ -2,6 +2,8 @@
 layout: default
 title: Karl Marx
 category: thinking
+review-title: Karl Marx
+review-author: Francis Wheen
 ---
 
 Wheen argues that mythologising or demonising Marx for twentieth century mass murder misses the point. From this point of view it's a really useful biography. One case where getting to the man behind the work is of some importance. Most of the time it's simple distraction.

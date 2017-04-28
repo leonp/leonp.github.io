@@ -2,6 +2,8 @@
 layout: default
 title: Paradise Lost
 category: thinking
+review-title: Paradise Lost
+review-author: John Milton
 ---
 
 The republican, radical protestants have all the best poetry.

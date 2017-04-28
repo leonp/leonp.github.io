@@ -2,6 +2,8 @@
 layout: default
 title: The Mystery of Edwin Drood
 category: thinking
+review-title: The Mystery of Edwin Drood
+review-author: Charles Dickens
 ---
 
 First, the confession. I have never read a complete Charles Dickens novel (and yes, I know, Dickens died before completing Edwin Drood.) I've read lots of _bits_ of novels for class, and A Christmas Carol, but never the full several hundred pages.

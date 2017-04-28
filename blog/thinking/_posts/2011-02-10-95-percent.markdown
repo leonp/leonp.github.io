@@ -2,6 +2,8 @@
 layout: default
 title: 95 percent
 category: thinking
+review-title: "Your Future, Our Clutter"
+review-author: The Fall
 ---
 
 On the theme of [circularity and time (and William Blake fans)](http://theother.leonpaternoster.com/paternoster-row) — there's lots of temporal playfulness in _Your Future, Our Clutter_, the 2010 Fall album.

@@ -4,7 +4,7 @@ title: Okies, chavs and responsibility deficits
 category: thinking
 ---
 
-Been reading The Grapes of Wrath.
+Been reading _The Grapes of Wrath_.
 
 It suits these times. See how the haves describe the have–nots:
 

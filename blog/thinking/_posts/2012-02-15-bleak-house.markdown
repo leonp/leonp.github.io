@@ -1,8 +1,9 @@
 ---
-
 layout: default
 title: Bleak House
 category: thinking
+review-title: Bleak House
+review-author: Charles Dickens
 ---
 
 So it begins. It's a beast (a megalosaurus, to be precise).

@@ -2,6 +2,8 @@
 layout: default
 title: The Great God Pan
 category: thinking
+review-title: The Great God Pan
+review-author: Arthur Machen
 ---
 
 Been meaning to read this for a long time. Partly because I really liked ghost and horror fiction in my teens and partly because Mr Mark Smith is a big fan. The Kindle lets me make these impromptu downloads (it's free on Gutenberg).

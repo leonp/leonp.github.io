@@ -2,6 +2,8 @@
 layout: default
 title: Free of place and duty
 category: thinking
+review-title: The Grapes of Wrath
+review-author: John Steinbeck
 ---
 
 The Grapes of Wrath is partly about homelessness (or landlessness). What happens to people when they lose the connection with the land they live and farm on, and when farming is industrialised and controlled by a handful of business men.

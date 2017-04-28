@@ -2,6 +2,8 @@
 layout: default
 title: HHhH and the value of print
 category: thinking
+review-title: HHhH
+review-author: Laurent Binet
 ---
 
 > But in the Sudetenland, news of the Anschluss provokes an extraordinary enthusiasm. Suddenly people talk only of their ultimate fantasy: being reunited with the Reich… Beneš will write in his memoirs that he was stunned by this mystical romanticism that seemed to suddenly seize all the Germans of Bohemia.

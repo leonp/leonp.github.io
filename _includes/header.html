@@ -16,7 +16,7 @@
 
         <nav id="nav" class="c-sans-serif c-no-print bg-dark-gray pa2 pv3 mb3-ns mb5-l bb b--light-gray cf">
 
-            <h1 class="bb bn-l b--light-gray ma0 mb1 mb0-l pa0 f6 lh-copy fl-l mr3-l dib-l"><a class="light-silver db di-ns pv1 c-hover-white" href="/" rel="home">{{ site.title }}</a></h1>
+            <h1 class="bb bn-l b--light-gray ma0 mb1 mb0-l pa0 f6 lh-copy fl-l mr3-l dib-l"><a class="light-silver db di-ns pv2 pv1-l c-hover-white" href="/" rel="home">{{ site.title }}</a></h1>
 
             <ul class="ma0 pa0 list b cf f6 fr-l tr-l">
 
@@ -26,7 +26,7 @@
 
             {% if nav.nav-weight %}
 
-                <li class="ma0 dib mr3 mr0-l ml3-l"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="white pv1 c-hover-white"{% else %}class="light-silver pv1 c-hover-white"{% endif %}>{{ nav.title }}</a></li>
+                <li class="ma0 dib mr3 mr0-l ml3-l"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="white pv2 pv1-l c-hover-white"{% else %}class="light-silver pv1 c-hover-white"{% endif %}>{{ nav.title }}</a></li>
 
             {% endif %}
 

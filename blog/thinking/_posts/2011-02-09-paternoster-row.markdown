@@ -2,6 +2,8 @@
 layout: default
 title: Paternoster Row
 category: thinking
+review-title: The Clerkenwell Tales
+review-author: Peter Ackroyd
 ---
 
 > The child was calling out to someone. Hamo turned the corner of Paternoster Row, into the street of the illuminators and parchment-makers whose work was displayed all around him. He glimpsed a saint holding up his arms in ecstasy while, at the bottom of the page, an ape clambered among vines. Peter Ackroyd, <cite>The Clerkenwell Tales</cite>

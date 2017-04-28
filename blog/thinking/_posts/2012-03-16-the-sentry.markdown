@@ -2,6 +2,8 @@
 layout: default
 title: The Sentry
 category: thinking
+review-title: The Sentry
+review-author: Téa Obreht
 ---
 
 A free short story by Téa Obreht, winner of the 2011 Orange prize.

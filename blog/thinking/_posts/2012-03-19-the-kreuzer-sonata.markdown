@@ -2,6 +2,8 @@
 layout: default
 title: The Kreuzer Sonata
 category: thinking
+review-title: The Kreuzer Sonata
+review-author: Leo Tolstoy
 ---
 
 Tolstoy's meditation on marriage.

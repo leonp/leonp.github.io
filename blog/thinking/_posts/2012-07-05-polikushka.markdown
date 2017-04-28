@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Polikushka &#8211; Or, the lot of a wicked court servant
+title: "Polikushka – Or, the lot of a wicked court servant"
 category: thinking
+review-title: "Polikushka – Or, the lot of a wicked court servant"
+review-author: Leo Tolstoy
 ---
 
 A few stories tagged onto _The Kreuzer Sonata_. A bit meh, apart from some somewhat socialist visions of the future in _Ivan the Fool_. Tolstoy imagines modern warfare:

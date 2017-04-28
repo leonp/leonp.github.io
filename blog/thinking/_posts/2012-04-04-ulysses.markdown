@@ -2,6 +2,8 @@
 layout: default
 title: Ulysses
 category: thinking
+review-title: Ulysses
+review-author: James Joyce
 ---
 
 ![Sketch of James Joyce](http://upload.wikimedia.org/wikipedia/commons/4/4f/Djuna_Barnes_-_Joyce.gif)

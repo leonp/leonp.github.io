@@ -1,18 +1,9 @@
 ---
-author: admin
-comments: true
-date: 2011-02-12 20:55:54+00:00
 layout: default
-slug: stillness-in-the-white-ribbon
 title: Stillness in The White Ribbon
-wordpress_id: 3019
-categories:
-- Films
-tags:
-- cruelty
-- Germany
-- history
-- The White Ribbon
+category: thinking
+review-title: The White Ribbon
+review-author: Michael Haneke
 ---
 
 Finally got round to watching _The White Ribbon_ (_Das Weisse Band_), a German film set in a North German village in the months before the First World War.
