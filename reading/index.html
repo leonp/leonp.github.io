@@ -1,0 +1,19 @@
+---
+layout: default
+title: Reading
+description: Since 2008.
+nav-weight: 5
+cache: true
+---
+
+{% assign posts = site.posts %}
+
+{% for post in posts %}
+
+	{% if post.review-title %}
+
+		{% include book-list-item.html %}
+
+	{% endif %}
+
+{% endfor %}

@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-nav-weight: 3
+nav-weight: 6
 img: leon-6.jpg
 alt: Leon Paternoster (by Esme Paternoster)
 ---

@@ -16,7 +16,7 @@
 
             {% if page.is_post %}
 
-                <p class="gray c-sans-serif mb1 mt2"><time>{{ page.date | date: "%b %-d,  %Y" }}</time><span class="c-no-print"> &middot; {% if page.article %}An <a href="/articles/" class="b">article</a>{% else %}A <a href="/blog/" class="b">note</a> {% endif %}{% if page.review-title %}and a <a href="/reading-and-listening/">review</a>{% endif %} filed under <a href="/blog/{{ page.category }}/" class="b">{{ page.category }}</a></span>
+                <p class="gray c-sans-serif mb1 mt2"><time>{{ page.date | date: "%b %-d,  %Y" }}</time><span class="c-no-print"> &middot; {% if page.article %}An <a href="/articles/" class="b">article</a>{% else %}A <a href="/blog/" class="b">note</a> {% endif %}{% if page.review-title %}and a <a class="b" href="/reading/">review</a>{% endif %} filed under <a href="/blog/{{ page.category }}/" class="b">{{ page.category }}</a></span>
 
             {% endif %}
 
