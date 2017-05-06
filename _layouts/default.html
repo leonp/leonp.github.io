@@ -1,28 +1,32 @@
 {% include header.html %}
 
-<article class="c-measure bg-white center ba-l b--light-gray pb3 pb5-l">
+<article>
 
-    <header class="pb3 bb b--light-gray mb3 mb4-l">
+    <header class="pb3 {% if page.img or page.is_post %}pb4-l{% endif %} bb b--light-gray mb3 mb4-l">
 
-        {% if page.img %}
+        <div class="c-measure center">
 
-        <img src="/images/{{ page.img }}" alt="{{ page.alt }}">
+            <div class="ph2 ph5-ns">
 
-        {% endif %}
+                <h1 class="dark-pink f3 f2-ns c-print-title lh-title c-sans-serif ma0 pt3 pt4-l">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
 
-        <div class="ph2 ph5-ns">
+                {% if page.is_post %}
 
-            <h1 class="dark-pink f3 f2-ns c-print-title lh-title c-sans-serif ma0 {% if page.img %}pt3{% else %}pt3 pt4-l{% endif %}">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
+                    <p class="gray c-sans-serif mb1 mt2"><time>{{ page.date | date: "%b %-d,  %Y" }}</time><span class="c-no-print"> &middot; {% if page.article %}An <a href="/articles/" class="b">article</a>{% else %}A <a href="/blog/" class="b">note</a> {% endif %}{% if page.review-title %}and a <a class="b" href="/reading/">review</a>{% endif %} filed under <a href="/blog/{{ page.category }}/" class="b">{{ page.category }}</a></span>
 
-            {% if page.is_post %}
+                {% endif %}
 
-                <p class="gray c-sans-serif mb1 mt2"><time>{{ page.date | date: "%b %-d,  %Y" }}</time><span class="c-no-print"> &middot; {% if page.article %}An <a href="/articles/" class="b">article</a>{% else %}A <a href="/blog/" class="b">note</a> {% endif %}{% if page.review-title %}and a <a class="b" href="/reading/">review</a>{% endif %} filed under <a href="/blog/{{ page.category }}/" class="b">{{ page.category }}</a></span>
+                {% if page.is_work %}
 
-            {% endif %}
+                    <p class="gray c-sans-serif mb1 mt2">(See more <a class="b" href="/work/">work case studies</a> &rarr;)</p>
 
-            {% if page.is_work %}
+                {% endif %}
 
-                <p class="gray c-sans-serif mb1 mt2">(See more <a class="b" href="/work/">work case studies</a> &rarr;)</p>
+            </div>
+
+            {% if page.img %}
+
+            <img class="mt2 mt3-l" src="/images/{{ page.img }}" alt="{{ page.alt }}">
 
             {% endif %}
 
@@ -30,7 +34,7 @@
 
     </header>
 
-    <div class="ph2 ph5-ns {% if page.is_post or page.is_work %}c-link-underline c-link-visited c-hyphens{% endif %}">
+    <div class="c-measure center ph2 ph5-ns {% if page.is_post or page.is_work %}c-link-underline c-link-visited c-hyphens{% endif %}">
 
         {{ content }}
 
