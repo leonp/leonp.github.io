@@ -3,6 +3,7 @@ layout: default
 title: Borgen (or how the British don't do serious politics)
 category: thinking
 review-title: Borgen
+review-author: Adam Price
 ---
 
 Borgen--the Danish political drama--returns to BBC4 next Saturday. It's my favourite television programme of the last ten years or so. Apologies if your Danish isn't that good, but I've become fluent through a process of osmosis.
