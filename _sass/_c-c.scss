@@ -45,4 +45,8 @@
     hyphens: auto;
 }
 
+.c-state-selected:after {
+    content: ' →';
+}
+
 }

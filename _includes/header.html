@@ -10,30 +10,38 @@
 
     </head>
 
-    <body class="bg-near-white dark-gray georgia lh-copy pb2 pb4-l">
+    <body class="sans-serif dark-gray bg-white pa0 ma0">
 
         {% include /header/skip-links.html %}
 
-        <nav id="nav" class="c-sans-serif c-no-print bg-dark-gray pa2 pv3 mb3-ns mb5-l bb b--light-gray cf">
+        <div class="dt-l w-100-l">
 
-            <h1 class="bb bn-l b--light-gray ma0 mb1 mb0-l pa0 f6 lh-copy fl-l mr3-l dib-l"><a class="light-silver db di-ns pv2 pv1-l c-hover-white" href="/" rel="home">{{ site.title }}</a></h1>
+            <header class="bg-white dtc-l w-one-third-l pa3 pb2 pv4-l ph5-l v-top-l bb br-l b--light-gray" style="background-image: url('/images/topography.png');">
 
-            <ul class="ma0 pa0 list b cf f6 fr-l tr-l">
+                <a href="/"><img src="/images/lp.jpg" alt="Leon Paternoster" class="bw2 dib mw2 mr2 mr0-l mb2-l h-auto br-100 ba b--blue v-btm v-mid-l grow"></a>
 
-            {% assign nav-pages = site.pages | sort: "nav-weight" %}
+                <h1 class="dib f6 f5-l ma0 mb2 mb4-l"><a href="/" class="black no-underline hover-dark-pink v-top-l">{{ site.title }}</a></h1>
 
-            {% for nav in nav-pages %}
+                <nav id="nav" class="f6 f5-l pt1 pt0-l bt b--light-silver bn-l mt2 mt4-l">
 
-            {% if nav.nav-weight %}
+                    <ul class="list ma0 pa0 bb-l b--light-silver">
 
-                <li class="ma0 dib mr3 mr0-l ml3-l"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="white pv2 pv1-l c-hover-white"{% else %}class="light-silver pv1 c-hover-white"{% endif %}>{{ nav.title }}</a></li>
+                    {% assign nav-pages = site.pages | sort: "nav-weight" %}
 
-            {% endif %}
+                    {% for nav in nav-pages %}
 
-            {% endfor %}
+                        {% if nav.nav-weight %}
 
-            </ul>
+                        <li class="dib mr3 db-l mr0-l"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="db pv1 pv3-l no-underline black hover-dark-pink bt-l b--light-silver b"{% else %}class="db pv1 pv3-l no-underline dark-blue hover-dark-pink bt-l b--light-silver"{% endif %}>{{ nav.title }}</a></li>
 
-        </nav>
+                        {% endif %}
 
-        <main id="content" class="bg-white ba-l b--light-gray pb3 pb5-l mh4-l">
+                    {% endfor %}
+
+                    </ul>
+
+                </nav>
+
+            </header>
+
+            <main id="content" class="dtc-l w-two-thirds-l pa3 pv4-l ph5-l v-top-l">
