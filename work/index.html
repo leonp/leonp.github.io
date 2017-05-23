@@ -6,11 +6,15 @@ nav-weight: 2
 
 {% for work in site.work %}
 
-<article class="pb3">
+<article class="pb4 pb5-l center">
 
-    <h1 class="ma0 pa0 mb2 f4 f3-l lh-title"><a href="{{ work.url }}">{{ work.title }}</a></h1>
+    <div class="c-sans-serif tc">
 
-    {% if work.img %}<a href="{{ work.url }}"><img class="db mb2" src="/images/{{ work.img }}" alt="{{ work.alt }}"></a>{% endif %}
+        <h1 class="f3 f2-l ma0 mb1 mb2-l lh-title"><a href="{{ work.url }}">{{ work.title }}</a></h1>
+
+        {% if work.img %}<a href="{{ work.url }}"><img class="db mv2 mv3-l" src="/images/{{ work.img }}" alt="{{ work.alt }}"></a>{% endif %}
+
+    </div>
 
     <p>{{ work.excerpt }}</p>
 
