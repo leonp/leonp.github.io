@@ -14,17 +14,15 @@
 
         {% include /header/skip-links.html %}
 
-        <div class="dt-l w-100-l">
+            <header class="pt3 pt4-l">
 
-            <header class="bg-white dtc-l w-one-third-l pa3 pb2 pv4-l ph5-l v-top-l bb br-l b--light-gray" style="background-image: url('/images/topography.png');">
+                <a href="/"><img src="/images/lp.jpg" alt="Leon Paternoster" class="bw2 db center mw2 mb2 h-auto br-100 ba b--blue grow"></a>
 
-                <a href="/"><img src="/images/lp.jpg" alt="Leon Paternoster" class="bw2 dib mw2 mr2 mr0-l mb2-l h-auto br-100 ba b--blue v-btm v-mid-l grow"></a>
+                <h1 class="f5 f4-l ma0 pb2 pb3-l mb2 mb3-l tc ph2 ph4-l"><a href="/" class="black no-underline hover-dark-pink">{{ site.title }}</a></h1>
 
-                <h1 class="dib f6 f5-l ma0 mb2 mb4-l"><a href="/" class="black no-underline hover-dark-pink v-top-l">{{ site.title }}</a></h1>
+                <nav id="nav" class="f6 f5-l center tc bb bt pv2 pv4-l b--light-gray ph2 ph4-l">
 
-                <nav id="nav" class="f6 f5-l pt1 pt0-l bt b--light-silver bn-l mt2 mt4-l">
-
-                    <ul class="list ma0 pa0 bb-l b--light-silver">
+                    <ul class="list ma0 pa0">
 
                     {% assign nav-pages = site.pages | sort: "nav-weight" %}
 
@@ -32,7 +30,7 @@
 
                         {% if nav.nav-weight %}
 
-                        <li class="dib mr3 db-l mr0-l"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="db pv1 pv3-l no-underline black hover-dark-pink bt-l b--light-silver b"{% else %}class="db pv1 pv3-l no-underline dark-blue hover-dark-pink bt-l b--light-silver"{% endif %}>{{ nav.title }}</a></li>
+                        <li class="di mh2 mh4-l"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="pv1 no-underline black hover-dark-pink"{% else %}class="pv1no-underline gray hover-black"{% endif %}>{{ nav.title }}</a></li>
 
                         {% endif %}
 
@@ -44,4 +42,4 @@
 
             </header>
 
-            <main id="content" class="dtc-l w-two-thirds-l pa3 pv4-l ph5-l v-top-l bb-l b--light-gray">
+            <main id="content" class="pv3 pv4-l bg-near-white">

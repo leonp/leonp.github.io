@@ -2,31 +2,31 @@
 
 <article>
 
-    <header class="pb2 pb3-l mb3 mb4-l bb b--light-gray">
+    <header class="pa2 pa4-l mb3 mb4-l bb b--light-silver center tc">
 
-        <h1 class="f2 lh-title ma0 measure-narrow">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
+        <h1 class="f2 f1-m f-subheadline-l lh-title ma0">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
 
         {% if page.is_post %}
 
-        <p class="gray c-sans-serif mb0 mt2 mt3-l f6"><time>{{ page.date | date: "%b %-d,  %Y" }}</time><span class="c-no-print"> &middot; {% if page.article %}An <a href="/articles/" class="b">article</a>{% else %}A <a href="/blog/" class="b">note</a> {% endif %}{% if page.review-title %}and a <a class="b" href="/reading/">review</a>{% endif %} filed under <a href="/blog/{{ page.category }}/" class="b">{{ page.category }}</a></span></p>
+        <p class="gray c-sans-serif mb0 mt2 mt4-l f6 f4-l"><time>{{ page.date | date: "%b %-d,  %Y" }}</time><span class="c-no-print"> &middot; {% if page.article %}An <a href="/articles/" class="b">article</a>{% else %}A <a href="/blog/" class="b">note</a> {% endif %}{% if page.review-title %}and a <a class="b" href="/reading/">review</a>{% endif %} filed under <a href="/blog/{{ page.category }}/" class="b">{{ page.category }}</a></span></p>
 
         {% endif %}
 
         {% if page.is_work %}
 
-        <p class="gray c-sans-serif mt2 f6">(See more <a class="b" href="/work/">work case studies</a> &rarr;)</p>
+        <p class="gray c-sans-serif mt2 mt4-l f6 f4-l">(See more <a class="b" href="/work/">work case studies</a> &rarr;)</p>
 
         {% endif %}
 
         {% if page.img %}
 
-        <img class="mt3 c-mw-100-img" src="/images/{{ page.img }}" alt="{{ page.alt }}">
+        <img class="mt3 mt4-l c-mw-100-img" src="/images/{{ page.img }}" alt="{{ page.alt }}">
 
         {% endif %}
 
     </header>
 
-    <div class="georgia lh-copy measure-wide c-mw-100-img {% if page.is_post or page.is_work %}c-link-underline c-link-visited c-hyphens{% endif %}">
+    <div class="center georgia lh-copy measure-wide c-mw-100-img {% if page.is_post or page.is_work %}c-link-underline c-link-visited c-hyphens{% endif %}">
 
         {{ content }}
 
