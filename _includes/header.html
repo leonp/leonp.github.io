@@ -10,7 +10,7 @@
 
     </head>
 
-    <body class="sans-serif dark-gray bg-white pa0 ma0">
+    <body class="c-sans-serif dark-gray bg-white pa0 ma0">
 
         {% include /header/skip-links.html %}
 
@@ -30,7 +30,7 @@
 
                         {% if nav.nav-weight %}
 
-                        <li class="dib mh2 mh4-l"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="dib pv2 pv0-l no-underline black hover-dark-pink"{% else %}class="dib pv2 pv0-l no-underline gray hover-black"{% endif %}>{{ nav.title }}</a></li>
+                        <li class="dib mh2 mh4-l"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="dib pv2 pv0-l no-underline black hover-dark-pink b"{% else %}class="dib pv2 pv0-l no-underline gray hover-black"{% endif %}>{{ nav.title }}</a></li>
 
                         {% endif %}
 
