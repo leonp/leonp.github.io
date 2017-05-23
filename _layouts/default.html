@@ -2,9 +2,9 @@
 
 <article>
 
-    <header class="pa2 pa4-l mb3 mb4-l bb b--light-silver center tc">
+    <header class="pa2 pa4-l pb3 mb3 mb5-l center tc bb b--white">
 
-        <h1 class="f2 f1-m f-subheadline-l lh-title ma0">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
+        <h1 class="f2 f1-m f-subheadline-l lh-title ma0 center measure-narrow">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
 
         {% if page.is_post %}
 
@@ -26,7 +26,7 @@
 
     </header>
 
-    <div class="center georgia lh-copy measure-wide c-mw-100-img {% if page.is_post or page.is_work %}c-link-underline c-link-visited c-hyphens{% endif %}">
+    <div class="ph2 ph4-l c-mw-container center georgia lh-copy c-mw-100-img {% if page.is_post or page.is_work %}c-link-underline c-link-visited c-hyphens{% endif %}">
 
         {{ content }}
 
