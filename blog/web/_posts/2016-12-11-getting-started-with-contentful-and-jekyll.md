@@ -4,6 +4,8 @@ layout: default
 category: web
 description: "Contentful is a CMS based on an API, providing a non-technical editing environment for web writers. Here's how it works with Jekyll, a static site generator."
 cache: true
+article: true
+excerpt: "Contentful is a CMS based on an API, providing a non-technical editing environment for web writers. Here's how it works with Jekyll, a static site generator."
 ---
 
 [Contentful](http://contentful.com), if you're unaware, is a platform agnostic Content Management System (CMS). You use its <abbr title="Application Programming Interface">API</abbr> to pull content into a website or app. There are several reasons for using Contentful instead of/in addition to a CMS:

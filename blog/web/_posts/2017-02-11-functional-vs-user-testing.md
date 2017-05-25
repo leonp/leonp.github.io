@@ -4,6 +4,8 @@ layout: default
 category: web
 description: "Anything people use needs to be tested by users. This is in addition to functional <em>does it work?</em> testing. Product commissioners can procure better products by avoiding long, functional check list requests for proposal and doing some user research first. Make providers demonstrate their ability to meet user needs."
 cache: true
+article: true
+excerpt: "Anything people use needs to be tested by users. This is in addition to functional <em>does it work?</em> testing. Product commissioners can procure better products by avoiding long, functional check list requests for proposal and doing some user research first. Make providers demonstrate their ability to meet user needs."
 ---
 
 Products work successfully on two levels. Firstly, they function correctly, so when you perform action A expected effect B takes place every time. Anybody can test whether something is working in this way; in fact, we often use machines to do this kind of testing. The results are objective: the product either works under certain conditions, or it doesn't. You don't need product users to do this testing: the developers can (and should) do it. Let's call it _functional testing_.
