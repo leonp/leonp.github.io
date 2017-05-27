@@ -5,7 +5,8 @@ description: Since 2008.
 cache: true
 ---
 
-{% assign posts = site.posts %}
+{% assign posts = site.posts | where_exp: "article",
+"article != true" %}
 
 {% for post in posts %}
 
