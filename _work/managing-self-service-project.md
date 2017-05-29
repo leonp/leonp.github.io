@@ -2,12 +2,12 @@
 title: Managing a project to design and install library self-service software
 img: mvp.jpg
 alt: A board with post-its of product features sorted into categories
-excerpt: "I conceived a new library self-service system, commissioned and helped run a design sprint exploring ideas and managed the project from start to finish."
+excerpt: "I conceived a new library self-service system, commissioned and helped run a feasibility and design sprint, and managed the project from start to finish."
 ---
 
 ## Overview
 
-I conceived a new library self-service system, commissioned and help run a design sprint exploring ideas and managed the project from start to finish.
+I conceived, managed and implemented a project to replace self-service machines throughout Suffolk's 44 libraries. The project had a small, fluid budget and tight development and implementation deadline.
 
 ## Background
 
@@ -38,11 +38,11 @@ The obvious solution to our problem was a website. This offers several advantage
 - You don’t have to update any client software: update the website and all instances are update
 - Responsive design means it’s easy to scale your software to any screen
 
-So what form would this website take? Would it be viable? What should we be looking for? I decided to run a design sprint to find out.
+I felt strongly this was a good idea, but would it be viable? If so, what form would it take? What should we be looking for? I decided to run a sprint to find out.
 
-## Research phase: A design sprint
+## Research phase: A feasibility, study and design sprint
 
-I chose one of the best digital agencies in the UK to carry out some research into what a web app might do, and look like.
+I chose one of the most respected digital agencies in the UK to carry out some research into what a web app might do, and look like.
 
 I worked with [Clearleft](https://clearleft.com/) over a week, interviewing staff and customers, investigating the feasibility and technical aspects of our proposed approach. We did lots of different activities, some structured, some more free form.
 
@@ -51,7 +51,7 @@ At the end of the week we had:
 - A detailed report
 - Web app mock ups
 
-We’d use these for the next phase of the project.
+We’d use in the procurement and development phases in the project, saving us time and money later down the road.
 
 Read more: [A 5 day sprint with Clear Left exploring library self-service machine software](/2016/02/5-day-sprint-clear-left-self-service/)
 
@@ -72,11 +72,11 @@ Read more: [Build user requirements into your requests for proposal and avoid lo
 
 ## Development phase
 
-Having carried out a research phase and armed with an app mock up, I felt we could jump straight into developing our app at last.
+Having carried out a research phase and armed with an app mock up, I felt we could jump straight into developing our app. This was important as we were working to a five month deadline.
 
-We’re following a sprint methodology, which consists of agreeing work, doing it over two weeks, reviewing it and then agreeing a new sprint. It means we can change ideas that don’t work relatively easy, and re-prioritse features &#8211; we only have a finite amount of money and time.
+We followed a sprint methodology, which consisted of agreeing work, doing it over two weeks, reviewing it and then agreeing a new sprint. It meant we could change ideas that didn't work relatively easy, and re-prioritse features &#8211; we only had a limited amount of money and time.
 
-I test our prototypes regularly on customers. I’ve also installed kiosks running our web app in four ‘beta’ libraries to get some real, scary feedback.
+I tested our prototypes regularly on customers. I also installed kiosks running our web app in four ‘beta’ libraries to get some real feedback.
 
 ## Summary
 
@@ -87,5 +87,6 @@ Commissioning our own web app has several advantages:
 - Flexibility to create kiosks in different ways
 - Product ownership
 - Easier to manage and deploy
+- LMS vendors have expressed an interest in selling the product to other library services, opening up a possible source of income
 
-However, there are some disadvantages. Firstly, running a project like this involves a lot of work; it’s a lot easier to buy an off the shelf product. However, libraries should be looking to [improve library user interfaces](/2015/12/kill-the-lms-future-digital-experience/), and sometimes that means getting things done ourselves.
+Running a project like this involves a lot of work; it’s a lot easier to buy an off the shelf product. However, libraries should be looking to [improve library user interfaces](/2015/12/kill-the-lms-future-digital-experience/), and sometimes that means getting things done ourselves.

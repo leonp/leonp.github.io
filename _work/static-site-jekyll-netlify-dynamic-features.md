@@ -2,12 +2,12 @@
 title: Developing a static library website using Jekyll, Netlify and Zapier
 img: ss-slaughter.jpg
 alt: A screenshot of events from the Suffolk Libraries website
-excerpt: "I migrated the Suffolk Libraries website from a WordPress backend using a theme built on the Foundation framework to a static website built on Jekyll and hosted by Netlify. The site is faster, more stable and more secure, yet it still handles dynamic features such as events and forms."
+excerpt: "I migrated the Suffolk Libraries website from a WordPress backend using a theme built on the Foundation framework. We moved to a static website built on Jekyll and hosted by Netlify. The site is faster, more stable and more secure, yet it still handles dynamic features such as events and forms."
 ---
 
 ## Overview
 
-I migrated the [Suffolk Libraries website](https://www.suffolklibraries.co.uk) from a WordPress backend using a theme built on the [Foundation framework](http://foundation.zurb.com/) to a static, website built on [Jekyll](https://jekyllrb.com) and hosted by [Netlify](https://www.netlify.com). The site is [faster](https://tools.pingdom.com/#!/bKE8SD/https://www.suffolklibraries.co.uk/), more stable and more secure, yet it still handles dynamic features such as events and forms.
+I migrated the [Suffolk Libraries website](https://www.suffolklibraries.co.uk) from a WordPress backend using a theme built on the [Foundation framework](http://foundation.zurb.com/). We moved to a static website built on [Jekyll](https://jekyllrb.com) and hosted by [Netlify](https://www.netlify.com). The site is [faster](https://tools.pingdom.com/#!/bKE8SD/https://www.suffolklibraries.co.uk/), more stable and more secure, yet it still handles dynamic features such as events and forms.
 
 ## Benefits (the why)
 
@@ -17,15 +17,15 @@ At the same time I’d started to use Jekyll, a static site generator that build
 
 ## Process (the how)
 
-I exported content from WordPress into Markdown files using a Jekyll plugin. With our content in an open, convertable format, the work could begin.
+I exported content from WordPress into [Markdown](https://en.wikipedia.org/wiki/Markdown) files using a Jekyll plugin. With our content in an open, convertible format, the work could begin.
 
 ### HTML and CSS
 
-Jekyll has a SASS workflow built in, which I use to write `scss` partials. I use Bundler to keep all our Ruby dependencies in shape.
+Jekyll has a [SASS](http://sass-lang.com/) workflow built in, which I use to write `scss` partials. I use [Bundler](http://bundler.io/) to keep all our Ruby dependencies in shape.
 
-I also moved from the overly-opinionated Foundation framework to a more modular library called Tachyons. Tachyons just does CSS, and avoids building complex modules such as cards and call-outs. Instead, it takes a low level, ‘atomic’ approach: classes mostly map to single CSS properties, so the `db` class is `display: block`.
+I also moved from the overly-opinionated Foundation framework to a more modular library called [Tachyons](http://bundler.io/). Tachyons just does CSS, and avoids building complex modules such as cards and call-outs. Instead, it takes a low level, ‘atomic’ approach: classes mostly map to single CSS properties, so the `db` class is `display: block`.
 
-This approach results in faster, easier to manage CSS. You can read HTML and tell exactly what the classes are doing. It’s also small and fast, weighing in at around 14k minimised.
+This approach results in faster, easier to manage CSS. You can read HTML and tell exactly what the classes are doing. It’s also small and fast, weighing in at around 14k minimised: there's no redundant javascript slowing things down.
 
 Read more:
 
@@ -35,15 +35,15 @@ Read more:
 
 ### Dynamic features
 
-Most library content doesn’t change over time, and edits are relatively simple. A library might change its opening hours, which we could reflect by editing a Markdown file.
+Most library content doesn’t change over time, and edits are relatively simple. A library might change its opening hours, which we could reflect by editing a Markdown file and pushing it to [Github](https://github.com).
 
 However, some content is more dynamic. For example, our libraries run dozens of events every week, but we don’t want them appearing on the website once they’ve passed. Implementing dynamic features requires some lateral thinking, and some automation on your server.
 
 Read [Coding one off and recurrent events in Jekyll](/2016/07/jekyll-events-static-site-libraries/) to see how I got the site to display events based on time.
 
-The automation is handled by our host, Netlify, which specialises in static sites. Netlify has a smart API which works with Zapier to do all sorts of clever things, including firing site build requests early in the morning to update all our dynamic content.
+The automation is handled by our host, Netlify, which specialises in static sites. Netlify has a smart API which works with [Zapier](https://zapier.com) to do all sorts of clever things, including firing site build requests early in the morning to update all our dynamic content.
 
-The Netlify Zapier connection also enables us to do all sorts of other clever things you’d normally expect from a dynamically hosted site. For example, we can send form submissions to Google Sheets, and automate email replies.
+The Netlify Zapier connection also offers other features you’d normally only expect from a dynamically hosted site. For example, we can send form submissions to Google Sheets, and automate email replies, without hosting SMTP scripts or databases.
 
 ### A sane workflow
 

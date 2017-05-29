@@ -18,7 +18,7 @@
 
                 <a href="/"><img src="/images/lp.jpg" alt="Leon Paternoster" class="bw2 db center mw2 mb2 h-auto br-100 ba b--blue grow"></a>
 
-                <h1 class="f5 f4-l ma0 pb2 pb3-l mb2 mb3-l tc ph2 ph4-l"><a href="/" class="black no-underline hover-dark-pink">{{ site.title }}</a></h1>
+                <h1 class="f5 f4-l ma0 pb2 pb3-l mb2 mb3-l tc ph2 ph4-l"><a href="/" class="black no-underline hover-dark-red">{{ site.title }}</a></h1>
 
                 <nav id="nav" class="f6 f5-l center tc bb bt pv3 pv4-l b--light-gray ph2 ph4-l">
 
@@ -30,7 +30,7 @@
 
                         {% if nav.nav-weight %}
 
-                        <li class="dib mh2 mh4-l"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="dib pv2 pv0-l no-underline black hover-black b"{% else %}class="dib pv2 pv0-l no-underline gray hover-black"{% endif %}>{{ nav.title }}</a></li>
+                        <li class="dib mh2 mh4-l"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="dib pv2 pv0-l no-underline black hover-dark-red b"{% else %}class="dib pv2 pv0-l no-underline gray hover-dark-red"{% endif %}>{{ nav.title }}</a></li>
 
                         {% endif %}
 
