@@ -7,7 +7,7 @@ excerpt: "I conceived a new library self-service system, commissioned and helped
 
 ## Overview
 
-I conceived, managed and implemented a project to replace self-service machines throughout Suffolk's 44 libraries. The project had a small, fluid budget and tight development and implementation deadline.
+I conceived, managed and implemented a project to replace self-service machines throughout Suffolk's 44 libraries. We built an innovative, web based system using the latest offline techniques. The project had a small, fluid budget and tight development and implementation deadline.
 
 ## Background
 
@@ -18,7 +18,7 @@ In 2015 Suffolk Libraries began to think about replacing its aging self-service 
 - Support was expensive and variable, provided by a 3rd party
 - The machines were dated: large, ugly and not particularly easy to use
 
-The IT team looked at using existing replacements, but found them unsatisfactory:
+We looked at using existing replacements, but found them unsatisfactory:
 
 - They all ran on Windows clients, meaning we’d have to update and manage the software on dozens of kiosks
 - The providers made us buy both the software and the hardware
@@ -40,7 +40,7 @@ The obvious solution to our problem was a website. This offers several advantage
 
 I felt strongly this was a good idea, but would it be viable? If so, what form would it take? What should we be looking for? I decided to run a sprint to find out.
 
-## Research phase: A feasibility, study and design sprint
+## Research phase: A feasibility study and design sprint
 
 I chose one of the most respected digital agencies in the UK to carry out some research into what a web app might do, and look like.
 
@@ -51,7 +51,10 @@ At the end of the week we had:
 - A detailed report
 - Web app mock ups
 
-We’d use in the procurement and development phases in the project, saving us time and money later down the road.
+We’d use these later in the project:
+
+- The report formed the basis of our request for proposal and helped define what the app would do, and how
+- We used the mock ups in the development phase, saving design work later
 
 Read more: [A 5 day sprint with Clear Left exploring library self-service machine software](/2016/02/5-day-sprint-clear-left-self-service/)
 
@@ -76,7 +79,7 @@ Having carried out a research phase and armed with an app mock up, I felt we cou
 
 We followed a sprint methodology, which consisted of agreeing work, doing it over two weeks, reviewing it and then agreeing a new sprint. It meant we could change ideas that didn't work relatively easy, and re-prioritse features &#8211; we only had a limited amount of money and time.
 
-I tested our prototypes regularly on customers. I also installed kiosks running our web app in four ‘beta’ libraries to get some real feedback.
+I tested our prototypes regularly on customers. I also installed kiosks running our web app in four ‘beta’ libraries to get some real feedback over a two month period.
 
 ## Summary
 
