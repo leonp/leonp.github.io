@@ -13,7 +13,7 @@ So Labour wasn’t destroyed and [the Tories failed to even get a parliamentary 
 
 So why did some of us in the Labour party take so long to back Corbyn?
 
-I voted David Miliband for party leader in 2010, then Yvette Cooper over Jeremy Corbyn in the 2015, and even abstained when the profoundly useless Owen Smith made his 2016 challenge. Since 2015 I’ve maintained an odd, contradictory _[I like the policies but he’s the wrong leader](/2015/11/overcoming-labour/)_ line on Corbyn.
+I voted David Miliband for party leader in 2010, then Yvette Cooper over Jeremy Corbyn in 2015, and even abstained when the profoundly useless Owen Smith made his 2016 challenge. Since 2015 I’ve maintained an odd, contradictory _[I like the policies but he’s the wrong leader](/2015/11/overcoming-labour/)_ line on Corbyn.
 
 The answer probably lies in my age. I grew up in Thatcher’s Britain, a nasty, bigoted place, especially for someone in what was termed a _single parent family_. The Tories ruled from 1979 to 1997, even somehow winning the 1992 election after the [Poll Tax riots](https://en.wikipedia.org/wiki/Poll_tax_riots) (the first I ever voted in — for Chris Mullin in Sunderland South, if you’re interested). Britain seemed a fundamentally, permanently Conservative nation.
 
