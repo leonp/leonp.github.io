@@ -3,6 +3,7 @@ title: Developing a static library website using Jekyll, Netlify and Zapier
 img: ss-slaughter.jpg
 alt: A screenshot of events from the Suffolk Libraries website
 excerpt: "I migrated the Suffolk Libraries website from a WordPress backend using a theme built on the Foundation framework. We moved to a static website built on Jekyll and hosted by Netlify. The site is faster, more stable and more secure, yet it still handles dynamic features such as events and forms."
+summary: "I migrated the Suffolk Libraries website from a WordPress backend using a theme built on the Foundation framework. We moved to a static website built on Jekyll and hosted by Netlify. The site is faster, more stable and more secure, yet it still handles dynamic features such as events and forms."
 ---
 
 ## Overview

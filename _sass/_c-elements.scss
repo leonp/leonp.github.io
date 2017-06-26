@@ -2,15 +2,12 @@
 
 body {
 
-    font-size: 112.5%;
+    font-size: 106.75%;
 
-    @media screen and (min-width: 600px), projection and (min-width: 600px) {
-        font-size: 118.75%;
+    @media screen and (min-width: 960px), projection and (min-width: 600px) {
+        font-size: 112.5%;
     }
 
-    @media screen and (min-width: 960px), projection and (min-width: 960px) {
-        font-size: 137.5%;
-    }
 }
 
 a {
@@ -19,7 +16,7 @@ a {
 }
 
 a:hover {
-    color: #E7040F;
+    color: #D5008F; /* Dark pink */
 }
 
 h1,

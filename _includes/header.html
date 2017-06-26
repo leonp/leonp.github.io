@@ -10,31 +10,31 @@
 
     </head>
 
-    <body class="c-sans-serif dark-gray bg-white pa0 ma0">
+    <body class="bg-near-white dark-gray c-sans-serif lh-copy ma0 pa0">
 
         {% include /header/skip-links.html %}
 
-            <header class="pt3 pt4-l">
+        <div class="c-measure-wider bg-white ba-l b--light-gray center mv4 pv4">
 
-                <a href="/"><img src="/images/lp.jpg" alt="Leon Paternoster" class="bw2 db center mw2 mb2 h-auto br-100 ba b--blue grow"></a>
+            <nav class="c-no-print c-measure-wider bg-white center pb3 bb b--light-gray">
 
-                <h1 class="f5 f4-l ma0 pb2 pb3-l mb2 mb3-l tc ph2 ph4-l"><a href="/" class="black no-underline hover-dark-red">{{ site.title }}</a></h1>
+                <div class="ph3 ph5-m ph6-l">
 
-                <nav id="nav" class="f6 f5-l center tc bb bt pv3 pv4-l b--light-gray ph2 ph4-l">
+                    <ul class="list pa0 ma0 f6">
 
-                    <ul class="list ma0 pa0">
+                        <li class="dib mr2 mr3-ns"><a href="#"><img class="mw2 h-auto br-100 grow v-mid ba bw2 br-100 b--blue" src="/images/leon-7.jpg" alt="Leon Paternoster"></a></li>
 
-                    {% assign nav-pages = site.pages | sort: "nav-weight" %}
+                        {% assign nav-pages = site.pages | sort: "nav-weight" %}
 
-                    {% for nav in nav-pages %}
+                        {% for nav in nav-pages %}
 
                         {% if nav.nav-weight %}
 
-                        <li class="dib mh2 mh4-l"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="dib pv2 pv0-l no-underline black hover-dark-red b"{% else %}class="dib pv2 pv0-l no-underline gray hover-dark-red"{% endif %}>{{ nav.title }}</a></li>
+                        <li class="dib mh1 mh4-l"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="dib pv2 pv0-l no-underline black hover-black"{% else %}class="dib pv2 pv0-l no-underline gray hover-black"{% endif %}>{{ nav.title }}</a></li>
 
                         {% endif %}
 
-                    {% endfor %}
+                        {% endfor %}
 
                     </ul>
 
@@ -42,4 +42,4 @@
 
             </header>
 
-            <main id="content" class="pv3 pv4-l bg-washed-yellow">
+            <main id="content">

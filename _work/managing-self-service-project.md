@@ -3,6 +3,7 @@ title: Managing a project to design and install library self-service software
 img: mvp.jpg
 alt: A board with post-its of product features sorted into categories
 excerpt: "I conceived a new library self-service system, commissioned and helped run a feasibility and design sprint, and managed the project from start to finish."
+summary: "I conceived a new library self-service system, commissioned and helped run a feasibility and design sprint, and managed the project from start to finish."
 ---
 
 ## Overview
