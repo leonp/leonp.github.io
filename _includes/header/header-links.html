@@ -1,4 +1,4 @@
-<link rel="manifest" href="manifest.json"></link>
+<link rel="manifest" href="/manifest.json"></link>
 
 <script>
 if (navigator.serviceWorker.controller) {
@@ -6,7 +6,7 @@ if (navigator.serviceWorker.controller) {
 } else {
 
 //Register the ServiceWorker
-  navigator.serviceWorker.register('pwabuilder-sw.js', {
+  navigator.serviceWorker.register('/pwabuilder-sw.js', {
     scope: './'
   }).then(function(reg) {
     console.log('Service worker has been registered for scope:'+ reg.scope);
@@ -60,7 +60,7 @@ var returnFromCache = function(request){
   return caches.open('pwabuilder-offline').then(function (cache) {
     return cache.match(request).then(function (matching) {
      if(!matching || matching.status == 404) {
-       return cache.match('/offline.html')
+       return cache.match('offline.html')
      } else {
        return matching
      }
