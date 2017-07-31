@@ -6,6 +6,8 @@ nav-weight: 3
 cache: true
 ---
 
+<ul class="ma0 pa0 mb3 mb4-l list f6">
+
 {% assign posts = site.posts | where: "article", "true" %}
 
 {% for post in posts %}
@@ -13,3 +15,5 @@ cache: true
 	{% include article-list-item.html %}
 
 {% endfor %}
+
+</ul>

@@ -4,9 +4,17 @@ title: Work
 nav-weight: 2
 ---
 
-{% for work in site.work %}
+<ul class="ma0 pa0 mb3 mb4-l list f6">
 
-<article class="pb3 pb4-l">
+    {% for work in site.work %}
+
+    <li class="pb2 pb1-l"><a class="dark-gray hover-dark-pink" href="{{ work.url }}">{{ work.title }}</a></li>
+
+    {% endfor %}
+
+</ul>
+
+<!-- <article class="pb3 pb4-l">
 
     <div class="c-sans-serif">
 
@@ -18,6 +26,4 @@ nav-weight: 2
 
     <p>{{ work.excerpt }}</p>
 
-</article>
-
-{% endfor %}
+</article> -->

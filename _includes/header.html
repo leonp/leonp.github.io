@@ -10,36 +10,32 @@
 
     </head>
 
-    <body class="bg-near-white dark-gray c-sans-serif lh-copy ma0 pa0">
+    <body class="c-alda ma0 pb1 pb2-ns bg-white dark-gray lh-copy">
 
         {% include /header/skip-links.html %}
 
-        <div class="c-measure-wider bg-white center mv1 pv2 mv3-m pv3-m mv4-l pv4-l">
+        <div class="ph3 ph4-ns pv2 bb b--light-gray">
 
-            <nav class="c-no-print c-measure-wider bg-white center pb3 bb b--light-gray">
+            <nav class="measure center ma0 pa0">
 
-                <div class="ph3 ph5-m ph6-l">
+                <ul class="ma0 pa0 list f6 f7-l">
 
-                    <ul class="list pa0 ma0 f6">
+                    {% assign nav-pages = site.pages | sort: "nav-weight" %}
 
-                        <li class="dib mr2 mr3-ns"><a href="/"><img class="mw2 h-auto br-100 grow v-mid ba bw2 br-100 b--blue" src="/images/leon-7.jpg" alt="Leon Paternoster"></a></li>
+                    {% for nav in nav-pages %}
 
-                        {% assign nav-pages = site.pages | sort: "nav-weight" %}
+                    {% if nav.nav-weight %}
 
-                        {% for nav in nav-pages %}
+                    <li class="dib mr3"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="black hover-dark-pink"{% else %}class="c-aim-gray hover-dark-pink pv1 pv0-l"{% endif %}>{{ nav.title }}</a></li>
 
-                        {% if nav.nav-weight %}
+                    {% endif %}
 
-                        <li class="dib mh1 mh4-l"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="dib pv2 pv0-l no-underline black hover-black"{% else %}class="dib pv2 pv0-l no-underline gray hover-black"{% endif %}>{{ nav.title }}</a></li>
+                    {% endfor %}
 
-                        {% endif %}
-
-                        {% endfor %}
-
-                    </ul>
-
-                </div>
+                </ul>
 
             </nav>
 
-            <main id="content">
+        </div>
+
+        <main id="content" class="ph3 ph4-ns">
