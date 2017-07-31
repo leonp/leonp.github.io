@@ -10,7 +10,7 @@
 
     {% endif %}
 
-    <div class="{% if page.is_post or page.is_work %}c-prose-h c-prose-link-colours c-prose-link-ul c-hyphens {% endif %}">
+    <div class="{% if page.is_post or page.is_work or page.is_page %}c-prose-h c-prose-link-colours c-prose-link-ul c-hyphens {% endif %}">
 
         {{ content }}
 

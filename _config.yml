@@ -38,6 +38,14 @@ defaults:
         is_work: true
         layout: default
 
+-
+    scope:
+        path: ""
+        type: pages
+    values:
+        is_page: true
+        layout: default
+
 
 # Collections
 collections:
