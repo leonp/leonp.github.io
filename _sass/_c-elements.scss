@@ -5,7 +5,7 @@ html {
     font-size: 118.75%;
 
     @media screen and (min-width: 800px), projection and (min-width: 800px) {
-        font-size: 150%;
+        font-size: 137.5%;
     }
 
 }
@@ -25,6 +25,8 @@ figure {
 
 figcaption {
     font-size: 0.875rem;
+    margin: 0;
+    padding: 0;
 }
 
 abbr {

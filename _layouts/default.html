@@ -2,7 +2,7 @@
 
 <article class="measure center pt4 pt5-ns pb3">
 
-    <h1 class="f3 ma0 mb3 i normal black lh-title">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
+    <h1 class="f3 f2-ns ma0 mb3 sans-serif lh-title">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
 
     {% if page.img %}
 
@@ -20,7 +20,7 @@
 
         {% if page.is_post %}
 
-        <p class="f6 i">&#8212; <time>{{ page.date | date: "%b %-d,  %Y" }}</time></p>
+        <p class="f7 sans-serif">&#8212; <time>{{ page.date | date: "%b %-d,  %Y" }}</time></p>
 
         <!-- <span class="c-no-print"> &middot; {% if page.article %}An <a href="/articles/" class="b">article</a>{% else %}A <a href="/blog/" class="b">note</a> {% endif %}{% if page.review-title %}and a <a class="b" href="/reading/">review</a>{% endif %} filed under <a href="/blog/{{ page.category }}/" class="b">{{ page.category }}</a></span></p> -->
 

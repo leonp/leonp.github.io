@@ -4,6 +4,10 @@
     font-family: alda, georgia, serif;
 }
 
+.c-charter {
+    font-family: charter, 'ITC charter', 'Bitstream Charter', georgia, serif;
+}
+
 .c-dashed-list li:before {
     content: '- ';
 }
@@ -49,12 +53,17 @@
 .c-prose-h h6,
 .c-prose-h dt {
     line-height: 1.2;
-    font-style: italic;
     color: #666;
-    font-weight: normal;
     margin: 0;
     padding: 1rem 0 0 0;
     font-size: 1.25rem;
+    font-family: -apple-system, BlinkMacSystemFont,
+               'avenir next', avenir,
+               'helvetica neue', helvetica,
+               ubuntu,
+               roboto, noto,
+               'segoe ui', arial,
+               sans-serif;
 }
 
 .c-prose-h h3,
