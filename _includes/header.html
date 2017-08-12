@@ -10,13 +10,13 @@
 
     </head>
 
-    <body class="c-charter ma0 pb1 pb2-ns bg-near-white dark-gray lh-copy">
+    <body class="sans-serif ma0 pb1 pb2-ns bg-white dark-gray lh-copy">
 
         {% include /header/skip-links.html %}
 
         <div class="ph3 ph4-ns pv2 bg-white bb b--light-gray">
 
-            <nav class="sans-serif measure center ma0 pa0">
+            <nav class="sans-serif measure ma0 pa0">
 
                 <ul class="ma0 pa0 list f7">
 
@@ -26,7 +26,7 @@
 
                     {% if nav.nav-weight %}
 
-                    <li class="dib mr3"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="black hover-dark-pink"{% else %}class="c-aim-gray hover-dark-pink pv1 pv0-l"{% endif %}>{{ nav.title }}</a></li>
+                    <li class="dib mr3"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="black hover-dark-pink"{% else %}class="dark-blue hover-dark-pink pv1 pv0-l"{% endif %}>{{ nav.title }}</a></li>
 
                     {% endif %}
 
