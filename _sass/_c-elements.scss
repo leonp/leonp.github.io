@@ -1,13 +1,7 @@
 @media screen, projection {
 
 html {
-
     font-size: 106.75%;
-
-    @media screen and (min-width: 800px), projection and (min-width: 800px) {
-        font-size: 118.75%;
-    }
-
 }
 
 a {

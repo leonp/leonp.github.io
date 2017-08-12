@@ -22,7 +22,7 @@ alt: Leon Paternoster (by Esme Paternoster)
 
     <ul>
 
-        <li>A <strong>static site</strong> generator such as <a href="https://jekyllrb.com">Jekyll</a>. No database = <span role="image" description="A lightinging bolt indicating speed">⚡️</span> fast, rock solid and impregnable websites.</li>
+        <li>A <strong>static site</strong> generator such as <a href="https://jekyllrb.com">Jekyll</a>. No database = <span role="img" aria-label="Lightning bolt">>⚡️</span> fast, rock solid and impregnable websites.</li>
         <li><strong>Secure</strong> (as in <code>https</code> everywhere by default) hosting that integrates well with Github and APIs to provide dynamic features such as forms, events and automatic deploys (e.g. <a href="https://www.netlify.com">Netlify</a>)</li>
         <li><strong>Functional CSS</strong>, such as <a href="http://tachyons.io">Tachyons</a></li>
 

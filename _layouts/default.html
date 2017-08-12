@@ -1,38 +1,30 @@
 {% include header.html %}
 
-<article class="measure-wide pt4 pt5-ns pb3">
+<article>
 
-    <h1 class="f3 f2-ns ma0 mb3 sans-serif lh-title">{% if page.display-title %}{{ page.display-title }}{% else %}{{ page.title }}{% endif %}</h1>
+    <header class="bg-washed-blue lh-title ph2 ph4-ns ph5-l pv3 pv5-l">
 
-    {% if page.img %}
+        <div class="c-wrapper center">
 
-        <img class="db center" src="/images/{{ page.img }}" alt="{{ page.alt }}">
+            <h1 class="f3 f1-l ma0 measure-narrow">{{ page.title }}</h1>
 
-    {% endif %}
+        </div>
 
-    <div class="{% if page.is_post or page.is_work or page.is_page %}c-prose-h c-prose-link-colours c-prose-link-ul c-hyphens {% endif %}">
+    </header>
 
-        {{ content }}
+    <div class="ph2 ph4-ns ph5-l pv3 bg-white bt b--light-gray">
+
+        <div class="c-wrapper center">
+
+            <div class="f4-l c-prose-measure georgia c-hyphens">
+
+                {{ content }}
+
+            </div>
+
+        </div>
 
     </div>
-
-    <footer>
-
-        {% if page.is_post %}
-
-        <p class="f7 sans-serif">&#8212; <time>{{ page.date | date: "%b %-d,  %Y" }}</time></p>
-
-        <!-- <span class="c-no-print"> &middot; {% if page.article %}An <a href="/articles/" class="b">article</a>{% else %}A <a href="/blog/" class="b">note</a> {% endif %}{% if page.review-title %}and a <a class="b" href="/reading/">review</a>{% endif %} filed under <a href="/blog/{{ page.category }}/" class="b">{{ page.category }}</a></span></p> -->
-
-        {% endif %}
-
-        <!-- {% if page.is_work %}
-
-        <p class="gray ma0">(See more <a class="b" href="/work/">work case studies</a> &rarr;)</p>
-
-        {% endif %} -->
-
-    </footer>
 
 </article>
 

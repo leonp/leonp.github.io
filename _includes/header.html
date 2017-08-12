@@ -4,38 +4,24 @@
 
     <head>
 
-        {% include /header/header-meta.html %}
+        {% include header-meta.html %}
 
-        {% include /header/header-links.html %}
+        {% include header-links.html %}
 
     </head>
 
-    <body class="bg-washed-yellow georgia sans-serif ma0 pb1 pb2-ns bg-white dark-gray lh-copy">
+    <body class="ma0 pa0 bg-white dark-gray sans-serif lh-copy">
 
-        {% include /header/skip-links.html %}
+        {% include skip-links.html %}
 
-        <div class="ph3 ph4-ns pv2 bg-white bb b--light-gray">
+        {% if page.url != '/' %}
 
-            <nav class="sans-serif measure-wide ma0 pa0">
+            {% include nav.html %}
 
-                <ul class="ma0 pa0 list f7">
+        {% else %}
 
-                    {% assign nav-pages = site.pages | sort: "nav-weight" %}
+            {% include header-home.html %}
 
-                    {% for nav in nav-pages %}
+        {% endif %}
 
-                    {% if nav.nav-weight %}
-
-                    <li class="dib mr3 pv1 pv0-l"><a href="{{ nav.url }}" {% if nav.url == page.url %} class="black hover-dark-pink pv1 pv0-l"{% else %}class="dark-blue hover-dark-pink pv1 pv0-l"{% endif %}>{{ nav.title }}</a></li>
-
-                    {% endif %}
-
-                    {% endfor %}
-
-                </ul>
-
-            </nav>
-
-        </div>
-
-        <main id="content" class="ph3 ph4-ns">
+        <main id="content">

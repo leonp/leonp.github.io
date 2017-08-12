@@ -1,0 +1,33 @@
+{% include header.html %}
+
+<article>
+
+    <header class="lh-title ph2 ph4-ns ph5-l pt3">
+
+        <div class="c-wrapper center">
+
+            <h1 class="lh-title f3 f2-l ma0 measure-narrow">Build user requirements into your requests for proposal and avoid long functional check lists</h1>
+
+            <p class="mb0"><time>{{ page.date | date: "%b %-d,  %Y" }}</time></p>
+
+        </div>
+
+    </header>
+
+    <div class="ph2 ph4-ns ph5-l pt2 bg-white">
+
+        <div class="c-wrapper center">
+
+            <div class="f4-l c-prose-measure georgia c-hyphens">
+
+                {{ content }}
+
+            </div>
+
+        </div>
+
+    </div>
+
+</article>
+
+{% include footer.html %}

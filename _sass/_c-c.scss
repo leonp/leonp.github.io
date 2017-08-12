@@ -1,13 +1,5 @@
 @media screen, projection {
 
-.c-alda {
-    font-family: alda, georgia, serif;
-}
-
-.c-charter {
-    font-family: charter, 'ITC charter', 'Bitstream Charter', georgia, serif;
-}
-
 .c-dashed-list li:before {
     content: '- ';
 }
@@ -25,6 +17,16 @@
 
 .c-aim-gray {
     color: #666;
+}
+
+.c-prose-measure * {
+    max-width: 30em;
+}
+
+.c-prose-measure img,
+.c-prose-measure figure {
+    max-width: 100% !important;
+    height: auto !important;
 }
 
 .c-prose-link-colours a:link {
@@ -74,6 +76,10 @@
 .c-prose-h h5,
 .c-prose-h h6 {
     font-size: 1rem;
+}
+
+.c-wrapper {
+    max-width: 60em;
 }
 
 }
