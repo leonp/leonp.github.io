@@ -2,21 +2,49 @@
 
 <article>
 
+    {% if page.featured or page.is_page %}
+
     <header class="bg-washed-blue lh-title ph2 ph4-ns ph5-l pv3 pv5-l">
 
         <div class="c-wrapper center">
 
             <h1 class="f3 f1-l ma0 measure-narrow">{{ page.title }}</h1>
 
+            {% if page.is_post %}
+
+            <p class="mb0 f6 f5-l"><time>{{ page.date | date: "%b %-d,  %Y" }}</time></p>
+
+            {% endif %}
+
         </div>
 
     </header>
+
+    {% else %}
+
+    <header class="lh-title ph2 ph4-ns ph5-l pt3">
+
+        <div class="c-wrapper center">
+
+            <h1 class="f3 f2-l ma0 measure-narrow">{{ page.title }}</h1>
+
+            {% if page.is_post %}
+
+            <p class="mb0 f6 f5-l"><time>{{ page.date | date: "%b %-d,  %Y" }}</time></p>
+
+            {% endif %}
+
+        </div>
+
+    </header>
+
+    {% endif %}
 
     <div class="ph2 ph4-ns ph5-l pv3 bg-white bt b--light-gray">
 
         <div class="c-wrapper center">
 
-            <div class="f4-l c-prose-measure georgia c-hyphens">
+            <div class="f4-l c-prose-measure georgia c-hyphens c-prose-h c-prose-link-colours c-prose-link-ul">
 
                 {{ content }}
 

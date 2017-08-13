@@ -13,7 +13,7 @@ excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and 
 
         <div class="dt-l w-100-l">
 
-            <a href="#" class="db bg-near-white dark-blue pa2 pv3 pa4-ns dtc-l w-50-l br-l bw3-l b--white mb2 mb0-l light-gray no-underline hover-bg-dark-pink hover-white">
+            <a href="#" class="db bg-navy near-white pa2 pv3 pa4-ns dtc-l w-50-l mb2 mb0-l no-underline hover-white grow">
 
                 <article>
 
@@ -25,7 +25,7 @@ excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and 
 
             </a>
 
-            <a class="db bg-near-white dark-blue pa2 pv3 pa4-ns dtc-l w-50-l bl-l bw3-l b--white light-gray no-underline hover-bg-dark-pink hover-white" href="#">
+            <a class="db bg-dark-pink near-white pa2 pv3 pa4-ns dtc-l w-50-l light-gray no-underline hover-white grow" href="#">
 
                 <article>
 
@@ -43,129 +43,21 @@ excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and 
 
 </section>
 
-<section class="bg-navy white ph2 ph4-ns ph5-l pv3 pv4-ns bt b--light-gray lh-title">
-
-    <div class="c-wrapper center">
-
-        <h1 class="f5 f4-ns ma0 mb2 mb3-ns">Articles</h1>
-
-        <ul class="ma0 pa0 list b">
-
-            <li class="measure pb3 pb4-ns f4 f3-ns"><a class="no-underline lightest-blue hover-white" href="post.html">Measuring success on library websites</a></li>
-
-
-
-
-            <li class="measure pb3 pb4-ns f4 f3-ns"><a class="no-underline lightest-blue hover-white" href="/2017/02/functional-vs-user-testing/">Build user requirements into your requests for proposal and avoid long functional check lists</a></li>
-
-
-
-
-            <li class="measure pb3 pb4-ns f4 f3-ns"><a class="no-underline lightest-blue hover-white" href="/2016/12/getting-started-with-contentful-and-jekyll/">Getting to grips with Contentful and Jekyll</a></li>
-
-
-
-
-            <li class="measure pb3 pb4-ns f4 f3-ns"><a class="no-underline lightest-blue hover-white" href="/2016/07/jekyll-events-static-site-libraries/">Coding one off and recurrent events in Jekyll</a></li>
-
-
-
-
-            <li class="measure pb3 pb4-ns f4 f3-ns"><a class="no-underline lightest-blue hover-white" href="/2016/02/5-day-sprint-clear-left-self-service/">A 5 day sprint with Clear Left exploring library self-service machine software</a></li>
-
-
-
-
-            <li class="measure pb3 pb4-ns f4 f3-ns"><a class="no-underline lightest-blue hover-white" href="/2015/12/kill-the-lms-future-digital-experience/">Kill the LMS – what a modern library digital presence should look like</a></li>
-
-
-
-
-            <li class="measure pb3 pb4-ns f4 f3-ns"><a class="no-underline lightest-blue hover-white" href="/2015/08/case-against-universal-navigation/">The case against universal navigation</a></li>
-
-
-
-
-            <li class="measure pb3 pb4-ns f4 f3-ns"><a class="no-underline lightest-blue hover-white" href="/2015/05/writing-markdown-blogging-guide/">A guide to using Markdown to write blog posts</a></li>
-
-
-
-
-            <li class="measure pb3 pb4-ns f4 f3-ns"><a class="no-underline lightest-blue hover-white" href="/2014/10/separation-better-than-surface-integration-web-strategy/">Separating services is preferable to surface integration (or 3 principles for a web strategy)</a></li>
-
-
-
-
-            <li class="measure pb3 pb4-ns f4 f3-ns"><a class="no-underline lightest-blue hover-white" href="/2013/06/libraries-should-invest-millions-in-search-engines/">Libraries should invest millions in search engines</a></li>
-
-
-
-
-            <li class="measure pb3 pb4-ns f4 f3-ns"><a class="no-underline lightest-blue hover-white" href="/2013/04/carrying-out-a-web-content-audit/">Carrying out a web content audit</a></li>
-
-
-        </ul>
-
-    </div>
-
-</section>
-
 <section class="bg-dark-gray white ph2 ph4-ns ph5-l pv3 pv4-ns bt b--light-gray lh-title">
 
     <div class="c-wrapper center">
 
-        <h1 class="f5 f4-ns ma0 mb2 mb3-ns">Notes</h1>
+        <h1 class="f5 f4-ns ma0 mb2 mb3-ns">Popular blog posts</h1>
 
         <ul class="ma0 pa0 list">
 
-            <li class="measure-narrow pb3 f5 f4-ns"><a class="no-underline lightest-blue hover-white" href="note.html">Measuring success on library websites</a></li>
+            {% assign posts = site.posts | where: "featured", "true" %}
 
-            <li class="measure-narrow pb3 f5 f4-ns"><a class="no-underline lightest-blue hover-white" href="/2017/02/functional-vs-user-testing/">Build user requirements into your requests for proposal and avoid long functional check lists</a></li>
+            {% for post in posts %}
 
+                <li class="measure pb3 pb4-ns f4 f3-ns"><a class="no-underline lightest-blue hover-white" href="{{post.url }}">{{ post.title }}<a></li>
 
-
-
-            <li class="measure-narrow pb3 f5 f4-ns"><a class="no-underline lightest-blue hover-white" href="/2016/12/getting-started-with-contentful-and-jekyll/">Getting to grips with Contentful and Jekyll</a></li>
-
-
-
-
-            <li class="measure-narrow pb3 f5 f4-ns"><a class="no-underline lightest-blue hover-white" href="/2016/07/jekyll-events-static-site-libraries/">Coding one off and recurrent events in Jekyll</a></li>
-
-
-
-
-            <li class="measure-narrow pb3 f5 f4-ns"><a class="no-underline lightest-blue hover-white" href="/2016/02/5-day-sprint-clear-left-self-service/">A 5 day sprint with Clear Left exploring library self-service machine software</a></li>
-
-
-
-
-            <li class="measure-narrow pb3 f5 f4-ns"><a class="no-underline lightest-blue hover-white" href="/2015/12/kill-the-lms-future-digital-experience/">Kill the LMS – what a modern library digital presence should look like</a></li>
-
-
-
-
-            <li class="measure-narrow pb3 f5 f4-ns"><a class="no-underline lightest-blue hover-white" href="/2015/08/case-against-universal-navigation/">The case against universal navigation</a></li>
-
-
-
-
-            <li class="measure-narrow pb3 f5 f4-ns"><a class="no-underline lightest-blue hover-white" href="/2015/05/writing-markdown-blogging-guide/">A guide to using Markdown to write blog posts</a></li>
-
-
-
-
-            <li class="measure-narrow pb3 f5 f4-ns"><a class="no-underline lightest-blue hover-white" href="/2014/10/separation-better-than-surface-integration-web-strategy/">Separating services is preferable to surface integration (or 3 principles for a web strategy)</a></li>
-
-
-
-
-            <li class="measure-narrow pb3 f5 f4-ns"><a class="no-underline lightest-blue hover-white" href="/2013/06/libraries-should-invest-millions-in-search-engines/">Libraries should invest millions in search engines</a></li>
-
-
-
-
-            <li class="measure-narrow pb3 f5 f4-ns"><a class="no-underline lightest-blue hover-white" href="/2013/04/carrying-out-a-web-content-audit/">Carrying out a web content audit</a></li>
+            {% endfor %}
 
 
         </ul>
