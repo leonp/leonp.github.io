@@ -41,7 +41,7 @@ alt: Leon Paternoster (by Esme Paternoster)
 
     <h3>Web strategy</h3>
 
-    <p>I've been interested in, and <a href="/articles">written about</a>, subjects such as <strong>accessibility, design and writing</strong> for nearly a decade. I was there when we won the table wars and <a href="https://en.wikipedia.org/wiki/Browser_wars#Second_Browser_War">Firefox defeated IE6</a>. This experience underpins how my organisations develop, publish and manage any web content.</p>
+    <p>I've been interested in, and <a href="/blog/">written about</a>, subjects such as <strong>accessibility, design and writing</strong> for nearly a decade. I was there when we won the table wars and <a href="https://en.wikipedia.org/wiki/Browser_wars#Second_Browser_War">Firefox defeated IE6</a>. This experience underpins how my organisations develop, publish and manage any web content.</p>
 
     <p>I'll develop <strong>a strategy (complete with document)</strong> that'll answer the following sorts of questions:</p>
 
