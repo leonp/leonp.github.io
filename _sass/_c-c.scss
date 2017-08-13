@@ -29,6 +29,14 @@
     height: auto !important;
 }
 
+.c-prose-measure .constrain,
+.c-prose-measure .vid,
+.c-prose-measure iframe,
+.c-prose-measure object,
+.c-prose-measure embed {
+    max-width: 100% !important;
+}
+
 .c-prose-link-colours a:link {
   color: #00449E;
 }

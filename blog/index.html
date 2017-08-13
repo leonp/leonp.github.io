@@ -1,17 +1,14 @@
 ---
 layout: default
-title: Notes
+title: Blog
 description: Since 2008.
 cache: true
 nav-weight: 6
 ---
 
-{% assign posts = site.posts | where_exp: "article",
-"article != true" %}
+{% for post in site.posts %}
 
-{% for post in posts %}
-
-	{% unless post.article %}
+	{% unless post.article or post.case_study %}
 
 		{% assign currentdate = post.date | date: "%Y" %}
 
@@ -21,7 +18,7 @@ nav-weight: 6
 
 			<h2 class="f4 ma0 pa0 mb3 sans-serif" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
 
-			<ul class="ma0 pa0 mv2 mt0 mb4-l list f6">
+			<ul class="ma0 pa0 mv2 mt0 mb4-l list sans-serif">
 
 			{% assign date = currentdate %}
 
