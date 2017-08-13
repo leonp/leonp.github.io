@@ -23,7 +23,7 @@ var preLoad = function(){
   console.log('[PWA Builder] Install Event processing');
   return caches.open('pwabuilder-offline').then(function(cache) {
     console.log('[PWA Builder] Cached index and offline page during Install');
-    return cache.addAll(['/offline.html', '/index.html', '/work/index.html', '/work/managing-self-service-project/index.html', '/work/static-site-jekyll-netlify-dynamic-features/index.html']);
+    return cache.addAll(['/offline.html', '/index.html', '/blog/index.html', '/about/index.html', '/2016/12/managing-self-service-project/index.html', '/2016/12/static-site-jekyll-netlify-dynamic-features/index.html']);
   });
 }
 

@@ -24,7 +24,12 @@
 }
 
 .c-prose-measure img,
-.c-prose-measure figure {
+.c-prose-measure form,
+.c-prose-measure form *,
+.c-prose-measure section,
+.c-prose-measure figure,
+.c-prose-measure .figcaption,
+.c-prose-measure figure * {
     max-width: 100% !important;
     height: auto !important;
 }

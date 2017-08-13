@@ -6,28 +6,70 @@ cache: true
 nav-weight: 6
 ---
 
-{% for post in site.posts %}
+<section class="pb2 pb3-ns">
 
-	{% unless post.article or post.case_study %}
+	<h1 class="pa0 ma0">Search</h1>
 
-		{% assign currentdate = post.date | date: "%Y" %}
+	<p class="mb1 f6 sans-serif">Results will appear on a Google search page:</p>
 
-		{% if currentdate != date %}
+	<form id="search_from" action="https://www.google.com/search" method="get">
 
-			{% unless forloop.first %}</ul>{% endunless %}
+		<input type="search" class="mb1 mb0-ns sans-serif w-100 w-75-ns pa2 ba b--moon-gray" id="q" name="q">
+		<input type="submit" value="Search" class="pointer sans-serif f4 pa2 bg-blue hover-bg-dark-blue white ba b--moon-gray" alt="search" id="submitbtn">
+		<input name="sitesearch" value="leonpaternoster.com" type="hidden">
 
-			<h2 class="f4 ma0 pa0 mb3 sans-serif" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+	</form>
 
-			<ul class="ma0 pa0 mv2 mt0 mb4-l list sans-serif">
+</section>
 
-			{% assign date = currentdate %}
+<section class="pb2 pb3-ns">
 
-		{% endif %}
+	<h1>Popular articles</h1>
 
-			{% include link-list-item.html %}
+	{% assign posts = site.posts | where: "article", "true" %}
 
-		{% if forloop.last %}</ul>{% endif %}
+	<ul class="pa0 mb4-l list sans-serif">
 
-	{% endunless %}
+	{% for post in posts %}
 
-{% endfor %}
+		{% include link-list-item.html %}
+
+	{% endfor %}
+
+	</ul>
+
+</section>
+
+<section class="pb2 pb3-ns">
+
+	<h1>Every post ever, sorted by date</h1>
+
+	<p>I post mainly about the web, sometimes about libraries, sometimes about both. I also post fairly frequently on politics, philosophy or books or any other subject.</p>
+
+	{% for post in site.posts %}
+
+		{% unless post.case_study %}
+
+			{% assign currentdate = post.date | date: "%Y" %}
+
+			{% if currentdate != date %}
+
+				{% unless forloop.first %}</ul>{% endunless %}
+
+				<h2 class="f4 ma0 pa0 mb3 sans-serif" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+
+				<ul class="ma0 pa0 mv2 mt0 mb4-l list sans-serif">
+
+				{% assign date = currentdate %}
+
+			{% endif %}
+
+				{% include link-list-item.html %}
+
+			{% if forloop.last %}</ul>{% endif %}
+
+		{% endunless %}
+
+	{% endfor %}
+
+</section>

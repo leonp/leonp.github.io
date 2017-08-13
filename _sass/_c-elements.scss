@@ -38,6 +38,16 @@ hr {
     margin: 1rem auto;
 }
 
+table {
+    font-family: -apple-system, BlinkMacSystemFont,
+               'avenir next', avenir,
+               'helvetica neue', helvetica,
+               ubuntu,
+               roboto, noto,
+               'segoe ui', arial,
+               sans-serif;
+}
+
 thead {
     text-align: left;
     border-bottom: 1px solid #CCC;
@@ -58,7 +68,11 @@ blockquote {
 }
 
 code {
-    font-size: 0.875em;
+    font-size: 0.75em;
+}
+
+pre {
+    overflow: auto;
 }
 
 }
