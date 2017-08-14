@@ -40,7 +40,7 @@ We were replacing a self-service system that had been in place for nearly a deca
 
 Replacing a mature product with something that might change from day to day poses a particular challenge, especially when a large proportion of your users are over 50 and distrust new technology at the best of times.
 
-Taking things away from users is always problematic. You can mitigate this by making little changes often, and developing a website over an app helped as deploying any changes involved updating the site rather than dozens of client installs.
+Taking things away from users is always problematic. You can mitigate this by making little changes often, and developing a website over an app helped as deploying any changes involved updating the site rather than dozens of client installs. But I'm not sure how well this process fits into mature products with mature users, which may have influenced my somewhat cagey approach to shipping a true MVP.
 
 ## User testing isn't as good as user using
 
@@ -48,25 +48,33 @@ I conducted all testing, arranging sessions in libraries with around 15 'real', 
 
 I have plenty of experience testing websites using a [simple kiosk testing methodology](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/), so I understand the need to get out of the way, not provide hints and phrase tasks in as neutral a way as possible. However, testing self-service software is more challenging than testing a website as there are additional, environmental factors to consider.
 
-For example, kiosk users have to manoeuvre physical objects while interpreting information on a screen. They may well be in a queue. Or, unlike when they use a website, they may be performing tasks with a couple of children in tow.
+For example, kiosk users have to manoeuvre physical objects while interpreting information on a screen. They may well be in a queue or using the system with a child. When they do get to the kiosk they'll simply perform _exactly_ the same sequence of movements and screen presses as before.
 
-Website tests, on the other hand, take place in isolation. The users have more time to think through what they're doing and they don't have the immediate pressure of children or other users standing behind them.
+Website tests, on the other hand, take place in isolation. The users have more time to consider what they're doing and they don't have the immediate pressure of children or other users standing behind them. In fact, because they know they're testing something they'll approach it as something to learn.
 
-We get by far the most useful feedback once a change is deployed in libraries, so it therefore makes sense to go live as soon as possible. We worked to fortnightly sprints, so we should have been publishing new features at the end of each sprint based on feedback from the last sprint. Instead, we too often went on to the next batch of features to implement on our staging site and only made the changes live once we had completed our MVP.
+No-one wants to learn new UI in the real world unless they've invested in it, through buying a new car or phone, for example, or through learning something. There's little financial or emotional investment in self-service kiosks.
+
+So I quickly found we got by far the most useful feedback once an app change was deployed in the wild. It therefore made sense to go live with new features as soon as possible. We did work to fortnightly sprints, so we should have been pushing these new features at the end of each sprint based on feedback from the last sprint. Instead, we too often went on to the next batch of features to implement on our staging site and only made the changes live once we had completed our MVP.
 
 ## Projects are too focused on a final delivery point (AKA the big reveal)
 
 Our project needs to be completed by the end of September. In stakeholders' minds this is a concrete milestone where we'll present the completed product to all 44 libraries. Funding is provided on this basis; everything needs to be done -- and paid for -- by this final date.
 
-As the product owner I should have presented the project more as a set of targets to meet along the road to September (and beyond, ideally). A better approach would be to say that we'll have the product in libraries by March and continue to refine it in the future.
+As the product owner I should have presented the project more as a set of targets to meet along the road to September (and beyond, ideally). A better approach would be to say that we'll have the product in libraries by March and continue to refine it in the future -- it will change.
+
+Again, this is the product owner's (i.e. my) responsibility. Setting stakeholder expectations, and keeping them updated, is a part of any development.
 
 ## Conclusion
 
-On the whole, I'm pleased with how the project went. We got a usable web app into libraries in the space of five months. However, by getting an MVP out there earlier we could have refined its UX more efficiently, and snagged various bugs before they became a big problem.
+On the whole, despite the seemingly negative tone of this post, I'm pleased with how the project went. We got a usable web app into libraries in the space of five months, on time and on budget. It's a big improvement on what users had before, and they're slowly learning new processes (and muscle memory).
 
-In the future I'd consider a different process:
+However, by getting an MVP out there earlier we could have refined the app's UX more efficiently, and snagged various bugs before they became a big problem. We're still in a situation where the app needs improvement, but we've reached the end of the project (and the budget).
 
-- Define a true MVP of basic features
-- Perform some quick kiosk testing on the MVP adnrefine
-- Ship the MVP and act on feedback as soon as possible (in two week sprints in this case)
-- Add new features as required
+In the future I'd consider a slightly different process:
+
+- Define a true MVP of basic features separate from a list of prioritised, desired features
+- Perform some quick kiosk testing on the MVP
+- Ship the MVP across a handful of libraries and act on feedback as soon as possible (in two week sprints in this case)
+- Add new features as required based on feedback
+
+Our real process wasn't too far from this, and there were good reasons for doing things the way we did. There's always distance between our ideal processes and the real world; I'd like to hope I'll narrow that distance during my next project.
