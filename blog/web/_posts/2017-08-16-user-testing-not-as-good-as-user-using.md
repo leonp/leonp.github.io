@@ -5,7 +5,7 @@ category: web
 article: true
 ---
 
-Between December 2016 and May this year we developed a library self-service progressive web app. At the time of writing, it's been deployed in 35 of 44 of our libraries, so it's a good time to start thinking about what went right and wrong, and what I could have done better.
+Between December 2016 and May this year we developed a [library self-service progressive web app](/2016/12/managing-self-service-project/). At the time of writing, it's been deployed in 35 of 44 of our libraries, so it's a good time to start thinking about what went right and wrong, and what I could have done better.
 
 My first observation is a simple one, and probably self-evident, and contains a lot of <i>use</i>s:
 
