@@ -13,29 +13,9 @@ excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and 
 
         <div class="dt-l w-100-l">
 
-            <a href="/2016/12/managing-self-service-project/" class="db bg-navy near-white pa2 pv3 pa4-ns dtc-l w-50-l mb2 mb0-l no-underline hover-white grow">
+            {% include block.html url="/2016/12/managing-self-service-project/" color="dark-blue" bg-color="light-gray" hover-color="dark-pink" hover-bg-color="near-white" title="Suffolk Libraries self&#8211;service web app" description="Our own transactional web app that runs in a browser, offline and on any device and any OS." %}
 
-                <article>
-
-                    <h1 class="f4 ma0 pa0 mb2">Suffolk Libraries self&#8211;service web app</h1>
-
-                    <p class="fw3 f4 f2-ns ma0 measure-narrow">Our own transactional web app that runs in a browser, offline and on any device and any OS.</p>
-
-                </article>
-
-            </a>
-
-            <a class="db bg-dark-pink near-white pa2 pv3 pa4-ns dtc-l w-50-l light-gray no-underline hover-white grow" href="/2016/12/static-site-jekyll-netlify-dynamic-features/">
-
-                <article>
-
-                    <h1 class="f4 ma0 pa0 mb2">Suffolk Libraries website</h1>
-
-                    <p class="fw3 f4 f2-ns ma0 measure-narrow">A lightning fast, static website with events and dynamic maps built on APIs, Tachyons, Jekyll and Netlify hosting.</p>
-
-                </article>
-
-            </a>
+            {% include block.html url="/2016/12/static-site-jekyll-netlify-dynamic-features/" color="dark-blue" bg-color="light-gray" hover-color="dark-pink" hover-bg-color="near-white" title="Suffolk Libraries website" description="A lightning fast, static website with events and dynamic maps built on APIs, Tachyons, Jekyll and Netlify hosting." %}
 
         </div>
 
@@ -62,6 +42,8 @@ excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and 
             {% endfor %}
 
         </ul>
+
+        <p>{% include button.html text="See all blog posts &rarr;" border-color="light-gray" color="dark-gray" bg-color="lightest-blue" hover-bg-color="near-white" hover-color="dark-gray" url="/blog/" %}</p>
 
     </div>
 
