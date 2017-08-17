@@ -37,7 +37,7 @@ excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and 
 
             {% for post in posts limit:10 %}
 
-                <li class="measure pb3 pb4-ns f4 f3-ns"><a class="no-underline lightest-blue hover-white" href="{{post.url }}">{{ post.title }}<a><span class="db mb1 white f5"><time>{{ post.date | date: "%b %-d,  %Y" }}</time></li>
+                <li class="measure pb3 pb4-ns f4 f3-ns"><a class="no-underline lightest-blue hover-white" href="{{post.url }}">{{ post.title }}<a><time class="db mv1 white f5">{{ post.date | date: "%b %-d,  %Y" }}</time></li>
 
             {% endfor %}
 
