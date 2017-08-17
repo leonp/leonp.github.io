@@ -24,51 +24,65 @@ nav-weight: 6
 
 <section class="pb2 pb3-ns">
 
-	<h1>Popular articles</h1>
+	<h1>Web &amp; libraries posts</h1>
 
-	{% assign posts = site.posts | where: "article", "true" %}
-
-	<ul class="pa0 mb4-l list sans-serif">
+	{% assign web_posts = site.posts | where: "category", "web" %}
+	{% assign library_posts = site.posts | where: "category", "libraries" %}
+	{% assign posts = web_posts | concat: library_posts | sort: 'date' | reverse %}
 
 	{% for post in posts %}
 
-		{% include link-list-item.html %}
+		{% assign currentdate = post.date | date: "%Y" %}
+
+		{% if currentdate != date %}
+
+			{% unless forloop.first %}</ul>{% endunless %}
+
+			<h2 class="f4 ma0 pa0 mb3 sans-serif" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+
+			<ul class="ma0 pa0 mv2 mt0 list sans-serif">
+
+			{% assign date = currentdate %}
+
+		{% endif %}
+
+			{% include link-list-item.html %}
+
+		{% if forloop.last %}</ul>{% endif %}
 
 	{% endfor %}
-
-	</ul>
 
 </section>
 
 <section class="pb2 pb3-ns">
 
-	<h1>Every post ever, sorted by date</h1>
+	<h1>Politics &amp; thinking posts</h1>
 
 	<p>I post mainly about the web, sometimes about libraries, sometimes about both. I also post fairly frequently on politics, philosophy or books or any other subject.</p>
 
-	{% for post in site.posts %}
+	{% assign thinking_posts = site.posts | where: "category", "thinking" %}
+	{% assign politics_posts = site.posts | where: "category", "politics" %}
+	{% assign posts = thinking_posts | concat: politics_posts | sort: 'date' | reverse %}
 
-		{% unless post.case_study %}
+	{% for post in posts %}
 
-			{% assign currentdate = post.date | date: "%Y" %}
+		{% assign currentdate = post.date | date: "%Y" %}
 
-			{% if currentdate != date %}
+		{% if currentdate != date %}
 
-				{% unless forloop.first %}</ul>{% endunless %}
+			{% unless forloop.first %}</ul>{% endunless %}
 
-				<h2 class="f4 ma0 pa0 mb3 sans-serif" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+			<h2 class="f4 ma0 pa0 mb3 sans-serif" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
 
-				<ul class="ma0 pa0 mv2 mt0 mb4-l list sans-serif">
+			<ul class="ma0 pa0 mv2 mt0 list sans-serif">
 
-				{% assign date = currentdate %}
+			{% assign date = currentdate %}
 
-			{% endif %}
+		{% endif %}
 
-				{% include link-list-item.html %}
+			{% include link-list-item.html %}
 
-			{% if forloop.last %}</ul>{% endif %}
-
-		{% endunless %}
+		{% if forloop.last %}</ul>{% endif %}
 
 	{% endfor %}
 
