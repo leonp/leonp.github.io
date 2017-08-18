@@ -28,6 +28,6 @@ All these statements are true. The only way to understand concepts such as the c
 
 If you use something like Bootstrap you don't need to know how CSS and HTML work together. Just as I can use javascript by installing a jQuery plugin. But my javascript and Bootstrap's output is verbose, inflexible and always looks the same. The moment I want to do something different with it, I'm stymied. So yes, it's not "fun" or particularly creative (but it does work, albeit inefficiently.)
 
-To use Tachyons you still need to know what properties and values do. The `dib` class won't be of any use unless you understand what `display: inline-box` does. Tachyons isn't abstracting away the building blocks of UI; it's just [making them quicker and easier to use](/2016/12/design-habits/).
+To use Tachyons you still need to know what properties and values do. The `dib` class won't be of any use unless you understand what `display: inline-block` does. Tachyons isn't abstracting away the building blocks of UI; it's just [making them quicker and easier to use](/2016/12/design-habits/).
 
 Sara is right: each project _may_ demand its own UI. The reason that automated website builders like Squarespace soon become too limiting is that they don't allow for this flexibility. For 90% of simple, brochure sites they're fine; for anything else they're maddening. Bootstrap is the Squarespace of frameworks, but Tachyons is lego. Whatever UI you need it'll help you build it -- quickly. And you'll be able to manage it as it grows.
