@@ -18,7 +18,7 @@ Something like [Bootstrap](http://getbootstrap.com/), no. I used [Foundation](ht
 
 However, I use [Tachyons](http://tachyons.io) now (this statement always makes me think &#8220;[I drink Yorkshire Tea now](https://www.youtube.com/watch?v=24N7GMk2Byo)&#8221;), and couldn't imagine building web pages without it. Not because it makes it easy for me to style a card or jumbotron predictably; no, **Tachyons saves me time and brainache**. It makes sketching ideas and developing them into finished <abbr title="User interface">UI</abbr> really quick. It's smaller, more efficient and faster than any CSS I could write because it's nearly completely unopinionated and ruthlessly <abbr title="Do not repeat yourself">DRY</abbr> and unspecific.
 
-In fact, Tachyons (or any other modular or atomic framework) isn't really a framework in the way Bootstrap is. There are no cards, jumbotrons or media components. Instead, it's a methodology, [a way of implementing and managing HTML and CSS in a professional, sane way](http://mrmrs.github.io/writing/2016/03/24/scalable-css/).
+In fact, Tachyons (or any other modular or atomic framework) isn't really a framework in the way Bootstrap is. **There are no cards, jumbotrons or media components**, just a terse class notation that maps more or less directly to CSS properties and values. I think of it more as a methodology, [a way of implementing and managing HTML and CSS in a fast, sane way](http://mrmrs.github.io/writing/2016/03/24/scalable-css/).
 
 Which is why I'd question anyone who didn't use _some_ sort of framework, even if it's their own. Writing efficient, manageable CSS and HTML is difficult. How can you do this starting with a completely blank canvas on every project? Why would you _want_ to do this?
 
