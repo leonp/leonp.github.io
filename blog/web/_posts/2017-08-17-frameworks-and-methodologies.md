@@ -3,7 +3,7 @@ title: "Using a sound CSS methodology (you might call it a framework) is a good 
 layout: default
 category: web
 article: true
-description: "There are different types of web development frameworks. Overly opinionated frameworks like Bootstrap and Foundation are inflexible and inefficient, but modular efforts such as Tachyons make writing efficient, manageable code a lot easier. And they don&#8217;t stifle creativity."
+description: "There are different types of web development frameworks. Overly opinionated frameworks like Bootstrap and Foundation can prove inflexible, &#8220;uncreative&#8221; and inefficient, but modular efforts such as Tachyons make writing manageable code a lot easier &#8212; and they don&#8217;t stifle creativity."
 ---
 
 [Smashing Magazine asked a common question](https://mobile.twitter.com/smashingmag/status/898222789613715463) in web development circles: _Do you use a framework?_ Interestingly enough, I guess, about 60% of respondents do use a framework, and a whopping **42% of all respondents use Bootstrap** (!)
