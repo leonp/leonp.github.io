@@ -194,4 +194,53 @@ Grid columns
 }
 
 
+/*
+2. Thirds grid, option for 1 of 3 or 2 of 3
+*/
+
+.c-gtc-1-2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.c-gtc-1-2-ns {
+    @media screen and (min-width: 48em) {
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+.c-gtc-1-2-m {
+    @media screen and (min-width: 48em) and (max-width: 64em) {
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+.c-gtc-1-2-l {
+    @media screen and (min-width: 64em) {
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+.c-gtc-2-1 {
+    grid-template-columns: 2fr 1fr;
+}
+
+.c-gtc-2-1-ns {
+    @media screen and (min-width: 48em) {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+.c-gtc-2-1-m {
+    @media screen and (min-width: 48em) and (max-width: 64em) {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+.c-gtc-2-1-l {
+    @media screen and (min-width: 64em) {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+
 }
