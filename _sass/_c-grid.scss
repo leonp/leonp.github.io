@@ -9,10 +9,24 @@ Tachyons breakpoints:
 - medium (m): @media screen and (min-width: 48em) and (max-width: 64em)
 - large (l): @media screen and (min-width: 64em)
 
+CONTENTS
+========
+
+1. Up to 6 cols, equal widths
+
 */
 
 @media screen, projection {
 
+
+/*
+1. Up to 6 cols, equal widths
+=============================
+*/
+
+/*
+Grid container class
+*/
 
 .c-dg {
     display: grid;
@@ -35,6 +49,39 @@ Tachyons breakpoints:
         display: grid;
     }
 }
+
+
+/*
+Grid column gaps
+Currently set to 1 rem, but could add more classes to match Tachyons spacing scale
+*/
+
+.c-gcg {
+    grid-column-gap: 1rem;
+}
+
+.c-gcg-ns {
+    @media screen and (min-width: 48em) {
+        grid-column-gap: 1rem
+    }
+}
+
+.c-gcg-m {
+    @media screen and (min-width: 48em) and (max-width: 64em) {
+        grid-column-gap: 1rem
+    }
+}
+
+.c-gcg-l {
+    @media screen and (min-width: 64em) {
+        grid-column-gap: 1rem
+    }
+}
+
+
+/*
+Grid columns
+*/
 
 .c-gtc-2 {
     grid-template-columns: repeat(2, 1fr);
@@ -102,30 +149,47 @@ Tachyons breakpoints:
     }
 }
 
-/*
-Grid column gaps
-Currently set to 1 rem, but could add more classes to match Tachyons spacing scale
-*/
-
-.c-gcg {
-    grid-column-gap: 1rem;
+.c-gtc-5 {
+    grid-template-columns: repeat(5, 1fr);
 }
 
-.c-gcg-ns {
+.c-gtc-5-ns {
     @media screen and (min-width: 48em) {
-        grid-column-gap: 1rem
+        grid-template-columns: repeat(5, 1fr);
     }
 }
 
-.c-gcg-m {
+.c-gtc-5-m {
     @media screen and (min-width: 48em) and (max-width: 64em) {
-        grid-column-gap: 1rem
+        grid-template-columns: repeat(5, 1fr);
     }
 }
 
-.c-gcg-l {
+.c-gtc-5-l {
     @media screen and (min-width: 64em) {
-        grid-column-gap: 1rem
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+.c-gtc-6 {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.c-gtc-6-ns {
+    @media screen and (min-width: 48em) {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+.c-gtc-6-m {
+    @media screen and (min-width: 48em) and (max-width: 64em) {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+.c-gtc-6-l {
+    @media screen and (min-width: 64em) {
+        grid-template-columns: repeat(6, 1fr);
     }
 }
 

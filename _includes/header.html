@@ -12,16 +12,12 @@
 
     <body class="ma0 pa0 bg-white dark-gray sans-serif lh-copy">
 
-        {% include skip-links.html %}
+        {% include header-skip-links.html %}
 
-        {% if page.url != '/' %}
+        {% unless page.hide-nav %}
 
             {% include nav.html %}
 
-        {% else %}
+            <main id="content">
 
-            {% include header-home.html %}
-
-        {% endif %}
-
-        <main id="content">
+        {% endunless %}
