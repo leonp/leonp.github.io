@@ -3,7 +3,7 @@ layout: blank
 title: Testing a grid module using CSS grid
 ---
 
-<article class="pv2 pv4-ns">
+<article class="pt2 pt4-ns">
 
     <div class="ph2 ph4-ns ph5-l">
 
@@ -36,6 +36,8 @@ title: Testing a grid module using CSS grid
 <pre class="pa2 pa4-l ba b--white yellow"><code>&lt;div class="c-dg c-gcg c-gtc-2 c-gtc-3-m c-gtc-5-l"&gt;
     &lt;p&gt;Bacon ipsum text&hellip; 12 times&lt;/p&gt;
 &lt;/div&gt;</code></pre>
+
+            <p>{% include button.html text="See the CSS &rarr;" border-color="moon-gray" color="navy" bg-color="yellow" hover-bg-color="washed-yellow" hover-color="navy" url="https://raw.githubusercontent.com/leonp/leonp.github.io/master/_sass/_c-grid.scss" %} (all classes prefixed with a <code>c-</code>)</p>
 
             <div class="c-dg c-gcg c-gtc-2 c-gtc-3-m c-gtc-5-l">
 
