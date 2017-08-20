@@ -1,5 +1,13 @@
 @media screen, projection {
 
+.c-serif {
+    font-family: 'Libre baskerville', palatino, 'palatino linotype', cambria, georgia, serif;
+}
+
+.c-lh-copy {
+    line-height: 1.6;
+}
+
 .c-dashed-list li:before {
     content: '- ';
 }
@@ -20,7 +28,7 @@
 }
 
 .c-prose-measure * {
-    max-width: 30em;
+    max-width: 34em;
 }
 
 .c-prose-measure img,
@@ -78,6 +86,7 @@
                roboto, noto,
                'segoe ui', arial,
                sans-serif;
+    max-width: 24em;
 }
 
 .c-prose-h h3,
