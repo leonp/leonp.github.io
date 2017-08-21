@@ -14,8 +14,8 @@ nav-weight: 6
 
 	<form id="search_from" action="https://www.google.com/search" method="get">
 
-		<input type="search" class="mb1 mb0-ns sans-serif w-100 w-75-ns pa2 ba b--moon-gray" id="q" name="q">
-		<input type="submit" value="Search" class="pointer sans-serif f4 pa2 bg-blue hover-bg-dark-blue white ba b--moon-gray" alt="search" id="submitbtn">
+		<input type="search" class="mb1 mb0-ns c-sans-serif w-100 w-75-ns pa2 ba b--moon-gray" id="q" name="q">
+		<input type="submit" value="Search" class="pointer c-sans-serif f4 pa2 bg-blue hover-bg-dark-blue white ba b--moon-gray" alt="search" id="submitbtn">
 		<input name="sitesearch" value="leonpaternoster.com" type="hidden">
 
 	</form>
@@ -38,9 +38,9 @@ nav-weight: 6
 
 			{% unless forloop.first %}</ul>{% endunless %}
 
-			<h2 class="f4 ma0 pa0 mb3 sans-serif" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+			<h2 class="f4 ma0 pa0 mb3" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
 
-			<ul class="ma0 pa0 mv2 mt0 list sans-serif">
+			<ul class="ma0 pa0 mv2 mt0 list c-sans-serif">
 
 			{% assign date = currentdate %}
 

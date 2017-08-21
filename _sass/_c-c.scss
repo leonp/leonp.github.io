@@ -4,6 +4,16 @@
     font-family: 'Libre baskerville', palatino, 'palatino linotype', cambria, georgia, serif;
 }
 
+.c-sans-serif {
+    font-family: 'Libre Franklin', 'Segoe UI', -apple-system, BlinkMacSystemFont,
+               'avenir next', avenir,
+               'helvetica neue', helvetica,
+               ubuntu,
+               roboto, noto,
+               'segoe ui', arial,
+               sans-serif;
+}
+
 .c-lh-copy {
     line-height: 1.6;
 }
@@ -79,7 +89,7 @@
     margin: 0;
     padding: 1rem 0 0 0;
     font-size: 1.5rem;
-    font-family: -apple-system, BlinkMacSystemFont,
+    font-family: 'Libre Franklin', 'Segoe UI', -apple-system, BlinkMacSystemFont,
                'avenir next', avenir,
                'helvetica neue', helvetica,
                ubuntu,
@@ -87,6 +97,8 @@
                'segoe ui', arial,
                sans-serif;
     max-width: 24em;
+    hyphens: none;
+    -webkit-hyphens: none;
 }
 
 .c-prose-h h3,
