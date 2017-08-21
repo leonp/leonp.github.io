@@ -17,7 +17,7 @@ title: There's no internet connection
 
   {% for page in cached-pages %}
 
-      {% include link-list-item-page.html %}
+      <li class="pb2"><a class="c-prose-link-no-underline" href="{{ page.url}}">{{ page.title }}</a></li>
 
   {% endfor %}
 

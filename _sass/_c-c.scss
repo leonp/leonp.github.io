@@ -61,11 +61,11 @@
 }
 
 .c-prose-link-colours a:link {
-  color: #00449E;
+  color: #00449E; /* Navy */
 }
 
 .c-prose-link-colours a:visited {
-  color: #357EDD;
+  color: #357EDD; /* Dark blue */
 }
 
 .c-prose-link-colours a:hover,
@@ -76,6 +76,11 @@
 
 .c-prose-link-ul a {
   border-bottom: 1px dotted;
+}
+
+.c-prose-link-no-underline a,
+.c-prose-link-no-underline {
+  border-bottom: none !important;
 }
 
 .c-prose-h h1,

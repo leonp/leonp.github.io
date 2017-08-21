@@ -1,4 +1,4 @@
-<div class="ph2 ph4-ns ph5-l pv2 pv4-l bg-white bb b--light-gray">
+<div class="ph2 ph4-ns ph5-l pv2 pv4-l bg-white bb b--moon-gray">
 
     <nav id="nav" class="b c-sans-serif c-wrapper center ma0 pa0">
 
@@ -6,9 +6,9 @@
 
             <a class="no-underline dark-blue hover-dark-pink" href="/"><span role="img" aria-label="Lightning bolt">⚡️</span> Leon Paternoster</a>
 
-            {% if page.is_post %} &rarr; <a href="/blog/" class="no-underline dark-blue hover-dark-pink">Blog</a> &rarr; <a href="/blog/{{ page.category }}/" class="no-underline dark-blue hover-dark-pink">{{ page.category | capitalize }}</a>
+            {% if page.is_post %} &rarr; <a href="/blog/" class="no-underline dark-blue hover-dark-pink">Blog</a> &rarr; <a href="/blog/{{ page.category }}/" class="no-underline dark-blue hover-dark-pink">{{ page.category | capitalize }}</a>{% endif %}
 
-            {% endif %}
+            {% if page.layout == 'archive' %} &rarr; <a href="/blog/" class="no-underline dark-blue hover-dark-pink">Blog</a>{% endif %}
 
         </p>
 

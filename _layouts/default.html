@@ -2,7 +2,7 @@
 
 <article>
 
-    <header class="{% if page.article or page.is_page or page.category == 'work' %}bg-washed-blue {% endif %}lh-title ph2 ph4-ns ph5-l pv3 pv4-l">
+    <header class="{% if page.article or page.is_page or page.category == 'work' %}bg-navy near-white{% else %}bg-light-gray{% endif %} lh-title ph2 ph4-ns ph5-l pv3 pv4-l">
 
         <div class="c-wrapper center">
 
@@ -20,11 +20,31 @@
 
             {% endif %}
 
+            {% if page.search %}
+
+            <div class="pt2 pt3-ns">
+
+            	<form id="search_from" action="https://www.google.com/search" method="get">
+
+            		<label class="moon-gray db mb1 f6 c-sans-serif">Search lenpaternoster.com with Google. Results will appear on google.com:</label>
+
+            		<input type="search" class="mb1 mb0-ns c-sans-serif w-100 w-75-ns pa2 ba b--moon-gray f4-ns" id="q" name="q">
+            		<input type="submit" value="Search" class="pointer c-sans-serif f4-ns pa2 bg-light-gray hover-bg-near-white dark-gray ba b--moon-gray br2" alt="search" id="submitbtn">
+            		<input name="sitesearch" value="leonpaternoster.com" type="hidden">
+
+            	</form>
+
+                <p class="mb0">Or jump to: <a href="#web" class="lightest-blue hover-white">Web &amp; libraries</a> / <a href="#politics" class="lightest-blue hover-white">Politics &amp; thinking</a></p>
+
+            </div>
+
+            {% endif %}
+
         </div>
 
     </header>
 
-    <div class="ph2 ph4-ns ph5-l pv3 bg-white bt b--light-gray">
+    <div class="ph2 ph4-ns ph5-l pv3 bg-near-white bt b--moon-gray">
 
         <div class="c-wrapper center">
 

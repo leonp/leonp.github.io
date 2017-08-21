@@ -4,27 +4,12 @@ title: Blog
 description: "I&#8217;ve blogged about working on the web since 2008, looking at accessibility, simplicity and speed. I also post on politics, philosophy, music and books."
 cache: true
 nav-weight: 6
+search: true
 ---
 
 <section class="pb2 pb3-ns">
 
-	<h1 class="pa0 ma0">Search</h1>
-
-	<p class="mb1 f6 sans-serif">Results will appear on a Google search page:</p>
-
-	<form id="search_from" action="https://www.google.com/search" method="get">
-
-		<input type="search" class="mb1 mb0-ns c-sans-serif w-100 w-75-ns pa2 ba b--moon-gray" id="q" name="q">
-		<input type="submit" value="Search" class="pointer c-sans-serif f4 pa2 bg-blue hover-bg-dark-blue white ba b--moon-gray" alt="search" id="submitbtn">
-		<input name="sitesearch" value="leonpaternoster.com" type="hidden">
-
-	</form>
-
-</section>
-
-<section class="pb2 pb3-ns">
-
-	<h1 class="bb b--light-gray">Web &amp; libraries posts</h1>
+	<h1 id="web">Web &amp; libraries</h1>
 
 	{% assign web_posts = site.posts | where: "category", "web" %}
 	{% assign library_posts = site.posts | where: "category", "libraries" %}
@@ -39,7 +24,7 @@ nav-weight: 6
 
 			{% unless forloop.first %}</ul>{% endunless %}
 
-			<h2 class="f4 ma0 pa0 mb3" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+			<h2 class="gray" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
 
 			<ul class="ma0 pa0 mv2 mt0 list c-sans-serif">
 
@@ -57,7 +42,7 @@ nav-weight: 6
 
 <section class="pb2 pb3-ns">
 
-	<h1 class="bb b--light-gray">Politics &amp; thinking posts</h1>
+	<h1 id="politics">Politics &amp; thinking</h1>
 
 	<p>I post mainly about the web, sometimes about libraries, sometimes about both. I also post fairly frequently on politics, philosophy or books or any other subject.</p>
 
@@ -73,7 +58,7 @@ nav-weight: 6
 
 			{% unless forloop.first %}</ul>{% endunless %}
 
-			<h2 class="f4 ma0 pa0 mb3 sans-serif" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+			<h2 class="gray" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
 
 			<ul class="ma0 pa0 mv2 mt0 list sans-serif">
 
