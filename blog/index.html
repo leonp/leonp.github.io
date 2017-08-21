@@ -28,7 +28,8 @@ nav-weight: 6
 
 	{% assign web_posts = site.posts | where: "category", "web" %}
 	{% assign library_posts = site.posts | where: "category", "libraries" %}
-	{% assign posts = web_posts | concat: library_posts | sort: 'date' | reverse %}
+	{% assign work_posts = site.posts | where: "category", "work" %}
+	{% assign posts = web_posts | concat: library_posts | concat: work_posts | sort: 'date' | reverse %}
 
 	{% for post in posts %}
 
