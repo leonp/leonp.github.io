@@ -2,7 +2,7 @@
 
 <article>
 
-    <header class="{% if page.article or page.is_page or page.category == 'work' %}bg-navy near-white{% else %}bg-light-gray{% endif %} lh-title ph2 ph4-ns ph5-l pv3 pv4-l">
+    <header class="{% if page.article or page.is_page or page.category == 'work' %}bg-navy near-white{% else %}bg-light-gray{% endif %} lh-title ph2 ph4-ns ph5-l pv3 pv4-ns">
 
         <div class="c-wrapper center">
 
@@ -10,7 +10,7 @@
 
             {% if page.is_post and category != 'work' %}
 
-            <p class="mb0 f6"><time>{{ page.date | date: "%b %-d,  %Y" }}</time></p>
+            <p class="mb0 mt1 mt3-ns f6"><time>{{ page.date | date: "%b %-d,  %Y" }}</time></p>
 
             {% endif %}
 
