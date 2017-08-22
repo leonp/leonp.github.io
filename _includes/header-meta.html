@@ -26,7 +26,7 @@
 {% if page.description %}
 <meta name="twitter:description" content="{{ page.description }}" />
 {% else %}
-<meta name="twitter:description" content="{{ page.excerpt }}" />
+<meta name="twitter:description" content="{{ page.excerpt  | strip_html }}" />
 {% endif %}
 {% if page.img %}
 <meta name="twitter:image" content="https://www.leonpaternoster.com/images/{{ page.img }}" />
