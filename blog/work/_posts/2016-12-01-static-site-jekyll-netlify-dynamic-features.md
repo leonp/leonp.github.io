@@ -4,7 +4,7 @@ img: ss-slaughter.jpg
 alt: A screenshot of events from the Suffolk Libraries website
 excerpt: "I migrated the Suffolk Libraries website from a WordPress backend using a theme built on the Foundation framework. We moved to a static website built on Jekyll and hosted by Netlify. The site is faster, more stable and more secure, yet it still handles dynamic features such as events and forms."
 summary: "I migrated the Suffolk Libraries website from a WordPress backend using a theme built on the Foundation framework. We moved to a static website built on Jekyll and hosted by Netlify. The site is faster, more stable and more secure, yet it still handles dynamic features such as events and forms."
-description: "A static website may sound dull, but it&#8217;s faster, more stable and more secure than a traditional website. The Suffolk Libraries also does dynamic stuff like events, searchable maps and locations through the power of some smart programming and APIs."
+description: "A static website may sound dull, but it&#8217;s faster, more stable and more secure than a traditional website. The Suffolk Libraries site also does dynamic stuff like events, searchable maps and locations through the power of some smart programming and APIs."
 category: work
 ---
 
