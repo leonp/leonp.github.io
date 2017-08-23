@@ -46,7 +46,7 @@ CSS:
 
 Everyone's happy, no? My paragraph has been imbued with meaning through the use of a class name, while I can make changes to the standfirst's appearance through finding its class name in my stylesheet and changing properties and values. Concerns have been separated, creativity maintained.
 
-### Faster and safer style changes
+### Faster (and yet safer) style changes
 
 Except&hellip; this way of changing the appearance of things is pretty inefficient. Let's say someone else comes along and wants to change the block of text at the top of an article. She has to do the following:
 
@@ -126,7 +126,7 @@ And I'll use this CSS:
 
 Now, we can achieve the same effect with our modular system (with `<p class="f4 ma0 b pl4 bl b--purple bw3">`, for example) and make our styles a lot easier to update and control.
 
-If you compare the two semantic classes, you'll see they share several properties:
+Bu then compare the two semantic classes -- you'll see they share several properties:
 
 <div class="bg-black light-green ph2 ph3-ns pt2 pt3-ns">
 
@@ -138,16 +138,16 @@ If you compare the two semantic classes, you'll see they share several propertie
 
 </div>
 
-This isn't very <abbr title="Don't repeat yourself">DRY</abbr>. On any large scale site, think about the number of times you might write something like `margin-bottom: 1em` even if you're only creating the class names you need for the job in hand. In modular CSS it's written one time only, thereby making your CSS files a lot smaller. I'm willing to bet whole modular CSS frameworks are smaller than any handcrafted stylesheet, even before you start filtering the CSS subsets you don't need.
+This isn't very [DRY](https://code.tutsplus.com/tutorials/3-key-software-principles-you-must-understand--net-25161). On any large scale site, think about the number of times you might write something like `margin-bottom: 1em` even if you're only creating the class names you need for the job in hand. In modular CSS it's written one time only, thereby making your CSS lighter through not repeating the same declarations. I'm willing to bet that on any medium to large size site whole modular CSS frameworks are smaller than any handcrafted stylesheet, even before you start filtering the CSS subsets you don't need.
 
 ### But this isn&#8217;t very semantic
 
-Class names aren't meant to be semantic. They're meant to aid styling. However, as appearance aids meaning&hellip;
+Class names aren't meant to be semantic; they mean nothing to machines. They're meant to aid styling. However, as appearance aids meaning&hellip;
 
-If by _semantic_ you mean machine-readable, you should [use a schema](http://schema.org/BlogPosting) instead, and use classes to style things and nothing else.
+If by _semantic_ you mean machine-readable, you should [use a schema](http://schema.org/BlogPosting) instead.
 
 ### Conclusion
 
-I'm not telling anyone to do things in a certain way (honest!) On small sites you can merrily use semantic class names and keep it manageable -- I did it for about 7 years on this site. On bigger sites with more than one author, probably not.
+I'm not telling anyone to do things in a certain way (honest!) On small sites I think you can merrily use semantic class names and keep it manageable -- I did it for about 7 years on this site. On bigger sites with more than one author, probably not.
 
-However, I do think some developers are lumping Bass CSS and Tachyons together with Foundation and Bootstrap, and that's a mistake. Modular CSS _does_ provide a way to build web UI quickly and sanely; if you're not already doing so, you should at least start giving the idea some serious thought.
+However, I do think some developers lump Bass CSS and Tachyons with Foundation and Bootstrap, which is a mistake. Modular CSS _does_ provide a way to build web UI quickly and sanely; if you're not already doing so, you should at least look into the idea.
