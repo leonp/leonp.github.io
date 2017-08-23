@@ -4,14 +4,16 @@
     font-family: 'Libre baskerville', palatino, 'palatino linotype', cambria, georgia, serif;
 }
 
-.c-sans-serif {
-    font-family: 'Libre Franklin', 'Segoe UI', -apple-system, BlinkMacSystemFont,
-               'avenir next', avenir,
-               'helvetica neue', helvetica,
-               ubuntu,
-               roboto, noto,
-               'segoe ui', arial,
-               sans-serif;
+.c-interface {
+    font-family: georgia, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, ubuntu, roboto, noto, 'segoe ui', 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+.c-font-loaded .c-interface {
+    font-family: Interface, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, ubuntu, roboto, noto, 'segoe ui', 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+.c-font-loaded .c-sans-serif {
+    font-family: Interface, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, ubuntu, roboto, noto, 'segoe ui', 'helvetica neue', helvetica, arial, sans-serif;
 }
 
 .c-lh-copy {
@@ -94,13 +96,6 @@
     margin: 0;
     padding: 1rem 0 0 0;
     font-size: 1.5rem;
-    font-family: 'Libre Franklin', 'Segoe UI', -apple-system, BlinkMacSystemFont,
-               'avenir next', avenir,
-               'helvetica neue', helvetica,
-               ubuntu,
-               roboto, noto,
-               'segoe ui', arial,
-               sans-serif;
     max-width: 24em;
     hyphens: none;
     -webkit-hyphens: none;

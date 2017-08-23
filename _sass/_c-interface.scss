@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Interface';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("/fonts/Interface-Regular.woff2?v=1.1") format("woff2"),
+       url("/fonts/Interface-Regular.woff?v=1.1") format("woff");
+}
+@font-face {
+  font-family: 'Interface';
+  font-style:  italic;
+  font-weight: 400;
+  src: url("/fonts/Interface-RegularItalic.woff2?v=1.1") format("woff2"),
+       url("/fonts/Interface-RegularItalic.woff?v=1.1") format("woff");
+}
+
+@font-face {
+  font-family: 'Interface';
+  font-style:  normal;
+  font-weight: 700;
+  src: url("/fonts/Interface-Bold.woff2?v=1.1") format("woff2"),
+       url("/fonts/Interface-Bold.woff?v=1.1") format("woff");
+}

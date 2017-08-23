@@ -24,6 +24,15 @@
             });
         </script>
 
+        <script src="/js/fonts.js"></script>
+
+        <script>
+            var font = new FontFaceObserver('Interface');
+            font.load(null, 2000).then(function () {
+            document.documentElement.className += " c-font-loaded";
+            });
+        </script>
+
     </body>
 
 </html>

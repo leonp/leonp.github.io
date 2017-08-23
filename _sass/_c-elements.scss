@@ -1,12 +1,12 @@
 @media screen, projection {
 
 html {
-    font-size: 100%;
+    font-size: 112.5%;
 }
 
 @media (min-width: 864px) {
   html {
-    font-size: 112.5%;
+    font-size: 125%;
   }
 }
 
@@ -45,13 +45,6 @@ hr {
 }
 
 table {
-    font-family: 'Libre Franklin', 'Segoe UI', -apple-system, BlinkMacSystemFont,
-               'avenir next', avenir,
-               'helvetica neue', helvetica,
-               ubuntu,
-               roboto, noto,
-               'segoe ui', arial,
-               sans-serif;
     max-width: 24em;
     hyphens: none;
     -webkit-hyphens: none;
