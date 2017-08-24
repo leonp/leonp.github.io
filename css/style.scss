@@ -4,6 +4,8 @@ sitemap: false
 
 @charset "utf-8";
 
+$serif: palatino, 'palatino linotype', cambria, georgia, serif;
+$sans-serif: 'avenir next', avenir, -apple-system, BlinkMacSystemFont, ubuntu, roboto, noto, 'segoe ui', 'helvetica neue', helvetica, arial, sans-serif;
 
 @import
     "tachyons",

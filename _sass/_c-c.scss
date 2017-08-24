@@ -1,19 +1,11 @@
 @media screen, projection {
 
 .c-serif {
-    font-family: 'Libre baskerville', palatino, 'palatino linotype', cambria, georgia, serif;
+    font-family: $serif;
 }
 
-.c-interface {
-    font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, ubuntu, roboto, noto, 'segoe ui', 'helvetica neue', helvetica, arial, sans-serif;
-}
-
-.c-font-loaded .c-interface {
-    font-family: Interface, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, ubuntu, roboto, noto, 'segoe ui', 'helvetica neue', helvetica, arial, sans-serif;
-}
-
-.c-font-loaded .c-sans-serif {
-    font-family: Interface, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, ubuntu, roboto, noto, 'segoe ui', 'helvetica neue', helvetica, arial, sans-serif;
+.c-sans-serif {
+    font-family: $sans-serif;
 }
 
 .c-lh-copy {
@@ -40,7 +32,7 @@
 }
 
 .c-prose-measure * {
-    max-width: 34em;
+    max-width: 30em;
 }
 
 .c-prose-measure img,
@@ -97,6 +89,7 @@
     padding: 1rem 0 0 0;
     font-size: 1.5rem;
     max-width: 24em;
+    font-family: $sans-serif;
     hyphens: none;
     -webkit-hyphens: none;
 }
@@ -113,7 +106,7 @@
 }
 
 .c-wrapper {
-    max-width: 64em;
+    max-width: 60em;
 }
 
 }

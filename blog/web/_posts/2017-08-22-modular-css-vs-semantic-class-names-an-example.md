@@ -126,7 +126,7 @@ And I'll use this CSS:
 
 Now, we can achieve the same effect with our modular system (with `<p class="f4 ma0 b pl4 bl b--purple bw3">`, for example) and make our styles a lot easier to update and control.
 
-Bu then compare the two semantic classes -- you'll see they share several properties:
+Then compare the two semantic classes -- you'll see they share several properties:
 
 <div class="bg-black light-green ph2 ph3-ns pt2 pt3-ns">
 
