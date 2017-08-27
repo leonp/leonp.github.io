@@ -1,15 +1,13 @@
 ---
 layout: default
 title: Blog
-description: "I&#8217;ve blogged about working on the web since 2008, looking at accessibility, simplicity and speed. I also post on politics, philosophy, music and books."
+description: "I&#8217;ve blogged about working on the web since 2008. I&#8217;m interested in accessibility, simplicity and speed."
 cache: true
 nav-weight: 6
 search: true
 ---
 
-<section class="pb2 pb3-ns">
-
-	<h1 id="web">Web &amp; libraries</h1>
+<div class="pb2 pb3-ns">
 
 	{% assign web_posts = site.posts | where: "category", "web" %}
 	{% assign library_posts = site.posts | where: "category", "libraries" %}
@@ -24,7 +22,7 @@ search: true
 
 			{% unless forloop.first %}</ul>{% endunless %}
 
-			<h2 class="gray" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+			<h1 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h1>
 
 			<ul class="ma0 pa0 mv2 mt0 list c-sans-serif">
 
@@ -38,38 +36,4 @@ search: true
 
 	{% endfor %}
 
-</section>
-
-<section class="pb2 pb3-ns">
-
-	<h1 id="politics">Politics &amp; thinking</h1>
-
-	<p>I post mainly about the web, sometimes about libraries, sometimes about both. I also post fairly frequently on politics, philosophy or books or any other subject.</p>
-
-	{% assign thinking_posts = site.posts | where: "category", "thinking" %}
-	{% assign politics_posts = site.posts | where: "category", "politics" %}
-	{% assign posts = thinking_posts | concat: politics_posts | sort: 'date' | reverse %}
-
-	{% for post in posts %}
-
-		{% assign currentdate = post.date | date: "%Y" %}
-
-		{% if currentdate != date %}
-
-			{% unless forloop.first %}</ul>{% endunless %}
-
-			<h2 class="gray" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
-
-			<ul class="ma0 pa0 mv2 mt0 list sans-serif">
-
-			{% assign date = currentdate %}
-
-		{% endif %}
-
-			{% include link-list-item.html %}
-
-		{% if forloop.last %}</ul>{% endif %}
-
-	{% endfor %}
-
-</section>
+</div>
