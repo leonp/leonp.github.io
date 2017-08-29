@@ -33,26 +33,26 @@ title: Testing a grid module using CSS grid
 
             <h2 class="f6 f5-ns ttu tracked ma0 mb1 mb2-ns">HTML</h2>
 
-<pre class="pa2 pa4-l ba b--white yellow"><code>&lt;div class="c-dg c-gcg c-gtc-2 c-gtc-3-m c-gtc-5-l"&gt;
-    &lt;p&gt;Bacon ipsum text&hellip; 12 times&lt;/p&gt;
+<pre class="pa2 pa4-ns ba b--white yellow"><code>&lt;div class="c-dg c-gcg c-grg c-gtc-2 c-gtc-3-m c-gtc-5-l"&gt;
+    &lt;div class="pa2 pa4-ns bg-washed-blue h3 h4-ns"&gt; &lt;/div&gt; &lt;!-- repeat x times --&gt;
 &lt;/div&gt;</code></pre>
 
             <p>{% include button.html text="See the CSS &rarr;" border-color="moon-gray" color="navy" bg-color="yellow" hover-bg-color="washed-yellow" hover-color="navy" url="https://raw.githubusercontent.com/leonp/leonp.github.io/master/_sass/_c-grid.scss" %}</p>
 
-            <div class="c-dg c-gcg c-gtc-2 c-gtc-3-m c-gtc-5-l">
+            <div class="c-dg c-gcg c-grg c-gtc-2 c-gtc-3-m c-gtc-5-l">
 
-                <p class="bg-washed-blue dark-gray pa2 pa4-l f7">Bacon ipsum dolor amet kielbasa picanha cupim jowl, filet mignon shoulder t-bone short loin ground round porchetta flank leberkas pork.</p>
-                <p class="bg-washed-blue dark-gray pa2 pa4-l f7">Bacon ipsum dolor amet kielbasa picanha cupim jowl, filet mignon shoulder t-bone short loin ground round porchetta flank leberkas pork.</p>
-                <p class="bg-washed-blue dark-gray pa2 pa4-l f7">Bacon ipsum dolor amet kielbasa picanha cupim jowl, filet mignon shoulder t-bone short loin ground round porchetta flank leberkas pork.</p>
-                <p class="bg-washed-blue dark-gray pa2 pa4-l f7">Bacon ipsum dolor amet kielbasa picanha cupim jowl, filet mignon shoulder t-bone short loin ground round porchetta flank leberkas pork.</p>
-                <p class="bg-washed-blue dark-gray pa2 pa4-l f7">Bacon ipsum dolor amet kielbasa picanha cupim jowl, filet mignon shoulder t-bone short loin ground round porchetta flank leberkas pork.</p>
-                <p class="bg-washed-blue dark-gray pa2 pa4-l f7">Bacon ipsum dolor amet kielbasa picanha cupim jowl, filet mignon shoulder t-bone short loin ground round porchetta flank leberkas pork.</p>
-                <p class="bg-washed-blue dark-gray pa2 pa4-l f7">Bacon ipsum dolor amet kielbasa picanha cupim jowl, filet mignon shoulder t-bone short loin ground round porchetta flank leberkas pork.</p>
-                <p class="bg-washed-blue dark-gray pa2 pa4-l f7">Bacon ipsum dolor amet kielbasa picanha cupim jowl, filet mignon shoulder t-bone short loin ground round porchetta flank leberkas pork.</p>
-                <p class="bg-washed-blue dark-gray pa2 pa4-l f7">Bacon ipsum dolor amet kielbasa picanha cupim jowl, filet mignon shoulder t-bone short loin ground round porchetta flank leberkas pork.</p>
-                <p class="bg-washed-blue dark-gray pa2 pa4-l f7">Bacon ipsum dolor amet kielbasa picanha cupim jowl, filet mignon shoulder t-bone short loin ground round porchetta flank leberkas pork.</p>
-                <p class="bg-washed-blue dark-gray pa2 pa4-l f7">Bacon ipsum dolor amet kielbasa picanha cupim jowl, filet mignon shoulder t-bone short loin ground round porchetta flank leberkas pork.</p>
-                <p class="bg-washed-blue dark-gray pa2 pa4-l f7">Bacon ipsum dolor amet kielbasa picanha cupim jowl, filet mignon shoulder t-bone short loin ground round porchetta flank leberkas pork.</p>
+                <div class="pa2 pa4-ns bg-washed-blue h3 h4-ns"> </div>
+                <div class="pa2 pa4-ns bg-washed-blue h3 h4-ns"> </div>
+                <div class="pa2 pa4-ns bg-washed-blue h3 h4-ns"> </div>
+                <div class="pa2 pa4-ns bg-washed-blue h3 h4-ns"> </div>
+                <div class="pa2 pa4-ns bg-washed-blue h3 h4-ns"> </div>
+                <div class="pa2 pa4-ns bg-washed-blue h3 h4-ns"> </div>
+                <div class="pa2 pa4-ns bg-washed-blue h3 h4-ns"> </div>
+                <div class="pa2 pa4-ns bg-washed-blue h3 h4-ns"> </div>
+                <div class="pa2 pa4-ns bg-washed-blue h3 h4-ns"> </div>
+                <div class="pa2 pa4-ns bg-washed-blue h3 h4-ns"> </div>
+                <div class="pa2 pa4-ns bg-washed-blue h3 h4-ns"> </div>
+                <div class="pa2 pa4-ns bg-washed-blue h3 h4-ns"> </div>
 
             </div>
 

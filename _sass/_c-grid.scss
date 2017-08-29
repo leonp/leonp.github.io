@@ -80,6 +80,34 @@ Currently set to 1 rem, but could add more classes to match Tachyons spacing sca
 
 
 /*
+Grid row gaps
+Currently set to 1 rem, but could add more classes to match Tachyons spacing scale
+*/
+
+.c-grg {
+    grid-row-gap: 1rem;
+}
+
+.c-grg-ns {
+    @media screen and (min-width: 48em) {
+        grid-row-gap: 1rem
+    }
+}
+
+.c-grg-m {
+    @media screen and (min-width: 48em) and (max-width: 64em) {
+        grid-row-gap: 1rem
+    }
+}
+
+.c-grg-l {
+    @media screen and (min-width: 64em) {
+        grid-row-gap: 1rem
+    }
+}
+
+
+/*
 Grid columns
 */
 
