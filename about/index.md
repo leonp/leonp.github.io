@@ -2,8 +2,8 @@
 title: About
 layout: default
 nav-weight: 6
-img: leon-6.jpg
-alt: Leon Paternoster (by Esme Paternoster)
+img: lp-library2.jpg
+alt: Leon Paternoster
 description: "I&#8217;ve got several years&#8217; experience of building fast and secure websites and apps. I specialise in moving services, such as self-service, document storage and library management systems, from clients to the cloud."
 ---
 
@@ -94,7 +94,5 @@ description: "I&#8217;ve got several years&#8217; experience of building fast an
         <li><a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></li>
 
     </ul>
-
-    <p><small>Image: Leon Paternoster by Esme Paternoster.</small></p>
 
 </div>
