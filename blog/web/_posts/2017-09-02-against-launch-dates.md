@@ -19,7 +19,7 @@ We unearthed user experience problems after I'd installed kiosks in the four bet
 
 The lesson learned is therefore quite simple:
 
-<p class="f4 f3-l b sans-serif pl2 ml2 ml4-l pl4-l bl bw2 b--dark-pink">If you have an official launch date, make sure there is some project budget remaining for further changes after this date.</p>
+{% include pull-quote.html text="If you have an official launch date, reserve some money for further changes after this date. Say, at least 10% of the overall budget." %}
 
 Note: It's important this money is kept aside for the project. There's little value in coming in under budget (besides some temporary good PR that'll come back to bite you later in your career) if your product isn't perfect -- and it'll never be perfect.
 
