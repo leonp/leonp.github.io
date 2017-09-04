@@ -15,7 +15,7 @@ title: Testing a grid module using CSS grid
 
         <div class="c-wrapper center">
 
-            <p class="f5 f4-ns ma0 measure">An early doors experiment in creating an up-to-6 column responsive grid layout using CSS. Uses the Tachyons breakpoints (i.e. <code>-ns</code>, <code>-m</code> and <code>-l</code>), so you can specify different column numbers at different screen widths.</p>
+            <p class="f5 f4-ns ma0 measure">An early doors experiment in creating an up-to-6 column responsive grid layout using CSS. Uses the Tachyons breakpoints (i.e. <code>-ns</code>, <code>-m</code> and <code>-l</code>), so you can specify different column numbers at different screen widths. Works in Safari, Chrome and Firefox.</p>
 
             <p class="f6 f5-ns mb0 measure">One great thing about CSS grid is that you apply all CSS properties to the parent element, and the children fit into their specified positions.</p>
 
