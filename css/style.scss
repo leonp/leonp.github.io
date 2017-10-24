@@ -4,8 +4,8 @@ sitemap: false
 
 @charset "utf-8";
 
-$serif: 'Libre Baskerville', cambria, georgia, serif;
-$sans-serif: 'Libre Franklin', 'avenir next', avenir, -apple-system, BlinkMacSystemFont, ubuntu, roboto, noto, 'segoe ui', 'helvetica neue', helvetica, arial, sans-serif;
+$serif: -apple-system, BlinkMacSystemFont, ubuntu, roboto, noto, 'segoe ui', 'helvetica neue', helvetica, arial, sans-serif;
+$sans-serif: -apple-system, BlinkMacSystemFont, ubuntu, roboto, noto, 'segoe ui', 'helvetica neue', helvetica, arial, sans-serif;
 
 @import
     "tachyons",
