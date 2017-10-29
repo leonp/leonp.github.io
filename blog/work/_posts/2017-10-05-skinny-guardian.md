@@ -14,12 +14,18 @@ My paper of choice is The Guardian, which has [an open API](http://open-platform
 
 ## The set up
 
-Skinny Guardian uses [Jekyll](https://jekyllrb.com) to generate static HTML files, thereby removing any database requirement. I use [Netlify](https://www.netlify.com) hosting for free SSL and Zapier integration, which means I can automate site builds once every 30m if I use a free [Postman](https://www.getpostman.com/) account as well (the easiest way of getting static sites to update automatically).
-
-There's a bit going on under the hood to make sure the site serves as quickly as possible. I subset Tachyons CSS modules, discarding those that aren't needed by the site. This means that, when gzipped, the CSS weighs in at around 7k, half [the magic 14k figure](https://developers.google.com/speed/docs/insights/mobile). So instead of making a separate request for a CSS file, styles are placed directly in the HTML document's head, cutting down on load and display times.
-
-Additionally, CSS and HTML are aggressively minimised to keep page sizes low.
+Skinny Guardian uses [Jekyll](https://jekyllrb.com) to generate static HTML files, thereby removing any database requirement. I use [Netlify](https://www.netlify.com) hosting for free SSL and a build hook URL, which means I can automate site builds once every 30m if I use something like a free [Postman](https://www.getpostman.com/) account to send the URL a POST request.
 
 The site simply queries the content whenever it's built, grabbing the 50 most recent articles and converting the <abbr title="Javascript Object Notation">json</abbr> response into Jekyll data files with the [Jekyll Get](https://github.com/18F/jekyll-get) plugin.
 
 I then use the [Jekyll Datapage Generator](https://github.com/avillafiorita/jekyll-datapage_gen) plugin to convert the json into Jekyll pages that I can list and feed through layout files. Throw in the Tachyons CSS framework, and you have a fast, regularly updated list of Guardian articles to peruse and read.
+
+## Making it quick
+
+There's a bit going on under the hood to make sure the site serves as quickly as possible.
+
+I only use the Tachyons CSS modules the site needs, using as few as possible (there are no hover effects, for example). This means that, when gzipped, the CSS weighs in at around 7k, half [the magic 14k figure](https://developers.google.com/speed/docs/insights/mobile). So instead of making a separate request for a CSS file, styles are placed directly in the HTML document's head, cutting down on load and display times.
+
+Additionally, CSS and HTML are aggressively minimised to keep page sizes low.
+
+All this means Skinny Guardian should load quickly, regardless of the quality of your connection. Ideal if you're stuck between, say, [Ingatestone](https://www.google.co.uk/maps/place/Ingatestone/@51.6777852,0.3328351,13z/data=!3m1!4b1!4m5!3m4!1s0x47d894e193c112ff:0x71fbf17ff37254c6!8m2!3d51.673794!4d0.3899059) and Brentwood on your commute into work 😄
