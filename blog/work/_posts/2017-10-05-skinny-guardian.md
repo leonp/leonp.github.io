@@ -1,9 +1,9 @@
 ---
 title: Skinny Guardian
-excerpt: "Skinny Guardian displays the last 30 Guardian articles in a plain, easy to scan and read format. No javascript, no database and a smattering of CSS make it ideal for when you just want something to read on your phone."
-summary: "Skinny Guardian displays the last 30 Guardian articles in a plain, easy to scan and read format. No javascript, no database and a smattering of CSS make it ideal for when you just want something to read on your phone."
+excerpt: "Skinny Guardian displays the last 50 Guardian articles in a plain, easy to scan and read format. No javascript, no database and a smattering of CSS make it ideal for when you just want something to read on your phone."
+summary: "Skinny Guardian displays the last 50 Guardian articles in a plain, easy to scan and read format. No javascript, no database and a smattering of CSS make it ideal for when you just want something to read on your phone."
 category: work
-description: "Skinny Guardian displays the last 30 Guardian articles in a plain, easy to scan and read format. No javascript, no database and a smattering of CSS make it ideal for when you just want something to read on your phone."
+description: "Skinny Guardian displays the last 50 Guardian articles in a plain, easy to scan and read format. No javascript, no database and a smattering of CSS make it ideal for when you just want something to read on your phone."
 ---
 
 [Skinny Guardian](https://www.skinnyguardian.xyz) was inspired by sites like [CNN Lite](http://lite.cnn.io/en) and [Thin NPR](http://thin.npr.org/) -- news served with next to no styling. While this may sound (and look) unexciting I find a simple list of headlines an excellent way to get something to read quickly, and because there's nothing going on behind the scenes they load instantly. Perfect on a train or bus journey into work with a poor mobile connection, or when you want something quick to read during your lunch.
@@ -14,6 +14,12 @@ My paper of choice is The Guardian, which has [an open API](http://open-platform
 
 ## The set up
 
-Skinny Guardian uses [Jekyll](https://jekyllrb.com) to generate static HTML files, thereby removing any database requirement. I use [Netlify](https://www.netlify.com) hosting for free SSL and Zapier integration, which means I can automate site builds once every 30m if I use a free [Postman](https://www.getpostman.com/) account as well (the easiest way of getting static sites to update automatically). The site simply queries the content whenever it's built, grabbing the 50 most recent articles and converting the <abbr title="Javascript Object Notation">json</abbr> response into Jekyll data files with the [Jekyll Get](https://github.com/18F/jekyll-get) plugin.
+Skinny Guardian uses [Jekyll](https://jekyllrb.com) to generate static HTML files, thereby removing any database requirement. I use [Netlify](https://www.netlify.com) hosting for free SSL and Zapier integration, which means I can automate site builds once every 30m if I use a free [Postman](https://www.getpostman.com/) account as well (the easiest way of getting static sites to update automatically).
+
+There's a bit going on under the hood to make sure the site serves as quickly as possible. I subset Tachyons CSS modules, discarding those that aren't needed by the site. This means that, when gzipped, the CSS weighs in at around 7k, half [the magic 14k figure](https://developers.google.com/speed/docs/insights/mobile). So instead of making a separate request for a CSS file, styles are placed directly in the HTML document's head, cutting down on load and display times.
+
+Additionally, CSS and HTML are aggressively minimised to keep page sizes low.
+
+The site simply queries the content whenever it's built, grabbing the 50 most recent articles and converting the <abbr title="Javascript Object Notation">json</abbr> response into Jekyll data files with the [Jekyll Get](https://github.com/18F/jekyll-get) plugin.
 
 I then use the [Jekyll Datapage Generator](https://github.com/avillafiorita/jekyll-datapage_gen) plugin to convert the json into Jekyll pages that I can list and feed through layout files. Throw in the Tachyons CSS framework, and you have a fast, regularly updated list of Guardian articles to peruse and read.
