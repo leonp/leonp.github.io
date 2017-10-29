@@ -8,7 +8,7 @@ description: "Skinny Guardian displays the last 50 Guardian articles in a plain,
 
 [Skinny Guardian](https://www.skinnyguardian.xyz) was inspired by sites like [CNN Lite](http://lite.cnn.io/en) and [Thin NPR](http://thin.npr.org/) -- news served with next to no styling. While this may sound (and look) unexciting I find a simple list of headlines an excellent way to get something to read quickly, and because there's nothing going on behind the scenes they load instantly. Perfect on a train or bus journey into work with a poor mobile connection, or when you want something quick to read during your lunch.
 
-{% include figure.html url="sg.jpg" alt="Screenshot of the Skinny Guardian site on an iPhone 6" caption="Skinny Guardian loads quickly on a phone" %}
+{% include figure.html url="sg-android.jpg" alt="Screenshot of the Skinny Guardian site on a Nexus smartphone" caption="Skinny Guardian loads quickly on a phone" %}
 
 My paper of choice is The Guardian, which has [an open API](http://open-platform.theguardian.com/). So the project gave me a chance to work with external, queryable data, an area I'd only worked on once before (with the Google Maps API).
 
