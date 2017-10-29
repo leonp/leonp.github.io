@@ -12,6 +12,6 @@ My paper of choice is The Guardian, which has [an open API](http://open-platform
 
 ## The set up
 
-Skinny Guardian uses Jekyll to generate static HTML files, thereby removing any database requirement. I use Netlify hosting for free SSL and Zapier integration, which means I can automate site builds once an hour (the easiest way of getting static sites to update automatically). The site simply queries the content whenever it's built, grabbing the 30 most recent articles and converting the json response into Jekyll data files with the [Jekyll Get](https://github.com/18F/jekyll-get) plugin.
+Skinny Guardian uses [Jekyll](https://jekyllrb.com) to generate static HTML files, thereby removing any database requirement. I use [Netlify](https://www.netlify.com) hosting for free SSL and Zapier integration, which means I can automate site builds once every 30m if I use a free [Postman](https://www.getpostman.com/) account as well (the easiest way of getting static sites to update automatically). The site simply queries the content whenever it's built, grabbing the 50 most recent articles and converting the <abbr title="Javascript Object Notation">json</abbr> response into Jekyll data files with the [Jekyll Get](https://github.com/18F/jekyll-get) plugin.
 
 I then use the [Jekyll Datapage Generator](https://github.com/avillafiorita/jekyll-datapage_gen) plugin to convert the json into Jekyll pages that I can list and feed through layout files. Throw in the Tachyons CSS framework, and you have a fast, regularly updated list of Guardian articles to peruse and read.

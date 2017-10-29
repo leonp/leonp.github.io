@@ -1,8 +1,8 @@
 ---
-title: "The Uniqlo website's fixed header makes it unusable"
+title: "The Uniqlo website&#8217;s fixed header makes it unusable"
 layout: default
 category: web
-description: "Fixed headers are of limited use at the best of times. The Uniqlo website's header obscures more than half of my laptop's machine, thereby making the website virtually useless."
+description: "Fixed headers are of limited use at the best of times. The Uniqlo website's header obscures more than half of my laptop's screen, thereby making the website virtually useless."
 ---
 
 Fixed headers are banners or navigation bars that stick to the top of the screen instead of disappearing when you scroll down the page. They've become  popular since the web moved onto mobile phones.

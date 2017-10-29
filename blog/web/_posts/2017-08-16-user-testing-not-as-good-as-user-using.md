@@ -9,7 +9,7 @@ Between December 2016 and May this year we developed a [library self-service pro
 
 My first observation is a simple one, and probably self-evident, and contains a lot of <i>use</i>s:
 
-{% include pull-quote.html text='User testing isn&#8217;t as useful as watching users use your product in real life. <span role="img" aria-label="A look of absolute shock">😲</span>."' %}
+{% include pull-quote.html text='User testing isn&#8217;t as useful as watching users use your product in real life. <span role="img" aria-label="A look of absolute shock">😲</span>' %}
 
 Over the course of the project I conducted all testing, arranging sessions in libraries with around 15 'real', representative users, from ages 8 to around 70. Libraries are democratic spaces, and if you observe visitors in a busy branch you'll see a very broad demographic. On the one hand it's really exciting to see your product being used by so many different people, on the other it does pose several design challenges (more of which in another post).
 
