@@ -4,12 +4,12 @@ layout: default
 nav-weight: 6
 img: lp-library2.jpg
 alt: Leon Paternoster
-description: "I&#8217;ve got several years&#8217; experience of building fast and secure websites and apps. I specialise in moving services, such as self-service, document storage and library management systems, from clients to the cloud."
+description: "I&#8217;ve got several years&#8217; experience of building fast and secure websites and apps. I also manage web and customer service teams."
 ---
 
 <div class="c-link-underline">
 
-    <p>I'm Leon, digital manager at <a href="https://www.suffolklibraries.co.uk">Suffolk Libraries</a>. I manage our web and customer service teams, as well as <a href="/work/">several IT projects</a>. I also help manage our network and staff and public PCs. My remit is anything running over the internet and on a screen.</p>
+    <p>I'm Leon, digital manager at <a href="https://www.suffolklibraries.co.uk">Suffolk Libraries</a>. I manage our web and customer service teams, as well as <a href="/work/">several IT projects</a>. I also help manage our network and staff and public PCs. My remit is <strong>anything running over the internet and on a screen</strong>.</p>
 
     <p>Suffolk County Council contracts us to run the county's library service.</p>
 
@@ -19,7 +19,7 @@ description: "I&#8217;ve got several years&#8217; experience of building fast an
 
     <h3>Website development</h3>
 
-    <p>I build websites. Given a free reign, I'll prioritise speed and security over what I deem unnecessary features, so my preference is to use the following tools:</p>
+    <p><strong>I plan, build and manage websites and apps</strong>. Given a free reign, I'll prioritise speed and security over what I deem unnecessary features, so my preference is to use the following tools:</p>
 
     <ul>
 
@@ -73,7 +73,9 @@ description: "I&#8217;ve got several years&#8217; experience of building fast an
 
     <h2>What I don't do</h2>
 
-    <p>I'm not a <em>full stack developer</em>; I have limited knowledge of neat javascript, React, Angular, Vue etc. I can work with templating languages (especially Liquid), but I don't work with PHP, for example. I need to learn how to use APIs better.</p>
+    <p>I'm not a <em>full stack developer</em>; I have limited knowledge of neat javascript, React, Angular, Vue etc. I can work with templating languages (especially Liquid), but I don't work with PHP, for example.</p>
+
+    <p>I do have <a href="/2017/10/skinny-guardian/">some experience of using APIs</a> (such as The Guardian's).</p>
 
     <p>For more complex web projects I'll select and manage third party developers. I've worked with <strong>top class agencies</strong> such as <a href="https://clearleft.com">Clearleft</a> and <a href="http://dootrix.com">Dootrix</a>.</p>
 
