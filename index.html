@@ -10,15 +10,15 @@ hide-nav: true
 
     <article>
 
-        <header class="bg-navy near-white ph2 ph4-ns ph5-l pv4 pv5-l c-bg-home-img">
+        <header class="bg-gold black ph2 ph4-ns ph5-l pv4 pv5-l">
 
             <div class="c-wrapper center">
 
                 <h1 class="f7 f5-ns ma0 mb2 lh-title b"><span role="img" aria-label="Lightning bolt">⚡️</span> {{ site.tagline }}</h1>
 
-                <p class="f3 f2-ns mt0 b mw6-ns"><span class="c-bdb-clone pv1 ph3 bg-navy">{{ site.description }}</span></p>
+                <p class="f3 f2-ns mt0 b measure-narrow"><span class="c-bdb-clone pv1 ph1 ph3-ns bg-navy near-white">{{ site.description }}</span></p>
 
-                <p class="mb0 f6 f5-ns">{% include button.html text="Find out more &rarr;" border-color="moon-gray" color="dark-gray" bg-color="light-gray" hover-bg-color="washed-blue" hover-color="dark-gray" url="/about/" %}</a></p>
+                <p class="mb0 f6 f5-ns">{% include button.html text="Find out more &rarr;" border-color="moon-gray" color="dark-gray" bg-color="light-gray" hover-bg-color="near-white" hover-color="black" url="/about/" %}</a></p>
 
             </div>
 
@@ -30,11 +30,13 @@ hide-nav: true
 
                 <h1 class="f5 f4-ns ma0 mb2 mb3-ns">Work</h1>
 
-                <div class="c-dg-ns c-gtc-2-ns c-gcg-ns">
+                <div class="c-dg-l c-gtc-3-l c-gcg-l">
 
                     {% include block.html url="/2016/12/managing-self-service-project/" color="dark-blue" bg-color="light-gray" hover-color="dark-pink" hover-bg-color="near-white" title="Suffolk Libraries self&#8211;service web app" description="Our own transactional web app that runs in a browser, offline and on any device and any OS." %}
 
                     {% include block.html url="/2016/12/static-site-jekyll-netlify-dynamic-features/" color="dark-blue" bg-color="light-gray" hover-color="dark-pink" hover-bg-color="near-white" title="Suffolk Libraries website" description="A lightning fast, static website with events and dynamic maps built on APIs, Tachyons, Jekyll and Netlify hosting." %}
+
+                    {% include block.html url="/2017/10/skinny-guardian/" color="dark-blue" bg-color="light-gray" hover-color="dark-pink" hover-bg-color="near-white" title="Skinny Guardian website" description="The last 30 Guardian articles served fast in an easy to scan and read format." %}
 
                 </div>
 
