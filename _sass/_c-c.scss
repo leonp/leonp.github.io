@@ -8,128 +8,35 @@
     font-family: $sans-serif;
 }
 
-.c-dashed-list li:before {
-    content: '- ';
-}
-
-.c-sc {
-    text-transform: lowercase;
-    letter-spacing: 0.1em;
-    font-variant: small-caps;
-}
-
 .c-hyphens {
     hyphens: auto;
     -webkit-hyphens: auto;
 }
 
-.c-aim-gray {
-    color: #666;
+.c-mw {
+    max-width: 40em;
 }
 
-.c-prose-measure *  {
-    max-width: 30em;
+.c-measure {
+    max-width: 28em;
 }
 
-.c-prose-measure img,
-.c-prose-measure form,
-.c-prose-measure form *,
-.c-prose-measure section,
-.c-prose-measure figure,
-.c-prose-measure .figcaption,
-.c-prose-measure figure * {
-    max-width: 100% !important;
-    height: auto !important;
-}
-
-.c-prose-measure .constrain,
-.c-prose-measure .vid,
-.c-prose-measure iframe,
-.c-prose-measure object,
-.c-prose-measure embed {
-    max-width: 100% !important;
+.c-prose-link-colours a {
+    border-bottom: 1px dotted;
 }
 
 .c-prose-link-colours a:link {
-  color: #00449E; /* Navy */
+    color: #00449E;
 }
 
 .c-prose-link-colours a:visited {
-  color: #357EDD; /* Dark blue */
+    color: #408BC9;
 }
 
 .c-prose-link-colours a:hover,
 .c-prose-link-colours a:active,
 .c-prose-link-colours a:focus {
-  color: #D5008F;
-}
-
-.c-prose-link-ul a {
-  border-bottom: 1px dotted;
-}
-
-.c-prose-link-no-underline a,
-.c-prose-link-no-underline {
-  border-bottom: none !important;
-}
-
-.c-prose-h h1,
-.c-prose-h h2,
-.c-prose-h h3,
-.c-prose-h h4,
-.c-prose-h h5,
-.c-prose-h h6,
-.c-prose-h dt {
-    line-height: 1.2;
-    margin: 0;
-    padding: 1rem 0 0 0;
-    font-size: 1.5rem;
-    max-width: 24em;
-    font-family: $sans-serif;
-    hyphens: none;
-    -webkit-hyphens: none;
-}
-
-.c-prose-h h3,
-.c-prose-h dt {
-    font-size: 1.25rem;
-}
-
-.c-prose-h h4,
-.c-prose-h h5,
-.c-prose-h h6 {
-    font-size: 1rem;
-}
-
-.c-wrapper {
-    max-width: 49em;
-}
-
-.c-bg-home-img {
-    background-image: url('/images/hand-screen.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.c-bdb-clone {
-    box-decoration-break: clone;
-     -webkit-box-decoration-break: clone;
-}
-
-.c-lh-copy {
-    line-height: 1.4;
-}
-
-@media (min-width: 48em) {
-
-    .c-lh-copy {
-        line-height: 1.5;
-    }
-
+    color: #D5008F;
 }
 
 }

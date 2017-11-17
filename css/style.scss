@@ -4,7 +4,10 @@ sitemap: false
 
 @charset "utf-8";
 
-$serif: -apple-system, BlinkMacSystemFont, ubuntu, roboto, noto, 'segoe ui', 'helvetica neue', helvetica, arial, sans-serif;
+// Variables
+
+// Fonts
+$serif: georgia, serif;
 $sans-serif: -apple-system, BlinkMacSystemFont, ubuntu, roboto, noto, 'segoe ui', 'helvetica neue', helvetica, arial, sans-serif;
 
 @import

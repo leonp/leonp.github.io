@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="en-gb"{% if page.is_post %} profile="http://dublincore.org/documents/2008/08/04/dc-html/"{% endif %}>
+<html lang="en"{% if page.is_post %} profile="http://dublincore.org/documents/2008/08/04/dc-html/"{% endif %}>
 
     <head>
 
@@ -10,14 +10,46 @@
 
     </head>
 
-    <body class="ma0 pa0 bg-white dark-gray c-sans-serif c-lh-copy">
+    <body class="ma0 bg-light-gray dark-gray c-sans-serif lh-copy">
 
-        {% include header-skip-links.html %}
+        <a href="/" rel="index" class="b f6 db tc dark-gray no-underline pt3 pb3 pb4-ns"><span role="img" aria-label="Lightning bolt">⚡️</span> {{ site.title }}</a>
 
-        {% unless page.hide-nav %}
+        <div class="c-mw pa2 pa4-ns ph5-l bg-white center mb3 mb4-ns mb5-l">
 
-            {% include nav.html %}
+            <article class="c-measure center">
 
-            <main id="content">
+                <header>
 
-        {% endunless %}
+                    <h1 class="f3 mb3 lh-title">{{ page.title }}</h1>
+
+                    {% if page.is_post %}
+
+                    <p class="gray pb1 f6"><time>{{ page.date | date: "%b %Y" }}</time></p>
+
+                    {% endif %}
+
+                    {% if page.description %}
+
+                    <p class="pb3 bb b--light-gray">{{ page.description }}</p>
+
+                    {% endif %}
+
+                    {% if page.search %}
+
+                    <div class="pt2 pt3-ns">
+
+                    	<form id="search_from" action="https://www.google.com/search" method="get">
+
+                    		<label class="gray db mb1 f6 c-sans-serif">Search leonpaternoster.com with Google. Results will appear on google.com:</label>
+
+                    		<input type="search" class="mb1 mb0-ns c-sans-serif w-100 w-75-ns pa2 ba b--moon-gray f4-ns" id="q" name="q">
+                    		<input type="submit" value="Search" class="pointer c-sans-serif f4-ns pa2 bg-light-gray hover-bg-near-white dark-gray ba b--moon-gray br2" alt="search" id="submitbtn">
+                    		<input name="sitesearch" value="leonpaternoster.com" type="hidden">
+
+                    	</form>
+
+                    </div>
+
+                    {% endif %}
+
+                </header>
