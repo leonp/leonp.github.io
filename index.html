@@ -1,35 +1,26 @@
 ---
 title: Leon Paternoster
 excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and Liquid. I also blog about managing and building websites and apps and working for a library service.
-description: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and Liquid. I also blog about managing and building websites and apps and working for a library service.
+description: "I&#8217;m digital manager at Suffolk Libraries. I blog about HTML, design and many things web, as well as some stuff about books, music and politics. <span class='c-prose-link-colours'><a href='/about/'>More on me and my work &rarr;</a></span>"
 ---
 
 <section>
 
-    <h1>Latest web &amp; libraries blog posts</h1>
+    <h1>Start here&hellip;</h1>
 
-{% assign web_posts = site.posts | where: "category", "web" %}
-{% assign library_posts = site.posts | where: "category", "libraries" %}
-{% assign posts = web_posts | concat: library_posts %}
+    <ul class="list pa0">
+
+{% assign work = site.posts | where: "category", "work" %}
+{% assign featured = site.posts | where: "featured", "true" %}
+
+{% assign posts = work | concat: featured %}
 
 {% for post in posts limit:10 %}
 
-    <article class="pb3">
-
-        <header>
-
-            <h1 class="f4 lh-title"><a class="dark-blue no-underline" href="{{post.url }}">{{ post.title }}</a></h1>
-
-            <p class="gray f6 ma0 mv2"><time>{{ post.date | date: "%b %Y" }}</time></p>
-
-        </header>
-
-        {% if post.description %}<p class="ma0">{{ post.description }}</p>{% endif %}
-
-    </article>
+    {% include link-list-item.html %}
 
 {% endfor %}
 
 </section>
 
-<p>{% include button.html text="See all blog posts &rarr;" border-color="light-gray" color="dark-gray" bg-color="lightest-blue" hover-bg-color="near-white" hover-color="dark-gray" url="/blog/" %}</p>
+<p><strong><a href="/blog/">See all blog posts &rarr;</a></strong></p>

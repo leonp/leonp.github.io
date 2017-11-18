@@ -12,7 +12,7 @@
 
     <body class="ma0 bg-light-gray dark-gray c-sans-serif lh-copy">
 
-        <a href="/" rel="index" class="b f6 db tc dark-gray no-underline pt3 pb3 pb4-ns"><span role="img" aria-label="Lightning bolt">⚡️</span> {{ site.title }}</a>
+        <a href="/" rel="index" class="grow f4 f3-ns db tc no-underline pt3 pb3 pb4-ns" title="Go to the home page"><span class="ba b--light-blue br-100 pv1 ph2" role="img" aria-label="Lightning bolt, links to home page">⚡️</span></a>
 
         <div class="c-mw pa2 pa4-ns ph5-l bg-white center mb3 mb4-ns mb5-l">
 
@@ -20,7 +20,13 @@
 
                 <header>
 
-                    <h1 class="f3 mb3 lh-title">{{ page.title }}</h1>
+                    {% if page.is_post %}
+
+                    <p class="mt0 mb2 f6 c-prose-link-colours"><a href="/">Home</a> &rarr; <a href="/blog">Blog</a></p>
+
+                    {% endif %}
+
+                    <h1 class="f3 mt0 mb2 lh-title">{{ page.title }}</h1>
 
                     {% if page.is_post %}
 
