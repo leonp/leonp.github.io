@@ -1,0 +1,13 @@
+<nav id="navigation" class="c-mw pa2 pv3-ns ph4-ns ph5-l center">
+
+    <ul class="list ma0 pa0 f6 tc">
+
+    {% assign navigation_pages = site.pages | where: "nav", "true" | sort: "nav-order"  %}
+
+    {% for page in navigation_pages %}
+
+        <li class="dib"><a href="{{ page.url }}" class="pv1 ph2 dark-blue no-underline hover-dark-pink">{% if page.nav-title %}{{ page.nav-title }}{% else %}{{ page.title }}{% endif %}</a></li>
+
+    {% endfor %}
+
+</nav>
