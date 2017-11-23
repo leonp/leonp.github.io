@@ -8,7 +8,7 @@ sitemap: false
 
 // Fonts
 $serif: georgia, serif;
-$sans-serif: -apple-system, BlinkMacSystemFont, ubuntu, roboto, noto, 'segoe ui', 'helvetica neue', helvetica, arial, sans-serif;
+$sans-serif: 'Plex Sans', -apple-system, BlinkMacSystemFont, ubuntu, roboto, noto, 'segoe ui', 'helvetica neue', helvetica, arial, sans-serif;
 
 @import
     "tachyons",
@@ -17,5 +17,6 @@ $sans-serif: -apple-system, BlinkMacSystemFont, ubuntu, roboto, noto, 'segoe ui'
     "c-c",
     "c-grid",
     "c-print",
-    "c-interface"
+    "c-interface",
+    "c-fonts"
 ;
