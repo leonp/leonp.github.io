@@ -2,7 +2,7 @@
 
 <article class="pa2 pa4-ns dtc-l w-two-thirds-l v-top-l br-l b--moon-gray measure-wide">
 
-    <header class="pb3 mb3">
+    <header class="pb3 mb3 bb b--white">
 
         <h1 class="f3 lh-title mb2">{{ page.title }}</h1>
 
@@ -12,9 +12,9 @@
 
         {% endif %}
 
-        {% if page.description %}
+        {% if page.description and page.hide-description != true %}
 
-        <p class="gray pt2">{{ page.description }}</p>
+        <p class="gray pt2 b">{{ page.description }}</p>
 
         {% endif %}
 
