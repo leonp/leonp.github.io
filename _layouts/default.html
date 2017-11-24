@@ -8,7 +8,7 @@
 
         {% if page.is_post %}
 
-        <p class="ma0"><time>{{ page.date | date: "%b %Y" }}</time></p>
+        <p class="ma0"><time>{{ page.date | date: "%b %Y" }}</time>{% if page.category %}. Filed under <span class="c-prose-link-colours"><a href="/blog/{{ page.category }}">{{ page.category }}</a>.{% endif %}</p>
 
         {% endif %}
 
