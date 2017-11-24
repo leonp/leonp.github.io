@@ -1,75 +1,47 @@
 ---
-layout: blank
-title: Home
-display-title: Leon Paternoster
+title: Leon Paternoster
 excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and Liquid. I also blog about managing and building websites and apps and working for a library service.
-hide-nav: true
+description: "I&#8217;m digital manager at Suffolk Libraries, responsible for its website, social media and digital apps, including its self-service progressive web app. I blog about HTML, CSS, design, user experience, work, books, music and politics. Email <strong>leon.paternoster@zoho.com</strong>"
+nav: true
+nav-order: 1
+nav-title: '<span role="img" arial-label="Lightning bolt">⚡️</span> Home'
 ---
 
-<main id="content">
+<section>
 
-    <article>
+    <h1>Start here&hellip;</h1>
 
-        <header class="bg-gold black ph2 ph4-ns ph5-l pv4 pv5-l">
+    <ul class="list pa0">
 
-            <div class="c-wrapper center">
+{% assign work = site.posts | where: "category", "work" %}
+{% assign featured = site.posts | where: "featured", "true" %}
 
-                <h1 class="f7 f5-ns ma0 mb2 lh-title b"><span role="img" aria-label="Lightning bolt">⚡️</span> {{ site.tagline }}</h1>
+{% assign posts = work | concat: featured %}
 
-                <p class="f3 f2-ns mt0 b measure-narrow"><span class="c-bdb-clone pv1 ph1 ph3-ns bg-navy near-white">{{ site.description }}</span></p>
+{% for post in posts limit:10 %}
 
-                <p class="mb0 f6 f5-ns">{% include button.html text="Find out more &rarr;" border-color="moon-gray" color="dark-gray" bg-color="light-gray" hover-bg-color="near-white" hover-color="black" url="/about/" %}</a></p>
+    {% include link-list-item.html %}
 
-            </div>
+{% endfor %}
 
-        </header>
+</section>
 
-        <section class="ph2 ph4-ns ph5-l pv3 pv4-ns bg-white bt b--light-gray lh-title">
+<section>
 
-            <div class="c-wrapper center">
+    <h1>Recent posts</h1>
 
-                <h1 class="f5 f4-ns ma0 mb2 mb3-ns">Work</h1>
+    <ul class="list pa0">
 
-                <div class="c-dg-l c-gtc-3-l c-gcg-l">
+{% for post in site.posts limit:10 %}
 
-                    {% include block.html url="/2016/12/managing-self-service-project/" color="dark-blue" bg-color="light-gray" hover-color="near-white" hover-bg-color="dark-blue" title="Suffolk Libraries self&#8211;service web app" description="Our own transactional web app that runs in a browser, offline and on any device and any OS." %}
+    {% if post.category != "work" and post.featured != "true" and post.category != "thinking" and post.category != "politics" %}
 
-                    {% include block.html url="/2016/12/static-site-jekyll-netlify-dynamic-features/" color="dark-blue" bg-color="light-gray" hover-color="near-white" hover-bg-color="dark-blue" title="Suffolk Libraries website" description="A lightning fast, static website with events and dynamic maps built on APIs, Tachyons, Jekyll and Netlify hosting." %}
+        {% include link-list-item.html %}
 
-                    {% include block.html url="/2017/10/skinny-guardian/" color="dark-blue" bg-color="light-gray" hover-color="near-white" hover-bg-color="dark-blue" title="Skinny Guardian website" description="The last 30 Guardian articles served fast in an easy to scan and read format." %}
+    {% endif %}
 
-                </div>
+{% endfor %}
 
-            </div>
+</section>
 
-        </section>
-
-        <section class="bg-dark-gray white ph2 ph4-ns ph5-l pv3 pv4-ns bt b--light-gray lh-title">
-
-            <div class="c-wrapper center">
-
-                <h1 class="f5 f4-ns ma0 mb2 mb3-ns">Latest web &amp; libraries blog posts</h1>
-
-                <ul class="ma0 pa0 list">
-
-                    {% assign web_posts = site.posts | where: "category", "web" %}
-                    {% assign library_posts = site.posts | where: "category", "libraries" %}
-                    {% assign posts = web_posts | concat: library_posts %}
-
-                    {% for post in posts limit:10 %}
-
-                        <li class="measure pb3 pb4-ns f4 f3-ns"><a class="no-underline lightest-blue hover-white" href="{{post.url }}">{{ post.title }}<a><time class="db mv1 white f5">{{ post.date | date: "%b %-d,  %Y" }}</time></li>
-
-                    {% endfor %}
-
-                </ul>
-
-                <p>{% include button.html text="See all blog posts &rarr;" border-color="light-gray" color="dark-gray" bg-color="lightest-blue" hover-bg-color="near-white" hover-color="dark-gray" url="/blog/" %}</p>
-
-            </div>
-
-        </section>
-
-    </article>
-
-</main>
+<p><strong><a href="/blog/">See all blog posts &rarr;</a></strong></p>

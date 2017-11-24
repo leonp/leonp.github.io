@@ -1,17 +1,13 @@
-<div class="ph2 ph4-ns ph5-l pv2 pv4-l bg-white bb b--moon-gray">
+<nav id="navigation" class="c-mw pa2 pv3-ns ph4-ns ph5-l center">
 
-    <nav id="nav" class="b c-sans-serif c-wrapper center ma0 pa0">
+    <ul class="list ma0 pa0 f6 tc">
 
-        <p class="ma0 pa0 f6">
+    {% assign navigation_pages = site.pages | where: "nav", "true" | sort: "nav-order"  %}
 
-            <a class="no-underline dark-blue hover-dark-pink" href="/"><span role="img" aria-label="Lightning bolt">⚡️</span> Leon Paternoster</a>
+    {% for page in navigation_pages %}
 
-            {% if page.is_post %} &rarr; <a href="/blog/" class="no-underline dark-blue hover-dark-pink">Blog</a> &rarr; <a href="/blog/{{ page.category }}/" class="no-underline dark-blue hover-dark-pink">{{ page.category | capitalize }}</a>{% endif %}
+        <li class="dib"><a href="{{ page.url }}" class="pv1 ph2 dark-blue no-underline hover-dark-pink">{% if page.nav-title %}{{ page.nav-title }}{% else %}{{ page.title }}{% endif %}</a></li>
 
-            {% if page.layout == 'archive' %} &rarr; <a href="/blog/" class="no-underline dark-blue hover-dark-pink">Blog</a>{% endif %}
+    {% endfor %}
 
-        </p>
-
-    </nav>
-
-</div>
+</nav>

@@ -5,6 +5,8 @@ nav-weight: 6
 img: lp-library2.jpg
 alt: Leon Paternoster
 description: "I&#8217;ve got several years&#8217; experience of building fast and secure websites and apps. I also manage web and customer service teams."
+nav: true
+nav-order: 3
 ---
 
 <div class="c-link-underline">

@@ -1,67 +1,15 @@
 {% include header.html %}
 
-<article>
+<div class="c-hyphens c-prose-h c-prose-link-colours c-prose-link-ul">
 
-    <header class="bg-navy near-white lh-title ph2 ph4-ns ph5-l pv3 pv4-ns">
+    {% if page.img %}
 
-        <div class="c-wrapper center">
+    <img src="/images/{{ page.img }}" alt="{{ page.alt }}" class="mt3">
 
-            <h1 class="f3 f2-ns ma0 measure-narrow">{{ page.title }}</h1>
+    {% endif %}
 
-            {% if page.is_post and category != 'work' %}
+    {{ content }}
 
-            <p class="mb0 mt1 mt3-ns f6"><time>{{ page.date | date: "%b %-d,  %Y" }}</time></p>
-
-            {% endif %}
-
-            {% if page.description %}
-
-            <p class="measure c-sans-serif mb0 f5 f4-ns lh-title lh-copy-ns">{{ page.description }}</p>
-
-            {% endif %}
-
-            {% if page.search %}
-
-            <div class="pt2 pt3-ns">
-
-            	<form id="search_from" action="https://www.google.com/search" method="get">
-
-            		<label class="moon-gray db mb1 f6 c-sans-serif">Search leonpaternoster.com with Google. Results will appear on google.com:</label>
-
-            		<input type="search" class="mb1 mb0-ns c-sans-serif w-100 w-75-ns pa2 ba b--moon-gray f4-ns" id="q" name="q">
-            		<input type="submit" value="Search" class="pointer c-sans-serif f4-ns pa2 bg-light-gray hover-bg-near-white dark-gray ba b--moon-gray br2" alt="search" id="submitbtn">
-            		<input name="sitesearch" value="leonpaternoster.com" type="hidden">
-
-            	</form>
-
-            </div>
-
-            {% endif %}
-
-        </div>
-
-    </header>
-
-    <div class="ph2 ph4-ns ph5-l pv3 bg-near-white bt b--moon-gray">
-
-        <div class="c-wrapper center">
-
-            <div class="c-serif c-prose-measure c-hyphens c-prose-h c-prose-link-colours c-prose-link-ul">
-
-                {% if page.img %}
-
-                <img src="/images/{{ page.img }}" alt="{{ page.alt }}" class="mt3">
-
-                {% endif %}
-
-                {{ content }}
-
-            </div>
-
-        </div>
-
-    </div>
-
-</article>
+</div>
 
 {% include footer.html %}
