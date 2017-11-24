@@ -10,45 +10,18 @@
 
     </head>
 
-    <body class="ma0 pa0 bg-light-gray dark-gray c-sans-serif lh-copy">
+    <body class="ma0 pa0 bg-near-white dark-gray c-sans-serif lh-copy">
 
-        {% include nav.html %}
+        <div class="bg-white bb b--moon-gray">
 
-        <div class="c-mw pa2 pt4 pa4-ns pt5-ns ph5-l bg-white center mb3 mb4-ns mb5-l">
+            <header class="c-mw center pa2 pa4-ns">
 
-            <article class="measure center">
+                <h1 class="dib f6 f5-ns ma0 mr2 mr4-ns"><a href="/" class="dark-gray hover-dark-pink no-underline"><span role="img" arial-label="Lightning bolt">⚡️</span> {{ site.title }}</a></h1>
 
-                <header>
+                {% include nav.html %}
 
-                    <h1 class="f3 mt0 mb2 lh-title">{{ page.title }}</h1>
+            </header>
 
-                    {% if page.is_post %}
+        </div>
 
-                    <p class="gray pb1 f6"><time>{{ page.date | date: "%b %Y" }}</time></p>
-
-                    {% endif %}
-
-                    {% if page.description %}
-
-                    <p class="pb3 bb b--light-gray">{{ page.description }}</p>
-
-                    {% endif %}
-
-                    {% if page.search %}
-
-                    <div class="pv2 pv3-ns">
-
-                    	<form id="search_from" action="https://www.google.com/search" method="get">
-
-                    		<label class="gray db mb1 f6 c-sans-serif">Search leonpaternoster.com with Google. Results will appear on google.com:</label>
-                    		<input type="search" class="mb1 mb0-ns sans-serif w-100 w-75-ns pa2 ba b--moon-gray" id="q" name="q">
-                    		<input type="submit" value="Search" class="pointer sans-serif pa2 bg-light-gray hover-bg-near-white dark-gray ba b--moon-gray br2" alt="search" id="submitbtn">
-                    		<input name="sitesearch" value="leonpaternoster.com" type="hidden">
-
-                    	</form>
-
-                    </div>
-
-                    {% endif %}
-
-                </header>
+        <main class="dt-l w-100-l c-mw center">
