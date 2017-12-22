@@ -1,20 +1,20 @@
 {% include header.html %}
 
-<article class="pa2 pa4-ns dtc-l w-two-thirds-l v-top-l br-l b--moon-gray measure-wide">
+<article class="c-measure center pb3">
 
-    <header class="pb3 mb3 bb b--moon-gray c-sans-serif">
+    <header class="mb4 c-sans-serif">
 
-        <h1 class="f3 lh-title mb2">{{ page.title }}</h1>
+        <h1 class="f3 lh-title mb3">{{ page.title }}</h1>
 
         {% if page.is_post %}
 
-        <p class="ma0"><time>{{ page.date | date: "%b %Y" }}</time>{% if page.category %}. Filed under <span class="c-prose-link-colours"><a href="/blog/{{ page.category }}">{{ page.category }}</a>.{% endif %}</p>
+        <p class="ma0 f6"><time>{{ page.date | date: "%b %Y" }}</time>{% if page.category %}. Filed under <span class="c-prose-link-colours"><a href="/blog/{{ page.category }}">{{ page.category }}</a>.{% endif %}</p>
 
         {% endif %}
 
         {% if page.description and page.hide-description != true %}
 
-        <p class="pt2">{{ page.description }}</p>
+        <p class="pt2 c-serif i">{{ page.description }}</p>
 
         {% endif %}
 

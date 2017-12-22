@@ -22,11 +22,10 @@
 }
 
 .c-measure {
-    max-width: 28em;
+    max-width: 27em;
 }
 
 .c-prose-link-colours a {
-    text-decoration: underline;
 }
 
 .c-prose-link-colours a:link {
@@ -41,6 +40,10 @@
 .c-prose-link-colours a:active,
 .c-prose-link-colours a:focus {
     color: #D5008F;
+}
+
+.c-sticky {
+    position: sticky;
 }
 
 }

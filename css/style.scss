@@ -7,7 +7,7 @@ sitemap: false
 // Variables
 
 // Fonts
-$serif: cambria, georgia, serif;
+$serif: georgia, Spectral, georgia, serif;
 $sans-serif: -apple-system, BlinkMacSystemFont, ubuntu, roboto, noto, 'segoe ui', 'helvetica neue', helvetica, arial, sans-serif;
 
 @import
@@ -16,6 +16,5 @@ $sans-serif: -apple-system, BlinkMacSystemFont, ubuntu, roboto, noto, 'segoe ui'
     "c-legacy",
     "c-c",
     "c-grid",
-    "c-print",
-    "c-interface"
+    "c-print"
 ;

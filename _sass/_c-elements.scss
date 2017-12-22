@@ -6,7 +6,7 @@ html {
 
 @media (min-width: 48em) {
   html {
-    font-size: 118.75%;
+    font-size: 112.5%;
   }
 }
 
@@ -19,10 +19,10 @@ html {
 .c-prose-h h1,
 .c-prose-h h2,
 .c-prose-h h3,
-.c-prose-h h4 {
-    padding-top: 1rem;
-    margin: 0;
+.c-prose-h h4,
+.c-prose-h dt {
     font-family: $sans-serif;
+    margin-bottom: 0.5rem;
 }
 
 .c-prose-h h1,
@@ -33,6 +33,14 @@ html {
 .c-prose-h h3,
 .c-prose-h h4 {
     font-size: 1rem;
+}
+
+.c-prose-h h1 + *,
+.c-prose-h h2 + *,
+.c-prose-h h3 + *,
+.c-prose-h h4 + *,
+.c-prose-h dt + * {
+    margin-top: 0;
 }
 
 a {
