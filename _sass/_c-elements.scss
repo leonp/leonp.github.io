@@ -1,18 +1,18 @@
 @media screen, projection {
 
 html {
-    font-size: 125%;
+    font-size: 106.75%;
 }
 
 @media (min-width: 48em) {
   html {
-    font-size: 131.25%;
+    font-size: 118.75%;
   }
 }
 
 @media (min-width: 64em) {
   html {
-    font-size: 150%;
+    font-size: 118.75%;
   }
 }
 
@@ -22,6 +22,7 @@ html {
 .c-prose-h h4 {
     padding-top: 1rem;
     margin: 0;
+    font-family: $sans-serif;
 }
 
 .c-prose-h h1,

@@ -1,12 +1,12 @@
-<nav id="navigation" class="dib">
+<nav id="navigation">
 
-    <ul class="list ma0 pa0 f7 f6-ns">
+    <ul class="list ma0 pa0 dib f6 c-sans-serif">
 
     {% assign navigation_pages = site.pages | where: "nav", "true" | sort: "nav-order"  %}
 
     {% for page in navigation_pages %}
 
-        <li class="dib"><a href="{{ page.url }}" class="pv1 pr2 pr4-ns dark-blue no-underline hover-dark-pink">{% if page.nav-title %}{{ page.nav-title }}{% else %}{{ page.title }}{% endif %}</a></li>
+        <li class="dib"><a href="{{ page.url }}" class="pv1 mr2 mr4-ns dark-blue no-underline hover-dark-pink">{% if page.nav-title %}{{ page.nav-title }}{% else %}{{ page.title }}{% endif %}</a></li>
 
     {% endfor %}
 
