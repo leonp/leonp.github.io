@@ -4,11 +4,11 @@
 
     <header class="mb4 c-sans-serif">
 
-        <h1 class="f3 lh-title mb3">{{ page.title }}</h1>
+        <h1 class="f3 lh-title mb3 tc">{{ page.title }}</h1>
 
         {% if page.is_post %}
 
-        <p class="ma0 f6"><time>{{ page.date | date: "%b %Y" }}</time>{% if page.category %}. Filed under <span class="c-prose-link-colours"><a href="/blog/{{ page.category }}">{{ page.category }}</a>.{% endif %}</p>
+        <p class="ma0 f6 tc"><time>{{ page.date | date: "%b %Y" }}</time>{% if page.category %}. Filed under <span class="c-prose-link-colours"><a href="/blog/{{ page.category }}">{{ page.category }}</a>.{% endif %}</p>
 
         {% endif %}
 
