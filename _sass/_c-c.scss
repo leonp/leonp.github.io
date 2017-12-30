@@ -9,7 +9,11 @@
 }
 
 .c-lh-copy {
-    line-height: 1.45;
+    line-height: 1.5;
+}
+
+.c-lh-title {
+    line-height: 1.1;
 }
 
 .c-hyphens {
@@ -18,7 +22,7 @@
 }
 
 .c-mw {
-    max-width: 52em;
+    max-width: 40em;
 }
 
 .c-measure {
@@ -26,21 +30,22 @@
 }
 
 .c-prose-link-colours a {
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
 }
 
 .c-prose-link-colours a:link {
-    color: #00449E;
+    color: #D5008F;
 }
 
 .c-prose-link-colours a:visited {
-    color: #408BC9;
+    color: #666;
 }
 
 .c-prose-link-colours a:hover,
 .c-prose-link-colours a:active,
 .c-prose-link-colours a:focus {
-    color: #D5008F;
+    color: #FF41B4;
 }
 
 .c-sticky {

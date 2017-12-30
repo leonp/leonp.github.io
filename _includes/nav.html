@@ -1,4 +1,4 @@
-<nav id="navigation">
+<nav class="dib" id="navigation">
 
     <ul class="list ma0 pa0 dib f6 c-sans-serif">
 
@@ -6,7 +6,7 @@
 
     {% for page in navigation_pages %}
 
-        <li class="dib"><a href="{{ page.url }}" class="pv1 mh1 mh2-ns dark-blue no-underline hover-dark-pink">{% if page.nav-title %}{{ page.nav-title }}{% else %}{{ page.title }}{% endif %}</a></li>
+        <li class="dib"><a href="{{ page.url }}" class="mr3 mr4-ns light-gray no-underline hover-white">{% if page.nav-title %}{{ page.nav-title }}{% else %}{{ page.title }}{% endif %}</a></li>
 
     {% endfor %}
 

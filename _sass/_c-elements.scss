@@ -22,19 +22,21 @@ html {
 .c-prose-h h4,
 .c-prose-h dt {
     font-family: $sans-serif;
-    margin-bottom: 0.5rem;
-    text-align: center;
-    line-height: 1.25;
+    font-weight: 500;
+    margin-bottom: 0.875rem;
+    padding-top: 0.5rem;
+    line-height: 1.1;
 }
 
 .c-prose-h h1,
 .c-prose-h h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 .c-prose-h h3,
-.c-prose-h h4 {
-    font-size: 1rem;
+.c-prose-h h4,
+.c-prose-h dt {
+    font-size: 1.25rem;
 }
 
 .c-prose-h h1 + *,
@@ -47,10 +49,6 @@ html {
 
 a {
     text-decoration: none;
-}
-
-a:hover {
-    color: #D5008F; /* Dark pink */
 }
 
 figure {
@@ -100,7 +98,6 @@ td {
 
 blockquote {
     margin-left: 2rem;
-    font-size: 0.875em;
     padding: 0.5rem 0;
 }
 
