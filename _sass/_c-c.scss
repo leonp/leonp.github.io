@@ -9,7 +9,13 @@
 }
 
 .c-lh-copy {
-    line-height: 1.5;
+    line-height: 1.4;
+}
+
+@media (min-width: 48em) {
+    .c-lh-copy {
+        line-height: 1.5;
+    }
 }
 
 .c-lh-title {

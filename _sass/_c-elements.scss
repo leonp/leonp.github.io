@@ -30,13 +30,32 @@ html {
 
 .c-prose-h h1,
 .c-prose-h h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+}
+
+@media (min-width: 48em) {
+    .c-prose-h h1,
+    .c-prose-h h2 {
+        font-size: 1.5rem;
+    }
 }
 
 .c-prose-h h3,
 .c-prose-h h4,
 .c-prose-h dt {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #666;
+}
+
+@media (min-width: 48em) {
+    .c-prose-h h3,
+    .c-prose-h h4,
+    .c-prose-h dt {
+        font-size: 1.25rem;
+        font-weight: normal;
+        color: #333;
+    }
 }
 
 .c-prose-h h1 + *,
