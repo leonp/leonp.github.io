@@ -8,7 +8,7 @@
 
             <div class="dtc w-10 pr2 v-mid">
 
-                <a href="/"><img src="/images/ruski.jpg" class="br-100 h-auto mw3" alt="A man playing an accordion"></a>
+                <a href="/"><img src="/images/leon-fingers.jpg" class="br-100 h-auto mw3" alt="Leon Paternoster"></a>
 
             </div>
 
@@ -17,9 +17,9 @@
                 <p class="ma0 fw5"><a href="/" class="dark-pink hover-hot-pink">Leon Paternoster</a></p>
                 <p class="ma0 gray">Digital design &amp; management</p>
                 {% if page.is_post %}
-                <p class="ma0"><time>{{ page.date | date: "%b %d %Y" }}</time>{% if page.category %}. Filed under <span class="c-prose-link-colours"><a href="/blog/{{ page.category }}">{{ page.category }}</a>.{% endif %}</p>
+                <p class="ma0"><time>{{ page.date | date: "%b %d %Y" }}</time>{% if page.category %}. <a href="/blog/" class="dark-pink hover-hot-pink">Blog</a> &rarr; <a href="/blog/{{ page.category }}" class="dark-pink hover-hot-pink">{{ page.category  | capitalize }}</a>.{% endif %}</p>
                 {% endif %}
-                {% if page.title == 'Fast, innovative and secure websites and progressive web apps' %}
+                {% if page.title == 'Home' %}
                 <p class="ma0">leon.paternoster@zoho.com / <span class="c-prose-link-colours"><a href="https://www.mobile.twitter.com/leonpaternoster/">@leonpaternoster</a></p>
                 {% endif %}
 

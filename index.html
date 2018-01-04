@@ -1,44 +1,56 @@
 ---
-title: "Blogging about: Managing &amp; developing sites and progressive web apps (and politics, philosophy &amp; books)"
-layout: default
+title: Home
+layout: home
 excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and Liquid. I also blog about managing and building websites and apps and working for a library service.
 ---
 
-<section class="pt3 c-prose-link-colours">
+<section class="pv2">
 
-    <h1 class="f6 lh-title ma0 mb3 ttu tracked c-sans-serif">Popular</h1>
+    <h1 class="f6 lh-title mv1 ttu tracked c-sans-serif">Popular</h1>
 
-    <ul class="list pa0">
+    <ul class="list pa0 bb b--light-gray">
 
-{% assign work = site.posts | where: "category", "work" %}
-{% assign featured = site.posts | where: "featured", "true" %}
+    {% assign work = site.posts | where: "category", "work" %}
+    {% assign featured = site.posts | where: "featured", "true" %}
 
-{% assign posts = work | concat: featured %}
+    {% assign posts = work | concat: featured %}
 
-{% for post in posts limit:10 %}
+    {% for post in posts limit:10 %}
 
-    {% include link-list-item.html %}
+        <li class="bt b--light-gray f4-ns">
 
-{% endfor %}
+            <a href="{{ post.url }}" class="db pv2 dark-gray no-underline hover-dark-pink">{{ post.title }} <time class="db f6 gray">{{ post.date | date: "%b %d %Y" }}</time></a>
+
+        </li>
+
+    {% endfor %}
+
+    </ul>
+
+</section>
+
+<section class="pv2">
+
+    <h1 class="f6 lh-title mv1 ttu tracked c-sans-serif">Recent</h1>
+
+    <ul class="list pa0 bb b--light-gray">
+
+    {% for post in site.posts limit:10 %}
+
+        {% if post.category != "work" and post.featured != "true" and post.category != "thinking" and post.category != "politics" %}
+
+        <li class="bt b--light-gray f4-ns">
+
+            <a href="{{ post.url }}" class="db pv2 dark-gray no-underline hover-dark-pink">{{ post.title }} <time class="db f6 gray">{{ post.date | date: "%b %d %Y" }}</time></a>
+
+        </li>
+
+        {% endif %}
+
+    {% endfor %}
+
+    </ul>
 
 </section>
 
-<section class="c-prose-link-colours">
-
-    <h1 class="f6 lh-title ma0 mb3 ttu tracked c-sans-serif">Recent</h1>
-
-    <ul class="list pa0">
-
-{% for post in site.posts limit:10 %}
-
-    {% if post.category != "work" and post.featured != "true" and post.category != "thinking" and post.category != "politics" %}
-
-        {% include link-list-item.html %}
-
-    {% endif %}
-
-{% endfor %}
-
-<p class="i"><a href="/blog/">See all blog posts &rarr;</a></p>
-
-</section>
+<p><a href="/blog/" class="pa2 br2 bg-dark-pink white hover-bg-hot-pink">See all blog posts &rarr;</a></p>

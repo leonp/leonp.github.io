@@ -116,8 +116,16 @@ td {
 }
 
 blockquote {
-    margin-left: 2rem;
-    padding: 0.5rem 0;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #EEE;
+    font-size: 0.875rem;
+}
+
+@media (min-width: 48em) {
+    blockquote {
+        padding: 0.5rem 2rem
+    }
 }
 
 code {
