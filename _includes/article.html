@@ -12,7 +12,7 @@
 
             <div class="dtc w-90 pl2 v-mid">
 
-                <p class="ma0 fw5"><a href="/" class="dark-pink hover-hot-pink">Leon Paternoster</a></p>
+                <p class="ma0 b"><a href="/" class="dark-pink hover-hot-pink">Leon Paternoster</a></p>
                 <p class="ma0 gray">Web, design, writing, accessibility</p>
                 {% if page.is_post %}
                 <p class="ma0"><time>{{ page.date | date: "%b %d %Y" }}</time>{% if page.category %}. <a href="/blog/" class="dark-pink hover-hot-pink">Blog</a> &rarr; <a href="/blog/{{ page.category }}" class="dark-pink hover-hot-pink">{{ page.category  | capitalize }}</a>.{% endif %}</p>
@@ -29,7 +29,7 @@
 
         {% if page.description and page.hide-description != true %}
 
-        <p class="mt0 fw5 normal-ns f4-ns">{{ page.description }}</p>
+        <p class="mt0 i fs-normal-ns f4-ns pb3 bb b--light-gray">{{ page.description }}</p>
 
         {% endif %}
 
@@ -41,7 +41,7 @@
 
     </header>
 
-    <div class="c-hyphens{% if page.title != 'Home' %}  c-prose-h c-prose-link-colours c-prose-link-ul{% endif %}">
+    <div class="c-hyphens{% if page.title != 'Home' %} c-prose-h c-prose-link-colours c-prose-link-ul{% endif %}">
 
         {% if page.search %}
 

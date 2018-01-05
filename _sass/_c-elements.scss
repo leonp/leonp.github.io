@@ -1,18 +1,18 @@
 @media screen, projection {
 
 html {
-    font-size: 106.75%;
+    font-size: 112.5%;
 }
 
 @media (min-width: 48em) {
   html {
-    font-size: 112.5%;
+    font-size: 118.75%;
   }
 }
 
 @media (min-width: 64em) {
   html {
-    font-size: 118.75%;
+    font-size: 137.5%;
   }
 }
 
@@ -22,7 +22,6 @@ html {
 .c-prose-h h4,
 .c-prose-h dt {
     font-family: $sans-serif;
-    font-weight: 500;
     margin-bottom: 0.875rem;
     padding-top: 0.5rem;
     line-height: 1.15;
@@ -44,8 +43,6 @@ html {
 .c-prose-h h4,
 .c-prose-h dt {
     font-size: 1rem;
-    font-weight: bold;
-    color: #666;
 }
 
 @media (min-width: 48em) {
@@ -53,8 +50,6 @@ html {
     .c-prose-h h4,
     .c-prose-h dt {
         font-size: 1.25rem;
-        font-weight: 500;
-        color: #333;
     }
 }
 
