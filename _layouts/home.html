@@ -1,42 +1,5 @@
 {% include header.html %}
 
-<article class="c-mw center pb3">
-
-    <header>
-
-        <div class="dt w-100 f7 f6-ns">
-
-            <div class="dtc w-10 pr2 v-mid">
-
-                <a href="/"><img src="/images/leon-fingers.jpg" class="br-100 h-auto mw3" alt="Leon Paternoster"></a>
-
-            </div>
-
-            <div class="dtc w-90 pl2 v-mid">
-
-                <p class="ma0 fw5"><a href="/" class="dark-pink hover-hot-pink">Leon Paternoster</a></p>
-                <p class="ma0 gray">Digital, design, politics, books</p>
-                {% if page.is_post %}
-                <p class="ma0"><time>{{ page.date | date: "%b %d %Y" }}</time>{% if page.category %}. Filed under <span class="c-prose-link-colours"><a href="/blog/{{ page.category }}">{{ page.category }}</a>.{% endif %}</p>
-                {% endif %}
-                {% if page.title == 'Home' %}
-                <p class="ma0">leon.paternoster@zoho.com / <span class="c-prose-link-colours"><a href="https://www.mobile.twitter.com/leonpaternoster/">@leonpaternoster</a></p>
-                {% endif %}
-
-            </div>
-
-        </div>
-
-        <h1 class="f3 f2-ns mt4-ns mb3 c-lh-title">{{ site.lead }}</h1>
-
-    </header>
-
-    <div class="c-hyphens">
-
-        {{ content }}
-
-    </div>
-
-</article>
+{% include article.html %}
 
 {% include footer.html %}
