@@ -11,7 +11,7 @@ nav-order: 3
 
 <div class="c-link-underline">
 
-    <p>I'm Leon, digital manager at <a href="https://www.suffolklibraries.co.uk">Suffolk Libraries</a>. I manage our web and customer service teams, as well as <a href="/work/">several IT projects</a>. I also help manage our network and staff and public PCs. My remit is <strong>anything running over the internet and on a screen</strong>.</p>
+    <p>I'm Leon, web services manager at <a href="https://www.suffolklibraries.co.uk">Suffolk Libraries</a>. I manage our web and customer service teams, as well as <a href="/work/">several IT projects</a>. I also help manage our network and staff and public PCs. My remit is <strong>anything running over the internet and on a screen</strong>.</p>
 
     <p>Suffolk County Council contracts us to run the county's library service.</p>
 
