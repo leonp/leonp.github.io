@@ -6,7 +6,7 @@ excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and 
 
 <h2>Work</h2>
 
-<ul>
+<ul class="c-prose-link-colours">
 
 {% assign work = site.posts | where: "category", "work" %}
 {% assign featured = site.posts | where: "featured", "true" %}
@@ -15,9 +15,9 @@ excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and 
 
 {% for post in posts limit:10 %}
 
-    <li>
+    <li class="pv1 pv0-ns">
 
-        <a href="{{ post.url }}" class="pv2 dark-blue no-underline hover-dark-red">{{ post.title }}</a>
+        <a href="{{ post.url }}" class="dark-blue no-underline hover-dark-red">{{ post.title }}</a>
 
     </li>
 
@@ -29,10 +29,10 @@ excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and 
 
 <p>If you&#8217;re intersted in making your website or app work better, or you&#8217;re setting up or need someone to manage your web team, get in touch:</p>
 
-<ul>
+<ul class="c-prose-link-colours">
 
     <li>leon.paternoster@zoho.com</li>
-    <li>Twitter</li>
-    <li>LinkedIn</li>
+    <li><a href="https://mobile.twitter.com/leonpaternoster">Twitter</a></li>
+    <li><a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></li>
 
 </ul>
