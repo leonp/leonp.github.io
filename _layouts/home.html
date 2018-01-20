@@ -1,5 +1,25 @@
 {% include header.html %}
 
-{% include article.html %}
+<article id="content" class="ph2 ph4-ns pv3-ns">
 
-{% include footer.html %}
+    <div class="c-measure center">
+
+        <header class="pb2 mb3">
+
+            <h1 class="f3 mt4 mb2 c-lh-title c-sans-serif">The web&#8217;s quite complicated</h1>
+
+            <p class="c-hyphens">Well, the web itself shouldn&#8217;t be, but making it comprehensible, usable, readable, legible &#8211; in short, <i>accessible</i> can be. I try and simplify it, for organisations and users.</p>
+
+            <p class="c-prose-link-colours"><a href="/about">Find out more &rarr;</a></p>
+
+        </header>
+
+        <div class="c-hyphens c-prose-h">
+
+            {{ content }}
+
+        </div>
+
+    </div>
+
+</article>

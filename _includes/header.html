@@ -10,8 +10,32 @@
 
     </head>
 
-    <body class="ma0 pa0 bt bw2 b--dark-pink bg-white dark-gray c-sans-serif c-lh-copy">
+    <body class="ma0 pa0 bg-washed-yellow black c-serif c-lh-copy">
 
-        <a class="dn" href="#content">Skip to content</a>
+        <a class="clip" href="#content">Skip to content</a>
 
-        <div class="pa2 pa4-ns">
+        <header class="bg-white bb b--light-gray pa2 ph4-ns c-sticky top-0">
+
+            <div class="c-measure center">
+
+                <h1 class="f6 lh-title ma0 dib"><a href="/" class="mr3 mr4-ns c-sans-serif dark-blue no-underline hover-dark-red pv1 pv0-ns">{{ site.title }}</a></h1>
+
+                <nav class="dib" id="navigation">
+
+                    <ul class="list ma0 pa0 dib f6">
+
+                    {% assign navigation_pages = site.pages | where: "nav", "true" | sort: "nav-order"  %}
+
+                    {% for page in navigation_pages %}
+
+                        <li class="dib"><a href="{{ page.url }}" class="mr3 mr4-ns dark-blue no-underline hover-dark-red pv1 pv0-ns">{% if page.nav-title %}{{ page.nav-title }}{% else %}{{ page.title }}{% endif %}</a></li>
+
+                    {% endfor %}
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        </header>

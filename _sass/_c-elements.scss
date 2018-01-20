@@ -1,19 +1,31 @@
 @media screen, projection {
 
 html {
-    font-size: 112.5%;
+    font-size: 100%;
 }
 
-@media (min-width: 48em) {
-  html {
-    font-size: 118.75%;
-  }
+@media (min-width: 640px) {
+    html {
+        font-size: 112.5%;
+    }
 }
 
-@media (min-width: 64em) {
-  html {
-    font-size: 137.5%;
-  }
+@media (min-width: 860px) {
+    html {
+        font-size: 118.75%;
+    }
+}
+
+@media (min-width: 1020px) {
+    html {
+        font-size: 125%;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 131.25%;
+    }
 }
 
 .c-prose-h h1,
@@ -32,25 +44,10 @@ html {
     font-size: 1.25rem;
 }
 
-@media (min-width: 48em) {
-    .c-prose-h h1,
-    .c-prose-h h2 {
-        font-size: 1.5rem;
-    }
-}
-
 .c-prose-h h3,
 .c-prose-h h4,
 .c-prose-h dt {
     font-size: 1rem;
-}
-
-@media (min-width: 48em) {
-    .c-prose-h h3,
-    .c-prose-h h4,
-    .c-prose-h dt {
-        font-size: 1.25rem;
-    }
 }
 
 .c-prose-h h1 + *,
@@ -113,8 +110,9 @@ td {
 blockquote {
     margin: 0;
     padding: 0.5rem;
-    background-color: #EEE;
+    background-color: #FFF;
     font-size: 0.875rem;
+    border: 1px solid #EEE;
 }
 
 @media (min-width: 48em) {

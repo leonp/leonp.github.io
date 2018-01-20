@@ -1,66 +1,55 @@
-<article class="c-mw center pb3">
+<article id="content" class="ph2 ph4-ns pv3-ns">
 
-    <header>
+    <div class="c-measure center">
 
-        <div class="dt w-100 f7 f6-ns">
+        <header class="pb2 mb3">
 
-            <div class="dtc w-10 pr2 v-mid">
+            <h1 class="f3 mt4 mb2 c-lh-title c-sans-serif">{{ page.title }}</h1>
 
-                <a href="/"><img src="/images/leon-fingers.jpg" class="br-100 h-auto mw3" alt="Leon Paternoster"></a>
+            <p class="f6 ma0"><time>{{ page.date | date: "%b %d, %Y" }}</time></p>
+
+            {% if page.description and page.hide-description != true %}
+
+            <p class="mt3 mb0 i">{{ page.description }}</p>
+
+            {% endif %}
+
+            {% if page.img %}
+
+            <img src="/images/{{ page.img }}" alt="{{ page.alt }}" class="mt3">
+
+            {% endif %}
+
+        </header>
+
+        <div class="c-hyphens{% if page.title != 'Home' %} c-prose-h c-prose-link-colours c-prose-link-ul{% endif %}">
+
+            {% if page.search %}
+
+            <div class="pv2 pv3-ns">
+
+                <form id="search_from" action="https://www.google.com/search" method="get">
+
+                    <label class="gray db mb1 f6 c-sans-serif">Search leonpaternoster.com with Google. Results will appear on google.com:</label>
+                    <input type="search" class="mb1 mb0-ns c-sans-serif w-100 w-75-ns pa2 ba b--moon-gray" id="q" name="q">
+                    <input type="submit" value="Search" class="pointer c-sans-serif pa2 bg-light-gray hover-bg-near-white dark-gray ba b--moon-gray br2" alt="search" id="submitbtn">
+                    <input name="sitesearch" value="leonpaternoster.com" type="hidden">
+
+                </form>
 
             </div>
 
-            <div class="dtc w-90 pl2 v-mid">
+            {% endif %}
 
-                <p class="ma0 b"><a href="/" class="dark-pink hover-hot-pink">Leon Paternoster</a></p>
-                <p class="ma0 gray">Web, design, writing, accessibility</p>
-                {% if page.is_post %}
-                <p class="ma0"><time>{{ page.date | date: "%b %d %Y" }}</time>{% if page.category %}. <a href="/blog/" class="dark-pink hover-hot-pink">Blog</a> &rarr; <a href="/blog/{{ page.category }}" class="dark-pink hover-hot-pink">{{ page.category  | capitalize }}</a>.{% endif %}</p>
-                {% endif %}
-                {% if page.title == 'Home' %}
-                <p class="ma0">leon.paternoster@zoho.com / <span class="c-prose-link-colours"><a href="https://www.mobile.twitter.com/leonpaternoster/">@leonpaternoster</a></p>
-                {% endif %}
-
-            </div>
+            {{ content }}
 
         </div>
 
-        <h1 id="content" class="f3 f2-ns mt4-ns mb3 c-lh-title">{% if page.title == 'Home' %}{{ site.lead }}{% else %}{{ page.title }}{% endif %}</h1>
+        <footer>
 
-        {% if page.description and page.hide-description != true %}
+            {% if page.category %}<p class="c-prose-link-colours pt2 mt0 f6 i">Filed under <a href="/blog/{{ page.category }}" class="dark-pink hover-hot-pink">{{ page.category  | capitalize }}</a>{% endif %}</p>
 
-        <p class="mt0 i fs-normal-ns f4-ns pb3 bb b--light-gray">{{ page.description }}</p>
-
-        {% endif %}
-
-        {% if page.img %}
-
-        <img src="/images/{{ page.img }}" alt="{{ page.alt }}" class="mt3">
-
-        {% endif %}
-
-    </header>
-
-    <div class="c-hyphens{% if page.title != 'Home' %} c-prose-h c-prose-link-colours c-prose-link-ul{% endif %}">
-
-        {% if page.search %}
-
-        <div class="pv2 pv3-ns">
-
-            <form id="search_from" action="https://www.google.com/search" method="get">
-
-                <label class="gray db mb1 f6 c-sans-serif">Search leonpaternoster.com with Google. Results will appear on google.com:</label>
-                <input type="search" class="mb1 mb0-ns c-sans-serif w-100 w-75-ns pa2 ba b--moon-gray" id="q" name="q">
-                <input type="submit" value="Search" class="pointer c-sans-serif pa2 bg-light-gray hover-bg-near-white dark-gray ba b--moon-gray br2" alt="search" id="submitbtn">
-                <input name="sitesearch" value="leonpaternoster.com" type="hidden">
-
-            </form>
-
-        </div>
-
-        {% endif %}
-
-        {{ content }}
+        </footer>
 
     </div>
 

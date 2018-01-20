@@ -9,12 +9,12 @@
 }
 
 .c-lh-copy {
-    line-height: 1.4;
+    line-height: 1.45;
 }
 
 @media (min-width: 48em) {
     .c-lh-copy {
-        line-height: 1.5;
+        line-height: 1.6;
     }
 }
 
@@ -27,21 +27,17 @@
     -webkit-hyphens: auto;
 }
 
-.c-mw {
-    max-width: 38em;
-}
-
 .c-measure {
-    max-width: 27em;
+    max-width: 31em;
 }
 
 .c-prose-link-colours a {
     text-decoration: none;
-    border-bottom: 1px dotted #000;
+    border-bottom: 1px dotted #408BC9;
 }
 
 .c-prose-link-colours a:link {
-    color: #D5008F;
+    color: #00449E;
 }
 
 .c-prose-link-colours a:visited {
@@ -51,7 +47,7 @@
 .c-prose-link-colours a:hover,
 .c-prose-link-colours a:active,
 .c-prose-link-colours a:focus {
-    color: #FF41B4;
+    color: #E7040F;
 }
 
 .c-sticky {
