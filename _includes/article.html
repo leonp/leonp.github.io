@@ -6,7 +6,7 @@
 
             <h1 class="f3 mt4 mb2 c-lh-title c-sans-serif">{{ page.title }}</h1>
 
-            <p class="f6 ma0"><time>{{ page.date | date: "%b %d, %Y" }}</time></p>
+            <p class="c-sans-serif f6 ma0"><time>{{ page.date | date: "%b %d, %Y" }}</time></p>
 
             {% if page.description and page.hide-description != true %}
 
@@ -30,9 +30,9 @@
 
                 <form id="search_from" action="https://www.google.com/search" method="get">
 
-                    <label class="gray db mb1 f6 c-serif">Search leonpaternoster.com with Google. Results will appear on google.com:</label>
-                    <input type="search" class="mb1 mb0-ns c-serif w-100 w-75-ns pa2 ba b--moon-gray" id="q" name="q">
-                    <input type="submit" value="Search" class="pointer c-serif pa2 bg-light-gray hover-bg-near-white dark-gray ba b--moon-gray br2" alt="search" id="submitbtn">
+                    <label class="c-sans-serif gray db mb1 f6 c-serif">Search leonpaternoster.com with Google. Results will appear on google.com:</label>
+                    <input type="search" class="c-sans-serif mb1 mb0-ns w-100 w-75-ns pa2 ba b--moon-gray" id="q" name="q">
+                    <input type="submit" value="Search" class="pointer c-sans-serif pa2 bg-light-gray hover-bg-near-white dark-gray ba b--moon-gray br2" alt="search" id="submitbtn">
                     <input name="sitesearch" value="leonpaternoster.com" type="hidden">
 
                 </form>
@@ -47,7 +47,7 @@
 
         <footer>
 
-            {% if page.category %}<p class="c-prose-link-colours pt2 mt0 f6 i">Filed under <a href="/blog/{{ page.category }}" class="dark-pink hover-hot-pink">{{ page.category  | capitalize }}</a>{% endif %}</p>
+            {% if page.category %}<p class="c-prose-link-colours pt2 mt0 f6 c-sans-serif">Filed under <a href="/blog/{{ page.category }}" class="dark-pink hover-hot-pink">{{ page.category  | capitalize }}</a>{% endif %}</p>
 
         </footer>
 
