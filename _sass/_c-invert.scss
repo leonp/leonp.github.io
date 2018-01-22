@@ -1,0 +1,12 @@
+:root {
+   background-color: #FFFCEB;
+   filter: invert(100%);
+}
+
+* {
+   background-color: inherit;
+}
+
+img:not([src*=".svg"]), video {
+   filter: invert(100%);
+}
