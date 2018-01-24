@@ -1,24 +1,24 @@
 @media screen, projection {
 
 html {
-    font-size: 106.25%;
+    font-size: 112.5%;
 }
 
 @media (min-width: 640px) {
-    html {
-        font-size: 112.5%;
-    }
-}
-
-@media (min-width: 860px) {
     html {
         font-size: 118.75%;
     }
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 860px) {
     html {
         font-size: 125%;
+    }
+}
+
+@media (min-width: 1020px) {
+    html {
+        font-size: 143.75%;
     }
 }
 
