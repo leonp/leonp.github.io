@@ -10,7 +10,7 @@
 
             {% if page.description and page.hide-description != true %}
 
-            <p class="f4">{{ page.description }}</p>
+            <p class="pa2 pv3 pa4-ns mb0 bg-near-white">{{ page.description }}</p>
 
             {% endif %}
 
@@ -22,7 +22,7 @@
 
         </header>
 
-        <div class="c-hyphens{% if page.title != 'Home' %} c-prose-h c-prose-link-colours c-prose-link-ul{% endif %}">
+        <div class="c-hyphens c-prose-h c-prose-link-colours c-prose-link-ul">
 
             {% if page.search %}
 
@@ -45,11 +45,11 @@
 
         </div>
 
-        <footer>
+        {% if page.category %}
 
-            {% if page.category %}<p class="pt2 mt0 f6 c-sans-serif gray">Filed under <a href="/blog/{{ page.category }}" class="dark-blue bg-light-gray hover-bg-dark-pink hover-white pa1 br2">{{ page.category  | capitalize }}</a>{% endif %}</p>
+        <p class="f6">&#8212; <span class="gray">Filed under <a href="/blog/{{ page.category }}" class="dark-blue hover-dark-pink b">{{ page.category  | capitalize }}</a></span></p>
 
-        </footer>
+        {% endif %}
 
     </div>
 
