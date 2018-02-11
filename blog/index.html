@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: listing
 title: Blog
 cache: true
 nav: true
@@ -22,9 +22,9 @@ search: true
 
 			{% unless forloop.first %}</ul>{% endunless %}
 
-			<h1 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h1>
+			<h2 class="f6 lh-title sans-serif mt4 mb2 gray normal ttl small-caps tracked" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
 
-			<ul class="ma0 pa0 mv2 mt0 list">
+			<ul class="ma0 mb3 mb4-ns pa0 list sans-serif bb b--light-gray">
 
 			{% assign date = currentdate %}
 

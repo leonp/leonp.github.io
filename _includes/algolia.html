@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.5.0/dist/instantsearch.min.css">
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.5.0"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.5.0/dist/instantsearch-theme-algolia.min.css">
+
+<script>
+const search = instantsearch({
+  appId: '{{ site.application_id }}',
+  apiKey: '{{ site.search_only_api_key }}',
+  indexName: '{{ site.index_name }}',
+  urlSync: true
+});
+
+search.start();
+</script>

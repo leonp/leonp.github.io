@@ -89,7 +89,7 @@ hr {
 }
 
 table {
-    max-width: 24em;
+    font-family: $sans-serif;
     hyphens: none;
     -webkit-hyphens: none;
 }
@@ -110,7 +110,7 @@ td {
 blockquote {
     margin: 0;
     padding: 0.5rem;
-    background-color: #FFF;
+    background-color: #F4F4F4;
     font-size: 0.875rem;
     border: 1px solid #EEE;
 }

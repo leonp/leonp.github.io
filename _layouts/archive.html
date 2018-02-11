@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: listing
 hide-title: yes
 ---
 
@@ -11,9 +11,9 @@ hide-title: yes
 
 		{% unless forloop.first %}</ul>{% endunless %}
 
-        <h2 class="f4 ma0 pa0 mb3" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+        <h2 class="f6 lh-title sans-serif mt0 mb2 gray normal ttl small-caps tracked" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
 
-		<ul class="ma0 pa0 mv2 mt0 list">
+		<ul class="ma0 mb3 mb4-ns pa0 list sans-serif bb b--light-gray">
 
 		{% assign date = currentdate %}
 

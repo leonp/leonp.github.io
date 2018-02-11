@@ -28,12 +28,12 @@
 }
 
 .c-measure {
-    max-width: 31em;
+    max-width: 34em;
 }
 
 .c-prose-link-colours a {
     text-decoration: none;
-    border-bottom: 1px dotted #408BC9;
+    border-bottom: 1px dotted #D5008F;
 }
 
 .c-prose-link-colours a:link {
@@ -41,13 +41,13 @@
 }
 
 .c-prose-link-colours a:visited {
-    color: #666;
+    color: #408BC9;
 }
 
 .c-prose-link-colours a:hover,
 .c-prose-link-colours a:active,
 .c-prose-link-colours a:focus {
-    color: #E7040F;
+    color: #D5008F;
 }
 
 .c-sticky {

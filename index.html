@@ -4,9 +4,9 @@ layout: home
 excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and Liquid. I also blog about managing and building websites and apps and working for a library service.
 ---
 
-<h2>Work</h2>
+<h2 class="f6 lh-title sans-serif mt0 mb2 gray normal ttl small-caps tracked">Work</h2>
 
-<ul class="c-prose-link-colours">
+<ul class="ma0 mb3 mb4-ns pa0 list sans-serif bb b--light-gray">
 
 {% assign work = site.posts | where: "category", "work" %}
 {% assign featured = site.posts | where: "featured", "true" %}
@@ -15,9 +15,9 @@ excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and 
 
 {% for post in posts limit:10 %}
 
-    <li class="pv1 pv0-ns">
+    <li>
 
-        <a href="{{ post.url }}" class="dark-blue no-underline hover-dark-red">{{ post.title }}</a>
+        <a href="{{ post.url }}" class="db black no-underline hover-dark-pink pv1 bt b--light-gray">{{ post.title }}</a>
 
     </li>
 
@@ -25,14 +25,12 @@ excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and 
 
 </ul>
 
-<h2>Contact me</h2>
+<h2 class="f6 lh-title sans-serif mt0 mb2 gray normal ttl small-caps tracked">Contact me</h2>
 
-<p>If you&#8217;re intersted in making your website or app work better, or you&#8217;re setting up or need someone to manage your web team, get in touch:</p>
+<ul class="ma0 pa0 list sans-serif bb b--near-white">
 
-<ul class="c-prose-link-colours">
-
-    <li>leon.paternoster@zoho.com</li>
-    <li><a href="https://mobile.twitter.com/leonpaternoster">Twitter</a></li>
-    <li><a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></li>
+    <li class="pv1 bt b--near-white">leon.paternoster@zoho.com</li>
+    <li><a class="db black no-underline hover-dark-pink pv1 bt b--near-white" href="https://mobile.twitter.com/leonpaternoster">Twitter</a></li>
+    <li><a class="db black no-underline hover-dark-pink pv1 bt b--near-white" href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></li>
 
 </ul>

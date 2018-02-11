@@ -1,3 +1,5 @@
+{% include header.html %}
+
 <article id="content" class="ph2 ph4-ns pv3-ns">
 
     <div class="c-measure center">
@@ -5,8 +7,6 @@
         <header class="pb2 mb3">
 
             <h1 class="f3 mt4 c-lh-title c-sans-serif">{{ page.title }}</h1>
-
-            {% if page.date %}<p class="c-sans-serif f6 ma0 gray"><time>{{ page.date | date: "%b %d, %Y" }}</time></p>{% endif %}
 
             {% if page.description and page.hide-description != true %}
 
@@ -22,7 +22,7 @@
 
         </header>
 
-        <div class="c-hyphens{% if page.title != 'Home' %} c-prose-h c-prose-link-colours c-prose-link-ul{% endif %}">
+        <div class="c-hyphens">
 
             {% if page.search %}
 
@@ -47,7 +47,7 @@
 
         <footer>
 
-            {% if page.category %}<p class="pt2 mt0 f6 c-sans-serif gray">Filed under <a href="/blog/{{ page.category }}" class="white bg-dark-blue hover-bg-dark-pink pv1 ph2 br2">{{ page.category  | capitalize }}</a>{% endif %}</p>
+            {% if page.category %}<p class="c-prose-link-colours pt2 mt0 f6 c-sans-serif">Filed under <a href="/blog/{{ page.category }}" class="dark-pink hover-hot-pink">{{ page.category  | capitalize }}</a>{% endif %}</p>
 
         </footer>
 
