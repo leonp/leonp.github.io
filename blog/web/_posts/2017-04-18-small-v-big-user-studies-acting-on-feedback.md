@@ -3,6 +3,7 @@ title: Small vs big user studies (and making lots of changes)
 layout: default
 category: web
 description: "Jakob Nielsen points out that more testers result in diminishing returns. The key is acting on feedback from a small number of users regularly."
+excerpt: "Jakob Nielsen points out that more testers result in diminishing returns. The key is acting on feedback from a small number of users regularly."
 ---
 
 <div class="constrain"><iframe width="754" height="424" src="https://www.youtube.com/embed/ZTsT8r4MWLk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>

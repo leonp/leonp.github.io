@@ -2,6 +2,7 @@
 title: "Inclusive web design is web design for everyone, including you"
 category: web
 article: true
+excerpt: "There&#8217;s always something making it difficult for us to access content on the web &#8211; accessibility is an obviously necessary part of good design."
 ---
 
 Heydon makes a [good point about how we all, at some point during our day (or lives), need designers to make web pages _accessible_](http://www.heydonworks.com/article/who-is-inclusive-design-for) because we're finding something difficult. We are all physically, cognitively, physiologically, socially or technologically hampered, whether that's through a permanent condition which means we need to use a screen reader, or in a more difficult to define or temporary way. We may turn 46 and find our our eyesight isn't what it was, or we get tired more. Our commute into work may get stuck in some godforsaken wood outside Ingatestone which has little or no mobile connection. We might lose our job and find we can only use a knackered, ancient desktop to get online. How do we design for these scenarios?

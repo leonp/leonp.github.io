@@ -6,7 +6,7 @@ excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and 
 
 <h2 class="f6 lh-title sans-serif mt0 mb2 gray normal ttl small-caps tracked">Work</h2>
 
-<ul class="ma0 mb3 mb4-ns pa0 list sans-serif bb b--light-gray">
+<ul class="ma0 mb3 mb4-ns pa0 list">
 
 {% assign work = site.posts | where: "category", "work" %}
 {% assign featured = site.posts | where: "featured", "true" %}
@@ -15,11 +15,17 @@ excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and 
 
 {% for post in posts limit:10 %}
 
-    <li>
+<li class="ma0 pa0">
 
-        <a href="{{ post.url }}" class="db dark-gray no-underline hover-dark-pink pv1 bt b--light-gray">{{ post.title }}</a>
+    <article class="pb4">
 
-    </li>
+        <h3 class="f4 lh-title mt0 mb1"><a class="lh-title db dark-gray no-underline hover-dark-pink" href="{{ post.url }}">{{ post.title }}</a></h3>
+
+        <p class="ma0">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html }}</p>
+
+    </article>
+
+</li>
 
 {% endfor %}
 
