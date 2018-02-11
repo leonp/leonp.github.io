@@ -1,32 +1,33 @@
 @media screen, projection {
 
 html {
-    font-size: 112.5%;
+    font-size: 106.25%;
 }
 
 @media (min-width: 640px) {
     html {
-        font-size: 118.75%;
+        font-size: 112.5%;
     }
 }
 
 @media (min-width: 860px) {
     html {
-        font-size: 125%;
+        font-size: 118.75%;
     }
 }
 
 @media (min-width: 1020px) {
     html {
-        font-size: 143.75%;
+        font-size: 125%;
     }
 }
 
 @media (min-width: 1200px) {
     html {
-        font-size: 150%;
+        font-size: 143.75%;
     }
 }
+
 
 .c-prose-h h1,
 .c-prose-h h2,
@@ -36,7 +37,7 @@ html {
     font-family: $sans-serif;
     margin-bottom: 0.875rem;
     padding-top: 0.5rem;
-    line-height: 1.15;
+    line-height: 1.2;
 }
 
 .c-prose-h h1,

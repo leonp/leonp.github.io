@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: listing
 title: Archive
+description: "You found the archive of every post I've ever posted, including the political and philosophical stuff. Godspeed you. These are, of course, my thoughts, not those of any one or thing else."
 ---
 
-<p class="f4">You found the archive of every post I've ever posted, including the political and philosophical stuff. These are, of course, my thoughts, not those of any one or thing else.</p>
+<div class="pb2 pb3-ns">
 
 {% for post in site.posts %}
 
@@ -13,9 +14,9 @@ title: Archive
 
 	{% unless forloop.first %}</ul>{% endunless %}
 
-	<h2 class="ma0 pa0 pv2 pt4 f3" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+	<h2 class="f6 lh-title sans-serif mt4 mb2 gray normal ttl small-caps tracked" id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
 
-	<ul class="mb3 ml0 pl0 list">
+	<ul class="ma0 mb3 mb4-ns pa0 list sans-serif bb b--light-gray">
 
 	{% assign date = currentdate %}
 
