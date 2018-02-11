@@ -2,21 +2,21 @@
 
     <div class="c-measure center">
 
-        <header class="pb2 mb3">
+        <header class="pb3 mb4 bb b--light-gray">
 
-            <h1 class="f3 mt4 c-lh-title c-sans-serif">{{ page.title }}</h1>
+            <h1 class="f3 mt4 mb0 c-lh-title c-sans-serif">{{ page.title }}</h1>
 
-            {% if page.date %}<p class="c-sans-serif f6 ma0 gray"><time>{{ page.date | date: "%b %d, %Y" }}</time></p>{% endif %}
+            {% if page.date %}<p class="c-sans-serif f6 mb0 gray"><time>{{ page.date | date: "%b %d, %Y" }}</time></p>{% endif %}
 
             {% if page.description and page.hide-description != true %}
 
-            <p class="pa2 pv3 pa4-ns mb0 bg-near-white">{{ page.description }}</p>
+            <p class="mb0">{{ page.description }}</p>
 
             {% endif %}
 
             {% if page.img %}
 
-            <img src="/images/{{ page.img }}" alt="{{ page.alt }}" class="mt3">
+            <img src="/images/{{ page.img }}" alt="{{ page.alt }}" class="db mv3">
 
             {% endif %}
 
