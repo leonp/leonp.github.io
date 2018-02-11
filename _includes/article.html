@@ -10,7 +10,7 @@
 
             {% if page.description and page.hide-description != true %}
 
-            <p class="f4 mt3 mb0 sans-serif">{{ page.description }}</p>
+            <p class="f4">{{ page.description }}</p>
 
             {% endif %}
 
@@ -47,7 +47,7 @@
 
         <footer>
 
-            {% if page.category %}<p class="pt2 mt0 f6 c-sans-serif gray">Filed under <a href="/blog/{{ page.category }}" class="white bg-dark-blue hover-bg-dark-pink pv1 ph2 br2">{{ page.category  | capitalize }}</a>{% endif %}</p>
+            {% if page.category %}<p class="pt2 mt0 f6 c-sans-serif gray">Filed under <a href="/blog/{{ page.category }}" class="dark-blue bg-light-gray hover-bg-dark-pink hover-white pa1 br2">{{ page.category  | capitalize }}</a>{% endif %}</p>
 
         </footer>
 
