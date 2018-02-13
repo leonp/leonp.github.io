@@ -18,17 +18,17 @@
 
             <div class="c-measure center">
 
-                <h1 class="f7 lh-title ma0 dib"><a href="/" class="db pl2 pl3-ns bl bw3-ns b--dark-pink mr2 black no-underline hover-dark-pink pv2 pv3-ns ttl small-caps tracked">{{ site.title }}</a></h1>
+                <h1 class="f7 f6-ns lh-title ma0 dib"><a href="/" class="db pl2 pl3-ns pr2 pr3-ns bl bw3-ns b--dark-pink black no-underline hover-bg-dark-pink hover-white pv2 pv3-ns ttl small-caps tracked">{{ site.title }}</a></h1>
 
                 <nav class="dib" id="navigation">
 
-                    <ul class="list ma0 pa0 dib f7 ttl small-caps tracked lh-title">
+                    <ul class="list ma0 pa0 dib f7 f6-ns ttl small-caps tracked lh-title">
 
                     {% assign navigation_pages = site.pages | where: "nav", "true" | sort: "nav-order"  %}
 
                     {% for page in navigation_pages %}
 
-                        <li class="dib pa0"><a href="{{ page.url }}" class="db ml2 ml4-ns black no-underline hover-dark-pink pv2 pv3-ns">{% if page.nav-title %}{{ page.nav-title }}{% else %}{{ page.title }}{% endif %}</a></li>
+                        <li class="dib pa0"><a href="{{ page.url }}" class="db ph1 ph2-ns black no-underline hover-bg-dark-pink hover-white pv2 pv3-ns">{% if page.nav-title %}{{ page.nav-title }}{% else %}{{ page.title }}{% endif %}</a></li>
 
                     {% endfor %}
 
