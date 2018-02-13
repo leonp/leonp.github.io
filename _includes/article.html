@@ -2,7 +2,7 @@
 
     <div class="c-measure center">
 
-        <header class="pb3 mb4 bb b--light-gray">
+        <header class="pb3 bb b--light-gray">
 
             <h1 class="f3 mt4 mb0 c-lh-title c-sans-serif">{{ page.title }}</h1>
 
@@ -41,7 +41,11 @@
 
             {% endif %}
 
+            {% if page.description %}<div class="c-first-line">{% endif %}
+
             {{ content }}
+
+            {% if page.description %}</div>{% endif %}
 
         </div>
 
