@@ -92,7 +92,7 @@ nav-order: 3
     <ul>
 
         <li>leon.paternoster@zoho.com</li>
-        <li><a href="https://twitter.com/leonpaternoster">Twitter</a></li>
+        <li><a href="https://mobile.twitter.com/leonpaternoster">Twitter</a></li>
         <li><a href="https://uk.linkedin.com/in/leonpaternoster">LinkedIn</a></li>
 
     </ul>
