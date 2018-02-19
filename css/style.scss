@@ -7,14 +7,14 @@ sitemap: false
 // Variables
 
 // Fonts
-$serif: georgia, serif;
-$sans-serif: 'Fira Sans', -apple-system, BlinkMacSystemFont, ubuntu, roboto, noto, 'segoe ui', 'helvetica neue', helvetica, arial, sans-serif;
+$serif: 'ff-meta-serif-web-pro',georgia, serif;
+$sans-serif: 'ff-meta-web-pro','Fira Sans', -apple-system, BlinkMacSystemFont, ubuntu, roboto, noto, 'segoe ui', 'helvetica neue', helvetica, arial, sans-serif;
 
 @import
     "tachyons",
     "c-elements",
     "c-legacy",
     "c-c",
-    "c-fonts",
+    // "c-fonts",
     "c-print"
 ;
