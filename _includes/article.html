@@ -1,22 +1,22 @@
-<article id="content" class="pb3">
+<article id="content" class="pv3 pv4-ns pv5-l">
 
-    <header class="ph2 ph4-ns pv3 pv4-ns bg-dark-gray near-white">
+    <header class="ph2 ph4-ns">
 
         <div class="c-measure center">
 
-            <h1 class="f3 mv2 c-lh-title c-sans-serif">{{ page.title }}</h1>
+            <h1 class="f3 ma0 c-lh-title c-sans-serif">{{ page.title }}</h1>
 
-            {% if page.date %}<p class="c-sans-serif f6 ma0 moon-gray"><time>{{ page.date | date: "%b %d, %Y" }}</time></p>{% endif %}
+            {% if page.date %}<p class="c-sans-serif f6 mt2 mb0 gray"><time>{{ page.date | date: "%b %d, %Y" }}</time></p>{% endif %}
 
             {% if page.description and page.hide-description != true %}
 
-            <p class="mb0">{{ page.description }}</p>
+            <p class="mt2 mb0 b">{{ page.description }}</p>
 
             {% endif %}
 
             {% if page.img %}
 
-            <img src="/images/{{ page.img }}" alt="{{ page.alt }}" class="db mv3">
+            <img src="/images/{{ page.img }}" alt="{{ page.alt }}" class="db mt3">
 
             {% endif %}
 
@@ -26,7 +26,7 @@
 
     <div class="ph2 ph4-ns">
 
-        <div class="c-measure center c-hyphens c-prose-h c-prose-link-colours c-prose-link-ul pt3">
+        <div class="c-measure center c-hyphens c-prose-h c-prose-link-colours c-prose-link-ul">
 
             {{ content }}
 
