@@ -27,26 +27,26 @@ sass:
 defaults:
 -
     scope:
-        path: ""      # empty string for all files
-        type: posts   # limit to posts
+        path: "blog"      # empty string for all files
+        type: "posts"   # limit to posts
     values:
         is_post: true # automatically set is_post=true for all posts
         layout: default
 -
     scope:
         path: ""
-        type: work
+        type: "work"
     values:
-        is_work: true
-        layout: default
+        is_work: "true"
+        layout: "default"
 
 -
     scope:
         path: ""
-        type: pages
+        type: "pages"
     values:
-        is_page: true
-        layout: default
+        is_page: "true"
+        layout: "default"
 
 
 # Collections

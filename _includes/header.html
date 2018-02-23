@@ -24,9 +24,17 @@
 
                 {% assign navigation_pages = site.pages | where: "nav", "true" | sort: "nav-order"  %}
 
-                {% for page in navigation_pages %}
+                {% for item in navigation_pages %}
 
-                    <li class="dib ml3 mrl-ns"><a href="{{ page.url }}" class="gray no-underline hover-dark-gray">{% if page.nav-title %}{{ page.nav-title }}{% else %}{{ page.title }}{% endif %}</a></li>
+                    {% if page.url == item.url %}
+
+                    <li class="dib ml3 mrl-ns"><a href="{{ item.url }}" class="dark-gray no-underline hover-dark-pink">{% if item.nav-title %}{{ item.nav-title }}{% else %}{{ item.title }}{% endif %}</a></li>
+
+                    {% else %}
+
+                    <li class="dib ml3 mrl-ns"><a href="{{ item.url }}" class="gray no-underline hover-dark-pink">{% if item.nav-title %}{{ item.nav-title }}{% else %}{{ item.title }}{% endif %}</a></li>
+
+                    {% endif %}
 
                 {% endfor %}
 
