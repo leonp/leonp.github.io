@@ -10,7 +10,7 @@ description: "Skinny Guardian displays the last 50 Guardian articles in a plain,
 
 {% include figure.html url="sg-android.jpg" alt="Screenshot of the Skinny Guardian site on a Nexus smartphone" caption="Skinny Guardian loads quickly on a phone" %}
 
-<cite>The Guardian</cite> has [an excellent, open API](http://open-platform.theguardian.com/), so the project gave me a chance to work with external, queryable data. I'd only worked with the Google Maps API in the past, using some pre-defined templates and queries. This project gave me a chance to work from scratch, building my own API queries and wrangling the results into layout files.
+<cite>The Guardian</cite> has [an excellent, open API](http://open-platform.theguardian.com/), so the project gave me a chance to work with external, queryable data. I'd only used the Google Maps API in the past, copying some pre-defined templates and queries. With Skinny Guardian, I built my own API queries and wrangled the results into layout files.
 
 ## The set up
 
