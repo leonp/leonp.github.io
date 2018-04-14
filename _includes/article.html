@@ -6,11 +6,11 @@
 
             <h1 class="f3 ma0 c-lh-title c-sans-serif">{{ page.title }}</h1>
 
-            {% if page.date %}<p class="c-sans-serif f6 mt2 mb0 gray"><time>{{ page.date | date: "%b %d, %Y" }}</time></p>{% endif %}
+            {% if page.date %}<p class="c-sans-serif f6 mb0 gray"><time>{{ page.date | date: "%b %d, %Y" }}</time></p>{% endif %}
 
             {% if page.description and page.hide-description != true %}
 
-            <p class="mt2 mb0 b">{{ page.description }}</p>
+            <p class="mt2 mb0 pa2 pa4-ns i bg-near-white ba b--light-gray">{{ page.description }}</p>
 
             {% endif %}
 
