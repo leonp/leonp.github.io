@@ -22,6 +22,12 @@
     }
 }
 
+@media (min-width: 60em) {
+    .c-lh-copy {
+        line-height: 1.6;
+    }
+}
+
 .c-lh-title {
     line-height: 1.2;
 }
@@ -39,6 +45,12 @@
 
 .c-measure {
     max-width: 30em;
+}
+
+@media (min-width: 60em) {
+    .c-measure {
+        max-width: 34em;
+    }
 }
 
 .c-prose-link-colours a {
