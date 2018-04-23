@@ -16,7 +16,7 @@
 
         <header class="bb b--light-gray pa2 ph4-ns cf c-no-print">
 
-            <h1 class="c-sans-serif f6 ma0 fl"><a href="/" class="dark-gray no-underline hover-dark-pink">{{ site.title }}</a></h1>
+            <h1 class="c-sans-serif f6 ma0 fl"><a href="/" class="dark-gray no-underline hover-dark-red">{{ site.title }}</a></h1>
 
             <nav class="fr tr f6 c-sans-serif" id="navigation">
 
@@ -28,11 +28,11 @@
 
                     {% if page.url == item.url %}
 
-                    <li class="dib ml3 mrl-ns"><a href="{{ item.url }}" class="dark-gray no-underline hover-dark-pink">{% if item.nav-title %}{{ item.nav-title }}{% else %}{{ item.title }}{% endif %}</a></li>
+                    <li class="dib ml3 mrl-ns"><a href="{{ item.url }}" class="dark-gray no-underline hover-dark-red">{% if item.nav-title %}{{ item.nav-title }}{% else %}{{ item.title }}{% endif %}</a></li>
 
                     {% else %}
 
-                    <li class="dib ml3 mrl-ns"><a href="{{ item.url }}" class="gray no-underline hover-dark-pink">{% if item.nav-title %}{{ item.nav-title }}{% else %}{{ item.title }}{% endif %}</a></li>
+                    <li class="dib ml3 mrl-ns"><a href="{{ item.url }}" class="gray no-underline hover-dark-red">{% if item.nav-title %}{{ item.nav-title }}{% else %}{{ item.title }}{% endif %}</a></li>
 
                     {% endif %}
 
