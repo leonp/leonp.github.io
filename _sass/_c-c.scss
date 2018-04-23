@@ -24,7 +24,7 @@
 
 @media (min-width: 60em) {
     .c-lh-copy {
-        line-height: 1.6;
+        line-height: 1.618; // A joke, no less
     }
 }
 
@@ -44,12 +44,12 @@
 }
 
 .c-measure {
-    max-width: 30em;
+    max-width: 34em;
 }
 
 @media (min-width: 60em) {
     .c-measure {
-        max-width: 34em;
+        max-width: 38em;
     }
 }
 
