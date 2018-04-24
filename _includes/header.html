@@ -26,15 +26,19 @@
 
                 {% for item in navigation_pages %}
 
-                    {% if page.url == item.url %}
+                    {% unless item.title contains " – page " %}
 
-                    <li class="dib ml3 mrl-ns"><a href="{{ item.url }}" class="dark-gray no-underline hover-dark-red">{% if item.nav-title %}{{ item.nav-title }}{% else %}{{ item.title }}{% endif %}</a></li>
+                        {% if page.url == item.url %}
 
-                    {% else %}
+                        <li class="dib ml3 mrl-ns"><a href="{{ item.url }}" class="dark-gray no-underline hover-dark-red">{% if item.nav-title %}{{ item.nav-title }}{% else %}{{ item.title }}{% endif %}</a></li>
 
-                    <li class="dib ml3 mrl-ns"><a href="{{ item.url }}" class="gray no-underline hover-dark-red">{% if item.nav-title %}{{ item.nav-title }}{% else %}{{ item.title }}{% endif %}</a></li>
+                        {% else %}
 
-                    {% endif %}
+                        <li class="dib ml3 mrl-ns"><a href="{{ item.url }}" class="gray no-underline hover-dark-red">{% if item.nav-title %}{{ item.nav-title }}{% else %}{{ item.title }}{% endif %}</a></li>
+
+                        {% endif %}
+
+                    {% endunless %}
 
                 {% endfor %}
 
