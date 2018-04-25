@@ -30,11 +30,11 @@
 
                         {% if page.url == item.url %}
 
-                        <li class="dib ml3 mrl-ns"><a href="{{ item.url }}" class="dark-gray no-underline hover-dark-red">{% if item.nav-title %}{{ item.nav-title }}{% else %}{{ item.title }}{% endif %}</a></li>
+                        <li class="dib ml3 mrl-ns"><a href="{{ item.url | remove: 'index.html' }}" class="dark-gray no-underline hover-dark-red">{% if item.nav-title %}{{ item.nav-title }}{% else %}{{ item.title }}{% endif %}</a></li>
 
                         {% else %}
 
-                        <li class="dib ml3 mrl-ns"><a href="{{ item.url }}" class="gray no-underline hover-dark-red">{% if item.nav-title %}{{ item.nav-title }}{% else %}{{ item.title }}{% endif %}</a></li>
+                        <li class="dib ml3 mrl-ns"><a href="{{ item.url | remove: 'index.html' }}" class="gray no-underline hover-dark-red">{% if item.nav-title %}{{ item.nav-title }}{% else %}{{ item.title }}{% endif %}</a></li>
 
                         {% endif %}
 

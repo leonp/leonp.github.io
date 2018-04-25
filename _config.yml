@@ -30,6 +30,7 @@ defaults:
     values:
         is_post: true # automatically set is_post=true for all posts
         layout: default
+        
 -
     scope:
         path: ""
