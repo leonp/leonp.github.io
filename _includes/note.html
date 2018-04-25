@@ -1,0 +1,25 @@
+<article id="content" class="pv3 pv4-ns pv5-l">
+
+    <header class="ph2 ph4-ns">
+
+        <div class="c-measure center">
+
+            {% if page.title != '' %}<h1 class="f3 f2-l ma0 c-lh-title c-sans-serif c-print-title">{{ page.title }}</h1>{% endif %}
+
+            {% if page.date %}<p class="c-sans-serif f6 mb0 gray"><time>{{ page.date | date: "%b %d, %Y" }}</time></p>{% endif %}
+
+        </div>
+
+    </header>
+
+    <div class="ph2 ph4-ns">
+
+        <div class="c-measure center c-hyphens c-prose-h c-prose-link-colours c-prose-link-ul">
+
+            {{ content }}
+
+        </div>
+
+    </div>
+
+</article>

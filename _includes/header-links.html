@@ -38,4 +38,8 @@
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; posts about the web" href="/blog/web/feed/index.xml">
 {% endif %}
 
+{% if page.tag == 'note' or page.title == 'Notes' %}
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }} &#8211; notes" href="/notes/feed/index.xml">
+{% endif %}
+
 <link href="/css/style.css" rel="stylesheet">

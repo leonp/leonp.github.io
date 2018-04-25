@@ -30,7 +30,7 @@ defaults:
     values:
         is_post: true # automatically set is_post=true for all posts
         layout: default
-        
+
 -
     scope:
         path: ""
@@ -81,6 +81,22 @@ defaults:
         type: "posts"
     values:
         tag: "journal"
+
+-
+    scope:
+        path: "notes"
+        type: "posts"
+    values:
+        tag: "note"
+
+-
+    scope:
+        path: "notes"      # empty string for all files
+        type: "posts"   # limit to posts
+    values:
+        is_note: "true" # automatically set is_note=true for all notes
+        layout: "note"
+        tag: "note"
 
 
 # Collections
