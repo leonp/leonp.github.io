@@ -31,9 +31,33 @@
 
     <div class="ph2 ph4-ns">
 
-        <div class="c-measure center c-hyphens">
+        <div class="c-measure center c-hyphens pb2 pb3-ns">
 
-            {{ content }}
+        	<ul class="ma0 mb3 mb4-ns pa0 list">
+
+        	{% for post in paginator.posts %}
+
+        		{% include link-list-item.html %}
+
+        	{% endfor %}
+
+        	</ul>
+
+        	{% if paginator.total_pages > 1 %}
+
+        		<div class="cf c-sans-serif">
+
+        		{% if paginator.previous_page %}
+        			<p class="ma0 w-40 fr tr"><a class="no-underline dark-blue hover-dark-red" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer posts &rarr;</a></p>
+        		{% endif %}
+
+        		{% if paginator.next_page %}
+        			<p class="ma0 w-40 fl"><a class="no-underline dark-blue hover-dark-red" href="{{ paginator.next_page_path | prepend: site.baseurl }}">&larr; Older posts</a></p>
+        		{% endif %}
+
+                </div>
+
+        	{% endif %}
 
         </div>
 

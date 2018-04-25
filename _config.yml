@@ -46,6 +46,41 @@ defaults:
         is_page: "true"
         layout: "default"
 
+-
+    scope:
+        path: "blog/web"
+        type: "posts"
+    values:
+        tag: "article"
+
+-
+    scope:
+        path: "blog/libraries"
+        type: "posts"
+    values:
+        tag: "article"
+
+-
+    scope:
+        path: "blog/work"
+        type: "posts"
+    values:
+        tag: "article"
+
+-
+    scope:
+        path: "blog/politics"
+        type: "posts"
+    values:
+        tag: "journal"
+
+-
+    scope:
+        path: "blog/thinking"
+        type: "posts"
+    values:
+        tag: "journal"
+
 
 # Collections
 collections:
