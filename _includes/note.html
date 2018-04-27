@@ -6,7 +6,7 @@
 
             {% if page.title != '' %}<h1 class="f3 f2-l ma0 c-lh-title c-sans-serif c-print-title">{{ page.title }}</h1>{% endif %}
 
-            {% if page.date %}<p class="c-sans-serif f6 mb0 gray"><time>{{ page.date | date: "%b %d, %Y" }}</time></p>{% endif %}
+            {% if page.date %}<p class="c-sans-serif f6 mb0 gray"><time>{{ page.date | date: "%b %d, %Y" }}</time> (a <a class="dark-blue hover-dark-pink no-underline" href="/notes/">note</a>)</p>{% endif %}
 
         </div>
 
