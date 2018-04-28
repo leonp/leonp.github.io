@@ -32,10 +32,8 @@
     line-height: 1.2;
 }
 
-.c-first-line > p:first-child::first-line {
-    text-transform: lowercase;
-    font-variant: small-caps;
-    letter-spacing: 0.1em;
+.c-first-line > p {
+    margin-top: 0;
 }
 
 .c-hyphens {

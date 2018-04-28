@@ -6,9 +6,9 @@
 
         {% if post.tag == 'note' %}
 
-        <p class="mt0 mb1 f7 c-sans-serif"><time><a class="lh-title db dark-blue no-underline hover-dark-red" href="{{ post.url }}">{{ post.date | date: "%b %d, %Y" }}</a></time></p>
+        <p class="mt0 mb1 f7 c-sans-serif"><time><a class="lh-title db dark-blue no-underline hover-dark-red" href="{{ post.url }}">{{ post.date | date: "%b %d, %Y, %H:%M" }}</a></time></p>
 
-        <p class="mt0 mb1 f6 c-hyphens c-prose-link-colours">{{ post.content | remove: "<p>" | remove: "</p>" }}
+        <div class="mt0 mb1 f6 c-hyphens c-prose-link-colours c-first-line">{{ post.content }}</div>
 
         {% else %}
 

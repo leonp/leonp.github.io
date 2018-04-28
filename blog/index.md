@@ -1,0 +1,4 @@
+---
+redirect: "/articles/"
+layout: redirect
+---

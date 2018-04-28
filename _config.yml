@@ -25,7 +25,7 @@ sass:
 defaults:
 -
     scope:
-        path: "blog"      # empty string for all files
+        path: "articles"      # empty string for all files
         type: "posts"   # limit to posts
     values:
         is_post: true # automatically set is_post=true for all posts
@@ -49,45 +49,42 @@ defaults:
 
 -
     scope:
-        path: "blog/web"
+        path: "articles/web"
         type: "posts"
     values:
         tag: "article"
 
 -
     scope:
-        path: "blog/libraries"
+        path: "articles/libraries"
         type: "posts"
     values:
         tag: "article"
 
 -
     scope:
-        path: "blog/work"
+        path: "articles/work"
         type: "posts"
     values:
         tag: "article"
 
 -
     scope:
-        path: "blog/politics"
+        path: "journal/politics"
         type: "posts"
     values:
         tag: "journal"
+        is_journal: true
+        is_post: true
 
 -
     scope:
-        path: "blog/thinking"
+        path: "journal/thinking"
         type: "posts"
     values:
         tag: "journal"
-
--
-    scope:
-        path: "notes"
-        type: "posts"
-    values:
-        tag: "note"
+        is_journal: true
+        is_post: true
 
 -
     scope:

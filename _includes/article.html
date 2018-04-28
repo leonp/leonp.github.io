@@ -32,7 +32,15 @@
 
             {% if page.category %}
 
-            <p class="f6 c-no-print c-sans-serif">&#8212; <span class="gray">Filed under <a href="/blog/{{ page.category }}" class="dark-blue hover-dark-pink b">{{ page.category  | capitalize }}</a></span></p>
+                {% if page.tag == 'article' %}
+
+                    <p class="f6 c-no-print c-sans-serif">&#8212; <span class="gray">Filed under <a href="/articles/{{ page.category }}" class="dark-blue hover-dark-pink b">{{ page.category  | capitalize }}</a></span></p>
+
+                {% elsif page.tag == 'journal' %}
+
+                    <p class="f6 c-no-print c-sans-serif">&#8212; <span class="gray">Filed under <a href="/journal/{{ page.category }}" class="dark-blue hover-dark-pink b">{{ page.category  | capitalize }}</a></span></p>
+
+                {% endif %}
 
             {% endif %}
 
