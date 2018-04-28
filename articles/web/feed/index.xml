@@ -4,8 +4,8 @@ layout: empty
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title type="text" xml:lang="en">Leon Paternoster &#8211; Web</title>
-    <link type="application/atom+xml" href="https://www.leonpaternoster.com.com/blog/thinking/web/" rel="self"/>
-    <link type="text" href="https://www.leonpaternoster.com/blog/web" rel="alternate"/>
+    <link type="application/atom+xml" href="https://www.leonpaternoster.com.com/articles/thinking/web/" rel="self"/>
+    <link type="text" href="https://www.leonpaternoster.com/articles/web" rel="alternate"/>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>https://www.leonpaternoster.com</id>
     <author><name>Leon Paternoster</name></author>
