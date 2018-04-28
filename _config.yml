@@ -25,7 +25,7 @@ sass:
 defaults:
 -
     scope:
-        path: "articles"      # empty string for all files
+        path: ""      # empty string for all files
         type: "posts"   # limit to posts
     values:
         is_post: true # automatically set is_post=true for all posts
@@ -76,6 +76,7 @@ defaults:
         tag: "journal"
         is_journal: true
         is_post: true
+        layout: "default"
 
 -
     scope:
@@ -85,6 +86,7 @@ defaults:
         tag: "journal"
         is_journal: true
         is_post: true
+        layout: "default"
 
 -
     scope:
