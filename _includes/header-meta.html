@@ -4,6 +4,8 @@
 
 {% if page.title == 'Home' %}
 <title>{{ site.title | escape | strip_html }}</title>
+{% elsif page.is_note %}
+<title>{{ page.content | truncatewords: 4 | strip_html }} – {{ site.title | escape | strip_html }}</title>
 {% else %}
 <title>{{ page.title | escape | strip_html }} – {{ site.title | escape | strip_html }}</title>
 {% endif %}
