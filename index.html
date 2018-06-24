@@ -4,28 +4,27 @@ layout: home
 excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and Liquid. I also blog about managing and building websites and apps and working for a library service.
 ---
 
-<h2 class="f6 lh-title c-sans-serif mt0 mb2 gray normal ttl small-caps tracked">Work</h2>
+<h2 class="f6 lh-title c-sans-serif mt0 mb2 gray ttl small-caps tracked">Work</h2>
 
-<ul class="ma0 mb3 mb4-ns pa0 list">
+<ul class="ma0 mb4 pa0 list c-sans-serif bb b--moon-gray">
 
 {% assign work = site.posts | where: "category", "work" %}
+{% for post in work limit:10 %}
+
+    <li class="ma0 pa0 bt b--moon-gray"><a class="pv2 pv3-ns lh-title db dark-blue no-underline hover-dark-red" href="{{ post.url }}">{{ post.title }}</a></li>
+
+{% endfor %}
+
+</ul>
+
+<h2 class="f6 lh-title c-sans-serif mt0 mb2 gray ttl small-caps tracked">Writing</h2>
+
+<ul class="ma0 mb4 pa0 list c-sans-serif bb b--moon-gray">
+
 {% assign featured = site.posts | where: "featured", "true" %}
+{% for post in featured limit:10 %}
 
-{% assign posts = work | concat: featured %}
-
-{% for post in posts limit:10 %}
-
-<li class="ma0 pa0">
-
-    <article class="pb4">
-
-        <h3 class="f4 lh-title mt0 mb1 c-sans-serif"><a class="lh-title db dark-blue no-underline hover-dark-red" href="{{ post.url }}">{{ post.title }}</a></h3>
-
-        <p class="ma0">{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_html }}</p>
-
-    </article>
-
-</li>
+    <li class="ma0 pa0 bt b--moon-gray"><a class="pv2 pv3-ns lh-title db dark-blue no-underline hover-dark-red" href="{{ post.url }}">{{ post.title }}</a></li>
 
 {% endfor %}
 

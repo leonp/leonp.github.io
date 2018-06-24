@@ -9,6 +9,7 @@ subject: Digital strategy in libraries
 cache: true
 img: db-connect.jpg
 alt: Database and icons
+featured: true
 ---
 
 ## Summary

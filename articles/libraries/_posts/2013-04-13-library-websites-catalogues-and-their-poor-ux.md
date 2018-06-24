@@ -3,6 +3,7 @@ title: Library websites, catalogues and their poor UX
 layout: default
 excerpt: Website and catalogue separation and search stuck in the mid-90s result in poor user experiences.
 category: libraries
+featured: true
 ---
 I started working for [Suffolk Libraries][1] last week. Over the next few months I&#8217;ll be rebuilding our website. If you take a look now, you&#8217;ll see why.
 

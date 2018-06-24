@@ -3,6 +3,7 @@ title: "Why modular CSS is better than using &#8216;semantic&#8217; class names:
 category: web
 description: "At the risk of banging on, modular (or functional, or atomic) CSS isn&#8217;t the same as opinionated frameworks such as Bootstrap. By using small CSS class names tied to appearance you&#8217;ll save time and effort, speed up your site and maintain control over its appearance."
 article: true
+featured: true
 ---
 
 I recently wrote (another) post on why [using a modular (or atomic) HTML/CSS framework saves time and effort](/2017/08/frameworks-and-methodologies/) when you're building web stuff. Judging from [the response on Twitter](https://mobile.twitter.com/leonpaternoster/status/898558923753619456), some people simply like _handcrafting_ their CSS (I'm coming to dislike that term), rather than &#8216;restricting their creativity&#8217; through using a framework.

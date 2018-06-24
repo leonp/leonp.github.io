@@ -5,6 +5,7 @@ description: "Because by far the best feedback comes from real life usage, you s
 article: true
 img: ship-launch.jpg
 alt: An old image of a ship launch
+featured: true
 ---
 
 Although we'd like to develop products and services iteratively, the truth is organisations think in terms of strict deadlines, mainly because projects have finite budgets that have to be spent within set financial periods. We product owners need to think about how this affects our ability to make changes based on user feedback.

@@ -4,6 +4,7 @@ title: Libraries should invest millions in search engines
 excerpt: Miserable and clunky search and discovery don't really cut it in the age of Google and Amazon.
 article: true
 category: libraries
+featured: true
 ---
 
 Libraries are under threat, and not just from ideological governments.

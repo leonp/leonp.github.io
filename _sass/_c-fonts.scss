@@ -30,25 +30,3 @@
        url('/fonts/IBMPlexSerif-Bold-Latin1.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('/fonts/IBMPlexSerif-Bold-Latin1.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
-/* Plex Sans regular - latin */
-@font-face {
-  font-family: 'Plex Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-display: fallback;
-  src: local('IBM Plex Sans Regular'), local('IBMPlexSans-Regular-Latin1'),
-       url('/fonts/IBMPlexSans-Regular-Latin1.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/fonts/IBMPlexSans-Regular-Latin1.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* Plex Sans bold - latin */
-@font-face {
-  font-family: 'Plex Sans';
-  font-style: normal;
-  font-weight: 700;
-  font-display: fallback;
-  src: local('IBM Plex Sans Bold'), local('IBMPlexSans-Bold-Latin1'),
-       url('/fonts/IBMPlexSans-Bold-Latin1.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('/fonts/IBMPlexSans-Bold-Latin1.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}

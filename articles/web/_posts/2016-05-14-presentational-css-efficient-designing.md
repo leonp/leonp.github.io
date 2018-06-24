@@ -2,6 +2,7 @@
 layout: default
 title: Using presentational classes makes web design easier
 category: web
+featured: true
 ---
 
 I wrote about [how using purely presentational classes in <abbr title="HyperText Markup Language">HTML</abbr> is a good thing](/2016/05/meaning-html-classes-free-css-purity/), how they help align your HTML attributes and tags to their intended purpose.

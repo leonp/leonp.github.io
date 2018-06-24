@@ -5,6 +5,7 @@ excerpt: "An audit puts you in control of your content. It's one of the first th
 article: control
 category: web
 article: true
+featured: true
 ---
 I&#8217;ve been undertaking a couple of largish projects since starting work as [Suffolk Libraries][1]&#8216; web manager. The first is a content audit.
 

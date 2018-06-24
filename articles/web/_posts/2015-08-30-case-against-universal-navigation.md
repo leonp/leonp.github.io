@@ -6,6 +6,7 @@ category: web
 article: true
 img: g-nav.jpg
 alt: Screenshot of The Guardian website navigation bar
+featured: true
 ---
 
 > There is no reason to mention all features of the site on all pages. Instead, select a very small number of highly useful features and limit pervasive linking to maybe five or six things like search. &#8212; Jakob Nielsen <cite>[Is Navigation Useful?](http://www.nngroup.com/articles/is-navigation-useful/)</cite>
