@@ -8,12 +8,12 @@
     font-family: $sans-serif;
 }
 
-.c-lh-copy {
-    line-height: 1.45;
-}
-
 .c-no-bullet {
     list-style-type: none;
+}
+
+.c-lh-copy {
+    line-height: 1.375;
 }
 
 @media (min-width: 48em) {
