@@ -6,12 +6,12 @@ excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and 
 
 <h2 class="normal f6 lh-title c-sans-serif mt0 mb2 gray ttl small-caps tracked">Work</h2>
 
-<ul class="ma0 mb4 pa0 list c-sans-serif bb b--dark-gray">
+<ul class="ma0 mb4 pa0 list c-sans-serif bb b--light-gray">
 
 {% assign work = site.posts | where: "category", "work" %}
 {% for post in work limit:10 %}
 
-    <li class="ma0 pa0 bt b--dark-gray"><a class="pv2 lh-title db dark-blue no-underline hover-dark-red" href="{{ post.url }}">{{ post.title }}</a></li>
+    <li class="ma0 pa0 bt b--light-gray f4"><a class="pv2 lh-title db dark-blue no-underline hover-dark-red" href="{{ post.url }}">{{ post.title }}</a></li>
 
 {% endfor %}
 
@@ -19,12 +19,12 @@ excerpt: Digital manager at Suffolk Libraries. HTML, CSS, WordPress, Jekyll and 
 
 <h2 class="normal f6 lh-title c-sans-serif mt0 mb2 gray ttl small-caps tracked">Writing</h2>
 
-<ul class="ma0 mb4 pa0 list c-sans-serif bb b--dark-gray">
+<ul class="ma0 mb4 pa0 list c-sans-serif bb b--light-gray">
 
 {% assign featured = site.posts | where: "featured", "true" %}
 {% for post in featured limit:10 %}
 
-    <li class="ma0 pa0 bt b--dark-gray"><a class="pv2 lh-title db dark-blue no-underline hover-dark-red" href="{{ post.url }}">{{ post.title }}</a></li>
+    <li class="ma0 pa0 bt b--light-gray f4"><a class="pv2 lh-title db dark-blue no-underline hover-dark-red" href="{{ post.url }}">{{ post.title }}</a></li>
 
 {% endfor %}
 
